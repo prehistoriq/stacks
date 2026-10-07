@@ -1,0 +1,124 @@
+{
+  "schema": 2,
+  "handle": "ry",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Ryan Dahl",
+    "source": "https://github.com/ry"
+  },
+  "x": {
+    "value": "rough__sea",
+    "source": "https://github.com/ry"
+  },
+  "github": {
+    "value": "ry",
+    "source": "https://github.com/ry"
+  },
+  "site": {
+    "value": "https://tinyclouds.org",
+    "source": "https://github.com/ry"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/80?v=4",
+    "source": "https://github.com/ry"
+  },
+  "known_for": {
+    "value": "Creator of Node.js and Deno",
+    "source": "https://bsky.app/profile/tinyclouds.org"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary",
+      "surface": null,
+      "source": "https://deno.com/blog/clawpatrol",
+      "seen": "2026-05-21",
+      "quote": "Most of what we run (Claude Code, Codex) is code we install, not code we wrote.",
+      "inferred": true,
+      "also": [
+        {
+          "source": "https://github.com/denoland/clawpatrol/commit/a1f7d672254f786caa232cd0de363c8c5cca1c8f",
+          "seen": "2026-05-12",
+          "quote": "AGENTS.md is a symlink to\n.claude/CLAUDE.md so the agents.md convention (Codex) and the\n.claude/ convention (Claude Code) point at the same source of truth."
+        },
+        {
+          "source": "https://github.com/ry/tinyclouds/commit/003bd7ea0c312fdb39be9d31d944b460f946922c",
+          "seen": "2025-07-30",
+          "quote": "🤖 Generated with [Claude Code](https://claude.ai/code)"
+        }
+      ]
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "second agent",
+      "surface": null,
+      "source": "https://github.com/denoland/clawpatrol/commit/a1f7d672254f786caa232cd0de363c8c5cca1c8f",
+      "seen": "2026-05-12",
+      "quote": "AGENTS.md is a symlink to\n.claude/CLAUDE.md so the agents.md convention (Codex) and the\n.claude/ convention (Claude Code) point at the same source of truth.",
+      "also": [
+        {
+          "source": "https://deno.com/blog/clawpatrol",
+          "seen": "2026-05-21",
+          "quote": "Most of what we run (Claude Code, Codex) is code we install, not code we wrote."
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Opus 4.6",
+      "icon": "claude",
+      "detail": "1M context",
+      "source": "https://github.com/denoland/ronly/commit/4e89830a331e56fb195ad16a85d2f96895fb5507",
+      "seen": "2026-03-24",
+      "quote": "Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>",
+      "history": [],
+      "inferred": true
+    }
+  ],
+  "review_style": null,
+  "harness": {
+    "value": "Agents on standalone VMs, 24/7, traffic gated by Claw Patrol",
+    "short": "standalone VMs",
+    "source": "https://deno.com/blog/clawpatrol",
+    "seen": "2026-05-21",
+    "quote": "We already run our agents on standalone VMs; for us these are only marginally useful.",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "Two-line CLAUDE.md that points the agent at spec.md",
+    "short": "CLAUDE.md",
+    "url": "https://github.com/denoland/ronly/blob/fc49a71bc269e7f3da08b223c3d16115fa1057f8/CLAUDE.md",
+    "source": "https://github.com/denoland/ronly/blob/fc49a71bc269e7f3da08b223c3d16115fa1057f8/CLAUDE.md#L1-L3",
+    "seen": "2026-03-24",
+    "quote": "read spec.md\n\nremember to keep the README updated - it's the main documentation"
+  },
+  "skills": null,
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "Claw Patrol",
+    "kind": "tool",
+    "caption": "firewall between agents and prod",
+    "why": "Our pick: rather than trust the agent, Deno routes its agents' production traffic through a gateway that parses SQL, Kubernetes and HTTP and enforces rules.",
+    "editorial": true,
+    "source": "https://deno.com/blog/clawpatrol",
+    "seen": "2026-05-21",
+    "quote": "Most of what we run (Claude Code, Codex) is code we install, not code we wrote. Any solution has to sit outside the agent."
+  },
+  "archetype": {
+    "value": "Toolsmith",
+    "editorial": true,
+    "why": "Builds infrastructure for agents: Claw Patrol, ronly and t4a."
+  },
+  "signature_quote": {
+    "value": "the era of humans writing code is over.",
+    "more": "That's not to say SWEs don't have work to do, but writing syntax directly is not it.",
+    "source": "https://x.com/rough__sea/status/2013280952370573666",
+    "seen": "2026-01-19"
+  }
+}

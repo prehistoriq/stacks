@@ -1,0 +1,140 @@
+{
+  "schema": 2,
+  "handle": "bcantrill",
+  "status": "ok",
+  "checked": "2026-10-07",
+  "name": {
+    "value": "Bryan Cantrill",
+    "source": "https://github.com/bcantrill"
+  },
+  "x": null,
+  "github": {
+    "value": "bcantrill",
+    "source": "https://github.com/bcantrill"
+  },
+  "site": {
+    "value": "https://bcantrill.dtrace.org",
+    "source": "https://github.com/bcantrill"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/328614?v=4",
+    "source": "https://github.com/bcantrill"
+  },
+  "known_for": {
+    "value": "DTrace, Oxide co-founder and CTO",
+    "source": "https://bsky.app/profile/bcantrill.bsky.social"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary, kernel work and old-code restoration",
+      "surface": "cli",
+      "inferred": true,
+      "surface_source": {
+        "source": "https://bcantrill.dtrace.org/2026/05/25/a-portentous-reunion/",
+        "seen": "2026-05-25",
+        "quote": "Searched for 4 patterns, read 3 files (ctrl+o to expand)"
+      },
+      "source": "https://bcantrill.dtrace.org/2026/05/25/a-portentous-reunion/",
+      "seen": "2026-05-25",
+      "quote": "I picked it up, and tasked Claude to port it to Linux.",
+      "also": [
+        {
+          "source": "https://oxide-and-friends.transistor.fm/episodes/engineering-rigor-in-the-llm-age/transcript",
+          "seen": "2026-01-15",
+          "quote": "So I have been exploring, using Claude code to do kernel work, to do, we've got our host operating system is Helios."
+        },
+        {
+          "source": "https://bsky.app/profile/bcantrill.bsky.social/post/3mtyz3z6cv223",
+          "seen": "2026-08-26",
+          "quote": "fascinating to watch Claude (correctly) do the archaeology."
+        }
+      ],
+      "history": []
+    },
+    {
+      "name": "ChatGPT",
+      "icon": "openai",
+      "role": "second opinion when Claude loops",
+      "surface": null,
+      "source": "https://oxide-and-friends.transistor.fm/episodes/this-old-repo-llms-and-the-restoration-of-battletris/transcript",
+      "seen": "2026-06-09",
+      "quote": "And I think I actually went to chat GPT to get its ideas.",
+      "history": []
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Opus 4.8",
+      "icon": "claude",
+      "detail": "1M context",
+      "source": "https://github.com/bcantrill/BattleTris/commit/35e5f85291b1f3b1f8ce7277324401f4177a5e04",
+      "seen": "2026-06-01",
+      "quote": "Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>",
+      "inferred": true,
+      "history": [
+        {
+          "value": "Claude Opus 4.7 (1M context)",
+          "source": "https://github.com/bcantrill/BattleTris/commit/356c47906f8868da217feff1ee787c9d9d4b8f3e",
+          "seen": "2026-05-24",
+          "quote": "Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>"
+        }
+      ]
+    }
+  ],
+  "review_style": {
+    "value": "Self-review first: nobody else reviews LLM code until the responsible engineer has",
+    "source": "https://rfd.shared.oxide.computer/rfd/0576",
+    "seen": "2026-08-24",
+    "quote": "LLM-generated code should not be reviewed by others if the responsible engineer has not themselves reviewed it.",
+    "kind": "reads-all",
+    "inferred": true,
+    "also": [
+      {
+        "source": "https://oxide-and-friends.transistor.fm/episodes/this-old-repo-llms-and-the-restoration-of-battletris/transcript",
+        "seen": "2026-06-09",
+        "quote": "Like you look at the diff and you're like, this diff is like a very reviewable diff."
+      },
+      {
+        "source": "https://oxide-and-friends.transistor.fm/episodes/engineering-rigor-in-the-llm-age/transcript",
+        "seen": "2026-01-15",
+        "quote": "And then obviously validating all of its work"
+      }
+    ]
+  },
+  "harness": {
+    "value": "Claude Code on the source tree, kept on a short leash: no closed loop, no one-shotting, and in his first kernel task no builds",
+    "short": "no closed loop",
+    "source": "https://oxide-and-friends.transistor.fm/episodes/engineering-rigor-in-the-llm-age/transcript",
+    "seen": "2026-01-15",
+    "quote": "I'm definitely not closing the loop, not vibe coding it, not one shotting it, but really because in particular, like, I am not we're not even I'm not even gonna let it build anything.",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": null,
+  "skills": null,
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "This Old Repo",
+    "kind": "habit",
+    "caption": "reviving a 1990s game",
+    "why": "Our pick: he pointed Claude at BattleTris, a game he started in the mid-1990s that had not built in over 20 years. Claude found the 64-bit stack smash that kept it from running. It is his case for agents doing tedious, open-ended restoration nobody would finish by hand.",
+    "editorial": true,
+    "source": "https://bcantrill.dtrace.org/2026/05/25/a-portentous-reunion/",
+    "seen": "2026-05-25",
+    "quote": "It is no exaggeration to say that this was brought to us by Claude."
+  },
+  "archetype": {
+    "value": "Purist",
+    "editorial": true,
+    "why": "Steers Claude closely on kernel code and old repos, and requires self-review before anyone else sees LLM code."
+  },
+  "signature_quote": {
+    "value": "Left unchecked, LLMs will make systems larger, not better",
+    "more": "— appealing to perverse vanity metrics, perhaps, but at the cost of everything that matters.",
+    "source": "https://bcantrill.dtrace.org/2026/04/12/the-peril-of-laziness-lost/",
+    "seen": "2026-04-12"
+  }
+}

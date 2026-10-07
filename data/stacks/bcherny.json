@@ -1,0 +1,199 @@
+{
+  "schema": 2,
+  "handle": "bcherny",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Boris Cherny",
+    "source": "https://github.com/bcherny"
+  },
+  "x": {
+    "value": "bcherny",
+    "source": "https://x.com/bcherny"
+  },
+  "github": {
+    "value": "bcherny",
+    "source": "https://github.com/bcherny"
+  },
+  "site": {
+    "value": "https://borischerny.com",
+    "source": "https://github.com/bcherny"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/1761758?v=4",
+    "source": "https://github.com/bcherny"
+  },
+  "known_for": {
+    "value": "Created Claude Code",
+    "source": "https://x.com/bcherny/status/2007179832300581177"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary: terminal, web, iOS",
+      "surface": "app",
+      "source": "https://x.com/bcherny/status/2038454337811386436",
+      "seen": "2026-03-30",
+      "quote": "Personally, I write a lot of my code from the iOS app. It's a convenient way to make changes without opening a laptop.",
+      "history": [
+        {
+          "value": "Claude Code in 5 terminal tabs",
+          "surface": "cli",
+          "source": "https://x.com/bcherny/status/2007179833990885678",
+          "seen": "2026-01-02",
+          "quote": "I run 5 Claudes in parallel in my terminal. I number my tabs 1-5, and use system notifications to know when a Claude needs input"
+        }
+      ]
+    },
+    {
+      "name": "Claude Tag",
+      "icon": "claude",
+      "role": "daily maintenance routines",
+      "surface": null,
+      "source": "https://x.com/bcherny/status/2088014489438621990",
+      "seen": "2026-08-13",
+      "quote": "The setup is straightforward: we have a Slack channel called proj-claude-maintains-apps. In it, Claude Tag runs a bunch of daily routines across iOS, Android, Desktop, web, CLI, and Agent SDK:"
+    }
+  ],
+  "models": [
+    {
+      "name": "Fable 5.1",
+      "icon": "claude",
+      "detail": "for everything",
+      "source": "https://x.com/bcherny/status/2094864060609376748",
+      "seen": "2026-09-01",
+      "quote": "This model is a pleasure to work with, and I've been using it for everything.",
+      "history": [
+        {
+          "value": "Opus 4.5 with thinking",
+          "source": "https://x.com/bcherny/status/2007179838864666847",
+          "seen": "2026-01-02",
+          "quote": "I use Opus 4.5 with thinking for everything."
+        },
+        {
+          "value": "Opus 4.7, xhigh effort",
+          "source": "https://x.com/bcherny/status/2044847856872546639",
+          "seen": "2026-04-16",
+          "quote": "Personally, I use xhigh effort for most tasks, and max effort for the hardest tasks."
+        },
+        {
+          "value": "Fable 5",
+          "source": "https://x.com/bcherny/status/2064402671898075579",
+          "seen": "2026-06-09",
+          "quote": "Fable is the best model I have used for coding, by a wide margin."
+        }
+      ]
+    }
+  ],
+  "review_style": {
+    "value": "Reads diffs only for critical code",
+    "source": "https://x.com/bcherny/status/2098210496109572123",
+    "seen": "2026-09-11",
+    "quote": "I read diffs when it's touching critical code, or code that's important to get right. I don't write the code.",
+    "kind": "spot-checks",
+    "also": [
+      {
+        "source": "https://x.com/bcherny/status/2031089411820228645",
+        "seen": "2026-03-09",
+        "quote": "Personally, I’ve been using it for a few weeks and have found it catches many real bugs that I would not have noticed otherwise"
+      },
+      {
+        "source": "https://x.com/bcherny/status/2044847855006024147",
+        "seen": "2026-04-16",
+        "quote": "The model has reached a point where I generally  trust it to run the right commands and make the right edits. I just look at the final result."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Git worktrees, dozens of parallel Claudes",
+    "short": "worktrees",
+    "source": "https://x.com/bcherny/status/2038454353787519164",
+    "seen": "2026-03-30",
+    "quote": "Worktrees are essential for doing lots of parallel work in the same repository. I have dozens of Claudes running at all times, and this is how I do it.",
+    "history": [
+      {
+        "value": "Plan mode first, then auto-accept",
+        "source": "https://x.com/bcherny/status/2007179845336527000",
+        "seen": "2026-01-02",
+        "quote": "Most sessions start in Plan mode (shift+tab twice)."
+      },
+      {
+        "value": "Multiple git checkouts",
+        "source": "https://x.com/bcherny/status/2017742743125299476",
+        "seen": "2026-01-31",
+        "quote": "Personally, I use multiple git checkouts, but most of the Claude Code team prefers worktrees"
+      }
+    ]
+  },
+  "parallelism": {
+    "value": 5,
+    "short": "5 local + 5–10 web",
+    "source": "https://x.com/bcherny/status/2007179833990885678",
+    "seen": "2026-01-02",
+    "quote": "I run 5 Claudes in parallel in my terminal.",
+    "history": []
+  },
+  "rules_files": {
+    "value": "Team CLAUDE.md in git, updated on every Claude mistake",
+    "short": "CLAUDE.md",
+    "url": null,
+    "source": "https://x.com/bcherny/status/2007179840848597422",
+    "seen": "2026-01-02",
+    "quote": "Anytime we see Claude do something incorrectly we add it to the http://CLAUDE.md, so Claude knows not to do it next time."
+  },
+  "skills": {
+    "value": [
+      "babysit",
+      "slack-feedback",
+      "post-merge-sweeper",
+      "pr-pruner"
+    ],
+    "count": 4,
+    "featured": [
+      "babysit",
+      "slack-feedback",
+      "pr-pruner"
+    ],
+    "source": "https://x.com/bcherny/status/2038454341884154269",
+    "seen": "2026-03-30"
+  },
+  "mcp_servers": {
+    "value": [
+      "slack"
+    ],
+    "source": "https://x.com/bcherny/status/2007179856266789204",
+    "seen": "2026-01-02",
+    "quote": "The Slack MCP configuration is checked into our .mcp.json and shared with the team."
+  },
+  "hooks": {
+    "value": [
+      "PostToolUse formatter",
+      "Stop hook to verify long runs"
+    ],
+    "source": "https://x.com/bcherny/status/2007179852047335529",
+    "seen": "2026-01-02",
+    "quote": "We use a PostToolUse hook to format Claude's code."
+  },
+  "signature": {
+    "value": "/go",
+    "kind": "skill",
+    "caption": "test, /simplify, open PR",
+    "why": "Our pick: one skill at the end of most prompts puts his verify-first rule into practice. Claude tests its own work end to end before it opens a PR.",
+    "editorial": true,
+    "source": "https://x.com/bcherny/status/2044847858634064115",
+    "seen": "2026-04-16",
+    "quote": "Personally, many of my prompts these days look like \"Claude do blah blah /go\". /go is a skill that has Claude\n\n1. Test itself end to end using bash, browser, or computer use\n2. Run the /simplify skill\n3. Put up a PR"
+  },
+  "archetype": {
+    "value": "Swarm Lord",
+    "editorial": true,
+    "why": "Dozens of Claudes in worktrees, plus loops and routines that ship PRs without him."
+  },
+  "signature_quote": {
+    "value": "give Claude a way to verify its work.",
+    "more": "If Claude has that feedback loop, it will 2-3x the quality of the final result.",
+    "source": "https://x.com/bcherny/status/2007179861115511237",
+    "seen": "2026-01-02"
+  }
+}

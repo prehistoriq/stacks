@@ -1,0 +1,150 @@
+{
+  "schema": 2,
+  "handle": "rasbt",
+  "status": "ok",
+  "checked": "2026-10-07",
+  "name": {
+    "value": "Sebastian Raschka",
+    "source": "https://github.com/rasbt"
+  },
+  "x": {
+    "value": "rasbt",
+    "source": "https://github.com/rasbt"
+  },
+  "github": {
+    "value": "rasbt",
+    "source": "https://github.com/rasbt"
+  },
+  "site": {
+    "value": "https://sebastianraschka.com",
+    "source": "https://github.com/rasbt"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/5618407?v=4",
+    "source": "https://github.com/rasbt"
+  },
+  "known_for": {
+    "value": "Build an LLM From Scratch author",
+    "source": "https://github.com/rasbt/LLMs-from-scratch"
+  },
+  "agents": [
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "daily driver, alternates with Claude Code",
+      "surface": null,
+      "source": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
+      "seen": "2026-06-27",
+      "quote": "I have to admit that I still primarily alternate between Codex and Claude Code as my daily drivers, for now (and just to keep up with the new tooling and functions that are constantly being added).",
+      "history": [
+        {
+          "value": "Codex plugin for VS Code",
+          "surface": "ide",
+          "source": "https://podscripts.co/podcasts/lex-fridman-podcast/490-state-of-ai-in-2026-llms-coding-scaling-laws-china-agents-gpus-agi",
+          "seen": "2026-01-31",
+          "quote": "So I use the Codex plugin for VS code."
+        }
+      ]
+    },
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "daily driver, alternates with Codex",
+      "surface": null,
+      "source": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
+      "seen": "2026-06-27",
+      "quote": "I have to admit that I still primarily alternate between Codex and Claude Code as my daily drivers, for now (and just to keep up with the new tooling and functions that are constantly being added)."
+    },
+    {
+      "name": "Qwen Code",
+      "icon": "qwen",
+      "role": "fully local stack, with Qwen3.6",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
+        "seen": "2026-06-27",
+        "quote": "After completing the installation, we can now launch the Qwen-Code client via the qwen command from the terminal to complete the setup and connect to the locally served LLM."
+      },
+      "source": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
+      "seen": "2026-06-27",
+      "quote": "However, I’ve been using local solutions for a while, too, to test things and because it somehow gives me joy to have and use a fully local setup (versus proprietary services).",
+      "also": [
+        {
+          "source": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
+          "seen": "2026-06-27",
+          "quote": "I can run both Codex (with the latest GPT model) and Qwen-Code with a local Qwen model side by side on the same machine without having to switch manually back and forth between models."
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "GPT-5.5",
+      "icon": "openai",
+      "detail": "in Codex",
+      "inferred": true,
+      "source": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
+      "seen": "2026-06-27",
+      "quote": "Ask a trusted agent you used before (like GPT 5.5 in Codex or Opus 4.8 in Claude Code) to review it with a focused prompt.",
+      "history": []
+    },
+    {
+      "name": "Qwen3.6-35B-A3B",
+      "icon": "qwen",
+      "detail": "local, via Ollama",
+      "source": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
+      "seen": "2026-06-27",
+      "quote": "If we accept the reported findings and risks (personally, I didn’t see any red flags), we can now proceed with the installation and hook up our local Qwen3.6-35B-A3B model to Qwen Code (and Codex and Claude Code in the next sections).",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Wants to see what the agent is doing; writes the code he cares about himself",
+    "kind": "unknown",
+    "inferred": true,
+    "source": "https://lexfridman.com/ai-sota-2026-transcript",
+    "seen": "2026-01-31",
+    "quote": "I’m not quite there yet where I’m comfortable with that because maybe I’m a control freak, but I still like to see what’s going on.",
+    "also": [
+      {
+        "source": "https://magazine.sebastianraschka.com/p/state-of-llms-2025",
+        "seen": "2025-12-30",
+        "quote": "Today, I still write most of the code I care about myself. With “care about,” I mean in contexts where it matters that I understand the code and that the code is correct."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Agents run on a separate DGX Spark; local models served by Ollama, tunnelled to the Mac over SSH",
+    "short": "DGX Spark",
+    "source": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
+    "seen": "2026-06-27",
+    "quote": "By the way, personally, I run my agents almost exclusively on my DGX Spark because I don’t want my Mac Mini to get too hot and I want to have the RAM available for other tasks.",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": null,
+  "skills": null,
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "Audit the agent first",
+    "kind": "habit",
+    "caption": "before installing any harness",
+    "why": "Our pick: before trying a new coding agent he clones its repo and has a trusted agent audit it for egress and blast radius.",
+    "editorial": true,
+    "source": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
+    "seen": "2026-06-27",
+    "quote": "For instance, when trying new (coding) agents, I like to\nDo an audit of the (open-source) agent code base first."
+  },
+  "archetype": {
+    "value": "Purist",
+    "editorial": true,
+    "why": "Keeps the code he cares about in his own hands and keeps a fully local agent stack."
+  },
+  "signature_quote": {
+    "value": "Today, I still write most of the code I care about myself.",
+    "more": "With “care about,” I mean in contexts where it matters that I understand the code and that the code is correct.",
+    "source": "https://magazine.sebastianraschka.com/p/state-of-llms-2025",
+    "seen": "2025-12-30"
+  }
+}

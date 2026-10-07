@@ -1,0 +1,173 @@
+{
+  "schema": 2,
+  "handle": "josevalim",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "José Valim",
+    "source": "https://github.com/josevalim"
+  },
+  "x": {
+    "value": "josevalim",
+    "source": "https://x.com/josevalim"
+  },
+  "github": {
+    "value": "josevalim",
+    "source": "https://github.com/josevalim"
+  },
+  "site": {
+    "value": "https://dashbit.co/",
+    "source": "https://github.com/josevalim"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/9582?v=4",
+    "source": "https://github.com/josevalim"
+  },
+  "known_for": {
+    "value": "Creator of Elixir, Tidewave",
+    "source": "https://github.com/josevalim"
+  },
+  "agents": [
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "primary",
+      "surface": null,
+      "source": "https://x.com/josevalim/status/2083202612162077123",
+      "seen": "2026-07-31",
+      "quote": "It is the reason why I prefer Codex, which bundles fast mode in the subscription, compared to Claude Code, which bundles larger context windows.",
+      "also": [
+        {
+          "source": "https://x.com/josevalim/status/2064811215528906814",
+          "seen": "2026-06-10",
+          "quote": "One tiny feature I really like about Codex is that when I ask it a question, it answers the question."
+        },
+        {
+          "source": "https://x.com/josevalim/status/2066206036701184441",
+          "seen": "2026-06-14",
+          "quote": "I wanted Codex to find usages of [key: foo | bar] in Elixir's codebase."
+        }
+      ],
+      "history": [
+        {
+          "value": "Zed and Tidewave",
+          "surface": "ide",
+          "source": "https://changelog.com/friends/112",
+          "seen": "2025-10-10",
+          "quote": "I use Zed a lot, and Tidewave, and they all have notifications…",
+          "inferred": true
+        },
+        {
+          "value": "Claude Code",
+          "surface": null,
+          "source": "https://x.com/josevalim/status/2064811215528906814",
+          "seen": "2026-06-10",
+          "quote": "Many times I've asked Claude Code, \"Do you think X would be better?\", and it would just go ahead and implement X instead of discussing the trade-offs first.",
+          "inferred": true
+        }
+      ]
+    },
+    {
+      "name": "Tidewave",
+      "icon": null,
+      "role": "his own agent environment",
+      "surface": "app",
+      "surface_source": {
+        "source": "https://tidewave.ai/blog/tidewave-connect",
+        "seen": "2026-08-06",
+        "quote": "Until now, using Tidewave meant working in the Tidewave app."
+      },
+      "source": "https://x.com/josevalim/status/2093304967360548895",
+      "seen": "2026-08-28",
+      "quote": "Tidewave now ships with a design canvas. It has been so useful internally that we're kicking ourselves for not shipping it earlier!"
+    }
+  ],
+  "models": [
+    {
+      "name": "Sol 5.6",
+      "icon": "openai",
+      "detail": "in Codex",
+      "source": "https://x.com/josevalim/status/2078177113560244355",
+      "seen": "2026-07-17",
+      "quote": "You probably heard me saying \"coding agents are useless for type system work 🥴\" but Sol is definitely an improvement.",
+      "history": [
+        {
+          "value": "ChatGPT-5.5 in Codex",
+          "source": "https://github.com/elixir-lang/elixir/commit/23a431223bbbc156eb224c6aa55b68479393d3e5",
+          "seen": "2026-05-26",
+          "quote": "Assisted-by: ChatGPT-5.5/Codex for test case generation."
+        }
+      ]
+    }
+  ],
+  "review_style": {
+    "value": "Reviews agent PRs like any other code",
+    "source": "https://x.com/josevalim/status/2096683774662611162",
+    "seen": "2026-09-06",
+    "quote": "Outside of that, I mainly ask the agent to break any large PR into small ones. Then I review them like any other code 😅",
+    "kind": "spot-checks",
+    "also": [
+      {
+        "source": "https://tidewave.ai/blog/code-review",
+        "seen": "2026-04-15",
+        "quote": "At Dashbit, we review all code written by coding agents before submitting a pull request."
+      },
+      {
+        "source": "https://x.com/josevalim/status/2078214085754171822",
+        "seen": "2026-07-17",
+        "quote": "Also, the AGENTS.md now asks for adversarial reviews when doing compiler, security, or performance work, and my gut feeling (no evals here) is that it has helped considerably. The subagent doing the review caught a few things so I didn't have to."
+      },
+      {
+        "source": "https://x.com/josevalim/status/2096192281086673043",
+        "seen": "2026-09-05",
+        "quote": "I run the experiment once already with one Elixir issue and all of Opus 5, Sol 5.6, and Astra 6 came up with the wrong solution. But the only conclusion I can draw from this is that it is still essential to review code."
+      },
+      {
+        "source": "https://github.com/josevalim/lynx/blob/35a4e2ef387099b9a610a08754afe4612c8aa916/README.md#L155-L158",
+        "seen": "2026-10-05",
+        "quote": "Proofs, which are validated by Lean's kernel, and the deserialization layer in Lean code were produced by coding agents with limited review."
+      }
+    ],
+    "inferred": true
+  },
+  "harness": {
+    "value": "Tidewave's live code-review pane, marking hunks as reviewed",
+    "short": "review pane",
+    "source": "https://tidewave.ai/blog/code-review",
+    "seen": "2026-04-15",
+    "quote": "Tidewave updates the code review pane in real-time and allows you to mark which code sections (hunks in git terms) have been reviewed",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "AGENTS.md symlinked to CONTRIBUTING.md in Elixir; own AGENTS.md in Lynx",
+    "short": "AGENTS.md",
+    "url": "https://github.com/elixir-lang/elixir/blob/f6e177092eca20118eddf95d6a4e663f3d53d0c3/CONTRIBUTING.md#L198-L249",
+    "source": "https://github.com/elixir-lang/elixir/commit/1d599978f7d36ea6896b294b3d26d110212be7ab",
+    "seen": "2026-06-15",
+    "quote": "Symlink AGENTS.md to CONTRIBUTING.md"
+  },
+  "skills": null,
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "Adversarial review agents",
+    "kind": "rule",
+    "caption": "on compiler & security work",
+    "why": "Our pick: he makes a second set of agents try to disprove a change before any human sees it.",
+    "editorial": true,
+    "source": "https://github.com/elixir-lang/elixir/blob/f6e177092eca20118eddf95d6a4e663f3d53d0c3/CONTRIBUTING.md#L221-L225",
+    "seen": "2026-08-16",
+    "quote": "When automating AI usage on the Elixir codebase for performance improvements, security fixes, or correctness changes to the compiler or type system, pair it with a separate set of agents whose job is to argue against and try to invalidate any proposed change."
+  },
+  "archetype": {
+    "value": "Rules Lawyer",
+    "editorial": true,
+    "why": "Wrote Elixir's agent rules: adversarial reviewers, Assisted-by trailers and human review of all AI code."
+  },
+  "signature_quote": {
+    "value": "encode as many rules as possible into deterministic checks (first) and adversarial reviews (second), instead of relying exclusively on a bunch of AGENTS.md files to do the job.",
+    "source": "https://x.com/josevalim/status/2075221914549686774",
+    "seen": "2026-07-09"
+  }
+}

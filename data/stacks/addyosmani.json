@@ -1,0 +1,202 @@
+{
+  "schema": 2,
+  "handle": "addyosmani",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Addy Osmani",
+    "source": "https://github.com/addyosmani"
+  },
+  "x": {
+    "value": "addyosmani",
+    "source": "https://x.com/addyosmani"
+  },
+  "github": {
+    "value": "addyosmani",
+    "source": "https://github.com/addyosmani"
+  },
+  "site": {
+    "value": "https://addyosmani.com",
+    "source": "https://github.com/addyosmani"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/110953?v=4",
+    "source": "https://github.com/addyosmani"
+  },
+  "known_for": {
+    "value": "Claude Code at Anthropic, ex-Chrome",
+    "source": "https://addyosmani.com/bio/"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary",
+      "surface": null,
+      "source": "https://addyo.substack.com/p/practical-loop-engineering",
+      "seen": "2026-08-14",
+      "quote": "I can now largely rely on the output of the primitives in Claude Code and Codex.",
+      "history": [
+        {
+          "value": "Claude Code and Gemini CLI",
+          "surface": "cli",
+          "surface_source": {
+            "source": "https://addyo.substack.com/p/my-llm-coding-workflow-going-into",
+            "seen": "2025-12-18",
+            "quote": "On the command-line, new AI agents emerged. Claude Code, OpenAI’s Codex CLI and Google’s Gemini CLI are CLI tools where you can chat with them directly in your project directory - they can read files, run tests, and even multi-step fix issues."
+          },
+          "source": "https://addyo.substack.com/p/how-to-write-a-good-spec-for-ai-agents",
+          "seen": "2026-01-19",
+          "quote": "This guide distills best practices from my use of coding agents including Claude Code and Gemini CLI into a framework for spec-writing that keeps your AI agents focused and productive."
+        }
+      ]
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "PR triage, loops",
+      "surface": null,
+      "source": "https://addyo.substack.com/p/agentic-code-review",
+      "seen": "2026-06-16",
+      "quote": "I point Claude Code or Codex at a batch of incoming PRs and ask for a first pass: a high-level read of what looks safe to merge, what needs more work, and what is genuinely high-risk.",
+      "history": []
+    }
+  ],
+  "models": [
+    {
+      "name": "Fable",
+      "icon": "claude",
+      "detail": null,
+      "source": "https://x.com/addyosmani/status/2097210828659564642",
+      "seen": "2026-09-08",
+      "quote": "Here's a little Fable & Three.js",
+      "history": [
+        {
+          "value": "Gemini",
+          "source": "https://addyo.substack.com/p/my-llm-coding-workflow-going-into",
+          "seen": "2025-12-18",
+          "quote": "Personally I gravitate towards Gemini for a lot of coding work these days because the interaction feels more natural and it often understands my requests on the first try."
+        }
+      ],
+      "inferred": true
+    }
+  ],
+  "review_style": {
+    "value": "Careful human review of core paths only",
+    "source": "https://addyo.substack.com/p/the-code-nobody-reads",
+    "seen": "2026-09-28",
+    "quote": "Core and sensitive paths still need an owner and a careful human review, and that’s where I spend my attention.",
+    "kind": "spot-checks",
+    "also": [
+      {
+        "source": "https://addyo.substack.com/p/the-code-nobody-reads",
+        "seen": "2026-09-28",
+        "quote": "Two years ago I wrote an essay about AI-assisted coding, and one of my tips was to review every line of generated code. I’d give that advice very differently today."
+      },
+      {
+        "source": "https://addyo.substack.com/p/agentic-code-quality",
+        "seen": "2026-08-08",
+        "quote": "I still read and review code, but am very intentional about where I am comfortable with constraints as the check."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Claude Code, a git worktree per feature",
+    "short": "worktrees",
+    "source": "https://addyo.substack.com/p/my-llm-coding-workflow-going-into",
+    "seen": "2025-12-18",
+    "quote": "One advanced workflow I’ve adopted (inspired by folks like Jesse Vincent) is to spin up a fresh git worktree for a new feature or sub-project.",
+    "history": []
+  },
+  "parallelism": {
+    "value": 5,
+    "short": "5 at once",
+    "source": "https://addyo.substack.com/p/practical-loop-engineering",
+    "seen": "2026-08-14",
+    "quote": "For me, I use probably between five and ten agents every day. Very typically I’ll max out at about five concurrently.",
+    "history": [
+      {
+        "value": 1,
+        "source": "https://addyo.substack.com/p/my-llm-coding-workflow-going-into",
+        "seen": "2025-12-18",
+        "quote": "For most cases, I stick to one main agent at a time and maybe a secondary one for reviews (discussed below)."
+      }
+    ]
+  },
+  "rules_files": {
+    "value": "Personal CLAUDE.md, audited with /doctor",
+    "short": "CLAUDE.md",
+    "url": null,
+    "source": "https://addyo.substack.com/p/audit-your-agent-files",
+    "seen": "2026-08-27",
+    "quote": "I now run Claude’s /doctor every few weeks, review memory separately, and ask each instruction to earn its place again."
+  },
+  "skills": {
+    "value": [
+      "api-and-interface-design",
+      "browser-testing-with-devtools",
+      "ci-cd-and-automation",
+      "code-review-and-quality",
+      "code-simplification",
+      "constraint-driven-development",
+      "context-engineering",
+      "debugging-and-error-recovery",
+      "deprecation-and-migration",
+      "documentation-and-adrs",
+      "doubt-driven-development",
+      "frontend-ui-engineering",
+      "git-workflow-and-versioning",
+      "idea-refine",
+      "incremental-implementation",
+      "interview-me",
+      "observability-and-instrumentation",
+      "performance-optimization",
+      "planning-and-task-breakdown",
+      "security-and-hardening",
+      "shipping-and-launch",
+      "source-driven-development",
+      "spec-driven-development",
+      "test-driven-development",
+      "using-agent-skills"
+    ],
+    "count": 25,
+    "featured": [
+      "spec-driven-development",
+      "code-review-and-quality",
+      "test-driven-development"
+    ],
+    "source": "https://github.com/addyosmani/agent-skills/tree/1401c8b8030e023baeebb31781a6653fe8e93026/skills",
+    "seen": "2026-10-03"
+  },
+  "mcp_servers": {
+    "value": [
+      "context7",
+      "chrome-devtools"
+    ],
+    "source": "https://addyo.substack.com/p/my-llm-coding-workflow-going-into",
+    "seen": "2025-12-18",
+    "quote": "I also use Chrome DevTools MCP, built with my last team, for my debugging and quality loop to bridge the gap between static code analysis and live browser execution."
+  },
+  "hooks": null,
+  "signature": {
+    "value": "/loop PR triage",
+    "kind": "habit",
+    "caption": "on Agent Skills, every day",
+    "why": "Our pick: scheduled agent loops make the first pass on the PR queue of his 100k-star skills repo.",
+    "editorial": true,
+    "source": "https://addyo.substack.com/p/practical-loop-engineering",
+    "seen": "2026-08-14",
+    "quote": "One of the workflows that I do every day: I have a popular open source repository called Agent Skills. We’ve got over 80,000 stars, and up until recently we were getting anywhere up to like 80 or 90 pull requests that we had to review a day. And so every day I would go and I would spend some time checking on this. Now with loop, what you can do is say: well, every 24 hours or every 12 hours, check the GitHub repository for any new open issues and provide a summary of their urgency, or provide a first pass review, or anything like that."
+  },
+  "archetype": {
+    "value": "Orchestrator",
+    "editorial": true,
+    "why": "Up to five agents at once, plus loops that triage his PR queue."
+  },
+  "signature_quote": {
+    "value": "What I’d say now is this: you don’t need to read all the code.",
+    "more": null,
+    "source": "https://addyo.substack.com/p/the-code-nobody-reads",
+    "seen": "2026-09-28"
+  }
+}

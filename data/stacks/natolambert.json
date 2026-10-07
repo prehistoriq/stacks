@@ -1,0 +1,179 @@
+{
+  "schema": 2,
+  "handle": "natolambert",
+  "status": "ok",
+  "checked": "2026-10-07",
+  "name": {
+    "value": "Nathan Lambert",
+    "source": "https://github.com/natolambert"
+  },
+  "x": {
+    "value": "natolambert",
+    "source": "https://github.com/natolambert"
+  },
+  "github": {
+    "value": "natolambert",
+    "source": "https://github.com/natolambert"
+  },
+  "site": {
+    "value": "https://natolambert.com",
+    "source": "https://github.com/natolambert"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/10695622?v=4",
+    "source": "https://github.com/natolambert"
+  },
+  "known_for": {
+    "value": "RLHF Book, Interconnects",
+    "source": "https://github.com/natolambert/rlhf-book"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://www.interconnects.ai/p/opus-46-vs-codex-53",
+        "seen": "2026-02-09",
+        "inferred": true,
+        "quote": "Claude Code’s harness has a terrible bug that makes subagents brick the terminal, where new messages say you must compact or clear, but compaction fails."
+      },
+      "source": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
+      "seen": "2026-08-12",
+      "quote": "I would have Claude Code navigate to each comment, print the context before and after, and let me know if it was an easy typo fix or something more nuanced.",
+      "also": [
+        {
+          "source": "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open",
+          "seen": "2026-06-22",
+          "quote": "I put it to work helping make content for my post-training course with Fireworks’ API in Claude Code (setting this up was very easy)."
+        }
+      ]
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "second agent, used more evenly since 5.3",
+      "surface": null,
+      "source": "https://www.interconnects.ai/p/opus-46-vs-codex-53",
+      "seen": "2026-02-09",
+      "quote": "For the last few days, I’ve been using both of the models much more evenly.",
+      "history": [
+        {
+          "value": "Codex with GPT 5.2 xhigh, not yet working for him",
+          "surface": null,
+          "source": "https://www.interconnects.ai/p/get-good-at-agents",
+          "seen": "2026-01-21",
+          "quote": "Codex with GPT 5.2 on xhigh thinking effort alone feels very capable, more meticulous than Claude even, but I haven’t yet figured out how to get the best out of it."
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Fable 5",
+      "icon": "claude",
+      "detail": "in Claude Code",
+      "inferred": true,
+      "source": "https://github.com/natolambert/rlhf-book/commit/1042143366d73ff654727e4d18a1d3a21209c3a3",
+      "seen": "2026-08-12",
+      "quote": "Co-authored-by: Claude Fable 5 <noreply@anthropic.com>",
+      "history": [
+        {
+          "value": "Claude Opus 4.5 in Claude Code",
+          "source": "https://www.interconnects.ai/p/get-good-at-agents",
+          "seen": "2026-01-21",
+          "quote": "My default workflow now is GPT 5 Pro for planning, Claude Code with Opus 4.5 for implementation."
+        }
+      ]
+    },
+    {
+      "name": "GPT 5 Pro",
+      "icon": "openai",
+      "detail": "planning and deep search",
+      "source": "https://www.interconnects.ai/p/get-good-at-agents",
+      "seen": "2026-01-21",
+      "quote": "I often have Claude Code pass information back to GPT 5 Pro for a deep search when stuck with a very detailed prompt.",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Lets agents catch their own mistakes, then checks the results himself",
+    "kind": "agent-reviews",
+    "source": "https://www.interconnects.ai/p/get-good-at-agents",
+    "seen": "2026-01-21",
+    "quote": "They make mistakes, they catch most of their own mistakes, and they’re fairly slow too, but they’re capable. I can’t wait to go home and check on what my Claudes were up to.",
+    "also": [
+      {
+        "source": "https://lexfridman.com/ai-sota-2026-transcript",
+        "seen": "2026-01-31",
+        "quote": "And then I have enough situational awareness to be like, “Okay, these trends obviously make sense,” and you can check things."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Claude Code instances left running on a DGX Spark while he is out",
+    "short": "DGX Spark",
+    "source": "https://www.interconnects.ai/p/get-good-at-agents",
+    "seen": "2026-01-21",
+    "quote": "I’ve taken to leaving Claude Code instances running on my DGX Spark trying to implement new features in our RL codebase when I’m at dinner or work.",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "CLAUDE.md per repo, AGENTS.md symlinked to it for Codex",
+    "short": "CLAUDE.md",
+    "url": "https://github.com/natolambert/rlhf-book/blob/6063b3de36fff7cb57892e99519dbdd7d72f0225/CLAUDE.md",
+    "source": "https://github.com/natolambert/rlhf-book/blob/6063b3de36fff7cb57892e99519dbdd7d72f0225/CLAUDE.md#L31",
+    "seen": "2026-07-30",
+    "quote": "`AGENTS.md` is intentionally a symlink to `CLAUDE.md` for Codex compatibility. If you are Codex and the symlink is present, edit `CLAUDE.md` directly; do not replace, unlink, or edit through `AGENTS.md`."
+  },
+  "skills": {
+    "value": [
+      "gemini-feedback",
+      "pre-submit-pr",
+      "push-to-pr",
+      "run-rlhf-code-experiment",
+      "serve-course-lecture",
+      "update-pr-body"
+    ],
+    "count": 6,
+    "featured": [
+      "gemini-feedback",
+      "serve-course-lecture",
+      "push-to-pr"
+    ],
+    "source": "https://github.com/natolambert/rlhf-book/tree/eecc49e1e1daf1be670d7242eb090240b5bb0f04/.claude/skills",
+    "seen": "2026-09-02"
+  },
+  "mcp_servers": null,
+  "hooks": {
+    "value": [
+      "PreToolUse changelog reminder on git commit, git push, gh pr create"
+    ],
+    "source": "https://github.com/natolambert/colloquium/blob/2e871435b33bb84b3bd767010f637d2c88511184/.claude/hooks/changelog-reminder.sh#L7-L8",
+    "seen": "2026-03-25",
+    "quote": "if echo \"$COMMAND\" | grep -qE 'git commit|git push|gh pr create'; then\n  echo \"Reminder: Update CHANGELOG.md with ONE line per PR (not per commit) and include the PR link.\" >&2"
+  },
+  "signature": {
+    "value": "/gemini-feedback",
+    "kind": "skill",
+    "caption": "Gemini critiques each diagram",
+    "why": "Our pick: Claude Code draws the textbook figures, then a skill sends each one to Gemini for a second model's review.",
+    "editorial": true,
+    "source": "https://github.com/natolambert/rlhf-book/blob/6063b3de36fff7cb57892e99519dbdd7d72f0225/CLAUDE.md#L36",
+    "seen": "2026-07-30",
+    "quote": "For diagram review, use `.claude/skills/gemini-feedback/SKILL.md`; it sends a generated diagram and relevant mathematical context to Gemini for textbook-quality feedback."
+  },
+  "archetype": {
+    "value": "Toolsmith",
+    "editorial": true,
+    "why": "Repo skills, a changelog hook and his own agent-native slide tool around Claude Code."
+  },
+  "signature_quote": {
+    "value": "Every researcher needs to learn how to run a lab.",
+    "more": "Agents push the humans up the org chart.",
+    "source": "https://www.interconnects.ai/p/get-good-at-agents",
+    "seen": "2026-01-21"
+  }
+}

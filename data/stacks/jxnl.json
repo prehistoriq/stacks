@@ -1,0 +1,174 @@
+{
+  "schema": 2,
+  "handle": "jxnl",
+  "status": "ok",
+  "checked": "2026-10-07",
+  "name": {
+    "value": "Jason Liu",
+    "source": "https://github.com/jxnl"
+  },
+  "x": {
+    "value": "jxnlco",
+    "source": "https://github.com/jxnl"
+  },
+  "github": {
+    "value": "jxnl",
+    "source": "https://github.com/jxnl"
+  },
+  "site": {
+    "value": "https://jxnl.co",
+    "source": "https://github.com/jxnl"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/4852235?v=4",
+    "source": "https://github.com/jxnl"
+  },
+  "known_for": {
+    "value": "Instructor creator, OpenAI DX",
+    "source": "https://www.youtube.com/watch?v=il1c1a2FufU"
+  },
+  "agents": [
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "primary, desktop app",
+      "surface": "app",
+      "surface_source": {
+        "source": "https://ai.engineer/talks/il1c1a2FufU-full-workshop-setting-yourself-up-for-success-jason-liu-openai-codex",
+        "seen": "2026-07-24",
+        "quote": "But generally, the desktop app has pretty good-- it has a pretty good experience. Primarily because everything I do is an AppShot."
+      },
+      "source": "https://ai.engineer/talks/il1c1a2FufU-full-workshop-setting-yourself-up-for-success-jason-liu-openai-codex",
+      "seen": "2026-07-24",
+      "quote": "And all of this work is done effectively in the Codex app.",
+      "also": [
+        {
+          "source": "https://jxnl.co/writing/2026/05/10/codex-maxxing/",
+          "seen": "2026-05-10",
+          "quote": "The latest Codex app upgrades are the first thing I've used that make that broader mode feel native. Codex is still excellent for coding, but the more interesting shift is that it gives my work somewhere to live."
+        },
+        {
+          "source": "https://ai.engineer/talks/il1c1a2FufU-full-workshop-setting-yourself-up-for-success-jason-liu-openai-codex",
+          "seen": "2026-07-24",
+          "quote": "Sometimes I'll use the Codex CLI every once in a while if I wanna, like,"
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "GPT-5.5",
+      "icon": "openai",
+      "source": "https://ai.engineer/talks/il1c1a2FufU-full-workshop-setting-yourself-up-for-success-jason-liu-openai-codex",
+      "seen": "2026-07-24",
+      "quote": "Um, I found that, uh, the 5.5 models are pretty reluctant to take these like destructive actions.",
+      "history": []
+    },
+    {
+      "name": "GPT-5.3-Codex-Spark",
+      "icon": "openai",
+      "detail": "simple computer-use tasks",
+      "source": "https://ai.engineer/talks/il1c1a2FufU-full-workshop-setting-yourself-up-for-success-jason-liu-openai-codex",
+      "seen": "2026-07-24",
+      "quote": "Like, uh, I think, I think I have a thing that just checks me into flights, and that is like a Spark agent.",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Review skills modelled on colleagues' PR feedback; memory changes reviewed as git diffs",
+    "kind": "agent-reviews",
+    "inferred": true,
+    "source": "https://ai.engineer/talks/il1c1a2FufU-full-workshop-setting-yourself-up-for-success-jason-liu-openai-codex",
+    "seen": "2026-07-24",
+    "quote": "And so I just have like a review my code like Charlie based off the past year of like feedback he's given on pull requests. Review my code like Dominic.",
+    "also": [
+      {
+        "source": "https://jxnl.co/writing/2026/05/10/codex-maxxing/",
+        "seen": "2026-05-10",
+        "quote": "When the agent updates the vault, I can read the diff and see what it thought was important enough to remember. That review step matters."
+      },
+      {
+        "source": "https://github.com/jxnl/dots/blob/34d197b7e2ede7c57d11b601250b42b8a2ae303a/agents/skills/audit-ai-code/SKILL.md#L3",
+        "seen": "2026-06-15",
+        "quote": "description: Audit, de-slop, parameterize, modularize, or safely clean up AI-generated or AI-shaped backend/general code."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Codex app: pinned megathreads per workstream, an Obsidian vault in git as shared memory, Heartbeats",
+    "short": "pinned threads",
+    "source": "https://jxnl.co/writing/2026/05/10/codex-maxxing/",
+    "seen": "2026-05-10",
+    "quote": "These are not short chats. They are megathreads that I have been compacting for months.",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "Global agents/AGENTS.md (installed as ~/.claude/CLAUDE.md) plus a vault AGENTS.md",
+    "short": "AGENTS.md",
+    "url": "https://github.com/jxnl/dots/blob/34d197b7e2ede7c57d11b601250b42b8a2ae303a/agents/AGENTS.md",
+    "source": "https://github.com/jxnl/dots/blob/34d197b7e2ede7c57d11b601250b42b8a2ae303a/agents/AGENTS.md#L20-L22",
+    "seen": "2026-01-12",
+    "quote": "## Autonomy\n- Default to action; only ask when a decision is truly blocking.\n- If details are missing, pick a reasonable default and state the assumption."
+  },
+  "skills": {
+    "value": [
+      "audit-ai-code",
+      "audit-ai-frontend",
+      "audit-ai-writing",
+      "email-like-me",
+      "file-organizer",
+      "gh-address-comments",
+      "gh-commit",
+      "gh-fix-ci",
+      "loop",
+      "recording-to-video-essay",
+      "self-improve",
+      "simple-html-artifact",
+      "slidev-presentation-kit",
+      "transcript-to-blog",
+      "tweet-like-me",
+      "ultragoal",
+      "yeet"
+    ],
+    "count": 17,
+    "featured": [
+      "ultragoal",
+      "audit-ai-code",
+      "email-like-me"
+    ],
+    "source": "https://github.com/jxnl/dots/tree/34d197b7e2ede7c57d11b601250b42b8a2ae303a/agents/skills",
+    "seen": "2026-07-14"
+  },
+  "mcp_servers": {
+    "value": [
+      "slack",
+      "gmail",
+      "calendar"
+    ],
+    "source": "https://jxnl.co/writing/2026/05/10/codex-maxxing/",
+    "seen": "2026-05-10",
+    "quote": "The ones I use most are `$slack`, `$gmail`, and `$calendar`, because Slack threads, inboxes, and calendars are where a lot of work shows up before it ever becomes code."
+  },
+  "hooks": null,
+  "signature": {
+    "value": "$ultragoal",
+    "kind": "skill",
+    "caption": "goal kept in an editable file",
+    "why": "Our pick: long Codex runs chase a goal kept in a file, so he can add scope while the loop is still running.",
+    "editorial": true,
+    "source": "https://ai.engineer/talks/il1c1a2FufU-full-workshop-setting-yourself-up-for-success-jason-liu-openai-codex",
+    "seen": "2026-07-24",
+    "quote": "In the, in the monorepo, I've also included a skill called Ultra Goal, and all it does is instead of setting the goal in the app, we set it in a file, right?"
+  },
+  "archetype": {
+    "value": "Orchestrator",
+    "editorial": true,
+    "why": "Runs his work as pinned Codex threads that wake on schedules and message each other."
+  },
+  "signature_quote": {
+    "value": "Codex is still excellent for coding, but the more interesting shift is that it gives my work somewhere to live.",
+    "source": "https://jxnl.co/writing/2026/05/10/codex-maxxing/",
+    "seen": "2026-05-10"
+  }
+}

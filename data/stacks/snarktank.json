@@ -1,0 +1,187 @@
+{
+  "schema": 2,
+  "handle": "snarktank",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Ryan Carson",
+    "source": "https://github.com/snarktank"
+  },
+  "x": {
+    "value": "ryancarson",
+    "source": "https://github.com/snarktank"
+  },
+  "github": {
+    "value": "snarktank",
+    "source": "https://github.com/snarktank"
+  },
+  "site": {
+    "value": "https://ryancarson.com",
+    "source": "https://github.com/snarktank"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/152063952?v=4",
+    "source": "https://github.com/snarktank"
+  },
+  "known_for": {
+    "value": "Founder of Untangle",
+    "source": "https://www.chatprd.ai/how-i-ai/how-ryan-carson-manages-40-prs-a-day-with-devin-and-codex"
+  },
+  "agents": [
+    {
+      "name": "Devin",
+      "icon": null,
+      "role": "primary, cloud agents",
+      "surface": "web",
+      "source": "https://x.com/ryancarson/status/2087538698543907048",
+      "seen": "2026-08-12",
+      "quote": "I would say 95% of my engineering is in the cloud now with @DevinAI, and I assume it will eventually be 100%.",
+      "also": [
+        {
+          "source": "https://x.com/ryancarson/status/2083538848131190806",
+          "seen": "2026-08-01",
+          "quote": "The majority of work I do now is on my phone with @DevinAI cloud agents."
+        }
+      ],
+      "history": [
+        {
+          "value": "Amp",
+          "surface": null,
+          "source": "https://x.com/ryancarson/status/2021974832657956927",
+          "seen": "2026-02-12",
+          "quote": "I still have ~$5k of credits from Amp but I'm now actively trying out Claude Code and Codex, which I'm paying for myself."
+        },
+        {
+          "value": "Codex as main driver",
+          "surface": null,
+          "source": "https://x.com/ryancarson/status/2022250412376531424",
+          "seen": "2026-02-13",
+          "quote": "Trying out Codex as my main driver now."
+        },
+        {
+          "value": "Symphony + Codex Mac app",
+          "surface": "app",
+          "source": "https://x.com/ryancarson/status/2031755002205655511",
+          "seen": "2026-03-11",
+          "quote": "It uses Symphony from @alex_frantic  (oss) + Codex Mac app + @linear"
+        }
+      ]
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "local frontend work",
+      "surface": null,
+      "source": "https://x.com/ryancarson/status/2057798991086014655",
+      "seen": "2026-05-22",
+      "quote": "3. frontend eng local = codex"
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Opus 5.5",
+      "icon": "claude",
+      "detail": "engineering manager",
+      "source": "https://x.com/ryancarson/status/2103926098081763798",
+      "seen": "2026-09-26",
+      "quote": "Engineering manager Opus 5.5 + @DevinAI + @linear",
+      "history": [
+        {
+          "value": "gpt-5.4 xhigh in Codex",
+          "source": "https://x.com/ryancarson/status/2029919931328802863",
+          "seen": "2026-03-06",
+          "quote": "omg love gpt-5.4 xhigh in Codex"
+        },
+        {
+          "value": "Opus 4.8 in Devin",
+          "source": "https://x.com/ryancarson/status/2072331594363543988",
+          "seen": "2026-07-01",
+          "quote": "Need to do then cost analysis now and compare it to Opus 4.8, which was my main choice in Devin before."
+        }
+      ]
+    },
+    {
+      "name": "SWE 1.7",
+      "icon": null,
+      "detail": "bulk coding in Devin",
+      "source": "https://x.com/ryancarson/status/2076975558756339847",
+      "seen": "2026-07-14",
+      "quote": "Did almost all my engineering on SWE 1.7 yesterday.",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Agents review and land; he watches a test video first",
+    "source": "https://x.com/ryancarson/status/2061393372737085816",
+    "seen": "2026-06-01",
+    "quote": "Agents write/review/land 100% of our code now.",
+    "kind": "agent-reviews",
+    "also": [
+      {
+        "source": "https://www.chatprd.ai/how-i-ai/how-ryan-carson-manages-40-prs-a-day-with-devin-and-codex",
+        "seen": "2026-08-20",
+        "quote": "Ryan watches the short video to visually confirm the feature works as expected. He then gives the final command: Video approved. Land it."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Devin cloud sessions sorted into P0/P1/Bugs folders, Linear, Opus 5.5 as manager, zero local dev",
+    "short": "Devin + Linear",
+    "source": "https://x.com/ryancarson/status/2103926098081763798",
+    "seen": "2026-09-26",
+    "quote": "We do zero local dev at @HelloUntangle",
+    "history": [
+      {
+        "value": "Three local checkouts in split Ghostty panes",
+        "source": "https://x.com/ryancarson/status/2024187188032778350",
+        "seen": "2026-02-18",
+        "quote": "I have three local checkouts so I can work on up to three branches in parallel without having to use git worktrees (which mess with my mind)."
+      },
+      {
+        "value": "Symphony code factory, 5 agents",
+        "source": "https://x.com/ryancarson/status/2031755002205655511",
+        "seen": "2026-03-11",
+        "quote": "This is how I run 5 agents concurrently in a Code Factory to write/ship 100% of our code."
+      }
+    ]
+  },
+  "parallelism": null,
+  "rules_files": null,
+  "skills": null,
+  "mcp_servers": {
+    "value": [
+      "next-devtools"
+    ],
+    "source": "https://x.com/ryancarson/status/2023886869231239485",
+    "seen": "2026-02-17",
+    "quote": "The next-devtools mcp is killer."
+  },
+  "hooks": {
+    "value": [
+      "pre-commit design-system linter"
+    ],
+    "source": "https://x.com/ryancarson/status/2028901454996447296",
+    "seen": "2026-03-03",
+    "quote": "design system with tokens (colors, spacing, sizes) enforced with a design-system custom linter on your pre-commit hook"
+  },
+  "signature": {
+    "value": "!land playbook",
+    "kind": "skill",
+    "caption": "refreshes skills on every PR",
+    "why": "Our pick: his Devin playbook for every merge starts a child session that updates skills and docs, so they never go stale.",
+    "editorial": true,
+    "source": "https://x.com/ryancarson/status/2089719890097664413",
+    "seen": "2026-08-18",
+    "quote": "2. Make one of the playbook steps to start a child session to sweep all skills/docs and delete/upsert based on what changed in the PR."
+  },
+  "archetype": {
+    "value": "Orchestrator",
+    "editorial": true,
+    "why": "Runs throngs of Devin sessions in priority folders, with Opus 5.5 as their manager."
+  },
+  "signature_quote": {
+    "value": "What the agents are doing is none of my business.",
+    "source": "https://www.chatprd.ai/how-i-ai/how-ryan-carson-manages-40-prs-a-day-with-devin-and-codex",
+    "seen": "2026-08-20"
+  }
+}

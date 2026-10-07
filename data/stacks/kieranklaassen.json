@@ -1,0 +1,241 @@
+{
+  "schema": 2,
+  "handle": "kieranklaassen",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Kieran Klaassen",
+    "source": "https://github.com/kieranklaassen"
+  },
+  "x": {
+    "value": "kieranklaassen",
+    "source": "https://x.com/kieranklaassen"
+  },
+  "github": {
+    "value": "kieranklaassen",
+    "source": "https://github.com/kieranklaassen"
+  },
+  "site": {
+    "value": "https://www.kieranklaassen.com",
+    "source": "https://github.com/kieranklaassen"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/209089?v=4",
+    "source": "https://github.com/kieranklaassen"
+  },
+  "known_for": {
+    "value": "Compound Engineering, Cora",
+    "source": "https://github.com/kieranklaassen/kieranklaassen"
+  },
+  "agents": [
+    {
+      "name": "Cursor",
+      "icon": "cursor",
+      "role": "primary",
+      "surface": null,
+      "source": "https://toolbox.every.to/kieranklaassen",
+      "seen": null,
+      "quote": "Coding\nCursor\nthen Claude Code, Codex\nClaude Opus 5.5",
+      "history": [
+        {
+          "value": "Cursor with Opus 4.5 or Claude Code",
+          "surface": null,
+          "source": "https://every.to/guides/compound-engineering",
+          "seen": "2026-01-17",
+          "quote": "Pick one tool. My current preference is for Cursor with Opus 4.5 or Claude Code."
+        }
+      ],
+      "undated": true
+    },
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "second pick",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://every.to/guides/compound-engineering",
+        "seen": "2026-01-17",
+        "quote": "I always run with skip permissions:\nalias cc='claude --dangerously-skip-permissions'"
+      },
+      "source": "https://toolbox.every.to/kieranklaassen",
+      "seen": null,
+      "quote": "Coding\nCursor\nthen Claude Code, Codex",
+      "history": [
+        {
+          "value": "Claude Code only",
+          "surface": "cli",
+          "surface_source": {
+            "source": "https://every.to/source-code/how-i-use-claude-code-to-ship-like-a-team-of-five",
+            "seen": "2025-07-16",
+            "quote": "Running four parallel Claude Code agents in Warp, an AI-enabled terminal, doing different work at the same time."
+          },
+          "source": "https://every.to/source-code/how-i-use-claude-code-to-ship-like-a-team-of-five",
+          "seen": "2025-07-16",
+          "quote": "Claude Code opens 100 percent of my pull requests, and I haven't typed a function in weeks."
+        }
+      ],
+      "undated": true
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "third pick",
+      "surface": null,
+      "source": "https://toolbox.every.to/kieranklaassen",
+      "seen": null,
+      "quote": "Coding\nCursor\nthen Claude Code, Codex",
+      "history": [],
+      "undated": true
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Opus 5.5",
+      "icon": "claude",
+      "detail": "1M context, medium effort",
+      "source": "https://every.to/vibe-check/vibe-check-opus-5-5-is-pulling-our-codex-converts-back-to-claude",
+      "seen": "2026-09-22",
+      "quote": "Opus is replacing Fable 5.1 as my daily driver. For product work and writing code, I find it as good as Fable and sometimes better.",
+      "history": [
+        {
+          "value": "Opus 4.5",
+          "source": "https://every.to/guides/compound-engineering",
+          "seen": "2026-01-17",
+          "quote": "My current preference is for Cursor with Opus 4.5 or Claude Code."
+        },
+        {
+          "value": "Opus 5, medium effort",
+          "source": "https://x.com/kieranklaassen/status/2080712817926443486",
+          "seen": "2026-07-24",
+          "quote": "I have been coding with it without many skills and it's nice at a medium effort level."
+        }
+      ]
+    },
+    {
+      "name": "Claude Fable 5.1",
+      "icon": "claude",
+      "detail": "hardest problems",
+      "source": "https://every.to/vibe-check/vibe-check-opus-5-5-is-pulling-our-codex-converts-back-to-claude",
+      "seen": "2026-09-22",
+      "quote": "For the hardest coding problems, Mike and Kieran still reach for Fable.",
+      "history": [],
+      "inferred": true
+    }
+  ],
+  "review_style": {
+    "value": "Parallel review agents, no line-by-line reading",
+    "source": "https://every.to/source-code/i-stopped-reading-code-my-code-reviews-got-better",
+    "seen": "2026-01-23",
+    "quote": "Now my code reviews no longer involve reading code. And I’ve gotten better at catching problems because of it.",
+    "kind": "agent-reviews",
+    "also": [
+      {
+        "source": "https://every.to/source-code/i-stopped-reading-code-my-code-reviews-got-better",
+        "seen": "2026-01-23",
+        "quote": "The signature fix that touched 27 files? Thirteen specialized AI reviewers examined it simultaneously while I made dinner."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Claude Code aliased to skip permissions, branches and git worktrees",
+    "short": "skip-permissions",
+    "source": "https://every.to/guides/compound-engineering",
+    "seen": "2026-01-17",
+    "quote": "I always run with skip permissions:\nalias cc='claude --dangerously-skip-permissions'",
+    "history": [
+      {
+        "value": "Claude Code tabs in Warp, one git worktree each",
+        "source": "https://every.to/source-code/how-i-use-claude-code-to-ship-like-a-team-of-five",
+        "seen": "2025-07-16",
+        "quote": "My monitor looks like mission control: multiple Claude Code tabs, each working on different features through separate git worktrees, meaning I can have Claude modify five different versions of our codebase simultaneously and get clean, review-ready code."
+      }
+    ],
+    "also": [
+      {
+        "source": "https://every.to/source-code/the-folder-is-the-agent",
+        "seen": "2026-04-13",
+        "quote": "I’m running 44 of these folders-as-agents across multiple projects now."
+      }
+    ]
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "AGENTS.md per repo, CLAUDE.md symlinked to it",
+    "short": "AGENTS.md",
+    "url": "https://github.com/kieranklaassen/loadout/blob/c1b49eff6d9eb5e97ad776dbc186e61f0805a340/AGENTS.md",
+    "source": "https://github.com/kieranklaassen/loadout/blob/c1b49eff6d9eb5e97ad776dbc186e61f0805a340/AGENTS.md#L3-L4",
+    "seen": "2026-09-28",
+    "quote": "Canonical, tool-agnostic guide for agents and humans working in this repo.\n`CLAUDE.md` is a symlink to this file."
+  },
+  "skills": {
+    "value": [
+      "ce-babysit-pr",
+      "ce-bakeoff",
+      "ce-brainstorm",
+      "ce-code-review",
+      "ce-commit-push-pr",
+      "ce-commit",
+      "ce-compound-refresh",
+      "ce-compound",
+      "ce-debug",
+      "ce-doc-review",
+      "ce-dogfood",
+      "ce-explain",
+      "ce-handoff",
+      "ce-ideate",
+      "ce-noslop",
+      "ce-optimize",
+      "ce-plan",
+      "ce-polish",
+      "ce-pov",
+      "ce-product-pulse",
+      "ce-promote",
+      "ce-proof",
+      "ce-prototype",
+      "ce-resolve-pr-feedback",
+      "ce-retune",
+      "ce-riffrec-feedback-analysis",
+      "ce-setup",
+      "ce-simplify-code",
+      "ce-strategy",
+      "ce-sweep",
+      "ce-test-browser",
+      "ce-test-xcode",
+      "ce-work",
+      "ce-worktree",
+      "lfg",
+      "wtf"
+    ],
+    "count": 36,
+    "featured": [
+      "ce-compound",
+      "lfg",
+      "ce-polish"
+    ],
+    "source": "https://github.com/EveryInc/compound-engineering-plugin/tree/efcb657d9a5733ccc154c36cc7d3d78b4136eb23/skills",
+    "seen": "2026-10-06"
+  },
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "/ce-compound",
+    "kind": "skill",
+    "caption": "turns each fix into a lesson",
+    "why": "Our pick: the step his whole method is named for, writing every solved problem down so the next agent starts smarter.",
+    "editorial": true,
+    "source": "https://every.to/p/compound-engineering-gets-an-upgrade",
+    "seen": "2026-05-29",
+    "quote": "Compound is still the most important step, because the whole point is that every feature should make the next feature easier."
+  },
+  "archetype": {
+    "value": "Toolsmith",
+    "editorial": true,
+    "why": "Co-wrote the 36-skill plugin his agents run on, from planning to review to compounding."
+  },
+  "signature_quote": {
+    "value": "Now my code reviews no longer involve reading code.",
+    "more": "And I’ve gotten better at catching problems because of it.",
+    "source": "https://every.to/source-code/i-stopped-reading-code-my-code-reviews-got-better",
+    "seen": "2026-01-23"
+  }
+}

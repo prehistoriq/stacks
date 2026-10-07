@@ -1,0 +1,203 @@
+{
+  "schema": 2,
+  "handle": "ezyang",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Edward Z. Yang",
+    "source": "https://github.com/ezyang"
+  },
+  "x": {
+    "value": "ezyang",
+    "source": "https://x.com/ezyang"
+  },
+  "github": {
+    "value": "ezyang",
+    "source": "https://github.com/ezyang"
+  },
+  "site": {
+    "value": "https://blog.ezyang.com",
+    "source": "https://x.com/ezyang"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/13564?v=4",
+    "source": "https://github.com/ezyang"
+  },
+  "known_for": {
+    "value": "PyTorch at Meta, ghstack",
+    "source": "https://x.com/ezyang"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://github.com/ezyang/fable-nanny/blob/48da0da97c7eefc33c6fcf95c2d23c078819f8e9/README.md#L3",
+        "seen": "2026-08-12",
+        "quote": "Tools + playbook for babysitting a Claude/Fable CLI session running in a tmux"
+      },
+      "source": "https://github.com/ezyang/piano-pad/blob/fc9c0ab3dc8b5a24528e4e57ace5eb62f2d28472/CLAUDE.md#L10-L11",
+      "seen": "2026-10-06",
+      "quote": "The project is run by three long-lived Claude sessions. The human (the parent)\ngives high-level direction, usually by texting one agent over Remote Control.",
+      "also": [
+        {
+          "source": "https://blog.ezyang.com/2026/03/ai-assisted-programming-for-spmd-types/",
+          "seen": "2026-03-10",
+          "quote": "I have one window per work tree, each a single tab that is just a regular shell, and then as many tabs as I think I need for concurrent Claude Code instances on that worktree."
+        }
+      ],
+      "history": [
+        {
+          "value": "Claude Desktop + codemcp (his own MCP server)",
+          "surface": "app",
+          "source": "https://github.com/ezyang/codemcp/blob/5b6726ab8c71ecf84fc20cb351b7bc7d7941bfda/README.md#L3",
+          "seen": "2025-05-06",
+          "quote": "Make Claude Desktop a pair programming assistant by installing codemcp."
+        },
+        {
+          "value": "Claude Code replaces codemcp",
+          "surface": null,
+          "source": "https://github.com/ezyang/codemcp/blob/1ebdb61755c33a420332e6ff73f9fd1c1254d721/README.md#L1-L2",
+          "seen": "2025-12-25",
+          "quote": "NOTICE: claude code is available with Anthropic's $20/mo subscription, so I consider\ncodemcp fully obsolete."
+        }
+      ]
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "on some repos (mergedog)",
+      "surface": null,
+      "source": "https://github.com/ezyang/mergedog/blob/a1ed015cab57b3a7c38d6dd2fea37ec00ed2a1c3/CLAUDE.md#L19",
+      "seen": "2026-05-30",
+      "quote": "Codex shell commands may not have working external internet access, even when the local machine does.",
+      "history": [
+        {
+          "value": "Codex cloud",
+          "surface": "web",
+          "source": "https://blog.ezyang.com/2025/06/vibe-coding-case-study-scubaduck/",
+          "seen": "2025-06-02",
+          "quote": "ScubaDuck was implemented with OpenAI Codex in the cloud (not the CLI tool)."
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Opus 5.5",
+      "icon": "claude",
+      "source": "https://github.com/ezyang/piano-pad/commit/fc9c0ab3dc8b5a24528e4e57ace5eb62f2d28472",
+      "seen": "2026-10-06",
+      "quote": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+      "inferred": true,
+      "history": [
+        {
+          "value": "Claude Opus",
+          "source": "https://blog.ezyang.com/2026/03/ai-assisted-programming-for-spmd-types/",
+          "seen": "2026-03-10",
+          "quote": "Claude Opus is not fast enough for single session interactive."
+        }
+      ]
+    },
+    {
+      "name": "Claude Fable 5",
+      "icon": "claude",
+      "detail": "via Bedrock",
+      "source": "https://github.com/ezyang/fable-nanny/blob/48da0da97c7eefc33c6fcf95c2d23c078819f8e9/run-fable.sh#L21",
+      "seen": "2026-08-12",
+      "quote": "export ANTHROPIC_MODEL=us.anthropic.claude-fable-5",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Reads every line, steers with questions and edits",
+    "source": "https://blog.ezyang.com/2026/03/ai-assisted-programming-for-spmd-types/",
+    "seen": "2026-03-10",
+    "quote": "This is NOT a workflow for letting the AI autonomously write tons of code. You’re going to be reading every single line it produces.",
+    "kind": "spot-checks",
+    "also": [
+      {
+        "source": "https://blog.ezyang.com/2026/03/read-less-steer-more/",
+        "seen": "2026-03-18",
+        "quote": "If you treat AI generated output as code to read, you have already lost the game."
+      }
+    ],
+    "inferred": true
+  },
+  "harness": {
+    "value": "iTerm2 + tmux -CC to a remote GPU box, three worktrees, Sapling",
+    "short": "tmux -CC",
+    "source": "https://blog.ezyang.com/2026/03/ai-assisted-programming-for-spmd-types/",
+    "seen": "2026-03-10",
+    "quote": "Because I am typically doing work on a GPU system, these sessions are remote, so I use iTerm2 + tmux -CC (tmux control mode) to conveniently have multiple windows and tabs in native UI.",
+    "history": []
+  },
+  "parallelism": {
+    "value": 3,
+    "short": "3 work streams",
+    "source": "https://blog.ezyang.com/2026/03/parallel-agents-heart-sapling/",
+    "seen": "2026-03-13",
+    "quote": "The basic development flow here is I have three work streams going in parallel:",
+    "history": [
+      {
+        "value": 5,
+        "source": "https://blog.ezyang.com/2025/06/vibe-coding-case-study-scubaduck/",
+        "seen": "2025-06-02",
+        "quote": "I’d sometimes have as many as five instances going"
+      }
+    ]
+  },
+  "rules_files": {
+    "value": "Per-repo CLAUDE.md / AGENTS.md; piano-pad's assigns roles to three agents",
+    "short": "CLAUDE.md",
+    "url": "https://github.com/ezyang/piano-pad/blob/fc9c0ab3dc8b5a24528e4e57ace5eb62f2d28472/CLAUDE.md",
+    "source": "https://github.com/ezyang/piano-pad/blob/fc9c0ab3dc8b5a24528e4e57ace5eb62f2d28472/CLAUDE.md#L19",
+    "seen": "2026-10-06",
+    "quote": "**Your role is the one whose directory you are running in.** Read your charter"
+  },
+  "skills": {
+    "value": [
+      "pt2-triage",
+      "pt2-triage-rubric"
+    ],
+    "count": 2,
+    "featured": [
+      "pt2-triage"
+    ],
+    "source": "https://github.com/ezyang/pt2-triage/tree/3e1f179198dfd553a922ce371869e2f3ae032e3d/.claude/skills",
+    "seen": "2026-01-20"
+  },
+  "mcp_servers": null,
+  "hooks": {
+    "value": [
+      "UserPromptSubmit: small-chunks reminder",
+      "StopFailure: self re-prompt via tmux"
+    ],
+    "source": "https://github.com/ezyang/fable-nanny/blob/48da0da97c7eefc33c6fcf95c2d23c078819f8e9/run-fable.sh#L16-L17",
+    "seen": "2026-08-12",
+    "quote": "#       UserPromptSubmit -> chunk-reminder.sh   (prevention: small-turns context)\n#       StopFailure      -> stopfailure-unwedge.sh (recovery: self re-prompt)"
+  },
+  "signature": {
+    "value": "sl follow / sl adopt",
+    "kind": "tool",
+    "caption": "restack parallel agents",
+    "why": "Our pick: two Sapling aliases let agents in several worktrees amend one shared stack without trampling each other.",
+    "editorial": true,
+    "source": "https://blog.ezyang.com/2026/03/parallel-agents-heart-sapling/",
+    "seen": "2026-03-13",
+    "quote": "I find these two commands cover the majority of situations that show up when you are working with parallel agents!"
+  },
+  "archetype": {
+    "value": "Purist",
+    "editorial": true,
+    "why": "Reads every line the agent writes and runs no orchestrator, just tabs per worktree."
+  },
+  "signature_quote": {
+    "value": "If you treat AI generated output as code to read, you have already lost the game.",
+    "more": "Read less, steer more.",
+    "source": "https://blog.ezyang.com/2026/03/read-less-steer-more/",
+    "seen": "2026-03-18"
+  }
+}

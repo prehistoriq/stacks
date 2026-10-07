@@ -1,0 +1,169 @@
+{
+  "schema": 2,
+  "handle": "geohot",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "George Hotz",
+    "source": "https://github.com/geohot"
+  },
+  "x": {
+    "value": "realGeorgeHotz",
+    "source": "https://geohot.github.io/blog/"
+  },
+  "github": {
+    "value": "geohot",
+    "source": "https://github.com/geohot"
+  },
+  "site": {
+    "value": "https://geohot.com",
+    "source": "https://github.com/geohot"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/72895?v=4",
+    "source": "https://github.com/geohot"
+  },
+  "known_for": {
+    "value": "tinygrad, comma.ai",
+    "source": "https://en.wikipedia.org/wiki/George_Hotz"
+  },
+  "agents": [
+    {
+      "name": "opencode",
+      "icon": "opencode",
+      "role": "primary, on open models",
+      "surface": null,
+      "source": "https://geohot.github.io/blog/jekyll/update/2026/04/22/ai-has-no-moat.html",
+      "seen": "2026-04-22",
+      "quote": "In my opinion, opencode is legit the best coding agent. Not open source cope, like it’s actually number 1.",
+      "also": [
+        {
+          "source": "https://geohot.github.io/blog/jekyll/update/2026/07/12/i-love-llms.html",
+          "seen": "2026-07-12",
+          "quote": "I set up a Linux box with opencode on my local GLM-5.2 last week and wow like just saying install tmux with the geohot configuration works; the Year of the Linux Desktop is finally here!"
+        },
+        {
+          "source": "https://github.com/tinygrad/tinygrad/blob/5228f7bd069a605f62251d1025a2e63622ab9a40/opencode.json",
+          "seen": "2025-12-20",
+          "quote": "{\"$schema\": \"https://opencode.ai/config.json\", \"formatter\": false}"
+        }
+      ],
+      "history": [
+        {
+          "value": "Claude Code",
+          "surface": "cli",
+          "surface_source": {
+            "source": "https://geohot.github.io/blog/jekyll/update/2025/12/18/computer-use-models.html",
+            "seen": "2025-12-18",
+            "quote": "Turns out the idea wasn’t a desktop emulator with a keyboard and mouse, it was just a command line."
+          },
+          "source": "https://geohot.github.io/blog/jekyll/update/2025/12/18/computer-use-models.html",
+          "seen": "2025-12-18",
+          "quote": "I’m blown away with how good Claude Code is."
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "Kimi",
+      "icon": "kimi",
+      "detail": "named in his PR titles",
+      "source": "https://github.com/tinygrad/tinygrad/commit/9f6d3d882cfe0b8d5e98255b85d9c96dac2966b3",
+      "seen": "2026-09-27",
+      "quote": "variables are bound params (kimi) (#18444)",
+      "history": [],
+      "inferred": true
+    },
+    {
+      "name": "GLM-5.2",
+      "icon": "zai",
+      "detail": "local, in opencode",
+      "source": "https://geohot.github.io/blog/jekyll/update/2026/07/12/i-love-llms.html",
+      "seen": "2026-07-12",
+      "quote": "I set up a Linux box with opencode on my local GLM-5.2 last week",
+      "history": [
+        {
+          "value": "Opus 4.5",
+          "source": "https://geohot.github.io/blog/jekyll/update/2025/12/18/computer-use-models.html",
+          "seen": "2025-12-18",
+          "quote": "I tried GLM, Qwen3, and gpt-oss in Claude Code and they are all far worse than Opus 4.5."
+        },
+        {
+          "value": "GPT-5.4",
+          "source": "https://geohot.github.io/blog/jekyll/update/2026/04/15/zappa-mitmproxy.html",
+          "seen": "2026-04-15",
+          "quote": "I used GPT-5.4 to code it."
+        }
+      ]
+    }
+  ],
+  "review_style": {
+    "value": "Reads and understands each line",
+    "source": "https://geohot.github.io/blog/jekyll/update/2026/05/24/the-eternal-sloptember.html",
+    "seen": "2026-05-24",
+    "quote": "I haven’t seen anyone of them move to a model where they don’t carefully read and understand each line, except in some confined domains.",
+    "kind": "spot-checks",
+    "inferred": true,
+    "also": [
+      {
+        "source": "https://geohot.github.io/blog/jekyll/update/2026/05/24/the-eternal-sloptember.html",
+        "seen": "2026-05-24",
+        "quote": "I wrote some parts of tinygrad with agents. I reversed a USB <-> PCIe chip with agents. But each time I suspected I could have done it better and faster manually."
+      },
+      {
+        "source": "https://github.com/tinygrad/tinygrad/commit/dc04c7820e25987c31f2068875a515c881b79bb3",
+        "seen": "2026-08-26",
+        "quote": "* gpt sol review"
+      }
+    ]
+  },
+  "harness": {
+    "value": "opencode on a Linux box running local GLM-5.2",
+    "short": "local models",
+    "source": "https://geohot.github.io/blog/jekyll/update/2026/07/12/i-love-llms.html",
+    "seen": "2026-07-12",
+    "quote": "I set up a Linux box with opencode on my local GLM-5.2 last week",
+    "history": [
+      {
+        "value": "Claude Code with permissions bypassed",
+        "source": "https://geohot.github.io/blog/jekyll/update/2025/12/18/computer-use-models.html",
+        "seen": "2025-12-18",
+        "quote": "One prompt, “bypass permissions on”"
+      }
+    ]
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "tinygrad AGENTS.md (8 lines)",
+    "short": "AGENTS.md",
+    "url": "https://github.com/tinygrad/tinygrad/blob/479e077ecfcf14d0cf6ea5b500c9d616db812b15/AGENTS.md",
+    "source": "https://github.com/tinygrad/tinygrad/blob/479e077ecfcf14d0cf6ea5b500c9d616db812b15/AGENTS.md#L7-L8",
+    "seen": "2026-09-05",
+    "quote": "- Do not do amend commits. Always do a new commit if a force push to origin would be required.\n- tinygrad has user space PCI drivers for AMD and NVIDIA GPUs. Do not insert the unneeded kernel modules."
+  },
+  "skills": null,
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "(kimi) in the PR title",
+    "kind": "habit",
+    "caption": "names the model per PR",
+    "why": "Our pick: his tinygrad PRs carry the name of the model that helped, a public log of which model wrote what.",
+    "editorial": true,
+    "source": "https://github.com/tinygrad/tinygrad/commit/9f6d3d882cfe0b8d5e98255b85d9c96dac2966b3",
+    "seen": "2026-09-27",
+    "quote": "variables are bound params (kimi) (#18444)"
+  },
+  "archetype": {
+    "value": "Skeptic",
+    "editorial": true,
+    "why": "Uses opencode on open models but wrote that agents cannot program and vibe-coded output is slop."
+  },
+  "signature_quote": {
+    "value": "I’m now pretty confident I’m getting better at using them and get some boost from the models.",
+    "more": "It is a new skill, and it’s not like I haven’t constantly been trying them.",
+    "source": "https://geohot.github.io/blog/jekyll/update/2026/07/12/i-love-llms.html",
+    "seen": "2026-07-12"
+  }
+}

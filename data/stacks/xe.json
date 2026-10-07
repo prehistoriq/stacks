@@ -1,0 +1,207 @@
+{
+  "schema": 2,
+  "handle": "xe",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Xe Iaso",
+    "source": "https://github.com/Xe"
+  },
+  "x": null,
+  "github": {
+    "value": "Xe",
+    "source": "https://github.com/Xe"
+  },
+  "site": {
+    "value": "https://xeiaso.net",
+    "source": "https://github.com/Xe"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/529003?v=4",
+    "source": "https://github.com/Xe"
+  },
+  "known_for": {
+    "value": "Anubis, xeiaso.net",
+    "source": "https://anubis.techaro.lol/blog/2026/anubis-wasm/"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://xeiaso.net/notes/2026/claude-code-wins-april-fools/",
+        "seen": "2026-04-01",
+        "quote": "When you run /buddy, it hatches a coding companion that hangs out in your Claude Code interface like a tamagochi.",
+        "inferred": true
+      },
+      "source": "https://github.com/Xe/soteria/commit/f8d523eda908cbcba11ec3abd584f0abe2b8e09d",
+      "seen": "2026-09-28",
+      "quote": "Assisted-by: Claude Opus 5.5 via Claude Code",
+      "also": [
+        {
+          "source": "https://www.tigrisdata.com/blog/agent-sandbox-go/",
+          "seen": "2026-05-28",
+          "quote": "I wanted to see how far I could get by feeding the POSIX spec to Claude Code."
+        },
+        {
+          "source": "https://bsky.app/profile/xeiaso.net/post/3mhd6mqdky22o",
+          "seen": "2026-03-18",
+          "quote": "TBH i am getting about $200 per month of utility out of a claude max 20x plan"
+        }
+      ]
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "GPT-6, Sept 2026 repos",
+      "surface": null,
+      "source": "https://github.com/Xe/kefka/commit/f2bd6efaa5daa7959102d121c078fd02030231dc",
+      "seen": "2026-09-24",
+      "quote": "Assisted-by: GPT-6 via Codex",
+      "inferred": true
+    },
+    {
+      "name": "opencode",
+      "icon": "opencode",
+      "role": "GLM 5.2, homelab infra",
+      "surface": null,
+      "source": "https://github.com/Xe/x/commit/a3b2abc13d283aeac76c11a24dea4a7b9105d4a0",
+      "seen": "2026-07-22",
+      "quote": "Assisted-by: GLM 5.2 via opencode",
+      "inferred": true
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Opus 5.5",
+      "icon": "claude",
+      "source": "https://github.com/Xe/soteria/commit/f8d523eda908cbcba11ec3abd584f0abe2b8e09d",
+      "seen": "2026-09-28",
+      "quote": "Assisted-by: Claude Opus 5.5 via Claude Code",
+      "inferred": true,
+      "history": [
+        {
+          "value": "Claude Opus 4.8",
+          "source": "https://github.com/Xe/kefka/commit/94304df23c2133972d891034490f0b9f7d702e0b",
+          "seen": "2026-06-02",
+          "quote": "Assisted-by: Claude Opus 4.8 via Claude Code"
+        },
+        {
+          "value": "Claude Opus 5",
+          "source": "https://github.com/Xe/site/commit/374111799075960d5f670ce5fec925118a6b0b5c",
+          "seen": "2026-08-11",
+          "quote": "Assisted-by: Claude Opus 5 via Claude Code"
+        }
+      ]
+    },
+    {
+      "name": "GPT-6",
+      "icon": "openai",
+      "detail": "via Codex",
+      "source": "https://github.com/Xe/kefka/commit/f2bd6efaa5daa7959102d121c078fd02030231dc",
+      "seen": "2026-09-24",
+      "quote": "Assisted-by: GPT-6 via Codex",
+      "inferred": true,
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "A second agent team reviews; /reviewbot on PRs",
+    "kind": "agent-reviews",
+    "source": "https://xeiaso.net/blog/2026/vibe-coding-sponsor-panel/",
+    "seen": "2026-03-09",
+    "quote": "One agent team split the spec into tasks and started building. A second reviewed output and flagged issues.",
+    "also": [
+      {
+        "source": "https://github.com/Xe/x/blob/ebe67ac2f236c24d7d714dfd3eb39a9d1af7bfaa/.claude/git-workflow.md#L9",
+        "seen": "2026-03-21",
+        "quote": "Comment `/reviewbot` to trigger automated code review"
+      },
+      {
+        "source": "https://xeiaso.net/blog/2026/markdownlang/",
+        "seen": "2026-02-10",
+        "quote": "I haven't looked at basically any of the code (intentionally, it's part of The Bit™️)"
+      }
+    ],
+    "inferred": true
+  },
+  "harness": {
+    "value": "Claude Code agents sharing a single git checkout, on a Claude Max 20x plan",
+    "short": "one checkout",
+    "source": "https://www.tigrisdata.com/blog/agent-sandbox-go/",
+    "seen": "2026-05-28",
+    "quote": "The porting process was mostly autonomous with each of the agents fighting for supremacy in a single git checkout.",
+    "history": []
+  },
+  "parallelism": {
+    "value": 5,
+    "short": "5 agents",
+    "source": "https://www.tigrisdata.com/blog/agent-sandbox-go/",
+    "seen": "2026-05-28",
+    "quote": "With 5 agents going at once, I managed to cover the critical set of coreutils",
+    "history": []
+  },
+  "rules_files": {
+    "value": "Global CLAUDE.md shipped as a system package; per-repo AGENTS.md, with CLAUDE.md as '@AGENTS.md'",
+    "short": "AGENTS.md",
+    "url": "https://github.com/Xe/x/blob/de9b63d24e5216518495966b5816156cfdde1c56/AGENTS.md",
+    "source": "https://github.com/Xe/x/blob/de9b63d24e5216518495966b5816156cfdde1c56/AGENTS.md#L7",
+    "seen": "2026-08-26",
+    "quote": "Always ask the user for intent before writing code."
+  },
+  "skills": {
+    "value": [
+      "excalidraw-diagrams",
+      "go-table-driven-tests",
+      "gorm-dao",
+      "sound-like-a-person",
+      "templ-components",
+      "templ-htmx",
+      "templ-http",
+      "templ-syntax",
+      "xe-design-system",
+      "xe-go-style",
+      "xe-writing-style"
+    ],
+    "count": 11,
+    "featured": [
+      "templ-syntax",
+      "xe-writing-style",
+      "gorm-dao"
+    ],
+    "source": "https://github.com/Xe/agent-plugins/tree/12dc8172511e0b560764c0e2508b6725529e9ef4/plugins",
+    "seen": "2026-07-06"
+  },
+  "mcp_servers": {
+    "value": [
+      "python-wasm-mcp"
+    ],
+    "source": "https://github.com/Xe/x/blob/85e341b7fc1e8d5d78e16f336966f198fc97a74c/.mcp.json#L6",
+    "seen": "2026-01-10",
+    "quote": "\"args\": [\"run\", \"./cmd/python-wasm-mcp\"],"
+  },
+  "hooks": null,
+  "signature": {
+    "value": "Assisted-by: footer",
+    "kind": "rule",
+    "caption": "model + tool on every commit",
+    "why": "Our pick: her global rules make every agent sign its commits with the model and tool, so her git log is an honest record of who wrote what.",
+    "editorial": true,
+    "source": "https://github.com/Xe/x/blob/de9b63d24e5216518495966b5816156cfdde1c56/pkgs/claude-code-cfg/CLAUDE.md#L7-L10",
+    "seen": "2026-08-26",
+    "quote": "AI agents must disclose what tool and model they are using in the \"Assisted-by\" commit footer:"
+  },
+  "archetype": {
+    "value": "Toolsmith",
+    "editorial": true,
+    "why": "Builds her own agent tooling (a skills marketplace with evals, a PR review bot, a sandbox) and makes every agent sign its commits."
+  },
+  "signature_quote": {
+    "value": "I use them every day and I'm telling you: the default output has no soul.",
+    "more": "It's correct. It's competent. It's fine.",
+    "source": "https://xeiaso.net/blog/2026/ai-abstraction/",
+    "seen": "2026-03-11"
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "schema": 2,
+  "handle": "ghuntley",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Geoffrey Huntley",
+    "source": "https://github.com/ghuntley"
+  },
+  "x": {
+    "value": "GeoffreyHuntley",
+    "source": "https://x.com/GeoffreyHuntley"
+  },
+  "github": {
+    "value": "ghuntley",
+    "source": "https://github.com/ghuntley"
+  },
+  "site": {
+    "value": "https://ghuntley.com",
+    "source": "https://github.com/ghuntley"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/127353?v=4",
+    "source": "https://github.com/ghuntley"
+  },
+  "known_for": {
+    "value": "Creator of the Ralph loop",
+    "source": "https://github.com/ghuntley"
+  },
+  "agents": [
+    {
+      "name": "OpenCode",
+      "icon": "opencode",
+      "role": "via his underclass token pool",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://github.com/ghuntley/underclass/blob/9244c8169bb1b73492f0c5ad5b693d59d65034da/README.md?plain=1#L55",
+        "seen": "2026-09-23",
+        "quote": "opencode --provider underclass --model underclass/gpt-5.5"
+      },
+      "source": "https://github.com/ghuntley/underclass/blob/9244c8169bb1b73492f0c5ad5b693d59d65034da/README.md?plain=1#L27",
+      "seen": "2026-09-23",
+      "quote": "**No client changes** — the surface is plain `/v1/*`; point opencode (or anything OpenAI-compatible) at it.",
+      "history": [
+        {
+          "value": "Amp",
+          "surface": null,
+          "source": "https://ghuntley.com/ralph/",
+          "seen": "2025-07-14",
+          "quote": "Amp creating a new programming language AFK"
+        },
+        {
+          "value": "Claude Code",
+          "surface": null,
+          "source": "https://ghuntley.com/real/",
+          "seen": "2026-02-27",
+          "quote": "It is so easy to rip a fart into Claude Code and migrate from one technology to another"
+        }
+      ],
+      "inferred": true
+    },
+    {
+      "name": "Cursor",
+      "icon": "cursor",
+      "role": "Cloud Agents ship to production",
+      "surface": "web",
+      "surface_source": {
+        "source": "https://ghuntley.com/rad/",
+        "seen": "2026-03-09",
+        "quote": "If I click Launch Agent, then it utilises Cursor's new Cloud Agents and Workflow Automations to ship it straight into production using a risk-based approach."
+      },
+      "source": "https://ghuntley.com/rad/",
+      "seen": "2026-03-09",
+      "quote": "Last month, Cursor hooked me up with a preview of their new stuff, and now that it's out, this is how I've been using it.",
+      "history": []
+    },
+    {
+      "name": "Loom",
+      "icon": null,
+      "role": "his own agent, research only",
+      "surface": null,
+      "source": "https://github.com/ghuntley/loom/blob/a9cfbc6cf085cc8b6c01dd265ca212e458156ba0/README.md?plain=1",
+      "seen": "2026-01-15",
+      "quote": "Loom is an AI-powered coding agent built in Rust.",
+      "history": []
+    }
+  ],
+  "models": [
+    {
+      "name": "GPT-6.1 Sol",
+      "icon": "openai",
+      "detail": "no or low reasoning",
+      "source": "https://ghuntley.com/readable/",
+      "seen": "2026-10-02",
+      "quote": "Personally, I run a mix of GPT 6.1 sol on no or low reasoning, and GLM/Kimi.",
+      "history": []
+    },
+    {
+      "name": "GLM / Kimi",
+      "icon": "zai",
+      "detail": "cheap open weights",
+      "source": "https://ghuntley.com/readable/",
+      "seen": "2026-10-02",
+      "quote": "Personally, I run a mix of GPT 6.1 sol on no or low reasoning, and GLM/Kimi.",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Ships without manual review; stops only for high-risk changes",
+    "source": "https://ghuntley.com/rad/",
+    "seen": "2026-03-09",
+    "quote": "Instead of having a manual code review for everything, I just ship it. If something is high enough on the risk matrix, for example, a database schema migration, then it halts the shipping, and I have to do a manual review.",
+    "kind": "spot-checks",
+    "also": [
+      {
+        "source": "https://ghuntley.com/readable/",
+        "seen": "2026-10-02",
+        "quote": "Software doesn't need to be readable by a human. It needs to be explainable to a human."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Agent loops, simulator first, agents validate against the simulator",
+    "short": "loops",
+    "source": "https://ghuntley.com/readable/",
+    "seen": "2026-10-02",
+    "quote": "It's a distributed system, so I'm building it in Rust and building the simulator first, then driving the agent to validate everything through the simulator.",
+    "history": [
+      {
+        "value": "Bash while loop piping PROMPT.md into the agent",
+        "source": "https://ghuntley.com/ralph/",
+        "seen": "2025-07-14",
+        "quote": "while :; do cat PROMPT.md | claude-code ; done"
+      }
+    ]
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "Per-repo AGENTS.md: testing policy, ADRs, code contracts, static types required",
+    "short": "AGENTS.md",
+    "url": "https://github.com/ghuntley/underclass/blob/3e35c3bf3d24c7fa79cb93602b571b1b9c194514/AGENTS.md",
+    "source": "https://github.com/ghuntley/underclass/blob/3e35c3bf3d24c7fa79cb93602b571b1b9c194514/AGENTS.md#L42",
+    "seen": "2026-09-26",
+    "quote": "Use the `code-contracts` skill for every code change and code review."
+  },
+  "skills": {
+    "value": [
+      "playwright-validation",
+      "slopdimension-app-development",
+      "slopdimension-jido-agents",
+      "slopdimension-media-streaming",
+      "slopdimension-moderation-security",
+      "slopdimension-realtime-chat",
+      "slopdimension-user-authentication"
+    ],
+    "count": 7,
+    "featured": [
+      "playwright-validation",
+      "slopdimension-jido-agents"
+    ],
+    "source": "https://github.com/ghuntley/slopdimension/tree/2e8de0c3e60cad04db139585d7ede1449b5b99f8/.agents/skills",
+    "seen": "2026-08-30"
+  },
+  "mcp_servers": {
+    "value": [
+      "sequential-thinking",
+      "puppeteer"
+    ],
+    "source": "https://github.com/ghuntley/ghuntley/blob/2ab2f76c29e4423c5fa709d56a21e0cdb9260c52/.mcp.json#L4-L15",
+    "seen": "2025-09-19",
+    "quote": "\"args\": [\"-y\", \"@modelcontextprotocol/server-puppeteer\"],"
+  },
+  "hooks": null,
+  "signature": {
+    "value": "The Ralph loop",
+    "kind": "habit",
+    "caption": "an agent in a bash while loop",
+    "why": "Our pick: he invented it. One prompt file fed to an agent again and again until the work is done.",
+    "editorial": true,
+    "source": "https://ghuntley.com/ralph/",
+    "seen": "2025-07-14",
+    "quote": "while :; do cat PROMPT.md | claude-code ; done"
+  },
+  "archetype": {
+    "value": "Vibe Maximalist",
+    "editorial": true,
+    "why": "No hand-written code in two years; ships unreviewed unless the change is high-risk."
+  },
+  "signature_quote": {
+    "value": "I'm supervising it. I'm on the loop, not in the loop.",
+    "more": "I haven't written code by hand for two years.",
+    "source": "https://ghuntley.com/rad/",
+    "seen": "2026-03-09"
+  }
+}

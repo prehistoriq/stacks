@@ -1,0 +1,143 @@
+{
+  "schema": 2,
+  "handle": "nolanlawson",
+  "status": "ok",
+  "checked": "2026-10-07",
+  "name": {
+    "value": "Nolan Lawson",
+    "source": "https://github.com/nolanlawson"
+  },
+  "x": null,
+  "github": {
+    "value": "nolanlawson",
+    "source": "https://github.com/nolanlawson"
+  },
+  "site": {
+    "value": "https://nolanlawson.com",
+    "source": "https://github.com/nolanlawson"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/283842?v=4",
+    "source": "https://github.com/nolanlawson"
+  },
+  "known_for": {
+    "value": "PouchDB, emoji-picker-element",
+    "source": "https://github.com/nolanlawson"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary",
+      "surface": null,
+      "source": "https://nolanlawson.com/2026/08/23/the-asteroid-currently-hitting-frontend-web-development/",
+      "seen": "2026-08-23",
+      "quote": "These days, given a slow-loading website, even as someone who’s written about browser performance for years and who literally worked on a browser performance team, I would probably just chuck a Chrome trace at Claude Code and have it suggest improvements. In fact I’ve done this very thing in my day job and gotten some good results.",
+      "history": []
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "second reviewer",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://gist.github.com/nolanlawson/4150b0ca9640654c256b324fac0d5253",
+        "seen": "2026-05-27",
+        "quote": "allowed-tools: Bash(gh:*) Bash(codex:*) Bash(cat:*) Bash(tee:*) Bash(sleep:*) Agent Read Grep Glob Write(/tmp/*)",
+        "inferred": true
+      },
+      "source": "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/",
+      "seen": "2026-05-26",
+      "quote": "Note that you’ll need gh installed, and also that I use Claude with Opus 4.7 on xhigh thinking and Codex with GPT 5.5 on high thinking.",
+      "history": []
+    },
+    {
+      "name": "Cursor Bugbot",
+      "icon": "cursor",
+      "role": "third reviewer on PRs",
+      "surface": "web",
+      "inferred": true,
+      "source": "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/",
+      "seen": "2026-05-25",
+      "quote": "Run a Claude sub-agent, Codex, and Cursor Bugbot to find bugs in this PR ranked by critical/high/medium/low. Once they’re all done, review their findings, do your own research to rule out false positives, and write a final report.",
+      "history": []
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Opus 4.7",
+      "icon": "claude",
+      "detail": "xhigh thinking",
+      "source": "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/",
+      "seen": "2026-05-26",
+      "quote": "Note that you’ll need gh installed, and also that I use Claude with Opus 4.7 on xhigh thinking and Codex with GPT 5.5 on high thinking.",
+      "history": []
+    },
+    {
+      "name": "GPT 5.5",
+      "icon": "openai",
+      "detail": "high thinking, in Codex",
+      "source": "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/",
+      "seen": "2026-05-26",
+      "quote": "Note that you’ll need gh installed, and also that I use Claude with Opus 4.7 on xhigh thinking and Codex with GPT 5.5 on high thinking.",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Three agents hunt bugs in every PR; he triages the ranked report and guides the fixes",
+    "source": "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/",
+    "seen": "2026-05-25",
+    "quote": "Run a Claude sub-agent, Codex, and Cursor Bugbot to find bugs in this PR ranked by critical/high/medium/low. Once they’re all done, review their findings, do your own research to rule out false positives, and write a final report.",
+    "kind": "agent-reviews",
+    "also": [
+      {
+        "source": "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/",
+        "seen": "2026-05-25",
+        "quote": "Have an agent fix all the criticals and highs (with my guidance on the proper solution), then repeat until no criticals/highs"
+      },
+      {
+        "source": "https://nolanlawson.com/2026/08/16/you-can-just-choose-how-many-bugs-you-want-now/",
+        "seen": "2026-08-16",
+        "quote": "For example, I find myself spending a lot of time these days in code review, using tools like my triple-agent code review skill as well as Geoffrey Litt’s explain-diff skill."
+      }
+    ]
+  },
+  "harness": null,
+  "parallelism": null,
+  "rules_files": null,
+  "skills": {
+    "value": [
+      "code-review-turbo",
+      "explain-diff"
+    ],
+    "count": 2,
+    "featured": [
+      "code-review-turbo",
+      "explain-diff"
+    ],
+    "source": "https://nolanlawson.com/2026/08/16/you-can-just-choose-how-many-bugs-you-want-now/",
+    "seen": "2026-08-16"
+  },
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "code-review-turbo",
+    "kind": "skill",
+    "caption": "three-agent PR bug hunt",
+    "why": "Our pick: Claude, Codex and Cursor Bugbot each review the PR, then the main agent cross-checks their findings to drop hallucinated bugs.",
+    "editorial": true,
+    "source": "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/",
+    "seen": "2026-05-25",
+    "quote": "In my experience, this skill always finds tons of bugs in a PR, and the false positive rate is near zero."
+  },
+  "archetype": {
+    "value": "Purist",
+    "editorial": true,
+    "why": "He uses agents to make code better, not faster: multi-agent review on every PR, and no AI in his writing."
+  },
+  "signature_quote": {
+    "value": "And you can use them just as effectively to write high-quality code more slowly.",
+    "source": "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/",
+    "seen": "2026-05-25"
+  }
+}

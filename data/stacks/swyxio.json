@@ -1,0 +1,272 @@
+{
+  "schema": 2,
+  "handle": "swyxio",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "swyx",
+    "source": "https://x.com/swyx"
+  },
+  "x": {
+    "value": "swyx",
+    "source": "https://x.com/swyx"
+  },
+  "github": {
+    "value": "swyxio",
+    "source": "https://github.com/swyxio"
+  },
+  "site": {
+    "value": "https://www.swyx.io",
+    "source": "https://github.com/swyxio"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/6764957?v=4",
+    "source": "https://github.com/swyxio"
+  },
+  "known_for": {
+    "value": "Latent Space, AI Engineer",
+    "source": "https://www.youtube.com/watch?v=zepu8Kk6FBQ"
+  },
+  "agents": [
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "opens most of his PRs",
+      "surface": null,
+      "inferred": true,
+      "source": "https://github.com/swyxio/swyxdotio/pull/612",
+      "seen": "2026-09-30",
+      "quote": "codex/search-cmd-k-only",
+      "also": [
+        {
+          "source": "https://github.com/swyxio/skills/blob/038ef3441a4c7bfff16ae3241dc1730746a69a5b/README.md#L46-L47",
+          "seen": "2026-10-01",
+          "quote": "The author also maintains a legacy `~/.codex/skills/` installation;\nthe table follows current documented directories for new installs."
+        },
+        {
+          "source": "https://gist.github.com/swyxio/7fa1009e460ecb818d5e6d9ca4616a05/e454b0314bd9f2459f37f040b0f3b034d9b84f2e#file-zshrc-L92",
+          "seen": "2026-06-19",
+          "quote": "alias co=\"codex --dangerously-bypass-approvals-and-sandbox\""
+        }
+      ]
+    },
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "with Chrome",
+      "surface": "cli",
+      "source": "https://gist.github.com/swyxio/7fa1009e460ecb818d5e6d9ca4616a05/e454b0314bd9f2459f37f040b0f3b034d9b84f2e#file-zshrc-L91",
+      "seen": "2026-06-19",
+      "quote": "alias cc=\"claude --dangerously-skip-permissions --chrome\"",
+      "history": [
+        {
+          "value": "Claude Cowork",
+          "surface": "app",
+          "source": "https://x.com/swyx/status/2017482739285684708",
+          "seen": "2026-01-31",
+          "quote": "CLAUDE COWORK IS A HARNESS ON TOP OF CLAUDE CODE IS A HARNESS ON TOP OF CLAUDE OPUS"
+        }
+      ]
+    },
+    {
+      "name": "Devin",
+      "icon": null,
+      "role": "for his non-technical team",
+      "surface": "web",
+      "surface_source": {
+        "source": "https://www.youtube.com/watch?v=zepu8Kk6FBQ&t=289s",
+        "seen": "2026-05-01",
+        "quote": "hooked up Devin to Figma and we uh in very short order, we have a perfectly functioning website",
+        "inferred": true
+      },
+      "source": "https://www.youtube.com/watch?v=zepu8Kk6FBQ&t=239s",
+      "seen": "2026-05-01",
+      "quote": "Um I just added Devin to it."
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Opus 4.6",
+      "icon": "claude",
+      "detail": "1M context",
+      "inferred": true,
+      "source": "https://github.com/swyxio/skills/commit/badecfdc732c0bb8e73174c8a07ae1f9b3eb0a54",
+      "seen": "2026-04-10",
+      "quote": "Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Devin Review bot comments on each agent PR, often after merge",
+    "inferred": true,
+    "kind": "no-review",
+    "source": "https://github.com/swyxio/swyxdotio/pull/612",
+    "seen": "2026-09-30",
+    "quote": "**Devin Review** found 2 potential issues.",
+    "also": [
+      {
+        "source": "https://github.com/swyxio/swyxdotio/pull/612",
+        "seen": "2026-09-30",
+        "quote": "Validation: Browser checks confirm Command alone, Cmd+C, Cmd+Shift+K and slash stay closed; Cmd+K and Ctrl+K open the menu. Svelte check reports zero errors and warnings, and the production build passes."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Ghostty + cmux, Cursor as editor",
+    "short": "Ghostty + cmux",
+    "source": "https://github.com/swyxio/skills/blob/038ef3441a4c7bfff16ae3241dc1730746a69a5b/new-mac-setup/SKILL.md#L26",
+    "seen": "2026-06-24",
+    "quote": "- **Terminal**: Ghostty (fast, GPU-accelerated, Zig) + cmux (vertical tabs, split panes, socket API for AI agents). cmux reads Ghostty's config, so one config file serves both.",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "AGENTS.md in his skills repo (one rule)",
+    "short": "AGENTS.md",
+    "url": "https://github.com/swyxio/skills/blob/038ef3441a4c7bfff16ae3241dc1730746a69a5b/AGENTS.md",
+    "source": "https://github.com/swyxio/skills/blob/038ef3441a4c7bfff16ae3241dc1730746a69a5b/AGENTS.md#L1",
+    "seen": "2026-03-28",
+    "quote": "For long-running scripts or commands, always report elapsed times for major steps and batches when giving progress updates."
+  },
+  "skills": {
+    "value": [
+      "accelevents-api",
+      "accelevents-speaker-sync",
+      "agents-sdk",
+      "ai-devblog",
+      "ai-engineering",
+      "ai-readme",
+      "align-me",
+      "antislop-codebase",
+      "app-ux-paradigms",
+      "autoreview",
+      "babysit-runs",
+      "blog-system-design",
+      "cassandra-creator",
+      "ceo-creator",
+      "claude-session-introspect",
+      "cli-ux",
+      "cloudflare-do-turn-based-multiplayer",
+      "cloudflare-email-service",
+      "cloudflare-one-migrations",
+      "cloudflare-one",
+      "cloudflare-production-builder",
+      "cloudflare",
+      "conference-developer-endpoints",
+      "conference-transcribe",
+      "coordinate",
+      "data-chatbots",
+      "data-visualization-quality",
+      "deep-trajectory-analysis",
+      "design-apps-with-imagegen",
+      "design-preferences",
+      "diy-netlify",
+      "download-video",
+      "download-x-video",
+      "durable-objects",
+      "europe-developer-api",
+      "face-matching",
+      "forge",
+      "future-only",
+      "generalize",
+      "gsuite-setup",
+      "keep-it-simple",
+      "latent-space-thumbnail-director",
+      "live-ai-pipelines",
+      "location-input",
+      "long-running-operation-ux",
+      "media-heavy-workflows",
+      "media-to-wiki-pipeline",
+      "media-transform",
+      "mobile-native",
+      "mobile-webapp-ux",
+      "multimodal-extraction",
+      "new-mac-setup",
+      "next-steps",
+      "observability-hardening",
+      "person-profile-writing",
+      "podcast-publishing-assistant",
+      "productionize-app-with-services",
+      "programmatic-agents",
+      "provision-model-keys",
+      "public-qa-chatbot",
+      "pulp-fiction-writing",
+      "release-readiness-hardening",
+      "report-progress-eta-analyze",
+      "research-grounded-writing",
+      "reserved-handle-policy",
+      "resilient-computer-use",
+      "review-thread",
+      "sandbox-sdk",
+      "schedule-design",
+      "security-hardening",
+      "sessionize-automation",
+      "skill-cutter",
+      "slackbot-builder",
+      "smart-entity-resolution",
+      "summarize-anything",
+      "swyx-writing",
+      "sync-accelevents",
+      "sync-url-navigation",
+      "test-strategy-hardening",
+      "testing-schedule-preview",
+      "thumbnail-extraction",
+      "transcribe-anything",
+      "turnstile-spin",
+      "twitter-x-scraping",
+      "vercel-production-cost-review",
+      "video-talk-to-essay",
+      "visual-playtest",
+      "web-animation-perf",
+      "web-perf",
+      "website-searchbar",
+      "workers-best-practices",
+      "wrangler",
+      "youtube-api",
+      "youtube-channel-operator",
+      "youtube-publish",
+      "youtube-studio-batch-upload",
+      "youtube-studio-computer-use",
+      "youtube-thumbnails",
+      "zoom-download"
+    ],
+    "count": 99,
+    "featured": [
+      "cassandra-creator",
+      "ceo-creator",
+      "review-thread"
+    ],
+    "source": "https://github.com/swyxio/skills/tree/038ef3441a4c7bfff16ae3241dc1730746a69a5b",
+    "seen": "2026-10-05"
+  },
+  "mcp_servers": null,
+  "hooks": {
+    "value": [
+      "peon-ping notifications shared across Claude Code, Codex and Cursor"
+    ],
+    "source": "https://github.com/swyxio/skills/blob/038ef3441a4c7bfff16ae3241dc1730746a69a5b/new-mac-setup/SKILL.md#L34",
+    "seen": "2026-06-24",
+    "quote": "- **Agent notifications**: peon-ping shared across Claude Code, Codex, and Cursor, tuned to notify only when useful"
+  },
+  "signature": {
+    "value": "$cassandra-creator",
+    "kind": "skill",
+    "caption": "a standing dissent agent",
+    "why": "Our pick: next to a CEO agent that runs a project, he sets up an independent agent whose job is to challenge it.",
+    "editorial": true,
+    "source": "https://github.com/swyxio/skills/blob/038ef3441a4c7bfff16ae3241dc1730746a69a5b/cassandra-creator/SKILL.md#L8",
+    "seen": "2026-08-10",
+    "quote": "Create a durable independent dissent function, not a generic contrarian persona or one-off review."
+  },
+  "archetype": {
+    "value": "Toolsmith",
+    "editorial": true,
+    "why": "Keeps 99 skills, a multi-CLI agent runner and his own session inspectors."
+  },
+  "signature_quote": {
+    "value": "benefit of agents is that they save you the yak shaves.",
+    "more": "Like all the dependency tree crawling of like, \"Oh, no, I have to do that first. Oh, no, I have to do that first.\"",
+    "source": "https://www.youtube.com/watch?v=zepu8Kk6FBQ&t=256s",
+    "seen": "2026-05-01"
+  }
+}

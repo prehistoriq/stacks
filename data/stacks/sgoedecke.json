@@ -1,0 +1,166 @@
+{
+  "schema": 2,
+  "handle": "sgoedecke",
+  "status": "ok",
+  "checked": "2026-10-07",
+  "name": {
+    "value": "Sean Goedecke",
+    "source": "https://github.com/sgoedecke"
+  },
+  "x": null,
+  "github": {
+    "value": "sgoedecke",
+    "source": "https://github.com/sgoedecke"
+  },
+  "site": {
+    "value": "https://www.seangoedecke.com",
+    "source": "https://github.com/sgoedecke"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/19204567?v=4",
+    "source": "https://github.com/sgoedecke"
+  },
+  "known_for": {
+    "value": "Writing on AI and big tech",
+    "source": "https://www.seangoedecke.com/about/"
+  },
+  "agents": [
+    {
+      "name": "GitHub Copilot app",
+      "icon": "githubcopilot",
+      "role": "primary, tens of sessions a day",
+      "surface": "app",
+      "source": "https://www.seangoedecke.com/how-i-use-llms-in-2026/",
+      "seen": "2026-05-17",
+      "quote": "Now I use the GitHub Copilot app a lot (tens of sessions per day).",
+      "history": [
+        {
+          "value": "VS Code windows",
+          "surface": "ide",
+          "source": "https://www.seangoedecke.com/how-i-use-llms-in-2026/",
+          "seen": "2026-05-17",
+          "quote": "In late 2025 I used a lot of open VSCode windows."
+        },
+        {
+          "value": "Copilot CLI in terminal tabs",
+          "surface": "cli",
+          "source": "https://www.seangoedecke.com/how-i-use-llms-in-2026/",
+          "seen": "2026-05-17",
+          "quote": "In early 2026, that changed to terminal tabs with the Copilot CLI, particularly when I needed to make changes across multiple repos at the same time."
+        }
+      ]
+    },
+    {
+      "name": "Copilot CLI",
+      "icon": "githubcopilot",
+      "role": "local setup and config chores",
+      "surface": "cli",
+      "source": "https://www.seangoedecke.com/how-i-use-llms-in-2026/",
+      "seen": "2026-05-17",
+      "quote": "For instance, if my nvm installation is not switching my Node version correctly, I will often open a Copilot CLI agent and ask it to figure it out.",
+      "history": []
+    }
+  ],
+  "models": [
+    {
+      "name": "GPT-6-Astra",
+      "icon": "openai",
+      "source": "https://www.seangoedecke.com/you-should-all-be-asking-way-more-questions/",
+      "seen": "2026-09-25",
+      "quote": "I mostly work with GPT-6-Astra and Claude Opus 5.5.",
+      "history": []
+    },
+    {
+      "name": "Claude Opus 5.5",
+      "icon": "claude",
+      "source": "https://www.seangoedecke.com/you-should-all-be-asking-way-more-questions/",
+      "seen": "2026-09-25",
+      "quote": "I mostly work with GPT-6-Astra and Claude Opus 5.5.",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Skims each attempt for ~30 seconds, rejects most, then fully reviews the one he keeps",
+    "source": "https://www.seangoedecke.com/how-i-use-llms-in-2026/",
+    "seen": "2026-05-17",
+    "quote": "I do a lot of skimming through and evaluating agent changes. Most of the time I reject them entirely, just based on “eh, that’s not what I was thinking”. On average it takes me about thirty seconds to make this initial assessment.",
+    "kind": "reads-all",
+    "also": [
+      {
+        "source": "https://www.seangoedecke.com/how-i-use-llms-in-2026/",
+        "seen": "2026-05-17",
+        "quote": "If the change looks alright after that, I’ll dig in and do a proper review to make sure I understand it and it’s doing the right thing."
+      },
+      {
+        "source": "https://www.seangoedecke.com/you-should-all-be-asking-way-more-questions/",
+        "seen": "2026-09-25",
+        "quote": "About half the questions I ask get answers that convince me the model has made a mistake: it should have reused the existing subsystem for X, or authed to Y differently, or kept the Z implementation simple, and so on."
+      }
+    ]
+  },
+  "harness": {
+    "value": "GitHub Copilot app; separate sessions per task for exploring, implementing, reviewing and testing",
+    "short": "Copilot app",
+    "source": "https://www.seangoedecke.com/how-to-keep-thinking/",
+    "seen": "2026-08-07",
+    "quote": "I routinely use six or seven different agent sessions on the same task: one for exploration, two or three for trying out different implementations, two or three for review, one for manual testing, and so on.",
+    "history": [
+      {
+        "value": "Terminal tabs with Copilot CLI across repos",
+        "source": "https://www.seangoedecke.com/how-i-use-llms-in-2026/",
+        "seen": "2026-05-17",
+        "quote": "In early 2026, that changed to terminal tabs with the Copilot CLI, particularly when I needed to make changes across multiple repos at the same time."
+      }
+    ]
+  },
+  "parallelism": {
+    "value": 7,
+    "short": "6–7 sessions per task",
+    "source": "https://www.seangoedecke.com/how-to-keep-thinking/",
+    "seen": "2026-08-07",
+    "quote": "I routinely use six or seven different agent sessions on the same task: one for exploration, two or three for trying out different implementations, two or three for review, one for manual testing, and so on.",
+    "inferred": true,
+    "history": []
+  },
+  "rules_files": null,
+  "skills": {
+    "value": [
+      "extract-features-clamp-inference"
+    ],
+    "count": 1,
+    "featured": [
+      "extract-features-clamp-inference"
+    ],
+    "source": "https://github.com/sgoedecke/skills/tree/0f38b38c2ef1691a28340d8faa9abfe39467c99d/skills",
+    "seen": "2026-02-17"
+  },
+  "mcp_servers": {
+    "value": [
+      "runpod"
+    ],
+    "source": "https://www.seangoedecke.com/tell-agents-the-why/",
+    "seen": "2026-09-15",
+    "quote": "Hello. You should have Runpod access via MCP (if not, tell me and I’ll fix it)."
+  },
+  "hooks": null,
+  "signature": {
+    "value": "30-second triage",
+    "kind": "habit",
+    "caption": "rejects most agent attempts",
+    "why": "Our pick: he lets agents attempt every change, throws most away after a half-minute skim, and only reviews in depth the attempt worth keeping.",
+    "editorial": true,
+    "source": "https://www.seangoedecke.com/how-i-use-llms-in-2026/",
+    "seen": "2026-05-17",
+    "quote": "For difficult tasks, I’ll often reject five or six (or more!) agent attempts before accepting one as good enough to work with, or giving up and making the change by hand."
+  },
+  "archetype": {
+    "value": "Orchestrator",
+    "editorial": true,
+    "why": "Six or seven sessions per task, each with a role: explore, implement, review, test."
+  },
+  "signature_quote": {
+    "value": "But now I start every single change by asking an agent to solve the problem, and usually push the PR after a single editing pass.",
+    "source": "https://www.seangoedecke.com/how-i-use-llms-in-2026/",
+    "seen": "2026-05-17"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "schema": 2,
+  "handle": "cvolawless",
+  "status": "ok",
+  "checked": "2026-10-07",
+  "name": {
+    "value": "Claire Vo",
+    "source": "https://github.com/cvolawless"
+  },
+  "x": {
+    "value": "clairevo",
+    "source": "https://github.com/cvolawless"
+  },
+  "github": {
+    "value": "cvolawless",
+    "source": "https://github.com/cvolawless"
+  },
+  "site": {
+    "value": "https://clairevo.com",
+    "source": "https://github.com/cvolawless"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/2424387?v=4",
+    "source": "https://github.com/cvolawless"
+  },
+  "known_for": {
+    "value": "ChatPRD founder, How I AI host",
+    "source": "https://clairevo.com"
+  },
+  "agents": [
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "primary, desktop app",
+      "surface": "app",
+      "surface_source": {
+        "source": "https://www.lennysnewsletter.com/p/i-left-claude-for-months-opus-55",
+        "seen": "2026-09-22",
+        "quote": "I like the desktop app better."
+      },
+      "source": "https://www.lennysnewsletter.com/p/i-left-claude-for-months-opus-55",
+      "seen": "2026-09-22",
+      "quote": "I moved most of my daily work to Codex and I didn’t miss it.",
+      "also": [
+        {
+          "source": "https://www.lennysnewsletter.com/p/i-left-claude-for-months-opus-55",
+          "seen": "2026-09-22",
+          "quote": "I will say I still find myself reaching for codex."
+        }
+      ]
+    },
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "PR review, architecture, frontend (back with Opus 5.5)",
+      "surface": null,
+      "inferred": true,
+      "source": "https://www.lennysnewsletter.com/p/i-left-claude-for-months-opus-55",
+      "seen": "2026-09-22",
+      "quote": "But what I've really realized about Opus 5.5 is I've built it now back into my development process,",
+      "history": [
+        {
+          "value": "Left the Claude harness for months",
+          "surface": null,
+          "source": "https://www.lennysnewsletter.com/p/i-left-claude-for-months-opus-55",
+          "seen": "2026-09-22",
+          "quote": "And I found it so frustrating to work with that I just abandoned the Claude harness entirely."
+        }
+      ]
+    },
+    {
+      "name": "Cursor",
+      "icon": "cursor",
+      "role": "cloud agents launched by her PR bot",
+      "surface": "web",
+      "source": "https://www.lennysnewsletter.com/p/grok-bot-vs-openclaw-how-i-replaced",
+      "seen": "2026-09-02",
+      "quote": "Why I want to show this one is it can, GrokBot can kick off cursor cloud agent coding jobs.",
+      "history": [
+        {
+          "value": "Cursor desktop app",
+          "surface": "ide",
+          "source": "https://www.lennysnewsletter.com/p/claude-opus-46-vs-gpt-53-codex-how",
+          "seen": "2026-02-11",
+          "quote": "I'm still a cursor girl."
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "GPT-6 Astra",
+      "icon": "openai",
+      "detail": "daily driver",
+      "source": "https://www.lennysnewsletter.com/p/gpt-6-astra-is-a-banger-heres-everything",
+      "seen": "2026-09-03",
+      "quote": "This is going to be my daily driver.",
+      "history": [
+        {
+          "value": "GPT-5.3 Codex, for bugs and architecture",
+          "source": "https://www.lennysnewsletter.com/p/claude-opus-46-vs-gpt-53-codex-how",
+          "seen": "2026-02-11",
+          "quote": "You want Codex catching all your bugs,"
+        }
+      ]
+    },
+    {
+      "name": "Claude Opus 5.5",
+      "icon": "claude",
+      "detail": "day-to-day work, PR review",
+      "source": "https://www.lennysnewsletter.com/p/opus-55-vs-gpt-6-sol-which-model",
+      "seen": "2026-09-22",
+      "quote": "5.5 wins my week.",
+      "history": [
+        {
+          "value": "Claude Opus 4.6, for product and feature work",
+          "source": "https://www.lennysnewsletter.com/p/claude-opus-46-vs-gpt-53-codex-how",
+          "seen": "2026-02-11",
+          "quote": "you want to use Opus for your product and feature work,"
+        }
+      ]
+    }
+  ],
+  "review_style": {
+    "value": "Cross-model review: Opus 5.5 reviews GPT's PRs and vice versa; PRs also get human review",
+    "kind": "agent-reviews",
+    "source": "https://www.lennysnewsletter.com/p/i-left-claude-for-months-opus-55",
+    "seen": "2026-09-22",
+    "quote": "or because now I feel like at least Opus 5.5 is not a bad adversarial reviewer, and so I'm having it review more PRs and more work from GPT and vice versa.",
+    "also": [
+      {
+        "source": "https://www.lennysnewsletter.com/p/grok-bot-vs-openclaw-how-i-replaced",
+        "seen": "2026-09-02",
+        "quote": "We review them both agentically and as humans."
+      },
+      {
+        "source": "https://clairevo.com/ai-workflows/open-sourcing-a-pr-review-agent-with-codex",
+        "seen": "2026-08-20",
+        "quote": "We had an agent at ChatPRD that reviews proposed code changes on GitHub."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Codex desktop app for coding; a Grok Bot fleet (moved from OpenClaw) that can launch Cursor cloud agents",
+    "short": "Codex app + bots",
+    "source": "https://www.lennysnewsletter.com/p/grok-bot-vs-openclaw-how-i-replaced",
+    "seen": "2026-09-02",
+    "quote": "I have killed all my open claws and moved almost entirely to GrokBot.",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": null,
+  "skills": null,
+  "mcp_servers": {
+    "value": [
+      "elevenlabs"
+    ],
+    "source": "https://www.lennysnewsletter.com/p/i-left-claude-for-months-opus-55",
+    "seen": "2026-09-22",
+    "quote": "is I've been using the Eleven Labs connector at MCP to cut selfie videos"
+  },
+  "hooks": null,
+  "signature": {
+    "value": "LGTM, the PR closer",
+    "kind": "tool",
+    "caption": "a bot that clears her PR queue",
+    "why": "Our pick: a bot she built that goes through her PRs every day, merges, closes, rebases and nudges, and hands fixes to Cursor agents.",
+    "editorial": true,
+    "source": "https://www.lennysnewsletter.com/p/grok-bot-vs-openclaw-how-i-replaced",
+    "seen": "2026-09-02",
+    "quote": "So I created Look Good To Me, the PR closer, which every day goes through... My PRs and sees what needs to be merged,"
+  },
+  "archetype": {
+    "value": "Orchestrator",
+    "editorial": true,
+    "why": "Splits work across Codex and Claude and runs a fleet of bots that hand off coding jobs."
+  },
+  "signature_quote": {
+    "value": "I embrace a token abundance mindset.",
+    "more": "I'm starting to spend a lot of money on models,",
+    "source": "https://www.lennysnewsletter.com/p/claude-opus-46-vs-gpt-53-codex-how",
+    "seen": "2026-02-11"
+  }
+}

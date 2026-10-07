@@ -1,0 +1,254 @@
+{
+  "schema": 2,
+  "handle": "steipete",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Peter Steinberger",
+    "source": "https://github.com/steipete"
+  },
+  "x": {
+    "value": "steipete",
+    "source": "https://x.com/steipete"
+  },
+  "github": {
+    "value": "steipete",
+    "source": "https://github.com/steipete"
+  },
+  "site": {
+    "value": "https://steipete.me",
+    "source": "https://github.com/steipete"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/58493?v=4",
+    "source": "https://github.com/steipete"
+  },
+  "known_for": {
+    "value": "OpenClaw, ex-PSPDFKit",
+    "source": "https://github.com/steipete"
+  },
+  "agents": [
+    {
+      "name": "OpenClaw",
+      "icon": null,
+      "role": "his own harness, runs Codex",
+      "surface": "web",
+      "source": "https://x.com/steipete/status/2102641364681048328",
+      "seen": "2026-09-23",
+      "quote": "I use OpenClaw (which uses Codex) and web sessions. Better UI, anywhere available since it’s on the web and has cloud sessions!",
+      "also": [
+        {
+          "source": "https://x.com/steipete/status/2103868743495631090",
+          "seen": "2026-09-26",
+          "quote": "I don’t use Claude. It’s Codex and OC harness."
+        }
+      ]
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "runs inside OpenClaw",
+      "surface": "app",
+      "source": "https://x.com/steipete/status/2066458041478709276",
+      "seen": "2026-06-15",
+      "quote": "cmux but more and more codex mac. thread management, app shots etc are killer",
+      "history": [
+        {
+          "value": "Codex CLI only",
+          "surface": "cli",
+          "source": "https://steipete.me/posts/just-talk-to-it",
+          "seen": "2025-10-14",
+          "quote": "I've completely moved to codex cli as daily driver."
+        },
+        {
+          "value": "Codex app over CLI",
+          "surface": "app",
+          "source": "https://x.com/steipete/status/2030330442520445371",
+          "seen": "2026-03-07",
+          "quote": "Oh right i realize hell freezes over, we reached the point where app > cli"
+        },
+        {
+          "value": "Codex CLI in cmux for coding, Codex app for reading",
+          "surface": "cli",
+          "source": "https://x.com/steipete/status/2058093406874689770",
+          "seen": "2026-05-23",
+          "quote": "current split:\ncodex mac app: knowledege work, learning, reading\ncmux + codex cli: coding"
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "GPT-6 Astra",
+      "icon": "openai",
+      "detail": "high, fast tier",
+      "source": "https://github.com/steipete/agent-scripts/blob/79150cfac4a6ba4df13cf30176bf2db85170ae6c/skills/codex-first/SKILL.md#L10-L11",
+      "seen": "2026-10-04",
+      "quote": "Default every Codex worker, fresh or resumed, to GPT-6 Astra, high reasoning, Fast service tier",
+      "history": [
+        {
+          "value": "gpt-5.2-codex high",
+          "source": "https://steipete.me/posts/2025/shipping-at-inference-speed",
+          "seen": "2025-12-28",
+          "quote": "My go-to model is gpt-5.2-codex high. Again, KISS."
+        }
+      ]
+    }
+  ],
+  "review_style": {
+    "value": "Codex reviews every commit",
+    "source": "https://github.com/steipete/agent-scripts/blob/79150cfac4a6ba4df13cf30176bf2db85170ae6c/AGENTS.MD#L83",
+    "seen": "2026-10-02",
+    "quote": "Before every commit/land: $autoreview until no accepted/actionable finding. Always prefer Codex for autoreview, independent of environment.",
+    "kind": "agent-reviews",
+    "also": [
+      {
+        "source": "https://github.com/steipete/agent-scripts/blob/79150cfac4a6ba4df13cf30176bf2db85170ae6c/AGENTS.MD#L71",
+        "seen": "2026-10-02",
+        "quote": "PR quality: assume generated code may come from weaker AI. Review/improve before land; full rewrite okay when cleaner."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Terminal, Claude Code over Codex, worktrees",
+    "short": "worktrees",
+    "source": "https://github.com/steipete/agent-scripts/blob/79150cfac4a6ba4df13cf30176bf2db85170ae6c/AGENTS.MD#L107",
+    "seen": "2026-10-02",
+    "quote": "Create and use task-owned Git worktrees or isolated checkouts whenever useful, without confirmation.",
+    "history": [
+      {
+        "value": "No worktrees, one dev server",
+        "source": "https://steipete.me/posts/just-talk-to-it",
+        "seen": "2025-10-14",
+        "quote": "Why not worktrees? I run one dev server, as I evolve my project I click through it and test multiple changes at once."
+      }
+    ]
+  },
+  "parallelism": {
+    "value": 8,
+    "short": "8 lanes",
+    "source": "https://github.com/steipete/agent-scripts/blob/79150cfac4a6ba4df13cf30176bf2db85170ae6c/skills/codex-first/SKILL.md#L14-L15",
+    "seen": "2026-10-04",
+    "quote": "a 2026-09-27 campaign ran eight lanes for hours",
+    "history": [
+      {
+        "value": "3-8 in a 3x3 terminal grid",
+        "source": "https://steipete.me/posts/just-talk-to-it",
+        "seen": "2025-10-14",
+        "quote": "I run between 3-8 in parallel in a 3x3 terminal grid"
+      }
+    ]
+  },
+  "rules_files": {
+    "value": "AGENTS.MD (119 lines), linked into both agents",
+    "short": "AGENTS.md",
+    "url": "https://github.com/steipete/agent-scripts/blob/79150cfac4a6ba4df13cf30176bf2db85170ae6c/AGENTS.MD",
+    "source": "https://github.com/steipete/agent-scripts/blob/79150cfac4a6ba4df13cf30176bf2db85170ae6c/README.md#L65-L67",
+    "seen": "2026-09-13",
+    "quote": "~/.codex/AGENTS.md -> ~/Projects/agent-scripts/AGENTS.MD\n~/.claude/CLAUDE.md -> ~/Projects/agent-scripts/AGENTS.MD"
+  },
+  "skills": {
+    "value": [
+      "agent-transcript",
+      "autoreview",
+      "beeper",
+      "behavior-validator",
+      "birdclaw",
+      "browser-use",
+      "clawsweeper-status",
+      "clickclack",
+      "cloudflare-registrar",
+      "codex-debugging",
+      "codex-first",
+      "codex-huge-context",
+      "codexbar",
+      "crabbox",
+      "create-cli",
+      "discord-clawd",
+      "discrawl",
+      "domain-dns-ops",
+      "fleet-maintenance",
+      "frontend-design",
+      "gitcrawl",
+      "github-author-context",
+      "github-cache-hygiene",
+      "github-deep-review",
+      "github-project-triage",
+      "gog",
+      "graincrawl",
+      "handoff",
+      "hopper-debugger",
+      "imsg",
+      "instruments-profiling",
+      "mac-maintenance",
+      "maintainer-orchestrator",
+      "markdown-converter",
+      "nano-banana-pro",
+      "native-app-performance",
+      "notcrawl",
+      "npm",
+      "obsidian",
+      "openai-image-gen",
+      "openclaw-relay",
+      "oracle",
+      "peekaboo",
+      "project-structure",
+      "release-mac-app",
+      "release-tweets",
+      "reminders",
+      "remote-mac",
+      "session-viewer",
+      "skill-cleaner",
+      "slacrawl",
+      "sonos",
+      "speaking",
+      "ssh-doctor",
+      "swift-concurrency-expert",
+      "swiftui-liquid-glass",
+      "swiftui-performance-audit",
+      "swiftui-view-refactor",
+      "telecrawl",
+      "things-todo",
+      "twilio-sms",
+      "video-transcript-downloader",
+      "vm-lab",
+      "wacli",
+      "wacrawl",
+      "whatsapp",
+      "wrangler",
+      "xcode-sync",
+      "xurl"
+    ],
+    "count": 69,
+    "featured": [
+      "autoreview",
+      "codex-first",
+      "oracle"
+    ],
+    "source": "https://github.com/steipete/agent-scripts/tree/79150cfac4a6ba4df13cf30176bf2db85170ae6c/skills",
+    "seen": "2026-10-04"
+  },
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "$autoreview",
+    "kind": "skill",
+    "caption": "before every commit",
+    "why": "Our pick: a review skill that must pass before anything lands.",
+    "editorial": true,
+    "source": "https://github.com/steipete/agent-scripts/blob/79150cfac4a6ba4df13cf30176bf2db85170ae6c/AGENTS.MD#L83",
+    "seen": "2026-10-02",
+    "quote": "Before every commit/land: $autoreview until no accepted/actionable finding. Always prefer Codex for autoreview, independent of environment."
+  },
+  "archetype": {
+    "value": "Orchestrator",
+    "editorial": true,
+    "why": "Runs Codex through his own harness, eight lanes at a time."
+  },
+  "signature_quote": {
+    "value": "These days I don't read much code anymore.",
+    "more": "I watch the stream and sometimes look at key parts, but I gotta be honest - most code I don't read.",
+    "source": "https://steipete.me/posts/2025/shipping-at-inference-speed",
+    "seen": "2025-12-28"
+  }
+}

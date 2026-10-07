@@ -1,0 +1,122 @@
+{
+  "schema": 2,
+  "handle": "sqs",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Quinn Slack",
+    "source": "https://github.com/sqs"
+  },
+  "x": {
+    "value": "sqs",
+    "source": "https://x.com/sqs"
+  },
+  "github": {
+    "value": "sqs",
+    "source": "https://github.com/sqs"
+  },
+  "site": {
+    "value": "https://slack.org",
+    "source": "https://github.com/sqs"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/1976?v=4",
+    "source": "https://github.com/sqs"
+  },
+  "known_for": {
+    "value": "Co-founded Amp and Sourcegraph",
+    "source": "https://sourcegraph.com/blog/why-sourcegraph-and-amp-are-becoming-independent-companies"
+  },
+  "agents": [
+    {
+      "name": "Amp",
+      "icon": "amp",
+      "role": "primary, in cloud orbs",
+      "surface": "web",
+      "surface_source": {
+        "source": "https://ampcode.com/time-capsules/1",
+        "seen": "2026-07-27",
+        "quote": "as recently as like a month ago, I had like five different worktrees on my machine and I had a way to make their dev servers run independently, but it like, it was so messy. Now with orbs, it just works."
+      },
+      "source": "https://ampcode.com/podcast/season-02/episode-04",
+      "seen": "2026-09-11",
+      "quote": "these days I'm really only using Amp, which is F2, and Chrome, which is F5"
+    }
+  ],
+  "models": [
+    {
+      "name": "Amp Dial: medium",
+      "icon": "amp",
+      "detail": "high for tricky tasks",
+      "source": "https://ampcode.com/time-capsules/1",
+      "seen": "2026-07-27",
+      "quote": "I'll do it in an orb. I think medium is probably fine for this",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Agent reviews first, he scans diffs for red flags",
+    "source": "https://ampcode.com/podcast/season-02/episode-02",
+    "seen": "2026-08-11",
+    "quote": "Yeah. It's tough because I still draw a lot on my background as a developer when I have the agent review the code and it makes, you know, I probably accept two-thirds of its suggestions.",
+    "kind": "agent-reviews",
+    "also": [
+      {
+        "source": "https://ampcode.com/podcast/season-02/episode-02",
+        "seen": "2026-08-11",
+        "quote": "it's not that I'm reviewing it in the old way where I care about like the totality of the code, but I'm looking for like red flags,"
+      },
+      {
+        "source": "https://ampcode.com/time-capsules/1",
+        "seen": "2026-07-27",
+        "quote": "it's very rare that I will ship something without reviewing the code. I'll do that if it's something that users will not touch, if it's like analysis code, or if it's purely visual"
+      },
+      {
+        "source": "https://ampcode.com/podcast/season-02/episode-01",
+        "seen": "2026-07-17",
+        "quote": "Actually so that's another thing. We push to main."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Amp threads in cloud orbs, previews in portals",
+    "short": "orbs",
+    "source": "https://ampcode.com/time-capsules/1",
+    "seen": "2026-07-27",
+    "quote": "as recently as like a month ago, I had like five different worktrees on my machine and I had a way to make their dev servers run independently, but it like, it was so messy. Now with orbs, it just works.",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "AGENTS.md (20 lines) in qdiff",
+    "short": "AGENTS.md",
+    "url": "https://github.com/sqs/qdiff/blob/6864ee32171e2affd27ce86de5835256764a3ca6/AGENTS.md",
+    "source": "https://github.com/sqs/qdiff/blob/6864ee32171e2affd27ce86de5835256764a3ca6/AGENTS.md#L9",
+    "seen": "2025-11-15",
+    "quote": "- **Type**: TUI Git client (Magit clone)."
+  },
+  "skills": null,
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "\"I'm feeling Pucky\" button",
+    "kind": "tool",
+    "caption": "starts half their work",
+    "why": "Our pick: a Slack button that turns a bug report into an agent thread with one click, and he says about half the team's work starts there.",
+    "editorial": true,
+    "source": "https://ampcode.com/podcast/season-02/episode-05",
+    "seen": "2026-09-25",
+    "quote": "It'll show up in our Slack, and we've got a ‘I'm feeling Pucky’ button and a ‘I'm feeling ultra Pucky’ button. And we click, and that kicks off a thread. And that is the start of about half of our work right now, and it has created this virtuous cycle."
+  },
+  "archetype": {
+    "value": "Orchestrator",
+    "editorial": true,
+    "why": "Ideas and bugs fan out to Amp threads in orbs. He scans the results for red flags."
+  },
+  "signature_quote": {
+    "value": "the principle here is the agent's time is cheap.",
+    "more": "Your time is sacred. So make it do the work to help you verify.",
+    "source": "https://ampcode.com/time-capsules/1",
+    "seen": "2026-07-27"
+  }
+}

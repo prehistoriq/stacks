@@ -1,0 +1,141 @@
+{
+  "schema": 2,
+  "handle": "mrnugget",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Thorsten Ball",
+    "source": "https://github.com/mrnugget"
+  },
+  "x": {
+    "value": "thorstenball",
+    "source": "https://github.com/mrnugget"
+  },
+  "github": {
+    "value": "mrnugget",
+    "source": "https://github.com/mrnugget"
+  },
+  "site": {
+    "value": "https://thorstenball.com",
+    "source": "https://github.com/mrnugget"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/1185253?v=4",
+    "source": "https://github.com/mrnugget"
+  },
+  "known_for": {
+    "value": "Amp co-founder, interpreter book",
+    "source": "https://thorstenball.com/"
+  },
+  "agents": [
+    {
+      "name": "Amp",
+      "icon": "amp",
+      "role": "primary (co-founder)",
+      "surface": "web",
+      "source": "https://registerspill.thorstenball.com/p/joy-and-curiosity-100",
+      "seen": "2026-09-20",
+      "quote": "I had Amp build a little Copilot-style autocomplete for a shell, with Jev picking the next most likely command from shell history.",
+      "history": [],
+      "surface_source": {
+        "source": "https://registerspill.thorstenball.com/p/joy-and-curiosity-95",
+        "seen": "2026-08-16",
+        "quote": "I have not used my local development environment for any of this. I’ve done all of this remotely, using Amp, in orbs."
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "Fable 5.1",
+      "icon": "claude",
+      "source": "https://registerspill.thorstenball.com/p/joy-and-curiosity-99",
+      "seen": "2026-09-12",
+      "quote": "Something changed with these latest models, with Fable 5.1 and GPT-6 Astra.",
+      "history": [
+        {
+          "value": "Opus 4.7 (Amp smart mode)",
+          "source": "https://registerspill.thorstenball.com/p/joy-and-curiosity-83",
+          "seen": "2026-04-26",
+          "quote": "Amp’s smart mode now uses Opus 4.7. I think it’s a great model. I now often switch between smart and deep mode. One plans, the other reviews, and vice versa."
+        }
+      ],
+      "inferred": true
+    },
+    {
+      "name": "GPT-6 Astra",
+      "icon": "openai",
+      "source": "https://registerspill.thorstenball.com/p/joy-and-curiosity-99",
+      "seen": "2026-09-12",
+      "quote": "Something changed with these latest models, with Fable 5.1 and GPT-6 Astra.",
+      "history": [
+        {
+          "value": "GPT-5.3-Codex (Amp deep mode)",
+          "source": "https://registerspill.thorstenball.com/p/joy-and-curiosity-78",
+          "seen": "2026-03-15",
+          "quote": "If you still think Opus 4.6 is the peak, try deep mode in Amp, which uses GPT-5.3-Codex right now."
+        }
+      ],
+      "inferred": true
+    }
+  ],
+  "review_style": {
+    "value": "Spot checks and architecture, not every line",
+    "source": "https://registerspill.thorstenball.com/p/joy-and-curiosity-95",
+    "seen": "2026-08-16",
+    "quote": "And for all of the things I shipped here, I didn’t review each line anyway. I do spot checks and make sure the architecture is right, yes, but do I need local tools for that? No.",
+    "kind": "spot-checks",
+    "also": [
+      {
+        "source": "https://registerspill.thorstenball.com/p/joy-and-curiosity-83",
+        "seen": "2026-04-26",
+        "quote": "I now often switch between smart and deep mode. One plans, the other reviews, and vice versa."
+      },
+      {
+        "source": "https://registerspill.thorstenball.com/p/joy-and-curiosity-87",
+        "seen": "2026-05-24",
+        "quote": "I’ve finally started to use hunk to review diffs before making commits."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Amp agents in remote orbs, no local dev environment",
+    "short": "orbs",
+    "source": "https://registerspill.thorstenball.com/p/joy-and-curiosity-95",
+    "seen": "2026-08-16",
+    "quote": "I have not used my local development environment for any of this. I’ve done all of this remotely, using Amp, in orbs.",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "AGENT.md in his dotfiles (26 lines)",
+    "short": "AGENT.md",
+    "url": "https://github.com/mrnugget/dotfiles/blob/72270ffcb997eafeeb46112f5a12adcdf2493afa/AGENT.md",
+    "source": "https://github.com/mrnugget/dotfiles/blob/72270ffcb997eafeeb46112f5a12adcdf2493afa/AGENT.md#L1-L4",
+    "seen": "2025-05-26",
+    "quote": "# Agent Instructions for dotfiles repository\n\n## Build/Install Commands\n- `make all` - Install all dotfiles as symlinks in home directory"
+  },
+  "skills": null,
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "“Irrefutable proof”",
+    "kind": "habit",
+    "caption": "video proof, not line reads",
+    "why": "Our pick: rather than read the diff, he asks the agent in its orb to prove the work end to end, often with a video.",
+    "editorial": true,
+    "source": "https://registerspill.thorstenball.com/p/joy-and-curiosity-99",
+    "seen": "2026-09-12",
+    "quote": "“I want you to go and test this end-to-end, I don’t care how, and give me irrefutable proof that this works. Dazzle me. Give me a video as proof, or something.”"
+  },
+  "archetype": {
+    "value": "Orchestrator",
+    "editorial": true,
+    "why": "Runs Amp agents in remote orbs that start and check on other agents. He spot-checks the results."
+  },
+  "signature_quote": {
+    "value": "These agents in orbs now look like async functions to me, less like remote controlled agents.",
+    "more": "Async is the point.",
+    "source": "https://registerspill.thorstenball.com/p/joy-and-curiosity-90",
+    "seen": "2026-07-04"
+  }
+}

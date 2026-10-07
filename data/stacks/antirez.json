@@ -1,0 +1,190 @@
+{
+  "schema": 2,
+  "handle": "antirez",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Salvatore Sanfilippo (antirez)",
+    "source": "https://github.com/antirez"
+  },
+  "x": {
+    "value": "antirez",
+    "source": "https://github.com/antirez"
+  },
+  "github": {
+    "value": "antirez",
+    "source": "https://github.com/antirez"
+  },
+  "site": {
+    "value": "https://antirez.com",
+    "source": "https://antirez.com"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/65632?v=4",
+    "source": "https://github.com/antirez"
+  },
+  "known_for": {
+    "value": "Redis creator, DwarfStar (ds4)",
+    "source": "https://en.wikipedia.org/wiki/Salvatore_Sanfilippo"
+  },
+  "agents": [
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "primary",
+      "surface": "cli",
+      "source": "https://antirez.com/news/164",
+      "seen": "2026-05-04",
+      "quote": "I started writing for days a long specification by hand, then I paired with Opus initially, then GPT 5.3 was released and I switched all the design and development with Codex. Since then I use only GPT 5.x for system programming tasks.",
+      "history": [
+        {
+          "value": "No agents, chat only",
+          "surface": "web",
+          "source": "https://antirez.com/news/154",
+          "seen": "2025-07-20",
+          "quote": "The fundamental requirement for the LLM to be used is: don’t use agents or things like editor with integrated coding agents.",
+          "surface_source": {
+            "source": "https://antirez.com/news/154",
+            "seen": "2025-07-20",
+            "quote": "Always be part of the loop by moving code by hand from your terminal to the LLM web interface: this guarantees that you follow every process."
+          }
+        },
+        {
+          "value": "Web chat (Gemini, Claude)",
+          "surface": "web",
+          "source": "https://antirez.com/news/157",
+          "seen": "2025-12-20",
+          "quote": "The programming world is still split among who uses LLMs as colleagues (for instance, all my interaction is via the web interface of Gemini, Claude, …), and who uses LLMs as independent coding agents."
+        }
+      ],
+      "surface_source": {
+        "source": "https://github.com/antirez/tgterm/blob/51433ee538d740b013b117e4e5cbcebbddf86bc2/README.md#L5",
+        "seen": "2026-09-07",
+        "quote": "the content of your terminals arrives as messages: you can read them at any size, copy from them, and have them updated while a program runs. To type, you just write a Telegram message, that is what you need to work with Claude Code, Codex and other agents."
+      }
+    },
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "experiments, Max plan",
+      "surface": "cli",
+      "source": "https://antirez.com/news/160",
+      "seen": "2026-02-24",
+      "quote": "I thought it was time to try a similar experiment myself, one that would take one or two hours at max, and that was compatible with my Claude Code Max plan: I decided to write a Z80 emulator, and then a ZX Spectrum emulator (and even more, a CP/M emulator, see later) in a condition that I believe makes a more sense as “clean room” setup.",
+      "history": [],
+      "surface_source": {
+        "source": "https://github.com/antirez/tgterm/blob/51433ee538d740b013b117e4e5cbcebbddf86bc2/README.md#L5",
+        "seen": "2026-09-07",
+        "quote": "the content of your terminals arrives as messages: you can read them at any size, copy from them, and have them updated while a program runs. To type, you just write a Telegram message, that is what you need to work with Claude Code, Codex and other agents."
+      }
+    },
+    {
+      "name": "ds4-agent",
+      "icon": null,
+      "role": "his own, local",
+      "surface": "cli",
+      "source": "https://antirez.com/news/166",
+      "seen": "2026-05-19",
+      "quote": "I have the feeling I can decide which is better only with enough practical evidence, by using ds4-agent over multiple sessions with the two systems.",
+      "history": [],
+      "surface_source": {
+        "source": "https://github.com/antirez/ds4/blob/0aaea5a238fb41a35106a551e73c8409dfb751ac/QA_BEFORE_RELEASES.md#L7",
+        "seen": "2026-09-20",
+        "quote": "agent TUI/tool state machine."
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "GPT 5.6 Sol",
+      "icon": "openai",
+      "detail": "builds",
+      "source": "https://antirez.com/news/170",
+      "seen": "2026-07-22",
+      "quote": "Moreover, today I noticed how, thanks to the rails formed by the corpus of the code inside DwarfStar, the implementation was written in about two hours by GPT 5.6 Sol automatically.",
+      "history": [
+        {
+          "value": "Gemini 2.5 PRO (in chat)",
+          "source": "https://antirez.com/news/154",
+          "seen": "2025-07-20",
+          "quote": "If you can pick just one, go for Gemini 2.5 PRO."
+        },
+        {
+          "value": "GPT5.3-codex",
+          "source": "https://antirez.com/news/160",
+          "seen": "2026-02-24",
+          "quote": "With extensive documentation, I can’t see any way Claude Code (and, even more, GPT5.3-codex, which is in my experience, for complex stuff, more capable) could fail at producing a working assembler, since it is quite a mechanical process."
+        }
+      ]
+    },
+    {
+      "name": "Fable",
+      "icon": "claude",
+      "detail": "reviews",
+      "source": "https://antirez.com/news/169",
+      "seen": "2026-07-13",
+      "quote": "Fable and GPT 5.6 reviews to the sorted sets memory saving are going to spot ways more errors and subtle race conditions that my review is going to uncover.",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Still reviews Redis code, calls it mostly pointless",
+    "source": "https://antirez.com/news/169",
+    "seen": "2026-07-13",
+    "quote": "Yes, I do, but this is, at this point, something I *need* to do but that I believe to be mostly pointless, partially once GPT 5.5 was released, but now with Fable and GPT 5.6 Sol even more.",
+    "kind": "spot-checks",
+    "also": [
+      {
+        "source": "https://antirez.com/news/169",
+        "seen": "2026-07-13",
+        "quote": "Fable and GPT 5.6 reviews to the sorted sets memory saving are going to spot ways more errors and subtle race conditions that my review is going to uncover."
+      },
+      {
+        "source": "https://antirez.com/news/168",
+        "seen": "2026-06-07",
+        "quote": "The idea is to create a markdown file where an AI agent is asked to work as a QA engineer, performing a number of manual testings on the new release."
+      }
+    ],
+    "inferred": true
+  },
+  "harness": {
+    "value": "tmux / Terminal.app, driven from Telegram via tgterm",
+    "short": "tmux + Telegram",
+    "source": "https://github.com/antirez/tgterm/blob/51433ee538d740b013b117e4e5cbcebbddf86bc2/README.md#L9",
+    "seen": "2026-09-07",
+    "quote": "To type, you just write a Telegram message, that is what you need to work with Claude Code, Codex and other agents.",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "AGENT.md per repo, CLAUDE.md symlinked to it",
+    "short": "AGENT.md",
+    "url": "https://github.com/antirez/ds4/blob/297f750cda347d3a7b6012564ec8538fc4712a34/AGENT.md",
+    "source": "https://github.com/antirez/ds4/blob/297f750cda347d3a7b6012564ec8538fc4712a34/AGENT.md#L18",
+    "seen": "2026-06-05",
+    "quote": "Don't introduce slop: very fragile code that just patches specific cases, dead code, useless code and code ways more complicated of how it should be."
+  },
+  "skills": null,
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "QA_BEFORE_RELEASES.md",
+    "kind": "habit",
+    "caption": "an agent QA pass per release",
+    "why": "Our pick: a 2,088-line release gate an agent works through, which he credits with raising quality.",
+    "editorial": true,
+    "source": "https://antirez.com/news/168",
+    "seen": "2026-06-07",
+    "quote": "The idea is to create a markdown file where an AI agent is asked to work as a QA engineer, performing a number of manual testings on the new release."
+  },
+  "archetype": {
+    "value": "Toolsmith",
+    "editorial": true,
+    "why": "Builds his own agent, edit tool and Telegram terminal bridge."
+  },
+  "signature_quote": {
+    "value": "The point is: if you control the ideas of your software, looking at the code itself is suboptimal and often pointless.",
+    "source": "https://antirez.com/news/169",
+    "seen": "2026-07-13"
+  }
+}

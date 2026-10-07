@@ -1,0 +1,167 @@
+{
+  "schema": 2,
+  "handle": "tmcw",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Tom MacWright",
+    "source": "https://github.com/tmcw"
+  },
+  "x": null,
+  "github": {
+    "value": "tmcw",
+    "source": "https://github.com/tmcw"
+  },
+  "site": {
+    "value": "https://macwright.com",
+    "source": "https://github.com/tmcw"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/32314?v=4",
+    "source": "https://github.com/tmcw"
+  },
+  "known_for": {
+    "value": "Val Town, Placemark, ex-Mapbox",
+    "source": "https://macwright.com/about/"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary, from Neovim",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://macwright.com/2026/01/13/mind-changing",
+        "seen": "2026-01-13",
+        "quote": "Partly the watershed moment was the Claude Code form factor: in-editor AI suggestions are annoying and disruptive, whereas the CLI editor-lite direction is a lot better."
+      },
+      "source": "https://macwright.com/2026/03/18/effect-devlog",
+      "seen": "2026-03-18",
+      "quote": "Obligatory LLM discourse: my usual AI tool, Claude Code with Opus 4.6, is decent at using Effect but stumbles in the same places that the documentation is lacking",
+      "also": [
+        {
+          "source": "https://github.com/val-town/codemirror-json-schema/pull/2",
+          "seen": "2026-09-29",
+          "quote": "🤖 Generated with [Claude Code](https://claude.com/claude-code)"
+        }
+      ],
+      "history": [
+        {
+          "value": "Windsurf, a little",
+          "surface": "ide",
+          "source": "https://bsky.app/profile/macwright.com/post/3lqnrq2c7i22s",
+          "seen": "2025-06-02",
+          "quote": "i use AI \"a little bit\" (windsurf to write aws junk, chatgpt for silly questions) and it's not terrible, it's fairly good."
+        }
+      ]
+    },
+    {
+      "name": "Pi",
+      "icon": null,
+      "role": "security research",
+      "surface": null,
+      "source": "https://blog.val.town/security",
+      "seen": "2026-07-31",
+      "quote": "Swapped out Claude Code with Pi for these tasks. Added lazy-pi so it has subagents and todo lists and all kinds of gizmos."
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Sonnet 5",
+      "icon": "claude",
+      "detail": "in Claude Code",
+      "inferred": true,
+      "source": "https://github.com/val-town/codemirror-json-schema/commit/e3a1518c621d092502a0d86676f5c26ae0d75b1b",
+      "seen": "2026-09-29",
+      "quote": "Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>",
+      "history": [
+        {
+          "value": "Claude Opus 4.6",
+          "source": "https://macwright.com/2026/03/18/effect-devlog",
+          "seen": "2026-03-18",
+          "quote": "my usual AI tool, Claude Code with Opus 4.6, is decent at using Effect"
+        }
+      ]
+    },
+    {
+      "name": "GLM 5.2",
+      "icon": "zai",
+      "detail": "security research, via z.ai",
+      "source": "https://blog.val.town/security",
+      "seen": "2026-07-31",
+      "quote": "First, I use GLM 5.2 for security research.",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Careful human review of LLM fixes",
+    "source": "https://blog.val.town/security",
+    "seen": "2026-07-31",
+    "quote": "I've been using LLMs much more for remediation, with lots of careful human review involved.",
+    "kind": "unknown",
+    "also": [
+      {
+        "source": "https://macwright.com/2026/07/16/effect-update",
+        "seen": "2026-07-16",
+        "quote": "they still leave some refactoring debt where they call Effect.runPromise repeatedly instead of combining calls with Effect.gen."
+      },
+      {
+        "source": "https://macwright.com/2025/11/07/hallucination-city",
+        "seen": "2025-11-07",
+        "quote": "they'll leave their calling cards, like sloppy types, redundant methods, copypasta code, and comments."
+      }
+    ],
+    "inferred": true
+  },
+  "harness": {
+    "value": "Neovim (LazyVim) with coder/claudecode.nvim",
+    "short": "Neovim",
+    "source": "https://github.com/tmcw/nvim/blob/5c1ef283babf541b31ded623c77225fc614dc928/lua/plugins/claude.lua#L1-L2",
+    "seen": "2026-07-13",
+    "quote": "-- coder/claudecode.nvim: IDE-style Claude Code integration\n-- (diff review/approve, @-file mentions, send selection, etc.).",
+    "history": [
+      {
+        "value": "Neovim with greggh/claude-code.nvim",
+        "source": "https://github.com/tmcw/nvim/blob/d7b6b02d2892ecfc19eb009e8e3377c66042b65f/lua/plugins/claude.lua#L2",
+        "seen": "2025-10-30",
+        "quote": "\"greggh/claude-code.nvim\","
+      }
+    ]
+  },
+  "parallelism": null,
+  "rules_files": null,
+  "skills": {
+    "value": [
+      "Cloudflare security audit skill"
+    ],
+    "count": 1,
+    "featured": [
+      "Cloudflare security audit skill"
+    ],
+    "source": "https://blog.val.town/security",
+    "seen": "2026-07-31"
+  },
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "Pi on GLM 5.2",
+    "kind": "tool",
+    "caption": "as the security bug hunter",
+    "why": "Our pick: a cheap model that does not refuse security work, in a separate harness with Cloudflare's audit skill and a local OWASP cheatsheet checkout.",
+    "editorial": true,
+    "source": "https://blog.val.town/security",
+    "seen": "2026-07-31",
+    "quote": "Swapped out Claude Code with Pi for these tasks. Added lazy-pi so it has subagents and todo lists and all kinds of gizmos."
+  },
+  "archetype": {
+    "value": "Skeptic",
+    "editorial": true,
+    "why": "Uses Claude Code as his usual tool while writing that it isn't satisfying and has ethical problems."
+  },
+  "signature_quote": {
+    "value": "I feel deeply conflicted about it: it isn't satisfying to use, it has all these ethical problems, but it works really well.",
+    "more": "Only the highest-level models work well for writing code",
+    "source": "https://macwright.com/2026/01/13/mind-changing",
+    "seen": "2026-01-13"
+  }
+}

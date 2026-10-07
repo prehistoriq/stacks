@@ -1,0 +1,121 @@
+{
+  "schema": 2,
+  "handle": "kepano",
+  "status": "ok",
+  "checked": "2026-10-07",
+  "name": {
+    "value": "Steph Ango",
+    "source": "https://github.com/kepano"
+  },
+  "x": {
+    "value": "kepano",
+    "source": "https://x.com/kepano"
+  },
+  "github": {
+    "value": "kepano",
+    "source": "https://github.com/kepano"
+  },
+  "site": {
+    "value": "https://stephango.com",
+    "source": "https://github.com/kepano"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/10565871?v=4",
+    "source": "https://github.com/kepano"
+  },
+  "known_for": {
+    "value": "CEO of Obsidian",
+    "source": "https://stephango.com/now"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary (from his rules files)",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://x.com/kepano/status/2010786788152070587",
+        "seen": "2026-01-12",
+        "quote": "1. install Claude Code\n2. open your terminal of choice in your Obsidian vault folder\n3. run > claude command",
+        "inferred": true
+      },
+      "source": "https://x.com/kepano/status/2008578873903206895",
+      "seen": "2026-01-06",
+      "quote": "I'm starting a set of Claude Skills for Obsidian... so far they're centered around helping Claude Code edit .md, .base, and .canvas files",
+      "inferred": true
+    }
+  ],
+  "models": [],
+  "review_style": {
+    "value": "Recorded test output must be read; fixture must fail before the fix",
+    "source": "https://github.com/obsidianmd/obsidian-importer/blob/9abfc21ce41f41e2fd9f3db7a343026f571d19b7/CLAUDE.md#L101",
+    "seen": "2026-08-26",
+    "quote": "This writes the output and **fails intentionally**. Read the new files or `git diff`, then rerun without `UPDATE_EXPECTED`. A recording that nobody reviews is not a useful check.",
+    "kind": "unknown",
+    "inferred": true,
+    "also": [
+      {
+        "source": "https://github.com/obsidianmd/obsidian-help/blob/ec32d3964634686f60707b56827abf98f5d49423/.claude/skills/obsidian-publish-all/SKILL.md#L25",
+        "seen": "2026-03-30",
+        "quote": "Always run `--dry-run` first so the user can review the changeset before publishing."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Agent verifies changes in the running Obsidian app through Obsidian CLI",
+    "short": "Obsidian CLI",
+    "source": "https://github.com/obsidianmd/obsidian-importer/blob/9abfc21ce41f41e2fd9f3db7a343026f571d19b7/CLAUDE.md#L128",
+    "seen": "2026-08-26",
+    "quote": "The check requires the Obsidian CLI, the plugin enabled in the target vault, and the current source built and deployed there. It uses `E2E_VAULT` when set; otherwise it derives the vault from `OBSIDIAN_PATH`. It writes `_e2e-check` and trashes that folder after the run.",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "AGENTS.md in Defuddle (CLAUDE.md until 2026-09-20), 188-line CLAUDE.md in Obsidian Importer",
+    "short": "AGENTS.md",
+    "url": "https://github.com/kepano/defuddle/blob/49d14ecc4089696565c2479b2f57db72be199adc/AGENTS.md",
+    "source": "https://github.com/kepano/defuddle/blob/49d14ecc4089696565c2479b2f57db72be199adc/AGENTS.md#L19",
+    "seen": "2026-09-20",
+    "quote": "Always use `curl` to test the Worker or defuddle.md; never open those URLs in a browser."
+  },
+  "skills": {
+    "value": [
+      "obsidian-de-style",
+      "obsidian-ko-style",
+      "obsidian-localize-new",
+      "obsidian-localize-update",
+      "obsidian-publish-all"
+    ],
+    "count": 5,
+    "featured": [
+      "obsidian-localize-update",
+      "obsidian-localize-new",
+      "obsidian-publish-all"
+    ],
+    "source": "https://github.com/obsidianmd/obsidian-help/tree/ec32d3964634686f60707b56827abf98f5d49423/.claude/skills",
+    "seen": "2026-03-30"
+  },
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "Fail-first fixtures",
+    "kind": "rule",
+    "caption": "before every extraction fix",
+    "why": "Our pick: his rules make the agent prove a bug with a failing fixture before fixing it, and forbid editing expectations to fit.",
+    "editorial": true,
+    "source": "https://github.com/kepano/defuddle/blob/49d14ecc4089696565c2479b2f57db72be199adc/AGENTS.md#L17",
+    "seen": "2026-09-20",
+    "quote": "For extraction fixes, add a minimal HTML fixture in `tests/fixtures/` with correct expected output in `tests/expected/`. Verify the same fixture fails before the fix and passes afterward; do not change expectations to match buggy behavior."
+  },
+  "archetype": {
+    "value": "Rules Lawyer",
+    "editorial": true,
+    "why": "Writes long, precise rules files (security, fail-first fixtures, reviewed recordings) for the repos he codes in."
+  },
+  "signature_quote": {
+    "value": "As hyped as Claude Code + Obsidian is, I have no desire to upload my personal unencrypted vault data to Anthropic or anyone else.",
+    "more": "I hope that the ideas of private inference and confidential computing that @moxie described take off. It's how all LLMs should work.",
+    "source": "https://x.com/kepano/status/2011114444051394801",
+    "seen": "2026-01-13"
+  }
+}

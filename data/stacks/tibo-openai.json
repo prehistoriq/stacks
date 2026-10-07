@@ -1,0 +1,169 @@
+{
+  "schema": 2,
+  "handle": "tibo-openai",
+  "status": "ok",
+  "checked": "2026-10-07",
+  "name": {
+    "value": "Thibault Sottiaux",
+    "source": "https://github.com/tibo-openai"
+  },
+  "x": {
+    "value": "thsottiaux",
+    "source": "https://x.com/thsottiaux"
+  },
+  "github": {
+    "value": "tibo-openai",
+    "source": "https://github.com/tibo-openai"
+  },
+  "site": null,
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/177053821?v=4",
+    "source": "https://github.com/tibo-openai"
+  },
+  "known_for": {
+    "value": "Codex & ChatGPT at OpenAI",
+    "source": "https://x.com/thsottiaux"
+  },
+  "agents": [
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "primary, Codex app on Mac",
+      "surface": "app",
+      "source": "https://x.com/thsottiaux/status/2068144722460475527",
+      "seen": "2026-06-20",
+      "quote": "These days I spend more time in the codex app than all other apps combined on my Mac.",
+      "history": [
+        {
+          "value": "Codex CLI",
+          "surface": "cli",
+          "source": "https://x.com/thsottiaux/status/2014679156215448040",
+          "seen": "2026-01-23",
+          "quote": "You can now /fork conversations in Codex CLI to try something else without affecting the main session. I often use it to try different alternatives or to chat about a session without impacting it."
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "GPT-5.6 Sol",
+      "icon": "openai",
+      "source": "https://x.com/thsottiaux/status/2085597685948813610",
+      "seen": "2026-08-07",
+      "quote": "I talk to it for 5 minutes straight with things that just seem to require weeks of work, get up to get something in the fridge, pet the dog, come back and ... it's done.",
+      "history": [
+        {
+          "value": "GPT-5.2-Codex, medium default, xhigh in background",
+          "source": "https://x.com/thsottiaux/status/2005564827360809232",
+          "seen": "2025-12-29",
+          "quote": "This is why I recommend using medium as your default and using xhigh for background multitasking."
+        },
+        {
+          "value": "GPT-5.5",
+          "source": "https://x.com/thsottiaux/status/2050395190847066270",
+          "seen": "2026-05-02",
+          "quote": "I've had the best experience with GPT-5.5 so far, it's night and day compared to two weeks ago."
+        }
+      ]
+    },
+    {
+      "name": "GPT-6 Astra",
+      "icon": "openai",
+      "source": "https://x.com/thsottiaux/status/2097193293532848288",
+      "seen": "2026-09-08",
+      "inferred": true,
+      "quote": "Looking at this 28 page deck right now where Codex is keeping track of all the individual launches. Each one of them I can't wait to see what people do with it.\n\nBrought to you by an incredible team (and Astra)",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Reviews what the agent presents; uses a fast model to understand code, never delegates understanding",
+    "kind": "unknown",
+    "inferred": true,
+    "source": "https://every.to/podcast/transcript-how-openai-s-codex-team-uses-their-coding-agent",
+    "seen": "2026-02-18",
+    "quote": "You cannot delegate understanding—you’re trying to get to understanding something, and speed there is a real advantage.",
+    "also": [
+      {
+        "source": "https://every.to/podcast/transcript-how-openai-s-codex-team-uses-their-coding-agent",
+        "seen": "2026-02-18",
+        "quote": "You’re already reviewing the code the first time because the agent presents it to you, and then you have to review code produced by your peers. There are two rounds of review."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Codex app with scheduled automations driven by skills; one fast in-flow thread",
+    "short": "automations",
+    "source": "https://every.to/podcast/transcript-how-openai-s-codex-team-uses-their-coding-agent",
+    "seen": "2026-02-18",
+    "quote": "Now I can do less multitasking and stay more in the flow. That felt really good.\nIt also feels satisfying to kick off automations using skills.",
+    "history": [
+      {
+        "value": "Long-running parallel tasks",
+        "source": "https://every.to/podcast/transcript-how-openai-s-codex-team-uses-their-coding-agent",
+        "seen": "2026-02-18",
+        "quote": "I’d been optimizing for long-running, multitasking workflows—this task will take 10 or 15 minutes, I’ll kick off four different things and come back."
+      }
+    ]
+  },
+  "parallelism": {
+    "value": 4,
+    "short": "4 tasks",
+    "source": "https://every.to/podcast/transcript-how-openai-s-codex-team-uses-their-coding-agent",
+    "seen": "2026-02-18",
+    "quote": "I’d been optimizing for long-running, multitasking workflows—this task will take 10 or 15 minutes, I’ll kick off four different things and come back.",
+    "history": []
+  },
+  "rules_files": null,
+  "skills": {
+    "value": [
+      "ask-questions-if-underspecified",
+      "daily marketing-research skill"
+    ],
+    "count": 2,
+    "featured": [
+      "ask-questions-if-underspecified"
+    ],
+    "source": "https://x.com/thsottiaux/status/2006624682515247604",
+    "seen": "2026-01-01",
+    "quote": "also codified it a bit more in a `$ask-questions-if-underspecified` skill that I use regularly.",
+    "also": [
+      {
+        "source": "https://every.to/podcast/transcript-how-openai-s-codex-team-uses-their-coding-agent",
+        "seen": "2026-02-18",
+        "quote": "It runs daily with a specific skill I’ve tuned over time to do deep marketing research."
+      }
+    ]
+  },
+  "mcp_servers": {
+    "value": [
+      "linear"
+    ],
+    "source": "https://every.to/podcast/transcript-how-openai-s-codex-team-uses-their-coding-agent",
+    "seen": "2026-02-18",
+    "inferred": true,
+    "quote": "I find it much more reliable for things like going through Twitter replies and summarizing important themes, or filing bugs in Linear and using automation so things get implemented daily."
+  },
+  "hooks": null,
+  "signature": {
+    "value": "Random-file bug hunt",
+    "kind": "tool",
+    "caption": "automation, several times a day",
+    "why": "Our pick: a scheduled Codex automation literally runs Python random to pick a file, then finds and fixes a latent bug in it.",
+    "editorial": true,
+    "source": "https://every.to/podcast/transcript-how-openai-s-codex-team-uses-their-coding-agent",
+    "seen": "2026-02-18",
+    "quote": "One automation I have runs multiple times a day. It picks a random file and finds and fixes a subtle bug. It actually does pick a random file—it runs Python random, finds a file, and starts from there."
+  },
+  "archetype": {
+    "value": "Orchestrator",
+    "editorial": true,
+    "why": "Scheduled automations hunt bugs and research Codex chatter while he steers one fast thread."
+  },
+  "signature_quote": {
+    "value": "You cannot delegate understanding",
+    "more": "you’re trying to get to understanding something, and speed there is a real advantage.",
+    "source": "https://every.to/podcast/transcript-how-openai-s-codex-team-uses-their-coding-agent",
+    "seen": "2026-02-18"
+  }
+}

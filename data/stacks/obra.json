@@ -1,0 +1,196 @@
+{
+  "schema": 2,
+  "handle": "obra",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Jesse Vincent",
+    "source": "https://github.com/obra"
+  },
+  "x": null,
+  "github": {
+    "value": "obra",
+    "source": "https://github.com/obra"
+  },
+  "site": {
+    "value": "https://blog.fsck.com",
+    "source": "https://blog.fsck.com/about/"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/45416?v=4",
+    "source": "https://github.com/obra"
+  },
+  "known_for": {
+    "value": "Superpowers, Keyboardio, K-9 Mail",
+    "source": "https://blog.fsck.com/about/"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary",
+      "surface": "cli",
+      "source": "https://blog.fsck.com/2026/10/02/a-quick-trip-to-the-uncanny-valley/",
+      "seen": "2026-10-02",
+      "quote": "My desktop Claude Code instances use a Slack account labeled as '@jesse-claude'.",
+      "history": [],
+      "surface_source": {
+        "source": "https://blog.fsck.com/2026/07/03/clipfan/",
+        "seen": "2026-07-03",
+        "quote": "For the last few months, that has meant running my coding agents in tmux on either a remote Mac or a remote Linux server."
+      }
+    },
+    {
+      "name": "Evener",
+      "icon": null,
+      "role": "own harness, long /goal runs",
+      "surface": null,
+      "source": "https://blog.fsck.com/2026/08/21/i-vibe-coded-a-c-compiler/",
+      "seen": "2026-08-21",
+      "quote": "Last night, as I was getting ready for bed I was reaching for some project to /loop support and tool use in Evener, our ~new agentic harness.",
+      "history": []
+    },
+    {
+      "name": "Muse",
+      "icon": null,
+      "role": "web browsing",
+      "surface": null,
+      "source": "https://blog.fsck.com/2026/09/29/I-asked-muse-to-tell-me-about-updates-to-its-skills/",
+      "seen": "2026-09-29",
+      "quote": "Muse feels really well put together. It's not my only agent, but I find myself actually using it.",
+      "history": []
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Opus",
+      "icon": "claude",
+      "detail": "coordinator",
+      "source": "https://blog.fsck.com/2026/06/15/Superpowers-6/",
+      "seen": "2026-06-15",
+      "quote": "/goal once this is done, run an autoresearch loop to improve cost-efficiency of the superpowers build loop. test with opus as the coordinator.",
+      "history": []
+    },
+    {
+      "name": "Claude Haiku",
+      "icon": "claude",
+      "detail": "implementer subagents",
+      "source": "https://blog.fsck.com/2026/03/09/superpowers-5/",
+      "seen": "2026-03-09",
+      "quote": "With the detailed plans produced through the brainstorming + writing plans process, it's not uncommon to be able to use Claude Haiku for implementation.",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Agent sessions do adversarial review",
+    "source": "https://blog.fsck.com/2026/10/02/a-quick-trip-to-the-uncanny-valley/",
+    "seen": "2026-10-02",
+    "quote": "Sometimes, that means that a human colleague or I look over their work, but more often, it means that one of my coding agent sessions does the deep adversarial review.",
+    "kind": "agent-reviews",
+    "also": [
+      {
+        "source": "https://github.com/obra/dotfiles/blob/6ebb5ba848526b2bfd5b5ab3cb30741ff32c4447/.claude/commands/par.md#L1",
+        "seen": "2026-05-29",
+        "quote": "Assign two subagents to review your work adversarially. Tell them that whoever finds the largest number of legitimate significant issues gets 5 points."
+      },
+      {
+        "source": "https://blog.fsck.com/2026/06/15/Superpowers-6/",
+        "seen": "2026-06-15",
+        "quote": "the orchestrator inside Superpowers reviews every single change on two axes:"
+      },
+      {
+        "source": "https://github.com/obra/dotfiles/blob/4849bad8b9bb02ac49abf78754d8e0351343a060/.claude/CLAUDE.md#L100",
+        "seen": "2026-08-08",
+        "quote": "Complete all steps, including reviews, for every change."
+      }
+    ]
+  },
+  "harness": {
+    "value": "tmux on remote Mac and Linux boxes",
+    "short": "remote tmux",
+    "source": "https://blog.fsck.com/2026/07/03/clipfan/",
+    "seen": "2026-07-03",
+    "quote": "For the last few months, that has meant running my coding agents in tmux on either a remote Mac or a remote Linux server.",
+    "history": [
+      {
+        "value": "A git worktree per task",
+        "source": "https://blog.fsck.com/2025/10/05/how-im-using-coding-agents-in-september-2025/",
+        "seen": "2025-10-05",
+        "quote": "When I want to start a new task on an existing project, I try to always use a git worktree to isolate that work from other tasks."
+      }
+    ]
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "CLAUDE.md (113 lines + @local.md), near-copy as Codex AGENTS.md",
+    "short": "CLAUDE.md",
+    "url": "https://github.com/obra/dotfiles/blob/4849bad8b9bb02ac49abf78754d8e0351343a060/.claude/CLAUDE.md",
+    "source": "https://github.com/obra/dotfiles/blob/4849bad8b9bb02ac49abf78754d8e0351343a060/.claude/CLAUDE.md#L2",
+    "seen": "2026-08-08",
+    "quote": "Rule #1: If you want exception to ANY rule, YOU MUST STOP and get explicit permission from Jesse first. BREAKING THE LETTER OR SPIRIT OF THE RULES IS FAILURE."
+  },
+  "skills": {
+    "value": [
+      "brainstorming",
+      "diagnosing-superpowers",
+      "dispatching-parallel-agents",
+      "executing-plans",
+      "finishing-a-development-branch",
+      "receiving-code-review",
+      "requesting-code-review",
+      "subagent-driven-development",
+      "systematic-debugging",
+      "test-driven-development",
+      "using-git-worktrees",
+      "using-superpowers",
+      "verification-before-completion",
+      "writing-plans",
+      "writing-skills"
+    ],
+    "count": 15,
+    "featured": [
+      "brainstorming",
+      "subagent-driven-development",
+      "test-driven-development"
+    ],
+    "source": "https://github.com/obra/superpowers/tree/8ca22dba9a94f28898bbce59f2537ff4d87c747d/skills",
+    "seen": "2026-09-25"
+  },
+  "mcp_servers": {
+    "value": [
+      "mcp CLI (mcptools), called on demand"
+    ],
+    "source": "https://github.com/obra/dotfiles/blob/10b7a3fe079fe4c5d25bb0b70b12da112130d8e5/.claude/skills/mcp-cli/SKILL.md#L3",
+    "seen": "2026-06-05",
+    "quote": "Use MCP servers on-demand via the mcp CLI tool - discover tools, resources, and prompts without polluting context with pre-loaded MCP integrations"
+  },
+  "hooks": {
+    "value": [
+      "SessionStart: injects the using-superpowers skill"
+    ],
+    "source": "https://github.com/obra/superpowers/blob/8ca22dba9a94f28898bbce59f2537ff4d87c747d/hooks/session-start#L2-L11",
+    "seen": "2026-09-19",
+    "quote": "# SessionStart hook for superpowers plugin"
+  },
+  "signature": {
+    "value": "/par",
+    "kind": "habit",
+    "caption": "rival reviewers, 5 points",
+    "why": "Our pick: his adversarial review command makes two subagents compete to find the most real issues, and inflated findings get a reviewer disqualified.",
+    "editorial": true,
+    "source": "https://github.com/obra/dotfiles/blob/6ebb5ba848526b2bfd5b5ab3cb30741ff32c4447/.claude/commands/par.md#L1",
+    "seen": "2026-05-29",
+    "quote": "Assign two subagents to review your work adversarially. Tell them that whoever finds the largest number of legitimate significant issues gets 5 points."
+  },
+  "archetype": {
+    "value": "Rules Lawyer",
+    "editorial": true,
+    "why": "A Rule #1 CLAUDE.md, plus skills that make agents do TDD and review."
+  },
+  "signature_quote": {
+    "value": "When you're writing prompts, think about the model as a lazy pedant.",
+    "more": "How could it do something that's technically what you asked, but not at all what you wanted?",
+    "source": "https://blog.fsck.com/2026/04/30/that-time-it-tried-to-delete-all-my-tests/",
+    "seen": "2026-04-30"
+  }
+}

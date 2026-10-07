@@ -1,0 +1,126 @@
+{
+  "schema": 2,
+  "handle": "nedbat",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Ned Batchelder",
+    "source": "https://github.com/nedbat"
+  },
+  "x": null,
+  "github": {
+    "value": "nedbat",
+    "source": "https://github.com/nedbat"
+  },
+  "site": {
+    "value": "https://nedbatchelder.com",
+    "source": "https://github.com/nedbat"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/23789?v=4",
+    "source": "https://github.com/nedbat"
+  },
+  "known_for": {
+    "value": "coverage.py",
+    "source": "https://nedbatchelder.com/"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary, with a plan-first CLAUDE.md",
+      "surface": "cli",
+      "source": "https://github.com/nedbat/dotfiles/blob/003ae2618eebc9877f69e7a01f610d43070bd92c/dot_config/shellrc/claude.sh#L1-L2",
+      "seen": "2026-02-24",
+      "quote": "# Don't change the title of my terminal tab, because it doesn't change back when I exit claude.\nexport CLAUDE_CODE_DISABLE_TERMINAL_TITLE=1",
+      "also": [
+        {
+          "source": "https://github.com/coveragepy/coveragepy/commit/cb5f925f5198118c6c19bc9e03ee883926b6ed21",
+          "seen": "2025-12-25",
+          "quote": "Claude did this with my direction."
+        },
+        {
+          "source": "https://hachyderm.io/@nedbat/114585281313085432",
+          "seen": "2025-05-28",
+          "quote": "Also, Claude made the code changes, and did a good job!"
+        }
+      ]
+    },
+    {
+      "name": "GitHub Copilot",
+      "icon": "githubcopilot",
+      "role": "inline completions in Vim",
+      "surface": "ide",
+      "source": "https://github.com/nedbat/dotfiles/blob/003ae2618eebc9877f69e7a01f610d43070bd92c/dot_config/vim/vimrc#L400-L413",
+      "seen": "2026-02-09",
+      "quote": "Plug 'github/copilot.vim'"
+    }
+  ],
+  "models": [],
+  "review_style": {
+    "value": "A person owns and reviews every commit, Claude or not",
+    "kind": "unknown",
+    "inferred": true,
+    "source": "https://hachyderm.io/@nedbat/116134732094799152",
+    "seen": "2026-02-26",
+    "quote": "Every commit is owned by a person who has vouched for the quality of the commit, and every commit is reviewed by a person who has also vouched for it. Making a commit with Claude's help doesn't change that.",
+    "also": [
+      {
+        "source": "https://hachyderm.io/@nedbat/116133445557306539",
+        "seen": "2026-02-25",
+        "quote": "Claude can write wrong code. New contributors can write wrong code. What matters is what you do with that code after it's been written."
+      },
+      {
+        "source": "https://github.com/nedbat/dotfiles/blob/003ae2618eebc9877f69e7a01f610d43070bd92c/dot_config/claude/nedbat-main.md#L8",
+        "seen": "2025-06-30",
+        "quote": "You should make a detailed plan and confirm it with me."
+      },
+      {
+        "source": "https://github.com/nedbat/dotfiles/blob/003ae2618eebc9877f69e7a01f610d43070bd92c/dot_config/claude/nedbat-main.md#L15-L16",
+        "seen": "2026-08-07",
+        "quote": "When showing me code to approve running, ALWAYS provide a one-sentence sumamry\nof what the code does and why you are running it. Tell me the goal of the code."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Claude Code in a terminal tab, LSP tool on, prompt suggestions off",
+    "short": "LSP tool",
+    "source": "https://github.com/nedbat/dotfiles/blob/003ae2618eebc9877f69e7a01f610d43070bd92c/dot_config/shellrc/claude.sh#L4-L8",
+    "seen": "2026-04-16",
+    "quote": "# Don't suggest the next prompt.\nexport CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION=false\n\n# https://karanbansal.in/blog/claude-code-lsp/\nexport ENABLE_LSP_TOOL=1",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "Global CLAUDE.md importing nedbat-main.md (56 lines) from his dotfiles",
+    "short": "CLAUDE.md",
+    "url": "https://github.com/nedbat/dotfiles/blob/003ae2618eebc9877f69e7a01f610d43070bd92c/dot_config/claude/nedbat-main.md",
+    "source": "https://github.com/nedbat/dotfiles/blob/003ae2618eebc9877f69e7a01f610d43070bd92c/dot_config/claude/README.md#L1-L4",
+    "seen": "2025-09-19",
+    "quote": "Put this line into ~/.claude/CLAUDE.md:\n```\n@~/.config/claude/nedbat-main.md\n```"
+  },
+  "skills": null,
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "Be introspective",
+    "kind": "rule",
+    "caption": "Claude fixes its own rules",
+    "why": "Our pick: when a workflow goes wrong, his CLAUDE.md has Claude work out why and propose changes to its own instructions.",
+    "editorial": true,
+    "source": "https://github.com/nedbat/dotfiles/blob/003ae2618eebc9877f69e7a01f610d43070bd92c/dot_config/claude/nedbat-main.md#L11-L13",
+    "seen": "2026-03-13",
+    "quote": "Be introspective. When something goes wrong with a workflow or process, think\ncarefully about why it happened. Offer to discuss the problem, and suggest\nchanges to instructions that could prevent it in the future."
+  },
+  "archetype": {
+    "value": "Purist",
+    "editorial": true,
+    "why": "Makes Claude plan and get his sign-off first, and keeps his fun projects AI-free."
+  },
+  "signature_quote": {
+    "value": "Another choice I made: no AI.",
+    "more": "I like writing programs. I get a deeper sense of the thing I am building when I have my fingers in the clay.",
+    "source": "https://nedbatchelder.com/blog/202607/acidica",
+    "seen": "2026-07-26"
+  }
+}

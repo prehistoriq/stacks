@@ -1,0 +1,216 @@
+{
+  "schema": 2,
+  "handle": "dhh",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "DHH",
+    "source": "https://x.com/dhh"
+  },
+  "x": {
+    "value": "dhh",
+    "source": "https://x.com/dhh"
+  },
+  "github": {
+    "value": "dhh",
+    "source": "https://github.com/dhh"
+  },
+  "site": {
+    "value": "https://dhh.dk",
+    "source": "https://github.com/dhh"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/2741?v=4",
+    "source": "https://github.com/dhh"
+  },
+  "known_for": {
+    "value": "Ruby on Rails, Omarchy",
+    "source": "https://dhh.dk"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://github.com/omacom/omarchy/blob/81145eb1fd41532fcae4310b26f860608e2eaf82/default/bash/aliases#L48",
+        "seen": "2026-08-15",
+        "quote": "alias cx='printf \"\\033[2J\\033[3J\\033[H\" && claude --permission-mode auto'"
+      },
+      "source": "https://github.com/omacom/omarchy/pull/13770",
+      "seen": "2026-09-29",
+      "quote": "Generated with [Claude Code](https://claude.com/claude-code)",
+      "history": [
+        {
+          "value": "Claude Code, too slow for him",
+          "surface": "cli",
+          "source": "https://lexfridman.com/dhh-david-heinemeier-hansson-transcript/",
+          "seen": "2025-07-12",
+          "quote": "When I use Claude’s Code, the terminal version of Claude … which is actually my preferred way of using it, I get too impatient."
+        },
+        {
+          "value": "OpenCode",
+          "surface": "cli",
+          "source": "https://world.hey.com/dhh/promoting-ai-agents-3ee04945",
+          "seen": "2026-01-07",
+          "quote": "I've thoroughly enjoyed putting them all to work in OpenCode, which is a terminal interface for coding agents"
+        }
+      ],
+      "inferred": true
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "reviews",
+      "surface": "cli",
+      "source": "https://github.com/omacom/omarchy/pull/13770",
+      "seen": "2026-09-29",
+      "quote": "Reviewed with `codex review --base quattro` over eight passes; every finding was fixed, most with a regression test.",
+      "history": []
+    },
+    {
+      "name": "OpenCode",
+      "icon": "opencode",
+      "role": "second pane",
+      "surface": "cli",
+      "source": "https://github.com/omacom/omarchy/blob/81145eb1fd41532fcae4310b26f860608e2eaf82/default/bash/aliases#L47",
+      "seen": "2026-08-15",
+      "quote": "alias c='opencode --auto'",
+      "history": []
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Opus 5.5",
+      "icon": "claude",
+      "detail": null,
+      "source": "https://x.com/dhh/status/2103595410921279635",
+      "seen": "2026-09-25",
+      "quote": "One-shot translation by Opus 5.5.",
+      "history": [
+        {
+          "value": "Claude Opus 4.5",
+          "source": "https://world.hey.com/dhh/promoting-ai-agents-3ee04945",
+          "seen": "2026-01-07",
+          "quote": "This is all very evident if you've tried to employ any of the new models — especially Claude Opus 4.5, Codex 5, Gemini 3, and even the Chinese open-weight models like MiniMax M2.1 and GLM-4.7 — in one of the modern terminal harnesses that give them access to all these autonomous powers."
+        },
+        {
+          "value": "GPT-5.5",
+          "source": "https://x.com/dhh/status/2057907663967543618",
+          "seen": "2026-05-22",
+          "quote": "The Omarchy 4 branch is now 30,000 lines of new code. The majority of it was written by GPT5.5."
+        },
+        {
+          "value": "GPT 5.6 Sol",
+          "source": "https://x.com/dhh/status/2078252859834167656",
+          "seen": "2026-07-17",
+          "quote": "But GPT 5.6 Sol? 4m45s and it was done."
+        }
+      ]
+    },
+    {
+      "name": "Claude Fable 5.1",
+      "icon": "claude",
+      "detail": null,
+      "source": "https://github.com/omacom/omarchy/commit/8369601f26b41164ab285f61d35434f6933479de",
+      "seen": "2026-09-13",
+      "quote": "Co-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>",
+      "history": [],
+      "inferred": true
+    }
+  ],
+  "review_style": {
+    "value": "A second model reviews, then he reads the diff",
+    "source": "https://github.com/omacom/omarchy/pull/13770",
+    "seen": "2026-09-29",
+    "quote": "Reviewed with `codex review --base quattro` over eight passes; every finding was fixed, most with a regression test.",
+    "kind": "spot-checks",
+    "also": [
+      {
+        "source": "https://github.com/omacom/omarchy/pull/14253",
+        "seen": "2026-10-04",
+        "quote": "Reviewed with Claude and addressed its LocalSend class mismatch, redundant catch-all rule findings, and the transparency shortcut behavior."
+      },
+      {
+        "source": "https://x.com/dhh/status/2057907663967543618",
+        "seen": "2026-05-22",
+        "quote": "You still need to review, but there's just no way this scale of a conversion would be feasible without AI in a reasonable time."
+      },
+      {
+        "source": "https://newsletter.pragmaticengineer.com/p/dhhs-new-way-of-writing-code",
+        "seen": "2026-04-08",
+        "quote": "NeoVim for reviewing diffs via Lazygit"
+      }
+    ]
+  },
+  "harness": {
+    "value": "tmux: Neovim plus one or two agent panes (tdl), herdr too",
+    "short": "tmux + nvim",
+    "source": "https://github.com/omacom/omarchy/blob/81145eb1fd41532fcae4310b26f860608e2eaf82/default/bash/fns/tmux#L1-L2",
+    "seen": "2026-05-11",
+    "quote": "# Create a Tmux Dev Layout with editor, ai, and terminal\n# Usage: tdl <c|cx|codex|other_ai> [<second_ai>]",
+    "history": [
+      {
+        "value": "AI in a separate window",
+        "source": "https://lexfridman.com/dhh-david-heinemeier-hansson-transcript/",
+        "seen": "2025-07-12",
+        "quote": "I love chiseling my code, and the way I use AI is in a separate window. I don’t let it drive my code."
+      }
+    ]
+  },
+  "parallelism": {
+    "value": 2,
+    "short": "2 at once",
+    "source": "https://www.youtube.com/watch?v=JiWgKRgdgpI&t=2821s",
+    "seen": "2026-04-08",
+    "quote": "one of the things I've incorporated into my flow is to kind of have two models going at the same time at different speeds.",
+    "history": []
+  },
+  "rules_files": {
+    "value": "Omarchy AGENTS.md, with CLAUDE.md importing it",
+    "short": "AGENTS.md",
+    "url": "https://github.com/omacom/omarchy/blob/81145eb1fd41532fcae4310b26f860608e2eaf82/AGENTS.md",
+    "source": "https://github.com/omacom/omarchy/blob/81145eb1fd41532fcae4310b26f860608e2eaf82/CLAUDE.md#L1",
+    "seen": "2026-08-07",
+    "quote": "@AGENTS.md"
+  },
+  "skills": {
+    "value": [
+      "omarchy",
+      "omarchy-app",
+      "diagnose-crash"
+    ],
+    "count": 3,
+    "featured": [
+      "omarchy-app",
+      "omarchy",
+      "diagnose-crash"
+    ],
+    "source": "https://github.com/omacom/omarchy/tree/81145eb1fd41532fcae4310b26f860608e2eaf82/default/agents/skills",
+    "seen": "2026-10-01"
+  },
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "tdl",
+    "kind": "tool",
+    "caption": "Neovim beside two agents",
+    "why": "Our pick: his own tmux layout puts Neovim next to one or two agent panes, and it ships with Omarchy.",
+    "editorial": true,
+    "source": "https://github.com/omacom/omarchy/blob/81145eb1fd41532fcae4310b26f860608e2eaf82/default/bash/fns/tmux#L1-L2",
+    "seen": "2026-05-11",
+    "quote": "# Create a Tmux Dev Layout with editor, ai, and terminal\n# Usage: tdl <c|cx|codex|other_ai> [<second_ai>]"
+  },
+  "archetype": {
+    "value": "Toolsmith",
+    "editorial": true,
+    "why": "Builds his agent setup into his own OS: tdl, account switching, an agents panel."
+  },
+  "signature_quote": {
+    "value": "We're not going to write the vast majority of code by hand any longer.",
+    "more": "Coding agents have gotten so good that it's simply not an economically viable enterprise going forward to have humans typing out lines of Ruby, Rust, or C++.",
+    "source": "https://world.hey.com/dhh/over-my-dead-pencil-fb0f3647",
+    "seen": "2026-10-06"
+  }
+}

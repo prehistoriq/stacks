@@ -1,0 +1,215 @@
+{
+  "schema": 2,
+  "handle": "harperreed",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Harper Reed",
+    "source": "https://github.com/harperreed"
+  },
+  "x": {
+    "value": "harper",
+    "source": "https://github.com/harperreed"
+  },
+  "github": {
+    "value": "harperreed",
+    "source": "https://github.com/harperreed"
+  },
+  "site": {
+    "value": "https://harper.blog",
+    "source": "https://github.com/harperreed/harperreed"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/18504?v=4",
+    "source": "https://github.com/harperreed"
+  },
+  "known_for": {
+    "value": "CEO 2389.ai, CTO Obama 2012",
+    "source": "https://harperreed.com/"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary",
+      "surface": "cli",
+      "source": "https://github.com/harperreed/dotfiles/blob/3f508fad1bda3304f08e4f1fe52924a3886a1634/.config/agents/README.md#L6",
+      "seen": "2026-07-16",
+      "quote": "One policy governs every coding agent on this machine (Claude Code, Codex, whatever comes next).",
+      "history": [
+        {
+          "value": "Aider",
+          "surface": null,
+          "source": "https://harper.blog/2025/05/08/basic-claude-code/",
+          "seen": "2025-05-08",
+          "quote": "I have since migrated from Aider to Claude Code and not looked back."
+        }
+      ],
+      "surface_source": {
+        "source": "https://harper.blog/2026/01/05/claude-code-is-better-on-your-phone/",
+        "seen": "2026-01-05",
+        "quote": "When it came to figuring out how to use Claude Code on my phone, the obvious answer was: ssh into my computer from my phone, and run claude."
+      }
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "same policy, GPT-6 Astra",
+      "surface": "app",
+      "source": "https://github.com/harperreed/dotfiles/blob/3f508fad1bda3304f08e4f1fe52924a3886a1634/.config/agents/README.md#L6",
+      "seen": "2026-07-16",
+      "quote": "One policy governs every coding agent on this machine (Claude Code, Codex, whatever comes next).",
+      "history": [],
+      "surface_source": {
+        "source": "https://github.com/harperreed/dotfiles/blob/45c367906fe0578525b65c8438ededd77de165e7/.codex/config.toml#L52-L53",
+        "seen": "2026-09-09",
+        "quote": "BROWSER_USE_CODEX_APP_BUILD_FLAVOR = \"prod\"\nBROWSER_USE_CODEX_APP_VERSION = \"26.901.22334\"",
+        "inferred": true
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Fable 5.1",
+      "icon": "claude",
+      "detail": "1M context",
+      "source": "https://github.com/harperreed/dotfiles/blob/551906762cc7326fa6f4025fcac442100cd92a5d/.claude/settings.json#L129",
+      "seen": "2026-09-25",
+      "quote": "\"model\": \"claude-fable-5-1[1m]\"",
+      "history": []
+    },
+    {
+      "name": "GPT-6 Astra",
+      "icon": "openai",
+      "detail": "high, in Codex",
+      "source": "https://github.com/harperreed/dotfiles/blob/45c367906fe0578525b65c8438ededd77de165e7/.codex/config.toml#L2-L3",
+      "seen": "2026-09-09",
+      "quote": "model = \"gpt-6-astra\"\nmodel_reasoning_effort = \"high\"",
+      "history": [
+        {
+          "value": "o1-pro / o3 for specs",
+          "source": "https://harper.blog/2025/05/08/basic-claude-code/",
+          "seen": "2025-05-08",
+          "quote": "I use the best reasoning model I can find to generate the spec. These days it is o1-pro or o3"
+        }
+      ]
+    }
+  ],
+  "review_style": {
+    "value": "One fresh-eyes review pass per change",
+    "source": "https://github.com/harperreed/dotfiles/blob/b78c10ed97fdc0b81f88ebd6e974fd3dcc4dc7d6/.claude/CLAUDE.md#L132",
+    "seen": "2026-10-03",
+    "quote": "Process steps (verification, review) are never skipped regardless of task size — and never multiplied: one verification run, one review pass.",
+    "kind": "agent-reviews",
+    "also": [
+      {
+        "source": "https://github.com/harperreed/dotfiles/blob/6db272a76a71b098272c7c8a26ae084d197a43ac/.claude/commands/careful-review.md#L1",
+        "seen": "2025-12-05",
+        "quote": "Great, now I want you to carefully read over all of the new code you just wrote and other existing code you just modified with \"fresh eyes,\" looking super carefully for any obvious bugs, errors, problems, issues, confusion, etc. Use a subagent."
+      },
+      {
+        "source": "https://harper.blog/2026/09/22/break-away/",
+        "seen": "2026-09-22",
+        "quote": "I have been using this for doing all sorts of things for months (entity extract my emails, do aggressive code reviews, run agents, etc) and I was very happy with the results."
+      },
+      {
+        "source": "https://github.com/harperreed/dotfiles/commit/4ef7c0466445e6a36c1b41bb5d81981963720d3a",
+        "seen": "2026-09-17",
+        "quote": "updated after human review. who knew humans could review"
+      }
+    ],
+    "inferred": true
+  },
+  "harness": {
+    "value": "SSH/mosh from his phone into a workstation, tmux",
+    "short": "tmux + mosh",
+    "source": "https://harper.blog/2026/01/05/claude-code-is-better-on-your-phone/",
+    "seen": "2026-01-05",
+    "quote": "When it came to figuring out how to use Claude Code on my phone, the obvious answer was: ssh into my computer from my phone, and run claude.",
+    "history": []
+  },
+  "parallelism": {
+    "value": 12,
+    "short": "a dozen",
+    "source": "https://harper.blog/2026/01/05/claude-code-is-better-on-your-phone/",
+    "seen": "2026-01-05",
+    "quote": "TMUX is the key that allows me to run a dozen Claude Code instances, and then walk away from my workstation, pick up my phone and continue hacking.",
+    "history": [],
+    "inferred": true
+  },
+  "rules_files": {
+    "value": "CLAUDE.md (202 lines), one policy shared with Codex's AGENTS.md",
+    "short": "CLAUDE.md",
+    "url": "https://github.com/harperreed/dotfiles/blob/b78c10ed97fdc0b81f88ebd6e974fd3dcc4dc7d6/.claude/CLAUDE.md",
+    "source": "https://github.com/harperreed/dotfiles/blob/3f508fad1bda3304f08e4f1fe52924a3886a1634/.config/agents/README.md#L6",
+    "seen": "2026-07-16",
+    "quote": "One policy governs every coding agent on this machine (Claude Code, Codex, whatever comes next). Each tool reads its own real file — no imports between them, no symlinks, no generation step."
+  },
+  "skills": {
+    "value": [
+      "app-store-changelog",
+      "frontend-design",
+      "humanizer",
+      "ios-debugger-agent",
+      "native-app-performance",
+      "releasing-software",
+      "session-reflection-analysis",
+      "swift-concurrency-expert",
+      "swiftui-liquid-glass",
+      "swiftui-performance-audit",
+      "swiftui-view-refactor",
+      "uv"
+    ],
+    "count": 12,
+    "featured": [
+      "session-reflection-analysis",
+      "humanizer",
+      "releasing-software"
+    ],
+    "source": "https://github.com/harperreed/dotfiles/tree/b78c10ed97fdc0b81f88ebd6e974fd3dcc4dc7d6/.claude/skills",
+    "seen": "2026-07-11"
+  },
+  "mcp_servers": {
+    "value": [
+      "chronicle",
+      "toki",
+      "bbs",
+      "memo",
+      "pulse",
+      "context7"
+    ],
+    "source": "https://github.com/harperreed/dotfiles/blob/45c367906fe0578525b65c8438ededd77de165e7/.codex/config.toml#L7-L35",
+    "seen": "2026-09-09",
+    "quote": "[mcp_servers.chronicle]\ncommand = \"chronicle\"\nargs = [\"mcp\"]"
+  },
+  "hooks": {
+    "value": [
+      "Notification: macOS alert",
+      "SessionStart: herdr agent state"
+    ],
+    "source": "https://github.com/harperreed/dotfiles/blob/551906762cc7326fa6f4025fcac442100cd92a5d/.claude/settings.json#L26-L50",
+    "seen": "2026-09-25",
+    "quote": "\"command\": \"bash '/Users/harper/.claude/hooks/herdr-agent-state.sh' session\""
+  },
+  "signature": {
+    "value": "\"fresh eyes\" review",
+    "kind": "habit",
+    "caption": "a subagent rereads the code",
+    "why": "Our pick: his careful-review command sends a subagent back over new code with \"fresh eyes\". Jesse Vincent says he learned the trick from Harper.",
+    "editorial": true,
+    "source": "https://github.com/harperreed/dotfiles/blob/6db272a76a71b098272c7c8a26ae084d197a43ac/.claude/commands/careful-review.md#L1",
+    "seen": "2025-12-05",
+    "quote": "Great, now I want you to carefully read over all of the new code you just wrote and other existing code you just modified with \"fresh eyes,\" looking super carefully for any obvious bugs, errors, problems, issues, confusion, etc. Use a subagent."
+  },
+  "archetype": {
+    "value": "Vibe Maximalist",
+    "editorial": true,
+    "why": "A dozen Claude Codes in tmux, driven from his phone."
+  },
+  "signature_quote": {
+    "value": "Now you can tell Claude to do weird shit from your phone 24 hours a day.",
+    "more": "It rules.",
+    "source": "https://harper.blog/2026/01/05/claude-code-is-better-on-your-phone/",
+    "seen": "2026-01-05"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "schema": 2,
+  "handle": "rauchg",
+  "status": "ok",
+  "checked": "2026-10-07",
+  "name": {
+    "value": "Guillermo Rauch",
+    "source": "https://github.com/rauchg"
+  },
+  "x": {
+    "value": "rauchg",
+    "source": "https://x.com/rauchg"
+  },
+  "github": {
+    "value": "rauchg",
+    "source": "https://github.com/rauchg"
+  },
+  "site": {
+    "value": "https://rauchg.com",
+    "source": "https://x.com/rauchg"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/13041?v=4",
+    "source": "https://github.com/rauchg"
+  },
+  "known_for": {
+    "value": "CEO of Vercel",
+    "source": "https://x.com/rauchg"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary (from commits)",
+      "surface": null,
+      "inferred": true,
+      "source": "https://github.com/rauchg/typing-stats/commit/2b7bd1c99f596d8ba111564007ca122faabe63fc",
+      "seen": "2026-05-10",
+      "quote": "Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>",
+      "also": [
+        {
+          "source": "https://github.com/rauchg/typing-stats/commit/0d6903f98e739fdb99174ed964359baec605b208",
+          "seen": "2026-01-06",
+          "quote": "🤖 Generated with [Claude Code](https://claude.com/claude-code)"
+        }
+      ],
+      "history": []
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Opus 4.6",
+      "icon": "claude",
+      "detail": "1M context",
+      "inferred": true,
+      "source": "https://github.com/rauchg/typing-stats/commit/2b7bd1c99f596d8ba111564007ca122faabe63fc",
+      "seen": "2026-05-10",
+      "quote": "Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>",
+      "history": [
+        {
+          "value": "Claude Opus 4.5",
+          "inferred": true,
+          "source": "https://github.com/rauchg/typing-stats/commit/3729fdbb0db7ec6400aa26737912f3d4bf65497f",
+          "seen": "2026-01-19",
+          "quote": "Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+        }
+      ]
+    }
+  ],
+  "review_style": null,
+  "harness": null,
+  "parallelism": null,
+  "rules_files": {
+    "value": "AGENTS.md per repo, written as a first-person product spec",
+    "short": "AGENTS.md",
+    "url": "https://github.com/rauchg/typing-stats/blob/0d6903f98e739fdb99174ed964359baec605b208/AGENTS.md",
+    "source": "https://github.com/rauchg/typing-stats/blob/0d6903f98e739fdb99174ed964359baec605b208/AGENTS.md#L5",
+    "seen": "2026-01-06",
+    "quote": "- No xcode garbage. I want to build from CLI"
+  },
+  "skills": {
+    "value": [
+      "gdp-ts",
+      "ui-recording-timeline"
+    ],
+    "count": 2,
+    "featured": [
+      "gdp-ts",
+      "ui-recording-timeline"
+    ],
+    "source": "https://www.skills.sh/rauchg",
+    "seen": "2026-10-04"
+  },
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "gdp-ts",
+    "kind": "skill",
+    "caption": "auth checks as type proofs",
+    "why": "Our pick: instead of reviewing more agent code, he wrote a library, linter and skill that make the type checker reject missing authorization checks.",
+    "editorial": true,
+    "source": "https://x.com/rauchg/status/2107119811444748555",
+    "seen": "2026-10-05",
+    "quote": "The typechecker verifies these proofs at compile time, preventing your team and agents from shipping catastrophic security (and other kinds of) bugs."
+  },
+  "archetype": {
+    "value": "Toolsmith",
+    "editorial": true,
+    "why": "Publishes his own agent skills, including a type-level guardrail library built for agents."
+  },
+  "signature_quote": {
+    "value": "Agents are writing more code than we can review, and they *thrive* in tight loops with hard constraints that would frustrate us.",
+    "source": "https://x.com/rauchg/status/2107119811444748555",
+    "seen": "2026-10-05"
+  }
+}

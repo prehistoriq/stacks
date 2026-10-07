@@ -1,0 +1,149 @@
+{
+  "schema": 2,
+  "handle": "walnutwaldo",
+  "status": "ok",
+  "checked": "2026-10-07",
+  "name": {
+    "value": "Walden Yan",
+    "source": "https://github.com/walnutwaldo"
+  },
+  "x": {
+    "value": "walden_yan",
+    "source": "https://x.com/walden_yan"
+  },
+  "github": {
+    "value": "walnutwaldo",
+    "source": "https://github.com/walnutwaldo"
+  },
+  "site": {
+    "value": "https://waldenyan.com",
+    "source": "https://github.com/walnutwaldo"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/22627487?v=4",
+    "source": "https://github.com/walnutwaldo"
+  },
+  "known_for": {
+    "value": "Co-founder, Cognition (Devin)",
+    "source": "https://x.com/walden_yan/status/2104260390230323451"
+  },
+  "agents": [
+    {
+      "name": "Devin",
+      "icon": null,
+      "role": "primary, runs a team of Devins",
+      "surface": "web",
+      "inferred": true,
+      "surface_source": {
+        "source": "https://github.com/walnutwaldo/Personal-Site/pull/16",
+        "seen": "2026-08-05",
+        "quote": "Link to Devin session: https://staging.itsdev.in/sessions/5f04acb5c60c45e0b7a9a528dfa0c5df\nRequested by: @walnutwaldo"
+      },
+      "source": "https://x.com/walden_yan/status/2034689901892084009",
+      "seen": "2026-03-19",
+      "quote": "I’ve had a lot of fun pointing Devin to look at everything in a slack channel, split up the tasks automatically, and then start a team of Devin’s to tackle them.",
+      "history": [
+        {
+          "value": "Windsurf agent tabs",
+          "surface": "ide",
+          "source": "https://x.com/walden_yan/status/2003929796762652721",
+          "seen": "2025-12-24",
+          "quote": "Happy holidays 🎁 The agent tabs in Windsurf are now the most natural way to work with parallel agents.\n\nFar more flexible in my experience than a dedicated agent view or being constrained to just a sidebar."
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "Fable",
+      "icon": "claude",
+      "detail": "via Devin Fusion",
+      "source": "https://x.com/walden_yan/status/2076715678242124154",
+      "seen": "2026-07-13",
+      "quote": "But then I tried it, and on one of my tasks, Fusion w/ Fable was 4x cheaper and gave a better PR.",
+      "inferred": true,
+      "history": [
+        {
+          "value": "Opus 4.5, plan first",
+          "source": "https://x.com/walden_yan/status/2001438759590736091",
+          "seen": "2025-12-17",
+          "quote": "Opus 4.5 is the first model where asking it to plan first & get my approval has noticeably multiplied my productivity. No fancy modes needed"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.5",
+      "icon": "openai",
+      "source": "https://x.com/walden_yan/status/2047783217370152988",
+      "seen": "2026-04-24",
+      "quote": "I find myself really reaching for 5.5 nowadays. Seems like a model built for cloud.",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Devin Review first, then asks Devin what to look at first",
+    "kind": "agent-reviews",
+    "source": "https://x.com/walden_yan/status/2034689901892084009",
+    "seen": "2026-03-19",
+    "quote": "Then when I go to review, I ask it to tell me what I should look at first",
+    "also": [
+      {
+        "source": "https://x.com/walden_yan/status/2064755974548902006",
+        "seen": "2026-06-10",
+        "quote": "Humans should only look at PRs after an AI has already reviewed it."
+      },
+      {
+        "source": "https://x.com/walden_yan/status/2016667442425319828",
+        "seen": "2026-01-29",
+        "quote": "Me: isn't this code hacky?\nDevin Review: no ur code is hacky"
+      },
+      {
+        "source": "https://x.com/walden_yan/status/2082874473976639994",
+        "seen": "2026-07-30",
+        "quote": "Breaking PRs into stacks has been genuinely only of the greatest life hacks I learned (thanks to @ido_pesok)"
+      }
+    ],
+    "inferred": true
+  },
+  "harness": {
+    "value": "Slack channel feeding a team of cloud Devins; stacked PRs",
+    "short": "Devin teams",
+    "source": "https://x.com/walden_yan/status/2034689901892084009",
+    "seen": "2026-03-19",
+    "quote": "I’ve had a lot of fun pointing Devin to look at everything in a slack channel, split up the tasks automatically, and then start a team of Devin’s to tackle them.",
+    "history": [
+      {
+        "value": "Windsurf agent tabs for parallel agents",
+        "source": "https://x.com/walden_yan/status/2003929796762652721",
+        "seen": "2025-12-24",
+        "quote": "The agent tabs in Windsurf are now the most natural way to work with parallel agents."
+      }
+    ]
+  },
+  "parallelism": null,
+  "rules_files": null,
+  "skills": null,
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "Daily customer-report Devin",
+    "kind": "habit",
+    "caption": "escalates top feature asks",
+    "why": "Our pick: his favorite Devin job is not code at all, it reads every customer report each day and escalates the top requests to engineering.",
+    "editorial": true,
+    "source": "https://x.com/walden_yan/status/2090158861974163826",
+    "seen": "2026-08-19",
+    "quote": "My favorite use for Devin isn’t even writing code. Every day, my Devin reads every customer report and escalates all the top feature requests to our eng team. Eyes everywhere."
+  },
+  "archetype": {
+    "value": "Orchestrator",
+    "editorial": true,
+    "why": "He points Devin at a Slack channel, lets it split the work and launches a team of Devins."
+  },
+  "signature_quote": {
+    "value": "I spend so much on tokens nowadays but have way more trust in my PRs.",
+    "more": "Self-fixing autonomous agents is the future and its here",
+    "source": "https://x.com/walden_yan/status/2026433717061984336",
+    "seen": "2026-02-24"
+  }
+}

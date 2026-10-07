@@ -1,0 +1,134 @@
+{
+  "schema": 2,
+  "handle": "fabiensanglard",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Fabien Sanglard",
+    "source": "https://fabiensanglard.net/"
+  },
+  "x": {
+    "value": "fabynou",
+    "source": "https://x.com/fabynou"
+  },
+  "github": {
+    "value": "fabiensanglard",
+    "source": "https://github.com/fabiensanglard"
+  },
+  "site": {
+    "value": "https://fabiensanglard.net",
+    "source": "https://github.com/fabiensanglard"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/1219472?v=4",
+    "source": "https://github.com/fabiensanglard"
+  },
+  "known_for": {
+    "value": "Game Engine Black Books",
+    "source": "https://github.com/fabiensanglard/gebbdoom"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "VS Code plugin",
+      "surface": "ide",
+      "inferred": true,
+      "source": "https://fabiensanglard.net/agent.md/index.html",
+      "seen": "2026-08-21",
+      "quote": "In March 2026, I tried to use agentic IDEs like Antigravity and VS Code's Claude Code plugin.",
+      "also": [
+        {
+          "source": "https://fabiensanglard.net/extinct/index.html",
+          "seen": "2026-07-10",
+          "quote": "Every time I notice something I don't like, I add it to my ~/.gemini/GEMINI.md/~/.claude/CLAUDE.md so the agent can emulate my style."
+        }
+      ]
+    },
+    {
+      "name": "Antigravity",
+      "icon": null,
+      "role": "agentic IDE",
+      "surface": "ide",
+      "source": "https://fabiensanglard.net/agent.md/index.html",
+      "seen": "2026-08-21",
+      "quote": "In March 2026, I tried to use agentic IDEs like Antigravity and VS Code's Claude Code plugin.",
+      "also": [
+        {
+          "source": "https://fabiensanglard.net/agent.md/index.html",
+          "seen": "2026-08-21",
+          "quote": "Alternatively, gemini.md/claude.md can be symlinked toward an agent.md to have it active anywhere."
+        }
+      ]
+    }
+  ],
+  "models": [],
+  "review_style": {
+    "value": "Reads all the code; LLM criticizes first",
+    "source": "https://fabiensanglard.net/agent.md/index.html",
+    "seen": "2026-08-21",
+    "quote": "While this \"trick\" has considerably improved the code generated, this is not a magic bullet that lets me avoid reading the code.",
+    "kind": "reads-all",
+    "also": [
+      {
+        "source": "https://fabiensanglard.net/extinct/index.html",
+        "seen": "2026-07-10",
+        "quote": "As a result, I reduce my velocity by iterating over my PR until it reaches the same level of quality I would have produced \"by hand\"."
+      },
+      {
+        "source": "https://fabiensanglard.net/extinct/index.html",
+        "seen": "2026-07-10",
+        "quote": "Before sending a PR for review, the first thing I do is ask for the LLM to criticize/look for mistakes."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Agentic IDE, a fresh session per feature",
+    "short": "session per feature",
+    "source": "https://fabiensanglard.net/agent.md/index.html",
+    "seen": "2026-08-21",
+    "quote": "Keep the context short. This means starting a new session per feature.",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "agent.md, gemini.md/claude.md symlinked to it",
+    "short": "agent.md",
+    "url": "https://fabiensanglard.net/agent.md/index.html",
+    "source": "https://fabiensanglard.net/agent.md/index.html",
+    "seen": "2026-08-21",
+    "quote": "Avoid superlatives and praise. Stop telling me I am absolutely right. Give me the cold hard truth.",
+    "history": [
+      {
+        "value": "~/.gemini/GEMINI.md and ~/.claude/CLAUDE.md",
+        "source": "https://fabiensanglard.net/extinct/index.html",
+        "seen": "2026-07-10",
+        "quote": "Every time I notice something I don't like, I add it to my ~/.gemini/GEMINI.md/~/.claude/CLAUDE.md so the agent can emulate my style."
+      }
+    ]
+  },
+  "skills": null,
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "\"Reload agent.md\"",
+    "kind": "habit",
+    "caption": "when code quality drops",
+    "why": "Our pick: a one-line fix for context dilution, sent the moment the agent's style slips.",
+    "editorial": true,
+    "source": "https://fabiensanglard.net/agent.md/index.html",
+    "seen": "2026-08-21",
+    "quote": "Explicitly ask the harness to reload agent.md. \"Reload agent.md\" is enough when I see code quality dropping."
+  },
+  "archetype": {
+    "value": "Rules Lawyer",
+    "editorial": true,
+    "why": "Turns every review comment he repeats into a rule in his published agent.md."
+  },
+  "signature_quote": {
+    "value": "LLMs constantly hallucinate and cannot be trusted.",
+    "more": "I still have to verify and iterate a lot but now I usually focus on architecture and design instead of code style.",
+    "source": "https://fabiensanglard.net/agent.md/index.html",
+    "seen": "2026-08-21"
+  }
+}

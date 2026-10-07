@@ -1,0 +1,218 @@
+{
+  "schema": 2,
+  "handle": "antfu",
+  "status": "ok",
+  "checked": "2026-10-07",
+  "name": {
+    "value": "Anthony Fu",
+    "source": "https://github.com/antfu"
+  },
+  "x": {
+    "value": "antfu7",
+    "source": "https://antfu.me"
+  },
+  "github": {
+    "value": "antfu",
+    "source": "https://github.com/antfu"
+  },
+  "site": {
+    "value": "https://antfu.me",
+    "source": "https://github.com/antfu"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/11247099?v=4",
+    "source": "https://github.com/antfu"
+  },
+  "known_for": {
+    "value": "Vitest, Slidev, UnoCSS, VueUse",
+    "source": "https://antfu.me"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary",
+      "surface": null,
+      "source": "https://bsky.app/profile/antfu.me/post/3mdhpogkfb22u",
+      "seen": "2026-01-28",
+      "quote": "I am trying both Cursor and Claude Code",
+      "also": [
+        {
+          "source": "https://github.com/antfu/lz-string-es/commit/b309faf8deb37c9b9fb3cb4507965818ca312f07",
+          "seen": "2026-10-01",
+          "quote": "Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
+          "inferred": true
+        }
+      ],
+      "history": [
+        {
+          "value": "Rarely used agents",
+          "surface": null,
+          "source": "https://bsky.app/profile/antfu.me/post/3lk5uhjwxu22o",
+          "seen": "2025-03-12",
+          "quote": "However, I don't use AI agents a lot, so I am not sure what the best direction to work on is."
+        },
+        {
+          "value": "Gave agents another try",
+          "surface": null,
+          "source": "https://bsky.app/profile/antfu.me/post/3mdhoqd7hds2u",
+          "seen": "2026-01-28",
+          "quote": "late to the party. I have finally been convinced by multiple awesome developers to give agents another try."
+        }
+      ]
+    },
+    {
+      "name": "Cursor",
+      "icon": "cursor",
+      "role": "tried alongside Claude Code",
+      "surface": "ide",
+      "surface_source": {
+        "source": "https://bsky.app/profile/antfu.me/post/3ll6nlhpcrs24",
+        "seen": "2025-03-25",
+        "quote": "I have a few projects that consistently freeze upon opening, on the latest Cursor. I have to switch back to VS Code for those projects."
+      },
+      "source": "https://bsky.app/profile/antfu.me/post/3mdhpogkfb22u",
+      "seen": "2026-01-28",
+      "quote": "I am trying both Cursor and Claude Code"
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Sonnet 5.5",
+      "icon": "claude",
+      "source": "https://github.com/antfu/lz-string-es/commit/b309faf8deb37c9b9fb3cb4507965818ca312f07",
+      "seen": "2026-10-01",
+      "quote": "Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
+      "inferred": true,
+      "history": [
+        {
+          "value": "Claude Sonnet 5",
+          "source": "https://github.com/antfu/pulls.review/commit/6cf84ccf17087ceeba09e441d1821865a6a16cca",
+          "seen": "2026-09-18",
+          "quote": "Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>"
+        }
+      ]
+    },
+    {
+      "name": "Claude Opus 5",
+      "icon": "claude",
+      "detail": "1M context",
+      "source": "https://github.com/antfu/pnpm-workspace-utils/commit/d335a9798c6f99c7ad5b096f4e02730bc3aeaf3f",
+      "seen": "2026-09-02",
+      "quote": "Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>",
+      "inferred": true,
+      "history": [
+        {
+          "value": "Claude Opus 4.7 (1M context)",
+          "source": "https://github.com/antfu/skills/commit/50deaeb269d80d92db7a2c5a677290309ae307fc",
+          "seen": "2026-05-01",
+          "quote": "Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>"
+        }
+      ]
+    }
+  ],
+  "review_style": {
+    "value": "Watches the result: Storybook for agent UI, a pulls.review summary on every PR, then the final diff",
+    "source": "https://bsky.app/profile/antfu.me/post/3mp6aklae6c25",
+    "seen": "2026-06-26",
+    "quote": "And I think you should always keep an eye on the result, as it can build something like \"runs like a car\" but nothing like a car.",
+    "kind": "unknown",
+    "inferred": true,
+    "also": [
+      {
+        "source": "https://bsky.app/profile/antfu.me/post/3mvh4q3lvbc2v",
+        "seen": "2026-09-14",
+        "quote": "@storybook.js.org has been a great companion for working with agents, reviewing the UI components agents made, and making sure components stay pure and stateless."
+      },
+      {
+        "source": "https://github.com/antfu/pulls.review/pull/69#issuecomment-6009407374",
+        "seen": "2026-10-06",
+        "quote": "💭 analyzed by `vercel-ai-gateway/anthropic/claude-sonnet-5`"
+      },
+      {
+        "source": "https://bsky.app/profile/antfu.me/post/3mx4t6lhqkk2a",
+        "seen": "2026-10-05",
+        "quote": "In the end final diff matters the most"
+      }
+    ]
+  },
+  "harness": {
+    "value": "Storybook stories as the agent's feedback loop, run in Vitest",
+    "short": "Storybook",
+    "source": "https://bsky.app/profile/antfu.me/post/3mvh4q3lvbc2v",
+    "seen": "2026-09-14",
+    "quote": "(I have to admit that, as a human, I was too lazy to write stories, but with agents it actually creates a pretty good feedback loop)",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "CLAUDE.md (= AGENTS.md) as a map to .agents/ docs, in pulls.review",
+    "short": "CLAUDE.md",
+    "url": "https://github.com/antfu/pulls.review/blob/ebf205d10d3de934199c233af61a6d773275c684/CLAUDE.md",
+    "source": "https://github.com/antfu/pulls.review/blob/ebf205d10d3de934199c233af61a6d773275c684/CLAUDE.md#L3-L4",
+    "seen": "2026-09-15",
+    "quote": "`.agents/` describes what the code does and why. It is a map, not a standard:\nwhere the two disagree, the packages' `src/` and test suites win, and the docs get fixed."
+  },
+  "skills": {
+    "value": [
+      "agent-browser",
+      "antfu",
+      "antfu-create-pr",
+      "code-review",
+      "codebase-design",
+      "create-adaptable-composable",
+      "dry-refactoring",
+      "frontend-design",
+      "grill-me",
+      "grilling",
+      "handoff",
+      "i-have-adhd",
+      "improve",
+      "nuxt-modules",
+      "research",
+      "simple-english",
+      "tdd",
+      "teach",
+      "to-questionnaire",
+      "unslop",
+      "vue-best-practices",
+      "vue-debug-guides",
+      "vue-pinia-best-practices",
+      "vue-router-best-practices",
+      "vue-testing-best-practices",
+      "writing-for-agents"
+    ],
+    "count": 26,
+    "featured": [
+      "antfu",
+      "antfu-create-pr",
+      "unslop"
+    ],
+    "source": "https://github.com/antfu/pulls.review/blob/c3508e8bd2c074748a7aa0a04200e6259bcde0ec/skills-lock.json",
+    "seen": "2026-09-30"
+  },
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "antfubot",
+    "kind": "habit",
+    "caption": "agents ship PRs as a bot",
+    "why": "Our pick: his agents work under their own GitHub account and open PRs he reviews and merges, so agent work is always labelled.",
+    "editorial": true,
+    "source": "https://github.com/antfubot",
+    "seen": null,
+    "undated": true,
+    "quote": "Agents on behave of @antfu"
+  },
+  "archetype": {
+    "value": "Toolsmith",
+    "editorial": true,
+    "why": "Builds his own agent tooling: a bot account, pulls.review, skills-npm and his own skills."
+  },
+  "signature_quote": {
+    "value": "my role has shifted from \"builder\" to \"sculptor\", which is a completely different job.",
+    "more": "I hated it at the very beginning tbh, but I'm getting better at it slowly",
+    "source": "https://bsky.app/profile/antfu.me/post/3mp62qi4tx226",
+    "seen": "2026-06-26"
+  }
+}

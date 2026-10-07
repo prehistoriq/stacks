@@ -1,0 +1,169 @@
+{
+  "schema": 2,
+  "handle": "geoffreylitt",
+  "status": "ok",
+  "checked": "2026-10-07",
+  "name": {
+    "value": "Geoffrey Litt",
+    "source": "https://github.com/geoffreylitt"
+  },
+  "x": {
+    "value": "geoffreylitt",
+    "source": "https://x.com/geoffreylitt"
+  },
+  "github": {
+    "value": "geoffreylitt",
+    "source": "https://github.com/geoffreylitt"
+  },
+  "site": {
+    "value": "https://www.geoffreylitt.com",
+    "source": "https://github.com/geoffreylitt"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/934016?v=4",
+    "source": "https://github.com/geoffreylitt"
+  },
+  "known_for": {
+    "value": "Malleable software, Notion",
+    "source": "https://x.com/geoffreylitt"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary, long unsupervised runs",
+      "surface": null,
+      "source": "https://geoffreylitt.com/2025/10/24/code-like-a-surgeon.html",
+      "seen": "2025-10-24",
+      "quote": "Claude Code has been my go-to for long unsupervised sessions but Codex CLI is becoming a strong contender there too, possibly my new favorite.",
+      "also": [
+        {
+          "source": "https://geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck.html",
+          "seen": "2026-07-02",
+          "quote": "One tiny example: you can now run Claude and Cursor agents in Notion. I do a lot of my coding that way now."
+        }
+      ],
+      "history": []
+    },
+    {
+      "name": "Cursor",
+      "icon": "cursor",
+      "role": "tab-complete for core design work",
+      "surface": "ide",
+      "source": "https://geoffreylitt.com/2025/10/24/code-like-a-surgeon.html",
+      "seen": "2025-10-24",
+      "quote": "(eg, I like Cursor tab-complete here)",
+      "also": [
+        {
+          "source": "https://geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck.html",
+          "seen": "2026-07-02",
+          "quote": "One tiny example: you can now run Claude and Cursor agents in Notion. I do a lot of my coding that way now."
+        }
+      ],
+      "history": []
+    },
+    {
+      "name": "Codex CLI",
+      "icon": "codex",
+      "role": "contender for background runs (2025)",
+      "surface": "cli",
+      "source": "https://geoffreylitt.com/2025/10/24/code-like-a-surgeon.html",
+      "seen": "2025-10-24",
+      "quote": "Claude Code has been my go-to for long unsupervised sessions but Codex CLI is becoming a strong contender there too, possibly my new favorite.",
+      "history": []
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Opus 5",
+      "icon": "claude",
+      "source": "https://github.com/geoffreylitt/homepage/commit/ea712275a9ffd05f9b448652852726d37e2172d1",
+      "seen": "2026-08-24",
+      "quote": "Co-Authored-By: Claude Opus 5",
+      "inferred": true,
+      "history": []
+    },
+    {
+      "name": "Claude Fable 5",
+      "icon": "claude",
+      "source": "https://github.com/geoffreylitt/homepage/commit/9025712970f04625457fa9366ed3544531cbff0b",
+      "seen": "2026-07-02",
+      "quote": "Co-Authored-By: Claude Fable 5",
+      "inferred": true,
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Reads an explainer first, then the full diff; must pass a 5-question quiz before sending code on",
+    "source": "https://geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck.html",
+    "seen": "2026-07-02",
+    "quote": "I still read the code diff but I always read this first.",
+    "kind": "reads-all",
+    "also": [
+      {
+        "source": "https://geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck.html",
+        "seen": "2026-07-02",
+        "quote": "My rule: I won't send code to others until I can pass the quiz, and I do the same when reviewing others' code."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Coding agents run from Notion; their plans land in shared pages the team comments on",
+    "short": "Notion",
+    "source": "https://geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck.html",
+    "seen": "2026-07-02",
+    "quote": "And when those agents make a technical plan in Notion, it's in a collaborative page by default, so I can comment on it with my team and discuss immediately.",
+    "history": [
+      {
+        "value": "Secondary tasks run async in the background, even overnight",
+        "source": "https://geoffreylitt.com/2025/10/24/code-like-a-surgeon.html",
+        "seen": "2025-10-24",
+        "quote": "I often find it useful to run these secondary tasks async in the background – while I’m eating lunch, or even literally overnight!"
+      }
+    ]
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "CLAUDE.md (imports AGENTS.md)",
+    "short": "CLAUDE.md",
+    "url": "https://github.com/geoffreylitt/super-skills/blob/2313512297e79fe020c4c18397b8598848890ae3/CLAUDE.md",
+    "source": "https://github.com/geoffreylitt/super-skills/blob/2313512297e79fe020c4c18397b8598848890ae3/CLAUDE.md#L5-L6",
+    "seen": "2026-08-13",
+    "quote": "A demo client for the Notion Agent Plugins API. User-facing setup is in the"
+  },
+  "skills": {
+    "value": [
+      "explain-diff-html",
+      "explain-diff-notion"
+    ],
+    "count": 2,
+    "featured": [
+      "explain-diff-html",
+      "explain-diff-notion"
+    ],
+    "source": "https://gist.github.com/geoffreylitt/a29df1b5f9865506e8952488eac3d524",
+    "seen": "2026-06-28"
+  },
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "/explain-diff",
+    "kind": "skill",
+    "caption": "with a quiz before he ships",
+    "why": "Our pick: every agent change becomes a background-intuition-code explainer ending in five quiz questions, and he won't send code until he passes.",
+    "editorial": true,
+    "source": "https://geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck.html",
+    "seen": "2026-07-02",
+    "quote": "Here's one answer. I made a skill called /explain-diff, which I use every day and many coworkers have found valuable."
+  },
+  "archetype": {
+    "value": "Purist",
+    "editorial": true,
+    "why": "He still reads every diff and quizzes himself until he understands what the agent wrote."
+  },
+  "signature_quote": {
+    "value": "Hot take: I think it's still important to understand the code that our agents write!",
+    "source": "https://geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck.html",
+    "seen": "2026-07-02"
+  }
+}

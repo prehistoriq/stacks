@@ -1,0 +1,191 @@
+{
+  "schema": 2,
+  "handle": "theprimeagen",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "ThePrimeagen",
+    "source": "https://github.com/ThePrimeagen"
+  },
+  "x": {
+    "value": "ThePrimeagen",
+    "source": "https://x.com/ThePrimeagen"
+  },
+  "github": {
+    "value": "ThePrimeagen",
+    "source": "https://github.com/ThePrimeagen"
+  },
+  "site": {
+    "value": "https://twitch.tv/ThePrimeagen",
+    "source": "https://github.com/ThePrimeagen"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/4458174?v=4",
+    "source": "https://github.com/ThePrimeagen"
+  },
+  "known_for": {
+    "value": "Harpoon, Vim on stream",
+    "source": "https://github.com/ThePrimeagen"
+  },
+  "agents": [
+    {
+      "name": "Cursor",
+      "icon": "cursor",
+      "role": "primary: CLI in Neovim, cloud agents",
+      "surface": "ide",
+      "source": "https://github.com/ThePrimeagen/init.lua/blob/b2417cdcc842af1ab06f84b8ad142552e738e648/lua/theprimeagen/lazy/local.lua#L57",
+      "seen": "2026-09-02",
+      "quote": "provider = _99.Providers.CursorAgentProvider,",
+      "history": [
+        {
+          "value": "Vibe coding with Claude: unimpressed",
+          "surface": null,
+          "source": "https://x.com/ThePrimeagen/status/2008261459630059720",
+          "seen": "2026-01-05",
+          "quote": "day 1 vibe coding: i am not impressed, super unimpressed"
+        },
+        {
+          "value": "Back to autocomplete over agents",
+          "surface": "ide",
+          "source": "https://x.com/ThePrimeagen/status/2032100265403256899",
+          "seen": "2026-03-12",
+          "quote": "I think as a group (swe) we rushed so fast into Agents when inline autocomplete + actual skills is crazy."
+        }
+      ]
+    },
+    {
+      "name": "99",
+      "icon": "neovim",
+      "role": "his own Neovim agent client",
+      "surface": "ide",
+      "source": "https://github.com/ThePrimeagen/99/blob/c17422457027c913c76c75a921fca1e623d2678e/README.md#L1-L2",
+      "seen": "2026-02-28",
+      "quote": "The AI client that Neovim deserves, built by those that still enjoy to code.",
+      "history": []
+    }
+  ],
+  "models": [
+    {
+      "name": "Grok 4.6",
+      "icon": "grok",
+      "detail": "xhigh, fast, via Cursor",
+      "source": "https://github.com/ThePrimeagen/init.lua/blob/b2417cdcc842af1ab06f84b8ad142552e738e648/lua/theprimeagen/lazy/local.lua#L68",
+      "seen": "2026-09-02",
+      "quote": "model = \"cursor-grok-4.6-xhigh-fast\",",
+      "history": [
+        {
+          "value": "gpt-5.3-codex",
+          "source": "https://github.com/ThePrimeagen/init.lua/blob/72a1a7ecd96bb44b8958b26641da674d569b87bc/lua/theprimeagen/lazy/local.lua#L28",
+          "seen": "2026-02-14",
+          "quote": "model = \"openai/gpt-5.3-codex\","
+        },
+        {
+          "value": "composer-2.5-fast",
+          "source": "https://github.com/ThePrimeagen/init.lua/blob/85cb6c34b06c3aa92475a6a839ca61f75e76254d/lua/theprimeagen/lazy/local.lua#L29",
+          "seen": "2026-06-10",
+          "quote": "model = \"composer-2.5-fast\","
+        }
+      ]
+    },
+    {
+      "name": "Sol",
+      "icon": "openai",
+      "detail": "high, as a reviewer",
+      "source": "https://github.com/ThePrimeagen/Oligarchy/blob/2cc20c001fac2ce371b7917385950b08ae301a96/.cursor/skills/adversarial-review/SKILL.md#L31",
+      "seen": "2026-10-05",
+      "quote": "| Sol | the latest Sol subagent on high mode |",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Models from different families attack each change",
+    "source": "https://github.com/ThePrimeagen/Oligarchy/blob/2cc20c001fac2ce371b7917385950b08ae301a96/.cursor/skills/adversarial-review/SKILL.md#L49-L50",
+    "seen": "2026-10-05",
+    "quote": "A model reviewing its own family's code misses the bugs it tends to write, and agrees with\nitself.",
+    "kind": "agent-reviews",
+    "also": [
+      {
+        "source": "https://github.com/ThePrimeagen/Oligarchy/blob/2cc20c001fac2ce371b7917385950b08ae301a96/.cursor/skills/adversarial-review/SKILL.md#L34",
+        "seen": "2026-10-05",
+        "quote": "Never use Fable, as a finder or a verifier."
+      },
+      {
+        "source": "https://github.com/ThePrimeagen/Oligarchy/blob/2cc20c001fac2ce371b7917385950b08ae301a96/.cursor/skills/code-review/SKILL.md#L8-L9",
+        "seen": "2026-10-05",
+        "quote": "Answer with the code condensed: what it does, in the order it\ndoes it, short enough to hold in your head."
+      }
+    ],
+    "inferred": true
+  },
+  "harness": {
+    "value": "Neovim with his 99 plugin, plus Cursor cloud agents booting QEMU",
+    "short": "Neovim + 99",
+    "source": "https://github.com/ThePrimeagen/99/blob/c17422457027c913c76c75a921fca1e623d2678e/README.md#L28-L31",
+    "seen": "2026-02-28",
+    "quote": "As of now, the direction of 99 is to progress into agentic programming and surfacing\nof information.",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "AGENTS.md: 19 numbered rules, some lint-enforced, plus a field guide",
+    "short": "AGENTS.md",
+    "url": "https://github.com/ThePrimeagen/Oligarchy/blob/2cc20c001fac2ce371b7917385950b08ae301a96/AGENTS.md",
+    "source": "https://github.com/ThePrimeagen/Oligarchy/blob/2cc20c001fac2ce371b7917385950b08ae301a96/AGENTS.md#L56-L57",
+    "seen": "2026-10-04",
+    "quote": "Before you search the code, open `field-guide/index.md` and read the guide for what you are\n    working on. If you had to learn a pattern the guide does not have, add it there."
+  },
+  "skills": {
+    "value": [
+      "better-auth-drizzle-init",
+      "better-auth-social-login",
+      "cloudflare",
+      "cloudflare-assets",
+      "cloudflare-hyperdrive",
+      "cloudflare-project",
+      "cloudflare-r2",
+      "drizzle-migration",
+      "frontend",
+      "hyperdrive-drizzle",
+      "oauth",
+      "planet-scale-docs",
+      "prime-planning",
+      "prime-review",
+      "tmux-dev",
+      "vim",
+      "vim.diagnostics",
+      "vim.lsp",
+      "vim.treesitter"
+    ],
+    "count": 19,
+    "featured": [
+      "prime-planning",
+      "prime-review",
+      "tmux-dev"
+    ],
+    "source": "https://github.com/ThePrimeagen/skills/tree/fa570dd76421dc9b608e2a8134d4457206f3f953/skills",
+    "seen": "2026-02-27"
+  },
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "Field guide",
+    "kind": "habit",
+    "caption": "agent writes its own lessons",
+    "why": "Our pick: every session is logged with commit hashes, then the agent turns it into a project guide it must read before touching code.",
+    "editorial": true,
+    "source": "https://x.com/ThePrimeagen/status/2081066227619836308",
+    "seen": "2026-07-25",
+    "quote": "Then I have the agent review the back and forth and the changes and come up with durable and generalized feedback that it stores in a directory (field guide)."
+  },
+  "archetype": {
+    "value": "Rules Lawyer",
+    "editorial": true,
+    "why": "Numbered, lint-backed AGENTS.md rules, a field guide read first, cross-model review."
+  },
+  "signature_quote": {
+    "value": "I nitpick everything and I always make it produce the exact code I want, I use voice dictation and talk for quite a bit.",
+    "more": null,
+    "source": "https://x.com/ThePrimeagen/status/2081066227619836308",
+    "seen": "2026-07-25"
+  }
+}

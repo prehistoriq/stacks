@@ -1,0 +1,202 @@
+{
+  "schema": 2,
+  "handle": "jph00",
+  "status": "ok",
+  "checked": "2026-10-07",
+  "name": {
+    "value": "Jeremy Howard",
+    "source": "https://github.com/jph00"
+  },
+  "x": {
+    "value": "jeremyphoward",
+    "source": "https://github.com/jph00"
+  },
+  "github": {
+    "value": "jph00",
+    "source": "https://github.com/jph00"
+  },
+  "site": {
+    "value": "https://jeremy.fast.ai/",
+    "source": "https://github.com/jph00"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/346999?v=4",
+    "source": "https://github.com/jph00"
+  },
+  "known_for": {
+    "value": "fast.ai, Answer.AI, ULMFiT",
+    "source": "https://github.com/jph00"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary, kernel-centric setup",
+      "surface": "cli",
+      "inferred": true,
+      "surface_source": {
+        "source": "https://github.com/AnswerDotAI/aai-coding/blob/bb010bf14189878ed1b2bb8db7158305c61696a3/README.md#L64",
+        "seen": "2026-10-06",
+        "quote": "claude --system-prompt-file ~/.claude/sysp --append-system-prompt-file <this repo>/prompts/core.md"
+      },
+      "source": "https://github.com/AnswerDotAI/aai-coding/blob/bb010bf14189878ed1b2bb8db7158305c61696a3/skills/persistent-python/SKILL.md#L3",
+      "seen": "2026-10-06",
+      "quote": "description: The persistent clikernel Python session — Jeremy's preferred single tool for nearly ALL Python work.",
+      "also": [
+        {
+          "source": "https://github.com/AnswerDotAI/aai-coding/blob/bb010bf14189878ed1b2bb8db7158305c61696a3/README.md#L29",
+          "seen": "2026-10-06",
+          "quote": "Claude Code uses a kernel-centric setup. Codex supports both kernel-centric and hybrid setups."
+        },
+        {
+          "source": "https://github.com/AnswerDotAI/fastcore/commit/42edbaaed64d27d62d357ed40ab573edc3f8e656",
+          "seen": "2026-09-04",
+          "quote": "Claude-Session: https://claude.ai/code/session_019kQ64967EEsdUQuzNU2mML"
+        }
+      ],
+      "history": [
+        {
+          "value": "Solveit for basically all his coding",
+          "surface": "web",
+          "source": "https://news.ycombinator.com/item?id=45455810",
+          "seen": "2025-10-02",
+          "quote": "I've enjoyed building and using our tool, \"solveit\", for the last year, and do basically all my coding, writing, reading, research, etc in it nowadays."
+        }
+      ]
+    },
+    {
+      "name": "Solveit",
+      "icon": null,
+      "role": "his company's notebook-style AI platform",
+      "surface": "web",
+      "source": "https://news.ycombinator.com/item?id=47302081",
+      "seen": "2026-03-08",
+      "quote": "Over the last couple of years we integrated LLMs with notebooks and nbdev to create Solveit, which everyone at our company uses for nearly all our work (even our lawyers, HR, etc).",
+      "history": []
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "second harness, hybrid mode",
+      "surface": null,
+      "source": "https://github.com/AnswerDotAI/aai-coding/blob/bb010bf14189878ed1b2bb8db7158305c61696a3/README.md#L3",
+      "seen": "2026-10-06",
+      "quote": "`aai-coding` contains Answer.AI's shared configuration, skills, and tools for Claude Code and Codex.",
+      "history": []
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Opus 4.5",
+      "icon": "claude",
+      "source": "https://github.com/AnswerDotAI/fastship/commit/89d1e4c93413ebaaf066d45697886feb06429dbd",
+      "seen": "2026-01-27",
+      "quote": "Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>",
+      "history": [],
+      "inferred": true
+    }
+  ],
+  "review_style": {
+    "value": "Small steps he follows one by one; the agent must propose before touching his published libraries",
+    "source": "https://news.ycombinator.com/item?id=45455810",
+    "seen": "2025-10-02",
+    "quote": "I use small fast iterative steps and work to maximize my learning at each step.",
+    "kind": "unknown",
+    "inferred": true,
+    "also": [
+      {
+        "source": "https://github.com/AnswerDotAI/aai-coding/blob/bb010bf14189878ed1b2bb8db7158305c61696a3/prompts/sysp.md#L22",
+        "seen": "2026-10-06",
+        "quote": "Propose changes before making them when working on these libraries, and never add new API to a published library without confirming first; approval for a downstream change does not cover upstream additions."
+      },
+      {
+        "source": "https://www.fast.ai/posts/2025-10-30-build-to-last.html",
+        "seen": "2025-10-30",
+        "quote": "If you want to maintain craftsmanship while using AI, you need tight iteration loops so you can see what’s happening."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Native file tools denied; all reading, editing and Python run through one persistent IPython kernel (clikernel)",
+    "short": "persistent kernel",
+    "source": "https://github.com/AnswerDotAI/aai-coding/blob/bb010bf14189878ed1b2bb8db7158305c61696a3/README.md#L31",
+    "seen": "2026-10-06",
+    "quote": "The kernel-centric setup denies native file tools. File reading, editing, searching, and Python execution use one persistent IPython kernel through clikernel.",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "Replacement Claude Code system prompt (sysp.md), core.md, coding_patterns pyskill",
+    "short": "custom sysp",
+    "url": "https://github.com/AnswerDotAI/aai-coding/blob/bb010bf14189878ed1b2bb8db7158305c61696a3/prompts/sysp.md",
+    "source": "https://github.com/AnswerDotAI/aai-coding/blob/bb010bf14189878ed1b2bb8db7158305c61696a3/prompts/sysp.md#L32",
+    "seen": "2026-10-06",
+    "quote": "Their company does R&D and they are the boss: there is no deadline, and the goal is always the best design, never the shortest path from the code as it stands."
+  },
+  "skills": {
+    "value": [
+      "persistent-python",
+      "pyskills",
+      "clikernel",
+      "notebook-dialog-editing",
+      "coding_patterns",
+      "nbreview",
+      "write_prose",
+      "write_docs",
+      "harness_docs",
+      "vision"
+    ],
+    "count": 10,
+    "featured": [
+      "persistent-python",
+      "pyskills",
+      "write_prose"
+    ],
+    "source": "https://github.com/AnswerDotAI/aai-coding/blob/bb010bf14189878ed1b2bb8db7158305c61696a3/README.md",
+    "seen": "2026-10-06"
+  },
+  "mcp_servers": {
+    "value": [
+      "clikernel"
+    ],
+    "source": "https://github.com/AnswerDotAI/aai-coding/blob/bb010bf14189878ed1b2bb8db7158305c61696a3/SETUP.md#L91",
+    "seen": "2026-10-06",
+    "quote": "Outcome: the clikernel MCP server is registered. Claude Code: a user-scope server named `clikernel` running `<venv>/bin/clikernel-mcp`."
+  },
+  "hooks": {
+    "value": [
+      "claude-air",
+      "claude-slop",
+      "claude-block-native-edit",
+      "claude-bash-guard",
+      "claude-prompt-submit",
+      "claude-session-start",
+      "claude-subagent-start",
+      "safecmd"
+    ],
+    "source": "https://github.com/AnswerDotAI/aai-coding/blob/bb010bf14189878ed1b2bb8db7158305c61696a3/SETUP.md#L140",
+    "seen": "2026-10-06",
+    "quote": "PreToolUse matcher `Write|Edit|NotebookEdit` runs `aai-hook claude-block-native-edit`; PreToolUse matcher `Bash` runs `aai-hook claude-bash-guard`;"
+  },
+  "signature": {
+    "value": "claude-air",
+    "kind": "hook",
+    "caption": "nudges after 8 silent rounds",
+    "why": "Our pick: a hook that interrupts long silent tool runs and makes the agent stop, say what it found and check its own last call, so he stays in the loop instead of the agent drifting.",
+    "editorial": true,
+    "source": "https://github.com/AnswerDotAI/aai-coding/blob/bb010bf14189878ed1b2bb8db7158305c61696a3/SETUP.md#L140",
+    "seen": "2026-10-06",
+    "quote": "(the come-up-for-air nudge: after 8 tool-call rounds with no text response of 100+ chars, it injects a reminder to surface and reassess, repeating every 5 further rounds)"
+  },
+  "archetype": {
+    "value": "Toolsmith",
+    "editorial": true,
+    "why": "Replaced Claude Code's system prompt, file tools and skill system with his own kernel, pyskills and hooks."
+  },
+  "signature_quote": {
+    "value": "If you want to maintain craftsmanship while using AI, you need tight iteration loops so you can see what’s happening.",
+    "more": "You need a live workspace where you (and the AI) are manipulating actual state, not just writing text files.",
+    "source": "https://www.fast.ai/posts/2025-10-30-build-to-last.html",
+    "seen": "2025-10-30"
+  }
+}

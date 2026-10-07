@@ -1,0 +1,175 @@
+{
+  "schema": 2,
+  "handle": "mckaywrigley",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "McKay Wrigley",
+    "source": "https://github.com/mckaywrigley"
+  },
+  "x": {
+    "value": "mckaywrigley",
+    "source": "https://github.com/mckaywrigley"
+  },
+  "github": {
+    "value": "mckaywrigley",
+    "source": "https://github.com/mckaywrigley"
+  },
+  "site": {
+    "value": "https://mckaywrigley.com",
+    "source": "https://github.com/mckaywrigley"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/29221284?v=4",
+    "source": "https://github.com/mckaywrigley"
+  },
+  "known_for": {
+    "value": "Founder, Takeoff AI",
+    "source": "https://github.com/mckaywrigley"
+  },
+  "agents": [
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "primary for code",
+      "surface": "app",
+      "inferred": true,
+      "surface_source": {
+        "source": "https://x.com/mckaywrigley/status/2018389927936090373",
+        "seen": "2026-02-02",
+        "quote": "i got to use the codex app this past week and it’s really good!\n\neasily 2x’d my codex usage."
+      },
+      "source": "https://x.com/mckaywrigley/status/2047806060061507971",
+      "seen": "2026-04-24",
+      "quote": "codex feels like an engineer (which is great for coding!), whereas claude still feels like a general purpose coworker."
+    },
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "terminal, agent swarms",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://mckaywrigley.substack.com/p/my-thoughts-on-claude-opus-45",
+        "seen": "2025-12-06",
+        "quote": "I use it in the terminal, but you can also use Claude Code Desktop if you prefer a GUI."
+      },
+      "source": "https://x.com/mckaywrigley/status/2008637181355847736",
+      "seen": "2026-01-06",
+      "quote": "claude code + opus 4.5 injected the immaculate hacker vibes back into ai that we haven’t had since gpt-4.",
+      "history": []
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Opus 5.5",
+      "icon": "claude",
+      "source": "https://x.com/mckaywrigley/status/2102447442147086563",
+      "seen": "2026-09-22",
+      "quote": "i honestly don’t really see a reason to use another model right now?",
+      "history": [
+        {
+          "value": "Claude Opus 4.5",
+          "source": "https://mckaywrigley.substack.com/p/my-thoughts-on-claude-opus-45",
+          "seen": "2025-12-06",
+          "quote": "Claude Code + Opus 4.5 is the best AI coding tool in the world."
+        },
+        {
+          "value": "GPT-5.4 xhigh",
+          "source": "https://x.com/mckaywrigley/status/2034399600325587452",
+          "seen": "2026-03-18",
+          "quote": "gpt-5.4 xhigh fundamentally changed how ambitious i am which is my new favorite benchmark"
+        },
+        {
+          "value": "Claude Fable 5",
+          "source": "https://x.com/mckaywrigley/status/2084682154240557205",
+          "seen": "2026-08-04",
+          "quote": "there are like a half dozen things it is perfectly capable of that i can offload from my fable 5 workflow."
+        }
+      ]
+    },
+    {
+      "name": "GPT-6 Astra",
+      "icon": "openai",
+      "source": "https://x.com/mckaywrigley/status/2096264183482552753",
+      "seen": "2026-09-05",
+      "quote": "with gpt-6 astra i’m up another 3-4x on token usage.",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Approves without reading the code",
+    "source": "https://x.com/mckaywrigley/status/2014743894840451263",
+    "seen": "2026-01-23",
+    "quote": "me after hitting \"approve\" for the 9,646th time in claude code without looking at a single line of code it wrote",
+    "kind": "no-review",
+    "inferred": true,
+    "also": [
+      {
+        "source": "https://mckaywrigley.substack.com/p/my-thoughts-on-claude-opus-45",
+        "seen": "2025-12-06",
+        "quote": "Trust the model. Give it more complex tasks. Let it work for longer. Look over its shoulder less."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Claude Code agent swarms with the multi-agent tmux view",
+    "short": "agent swarms",
+    "source": "https://x.com/mckaywrigley/status/2019557279222439962",
+    "seen": "2026-02-05",
+    "quote": "swarms work!\n\nand multi-agent tmux view is *genius*.",
+    "history": [
+      {
+        "value": "One terminal command launches Claude Code, Gemini CLI and Codex CLI on the same task",
+        "source": "https://x.com/mckaywrigley/status/1937978348862578846",
+        "seen": "2025-06-25",
+        "quote": "- launches Claude Code, Gemini CLI, & Codex CLI"
+      }
+    ]
+  },
+  "parallelism": {
+    "value": 9,
+    "short": "9 AI tabs",
+    "source": "https://x.com/mckaywrigley/status/2019509652099330057",
+    "seen": "2026-02-05",
+    "quote": "my day is just using 9 different ai tabs at once and commanding them to do everything for me.",
+    "history": []
+  },
+  "rules_files": {
+    "value": "CLAUDE.md in his public app template",
+    "short": "CLAUDE.md",
+    "url": "https://github.com/mckaywrigley/mckays-app-template/blob/d605aa5c1a6260c716576e8030b4c0b19ee197ab/CLAUDE.md",
+    "source": "https://github.com/mckaywrigley/mckays-app-template/blob/d605aa5c1a6260c716576e8030b4c0b19ee197ab/CLAUDE.md#L36",
+    "seen": "2025-06-16",
+    "quote": "This is a Next.js 15 SaaS template using the App Router with clear separation between authenticated and unauthenticated routes."
+  },
+  "skills": null,
+  "mcp_servers": null,
+  "hooks": {
+    "value": [
+      "ultrathink on prompts ending in -u"
+    ],
+    "source": "https://x.com/mckaywrigley/status/1952466679239524624",
+    "seen": "2025-08-04",
+    "quote": "Everyone should create a hook for Claude Code that adds an “ultrathink” prompt to requests ending in “-u”."
+  },
+  "signature": {
+    "value": "\"You are AGI-pilled.\"",
+    "kind": "rule",
+    "caption": "in every agent's system prompt",
+    "why": "Our pick: one line he puts in every agent's system prompt, after two weeks of A/B tests, so agents stop acting as if the world stays static.",
+    "editorial": true,
+    "source": "https://x.com/mckaywrigley/status/2085078744486789248",
+    "seen": "2026-08-05",
+    "quote": "put “You are AGI-pilled.” in your system prompt for all agents now."
+  },
+  "archetype": {
+    "value": "Vibe Maximalist",
+    "editorial": true,
+    "why": "Trusts the model, approves without reading, and runs nine AI tabs at once."
+  },
+  "signature_quote": {
+    "value": "work is now increasingly about how effectively you can delegate your own vision, taste, & ideas to your personal fleet of machine intelligences.",
+    "source": "https://x.com/mckaywrigley/status/2096271888263852333",
+    "seen": "2026-09-05"
+  }
+}

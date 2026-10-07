@@ -1,0 +1,193 @@
+{
+  "schema": 2,
+  "handle": "steveklabnik",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Steve Klabnik",
+    "source": "https://github.com/steveklabnik"
+  },
+  "x": null,
+  "github": {
+    "value": "steveklabnik",
+    "source": "https://github.com/steveklabnik"
+  },
+  "site": {
+    "value": "https://steveklabnik.com",
+    "source": "https://github.com/steveklabnik"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/27786?v=4",
+    "source": "https://github.com/steveklabnik"
+  },
+  "known_for": {
+    "value": "Co-author of the Rust book, jj",
+    "source": "https://steveklabnik.com/"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary, writes with Fable",
+      "surface": "cli",
+      "inferred": true,
+      "surface_source": {
+        "source": "https://steveklabnik.com/writing/getting-started-with-claude-for-software-development/",
+        "seen": "2026-01-07",
+        "quote": "Once you've installed it and logged in, you'll be at a terminal prompt."
+      },
+      "source": "https://bsky.app/profile/steveklabnik.com/post/3mrvyzjfdac2c",
+      "seen": "2026-07-31",
+      "quote": "claude code and the codex app. i copy/paste things between them when i want them to talk to each other, nothing fancy yet",
+      "also": [
+        {
+          "source": "https://bsky.app/profile/steveklabnik.com/post/3mqmrr2qimc2w",
+          "seen": "2026-07-14",
+          "quote": "\"claude did that for me while i did other actual work and validated that there were no regressions\""
+        }
+      ]
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "PR review, long goals",
+      "surface": "app",
+      "source": "https://bsky.app/profile/steveklabnik.com/post/3mrvyzjfdac2c",
+      "seen": "2026-07-31",
+      "quote": "claude code and the codex app. i copy/paste things between them when i want them to talk to each other, nothing fancy yet",
+      "also": [
+        {
+          "source": "https://bsky.app/profile/steveklabnik.com/post/3mqnbd3nddc24",
+          "seen": "2026-07-14",
+          "quote": "you just tell codex to do things and it goes and does them."
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Fable",
+      "icon": "claude",
+      "inferred": true,
+      "source": "https://bsky.app/profile/steveklabnik.com/post/3mpted2uoec2n",
+      "seen": "2026-07-04",
+      "quote": "During a loop overnight, Fable found a heap overflow in @rue-lang.dev’s standard library",
+      "history": [
+        {
+          "value": "Claude Opus 4.5",
+          "source": "https://steveklabnik.com/writing/getting-started-with-claude-for-software-development/",
+          "seen": "2026-01-07",
+          "quote": "Opus 4.5 is wonderful."
+        }
+      ]
+    },
+    {
+      "name": "GPT Sol",
+      "icon": "openai",
+      "detail": "also his cross-reviewer",
+      "source": "https://bsky.app/profile/steveklabnik.com/post/3mqexwgdemk2q",
+      "seen": "2026-07-11",
+      "quote": "Okay I am digging Sol. Like a lot\n\nSorry Claude",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Codex reviews Fable's PRs; humans stay responsible for what they submit",
+    "source": "https://bsky.app/profile/steveklabnik.com/post/3mstwd7yyyk2g",
+    "seen": "2026-08-12",
+    "quote": "Codex doing PR review for Fable",
+    "kind": "unknown",
+    "also": [
+      {
+        "source": "https://bsky.app/profile/steveklabnik.com/post/3mth3h4po2k2c",
+        "seen": "2026-08-19",
+        "quote": "We use agents to develop software but have a strong culture of “you are responsible for the code you submit,” not “agents write and merge code with no review”"
+      },
+      {
+        "source": "https://github.com/rue-language/rue/blob/5200b119000163884fb28310fd49107c662761af/docs/process/codex.md#L9-L12",
+        "seen": "2026-09-04",
+        "quote": "The coordinating agent investigates, writes a precise brief, reviews the returned change, integrates it, and owns publication and cleanup."
+      },
+      {
+        "source": "https://bsky.app/profile/steveklabnik.com/post/3mrvt5237u22c",
+        "seen": "2026-07-31",
+        "quote": "i tend to use sol, but luna sometimes yeah"
+      }
+    ],
+    "inferred": true
+  },
+  "harness": {
+    "value": "Claude Code and the Codex app side by side, bridged by copy/paste; a jj workspace per agent",
+    "short": "jj workspaces",
+    "source": "https://bsky.app/profile/steveklabnik.com/post/3mrvyzjfdac2c",
+    "seen": "2026-07-31",
+    "quote": "claude code and the codex app. i copy/paste things between them when i want them to talk to each other, nothing fancy yet",
+    "also": [
+      {
+        "source": "https://steveklabnik.com/writing/agentic-development-basics/",
+        "seen": "2026-01-22",
+        "quote": "I never bothered with `git worktree`s in the past, but I use `jj workspace`s with agents all the time now."
+      }
+    ],
+    "history": []
+  },
+  "parallelism": {
+    "value": 90,
+    "short": "90 agents",
+    "inferred": true,
+    "source": "https://bsky.app/profile/steveklabnik.com/post/3mpz2kteeik25",
+    "seen": "2026-07-06",
+    "quote": ">   8/90 agents done\n\nlisten",
+    "history": []
+  },
+  "rules_files": {
+    "value": "AGENTS.md (257 lines, tool-neutral), CLAUDE.md points to it",
+    "short": "AGENTS.md",
+    "url": "https://github.com/rue-language/rue/blob/5200b119000163884fb28310fd49107c662761af/AGENTS.md",
+    "source": "https://github.com/rue-language/rue/blob/5200b119000163884fb28310fd49107c662761af/AGENTS.md#L3-L5",
+    "seen": "2026-09-05",
+    "quote": "This is the canonical guidance for coding agents working in Rue. Tool-specific\ninstruction files (`CLAUDE.md` and the like) point here rather than copying\nthese rules, and nothing here assumes a particular agent product."
+  },
+  "skills": {
+    "value": [
+      "integrate-worker"
+    ],
+    "count": 1,
+    "featured": [
+      "integrate-worker"
+    ],
+    "source": "https://github.com/rue-language/rue/tree/5200b119000163884fb28310fd49107c662761af/.claude/skills",
+    "seen": "2026-09-03"
+  },
+  "mcp_servers": null,
+  "hooks": {
+    "value": [
+      "bookmark-guard (PreToolUse on Edit/Write: blocks edits on a pushed PR branch)",
+      "SessionStart: source ~/.profile"
+    ],
+    "source": "https://github.com/rue-language/rue/blob/5200b119000163884fb28310fd49107c662761af/.claude/hooks/bookmark-guard.sh#L2-L4",
+    "seen": "2026-07-28",
+    "quote": "# PreToolUse guard on Edit/Write: block edits while the working copy (@) sits\n# on a pushed PR branch. Editing @ then pushing mutates a queued PR — this\n# exact mistake put a blog post into PR #981's branch (2026-06-11) and cost"
+  },
+  "signature": {
+    "value": "rue-overnight-hunt",
+    "kind": "tool",
+    "caption": "bugs filed only with repros",
+    "why": "Our pick: an overnight workflow that fans out bug finders across one compiler subsystem and files only findings whose repro was actually run.",
+    "editorial": true,
+    "source": "https://github.com/rue-language/rue/blob/5200b119000163884fb28310fd49107c662761af/.claude/workflows/rue-overnight-hunt.js#L3",
+    "seen": "2026-07-02",
+    "quote": "Autonomous Rue compiler bug hunt for one subsystem area: fan-out finders, verify with repros, return findings to file in Linear"
+  },
+  "archetype": {
+    "value": "Orchestrator",
+    "editorial": true,
+    "why": "Runs Claude and OpenAI models as subagents side by side, with overnight fan-out hunts and one model reviewing another's PRs."
+  },
+  "signature_quote": {
+    "value": "The trick for software work is you don’t really talk to it.",
+    "more": "You tell it to do stuff and then review the stuff it does",
+    "source": "https://bsky.app/profile/steveklabnik.com/post/3mtan7eknis2y",
+    "seen": "2026-08-17"
+  }
+}

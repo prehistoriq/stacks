@@ -1,0 +1,148 @@
+{
+  "schema": 2,
+  "handle": "burntsushi",
+  "status": "ok",
+  "checked": "2026-10-07",
+  "name": {
+    "value": "Andrew Gallant",
+    "source": "https://github.com/BurntSushi"
+  },
+  "x": {
+    "value": "burntsushi5",
+    "source": "https://github.com/BurntSushi"
+  },
+  "github": {
+    "value": "BurntSushi",
+    "source": "https://github.com/BurntSushi"
+  },
+  "site": {
+    "value": "https://burntsushi.net",
+    "source": "https://github.com/BurntSushi"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/456674?v=4",
+    "source": "https://github.com/BurntSushi"
+  },
+  "known_for": {
+    "value": "ripgrep, Rust regex, Jiff",
+    "source": "https://github.com/BurntSushi"
+  },
+  "agents": [
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "primary",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://github.com/BurntSushi/dotfiles/blob/1dab3ffec0570fdb2d82ea8411ab07c8ae7f6d95/.codex/config.toml#L10-L13",
+        "seen": "2026-07-30",
+        "quote": "[tui]\nnotifications = [\"agent-turn-complete\", \"approval-requested\"]\nnotification_condition = \"unfocused\"\nnotification_method = \"auto\"",
+        "inferred": true
+      },
+      "source": "https://github.com/BurntSushi/ripgrep/pull/3420#issuecomment-4615548108",
+      "seen": "2026-06-03",
+      "quote": "I got this benchmark from Codex that I think I believe.",
+      "also": [
+        {
+          "source": "https://github.com/astral-sh/ruff/pull/26771#discussion_r3579340701",
+          "seen": "2026-07-14",
+          "quote": "I removed it. It looks like a hallucination from Codex."
+        }
+      ],
+      "history": [
+        {
+          "value": "No Claude",
+          "surface": null,
+          "source": "https://bsky.app/profile/burntsushi.net/post/3llqrfh7rfc2q",
+          "seen": "2025-04-01",
+          "quote": "Tried what? Claude? No."
+        },
+        {
+          "value": "Claude",
+          "surface": null,
+          "source": "https://github.com/astral-sh/ruff/pull/23566#issuecomment-3961690466",
+          "seen": "2026-02-25",
+          "quote": "(Claude helped me a fair bit with it.)"
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "GPT-5.6 Sol",
+      "icon": "openai",
+      "detail": "max reasoning",
+      "source": "https://github.com/BurntSushi/dotfiles/blob/1dab3ffec0570fdb2d82ea8411ab07c8ae7f6d95/.codex/config.toml#L3-L8",
+      "seen": "2026-07-30",
+      "quote": "model_reasoning_effort = \"max\"\nnotify = [\n  \"sh\", \"-c\",\n  \"A bart 'Codex' 'Done or waiting for input'\",\n]\nmodel = \"gpt-5.6-sol\"",
+      "history": [
+        {
+          "value": "GPT-5.5, xhigh reasoning",
+          "source": "https://github.com/BurntSushi/dotfiles/blob/a81b0683f98b017640b4733ab3535a1876e7e3c4/.codex/config.toml#L3-L8",
+          "seen": "2026-07-02",
+          "quote": "model = \"gpt-5.5\""
+        }
+      ]
+    }
+  ],
+  "review_style": {
+    "value": "Flags his LLM PRs for careful review, then simplifies them by hand; Codex review catches bugs too",
+    "kind": "unknown",
+    "inferred": true,
+    "source": "https://github.com/rust-lang/regex/pull/1364#issuecomment-4642193394",
+    "seen": "2026-06-07",
+    "quote": "I wrote this PR with an LLM, so this still needs careful review. From a glance, the solution here seems very over complicated. But it does pass tests and rebar benchmarks.",
+    "also": [
+      {
+        "source": "https://github.com/rust-lang/regex/pull/1364#issuecomment-4981702691",
+        "seen": "2026-07-15",
+        "quote": "I need to do another round of review, but I significantly simplified the original LLM fix for this."
+      },
+      {
+        "source": "https://github.com/rust-lang/regex/commit/fa91c31a4291c9dda6afe19829e6fe2e3bbc2da5",
+        "seen": "2026-07-15",
+        "quote": "automata: fix a bug caught by Codex review"
+      }
+    ]
+  },
+  "harness": {
+    "value": "Codex in its workspace-write sandbox, approvals on request",
+    "short": "sandbox",
+    "source": "https://github.com/BurntSushi/dotfiles/blob/1dab3ffec0570fdb2d82ea8411ab07c8ae7f6d95/.codex/config.toml#L1-L2",
+    "seen": "2026-07-30",
+    "quote": "approval_policy = \"on-request\"\nsandbox_mode = \"workspace-write\"",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": null,
+  "skills": null,
+  "mcp_servers": null,
+  "hooks": {
+    "value": [
+      "Codex notify: his own `A` alert script (desktop notification and sound, or a push to his phone when away)"
+    ],
+    "source": "https://github.com/BurntSushi/dotfiles/blob/1dab3ffec0570fdb2d82ea8411ab07c8ae7f6d95/.codex/config.toml#L4-L7",
+    "seen": "2026-07-30",
+    "quote": "notify = [\n  \"sh\", \"-c\",\n  \"A bart 'Codex' 'Done or waiting for input'\",\n]"
+  },
+  "signature": {
+    "value": "\"I wrote this PR with an LLM\"",
+    "kind": "habit",
+    "caption": "flagged for careful review",
+    "why": "Our pick: he says up front which PRs an LLM wrote, reviews them as untrusted and pares them down himself.",
+    "editorial": true,
+    "source": "https://github.com/rust-lang/regex/pull/1364#issuecomment-4642193394",
+    "seen": "2026-06-07",
+    "quote": "I wrote this PR with an LLM, so this still needs careful review."
+  },
+  "archetype": {
+    "value": "Purist",
+    "editorial": true,
+    "why": "Lets Codex write code in a sandbox, but discloses it, reviews it and simplifies it by hand."
+  },
+  "signature_quote": {
+    "value": "I don't mind code changes being done with an LLM, but please don't use LLMs to communicate with humans.",
+    "source": "https://github.com/rust-lang/regex/pull/1368#issuecomment-4836313646",
+    "seen": "2026-06-29"
+  }
+}

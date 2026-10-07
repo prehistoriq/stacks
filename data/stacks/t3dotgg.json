@@ -1,0 +1,188 @@
+{
+  "schema": 2,
+  "handle": "t3dotgg",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Theo Browne",
+    "source": "https://github.com/t3dotgg"
+  },
+  "x": {
+    "value": "theo",
+    "source": "https://x.com/theo"
+  },
+  "github": {
+    "value": "t3dotgg",
+    "source": "https://github.com/t3dotgg"
+  },
+  "site": {
+    "value": "https://t3.gg",
+    "source": "https://github.com/t3dotgg"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/6751787?v=4",
+    "source": "https://github.com/t3dotgg"
+  },
+  "known_for": {
+    "value": "T3 Stack, T3 Chat, T3 Code",
+    "source": "https://github.com/t3dotgg"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary, inside T3 Code",
+      "surface": "app",
+      "surface_source": {
+        "source": "https://x.com/theo/status/2103794887481319566",
+        "seen": "2026-09-26",
+        "quote": "Here's my last seven days of usage in T3 Code. Nuts that you can get all this with like two Claude subs and one Codex sub",
+        "inferred": true
+      },
+      "history": [],
+      "source": "https://x.com/theo/status/2104079585956761814",
+      "seen": "2026-09-27",
+      "quote": "With much, much effort, I have been able to kill ~3.5 $200 Claude Code accounts in the past 5 days."
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "reviews and hard problems",
+      "surface": "app",
+      "surface_source": {
+        "source": "https://x.com/theo/status/2095751225283350624",
+        "seen": "2026-09-04",
+        "quote": "2. Open Codex app"
+      },
+      "history": [],
+      "source": "https://x.com/theo/status/2095609789711831286",
+      "seen": "2026-09-03",
+      "quote": "Astra had made Codex more essential than ever due to its unique strengths."
+    }
+  ],
+  "models": [
+    {
+      "name": "Opus 5.5",
+      "icon": "claude",
+      "detail": "high",
+      "history": [
+        {
+          "source": "https://x.com/theo/status/2100548714016468993",
+          "seen": "2026-09-17",
+          "quote": "Seriously, just use fable if you want to merge the code.",
+          "value": "Fable 5.1"
+        }
+      ],
+      "source": "https://x.com/theo/status/2104339496942948401",
+      "seen": "2026-09-27",
+      "quote": "Fable 5.1 xhigh to Opus 5.5 high (move I made) is a 6.6x increase"
+    },
+    {
+      "name": "GPT-6.1 Sol",
+      "icon": "openai",
+      "detail": "reviews",
+      "history": [
+        {
+          "source": "https://x.com/theo/status/2103239969997476091",
+          "seen": "2026-09-24",
+          "quote": "Astra is still the best \"review\" model. It's so insanely thorough.",
+          "value": "GPT-6 Astra for reviews"
+        }
+      ],
+      "source": "https://x.com/theo/status/2105001138953327067",
+      "seen": "2026-09-29",
+      "quote": "GPT-6.1 Sol is a great replacement for Astra at a WAY better price, but I don't default to it for code.\n\nI absolutely default to it for code reviews"
+    }
+  ],
+  "review_style": {
+    "value": "GPT-6.1 Sol reviews; agents merge when confident",
+    "source": "https://x.com/theo/status/2105001138953327067",
+    "seen": "2026-09-29",
+    "quote": "I absolutely default to it for code reviews, architecture analysis, computer use, email management, and a ton of my other daily work.",
+    "kind": "agent-reviews",
+    "also": [
+      {
+        "source": "https://x.com/theo/status/2095691652442837310",
+        "seen": "2026-09-04",
+        "quote": "Biggest jump with Fable 5.1 and GPT-6 Astra is that I finally have the confidence to say \"you can merge when you're confident in the changes made\""
+      },
+      {
+        "source": "https://x.com/theo/status/2103245685688771044",
+        "seen": "2026-09-24",
+        "quote": "The PRs I make with AI are significantly better than the ones I used to make by hand."
+      },
+      {
+        "source": "https://github.com/pingdotgg/t3code/blob/9bd1d8009a6b7c50f9dd9458e2bf27d481ff3b43/AGENTS.md#L115",
+        "seen": "2026-07-28",
+        "quote": "When babysitting: poll checks and comments newer than the last push, verify each bot finding against the source, fix real ones, dismiss false positives with a written reason."
+      }
+    ]
+  },
+  "harness": {
+    "value": "T3 Code on a spare Ubuntu box over ssh, not macOS",
+    "short": "remote Linux",
+    "source": "https://x.com/theo/status/2103710437951131865",
+    "seen": "2026-09-26",
+    "quote": "2. Install Ubuntu on it\n3. ssh into it\n4. \"npx t3 connect\"\n5. Run all your work remotely",
+    "history": []
+  },
+  "parallelism": {
+    "value": 40,
+    "short": "40+ threads",
+    "source": "https://x.com/theo/status/2102704338582032575",
+    "seen": "2026-09-23",
+    "quote": "I regularly have 40+ threads running concurrently.",
+    "history": []
+  },
+  "rules_files": {
+    "value": "AGENTS.md with \"A note from Theo\"; CLAUDE.md just imports it",
+    "short": "AGENTS.md",
+    "url": "https://github.com/pingdotgg/t3code/blob/9bd1d8009a6b7c50f9dd9458e2bf27d481ff3b43/AGENTS.md",
+    "source": "https://github.com/pingdotgg/t3code/blob/9bd1d8009a6b7c50f9dd9458e2bf27d481ff3b43/AGENTS.md#L33-L35",
+    "seen": "2026-10-06",
+    "quote": "I like ambitious ideas, simple systems, and software that feels obvious. Do not preserve complexity just because it already exists."
+  },
+  "skills": {
+    "value": [
+      "contribution-triage",
+      "test-t3-app",
+      "test-t3-mobile"
+    ],
+    "count": 3,
+    "featured": [
+      "test-t3-app"
+    ],
+    "source": "https://github.com/pingdotgg/t3code/tree/9bd1d8009a6b7c50f9dd9458e2bf27d481ff3b43/.agents/skills",
+    "seen": "2026-10-02"
+  },
+  "mcp_servers": null,
+  "hooks": {
+    "value": [
+      "UserPromptSubmit, PreToolUse, Stop -> Claude Blocker"
+    ],
+    "source": "https://github.com/t3-content/claude-blocker/blob/06f03fa2c229dde4ab4c02c5c24955a42a504d09/README.md#L15-L21",
+    "seen": "2026-01-01",
+    "quote": "1. **Claude Code hooks** notify the server when you submit a prompt or when Claude finishes"
+  },
+  "signature": {
+    "value": "T3 Code",
+    "kind": "tool",
+    "caption": "his own GUI over every agent",
+    "why": "He built the app he works in: one window over Claude Code, Codex and the rest, and the repo expects most contributions to come from T3 Code itself.",
+    "editorial": true,
+    "source": "https://github.com/pingdotgg/t3code/blob/9bd1d8009a6b7c50f9dd9458e2bf27d481ff3b43/AGENTS.md#L41",
+    "seen": "2026-10-06",
+    "quote": "Of note: Most T3 Code contributions will come from T3 Code itself, often controlled remotely."
+  },
+  "archetype": {
+    "value": "Swarm Lord",
+    "editorial": true,
+    "why": "40+ threads at once across several Claude and Codex subs, all in T3 Code."
+  },
+  "signature_quote": {
+    "value": "I regularly have 40+ threads running concurrently.",
+    "more": "I've never had a reason to look at more than one at a time.",
+    "source": "https://x.com/theo/status/2102704338582032575",
+    "seen": "2026-09-23"
+  }
+}

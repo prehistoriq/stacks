@@ -1,0 +1,178 @@
+{
+  "schema": 2,
+  "handle": "mattpocock",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Matt Pocock",
+    "source": "https://github.com/mattpocock"
+  },
+  "x": {
+    "value": "mattpocockuk",
+    "source": "https://x.com/mattpocockuk"
+  },
+  "github": {
+    "value": "mattpocock",
+    "source": "https://github.com/mattpocock"
+  },
+  "site": {
+    "value": "https://totaltypescript.com",
+    "source": "https://github.com/mattpocock"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/28293365?v=4",
+    "source": "https://github.com/mattpocock"
+  },
+  "known_for": {
+    "value": "Total TypeScript, ex-Vercel",
+    "source": "https://github.com/mattpocock"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary, also runs AFK agents",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://www.aihero.dev/how-to-kill-the-bloat-in-claude-codes-system-prompt",
+        "seen": "2026-07-07",
+        "quote": "Point Claude Code at it in another terminal and send a message:"
+      },
+      "source": "https://www.aihero.dev/how-to-kill-the-bloat-in-claude-codes-system-prompt",
+      "seen": "2026-07-07",
+      "quote": "Want my whole Claude Code setup, bloat removal included?",
+      "history": []
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Opus 5.5",
+      "icon": "claude",
+      "detail": "interactive",
+      "source": "https://www.aihero.dev/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "seen": "2026-10-05",
+      "quote": "On Opus 5.5 it loads each time the agent writes a PR body, and you do not have to think about it.",
+      "history": []
+    },
+    {
+      "name": "Claude Opus 5",
+      "icon": "claude",
+      "detail": "AFK Sandcastle agents",
+      "source": "https://github.com/mattpocock/course-video-manager/blob/41c495e0fe825692026d834066674e483dfa5e14/.sandcastle/main.ts#L14",
+      "seen": "2026-07-24",
+      "quote": "agent: sandcastle.claudeCode(\"claude-opus-5\"),",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Reviews by merge danger, two-axis /code-review",
+    "source": "https://www.aihero.dev/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+    "seen": "2026-10-05",
+    "quote": "Merge Danger tells you where to spend review time. A two-way door with a small blast radius: skim it. A one-way door: read it slowly.",
+    "kind": "spot-checks",
+    "also": [
+      {
+        "source": "https://github.com/mattpocock/skills/blob/7a030a8b0dcaa601bb0dda9aaf174affb3d61145/skills/engineering/code-review/SKILL.md#L11",
+        "seen": "2026-10-06",
+        "quote": "Both axes run as **parallel sub-agents** so they don't pollute each other's context, then this skill aggregates their findings."
+      },
+      {
+        "source": "https://www.aihero.dev/my-7-phases-of-ai-development",
+        "seen": "2026-03-16",
+        "quote": "QA involves humans reading the generated code to ensure quality, maintainability, and correctness."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Claude Code, Sandcastle (his library) running agents in Docker sandboxes off GitHub issues",
+    "short": "Sandcastle",
+    "source": "https://www.aihero.dev/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+    "seen": "2026-10-05",
+    "quote": "A script reads each ticket and runs /implement on it. This is what I recommend for most people.",
+    "history": [
+      {
+        "value": "Ralph loops",
+        "source": "https://www.aihero.dev/my-7-phases-of-ai-development",
+        "seen": "2026-03-16",
+        "quote": "I use Ralph loops, which work effectively with this setup."
+      }
+    ]
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "CLAUDE.md per repo, with an ## Agent skills block his setup skill writes",
+    "short": "CLAUDE.md",
+    "url": "https://github.com/mattpocock/course-video-manager/blob/41c495e0fe825692026d834066674e483dfa5e14/CLAUDE.md",
+    "source": "https://github.com/mattpocock/course-video-manager/blob/41c495e0fe825692026d834066674e483dfa5e14/CLAUDE.md#L17",
+    "seen": "2026-09-30",
+    "quote": "`.claude/skills/verify-cvm/` drives the app in a browser against the PRODUCTION database and leaves a **Write Ledger** proving what it did or did not modify."
+  },
+  "skills": {
+    "value": [
+      "ask-matt",
+      "diagnosing-bugs",
+      "grill-with-docs",
+      "triage",
+      "improve-codebase-architecture",
+      "setup-matt-pocock-skills",
+      "tdd",
+      "to-spec",
+      "to-tickets",
+      "wayfinder",
+      "implement",
+      "implement-spec",
+      "prototype",
+      "research",
+      "domain-modeling",
+      "codebase-design",
+      "code-review",
+      "pr",
+      "retro",
+      "wizard",
+      "grill-me",
+      "grilling",
+      "handoff",
+      "teach",
+      "to-questionnaire",
+      "wait-what",
+      "writing-for-agents"
+    ],
+    "count": 27,
+    "featured": [
+      "grill-me",
+      "grill-with-docs",
+      "tdd"
+    ],
+    "source": "https://github.com/mattpocock/skills/blob/7a030a8b0dcaa601bb0dda9aaf174affb3d61145/.claude-plugin/plugin.json#L21-L48",
+    "seen": "2026-10-06"
+  },
+  "mcp_servers": null,
+  "hooks": {
+    "value": [
+      "PreToolUse block-npx-tsc.sh"
+    ],
+    "source": "https://github.com/mattpocock/course-video-manager/blob/41c495e0fe825692026d834066674e483dfa5e14/.claude/hooks/block-npx-tsc.sh#L2",
+    "seen": "2026-07-16",
+    "quote": "# Block commands that execute npx tsc, suggest pnpm run typecheck instead."
+  },
+  "signature": {
+    "value": "/grill-me",
+    "kind": "skill",
+    "caption": "before every change",
+    "why": "Our pick: his most popular skill makes the agent interview him until the design is settled, before any code is written.",
+    "editorial": true,
+    "source": "https://github.com/mattpocock/skills/blob/7a030a8b0dcaa601bb0dda9aaf174affb3d61145/README.md#L103",
+    "seen": "2026-10-06",
+    "quote": "These are my most popular skills. They help you align with the agent before you get started, and think deeply about the change you're making. Use them _every_ time you want to make a change."
+  },
+  "archetype": {
+    "value": "Toolsmith",
+    "editorial": true,
+    "why": "Ships his own 27-skill plugin and the Sandcastle library he runs his agents on."
+  },
+  "signature_quote": {
+    "value": "Writing code got cheap. Reading it did not.",
+    "source": "https://www.aihero.dev/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+    "seen": "2026-10-05"
+  }
+}

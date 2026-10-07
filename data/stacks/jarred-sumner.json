@@ -1,0 +1,168 @@
+{
+  "schema": 2,
+  "handle": "jarred-sumner",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Jarred Sumner",
+    "source": "https://github.com/Jarred-Sumner"
+  },
+  "x": {
+    "value": "jarredsumner",
+    "source": "https://github.com/Jarred-Sumner"
+  },
+  "github": {
+    "value": "Jarred-Sumner",
+    "source": "https://github.com/Jarred-Sumner"
+  },
+  "site": {
+    "value": "https://jarredsumner.com",
+    "source": "https://github.com/Jarred-Sumner"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/709451?v=4",
+    "source": "https://github.com/Jarred-Sumner"
+  },
+  "known_for": {
+    "value": "Creator of Bun, now at Anthropic",
+    "source": "https://claude.com/code-with-claude/session/sf-live-coding-session-with-boris-cherny-and-jarred-sumner"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary, dynamic workflows",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://github.com/PiLastDigit/Code-With-Claude/blob/b8a0a74e5834e9cf04a300d46d5226649278b6bf/04%20-%20Live%20coding%20session%20with%20Boris%20Cherny%20and%20Jarred%20Sumner.txt",
+        "seen": "2026-05-06",
+        "quote": "you mostly use CLI? Yeah."
+      },
+      "source": "https://bun.com/blog/bun-in-rust",
+      "seen": "2026-07-08",
+      "quote": "I rewrote Bun in Rust using about 50 dynamic workflows in Claude Code run continuously over the course of 11 days."
+    },
+    {
+      "name": "RoboBun",
+      "icon": null,
+      "role": "Bun's Claude bot, fixes issues",
+      "surface": null,
+      "source": "https://github.com/PiLastDigit/Code-With-Claude/blob/b8a0a74e5834e9cf04a300d46d5226649278b6bf/04%20-%20Live%20coding%20session%20with%20Boris%20Cherny%20and%20Jarred%20Sumner.txt",
+      "seen": "2026-05-06",
+      "quote": "So in Bun's repo, every time somebody submits an issue, we have a Claude bot automatically run and try to reproduce the issue."
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Fable 5",
+      "icon": "claude",
+      "detail": "pre-release",
+      "source": "https://bun.com/blog/bun-in-rust",
+      "seen": "2026-07-08",
+      "quote": "I used a pre-release version of Claude Fable 5 for much of the Rust rewrite.",
+      "history": [
+        {
+          "value": "Opus 4.7",
+          "source": "https://github.com/PiLastDigit/Code-With-Claude/blob/b8a0a74e5834e9cf04a300d46d5226649278b6bf/04%20-%20Live%20coding%20session%20with%20Boris%20Cherny%20and%20Jarred%20Sumner.txt",
+          "seen": "2026-05-06",
+          "quote": "it's so much better now, especially with Opus 4.7."
+        }
+      ]
+    }
+  ],
+  "review_style": {
+    "value": "Two adversarial Claude reviewers per implementer, then he reads the outputs",
+    "source": "https://bun.com/blog/bun-in-rust",
+    "seen": "2026-07-08",
+    "quote": "1 implementer, 2 or more adversarial reviewers per implementer. The reviewer's only job: find bugs & reasons why the code does not work. The implementer doesn't review. The reviewer doesn't implement.",
+    "kind": "agent-reviews",
+    "also": [
+      {
+        "source": "https://bun.com/blog/bun-in-rust",
+        "seen": "2026-07-08",
+        "quote": "I reviewed the original Rust rewrite PR by checking the adversarial code review agents were correctly catching discrepancies between the Zig code and the Rust code, that they were ensuring the porting guide and lifetime guide were being followed, and also manually reading a lot of the code myself side-by-side with the Zig vs Rust."
+      },
+      {
+        "source": "https://x.com/jarredsumner/status/2031099230702752065",
+        "seen": "2026-03-09",
+        "quote": "Been using this in Bun’s repo for weeks & giving lots of feedback\n\nThis, imo, is the best product in the code review category today."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Claude Code dynamic workflows with /loop, one worktree per workflow shard, auto mode",
+    "short": "workflows + /loop",
+    "source": "https://x.com/jarredsumner/status/2060050583017373979",
+    "seen": "2026-05-28",
+    "quote": "Dynamic workflows, in my personal opinion, is the state of the art today for reliably using agents to complete medium - large projects. \n\nFor extra large projects, I especially like using workflows with /loop.",
+    "history": []
+  },
+  "parallelism": {
+    "value": 64,
+    "short": "64 Claudes",
+    "source": "https://bun.com/blog/bun-in-rust",
+    "seen": "2026-07-08",
+    "quote": "At peak, we were running 4 of these workflows at once each in a separate worktree, each with 16 Claudes per workflow. About 64 Claudes at a time.",
+    "history": []
+  },
+  "rules_files": {
+    "value": "CLAUDE.md in oven-sh/bun (240 lines, AGENTS.md symlinks to it)",
+    "short": "CLAUDE.md",
+    "url": "https://github.com/oven-sh/bun/blob/a2b69f7b0618cdcb1b5800247fb17452a31c0eb7/CLAUDE.md",
+    "source": "https://github.com/oven-sh/bun/blob/a2b69f7b0618cdcb1b5800247fb17452a31c0eb7/CLAUDE.md#L205",
+    "seen": "2026-09-21",
+    "quote": "13. **If you need a paragraph-long comment to justify why the workaround is OK, the code is wrong — fix the code.**."
+  },
+  "skills": {
+    "value": [
+      "implementing-jsc-classes-cpp",
+      "implementing-jsc-classes-rust",
+      "javascriptcore-garbage-collector",
+      "rust-system-calls",
+      "slowest-tests",
+      "sync-react-compiler",
+      "verify",
+      "writing-bundler-tests",
+      "writing-dev-server-tests"
+    ],
+    "count": 9,
+    "featured": [
+      "verify",
+      "implementing-jsc-classes-rust",
+      "slowest-tests"
+    ],
+    "source": "https://github.com/oven-sh/bun/tree/3f1765a6de030d00a98c33ff0c776c7a7e4b23e9/.claude/skills",
+    "seen": "2026-08-21"
+  },
+  "mcp_servers": null,
+  "hooks": {
+    "value": [
+      "PreToolUse Bash guard (pre-bash-guard.js)",
+      "PostToolUse formatter on Write/Edit (post-edit-format.js)"
+    ],
+    "source": "https://github.com/oven-sh/bun/blob/3f1765a6de030d00a98c33ff0c776c7a7e4b23e9/.claude/hooks/pre-bash-guard.js#L126",
+    "seen": "2026-06-25",
+    "quote": "denyWithReason(\"error: Run `bun bd` without a timeout\");"
+  },
+  "signature": {
+    "value": "Adversarial review",
+    "kind": "habit",
+    "caption": "2 Claudes refute every change",
+    "why": "Our pick: separate Claude reviewers who only see the diff and try to prove it wrong let him merge a million-line port.",
+    "editorial": true,
+    "source": "https://x.com/jarredsumner/status/2060050588574818763",
+    "seen": "2026-05-28",
+    "quote": "Step 2: Use 2 adversarial review agents to refute the bugfix. Uncover every flaw."
+  },
+  "archetype": {
+    "value": "Swarm Lord",
+    "editorial": true,
+    "why": "Ran about 64 Claudes at once in dynamic workflows to port Bun to Rust in 11 days."
+  },
+  "signature_quote": {
+    "value": "The Claude that wrote the code wants the code to get accepted. The Claude that reviews wants to find issues in the code.",
+    "more": "1 implementer, 2 or more adversarial reviewers per implementer.",
+    "source": "https://bun.com/blog/bun-in-rust",
+    "seen": "2026-07-08"
+  }
+}

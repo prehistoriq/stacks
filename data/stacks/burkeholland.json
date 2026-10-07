@@ -1,0 +1,189 @@
+{
+  "schema": 2,
+  "handle": "burkeholland",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Burke Holland",
+    "source": "https://github.com/burkeholland"
+  },
+  "x": {
+    "value": "burkeholland",
+    "source": "https://x.com/burkeholland"
+  },
+  "github": {
+    "value": "burkeholland",
+    "source": "https://github.com/burkeholland"
+  },
+  "site": {
+    "value": "https://burkeholland.github.io",
+    "source": "https://github.com/burkeholland"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/686963?v=4",
+    "source": "https://github.com/burkeholland"
+  },
+  "known_for": {
+    "value": "Works on GitHub Copilot",
+    "source": "https://x.com/burkeholland"
+  },
+  "agents": [
+    {
+      "name": "GitHub Copilot",
+      "icon": "githubcopilot",
+      "role": "primary, Copilot app",
+      "surface": "app",
+      "surface_source": {
+        "source": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/",
+        "seen": "2026-07-27",
+        "quote": "For this demonstration, I’ll be using the new GitHub Copilot app."
+      },
+      "source": "https://x.com/burkeholland/status/2105459495833063754",
+      "seen": "2026-10-01",
+      "quote": "I've moved on to just assigning each project a lead in @GitHub Copilot and making everything their problem.",
+      "history": [
+        {
+          "value": "GitHub Copilot in VS Code",
+          "surface": "ide",
+          "source": "https://burkeholland.github.io/posts/opus-4-5-change-everything/",
+          "seen": "2026-01-05",
+          "quote": "I used GitHub Copilot in VS Code with a custom agent prompt that you’ll find toward the end of this post."
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "Luna Max",
+      "icon": "openai",
+      "detail": "cost default",
+      "source": "https://x.com/burkeholland/status/2100234706977423643",
+      "seen": "2026-09-16",
+      "quote": "You can do 90% of everything with just Luna and its so dirt cheap that it's almost free.",
+      "inferred": true,
+      "history": [
+        {
+          "value": "Claude Opus 4.5",
+          "source": "https://burkeholland.github.io/posts/opus-4-5-change-everything/",
+          "seen": "2026-01-05",
+          "quote": "Today, I think that AI coding agents can absolutely replace developers. And the reason that I believe this is Claude Opus 4.5."
+        },
+        {
+          "value": "GPT 5.6 Terra",
+          "source": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/",
+          "seen": "2026-07-27",
+          "quote": "For instance, since I was using GPT 5.6 Terra, it requested a review from Sonnet."
+        }
+      ]
+    },
+    {
+      "name": "Claude Opus 5.5",
+      "icon": "claude",
+      "detail": "for UI work",
+      "source": "https://x.com/burkeholland/status/2104721615774949621",
+      "seen": "2026-09-28",
+      "quote": "We're doing Opus 5.5 things all day.",
+      "inferred": true,
+      "also": [
+        {
+          "source": "https://x.com/burkeholland/status/2102501095318639025",
+          "seen": "2026-09-22",
+          "quote": "Unless you need to do something that has a UI. Then you are definitely going to need at least Opus."
+        }
+      ],
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Rubber duck review by a second model family; he no longer reads the code",
+    "source": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/",
+    "seen": "2026-07-27",
+    "quote": "In a Rubber Duck review, GitHub Copilot will request a review from a model of a different AI family.",
+    "kind": "agent-reviews",
+    "also": [
+      {
+        "source": "https://x.com/burkeholland/status/2105459495833063754",
+        "seen": "2026-10-01",
+        "quote": "Y'all are reading code."
+      },
+      {
+        "source": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/",
+        "seen": "2026-07-27",
+        "quote": "The most important thing is not to settle for AI output that is “good enough.” Insist on quality."
+      }
+    ]
+  },
+  "harness": {
+    "value": "GitHub Copilot app: a lead agent per project runs sessions, PRs, merges and worktrees",
+    "short": "project leads",
+    "source": "https://x.com/burkeholland/status/2105459495833063754",
+    "seen": "2026-10-01",
+    "quote": "Lead triages the backlog, spin up sessions, testing, PR, merge, deployment and cleaning up worktrees.",
+    "history": [
+      {
+        "value": "VS Code custom agent that always delegates to subagents",
+        "source": "https://burkeholland.github.io/posts/opus-4-5-change-everything/",
+        "seen": "2026-01-05",
+        "quote": "ALWAYS use #runSubagent."
+      },
+      {
+        "value": "YOLO mode in a sandbox, prototype, /plan, Autopilot",
+        "source": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/",
+        "seen": "2026-07-27",
+        "quote": "When using YOLO mode, you don’t want to run the agent on your local machine."
+      }
+    ]
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "'LLM AI coding agent' custom agent prompt (VS Code)",
+    "short": "custom agent",
+    "url": "https://burkeholland.github.io/posts/opus-4-5-change-everything/",
+    "source": "https://burkeholland.github.io/posts/opus-4-5-change-everything/",
+    "seen": "2026-01-05",
+    "quote": "You are an AI-first software engineer. Assume all code will be written and maintained by LLMs, not humans."
+  },
+  "skills": {
+    "value": [
+      "issue",
+      "postrboard"
+    ],
+    "count": 2,
+    "featured": [
+      "postrboard",
+      "issue"
+    ],
+    "source": "https://github.com/burkeholland/loadout/tree/4e2c2ff4fbe7c99a0e5c27220f60e27bc3f9ed3a/skills",
+    "seen": "2026-08-10"
+  },
+  "mcp_servers": {
+    "value": [
+      "context7"
+    ],
+    "source": "https://burkeholland.github.io/posts/opus-4-5-change-everything/",
+    "seen": "2026-01-05",
+    "quote": "Context7 was the only MCP I used."
+  },
+  "hooks": null,
+  "signature": {
+    "value": "A lead agent per project",
+    "kind": "habit",
+    "caption": "he just files issues",
+    "why": "Our pick: each project gets a standing Copilot lead that triages, tests, merges and cleans up, so his input is the issue tracker.",
+    "editorial": true,
+    "source": "https://x.com/burkeholland/status/2105459495833063754",
+    "seen": "2026-10-01",
+    "quote": "I've moved on to just assigning each project a lead in @GitHub Copilot and making everything their problem."
+  },
+  "archetype": {
+    "value": "Orchestrator",
+    "editorial": true,
+    "why": "Each project has a Copilot lead agent that runs the sessions; he files the issues."
+  },
+  "signature_quote": {
+    "value": "I work with AI every single day, and what I’m finding is that less is way more.",
+    "more": "It’s not about what I install or configure or trick the agent into doing that makes any real difference.",
+    "source": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/",
+    "seen": "2026-07-27"
+  }
+}

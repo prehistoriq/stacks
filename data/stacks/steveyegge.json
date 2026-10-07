@@ -1,0 +1,178 @@
+{
+  "schema": 2,
+  "handle": "steveyegge",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Steve Yegge",
+    "source": "https://github.com/steveyegge"
+  },
+  "x": {
+    "value": "Steve_Yegge",
+    "source": "https://x.com/Steve_Yegge"
+  },
+  "github": {
+    "value": "steveyegge",
+    "source": "https://github.com/steveyegge"
+  },
+  "site": {
+    "value": "https://yegge.ai",
+    "source": "https://x.com/Steve_Yegge"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/613744?v=4",
+    "source": "https://github.com/steveyegge"
+  },
+  "known_for": {
+    "value": "Gas Town, Beads, Vibe Coding",
+    "source": "https://yegge.ai/"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary, crew and fleet",
+      "surface": "cli",
+      "source": "https://yegge.ai/essays/the-shape-of-things-to-come/",
+      "seen": "2026-08-02",
+      "quote": "I have a GCP VM for Claude Code, and also a Mac Mini that bridges dev and prod, sort of a \"corp network.\"",
+      "history": [],
+      "surface_source": {
+        "source": "https://yegge.ai/essays/the-shape-of-things-to-come/",
+        "seen": "2026-08-02",
+        "quote": "By consolidating all my terminal windows into a single rolodex that I can flip through, I freed up my desktop for real work."
+      }
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "fallback fleet",
+      "surface": null,
+      "source": "https://yegge.ai/essays/the-shape-of-things-to-come/",
+      "seen": "2026-08-02",
+      "quote": "I also have a small parallel fleet of five named Sol 5.6 workers on Codex, all named for sun gods. I use it as a fallback for when my Max accounts run out, which is increasingly often, despite me adding new ones once or twice a week.",
+      "history": []
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Fable 5.1",
+      "icon": "claude",
+      "detail": "design, planning, review",
+      "source": "https://yegge.ai/essays/seats-and-sunsets/",
+      "seen": "2026-09-15",
+      "quote": "I first switched most of my seats to Fable 5.1 (my headless Aesop reviewer pool is still Fable 5)",
+      "history": [
+        {
+          "value": "Opus 4.5",
+          "source": "https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04",
+          "seen": "2026-01-01",
+          "quote": "Opus 4.5 can handle any reasonably sized task, so your job is to make tasks for it."
+        }
+      ]
+    },
+    {
+      "name": "Opus 5",
+      "icon": "claude",
+      "detail": "implementation fleet",
+      "source": "https://yegge.ai/essays/the-shape-of-things-to-come/",
+      "seen": "2026-08-02",
+      "quote": "My fleet, all Opus 5 agents, are the work consumers, like Gas Town's polecats, but non-ephemeral.",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Fable reviews every Opus change; he doesn't read code",
+    "source": "https://yegge.ai/essays/the-shape-of-things-to-come/",
+    "seen": "2026-08-02",
+    "quote": "Every implementation bead goes through this lifecycle: Fable design, Opus implementation, Fable review.",
+    "kind": "agent-reviews",
+    "also": [
+      {
+        "source": "https://yegge.ai/essays/the-shape-of-things-to-come/",
+        "seen": "2026-08-02",
+        "quote": "And as another appetizer, human code review has very nearly run its course."
+      },
+      {
+        "source": "https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04",
+        "seen": "2026-01-01",
+        "quote": "I’ve never seen the code, and I never care to, which might give you pause."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Wheelhouse, all in Emacs, tmux underneath, Beads on Dolt",
+    "short": "Emacs + tmux",
+    "source": "https://yegge.ai/essays/the-shape-of-things-to-come/",
+    "seen": "2026-08-02",
+    "quote": "I began the journey inside Emacs, so Wheelhouse has been all-Emacs from the ground up.",
+    "history": [
+      {
+        "value": "Gas Town in tmux",
+        "source": "https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04",
+        "seen": "2026-01-01",
+        "quote": "Gas Town uses tmux as its primary UI."
+      }
+    ]
+  },
+  "parallelism": {
+    "value": null,
+    "short": "was 50, idling",
+    "source": "https://yegge.ai/essays/seats-and-sunsets/",
+    "seen": "2026-09-15",
+    "quote": "But with Fable's latest \"25%\" pricing, which is yet another cut, my Wheelhouse factory is now mostly idling.",
+    "history": [
+      {
+        "value": "20–30 Claude Code instances",
+        "source": "https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04",
+        "seen": "2026-01-01",
+        "quote": "I’ve tamed them to where you can use 20–30 at once, productively, on a sustained basis."
+      },
+      {
+        "value": "50 agents",
+        "source": "https://yegge.ai/essays/fences-not-sandboxes/",
+        "seen": "2026-08-24",
+        "quote": "Wheelhouse has 50 agents that are amnesiac and interchangeable, and the only way they can coordinate is via text."
+      }
+    ]
+  },
+  "rules_files": {
+    "value": "AGENTS.md (CLAUDE.md points to it), beads for all tasks",
+    "short": "AGENTS.md",
+    "url": "https://github.com/steveyegge/efrit/blob/4df8dfd59d42e8290e683e3216a448b49d031ee2/AGENTS.md",
+    "source": "https://github.com/steveyegge/efrit/blob/4df8dfd59d42e8290e683e3216a448b49d031ee2/AGENTS.md#L30",
+    "seen": "2026-06-11",
+    "quote": "Do NOT batch multiple fixes. Do NOT wait until \"end of session\". Push immediately after each completed task."
+  },
+  "skills": null,
+  "mcp_servers": {
+    "value": [
+      "none"
+    ],
+    "source": "https://yegge.ai/essays/the-shape-of-things-to-come/",
+    "seen": "2026-08-02",
+    "quote": "I run pretty lean. I don't use any sandboxing. I don't use MCP."
+  },
+  "hooks": null,
+  "signature": {
+    "value": "Seats",
+    "kind": "habit",
+    "caption": "18 long-lived Fable officers",
+    "why": "Our pick: every agent boots into a named office with its own memory and authority, which he says saves tokens.",
+    "editorial": true,
+    "source": "https://yegge.ai/essays/seats-and-sunsets/",
+    "seen": "2026-09-15",
+    "quote": "Seats are your most fundamental and powerful building block for agentic workflows, whether you're building orchestrators or not."
+  },
+  "archetype": {
+    "value": "Swarm Lord",
+    "editorial": true,
+    "why": "50 agents: a Fable crew designs and reviews, Opus builds."
+  },
+  "signature_quote": {
+    "value": "human code review has very nearly run its course.",
+    "more": "Its vestigial SOC 2 compliance angle will keep it on life support, but by next year, human code review is completely done and gone.",
+    "source": "https://yegge.ai/essays/the-shape-of-things-to-come/",
+    "seen": "2026-08-02"
+  }
+}

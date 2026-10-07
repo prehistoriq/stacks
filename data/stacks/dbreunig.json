@@ -1,0 +1,139 @@
+{
+  "schema": 2,
+  "handle": "dbreunig",
+  "status": "ok",
+  "checked": "2026-10-07",
+  "name": {
+    "value": "Drew Breunig",
+    "source": "https://github.com/dbreunig"
+  },
+  "x": {
+    "value": "dbreunig",
+    "source": "https://github.com/dbreunig"
+  },
+  "github": {
+    "value": "dbreunig",
+    "source": "https://github.com/dbreunig"
+  },
+  "site": {
+    "value": "https://www.dbreunig.com",
+    "source": "https://github.com/dbreunig"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/81794?v=4",
+    "source": "https://github.com/dbreunig"
+  },
+  "known_for": {
+    "value": "\"How to Fix Your Context\", Plumb",
+    "source": "https://www.dbreunig.com/2026/07/24/manage-your-agent-s-loadout-with-dr-skill.html"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary",
+      "surface": null,
+      "source": "https://www.dbreunig.com/2026/03/04/the-spec-driven-development-triangle.html",
+      "seen": "2026-03-04",
+      "quote": "When I hit commit in Claude Code, I get a list of decisions and I step through them.",
+      "also": [
+        {
+          "source": "https://www.dbreunig.com/2026/02/25/two-things-i-believe-about-coding-agents.html",
+          "seen": "2026-02-25",
+          "quote": "I forked StreetPass, fired up Claude Code, and had a working version quickly."
+        },
+        {
+          "source": "https://www.dbreunig.com/2026/07/24/manage-your-agent-s-loadout-with-dr-skill.html",
+          "seen": "2026-07-24",
+          "quote": "If I run drskill list, I can see my current loadout. Adding --harness claude-code limits it to just what Claude Code sees:"
+        }
+      ],
+      "history": []
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Fable",
+      "icon": "claude",
+      "detail": "to shape the design",
+      "source": "https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html",
+      "seen": "2026-08-23",
+      "quote": "I frequently chat with Fable to interrogate and shape a design, before handing off a brief to GLM.",
+      "history": []
+    },
+    {
+      "name": "GLM 5.2",
+      "icon": "zai",
+      "detail": "implements the brief",
+      "source": "https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html",
+      "seen": "2026-08-23",
+      "quote": "I frequently chat with Fable to interrogate and shape a design, before handing off a brief to GLM.",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Steps through the decisions Plumb extracts at each commit instead of reading the diff",
+    "source": "https://www.dbreunig.com/2026/03/04/the-spec-driven-development-triangle.html",
+    "seen": "2026-03-04",
+    "quote": "It’s code review, but code review where we capture intent. When I hit commit in Claude Code, I get a list of decisions and I step through them. Sometimes I hit one I don’t like and I stop right there. I reject it, go back, redo it. I like that better than pure code review.",
+    "kind": "agent-reviews",
+    "inferred": true,
+    "also": []
+  },
+  "harness": null,
+  "parallelism": null,
+  "rules_files": {
+    "value": "CLAUDE.md (Plumb block)",
+    "short": "CLAUDE.md",
+    "url": "https://github.com/dbreunig/plumb/blob/7c80f6da078e289bcada5ffb5e170af55e93140a/CLAUDE.md",
+    "source": "https://github.com/dbreunig/plumb/blob/7c80f6da078e289bcada5ffb5e170af55e93140a/CLAUDE.md#L17-L18",
+    "seen": "2026-03-02",
+    "quote": "**NEVER approve, reject, or edit decisions on the user's behalf.** This is"
+  },
+  "skills": {
+    "value": [
+      "plumb",
+      "scaffold-docs",
+      "jev",
+      "monty-updater"
+    ],
+    "count": 4,
+    "featured": [
+      "plumb",
+      "scaffold-docs",
+      "jev"
+    ],
+    "source": "https://github.com/dbreunig",
+    "seen": "2026-09-17"
+  },
+  "mcp_servers": null,
+  "hooks": {
+    "value": [
+      "Plumb pre-commit decision review",
+      "Plumb post-commit decision log"
+    ],
+    "source": "https://github.com/dbreunig/plumb/blob/76ac6bd222a2065b84ee0dabfb8ee9d109c453d9/README.md#L63-L67",
+    "seen": "2026-09-09",
+    "quote": "2. A pre-commit hook and a post-commit hook."
+  },
+  "signature": {
+    "value": "Plumb",
+    "kind": "tool",
+    "caption": "reviews decisions at commit",
+    "why": "Our pick: his own tool stops each commit, pulls the decisions out of the diff and agent transcripts, and makes him approve them, keeping spec, tests and code in sync.",
+    "editorial": true,
+    "source": "https://www.dbreunig.com/2026/03/04/the-spec-driven-development-triangle.html",
+    "seen": "2026-03-04",
+    "quote": "It’s code review, but code review where we capture intent."
+  },
+  "archetype": {
+    "value": "Toolsmith",
+    "editorial": true,
+    "why": "He builds his own agent tooling: Plumb for decisions at commit time, drskill to audit his skill loadout."
+  },
+  "signature_quote": {
+    "value": "I frequently chat with Fable to interrogate and shape a design, before handing off a brief to GLM.",
+    "source": "https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html",
+    "seen": "2026-08-23"
+  }
+}

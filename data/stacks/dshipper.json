@@ -1,0 +1,148 @@
+{
+  "schema": 2,
+  "handle": "dshipper",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Dan Shipper",
+    "source": "https://github.com/dshipper"
+  },
+  "x": {
+    "value": "danshipper",
+    "source": "https://x.com/danshipper"
+  },
+  "github": {
+    "value": "dshipper",
+    "source": "https://github.com/dshipper"
+  },
+  "site": {
+    "value": "https://www.danshipper.com",
+    "source": "https://github.com/dshipper"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/263564?v=4",
+    "source": "https://github.com/dshipper"
+  },
+  "known_for": {
+    "value": "CEO of Every",
+    "source": "https://x.com/danshipper"
+  },
+  "agents": [
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "primary",
+      "surface": "app",
+      "surface_source": {
+        "source": "https://every.to/chain-of-thought/how-gpt-5-6-changes-knowledge-work",
+        "seen": "2026-07-10",
+        "quote": "With GPT-5.6 Sol in the new ChatGPT Work app, formerly known as Codex, the process looks very different."
+      },
+      "source": "https://x.com/danshipper/status/2102461471716483208",
+      "seen": "2026-09-22",
+      "quote": "It’s my new daily driver in Codex",
+      "also": [
+        {
+          "source": "https://every.to/chain-of-thought/when-your-vibe-coded-app-goes-viral-and-then-goes-down",
+          "seen": "2026-03-20",
+          "quote": "At 4 a.m. on the day after we launched our agent-native document editor, Proof, I watched yet another Codex agent try to revive our server."
+        }
+      ],
+      "history": [
+        {
+          "value": "Claude Code",
+          "surface": null,
+          "source": "https://every.to/chain-of-thought/openai-has-some-catching-up-to-do",
+          "seen": "2026-01-16",
+          "quote": "Most of my coding happens in Claude Code now—and I’m not alone."
+        }
+      ]
+    },
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "Fable builds",
+      "surface": null,
+      "inferred": true,
+      "source": "https://github.com/dshipper/solace/commit/0cfee9332e55bb45a1d2c9f766b2f63bb914a0d1",
+      "seen": "2026-07-03",
+      "quote": "Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>"
+    }
+  ],
+  "models": [
+    {
+      "name": "GPT-6 Sol",
+      "icon": "openai",
+      "detail": "daily driver",
+      "source": "https://x.com/danshipper/status/2102461471716483208",
+      "seen": "2026-09-22",
+      "quote": "@OpenAI just dropped GPT-6 Sol. It’s my new daily driver in Codex: not quite Astra, but close enough for much of my everyday work, faster, and 50% cheaper than 5.6 Sol.",
+      "history": []
+    },
+    {
+      "name": "Claude Fable",
+      "icon": "claude",
+      "detail": "vibe-coded apps",
+      "source": "https://x.com/danshipper/status/2089121597017759800",
+      "seen": "2026-08-16",
+      "quote": "used fable to vibe code an app that visualizes and groups everyone who applied to come to Thesis",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Vibe codes; doesn't read the codebase",
+    "source": "https://every.to/chain-of-thought/when-your-vibe-coded-app-goes-viral-and-then-goes-down",
+    "seen": "2026-03-20",
+    "quote": "And I’ve learned a lot about both building and launching a purely vibe coded app.",
+    "kind": "no-review",
+    "also": [
+      {
+        "source": "https://every.to/chain-of-thought/when-your-vibe-coded-app-goes-viral-and-then-goes-down",
+        "seen": "2026-03-20",
+        "quote": "I hadn’t slept for almost 24 hours, and all I could do was nervously munch trail mix as Codex investigated yet another bug buried deep in a codebase that I didn’t understand."
+      }
+    ],
+    "inferred": true
+  },
+  "harness": {
+    "value": "Codex app with computer use, tasks titled by a shared emoji convention",
+    "short": "Codex tasks",
+    "source": "https://x.com/danshipper/status/2095245632533622862",
+    "seen": "2026-09-02",
+    "quote": "Have Codex show you which tabs computer use is running in with a shared task-title convention:",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "AGENTS.md in his open-source Tend repo (34 lines)",
+    "short": "AGENTS.md",
+    "url": "https://github.com/EveryInc/tend/blob/ba6ba0e614f5d1151b75032bd58951a0fcb75067/AGENTS.md",
+    "source": "https://github.com/EveryInc/tend/blob/ba6ba0e614f5d1151b75032bd58951a0fcb75067/AGENTS.md#L3",
+    "seen": "2026-07-06",
+    "quote": "- This protocol governs Codex feed threads."
+  },
+  "skills": null,
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "\"Want me to compound?\"",
+    "kind": "rule",
+    "caption": "asked after every sweep",
+    "why": "Our pick: his AGENTS.md makes the agent offer, after each run, to turn what it learned into a policy change he approves.",
+    "editorial": true,
+    "source": "https://github.com/EveryInc/tend/blob/ba6ba0e614f5d1151b75032bd58951a0fcb75067/AGENTS.md#L24-L25",
+    "seen": "2026-07-06",
+    "quote": "- When a meaningful sweep or refresh reaches the CLI idle handshake, ask the user: `Want me to\n  compound what I learned from this sweep?`"
+  },
+  "archetype": {
+    "value": "Vibe Maximalist",
+    "editorial": true,
+    "why": "Ships a purely vibe-coded app and lets Codex fix bugs in code he hasn't read."
+  },
+  "signature_quote": {
+    "value": "If you can vibe code it, you can vibe fix it.",
+    "more": "You just might not be able to fix it quickly.",
+    "source": "https://every.to/chain-of-thought/when-your-vibe-coded-app-goes-viral-and-then-goes-down",
+    "seen": "2026-03-20"
+  }
+}

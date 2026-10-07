@@ -1,0 +1,157 @@
+{
+  "schema": 2,
+  "handle": "leerob",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Lee Robinson",
+    "source": "https://github.com/leerob"
+  },
+  "x": {
+    "value": "leerob",
+    "source": "https://x.com/leerob"
+  },
+  "github": {
+    "value": "leerob",
+    "source": "https://github.com/leerob"
+  },
+  "site": {
+    "value": "https://leerob.com",
+    "source": "https://github.com/leerob"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/9113740?v=4",
+    "source": "https://github.com/leerob"
+  },
+  "known_for": {
+    "value": "ML at SpaceX, ex-Cursor, Vercel",
+    "source": "https://leerob.com"
+  },
+  "agents": [
+    {
+      "name": "Grok Bot",
+      "icon": "grok",
+      "role": "always-on bots, most of his tokens",
+      "surface": "app",
+      "surface_source": {
+        "source": "https://x.com/leerob/status/2089169319099777364",
+        "seen": "2026-08-17",
+        "quote": "This helps make the UI fast and responsive on desktop and mobile."
+      },
+      "source": "https://x.com/leerob/status/2092786147156246906",
+      "seen": "2026-08-27",
+      "quote": "I started by using Bot for personal tasks instead of work things, but it quickly took over the majority of my tokens.",
+      "history": []
+    },
+    {
+      "name": "Cursor",
+      "icon": "cursor",
+      "role": "plan, then cloud agents",
+      "surface": "web",
+      "surface_source": {
+        "source": "https://leerob.com/pixo",
+        "seen": "2025-12",
+        "quote": "I would go back and forth with Cursor to build a plan, and then start the agent running in the cloud, mostly with Codex."
+      },
+      "source": "https://leerob.com/cursor",
+      "seen": null,
+      "undated": true,
+      "quote": "I'm very opinionated about products for engineers, and a heavy user of Cursor myself, so I often gathered customer feedback and made sure we were building the right thing.",
+      "history": []
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Opus 4.5",
+      "icon": "claude",
+      "detail": "about 70% of spend",
+      "source": "https://leerob.com/pixo",
+      "seen": "2025-12",
+      "quote": "The spend was about 70% Opus, 30% Codex due to their API pricing.",
+      "history": []
+    },
+    {
+      "name": "GPT-5.1-Codex-Max",
+      "icon": "openai",
+      "detail": "long-running cloud runs",
+      "source": "https://leerob.com/pixo",
+      "seen": "2025-12",
+      "quote": "Throughout the project, I flipped between Opus 4.5 and GPT-5.1-Codex-Max. Both performed very well, although I used them differently. For example, Codex performed better for long-running tasks, while Opus was significantly better at writing.",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Reviews most of the code and tests it; Bugbot reviews every PR",
+    "kind": "spot-checks",
+    "source": "https://leerob.com/pixo",
+    "seen": "2025-12",
+    "quote": "It’s worth noting that I did review most of the code and tested changes both manually and with automated tests. I also had Bugbot review all my PRs (example).",
+    "also": [
+      {
+        "source": "https://x.com/leerob/status/2091265397056016677",
+        "seen": "2026-08-22",
+        "quote": "I explicitly block any write/destructive actions and have it ask for my approval first."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Always-running Grok Bots on their own cloud computer, connected to his X and Gmail",
+    "short": "always-on bots",
+    "source": "https://x.com/leerob/status/2091265397056016677",
+    "seen": "2026-08-22",
+    "quote": "For example, I have bots that are connected to my X, Gmail, etc.",
+    "history": [
+      {
+        "value": "Cursor plan mode, then Cursor cloud agents",
+        "source": "https://leerob.com/pixo",
+        "seen": "2025-12",
+        "quote": "A large portion of this project was built while I was away from my keyboard."
+      }
+    ]
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "AGENTS.md (pixo), added only after the model made mistakes",
+    "short": "AGENTS.md",
+    "url": "https://github.com/leerob/pixo/blob/e6bf89c987311fcc6c4b2d02f35aad42268f1146/AGENTS.md",
+    "source": "https://leerob.com/pixo",
+    "seen": "2025-12",
+    "quote": "I started with zero custom rules. I only added a rules file later after the model got a few things wrong (e.g. used the wrong linting command, couldn’t remember how to generate the binary)."
+  },
+  "skills": {
+    "value": [
+      "next-best-practices",
+      "vercel-react-best-practices"
+    ],
+    "count": 2,
+    "featured": [
+      "next-best-practices",
+      "vercel-react-best-practices"
+    ],
+    "source": "https://github.com/leerob/march-arena/tree/95e10f33b695f8c535aedd6b27f88ba8fadbf6cb/.cursor/skills",
+    "seen": "2026-03-16"
+  },
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "Plan mode",
+    "kind": "tool",
+    "caption": "before every long agent run",
+    "why": "Our pick: he plans each change with the model in Cursor, then hands it to a cloud agent and walks away. That is how he built a whole Rust library without writing code by hand.",
+    "editorial": true,
+    "source": "https://leerob.com/pixo",
+    "seen": "2025-12",
+    "quote": "Plan mode in Cursor is one of the most underrated features."
+  },
+  "archetype": {
+    "value": "Orchestrator",
+    "editorial": true,
+    "why": "He plans, then sends agents to the cloud, and now runs always-on bots that use most of his tokens."
+  },
+  "signature_quote": {
+    "value": "The cost of abstractions with AI is very high.",
+    "more": "Over-abstraction was always annoying and a code smell but now there’s an easy solution: spend tokens.",
+    "source": "https://leerob.com/agents",
+    "seen": "2025-12"
+  }
+}

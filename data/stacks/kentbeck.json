@@ -1,0 +1,182 @@
+{
+  "schema": 2,
+  "handle": "kentbeck",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Kent Beck",
+    "source": "https://github.com/KentBeck"
+  },
+  "x": {
+    "value": "KentBeck",
+    "source": "https://github.com/KentBeck"
+  },
+  "github": {
+    "value": "KentBeck",
+    "source": "https://github.com/KentBeck"
+  },
+  "site": {
+    "value": "https://kentbeck.com",
+    "source": "https://github.com/KentBeck"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/46154?v=4",
+    "source": "https://github.com/KentBeck"
+  },
+  "known_for": {
+    "value": "TDD, Extreme Programming, JUnit",
+    "source": "https://newsletter.pragmaticengineer.com/p/how-kent-beck-shapes-the-software"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "Lean proofs, Smalltalk",
+      "surface": "cli",
+      "source": "https://github.com/KentBeck/FailureVirality/blob/973a52675fb6fb6a5b82799f1849ac25b4038762/README.md#L11",
+      "seen": "2026-09-08",
+      "quote": "From 64 sessions (Codex CLI + Claude Code, Sept 2025–Sept 2026), 953 laps,",
+      "history": [
+        {
+          "value": "Augment Code in IntelliJ",
+          "surface": "ide",
+          "source": "https://newsletter.kentbeck.com/p/my-augmented-coding-tools-as-of-16",
+          "seen": "2025-05-16",
+          "quote": "Augment works inside IntelliJ, which is how I used it mostly."
+        }
+      ],
+      "inferred": true,
+      "surface_source": {
+        "source": "https://github.com/KentBeck/SmalltalkGenie/blob/5f12d2e50a616301b3d89a91a12fb8cebf059bd7/README.md#L54",
+        "seen": "2026-06-18",
+        "quote": "claude mcp add --transport http genie http://localhost:8087/mcp"
+      }
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "Codex CLI and Codex for Mac",
+      "surface": "cli",
+      "source": "https://github.com/KentBeck/FailureVirality/blob/973a52675fb6fb6a5b82799f1849ac25b4038762/README.md#L11",
+      "seen": "2026-09-08",
+      "quote": "From 64 sessions (Codex CLI + Claude Code, Sept 2025–Sept 2026), 953 laps,",
+      "history": [],
+      "inferred": true
+    }
+  ],
+  "models": [
+    {
+      "name": "Gemini",
+      "icon": "gemini",
+      "detail": "fast, maybe too fast",
+      "source": "https://substack.com/@kentbeck/note/c-183114266",
+      "seen": "2025-12-01",
+      "quote": "Gemini is fast & good for augmented coding. I’m getting done in hours what would have taken me days with Claude Code.",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Reviews solo, would rather be pairing",
+    "source": "https://newsletter.kentbeck.com/p/party-of-one-for-code-review",
+    "seen": "2025-12-26",
+    "quote": "Code review meant “another human looks at your code before it ships.” Maybe now it means “something helps you maintain awareness of what you’re building and whether the structure is staying healthy.”",
+    "kind": "agent-reviews",
+    "also": [
+      {
+        "source": "https://newsletter.kentbeck.com/p/party-of-one-for-code-review",
+        "seen": "2025-12-26",
+        "quote": "I’d rather be pairing."
+      },
+      {
+        "source": "https://newsletter.kentbeck.com/p/beyond-the-ide",
+        "seen": "2025-09-04",
+        "quote": "The old workflow had us editing for hours and reviewing for minutes. The new workflow has us reviewing for hours and editing for minutes."
+      },
+      {
+        "source": "https://github.com/KentBeck/ToolSeeds/blob/bb343068a0d43fd42e20f195d4af5c3ba971f84e/README.md#L13",
+        "seen": "2026-10-03",
+        "quote": "Review the result and run the project's tests."
+      }
+    ],
+    "inferred": true
+  },
+  "harness": {
+    "value": "Rotating tools, worked live in weekly Genie Sessions",
+    "short": "live sessions",
+    "source": "https://newsletter.kentbeck.com/p/genie-lessons-nobody-wants-agents",
+    "seen": "2026-04-23",
+    "quote": "every Friday I work on a real problem with an AI tool, live, for paid subscribers.",
+    "history": [
+      {
+        "value": "Ona, browser-based multi-genie IDE (sponsor)",
+        "source": "https://newsletter.kentbeck.com/p/beyond-the-ide",
+        "seen": "2025-09-04",
+        "quote": "I’ve used it for 60+ hours in the last 2 weeks & I have a hard time augmented coding without it."
+      }
+    ]
+  },
+  "parallelism": {
+    "value": 1,
+    "short": "one at a time",
+    "source": "https://newsletter.kentbeck.com/p/genie-lessons-nobody-wants-agents",
+    "seen": "2026-04-23",
+    "quote": "I’ve never been able to get two agents working on the same codebase at the same time without my head exploding.",
+    "history": [],
+    "inferred": true
+  },
+  "rules_files": {
+    "value": "CLAUDE.md (96 lines), identical AGENTS.md, plus a GEMINI.md",
+    "short": "CLAUDE.md",
+    "url": "https://github.com/KentBeck/SmalltalkGenie/blob/5f12d2e50a616301b3d89a91a12fb8cebf059bd7/CLAUDE.md",
+    "source": "https://github.com/KentBeck/SmalltalkGenie/blob/5f12d2e50a616301b3d89a91a12fb8cebf059bd7/CLAUDE.md#L8-L9",
+    "seen": "2026-06-29",
+    "quote": "**Operate entirely from the live image via the `genie` MCP tools. Do not\ncreate, expect, or rely on a file mirror of the code.**"
+  },
+  "skills": {
+    "value": [
+      "pharo-live-image",
+      "pharo-refactor",
+      "pharo-rename-method",
+      "pharo-tdd",
+      "representation-envy-refactor"
+    ],
+    "count": 5,
+    "featured": [
+      "pharo-live-image",
+      "pharo-tdd",
+      "representation-envy-refactor"
+    ],
+    "source": "https://github.com/KentBeck/SmalltalkGenie/tree/5f12d2e50a616301b3d89a91a12fb8cebf059bd7/.agents/skills",
+    "seen": "2026-07-02"
+  },
+  "mcp_servers": {
+    "value": [
+      "genie (his SmalltalkGenie, inside a live Pharo image)"
+    ],
+    "source": "https://github.com/KentBeck/SmalltalkGenie/blob/5f12d2e50a616301b3d89a91a12fb8cebf059bd7/README.md#L54",
+    "seen": "2026-06-18",
+    "quote": "claude mcp add --transport http genie http://localhost:8087/mcp"
+  },
+  "hooks": null,
+  "signature": {
+    "value": "TCR skill",
+    "kind": "skill",
+    "caption": "red tests revert the code",
+    "why": "Our pick: his own Test && Commit || Revert discipline as an always-on agent rule, so a failing step is thrown away instead of patched.",
+    "editorial": true,
+    "source": "https://github.com/KentBeck/TCRSkill/blob/0132ef205b08ef0558cd493336420cce9dbbfa89/.cursor/rules/tcr-always.mdc#L2",
+    "seen": "2026-03-30",
+    "quote": "Always use TCR (Test && Commit || Revert)—run tests after each micro-change, commit only on green, revert on red."
+  },
+  "archetype": {
+    "value": "Purist",
+    "editorial": true,
+    "why": "TCR on every step, test-gated saves, one agent at a time."
+  },
+  "signature_quote": {
+    "value": "Nobody wants agents. Nobody wants agent swarms. I have a system and I want it to change.",
+    "more": "That’s the whole thing.",
+    "source": "https://newsletter.kentbeck.com/p/genie-lessons-nobody-wants-agents",
+    "seen": "2026-04-23"
+  }
+}

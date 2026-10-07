@@ -1,0 +1,120 @@
+{
+  "schema": 2,
+  "handle": "mikeyk",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Mike Krieger",
+    "source": "https://github.com/mikeyk"
+  },
+  "x": {
+    "value": "mikeyk",
+    "source": "https://x.com/mikeyk"
+  },
+  "github": {
+    "value": "mikeyk",
+    "source": "https://github.com/mikeyk"
+  },
+  "site": null,
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/21233?v=4",
+    "source": "https://github.com/mikeyk"
+  },
+  "known_for": {
+    "value": "Instagram co-founder, Anthropic Labs",
+    "source": "https://podscripts.co/podcasts/big-technology-podcast/anthropics-labs-lead-on-fables-capabilities-building-ai-native-products-with-mike-krieger"
+  },
+  "agents": [
+    {
+      "name": "Claude Desktop",
+      "icon": "claude",
+      "role": "primary, Projects with a coordinator Claude",
+      "surface": "app",
+      "source": "https://x.com/mikeyk/status/2100653182708035658",
+      "seen": "2026-09-17",
+      "quote": "Most of my Claude Desktop work these days is in these new-style projects and I've really enjoyed how easy it is to kick off a bunch of work while still having a coordinator Claude responding quickly",
+      "history": []
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Opus 5.5",
+      "icon": "claude",
+      "detail": "most work",
+      "source": "https://x.com/mikeyk/status/2104643948442743060",
+      "seen": "2026-09-28",
+      "quote": "I still reach for Opus 5.5 for most work, but Sonnet 5.5 is a great complement.",
+      "history": [
+        {
+          "value": "Claude Fable",
+          "source": "https://podscripts.co/podcasts/big-technology-podcast/anthropics-labs-lead-on-fables-capabilities-building-ai-native-products-with-mike-krieger",
+          "seen": "2026-06-24",
+          "quote": "Fable, like enough chunky work to last."
+        },
+        {
+          "value": "Claude Opus 5",
+          "source": "https://x.com/mikeyk/status/2080702940445397167",
+          "seen": "2026-07-24",
+          "quote": "Opus 5 quickly became my daily driver both at work and on the weekends."
+        }
+      ]
+    },
+    {
+      "name": "Claude Sonnet 5.5",
+      "icon": "claude",
+      "detail": "design, features, Artifacts",
+      "source": "https://x.com/mikeyk/status/2104643948442743060",
+      "seen": "2026-09-28",
+      "quote": "I love its design skills and it's great for building features — I use it to make Artifacts often now.",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Hands over whole goals and has Claude verify, then double-verify",
+    "kind": "agent-reviews",
+    "source": "https://podscripts.co/podcasts/big-technology-podcast/anthropics-labs-lead-on-fables-capabilities-building-ai-native-products-with-mike-krieger",
+    "seen": "2026-06-24",
+    "quote": "Go off and do it. Go plan it. Go execute it. Go verify the work. Double verify the work.",
+    "inferred": true
+  },
+  "harness": {
+    "value": "Claude Desktop Projects: a coordinator Claude plus background work; dynamic /workflows",
+    "short": "coordinator Claude",
+    "source": "https://x.com/mikeyk/status/2100653182708035658",
+    "seen": "2026-09-17",
+    "quote": "Most of my Claude Desktop work these days is in these new-style projects and I've really enjoyed how easy it is to kick off a bunch of work while still having a coordinator Claude responding quickly",
+    "history": [
+      {
+        "value": "Bespoke harness and verification system",
+        "source": "https://x.com/mikeyk/status/2080721530699587798",
+        "seen": "2026-07-24",
+        "quote": "Compared to earlier in the year where I had a bespoke harness/verification system, the models can do so much more with so much less instruction."
+      }
+    ]
+  },
+  "parallelism": null,
+  "rules_files": null,
+  "skills": null,
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "iOS Claude pings Android Claude",
+    "kind": "habit",
+    "caption": "to port each feature",
+    "why": "Our pick: he keeps an iOS and an Android version of a Labs app in step by having the agent on the iOS side message the agent on the Android side after each change.",
+    "editorial": true,
+    "source": "https://podscripts.co/podcasts/big-technology-podcast/anthropics-labs-lead-on-fables-capabilities-building-ai-native-products-with-mike-krieger",
+    "seen": "2026-06-24",
+    "quote": "And that project, I am maintaining an iOS and an Android version of, and I basically have the cloud that works on the iOS one, basically like ping the Android one and be like,"
+  },
+  "archetype": {
+    "value": "Orchestrator",
+    "editorial": true,
+    "why": "He hands whole goals to a coordinator Claude and queues a night's work before bed."
+  },
+  "signature_quote": {
+    "value": "Claude does the deciding about how to get there, while I get to keep my thinking on the work itself.",
+    "source": "https://x.com/mikeyk/status/2100259777528177030",
+    "seen": "2026-09-16"
+  }
+}

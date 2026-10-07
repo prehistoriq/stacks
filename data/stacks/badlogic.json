@@ -1,0 +1,162 @@
+{
+  "schema": 2,
+  "handle": "badlogic",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Mario Zechner",
+    "source": "https://github.com/badlogic"
+  },
+  "x": {
+    "value": "badlogicgames",
+    "source": "https://github.com/badlogic"
+  },
+  "github": {
+    "value": "badlogic",
+    "source": "https://github.com/badlogic"
+  },
+  "site": {
+    "value": "https://mariozechner.at",
+    "source": "https://github.com/badlogic"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/514052?v=4",
+    "source": "https://github.com/badlogic"
+  },
+  "known_for": {
+    "value": "pi coding agent, libGDX",
+    "source": "https://mariozechner.at/posts/2026-04-08-ive-sold-out/"
+  },
+  "agents": [
+    {
+      "name": "Pi",
+      "icon": null,
+      "role": "primary, his own",
+      "surface": "cli",
+      "source": "https://mariozechner.at/posts/2026-05-30-shitty-robot/",
+      "seen": "2026-05-30",
+      "quote": "Naturally I vendored the source tree and used my trusty pi with GPT-5.5 to implement feature parity with the Python version.",
+      "history": [
+        {
+          "value": "Claude Code",
+          "surface": "cli",
+          "source": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/",
+          "seen": "2025-11-30",
+          "quote": "I preferred Claude Code for most of my work.",
+          "surface_source": {
+            "source": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/",
+            "seen": "2025-11-30",
+            "quote": "Given that I'm very accustomed to Claude Code, I haven't spent any more time optimizing this. I'm happy with the little flicker I get in VS Code. I wouldn't feel at home otherwise. And it still flickers less than Claude Code."
+          }
+        },
+        {
+          "value": "Left Claude Code for pi",
+          "surface": "cli",
+          "source": "https://mariozechner.at/posts/2025-12-22-year-in-review-2025/",
+          "seen": "2025-12-22",
+          "quote": "I've since abandoned Claude Code and written my own coding agent harness, which has served me well over the past months.",
+          "surface_source": {
+            "source": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/",
+            "seen": "2025-11-30",
+            "quote": "pi-coding-agent: The actual CLI that wires it all together with session management, custom tools, themes, and project context files."
+          }
+        }
+      ],
+      "surface_source": {
+        "source": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/",
+        "seen": "2025-11-30",
+        "quote": "pi-coding-agent: The actual CLI that wires it all together with session management, custom tools, themes, and project context files."
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "GPT-5.5",
+      "icon": "openai",
+      "source": "https://mariozechner.at/posts/2026-05-30-shitty-robot/",
+      "seen": "2026-05-30",
+      "quote": "Naturally I vendored the source tree and used my trusty pi with GPT-5.5 to implement feature parity with the Python version.",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Limits daily output to what he can review",
+    "source": "https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/",
+    "seen": "2026-03-25",
+    "quote": "Set yourself limits on how much code you let the clanker generate per day, in line with your ability to actually review the code.",
+    "kind": "spot-checks",
+    "also": [
+      {
+        "source": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/",
+        "seen": "2025-11-30",
+        "quote": "After I see its initial review, I give my own review and then we work on it together until it's good. That's the workflow I use to not merge garbage code."
+      }
+    ],
+    "inferred": true
+  },
+  "harness": {
+    "value": "pi in the terminal, tmux for long-running processes and sub-agents",
+    "short": "tmux",
+    "source": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/",
+    "seen": "2025-11-30",
+    "quote": "There's simply no need for background bash. Claude Code can use tmux too, you know. Bash is all you need.",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "AGENTS.md in the pi repo, shared with co-maintainers",
+    "short": "AGENTS.md",
+    "url": "https://github.com/earendil-works/pi/blob/4fbdc63ca364844c0166d3d4eabafb5cf8e7c2f3/AGENTS.md",
+    "source": "https://github.com/earendil-works/pi/blob/4fbdc63ca364844c0166d3d4eabafb5cf8e7c2f3/AGENTS.md#L9-L11",
+    "seen": "2026-08-07",
+    "quote": "Explain non-trivial designs and problems as: problem, concrete example or short trace, then solution. State why the solution is necessary and distinguish it from optional complexity."
+  },
+  "skills": {
+    "value": [
+      "brave-search",
+      "browser-tools",
+      "gccli",
+      "gdcli",
+      "gmcli",
+      "transcribe",
+      "vscode",
+      "youtube-transcript"
+    ],
+    "count": 8,
+    "featured": [
+      "browser-tools",
+      "brave-search",
+      "transcribe"
+    ],
+    "source": "https://github.com/badlogic/pi-skills/tree/90bb51cae36515a648515b633a81c0c6efc8c74d",
+    "seen": "2026-06-06"
+  },
+  "mcp_servers": {
+    "value": [],
+    "source": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/",
+    "seen": "2025-11-30",
+    "quote": "pi does not and will not support MCP."
+  },
+  "hooks": null,
+  "signature": {
+    "value": "Daily code limit",
+    "kind": "habit",
+    "caption": "sized to what he can review",
+    "why": "Our pick: he wrote his own agent and still rations how much code it writes in a day.",
+    "editorial": true,
+    "source": "https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/",
+    "seen": "2026-03-25",
+    "quote": "Set yourself limits on how much code you let the clanker generate per day, in line with your ability to actually review the code."
+  },
+  "archetype": {
+    "value": "Purist",
+    "editorial": true,
+    "why": "Four tools, no MCP, no parallel sub-agents, architecture written by hand."
+  },
+  "signature_quote": {
+    "value": "Anything that defines the gestalt of your system, that is architecture, API, and so on, write it by hand.",
+    "more": "Maybe use tab completion for some nostalgic feels.",
+    "source": "https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/",
+    "seen": "2026-03-25"
+  }
+}

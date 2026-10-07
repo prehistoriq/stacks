@@ -1,0 +1,153 @@
+{
+  "schema": 2,
+  "handle": "crawshaw",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "David Crawshaw",
+    "source": "https://github.com/crawshaw"
+  },
+  "x": {
+    "value": "davidcrawshaw",
+    "source": "https://github.com/crawshaw"
+  },
+  "github": {
+    "value": "crawshaw",
+    "source": "https://github.com/crawshaw"
+  },
+  "site": {
+    "value": "https://crawshaw.io",
+    "source": "https://github.com/crawshaw"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/161319?v=4",
+    "source": "https://github.com/crawshaw"
+  },
+  "known_for": {
+    "value": "exe.dev, Tailscale co-founder",
+    "source": "https://github.com/crawshaw"
+  },
+  "agents": [
+    {
+      "name": "Shelley",
+      "icon": null,
+      "role": "primary, his company's own agent",
+      "surface": "web",
+      "surface_source": {
+        "source": "https://www.heavybit.com/library/podcasts/high-leverage/ep-11-why-agents-need-computers-with-david-crawshaw",
+        "seen": "2026-06-03",
+        "quote": "The VM starts with a coding agent running on it called Shelley, which is one we wrote. It's a web interface is the key thing."
+      },
+      "source": "https://blog.exe.dev/devtools-must-be-open-source",
+      "seen": "2026-08-02",
+      "quote": "I like this tool, but it has two downsides: first, I like to read my diffs in Shelley with a good UI, not in a terminal.",
+      "history": [
+        {
+          "value": "Chat LLM in a web browser",
+          "surface": "web",
+          "source": "https://crawshaw.io/blog/programming-with-llms",
+          "seen": "2025-01-06",
+          "quote": "That is why I still use an LLM via a web browser, because I want a blank slate on which to craft a well-contained request."
+        },
+        {
+          "value": "Sketch (exe.dev's earlier agent)",
+          "surface": null,
+          "source": "https://crawshaw.io/blog/programming-with-agents",
+          "seen": "2025-06-08",
+          "quote": "I implemented the first pass of Github App auth for the hosted sketch.dev using sketch."
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Opus 4.7",
+      "icon": "claude",
+      "detail": "preferred",
+      "source": "https://www.heavybit.com/library/podcasts/high-leverage/ep-11-why-agents-need-computers-with-david-crawshaw",
+      "seen": "2026-06-03",
+      "quote": "I very much have to distinguish these days between the Anthropic models, that is Opus, which is brilliant and probably still my preferred coding model.",
+      "history": [
+        {
+          "value": "latest Opus",
+          "source": "https://crawshaw.io/blog/eight-more-months-of-agents",
+          "seen": "2026-02-08",
+          "quote": "In February this year, the latest Opus model can write nine tenths of my code."
+        }
+      ]
+    },
+    {
+      "name": "Codex models",
+      "icon": "openai",
+      "detail": "sometimes",
+      "source": "https://www.heavybit.com/library/podcasts/high-leverage/ep-11-why-agents-need-computers-with-david-crawshaw",
+      "seen": "2026-06-03",
+      "quote": "The Codex models are actually really good these days and I use them sometimes.",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Reads agent code before it hits serious systems, trimmed by meat",
+    "source": "https://blog.exe.dev/devtools-must-be-open-source",
+    "seen": "2026-08-02",
+    "quote": "The principle is that while agents write code, I still read it before pushing to our serious systems.",
+    "kind": "spot-checks",
+    "also": [
+      {
+        "source": "https://blog.exe.dev/devtools-must-be-open-source",
+        "seen": "2026-08-02",
+        "quote": "I almost never need to see the import blocks, or the nil-checks, or the error handling any more, so get it off the screen so I can focus on the meat."
+      },
+      {
+        "source": "https://crawshaw.io/blog/agent-principal-agent",
+        "seen": "2026-05-07",
+        "quote": "Most importantly, there is no principal-agent problem, because the human driving the machine takes on the responsibility for its actions by owning the deployment."
+      },
+      {
+        "source": "https://blog.exe.dev/show-dont-tell",
+        "seen": "2026-02-22",
+        "quote": "We read source changes to critical systems very carefully."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Fresh, unconstrained VM per agent (exe.dev) instead of built-in sandboxes",
+    "short": "fresh VMs",
+    "source": "https://crawshaw.io/blog/eight-more-months-of-agents",
+    "seen": "2026-02-08",
+    "quote": "You have to turn off the sandbox, which means you have to provide your own sandbox. I have tried just about everything and I highly recommend: use a fresh VM.",
+    "history": [
+      {
+        "value": "Containers per agent (Sketch)",
+        "source": "https://crawshaw.io/blog/programming-with-agents",
+        "seen": "2025-06-08",
+        "quote": "By default sketch creates a little development environment in a container with a copy of the source code and the runner has the ability to extract git commits from the container. This lets you run many simultaneously."
+      }
+    ]
+  },
+  "parallelism": null,
+  "rules_files": null,
+  "skills": null,
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "meat",
+    "kind": "tool",
+    "caption": "strips diffs to what matters",
+    "why": "Our pick: his own LLM tool that cuts imports, nil-checks and error handling out of a diff, so his review covers only the architecture.",
+    "editorial": true,
+    "source": "https://github.com/boldsoftware/meat/blob/f39f41dfe7b5b37a12b35fdfbaecc7e779855bd3/README.md#L5-L10",
+    "seen": "2026-08-03",
+    "quote": "Humans need to review agent-written code in critical systems.\nBut models are good now. You don't need to review for style or nil-checks\nor imports. You need to review concepts, algorithm choices, architecture.\n\nSo meat uses a model to reduce a diff to the important parts.\nIt shows you the meat."
+  },
+  "archetype": {
+    "value": "Toolsmith",
+    "editorial": true,
+    "why": "Builds his own agent (Shelley) and his own review tool (meat), and runs agents in fresh VMs."
+  },
+  "signature_quote": {
+    "value": "The way I work with them is I put them in a box, I give them very specific things and I let them do whatever they want.",
+    "source": "https://www.heavybit.com/library/podcasts/high-leverage/ep-11-why-agents-need-computers-with-david-crawshaw",
+    "seen": "2026-06-03"
+  }
+}

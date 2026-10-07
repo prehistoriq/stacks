@@ -1,0 +1,207 @@
+{
+  "schema": 2,
+  "handle": "indragiek",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Indragie Karunaratne",
+    "source": "https://github.com/indragiek"
+  },
+  "x": {
+    "value": "indragie",
+    "source": "https://x.com/indragie"
+  },
+  "github": {
+    "value": "indragiek",
+    "source": "https://github.com/indragiek"
+  },
+  "site": {
+    "value": "https://www.indragie.com",
+    "source": "https://github.com/indragiek"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/353158?v=4",
+    "source": "https://github.com/indragiek"
+  },
+  "known_for": {
+    "value": "Context, uniprof, Sentry AI lead",
+    "source": "https://pyai.events/speakers/indragie-karunaratne"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://www.indragie.com/blog/i-shipped-a-macos-app-built-entirely-by-claude-code",
+        "seen": "2025-07-01",
+        "quote": "Claude Code was not a VS Code fork like the others, but was an IDE that was designed to be used entirely in the terminal.",
+        "inferred": true
+      },
+      "source": "https://github.com/indragiek/GHFS/commit/80afde292d219f4f033d1f683dcaaae016ed877a",
+      "seen": "2026-04-11",
+      "quote": "Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>",
+      "history": [
+        {
+          "value": "GitHub Copilot",
+          "surface": "ide",
+          "source": "https://www.indragie.com/blog/i-shipped-a-macos-app-built-entirely-by-claude-code",
+          "seen": "2025-07-01",
+          "quote": "My first experience with AI coding tools was when I tried GitHub Copilot, built into VS Code."
+        },
+        {
+          "value": "Claude Code",
+          "surface": "cli",
+          "surface_source": {
+            "source": "https://www.indragie.com/blog/i-shipped-a-macos-app-built-entirely-by-claude-code",
+            "seen": "2025-07-01",
+            "quote": "Claude Code was not a VS Code fork like the others, but was an IDE that was designed to be used entirely in the terminal."
+          },
+          "source": "https://www.indragie.com/blog/i-shipped-a-macos-app-built-entirely-by-claude-code",
+          "seen": "2025-07-01",
+          "quote": "Context was almost 100% built by Claude Code."
+        }
+      ],
+      "inferred": true
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "second agent",
+      "surface": null,
+      "source": "https://github.com/indragiek/GHFS/blob/fe08755bcc9120d2bf339531f982b98a29225c04/agents.toml#L2",
+      "seen": "2026-04-11",
+      "quote": "agents = [\"claude\", \"codex\"]",
+      "history": [
+        {
+          "value": "Claude Code and Codex",
+          "surface": null,
+          "source": "https://www.indragie.com/blog/i-shipped-a-tool-to-help-agents-fix-slow-code",
+          "seen": "2025-09-22",
+          "quote": "100% of the code was written by Claude Code and Codex."
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Opus 4.6",
+      "icon": "claude",
+      "detail": "1M context",
+      "source": "https://github.com/indragiek/GHFS/commit/80afde292d219f4f033d1f683dcaaae016ed877a",
+      "seen": "2026-04-11",
+      "quote": "Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>",
+      "history": [
+        {
+          "value": "Sonnet 4 and Opus 4",
+          "source": "https://www.indragie.com/blog/i-shipped-a-macos-app-built-entirely-by-claude-code",
+          "seen": "2025-07-01",
+          "quote": "Let me just start by saying that Claude Code (with the latest Sonnet 4 and Opus 4 models) is genuinely good at writing code."
+        }
+      ],
+      "inferred": true
+    },
+    {
+      "name": "GPT-5",
+      "icon": "openai",
+      "detail": "via Codex",
+      "source": "https://www.indragie.com/blog/i-shipped-a-tool-to-help-agents-fix-slow-code",
+      "seen": "2025-09-22",
+      "quote": "I've been writing (generating) more code, trying new tools (hello GPT-5 and Codex), and trying to push the boundaries of what agents can do.",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Reviews the plan and prompts, not the 10,000-line diff",
+    "source": "https://www.youtube.com/watch?v=IPBIB7Go6TY&t=237s",
+    "seen": "2026-04-20",
+    "quote": "you don't want to review a 10,000 line slop PR but you may be interested in reviewing like the plan that was used to implement that which is significantly smaller than the code output",
+    "kind": "unknown",
+    "also": [
+      {
+        "source": "https://www.youtube.com/watch?v=IPBIB7Go6TY&t=194s",
+        "seen": "2026-04-20",
+        "quote": "It's called Iterate PR. So basically what this does is it automates the loop of you create a code change, you you push it to GitHub. Code review agents run on that PR. They leave comments."
+      },
+      {
+        "source": "https://www.indragie.com/blog/i-shipped-a-macos-app-built-entirely-by-claude-code",
+        "seen": "2025-07-01",
+        "quote": "It occurred to me as I worked on this project that the only two tools I used throughout were Claude Code and GitHub Desktop for viewing diffs."
+      }
+    ],
+    "inferred": true
+  },
+  "harness": {
+    "value": "Claude Code in the terminal, GitHub Desktop for diffs",
+    "short": "GitHub Desktop",
+    "source": "https://www.indragie.com/blog/i-shipped-a-macos-app-built-entirely-by-claude-code",
+    "seen": "2025-07-01",
+    "quote": "It occurred to me as I worked on this project that the only two tools I used throughout were Claude Code and GitHub Desktop for viewing diffs.",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "Per-project CLAUDE.md = AGENTS.md, driven by a lat.md knowledge graph",
+    "short": "CLAUDE.md",
+    "url": "https://github.com/indragiek/GHFS/blob/fe08755bcc9120d2bf339531f982b98a29225c04/CLAUDE.md",
+    "source": "https://github.com/indragiek/GHFS/blob/fe08755bcc9120d2bf339531f982b98a29225c04/CLAUDE.md#L8-L14",
+    "seen": "2026-04-11",
+    "quote": "After EVERY task, before responding to the user:\n\n- [ ] Update `lat.md/` if you added or changed any functionality, architecture, tests, or behavior\n- [ ] Run `lat check` — all wiki links and code refs must pass"
+  },
+  "skills": {
+    "value": [
+      "dotagents",
+      "swiftui-pro",
+      "swift-testing-pro",
+      "swift-concurrency-pro",
+      "lat-md",
+      "sosumi"
+    ],
+    "count": 6,
+    "featured": [
+      "sosumi",
+      "lat-md",
+      "swift-concurrency-pro"
+    ],
+    "source": "https://github.com/indragiek/GHFS/tree/fe08755bcc9120d2bf339531f982b98a29225c04",
+    "seen": "2026-04-11"
+  },
+  "mcp_servers": {
+    "value": [
+      "XcodeBuildMCP"
+    ],
+    "source": "https://github.com/indragiek/GHFS/blob/fe08755bcc9120d2bf339531f982b98a29225c04/agents.toml#L11-L14",
+    "seen": "2026-04-11",
+    "quote": "name = \"XcodeBuildMCP\"\ncommand = \"npx\"\nargs = [ \"-y\", \"xcodebuildmcp@latest\", \"mcp\" ]"
+  },
+  "hooks": {
+    "value": [
+      "PostToolUse hook: uploads the session transcript on git commit / gh pr create"
+    ],
+    "source": "https://www.youtube.com/watch?v=IPBIB7Go6TY&t=416s",
+    "seen": "2026-04-20",
+    "quote": "it installs hooks into Claude code and cursor. And then it uses the post tool use hook and a few other hooks to basically like see when there's a bash tool call to like get commit or GHPR create."
+  },
+  "signature": {
+    "value": "Claudescope",
+    "kind": "tool",
+    "caption": "transcript link in every PR",
+    "why": "Our pick: he built his own hook-driven tool so reviewers read the agent session and plan behind a PR instead of the generated diff.",
+    "editorial": true,
+    "source": "https://www.youtube.com/watch?v=IPBIB7Go6TY&t=463s",
+    "seen": "2026-04-20",
+    "quote": "ask it to create a commit, create a PR, you will see that it inserts a transcript URL into the PR description"
+  },
+  "archetype": {
+    "value": "Toolsmith",
+    "editorial": true,
+    "why": "Builds his own agent tooling: Claudescope hooks, uniprof, GHFS, Context."
+  },
+  "signature_quote": {
+    "value": "if you want more than a prototype, you need a real spec.",
+    "more": "The spec doesn't need to be well-written.",
+    "source": "https://www.indragie.com/blog/i-shipped-a-macos-app-built-entirely-by-claude-code",
+    "seen": "2025-07-01"
+  }
+}

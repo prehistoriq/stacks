@@ -1,0 +1,157 @@
+{
+  "schema": 2,
+  "handle": "karpathy",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Andrej Karpathy",
+    "source": "https://x.com/karpathy"
+  },
+  "x": {
+    "value": "karpathy",
+    "source": "https://x.com/karpathy"
+  },
+  "github": {
+    "value": "karpathy",
+    "source": "https://github.com/karpathy"
+  },
+  "site": {
+    "value": "https://karpathy.ai",
+    "source": "https://karpathy.ai"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/241138?v=4",
+    "source": "https://github.com/karpathy"
+  },
+  "known_for": {
+    "value": "nanochat, coined “vibe coding”",
+    "source": "https://karpathy.bearblog.dev/sequoia-ascent-2026/"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary",
+      "surface": "cli",
+      "source": "https://x.com/karpathy/status/2015883857489522876",
+      "seen": "2026-01-26",
+      "quote": "TLDR everyone has their developing flow, my current is a small few CC sessions on the left in ghostty windows/tabs and an IDE on the right for viewing the code + manual edits.",
+      "history": [
+        {
+          "value": "Cursor tab complete",
+          "surface": "ide",
+          "source": "https://x.com/karpathy/status/1959703967694545296",
+          "seen": "2025-08-24",
+          "quote": "Personally the bread & butter (~75%?) of my LLM assistance continues to be just (Cursor) tab complete."
+        }
+      ]
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "alongside",
+      "surface": null,
+      "source": "https://karpathy.bearblog.dev/sequoia-ascent-2026/",
+      "seen": "2026-04-30",
+      "quote": "Like many of you, I've been using agentic tools like Claude Code, Codex, and adjacent things for a while, maybe over the last year.",
+      "history": []
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Fable 5",
+      "icon": "claude",
+      "source": "https://github.com/karpathy/nanochat/commit/3616a02925b44a9dc0a104102ee5acdf3a145516",
+      "seen": "2026-07-03",
+      "quote": "Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>",
+      "history": [
+        {
+          "value": "GPT5 Pro, last line of defense",
+          "source": "https://x.com/karpathy/status/1959703967694545296",
+          "seen": "2025-08-24",
+          "quote": "Final layer of defense is GPT5 Pro, which I go to for the hardest things."
+        },
+        {
+          "value": "Claude Opus 4.6",
+          "source": "https://github.com/karpathy/autoresearch/commit/ae81d559043d2692ac085b733d32bcbe172cf57b",
+          "seen": "2026-03-06",
+          "quote": "Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+          "inferred": true
+        }
+      ],
+      "inferred": true
+    }
+  ],
+  "review_style": {
+    "value": "Watches agents like a hawk in an IDE",
+    "source": "https://x.com/karpathy/status/2015883857489522876",
+    "seen": "2026-01-26",
+    "quote": "The models definitely still make mistakes and if you have any code you actually care about I would watch them like a hawk, in a nice large IDE on the side.",
+    "kind": "spot-checks",
+    "also": [
+      {
+        "source": "https://karpathy.bearblog.dev/sequoia-ascent-2026/",
+        "seen": "2026-04-30",
+        "quote": "People have to be in charge of the spec and plan."
+      }
+    ],
+    "inferred": true
+  },
+  "harness": {
+    "value": "Claude Code sessions in Ghostty, IDE on the right",
+    "short": "Ghostty + IDE",
+    "source": "https://x.com/karpathy/status/2015883857489522876",
+    "seen": "2026-01-26",
+    "quote": "TLDR everyone has their developing flow, my current is a small few CC sessions on the left in ghostty windows/tabs and an IDE on the right for viewing the code + manual edits.",
+    "history": [
+      {
+        "value": "Claude Code / Codex beside Cursor",
+        "source": "https://x.com/karpathy/status/1959703967694545296",
+        "seen": "2025-08-24",
+        "quote": "Next layer up is Claude Code / Codex / etc, running on the side of Cursor, which I go to for larger chunks of functionality that are also fairly easy to specify in a prompt."
+      }
+    ]
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "program.md (autoresearch), CLAUDE.md (llm-council)",
+    "short": "program.md",
+    "url": "https://github.com/karpathy/autoresearch/blob/068d93da75aa45f72ba482046f108241aaaf1b8e/program.md",
+    "source": "https://github.com/karpathy/autoresearch/blob/068d93da75aa45f72ba482046f108241aaaf1b8e/program.md#L37",
+    "seen": "2026-03-09",
+    "quote": "All else being equal, simpler is better. A small improvement that adds ugly complexity is not worth it."
+  },
+  "skills": {
+    "value": [
+      "read-arxiv-paper"
+    ],
+    "count": 1,
+    "featured": [
+      "read-arxiv-paper"
+    ],
+    "source": "https://github.com/karpathy/nanochat/tree/1f9e42a85588c34be86e4cb30db5488b0f01f4c2/.claude/skills",
+    "seen": "2026-03-15"
+  },
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "autoresearch",
+    "kind": "tool",
+    "caption": "overnight agent research",
+    "why": "Our pick: he edits only program.md and agents run the experiments; round one found ~20 real gains.",
+    "editorial": true,
+    "source": "https://github.com/karpathy/autoresearch/blob/e6d79c123441a53d91bb8df7adf4db45cf120bf1/README.md#L7",
+    "seen": "2026-03-21",
+    "quote": "Instead, you are programming the `program.md` Markdown files that provide context to the AI agents and set up your autonomous research org."
+  },
+  "archetype": {
+    "value": "Purist",
+    "editorial": true,
+    "why": "Lets agents run experiments, but watches them like a hawk."
+  },
+  "signature_quote": {
+    "value": "I really am mostly programming in English now, a bit sheepishly telling the LLM what code to write... in words.",
+    "source": "https://x.com/karpathy/status/2015883857489522876",
+    "seen": "2026-01-26"
+  }
+}

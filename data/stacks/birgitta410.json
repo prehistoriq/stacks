@@ -1,0 +1,225 @@
+{
+  "schema": 2,
+  "handle": "birgitta410",
+  "status": "ok",
+  "checked": "2026-10-07",
+  "name": {
+    "value": "Birgitta Böckeler",
+    "source": "https://martinfowler.com/articles/sensors-for-coding-agents.html"
+  },
+  "x": {
+    "value": "birgitta410",
+    "source": "https://x.com/birgitta410"
+  },
+  "github": {
+    "value": "birgitta410",
+    "source": "https://github.com/birgitta410"
+  },
+  "site": {
+    "value": "https://birgitta.info",
+    "source": "https://github.com/birgitta410"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/3180887?v=4",
+    "source": "https://github.com/birgitta410"
+  },
+  "known_for": {
+    "value": "Thoughtworks, harness engineering",
+    "source": "https://birgitta.info"
+  },
+  "agents": [
+    {
+      "name": "Cursor",
+      "icon": "cursor",
+      "role": "primary, most used",
+      "surface": "ide",
+      "surface_source": {
+        "source": "https://bsky.app/profile/birgitta410.bsky.social/post/3lilfrljlgc2a",
+        "seen": "2025-02-20",
+        "quote": "I personally prefer in-IDE tools, but the concepts are reusable."
+      },
+      "source": "https://martinfowler.com/articles/sensors-for-coding-agents.html",
+      "seen": "2026-05-27",
+      "quote": "Throughout building the application, I used a mix of Cursor, Claude Code, and OpenCode (in that order of frequency).",
+      "history": []
+    },
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "second, after Cursor",
+      "surface": null,
+      "source": "https://martinfowler.com/articles/sensors-for-coding-agents.html",
+      "seen": "2026-05-27",
+      "quote": "Throughout building the application, I used a mix of Cursor, Claude Code, and OpenCode (in that order of frequency).",
+      "history": []
+    },
+    {
+      "name": "Pi",
+      "icon": null,
+      "role": "local models, evals, her own extension",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://github.com/birgitta410/local-coding-evals/blob/b4e438166659996f7519d23427b7be44a2606f23/README.md#L60",
+        "seen": "2026-06-20",
+        "quote": "Before you try running a task, start `pi` directly and check if all the configuration is working."
+      },
+      "source": "https://martinfowler.com/articles/sensors-for-coding-agents.html",
+      "seen": "2026-07-13",
+      "quote": "I tried this by building an extension for (and with) Pi.",
+      "also": [
+        {
+          "source": "https://github.com/birgitta410/local-coding-evals/blob/b4e438166659996f7519d23427b7be44a2606f23/README.md#L5",
+          "seen": "2026-06-20",
+          "quote": "- Uses Pi as the coding agent"
+        },
+        {
+          "source": "https://martinfowler.com/articles/exploring-gen-ai/local-models-for-coding-experiences.html",
+          "seen": "2026-07-08",
+          "quote": "OpenCode or Pi as coding harnesses"
+        }
+      ],
+      "history": []
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Sonnet",
+      "icon": "claude",
+      "detail": "default; Sonnet 4.6 in TDD runs",
+      "source": "https://martinfowler.com/articles/sensors-for-coding-agents.html",
+      "seen": "2026-05-27",
+      "quote": "My default model was usually Claude Sonnet, for some of the planning and analysis tasks I used Claude Opus, and for implementation tasks I frequently used Cursor's composer-2 model.",
+      "also": [
+        {
+          "source": "https://martinfowler.com/articles/exploring-gen-ai/tdd-in-the-agent-loop.html",
+          "seen": "2026-08-10",
+          "quote": "Model: I used Sonnet 4.6 to generate the solutions."
+        }
+      ],
+      "history": []
+    },
+    {
+      "name": "Claude Opus 4.8",
+      "icon": "claude",
+      "detail": "planning, analysis, judging",
+      "source": "https://martinfowler.com/articles/exploring-gen-ai/tdd-in-the-agent-loop.html",
+      "seen": "2026-08-10",
+      "quote": "Opus 4.8 compared the quality of both solutions and their tests, without knowledge of how the solutions were created.",
+      "history": [
+        {
+          "value": "Claude Opus 4.7",
+          "source": "https://martinfowler.com/articles/sensors-for-coding-agents.html",
+          "seen": "2026-05-20",
+          "quote": "Here are some highlights from the results (model used was Claude Opus 4.7, same as for the coupling analysis):"
+        }
+      ]
+    }
+  ],
+  "review_style": {
+    "value": "Risk triage: probability, impact and detectability set how much she reads; sensors point her to where",
+    "source": "https://se-radio.net/2026/07/se-radio-730-birgitta-boeckeler-on-harness-engineering-for-ai-agents/",
+    "seen": "2026-07-22",
+    "quote": "So, harnesses for me are all about improving how as a human I can prioritize where to put my review.",
+    "kind": "spot-checks",
+    "also": [
+      {
+        "source": "https://martinfowler.com/articles/exploring-gen-ai/to-vibe-or-not-vibe.html",
+        "seen": "2025-09-23",
+        "quote": "Reflecting on these 3 dimensions helps me decide if I should reach for AI or not, if I should review the code or not, and at what level of detail I do that review."
+      },
+      {
+        "source": "https://martinfowler.com/articles/exploring-gen-ai/to-vibe-or-not-vibe.html",
+        "seen": "2025-09-23",
+        "quote": "Low probability + low impact + high detectability Vibe coding is fine! As long as things work and I achieve my goal, I don’t review the code at all."
+      },
+      {
+        "source": "https://martinfowler.com/articles/sensors-for-coding-agents.html",
+        "seen": "2026-05-27",
+        "quote": "Looking at the exceptions AI created (suppressed warnings, increased thresholds) was a good point to start my code review."
+      },
+      {
+        "source": "https://martinfowler.com/articles/exploring-gen-ai/local-models-for-coding-experiences.html",
+        "seen": "2026-07-08",
+        "quote": "And the temptation to just check out and not understand the results anymore is a lot lower, I went back to reviewing results much more - and I mean that in a good way."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Sensors sidecar running lint, types, tests, coverage and mutation testing next to the agent; weekly review skills",
+    "short": "sensors sidecar",
+    "source": "https://martinfowler.com/articles/sensors-for-coding-agents.html",
+    "seen": "2026-07-13",
+    "quote": "In all of the experiments described, I used a vibe-coded little “sidecar” application that could run all of my computational sensors.",
+    "also": [
+      {
+        "source": "https://se-radio.net/2026/07/se-radio-730-birgitta-boeckeler-on-harness-engineering-for-ai-agents/",
+        "seen": "2026-07-22",
+        "quote": "And I just go in there and I currently manually just run those once a week and see if there’s anything new."
+      }
+    ],
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "AGENTS.md and CLAUDE.md (identical): use uv, check the sensors",
+    "short": "AGENTS.md",
+    "url": "https://github.com/birgitta410/sensors-cli/blob/b0ecac7e102720967a8e5815653ec20a857f4b1f/AGENTS.md",
+    "source": "https://github.com/birgitta410/sensors-cli/blob/b0ecac7e102720967a8e5815653ec20a857f4b1f/AGENTS.md#L5",
+    "seen": "2026-06-11",
+    "quote": "Use `sensors check .` regularly to get information about the code and test quality of your changes."
+  },
+  "skills": {
+    "value": [
+      "_local-setup",
+      "_new-parser",
+      "sensors_config-default",
+      "sensors_config-python",
+      "sensors_config-typescript",
+      "sensors_wrap-tool"
+    ],
+    "count": 6,
+    "featured": [
+      "sensors_config-typescript",
+      "sensors_wrap-tool",
+      "_new-parser"
+    ],
+    "source": "https://github.com/birgitta410/sensors-cli/tree/9778caaf6ffdf51fa6bac48de09a0a421a0d0ae2/.claude/skills",
+    "seen": "2026-06-15"
+  },
+  "mcp_servers": {
+    "value": [
+      "playwright"
+    ],
+    "source": "https://github.com/birgitta410/local-coding-evals/blob/cb0a90ce986d727ff07543592beabcecb978baaf/.mcp.json#L6",
+    "seen": "2026-06-18",
+    "quote": "\"@playwright/mcp@latest\""
+  },
+  "hooks": {
+    "value": [
+      "gitleaks pre-commit (git hook)"
+    ],
+    "source": "https://martinfowler.com/articles/sensors-for-coding-agents.html",
+    "seen": "2026-05-27",
+    "quote": "GitLeaks runs as part of the pre-commit hook, I consider it to be a sensor as well, as it will give the agent feedback when it tries to commit (computational)"
+  },
+  "signature": {
+    "value": "sensors check .",
+    "kind": "tool",
+    "caption": "a sidecar the agent polls",
+    "why": "Our pick: she built a CLI that keeps linters, tests, coverage and mutation testing running beside the agent and hands it a short status with fix guidance, so it can self-correct before she reviews.",
+    "editorial": true,
+    "source": "https://martinfowler.com/articles/sensors-for-coding-agents.html",
+    "seen": "2026-07-13",
+    "quote": "The CLI can offer both situational awareness for the human in supervised sessions, and a token-efficient and guidance-enriched summary to the agent."
+  },
+  "archetype": {
+    "value": "Toolsmith",
+    "editorial": true,
+    "why": "Builds her own harness pieces: a sensors CLI, skills for it, an eval runner and a Pi extension."
+  },
+  "signature_quote": {
+    "value": "I personally have stopped telling my coding agents to write tests first, let alone do TDD (which I never did, to be honest), until I see evals or other strong arguments that convince me otherwise.",
+    "source": "https://martinfowler.com/articles/exploring-gen-ai/tdd-in-the-agent-loop.html",
+    "seen": "2026-08-10"
+  }
+}

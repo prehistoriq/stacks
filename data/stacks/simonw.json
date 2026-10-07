@@ -1,0 +1,203 @@
+{
+  "schema": 2,
+  "handle": "simonw",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Simon Willison",
+    "source": "https://github.com/simonw"
+  },
+  "x": {
+    "value": "simonw",
+    "source": "https://x.com/simonw"
+  },
+  "github": {
+    "value": "simonw",
+    "source": "https://github.com/simonw"
+  },
+  "site": {
+    "value": "https://simonwillison.net",
+    "source": "https://github.com/simonw"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/9599?v=4",
+    "source": "https://github.com/simonw"
+  },
+  "known_for": {
+    "value": "Datasette, Django co-creator",
+    "source": "https://simonwillison.net/about/"
+  },
+  "agents": [
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "primary, desktop app",
+      "surface": "app",
+      "source": "https://github.com/simonw/monthly-newsletter-archive/blob/1cc46b5c2012ad6319c4a40e3f73b049f199c5c0/2026-08-august.md?plain=1#L99",
+      "seen": "2026-09-04",
+      "quote": "I continue to spend most of my time in the Codex macOS desktop app, now renamed (confusingly) to ChatGPT.",
+      "history": [
+        {
+          "value": "Codex CLI",
+          "surface": "cli",
+          "source": "https://simonwillison.net/2025/Oct/5/parallel-coding-agents/",
+          "seen": "2025-10-05",
+          "quote": "My daily drivers are currently Claude Code (on Sonnet 4.5), Codex CLI (on GPT-5-Codex), and Codex Cloud (for asynchronous tasks, frequently launched from my phone.)"
+        },
+        {
+          "value": "Claude Code default, Codex on the side",
+          "surface": null,
+          "source": "https://github.com/simonw/monthly-newsletter-archive/blob/348fe32dde0f0df2d82daddadd9479b1f7faa3cd/2026-03-march.md?plain=1#L98",
+          "seen": "2026-04-02",
+          "quote": "I'm still defaulting to Claude Code and Opus 4.6, but I've been very impressed by GPT-5.4 and have been running that through Codex."
+        }
+      ]
+    },
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "async cloud tasks (web)",
+      "surface": "web",
+      "source": "https://github.com/simonw/monthly-newsletter-archive/blob/1cc46b5c2012ad6319c4a40e3f73b049f199c5c0/2026-08-august.md?plain=1#L101",
+      "seen": "2026-09-04",
+      "quote": "I continue to prefer Claude Code for Web - now using Fable 5.1 - for asynchronous cloud tasks.",
+      "history": [
+        {
+          "value": "Claude Code + Codex CLI + Codex Cloud",
+          "surface": "cli",
+          "surface_source": {
+            "source": "https://simonwillison.net/2025/Oct/5/parallel-coding-agents/",
+            "seen": "2025-10-05",
+            "quote": "I frequently have multiple terminal windows open running different coding agents in different directories. These are currently a mixture of Claude Code and Codex CLI, running in YOLO mode (no approvals) for tasks where I’m confident malicious instructions can’t sneak into the context."
+          },
+          "source": "https://simonwillison.net/2025/Oct/5/parallel-coding-agents/",
+          "seen": "2025-10-05",
+          "quote": "My daily drivers are currently Claude Code (on Sonnet 4.5), Codex CLI (on GPT-5-Codex), and Codex Cloud (for asynchronous tasks, frequently launched from my phone.)"
+        },
+        {
+          "value": "Claude Code desktop app",
+          "surface": "app",
+          "source": "https://github.com/simonw/monthly-newsletter-archive/blob/52c8974ef56ca1d8cb6d7280f7838eaa23fd8ef8/2026-07-july.md?plain=1#L115",
+          "seen": "2026-08-02",
+          "quote": "I remain equally split between Claude Code and Codex, in both cases mainly using their respective desktop apps."
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "GPT-6 Sol",
+      "icon": "openai",
+      "detail": "default in Codex",
+      "source": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+      "seen": "2026-09-22",
+      "quote": "I’m now using GPT-6 Sol and Claude Opus 5.5 as my default models in Codex and Claude Code.",
+      "history": [
+        {
+          "value": "GPT-5.6 Sol (xhigh)",
+          "source": "https://github.com/simonw/monthly-newsletter-archive/blob/1cc46b5c2012ad6319c4a40e3f73b049f199c5c0/2026-08-august.md?plain=1#L99",
+          "seen": "2026-09-04",
+          "quote": "I do most of my work there using GPT-5.6 Sol (xhigh)"
+        }
+      ]
+    },
+    {
+      "name": "Claude Opus 5.5",
+      "icon": "claude",
+      "detail": "default in Claude Code",
+      "source": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+      "seen": "2026-09-22",
+      "quote": "I’m now using GPT-6 Sol and Claude Opus 5.5 as my default models in Codex and Claude Code.",
+      "history": [
+        {
+          "value": "Claude Opus 4.6",
+          "source": "https://github.com/simonw/monthly-newsletter-archive/blob/348fe32dde0f0df2d82daddadd9479b1f7faa3cd/2026-03-march.md?plain=1#L98",
+          "seen": "2026-04-02",
+          "quote": "I'm still defaulting to Claude Code and Opus 4.6"
+        }
+      ]
+    }
+  ],
+  "review_style": {
+    "value": "Cross-model review: Claude checks GPT, GPT checks Claude",
+    "source": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/",
+    "seen": "2026-07-05",
+    "quote": "The problem is it really does work—I’ve started habitually having Anthropic’s best model review OpenAI’s work and vice versa, because I’ve had that turn up interesting results often enough to be valuable.",
+    "kind": "spot-checks",
+    "also": [
+      {
+        "source": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
+        "seen": "2026-08-22",
+        "quote": "Sometimes this involves reviewing every line of code they have written, but there are other ways to achieve that goal. Eyeballing every line of code has never been the most effective way to validate a change to a piece of software."
+      },
+      {
+        "source": "https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/",
+        "seen": "2026-03-04",
+        "quote": "Don't file pull requests with code you haven't reviewed yourself."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Codex desktop + Codex remote on laptop and DGX Spark, driven from his phone",
+    "short": "phone remote",
+    "source": "https://github.com/simonw/monthly-newsletter-archive/blob/1cc46b5c2012ad6319c4a40e3f73b049f199c5c0/2026-08-august.md?plain=1#L103",
+    "seen": "2026-09-04",
+    "quote": "I'm a huge fan of Codex remote though - I have that running on both the DGX Spark and my Mac laptop, allowing me to control both of them entirely from the ChatGPT app on my phone.",
+    "history": [
+      {
+        "value": "Several terminal windows, YOLO mode, fresh checkouts instead of worktrees",
+        "source": "https://simonwillison.net/2025/Oct/5/parallel-coding-agents/",
+        "seen": "2025-10-05",
+        "quote": "I haven’t adopted git worktrees yet: if I want to run two agents in isolation against the same repo I do a fresh checkout, often into /tmp."
+      }
+    ]
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "Short per-repo AGENTS.md (CLAUDE.md just imports it)",
+    "short": "AGENTS.md",
+    "url": "https://github.com/simonw/research/blob/ba0cb97b42da153c13c465fb617f5c45f1f03b04/AGENTS.md",
+    "source": "https://github.com/simonw/research/blob/ba0cb97b42da153c13c465fb617f5c45f1f03b04/AGENTS.md#L3",
+    "seen": "2026-05-30",
+    "quote": "Create a notes.md file in that folder and append notes to it as you work, tracking what you tried and anything you learned along the way."
+  },
+  "skills": {
+    "value": [
+      "cogapp-markdown",
+      "setup-to-pyproject",
+      "upgrade-actions",
+      "uv-tdd"
+    ],
+    "count": 4,
+    "featured": [
+      "uv-tdd",
+      "upgrade-actions",
+      "cogapp-markdown"
+    ],
+    "source": "https://github.com/simonw/skills/tree/a6579982ed89adabb9b72ddaad0cf854e8e2218b",
+    "seen": "2026-02-24"
+  },
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "Showboat",
+    "kind": "tool",
+    "caption": "agents demo their own work",
+    "why": "Our pick: a CLI he built so agents record the commands they ran and the real output, as proof the code works.",
+    "editorial": true,
+    "source": "https://simonwillison.net/2026/Feb/10/showboat-and-rodney/",
+    "seen": "2026-02-10",
+    "quote": "Showboat is the tool I built to help agents demonstrate their work to me."
+  },
+  "archetype": {
+    "value": "Toolsmith",
+    "editorial": true,
+    "why": "Builds his own agent tooling (Showboat, Rodney, skills) and has models check each other."
+  },
+  "signature_quote": {
+    "value": "The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder.",
+    "more": "We can do amazing things with them, but unlocking their full potential requires extraordinary discipline and knowledge.",
+    "source": "https://simonwillison.net/2026/Sep/24/harder/",
+    "seen": "2026-09-24"
+  }
+}

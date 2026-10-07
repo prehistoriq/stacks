@@ -1,0 +1,139 @@
+{
+  "schema": 2,
+  "handle": "tiangolo",
+  "status": "ok",
+  "checked": "2026-10-07",
+  "name": {
+    "value": "Sebastián Ramírez",
+    "source": "https://github.com/tiangolo"
+  },
+  "x": {
+    "value": "tiangolo",
+    "source": "https://x.com/tiangolo"
+  },
+  "github": {
+    "value": "tiangolo",
+    "source": "https://github.com/tiangolo"
+  },
+  "site": {
+    "value": "https://tiangolo.com",
+    "source": "https://github.com/tiangolo"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/1326112?v=4",
+    "source": "https://github.com/tiangolo"
+  },
+  "known_for": {
+    "value": "FastAPI, Typer, SQLModel",
+    "source": "https://github.com/tiangolo"
+  },
+  "agents": [
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "primary",
+      "surface": null,
+      "source": "https://github.com/fastapi/sqlmodel/pull/2112",
+      "seen": "2026-10-06",
+      "quote": "Made with the help of AI, using Codex with `gpt-6-astra`, manually reviewed.",
+      "also": [
+        {
+          "source": "https://bsky.app/profile/tiangolo.com/post/3mma4kbywws2h",
+          "seen": "2026-05-19",
+          "quote": "Codex with /goal is quite good for the things it claims to be good."
+        }
+      ],
+      "history": [
+        {
+          "value": "Claude (Opus 4.5 and 4.6)",
+          "surface": null,
+          "source": "https://github.com/Kludex/starlette/pull/3135",
+          "seen": "2026-02-10",
+          "quote": "Using Claude Opus 4.5 (and 4.6)."
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "GPT-6 Astra",
+      "icon": "openai",
+      "source": "https://github.com/fastapi/sqlmodel/pull/2112",
+      "seen": "2026-10-06",
+      "quote": "Made with the help of AI, using Codex with `gpt-6-astra`, manually reviewed.",
+      "history": [
+        {
+          "value": "Claude Opus 4.6",
+          "source": "https://github.com/fastapi/fastapi/pull/14906",
+          "seen": "2026-02-12",
+          "quote": "This was iteratively written with Claude Opus 4.6."
+        },
+        {
+          "value": "GPT 5.5",
+          "source": "https://github.com/fastapi/fastapi/pull/15563",
+          "seen": "2026-05-19",
+          "quote": "Most of this was done with Codex on GPT 5.5 and a `/goal` with a somewhat detailed description."
+        },
+        {
+          "value": "gpt-5.6-sol",
+          "source": "https://github.com/pydantic/pydantic-settings/pull/952",
+          "seen": "2026-08-28",
+          "quote": "Made with the help of AI, using Codex with `gpt-5.6-sol`, manually reviewed."
+        }
+      ]
+    }
+  ],
+  "review_style": {
+    "value": "Reviews and adjusts all AI code by hand",
+    "kind": "reads-all",
+    "source": "https://x.com/tiangolo/status/2103083765308248228",
+    "seen": "2026-09-24",
+    "quote": "I will keep reviewing and adjusting any AI generated code until the models can consistently one-shot produce something I would consider acceptable.",
+    "also": [
+      {
+        "source": "https://github.com/fastapi/sqlmodel/pull/2112",
+        "seen": "2026-10-06",
+        "quote": "Made with the help of AI, using Codex with `gpt-6-astra`, manually reviewed."
+      },
+      {
+        "source": "https://github.com/Kludex/starlette/pull/3135",
+        "seen": "2026-02-10",
+        "quote": "I used AI to help write the code and tests, then I manually reviewed carefully all the code and adjusted, reverted (and unreverted :sweat_smile: ) some changes."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Codex with /goal and a detailed task description",
+    "short": "/goal",
+    "source": "https://github.com/fastapi/fastapi/pull/15563",
+    "seen": "2026-05-19",
+    "quote": "Most of this was done with Codex on GPT 5.5 and a `/goal` with a somewhat detailed description.",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": null,
+  "skills": null,
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "AI Disclaimer",
+    "kind": "habit",
+    "caption": "names agent and model in PRs",
+    "why": "Our pick: each agent-made PR states the agent, the exact model and that he reviewed it by hand.",
+    "editorial": true,
+    "source": "https://github.com/fastapi/sqlmodel/pull/2112",
+    "seen": "2026-10-06",
+    "quote": "Made with the help of AI, using Codex with `gpt-6-astra`, manually reviewed."
+  },
+  "archetype": {
+    "value": "Purist",
+    "editorial": true,
+    "why": "Codes with Codex, but reviews every change by hand and does not trust one-shots yet."
+  },
+  "signature_quote": {
+    "value": "I haven't been able to just \"trust the model\".",
+    "more": "But anyway, trust is earned, applies to humans, companies, products, AI.",
+    "source": "https://x.com/tiangolo/status/2103083765308248228",
+    "seen": "2026-09-24"
+  }
+}

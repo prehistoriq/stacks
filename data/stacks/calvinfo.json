@@ -1,0 +1,192 @@
+{
+  "schema": 2,
+  "handle": "calvinfo",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Calvin French-Owen",
+    "source": "https://github.com/calvinfo"
+  },
+  "x": {
+    "value": "calvinfo",
+    "source": "https://x.com/calvinfo"
+  },
+  "github": {
+    "value": "calvinfo",
+    "source": "https://github.com/calvinfo"
+  },
+  "site": {
+    "value": "https://calv.info",
+    "source": "https://github.com/calvinfo"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/487539?v=4",
+    "source": "https://github.com/calvinfo"
+  },
+  "known_for": {
+    "value": "Segment co-founder, ex-Codex",
+    "source": "https://x.com/calvinfo"
+  },
+  "agents": [
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "writes the code",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://calv.info/agents-feb-2026",
+        "seen": "2026-02-17",
+        "quote": "I have yet to move my workflow over fully from the CLI tools since I appreciate the flexibility of the terminal."
+      },
+      "source": "https://calv.info/agents-feb-2026",
+      "seen": "2026-02-17",
+      "quote": "Opus is where I start, but Codex writes all my code.",
+      "history": [
+        {
+          "value": "Cursor (built-in agent and extensions)",
+          "surface": "ide",
+          "source": "https://calv.info/agents-feb-2026",
+          "seen": "2026-02-17",
+          "quote": "This is different from what I was doing 6 months ago, where I was mostly using Cursor and the built-in agent or extensions."
+        }
+      ]
+    },
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "plans, orchestrates, git",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://calv.info/agents-feb-2026",
+        "seen": "2026-02-17",
+        "quote": "The net result between the two is that I'll start with Claude Code and keep that open as a pane, then flip to Codex when I'm ready to actually start the coding."
+      },
+      "source": "https://calv.info/agents-feb-2026",
+      "seen": "2026-02-17",
+      "quote": "Claude Code is my regular driver for planning, orchestrating my terminal, and managing git/github operations.",
+      "history": []
+    }
+  ],
+  "models": [
+    {
+      "name": "Fable 5",
+      "icon": "claude",
+      "source": "https://calv.info/small-models-have-arrived",
+      "seen": "2026-08-26",
+      "quote": "When doing coding work, I almost always reach for the most expensive and capable models (Fable 5, 5.6 Sol).",
+      "history": [
+        {
+          "value": "Opus",
+          "source": "https://calv.info/agents-feb-2026",
+          "seen": "2026-02-17",
+          "quote": "Opus is where I start, but Codex writes all my code."
+        }
+      ],
+      "inferred": true
+    },
+    {
+      "name": "GPT-5.6 Sol",
+      "icon": "openai",
+      "source": "https://calv.info/small-models-have-arrived",
+      "seen": "2026-08-26",
+      "quote": "When doing coding work, I almost always reach for the most expensive and capable models (Fable 5, 5.6 Sol).",
+      "history": [
+        {
+          "value": "GPT-5.3-Codex xhigh or high",
+          "source": "https://calv.info/agents-feb-2026",
+          "seen": "2026-02-17",
+          "quote": "I run on GPT-5.3-Codex-xhigh or high, and the Codex code just straight up has fewer bugs."
+        }
+      ]
+    }
+  ],
+  "review_style": {
+    "value": "Spot-checks the architecture; Cursor Bugbot and Codex review every PR",
+    "kind": "agent-reviews",
+    "source": "https://calv.info/agents-feb-2026",
+    "seen": "2026-02-17",
+    "quote": "I still spot-check the code, and make sure I understand it from an architecture level, but increasingly I am not reading every line of every PR. I rely on agents to spot subtle bugs (they are far better at it than I am).",
+    "also": [
+      {
+        "source": "https://calv.info/agents-feb-2026",
+        "seen": "2026-02-17",
+        "quote": "Since then, I've settled mostly on Cursor as the default option since you can tell when it's working, though I find the results of Codex are good too."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Ghostty panes, a git worktree per numbered plan, a preview deploy per branch",
+    "short": "worktrees",
+    "source": "https://calv.info/agents-feb-2026",
+    "seen": "2026-02-17",
+    "quote": "I have a worktree skill which copies any relevant plans, env vars, and other updates, and starts a new branch.",
+    "history": [
+      {
+        "value": "Claude and Codex instances in tmux",
+        "source": "https://calv.info/agents-feb-2026",
+        "seen": "2026-02-17",
+        "quote": "For a little while I was running multiple Claude/Codex instances in tmux, but now I just use multiple panes within the same terminal tab."
+      }
+    ]
+  },
+  "parallelism": {
+    "value": 4,
+    "short": "3–4 overnight tasks",
+    "source": "https://calv.info/agents-feb-2026",
+    "seen": "2026-02-17",
+    "quote": "This is over-hyped on Twitter, but I do really try and kick off 3-4 tasks in Codex before going to bed, so they'll be ready for review in the morning.",
+    "history": [],
+    "inferred": true
+  },
+  "rules_files": {
+    "value": "Shared AGENTS.md / CLAUDE.md in a private 'claudefiles' repo",
+    "short": "AGENTS.md",
+    "url": null,
+    "source": "https://calv.info/agents-feb-2026",
+    "seen": "2026-02-17",
+    "quote": "Today I have a bunch of skills and a shared AGENTS.md/CLAUDE.md defined in a repo I call claudefiles."
+  },
+  "skills": {
+    "value": [
+      "commit",
+      "worktree",
+      "implement",
+      "implement-all",
+      "codex-review",
+      "address-bugs",
+      "pr-pass",
+      "focus"
+    ],
+    "count": 8,
+    "featured": [
+      "implement-all",
+      "pr-pass",
+      "address-bugs"
+    ],
+    "source": "https://calv.info/agents-feb-2026",
+    "seen": "2026-02-17"
+  },
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "/pr-pass",
+    "kind": "skill",
+    "caption": "loops until CI and bots pass",
+    "why": "Our pick: at the end of /implement-all it pushes, waits for CI, fixes what Bugbot and Codex flag, and goes round again, so review comments get handled without him.",
+    "editorial": true,
+    "source": "https://calv.info/agents-feb-2026",
+    "seen": "2026-02-17",
+    "quote": "It essentially 1) pushes to the remote 2) waits for all CI to pass 3) runs /address-bugs and then optionally goes to step 1 until it's finished."
+  },
+  "archetype": {
+    "value": "Toolsmith",
+    "editorial": true,
+    "why": "He built his own chain of skills, from /commit to /pr-pass, one step at a time, and dropped skills other people wrote."
+  },
+  "signature_quote": {
+    "value": "Opus is where I start, but Codex writes all my code.",
+    "more": "If I was budget constrained, I'd probably pick Codex.",
+    "source": "https://calv.info/agents-feb-2026",
+    "seen": "2026-02-17"
+  }
+}

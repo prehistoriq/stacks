@@ -1,0 +1,186 @@
+{
+  "schema": 2,
+  "handle": "mikemcquaid",
+  "status": "ok",
+  "checked": "2026-10-07",
+  "name": {
+    "value": "Mike McQuaid",
+    "source": "https://github.com/MikeMcQuaid"
+  },
+  "x": {
+    "value": "MikeMcQuaid",
+    "source": "https://github.com/MikeMcQuaid"
+  },
+  "github": {
+    "value": "MikeMcQuaid",
+    "source": "https://github.com/MikeMcQuaid"
+  },
+  "site": {
+    "value": "https://mikemcquaid.com",
+    "source": "https://github.com/MikeMcQuaid"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/125011?v=4",
+    "source": "https://github.com/MikeMcQuaid"
+  },
+  "known_for": {
+    "value": "Homebrew maintainer since 2009",
+    "source": "https://mikemcquaid.com/sandboxed-agent-worktrees-my-coding-and-ai-setup-in-2026/"
+  },
+  "agents": [
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "daily driver",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://github.com/MikeMcQuaid/AgentIDE/blob/6091631cd7bbf388027d49bda3e7bb62ed717670/README.md#L18",
+        "seen": "2026-10-05",
+        "quote": "Runs Claude Code or Codex CLI in parallel worktrees, sandboxed away from your personal files and credentials."
+      },
+      "source": "https://mikemcquaid.com/sandboxed-agent-worktrees-my-coding-and-ai-setup-in-2026/",
+      "seen": "2026-04-14",
+      "quote": "My daily driver of choice is OpenAI Codex but I run out of tokens more quickly so have learned to be fine with either.",
+      "history": [
+        {
+          "value": "GitHub Copilot (code completion, internal alpha)",
+          "surface": null,
+          "source": "https://mikemcquaid.com/sandboxed-agent-worktrees-my-coding-and-ai-setup-in-2026/",
+          "seen": "2026-04-14",
+          "quote": "I've been using AI tools since early 2021 when I was invited to test out the Copilot internal alpha at GitHub (where I spent 10 years)."
+        }
+      ]
+    },
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "built AgentIDE with it",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://mikemcquaid.com/sandboxed-agent-worktrees-my-coding-and-ai-setup-in-2026/",
+        "seen": "2026-04-14",
+        "quote": "Once installed (`brew install sandvault`), you can run `sv codex` or `sv claude` to start your agent of choice or `sv shell` to start a shell."
+      },
+      "source": "https://mikemcquaid.com/vibe-coding-developer-productivity-tools/",
+      "seen": "2026-09-24",
+      "quote": "By the end of a weekend with Claude Max and Anthropic's Fable 5 model and ~4 hours interacting with my computer I had something that sort of worked."
+    },
+    {
+      "name": "OpenCode",
+      "icon": "opencode",
+      "role": "local Ollama models",
+      "surface": "cli",
+      "source": "https://github.com/MikeMcQuaid/dotfiles/blob/3e74ea9e29e03b55ee38d81a857351a8155d9f7a/shrc.sh#L170-L171",
+      "seen": "2026-09-17",
+      "quote": "# Slower local coding model; optimal for OpenCode plan/review and harder\n# debugging."
+    }
+  ],
+  "models": [
+    {
+      "name": "Fable 5",
+      "icon": "claude",
+      "detail": "via Claude Max",
+      "inferred": true,
+      "source": "https://mikemcquaid.com/vibe-coding-developer-productivity-tools/",
+      "seen": "2026-09-24",
+      "quote": "By the end of a weekend with Claude Max and Anthropic's Fable 5 model and ~4 hours interacting with my computer I had something that sort of worked.",
+      "history": [
+        {
+          "value": "Opus 4.6 max",
+          "source": "https://mikemcquaid.com/sandboxed-agent-worktrees-my-coding-and-ai-setup-in-2026/",
+          "seen": "2026-04-14",
+          "quote": "Claude Code (Opus 4.6 `max`): fairly stupid by default, can be nudged with aggressive hooks/tools/prompts to being less so"
+        }
+      ]
+    },
+    {
+      "name": "OpenAI Codex 5.4",
+      "icon": "openai",
+      "detail": "xhigh",
+      "source": "https://mikemcquaid.com/sandboxed-agent-worktrees-my-coding-and-ai-setup-in-2026/",
+      "seen": "2026-04-14",
+      "quote": "OpenAI Codex (5.4 `xhigh`): takes a while, generally does things mostly right first time, doesn't need much prompting/steering",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Reviews agent work before pushing it himself; depth depends on the code",
+    "kind": "spot-checks",
+    "inferred": true,
+    "source": "https://mikemcquaid.com/sandboxed-agent-worktrees-my-coding-and-ai-setup-in-2026/",
+    "seen": "2026-04-14",
+    "quote": "I always review any agent-produced work as my normal user in the same shared worktree before I share it with others.",
+    "also": [
+      {
+        "source": "https://mikemcquaid.com/sandboxed-agent-worktrees-my-coding-and-ai-setup-in-2026/",
+        "seen": "2026-04-14",
+        "quote": "How many of these I do depends on my familiarity with the code, its criticality and how confident I am in other guardrails e.g. CI, human review."
+      },
+      {
+        "source": "https://mikemcquaid.com/vibe-coding-developer-productivity-tools/",
+        "seen": "2026-09-24",
+        "quote": "The wildest part: I have not (deliberately) read a single line of Swift code."
+      },
+      {
+        "source": "https://mikemcquaid.com/vibe-coding-developer-productivity-tools/",
+        "seen": "2026-09-24",
+        "quote": "open a PR, wait for CI results and code review from humans or Copilot"
+      }
+    ]
+  },
+  "harness": {
+    "value": "AgentIDE (his own Mac app) on sandvault, herdr and git worktrees",
+    "short": "AgentIDE",
+    "source": "https://mikemcquaid.com/vibe-coding-developer-productivity-tools/",
+    "seen": "2026-09-24",
+    "quote": "I'm now completely off Superset and almost entirely off Fork and Zed by (vibe) building my own tool: [AgentIDE](https://github.com/MikeMcQuaid/AgentIDE/).",
+    "history": [
+      {
+        "value": "Superset worktrees running agents under sandvault, Fork and Zed for review",
+        "source": "https://mikemcquaid.com/sandboxed-agent-worktrees-my-coding-and-ai-setup-in-2026/",
+        "seen": "2026-04-14",
+        "quote": "Superset creates the worktree under `/Users/Shared/sv-mike/worktrees` and launches the agent as the Sandvault user inside it."
+      }
+    ]
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "AGENTS-GLOBAL.md (19 lines), shared by Claude and Codex, kept minimal",
+    "short": "AGENTS.md",
+    "url": "https://github.com/MikeMcQuaid/dotfiles/blob/c6f8883e71a4e5fdcc4074862acdfdec62243928/AGENTS-GLOBAL.md",
+    "source": "https://github.com/MikeMcQuaid/dotfiles/blob/c6f8883e71a4e5fdcc4074862acdfdec62243928/AGENTS-GLOBAL.md#L8",
+    "seen": "2026-09-10",
+    "quote": "Before finishing, check your work, identify what the user may not have considered in relation to their goals and ask useful follow-up questions, including what they should have asked."
+  },
+  "skills": null,
+  "mcp_servers": null,
+  "hooks": {
+    "value": [
+      "git pre-push hook rejecting AI attribution trailers",
+      "refuse-coding-agent guard for scripts"
+    ],
+    "source": "https://github.com/MikeMcQuaid/dotfiles/blob/a340d0ef58084694861946d587a0832a80782898/git-hooks/pre-push#L51",
+    "seen": "2026-09-10",
+    "quote": "reject \"has AI attribution; remove it and disclose AI use in the PR description.\""
+  },
+  "signature": {
+    "value": "AgentIDE",
+    "kind": "tool",
+    "caption": "his own vibe-built agent IDE",
+    "why": "Our pick: he replaced Superset, Fork and Zed with a native app he built for sandboxed agents in parallel worktrees, now in Homebrew.",
+    "editorial": true,
+    "source": "https://mikemcquaid.com/vibe-coding-developer-productivity-tools/",
+    "seen": "2026-09-24",
+    "quote": "It's an \"agentic IDE\" built by me just for my workflows and it has made me more productive and happy working with agents."
+  },
+  "archetype": {
+    "value": "Toolsmith",
+    "editorial": true,
+    "why": "Built his own agent IDE on sandvault and worktrees instead of adapting someone else's."
+  },
+  "signature_quote": {
+    "value": "The combination of sandboxing and worktrees means I can just throw more tokens at more problems and get more done.",
+    "source": "https://mikemcquaid.com/sandboxed-agent-worktrees-my-coding-and-ai-setup-in-2026/",
+    "seen": "2026-04-14"
+  }
+}

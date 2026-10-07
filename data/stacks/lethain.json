@@ -1,0 +1,175 @@
+{
+  "schema": 2,
+  "handle": "lethain",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Will Larson",
+    "source": "https://github.com/lethain"
+  },
+  "x": {
+    "value": "lethain",
+    "source": "https://github.com/lethain"
+  },
+  "github": {
+    "value": "lethain",
+    "source": "https://github.com/lethain"
+  },
+  "site": {
+    "value": "https://lethain.com",
+    "source": "https://github.com/lethain"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/1923?v=4",
+    "source": "https://github.com/lethain"
+  },
+  "known_for": {
+    "value": "Staff Engineer, CTO at Imprint",
+    "source": "https://lethain.com/about/"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary, company-wide",
+      "surface": null,
+      "source": "https://lethain.com/software-factory-experiment/",
+      "seen": "2026-09-20",
+      "quote": "January: get every engineer onto Claude Code every single day",
+      "also": [
+        {
+          "source": "https://lethain.com/company-ai-adoption/",
+          "seen": "2025-12-07",
+          "quote": "building my rudimentary own agent platform using Claude code for implementation"
+        },
+        {
+          "source": "https://lethain.com/company-ai-adoption/",
+          "seen": "2025-12-07",
+          "quote": "That said, the vast majority of our Claude usage is done via AWS Bedrock, which we use to power Claude Code… and we use Claude Code quite a bit."
+        }
+      ]
+    },
+    {
+      "name": "Agent Fleet",
+      "icon": null,
+      "role": "Imprint's orchestrated harness, one-off tasks",
+      "surface": null,
+      "source": "https://lethain.com/software-factory-experiment/",
+      "seen": "2026-09-20",
+      "quote": "let’s roll out an orchestrated harness which internally we call “Agent Fleet”, along the lines of Stripe’s Minions"
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "rewrites agents into code",
+      "surface": null,
+      "source": "https://lethain.com/agents-as-scaffolding/",
+      "seen": "2026-04-12",
+      "quote": "generally I can take logs of some recent runs, the agent’s prompt, and some brief instructions, throw them into Codex/Claude, and get a working replacement in a few minutes."
+    }
+  ],
+  "models": [
+    {
+      "name": "GPT 5.4",
+      "icon": "openai",
+      "detail": "high reasoning, internal agents",
+      "source": "https://lethain.com/agents-as-scaffolding/",
+      "seen": "2026-04-12",
+      "quote": "About a month ago, when I upgraded from GPT 4.1 to GPT 5.4 with high reasoning, I noticed that it got quite good at using the Github MCP to determine the appropriate owners for a given issue",
+      "history": [
+        {
+          "value": "GPT 4.1",
+          "source": "https://lethain.com/agents-as-scaffolding/",
+          "seen": "2026-04-12",
+          "quote": "when I upgraded from GPT 4.1 to GPT 5.4 with high reasoning"
+        }
+      ]
+    }
+  ],
+  "review_style": {
+    "value": "Same harness reviews first, context cleared; humans after",
+    "source": "https://lethain.com/revised-rules-of-engineering-leadership/",
+    "seen": "2026-06-15",
+    "quote": "The first pass of code review is done by the same harness that implements the changes, cleared of the context used to write the change, allowing humans to focus on higher value feedback.",
+    "kind": "unknown",
+    "also": [
+      {
+        "source": "https://lethain.com/decisions-not-dates/",
+        "seen": "2026-08-11",
+        "quote": "Even with strong AI-enhanced workflows, I still find human review of load-bearing technical decisions (e.g. a decision that will meaningfully impact subsequent decisions) to be extremely valuable."
+      },
+      {
+        "source": "https://lethain.com/revised-rules-of-engineering-leadership/",
+        "seen": "2026-06-15",
+        "quote": "For example, the base case of code review from a human is slower and less effective than a good harness’ code review."
+      }
+    ],
+    "inferred": true
+  },
+  "harness": {
+    "value": "~10 local workspaces, each with a checkout of every repo, for cross-repo PRs; Agent Fleet for remote work",
+    "short": "~10 workspaces",
+    "source": "https://lethain.com/software-factory-experiment/",
+    "seen": "2026-09-20",
+    "quote": "April: local development is bottlenecked on checkout and worktree model, instead create ~10 local workspaces which each have an independent checkout of every repository, and operate at the workspace level, not at the repository level, so it can generate cross-repository pull requests across frontend, backend, infrastructure and data monorepos",
+    "history": []
+  },
+  "parallelism": {
+    "value": 5,
+    "short": "five or so projects",
+    "source": "https://lethain.com/judgment-is-all-you-need/",
+    "seen": "2026-03-11",
+    "quote": "After I go beyond five or so concurrent projects, I tend to lose track of the necessary work to shepherd those projects to completion",
+    "history": [],
+    "inferred": true
+  },
+  "rules_files": {
+    "value": "AGENTS.md (156 lines), CLAUDE.md just imports it",
+    "short": "AGENTS.md",
+    "url": "https://github.com/lethain/workflows/blob/193edc36efdf0c59b2eb0a28d42b346256543ae2/AGENTS.md",
+    "source": "https://github.com/lethain/workflows/blob/193edc36efdf0c59b2eb0a28d42b346256543ae2/AGENTS.md#L3-L5",
+    "seen": "2025-12-25",
+    "quote": "## IMPORTANT: Before Finishing Any Task\n\n**ALWAYS run linting, type checking, and tests before considering any task complete:**"
+  },
+  "skills": {
+    "value": [
+      "linear-project-loop"
+    ],
+    "count": 1,
+    "featured": [
+      "linear-project-loop"
+    ],
+    "source": "https://lethain.com/software-factory-experiment/",
+    "seen": "2026-09-20"
+  },
+  "mcp_servers": {
+    "value": [
+      "datadog"
+    ],
+    "source": "https://lethain.com/software-factory-experiment/",
+    "seen": "2026-09-20",
+    "quote": "this factory pattern depends on having Datadog MCP and Snowflake access available to manage goal-tracking"
+  },
+  "hooks": null,
+  "signature": {
+    "value": "/linear-project-loop",
+    "kind": "skill",
+    "caption": "loops a project to its goal",
+    "why": "Our pick: a software-factory skill that audits a Linear project's RFC and metrics, files missing issues, then works the unblocked ones.",
+    "editorial": true,
+    "source": "https://lethain.com/software-factory-experiment/",
+    "seen": "2026-09-20",
+    "quote": "An agent skill /linear-project-loop which reads in a Linear project and starts by auditing that project’s goal definition on these dimensions"
+  },
+  "archetype": {
+    "value": "Orchestrator",
+    "editorial": true,
+    "why": "Runs agents at company scale: a fleet harness, ~10 workspaces and a skill that loops on project goals."
+  },
+  "signature_quote": {
+    "value": "coding agents have already generally solved the problem of time for our team.",
+    "more": "We have, effectively, an unlimited amount of time, at a very affordable price, to complete our work.",
+    "source": "https://lethain.com/judgment-is-all-you-need/",
+    "seen": "2026-03-11"
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "schema": 2,
+  "handle": "tobi",
+  "status": "ok",
+  "checked": "2026-10-07",
+  "name": {
+    "value": "Tobi Lütke",
+    "source": "https://github.com/tobi"
+  },
+  "x": {
+    "value": "tobi",
+    "source": "https://x.com/tobi"
+  },
+  "github": {
+    "value": "tobi",
+    "source": "https://github.com/tobi"
+  },
+  "site": {
+    "value": "https://tobi.lutke.com",
+    "source": "https://github.com/tobi"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/347?v=4",
+    "source": "https://github.com/tobi"
+  },
+  "known_for": {
+    "value": "Shopify CEO, qmd",
+    "source": "https://github.com/tobi/qmd"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "most recent commits",
+      "surface": null,
+      "source": "https://github.com/tobi/track-atlas/commit/8c12ac414ea74ffe4a3ef74b294a2eafab7ee60d",
+      "seen": "2026-10-06",
+      "quote": "Co-authored-by: Claude Opus 5.5 (1M context) <noreply@anthropic.com>",
+      "inferred": true,
+      "also": [
+        {
+          "source": "https://github.com/tobi/liquid-il",
+          "seen": null,
+          "undated": true,
+          "quote": "A Liquid template engine, 100% vibe coded by Claude Code against liquid-spec"
+        },
+        {
+          "source": "https://x.com/tobi/status/2018506396321419760",
+          "seen": "2026-02-03",
+          "quote": "I was missing cc’s tasks system and told it to spawn clause in tmux and interrogate it about it and make an implementation for itself."
+        }
+      ]
+    },
+    {
+      "name": "Pi",
+      "icon": null,
+      "role": "self-extending harness",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://github.com/tobi/pi-herdr-workers/blob/e540d099cff8415b72bde553fdaa6b4116b07697/README.md#L23",
+        "seen": "2026-09-01",
+        "quote": "Turns this pane into an orchestrator and puts other Pi agents in neighboring Herdr panes."
+      },
+      "source": "https://x.com/tobi/status/2056198717225464307",
+      "seen": "2026-05-18",
+      "quote": "I’ve had very good results running autoresearch with local qwen 3.6 26b model as long as I had a simple vibed pi “advisor” extension that allowed it to periodically ask GPT 5.5 for ideas.",
+      "also": [
+        {
+          "source": "https://x.com/tobi/status/2030771823151853938",
+          "seen": "2026-03-08",
+          "quote": "told my pi to read this github repo and make a version of that for the qmd query-expansion model with the goal of highest quality score and speed."
+        },
+        {
+          "source": "https://x.com/tobi/status/2018506396321419760",
+          "seen": "2026-02-03",
+          "quote": "Pi is the most interesting agent harness."
+        }
+      ]
+    },
+    {
+      "name": "Hermes Agent",
+      "icon": null,
+      "role": "personal agent, skills",
+      "surface": null,
+      "source": "https://x.com/tobi/status/2072368961795039694",
+      "seen": "2026-07-01",
+      "quote": "If you use Hermes, just go “/learn duckdb and ducklake and use it” and all your data asks will get better.",
+      "also": [
+        {
+          "source": "https://x.com/tobi/status/2041719844920283326",
+          "seen": "2026-04-08",
+          "quote": "Hermes agent ships with this nifty /manim_video skill so I asked it to explain how a QMD query works:"
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Opus 5.5",
+      "icon": "claude",
+      "detail": "1M context",
+      "source": "https://github.com/tobi/track-atlas/commit/8c12ac414ea74ffe4a3ef74b294a2eafab7ee60d",
+      "seen": "2026-10-06",
+      "quote": "Co-authored-by: Claude Opus 5.5 (1M context) <noreply@anthropic.com>",
+      "inferred": true,
+      "history": [
+        {
+          "value": "Claude Opus 4.5",
+          "source": "https://github.com/tobi/try/commit/bde30a45e5cc633158a17f34a3334d18793db924",
+          "seen": "2026-03-07",
+          "quote": "Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>",
+          "inferred": true
+        },
+        {
+          "value": "Claude Opus 4.8",
+          "source": "https://github.com/tobi/liquid-il/commit/35dda8282a218996e4d840bd166a931e6b4a15ce",
+          "seen": "2026-07-06",
+          "quote": "Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>",
+          "inferred": true
+        }
+      ]
+    },
+    {
+      "name": "GPT-6 Astra",
+      "icon": "openai",
+      "source": "https://x.com/tobi/status/2096431707079454874",
+      "seen": "2026-09-06",
+      "quote": "GPT6 Astra made a headless version for me.",
+      "history": [
+        {
+          "value": "GPT 5.5 (as advisor)",
+          "source": "https://x.com/tobi/status/2056198717225464307",
+          "seen": "2026-05-18",
+          "quote": "a simple vibed pi “advisor” extension that allowed it to periodically ask GPT 5.5 for ideas."
+        },
+        {
+          "value": "GPT-5.6-sol",
+          "source": "https://x.com/tobi/status/2078200377309090285",
+          "seen": "2026-07-17",
+          "quote": "I feel like GPT-5.6-sol is the first model that just doesn't need it anymore? It just keeps on going until the thing is done."
+        }
+      ]
+    }
+  ],
+  "review_style": {
+    "value": "Spec suite the agent must pass",
+    "source": "https://x.com/tobi/status/1995316357060063684",
+    "seen": "2025-12-01",
+    "quote": "5. Instruct Claude to write the C code using those libraries and not stop until all specs pass",
+    "kind": "unknown",
+    "inferred": true,
+    "also": [
+      {
+        "source": "https://x.com/tobi/status/2101817922607853708",
+        "seen": "2026-09-20",
+        "quote": "Accept code on merit and ensure that a person takes accountability for it."
+      }
+    ]
+  },
+  "harness": {
+    "value": "herdr agent panes, Pi /team workers",
+    "short": "herdr",
+    "source": "https://x.com/tobi/status/2086488457132626052",
+    "seen": "2026-08-09",
+    "quote": "my favorite way to explain people herdr is to just open a new workspace, launch an agent and tell it to:",
+    "history": [
+      {
+        "value": "tmux",
+        "source": "https://x.com/tobi/status/2018506396321419760",
+        "seen": "2026-02-03",
+        "quote": "I was missing cc’s tasks system and told it to spawn clause in tmux and interrogate it about it and make an implementation for itself."
+      },
+      {
+        "value": "cmux",
+        "source": "https://x.com/tobi/status/2057108476560642402",
+        "seen": "2026-05-20",
+        "quote": "Cmux is great."
+      }
+    ]
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "AGENTS.md",
+    "short": "AGENTS.md",
+    "url": "https://github.com/tobi/dotfiles/blob/c5117778bebdb63d75a0469dd653e3a2566e825c/AGENTS.md",
+    "source": "https://github.com/tobi/dotfiles/blob/c5117778bebdb63d75a0469dd653e3a2566e825c/AGENTS.md#L7",
+    "seen": "2026-07-25",
+    "quote": "- This repository is public. Treat every tracked file and every commit as permanently public."
+  },
+  "skills": {
+    "value": [
+      "layer-tools",
+      "surface-tools"
+    ],
+    "count": 2,
+    "featured": [
+      "layer-tools",
+      "surface-tools"
+    ],
+    "source": "https://github.com/tobi/track-atlas/tree/8c12ac414ea74ffe4a3ef74b294a2eafab7ee60d/skills",
+    "seen": "2026-10-06"
+  },
+  "mcp_servers": {
+    "value": [
+      "context7"
+    ],
+    "source": "https://github.com/tobi/ac-tracer/blob/880e9e4edccb1de39b162a2056fabbc380e5ed57/.claude/settings.local.json#L8",
+    "seen": "2026-02-16",
+    "quote": "\"mcp__plugin_context7_context7__resolve-library-id\","
+  },
+  "hooks": {
+    "value": [
+      "gitleaks pre-commit secret scan"
+    ],
+    "source": "https://github.com/tobi/dotfiles/blob/5648d49fa4aea504423670a22def661163714653/.githooks/pre-commit#L16",
+    "seen": "2026-08-08",
+    "quote": "exec \"$gitleaks\" git --staged --redact --no-banner"
+  },
+  "signature": {
+    "value": "qmd",
+    "kind": "tool",
+    "caption": "local search, agents too",
+    "why": "Our pick: his own all-local search engine is the base layer under the tools he builds, and he points his agents at it too.",
+    "editorial": true,
+    "source": "https://x.com/tobi/status/2013217570912919575",
+    "seen": "2026-01-19",
+    "quote": "I think QMD is one of my finest tools. I use it every day because it’s the foundation of all the other tools I build for myself."
+  },
+  "archetype": {
+    "value": "Toolsmith",
+    "editorial": true,
+    "why": "He builds his own agent tooling: qmd, Pi extensions, herdr workers, microVM sandboxes."
+  },
+  "signature_quote": {
+    "value": "I have my agent now set to randomize the main chat AI every day.",
+    "more": "I could just start the day on GPT Sol or on Opus 5 or something.",
+    "source": "https://fs.blog/knowledge-project-podcast/tobi-lutke-3/",
+    "seen": "2026-09-10"
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "schema": 2,
+  "handle": "orta",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Orta Therox",
+    "source": "https://github.com/orta"
+  },
+  "x": null,
+  "github": {
+    "value": "orta",
+    "source": "https://github.com/orta"
+  },
+  "site": {
+    "value": "https://orta.io",
+    "source": "https://github.com/orta"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/49038?v=4",
+    "source": "https://github.com/orta"
+  },
+  "known_for": {
+    "value": "Puzzmo, CocoaPods, Danger",
+    "source": "https://github.com/orta"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary, only harness",
+      "surface": "ide",
+      "source": "https://blog.puzzmo.com/posts/2026/07/03/twelve-months-of-claude/",
+      "seen": "2026-07-03",
+      "quote": "I use VS Code for all my coding with Claude Code as an extension.",
+      "also": [
+        {
+          "source": "https://blog.puzzmo.com/posts/2026/07/03/twelve-months-of-claude/",
+          "seen": "2026-07-03",
+          "quote": "I don’t plan on trying anything other than Claude Code, there is still so much to master."
+        }
+      ],
+      "history": [
+        {
+          "value": "Cursor",
+          "surface": "ide",
+          "source": "https://blog.puzzmo.com/posts/2025/06/07/orta-on-claude/",
+          "seen": "2025-06-07",
+          "quote": "I’ve gone through two epoch moments with these tools, the first was adopting Cursor as my text editor."
+        },
+        {
+          "value": "Claude Code in the terminal",
+          "surface": "cli",
+          "source": "https://blog.puzzmo.com/posts/2025/06/07/orta-on-claude/",
+          "seen": "2025-06-07",
+          "quote": "Claude Code is a background app which runs in the terminal which is sortof a long-running connection to an LLM which can do very long running tasks and has a sense of how to verify things in the way that you would when writing code."
+        }
+      ]
+    },
+    {
+      "name": "Claude Code on the web",
+      "icon": "claudecode",
+      "role": "scheduled doc checks",
+      "surface": "web",
+      "source": "https://bsky.app/profile/orta.io/post/3miioilpuds2e",
+      "seen": "2026-04-02",
+      "quote": "I've been trying to use the new scheduled claude code (web) features to do this, so far it's caught a few typos and links"
+    }
+  ],
+  "models": [
+    {
+      "name": "Fable",
+      "icon": "claude",
+      "source": "https://blog.puzzmo.com/posts/2026/07/03/twelve-months-of-claude/",
+      "seen": "2026-07-03",
+      "quote": "For most of the year, the models themselves have come and gone. I didn’t really think much about them. This changed with Fable, which I think was a significant jump in capabilities.",
+      "history": [
+        {
+          "value": "Sonnet 4.5",
+          "source": "https://blog.puzzmo.com/posts/2025/12/9/tech-2025/",
+          "seen": "2025-12-09",
+          "quote": "I’m finding myself using Claude Code almost every time I open up my editor, and it’s capabilities feels to have had quite a boost with the introduction of Sonnet 4.5."
+        }
+      ]
+    }
+  ],
+  "review_style": {
+    "value": "Reads all Puzzmo code; Claude reviews every PR too",
+    "source": "https://blog.puzzmo.com/posts/2026/09/28/re-evaluating-principles/",
+    "seen": "2026-09-28",
+    "quote": "I give pretty specific instructions, read all the code for Puzzmo systems and am very present in reviewing the output of an LLM but every line of code used to be a journey and now it’s a transaction.",
+    "kind": "reads-all",
+    "also": [
+      {
+        "source": "https://bsky.app/profile/orta.io/post/3mwls4ka2xs2y",
+        "seen": "2026-09-28",
+        "quote": "Yeah, I am definitely the one making that pile bigger and so I have to triple review my own PRs nowadays!"
+      },
+      {
+        "source": "https://blog.puzzmo.com/posts/2026/07/03/twelve-months-of-claude/",
+        "seen": "2026-07-03",
+        "quote": "I have Claude automatically review all Pull Requests in Puzzmo. For me, this is my main review partner on a pull request (outside of future me) - I’ve found it to be a good ‘you missed this’ sorta review, but it is sorta marking itself and so reviews have a tendency to be ‘This is great.’"
+      }
+    ]
+  },
+  "harness": {
+    "value": "VS Code with the Claude Code extension, multiple clones of the monorepo instead of worktrees",
+    "short": "clones",
+    "source": "https://blog.puzzmo.com/posts/2026/07/03/twelve-months-of-claude/",
+    "seen": "2026-07-03",
+    "quote": "I still operate with multiple clones, though I’ve raised my limit to 3 clones of the Puzzmo monorepo.",
+    "history": [
+      {
+        "value": "Two clones, different VS Code profiles",
+        "source": "https://blog.puzzmo.com/posts/2025/07/30/six-weeks-of-claude-code/",
+        "seen": "2025-07-30",
+        "quote": "Anthropic have information about how to use worktrees - I would like to argue for a simpler approach. Two clones, different VS Code profiles."
+      }
+    ]
+  },
+  "parallelism": {
+    "value": 3,
+    "short": "3 clones",
+    "source": "https://blog.puzzmo.com/posts/2026/07/03/twelve-months-of-claude/",
+    "seen": "2026-07-03",
+    "quote": "I still operate with multiple clones, though I’ve raised my limit to 3 clones of the Puzzmo monorepo.",
+    "history": [
+      {
+        "value": 2,
+        "source": "https://blog.puzzmo.com/posts/2025/07/30/six-weeks-of-claude-code/",
+        "seen": "2025-07-30",
+        "quote": "Two clones, different VS Code profiles."
+      }
+    ]
+  },
+  "rules_files": {
+    "value": "CLAUDE.md (132 lines, keytrace)",
+    "short": "CLAUDE.md",
+    "url": "https://github.com/orta/keytrace/blob/e2bca7b461854eae26c5e408a7cdec7ba6355540/CLAUDE.md",
+    "source": "https://github.com/orta/keytrace/blob/e2bca7b461854eae26c5e408a7cdec7ba6355540/CLAUDE.md#L11",
+    "seen": "2026-07-30",
+    "quote": "- Do not push to remote or deploy unless explicitly asked."
+  },
+  "skills": {
+    "value": [
+      "commit"
+    ],
+    "count": 1,
+    "featured": [
+      "commit"
+    ],
+    "source": "https://blog.puzzmo.com/posts/2026/07/03/twelve-months-of-claude/",
+    "seen": "2026-07-03"
+  },
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "/commit",
+    "kind": "skill",
+    "caption": "human writes the headline",
+    "why": "Our pick: he types the first line of every commit himself and Claude only adds the body from the diff, so humans still write for humans.",
+    "editorial": true,
+    "source": "https://blog.puzzmo.com/posts/2026/07/03/twelve-months-of-claude/",
+    "seen": "2026-07-03",
+    "quote": "The argument to `/commit` is the first line of the commit message. Use it verbatim — no reformatting, no conventional-commit prefix, no capitalization fixes. If there is no argument, stop and ask the user for one; the point of this skill is that the human writes the headline."
+  },
+  "archetype": {
+    "value": "Purist",
+    "editorial": true,
+    "why": "One harness in his editor, no MCP, and he reads all the Puzzmo code himself."
+  },
+  "signature_quote": {
+    "value": "every line of code used to be a journey and now it’s a transaction.",
+    "source": "https://blog.puzzmo.com/posts/2026/09/28/re-evaluating-principles/",
+    "seen": "2026-09-28"
+  }
+}

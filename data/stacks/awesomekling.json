@@ -1,0 +1,165 @@
+{
+  "schema": 2,
+  "handle": "awesomekling",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Andreas Kling",
+    "source": "https://github.com/awesomekling"
+  },
+  "x": {
+    "value": "awesomekling",
+    "source": "https://x.com/awesomekling"
+  },
+  "github": {
+    "value": "awesomekling",
+    "source": "https://github.com/awesomekling"
+  },
+  "site": {
+    "value": "https://awesomekling.com",
+    "source": "https://x.com/awesomekling"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/5954907?v=4",
+    "source": "https://github.com/awesomekling"
+  },
+  "known_for": {
+    "value": "Ladybird browser, SerenityOS",
+    "source": "https://awesomekling.com/"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary",
+      "surface": null,
+      "source": "https://ladybird.org/posts/adopting-rust/",
+      "seen": "2026-02-23",
+      "quote": "I used Claude Code and Codex for the translation. This was human-directed, not autonomous code generation.",
+      "also": [
+        {
+          "source": "https://github.com/LadybirdBrowser/ladybird/commit/9a444ea267bf692b1df509e37f716e09eab61cb5",
+          "seen": "2026-08-25",
+          "quote": "Claude-Session: https://claude.ai/code/session_01VD8PSyM2THMZcaarAnpwp5"
+        },
+        {
+          "source": "https://x.com/awesomekling/status/2102091773220663325",
+          "seen": "2026-09-21",
+          "quote": "The /btw command is amazing for this! Lets you poke your head in whenever you want without sidetracking the main thread 😄",
+          "inferred": true
+        },
+        {
+          "source": "https://github.com/LadybirdBrowser/ladybird/pull/7331",
+          "seen": "2026-01-05",
+          "quote": "I asked Claude to write a bunch of tests to get proper coverage of our core JS engine optimizations, and this exposed two issues which are fixed herein."
+        }
+      ]
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "also used",
+      "surface": null,
+      "source": "https://ladybird.org/posts/adopting-rust/",
+      "seen": "2026-02-23",
+      "quote": "I used Claude Code and Codex for the translation.",
+      "also": [
+        {
+          "source": "https://x.com/awesomekling/status/2042551695910048008",
+          "seen": "2026-04-10",
+          "quote": "codex: I'm kicking off a clean build in parallel, it's gonna take some time"
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "Frontier model",
+      "icon": null,
+      "detail": "maxed-out reasoning, as coordinator",
+      "source": "https://x.com/awesomekling/status/2102089363631059199",
+      "seen": "2026-09-21",
+      "quote": "2. Hand it to a coordinator agent (frontier model with maxed-out reasoning)",
+      "also": [
+        {
+          "source": "https://x.com/awesomekling/status/2102098281203433738",
+          "seen": "2026-09-21",
+          "quote": "Using slightly weaker models with medium reasoning for workers. To keep token spend under control 😅"
+        }
+      ],
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Adversarial review passes by different models",
+    "source": "https://ladybird.org/posts/adopting-rust/",
+    "seen": "2026-02-23",
+    "quote": "After the initial translation, I ran multiple passes of adversarial review, asking different models to analyze the code for mistakes and bad patterns.",
+    "kind": "agent-reviews",
+    "also": [
+      {
+        "source": "https://x.com/awesomekling/status/2105814628785934386",
+        "seen": "2026-10-02",
+        "quote": "Bargaining:\n- Okay, AI can write code, but only if a human reviews every line.\n- Maybe adversarial AI review will make arbitrary external code intake safe again."
+      },
+      {
+        "source": "https://x.com/awesomekling/status/2105815446180233555",
+        "seen": "2026-10-02",
+        "quote": "(This was roughly my own thought process over the last ~12 months. Your journey may be different!)"
+      },
+      {
+        "source": "https://ladybird.org/posts/adopting-rust/",
+        "seen": "2026-02-23",
+        "quote": "Beyond the test suites, I’ve done extensive testing by browsing the web in a lockstep mode where both the C++ and Rust pipelines run simultaneously, verifying that output is identical for every piece of JavaScript that flows through them."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Design doc, then a coordinator agent fanning work out to 4 computers over SSH, with welfare checks",
+    "short": "SSH fleet",
+    "source": "https://x.com/awesomekling/status/2102089363631059199",
+    "seen": "2026-09-21",
+    "quote": "3. Tell coordinator to parallelize the work over 4 separate computers via SSH (because I work on a browser and rebuilds/tests are very CPU+RAM intensive)",
+    "history": [
+      {
+        "value": "Hundreds of small prompts, steering by hand",
+        "source": "https://ladybird.org/posts/adopting-rust/",
+        "seen": "2026-02-23",
+        "quote": "It was hundreds of small prompts, steering the agents where things needed to go."
+      }
+    ]
+  },
+  "parallelism": {
+    "value": 4,
+    "short": "4 computers",
+    "source": "https://x.com/awesomekling/status/2102089363631059199",
+    "seen": "2026-09-21",
+    "quote": "3. Tell coordinator to parallelize the work over 4 separate computers via SSH (because I work on a browser and rebuilds/tests are very CPU+RAM intensive)",
+    "history": []
+  },
+  "rules_files": null,
+  "skills": null,
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "Welfare checks",
+    "kind": "habit",
+    "caption": "on workers across 4 machines",
+    "why": "Our pick: the coordinator, not he, watches for stuck or crash-looping workers, so multi-day runs need no steering.",
+    "editorial": true,
+    "source": "https://x.com/awesomekling/status/2102089363631059199",
+    "seen": "2026-09-21",
+    "quote": "4. Tell coordinator to do regular welfare checks on all workers in case someone gets stuck/crash-loops/etc."
+  },
+  "archetype": {
+    "value": "Orchestrator",
+    "editorial": true,
+    "why": "Writes the design doc, then lets a coordinator agent run workers on four machines for days."
+  },
+  "signature_quote": {
+    "value": "I don't really steer. I just check in every now and then to see how things are going.",
+    "more": "Mostly because I get curious.",
+    "source": "https://x.com/awesomekling/status/2102089363631059199",
+    "seen": "2026-09-21"
+  }
+}

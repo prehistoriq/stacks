@@ -1,0 +1,178 @@
+{
+  "schema": 2,
+  "handle": "thariqs",
+  "status": "ok",
+  "checked": "2026-10-07",
+  "name": {
+    "value": "Thariq Shihipar",
+    "source": "https://github.com/ThariqS"
+  },
+  "x": {
+    "value": "trq212",
+    "source": "https://x.com/trq212"
+  },
+  "github": {
+    "value": "ThariqS",
+    "source": "https://github.com/ThariqS"
+  },
+  "site": {
+    "value": "https://thariq.io",
+    "source": "https://github.com/ThariqS"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/140827?v=4",
+    "source": "https://github.com/ThariqS"
+  },
+  "known_for": {
+    "value": "Claude Code team, Anthropic",
+    "source": "https://github.com/ThariqS"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary: one focus session",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://www.youtube.com/watch?v=aVO6E181cNU&t=1859s",
+        "seen": "2026-07-19",
+        "quote": "I'm a mix of terminal and desktop."
+      },
+      "source": "https://x.com/trq212/status/2073100352921215386",
+      "seen": "2026-07-03",
+      "quote": "I ask Claude Code to keep a temporary ‘implementation-notes.md’ (or .html) file where it keeps track of decisions it makes so we can learn from our next attempt.",
+      "history": [
+        {
+          "value": "Claude Code as a general agent in ~",
+          "surface": "cli",
+          "source": "https://x.com/trq212/status/1944877531028725840",
+          "seen": "2025-07-14",
+          "quote": "I use Mac OSX and run Claude Code in my home directory (~)."
+        }
+      ]
+    },
+    {
+      "name": "Claude Tag",
+      "icon": "claude",
+      "role": "parallel work in Slack",
+      "surface": null,
+      "source": "https://x.com/trq212/status/2069474338450108705",
+      "seen": "2026-06-23",
+      "quote": "Have a personal channel e.g. I have \"#thariq-claude\" where you can tag Claude for your own work and give it instructions specific to you."
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Fable 5",
+      "icon": "claude",
+      "source": "https://x.com/trq212/status/2073100352921215386",
+      "seen": "2026-07-03",
+      "quote": "Working with Claude Fable 5 keeps re-teaching me an old lesson: the map is not the territory.",
+      "history": []
+    },
+    {
+      "name": "Claude Opus 5.5",
+      "icon": "claude",
+      "detail": "effort per task",
+      "source": "https://x.com/trq212/status/2103576349499855160",
+      "seen": "2026-09-25",
+      "quote": "I tried doing the same tasks at several different effort levels on Opus 5.5 understand the work it would do.",
+      "inferred": true,
+      "history": [
+        {
+          "value": "Opus 4.7, 1M context",
+          "source": "https://x.com/trq212/status/2052809885763747935",
+          "seen": "2026-05-08",
+          "quote": "With the 1MM context window in Opus 4.7, the increased token usage is not really noticeable in the context window."
+        }
+      ]
+    }
+  ],
+  "review_style": {
+    "value": "Claude writes an HTML report and a quiz on the change; he merges only after passing it",
+    "source": "https://x.com/trq212/status/2073100352921215386",
+    "seen": "2026-07-03",
+    "quote": "Asking Claude to quiz me about the change after giving me a bunch of context helps me understand what happens. I only merge after I pass the quiz perfectly.",
+    "kind": "unknown",
+    "also": [
+      {
+        "source": "https://x.com/trq212/status/2103576349499855160",
+        "seen": "2026-09-25",
+        "quote": "For normal software engineering, I’m now running a loop of getting the model to interview me then implementing on low/medium effort, reviewing what it built, and then running verification on high effort."
+      },
+      {
+        "source": "https://x.com/trq212/status/2052809885763747935",
+        "seen": "2026-05-08",
+        "quote": "I find this often works better than the default Github diff view, and I attach a HTML code explainer to every PR I make now."
+      }
+    ],
+    "inferred": true
+  },
+  "harness": {
+    "value": "One active Claude Code session (terminal or desktop); background work in Claude Tag threads in Slack",
+    "short": "Claude Tag",
+    "source": "https://www.youtube.com/watch?v=aVO6E181cNU&t=1200s",
+    "seen": "2026-07-19",
+    "quote": "now like it's mostly one active Claude Code session and then a bunch of Claude Tag sessions.",
+    "history": []
+  },
+  "parallelism": {
+    "value": 1,
+    "short": "1 + a bunch in Tag",
+    "source": "https://www.youtube.com/watch?v=aVO6E181cNU&t=1200s",
+    "seen": "2026-07-19",
+    "quote": "now like it's mostly one active Claude Code session and then a bunch of Claude Tag sessions.",
+    "history": [
+      {
+        "value": 5,
+        "source": "https://www.youtube.com/watch?v=aVO6E181cNU&t=1200s",
+        "seen": "2026-07-19",
+        "quote": "before I was having you know like five different Claudes uh in my Claude Code"
+      }
+    ]
+  },
+  "rules_files": {
+    "value": "Claude.MD in ~ for a general-agent setup (2025)",
+    "short": "Claude.MD",
+    "url": "https://gist.github.com/ThariqS/2c35650d1cb81e87392e9f0fee5d5a10/9f1c174813ec3797b03c492fc0b2837c466cdf54",
+    "source": "https://gist.github.com/ThariqS/2c35650d1cb81e87392e9f0fee5d5a10/9f1c174813ec3797b03c492fc0b2837c466cdf54",
+    "seen": "2025-07-14",
+    "quote": "You should search memories to see if there's an relevant information for my query, especially if you feel like you're missing context."
+  },
+  "skills": {
+    "value": [
+      "journal",
+      "todo"
+    ],
+    "count": 2,
+    "featured": [
+      "journal",
+      "todo"
+    ],
+    "source": "https://x.com/trq212/status/1944877541254422660",
+    "seen": "2025-07-14"
+  },
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "Change quiz",
+    "kind": "habit",
+    "caption": "must pass before merging",
+    "why": "Our pick: instead of trusting a diff, he has Claude explain the change in HTML and quiz him on it, and he merges only after a perfect score.",
+    "editorial": true,
+    "source": "https://x.com/trq212/status/2073100352921215386",
+    "seen": "2026-07-03",
+    "quote": "I only merge after I pass the quiz perfectly."
+  },
+  "archetype": {
+    "value": "Orchestrator",
+    "editorial": true,
+    "why": "He keeps one focus session locally and sends parallel work to Claude Tag threads he tracks with a status pin."
+  },
+  "signature_quote": {
+    "value": "Fable is the first model where I find the quality of the work is bottlenecked by my ability to clarify its unknowns.",
+    "more": "I’ve found that working with Fable is an iterative process of discovering my unknowns before, during, and after implementation.",
+    "source": "https://x.com/trq212/status/2073100352921215386",
+    "seen": "2026-07-03"
+  }
+}

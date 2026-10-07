@@ -1,0 +1,138 @@
+{
+  "schema": 2,
+  "handle": "embirico",
+  "status": "ok",
+  "checked": "2026-10-07",
+  "name": {
+    "value": "Alexander Embiricos",
+    "source": "https://github.com/embirico"
+  },
+  "x": {
+    "value": "embirico",
+    "source": "https://x.com/embirico"
+  },
+  "github": {
+    "value": "embirico",
+    "source": "https://github.com/embirico"
+  },
+  "site": null,
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/3096358?v=4",
+    "source": "https://github.com/embirico"
+  },
+  "known_for": {
+    "value": "Codex product lead, OpenAI",
+    "source": "https://x.com/embirico"
+  },
+  "agents": [
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "primary, auto-review mode",
+      "surface": "app",
+      "surface_source": {
+        "source": "https://www.youtube.com/watch?v=6OiE0jIY93c&t=57",
+        "seen": "2026-02-09",
+        "quote": "the app has all these great skills and so I could just click into the skills tab"
+      },
+      "source": "https://x.com/embirico/status/2047461700895662333",
+      "seen": "2026-04-23",
+      "quote": "Love using auto-review. It’s my new default mode",
+      "history": [
+        {
+          "value": "Codex in VS Code",
+          "surface": "ide",
+          "source": "https://www.youtube.com/watch?v=xeZDHGjG5zM&t=164",
+          "seen": "2026-01-12",
+          "quote": "Uh I happen to use VS Code. So I'll show you Codex in VS Code."
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "Codex default model",
+      "icon": "openai",
+      "detail": "low reasoning",
+      "source": "https://www.youtube.com/watch?v=6OiE0jIY93c&t=100",
+      "seen": "2026-02-09",
+      "quote": "especially because I'm often using [Codex] on low, which I think is like an under underrated technique.",
+      "history": [],
+      "inferred": true
+    }
+  ],
+  "review_style": {
+    "value": "Reads the plan; Codex reviews nearly every PR",
+    "source": "https://www.youtube.com/watch?v=xeZDHGjG5zM&t=1902",
+    "seen": "2026-01-12",
+    "quote": "Codex code review itself is enabled on pretty much every single repo at the company and reviews like pretty much all PRs.",
+    "kind": "unknown",
+    "inferred": true,
+    "also": [
+      {
+        "source": "https://www.youtube.com/watch?v=xeZDHGjG5zM&t=1021",
+        "seen": "2026-01-12",
+        "quote": "So, it's really important for me to read these and verify them, make sure that it didn't get that wrong."
+      }
+    ]
+  },
+  "harness": {
+    "value": "One long-lived Codex thread, kept busy by automations, spawning subagents",
+    "short": "long-lived thread",
+    "source": "https://x.com/embirico/status/2046033614106931414",
+    "seen": "2026-04-20",
+    "quote": "I'm slowly shifting to longer-lived threads. The thread is pretty much always active because I prompted it or an automation pinged it.",
+    "history": [
+      {
+        "value": "Git worktrees that Codex creates, one Codex per worktree",
+        "source": "https://www.youtube.com/watch?v=xeZDHGjG5zM&t=542",
+        "seen": "2026-01-12",
+        "quote": "So typically the way that I would actually do this is I would just ask Codex to create work trees."
+      }
+    ]
+  },
+  "parallelism": {
+    "value": 4,
+    "short": "4 attempts",
+    "source": "https://www.youtube.com/watch?v=xeZDHGjG5zM&t=1375",
+    "seen": "2026-01-12",
+    "quote": "So I might kind of throw throw codex at it but I might just do it four times in parallel instead.",
+    "history": []
+  },
+  "rules_files": null,
+  "skills": {
+    "value": [
+      "buildkite"
+    ],
+    "count": 1,
+    "featured": [
+      "buildkite"
+    ],
+    "source": "https://www.youtube.com/watch?v=6OiE0jIY93c&t=57",
+    "seen": "2026-02-09",
+    "quote": "So so I used a skill to fix the PR failure but in the mean then improved two skills kind of as I went."
+  },
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "\"Using a subagent in parallel, do X\"",
+    "kind": "habit",
+    "caption": "from one always-on thread",
+    "why": "Our pick: instead of opening new threads, he keeps one thread alive and hands every new task to a subagent from it.",
+    "editorial": true,
+    "source": "https://x.com/embirico/status/2046033614106931414",
+    "seen": "2026-04-20",
+    "quote": "Then, when I need anything new, I say \"using a subagent in parallel, do X\""
+  },
+  "archetype": {
+    "value": "Orchestrator",
+    "editorial": true,
+    "why": "One long-lived thread farms new work out to subagents while automations keep it running."
+  },
+  "signature_quote": {
+    "value": "Subagents + steering in Codex is pretty magical.",
+    "more": "I'm slowly shifting to longer-lived threads.",
+    "source": "https://x.com/embirico/status/2046033614106931414",
+    "seen": "2026-04-20"
+  }
+}

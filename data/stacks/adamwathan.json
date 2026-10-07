@@ -1,0 +1,135 @@
+{
+  "schema": 2,
+  "handle": "adamwathan",
+  "status": "ok",
+  "checked": "2026-10-07",
+  "name": {
+    "value": "Adam Wathan",
+    "source": "https://github.com/adamwathan"
+  },
+  "x": {
+    "value": "adamwathan",
+    "source": "https://x.com/adamwathan"
+  },
+  "github": {
+    "value": "adamwathan",
+    "source": "https://github.com/adamwathan"
+  },
+  "site": {
+    "value": "https://adamwathan.me",
+    "source": "https://adamwathan.me"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/4323180?v=4",
+    "source": "https://github.com/adamwathan"
+  },
+  "known_for": {
+    "value": "Tailwind CSS, Refactoring UI",
+    "source": "https://github.com/adamwathan"
+  },
+  "agents": [
+    {
+      "name": "Amp",
+      "icon": "amp",
+      "role": "newest, in cloud Orbs",
+      "surface": "web",
+      "surface_source": {
+        "source": "https://x.com/adamwathan/status/2105058269332987954",
+        "seen": "2026-09-29",
+        "quote": "With orbs it just worked, no configuration, it just figured out how to create an environment where everything ran and I could preview my changes effortlessly.",
+        "inferred": true
+      },
+      "source": "https://x.com/adamwathan/status/2105058269332987954",
+      "seen": "2026-09-29",
+      "quote": "I shipped a change to a PHP 5 + Node 8 project the other night that would’ve been a nightmare without Amp and Orbs.",
+      "history": []
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "in the ChatGPT mobile app",
+      "surface": "app",
+      "source": "https://x.com/adamwathan/status/2055037124173263269",
+      "seen": "2026-05-14",
+      "quote": "I must be going crazy because I’ve been using Codex in the ChatGPT mobile app for literally months?",
+      "history": []
+    },
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "async OSS chores",
+      "surface": "web",
+      "source": "https://x.com/adamwathan/status/2017616165455949851",
+      "seen": "2026-01-31",
+      "quote": "Man don't sleep on Claude Code in the desktop app/on the web.",
+      "history": [
+        {
+          "value": "Claude Code",
+          "surface": "cli",
+          "source": "https://x.com/adamwathan/status/1961749358233235694",
+          "seen": "2025-08-30",
+          "quote": "It’s made me extremely bullish on the CLI in general — so much better for AI than trying to point and click around graphical interfaces."
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Sonnet 4.5",
+      "icon": "claude",
+      "source": "https://x.com/adamwathan/status/1977443454029602860",
+      "seen": "2025-10-12",
+      "quote": "Sonnet 4.5 one-shotted this refactoring by the way, which actually blows my mind.",
+      "history": [],
+      "inferred": true
+    }
+  ],
+  "review_style": null,
+  "harness": {
+    "value": "Cloud agents: Amp threads in remote Orbs",
+    "short": "cloud Orbs",
+    "source": "https://x.com/adamwathan/status/2105058269332987954",
+    "seen": "2026-09-29",
+    "quote": "With orbs it just worked, no configuration, it just figured out how to create an environment where everything ran and I could preview my changes effortlessly.",
+    "history": [
+      {
+        "value": "Claude Code in the cloud, in the background",
+        "source": "https://x.com/adamwathan/status/2007635885991358918",
+        "seen": "2026-01-04",
+        "quote": "Fairly confident this initial solution is perfect, did it in 5 minutes in the background using just the initial prompt:"
+      }
+    ]
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "AGENTS.md",
+    "short": "AGENTS.md",
+    "url": null,
+    "source": "https://x.com/adamwathan/status/2041673683987493302",
+    "seen": "2026-04-08",
+    "quote": "Never, ever, under any circumstances, ever, not once, no matter what, try to start the fucking dev server, it’s already fucking running."
+  },
+  "skills": null,
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "Every tedious OSS task",
+    "kind": "habit",
+    "caption": "fed to cloud Claude Code",
+    "why": "Our pick: since January 2026 he hands the Tailwind chores he would otherwise neglect to Claude Code on the web and keeps working; ten of his 2026 Tailwind commits carry its session links.",
+    "editorial": true,
+    "source": "https://x.com/adamwathan/status/2017616165455949851",
+    "seen": "2026-01-31",
+    "quote": "I feed this thing every little random tedious OSS task that I'd otherwise neglect on my TODO list and it just churns through it all asynchronously flawlessly while I work on more important stuff."
+  },
+  "archetype": {
+    "value": "Orchestrator",
+    "editorial": true,
+    "why": "He hands chores to cloud agents (Claude Code on the web, Amp in Orbs) and works on other things while they run."
+  },
+  "signature_quote": {
+    "value": "Threads are the new PR, and everyone on the team should be able to see them.",
+    "source": "https://x.com/adamwathan/status/2105007944924606471",
+    "seen": "2026-09-29"
+  }
+}

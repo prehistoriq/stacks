@@ -1,0 +1,122 @@
+{
+  "schema": 2,
+  "handle": "tonsky",
+  "status": "ok",
+  "checked": "2026-10-07",
+  "name": {
+    "value": "Nikita Prokopov",
+    "source": "https://github.com/tonsky"
+  },
+  "x": {
+    "value": "nikitonsky",
+    "source": "https://x.com/nikitonsky"
+  },
+  "github": {
+    "value": "tonsky",
+    "source": "https://github.com/tonsky"
+  },
+  "site": {
+    "value": "https://tonsky.me",
+    "source": "https://github.com/tonsky"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/285292?v=4",
+    "source": "https://github.com/tonsky"
+  },
+  "known_for": {
+    "value": "DataScript, Fira Code",
+    "source": "https://github.com/tonsky"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary",
+      "surface": null,
+      "source": "https://x.com/nikitonsky/status/2098164952120832133",
+      "seen": "2026-09-10",
+      "quote": "Over the last 6 months, I was using Codex and Claude Code on open-source grants.",
+      "also": [
+        {
+          "source": "https://github.com/tonsky/datascript/blob/ca4dec879d02ac919c8a791d3f9258f0a6c872c4/CLAUDE.md#L3",
+          "seen": "2026-08-13",
+          "quote": "This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository."
+        }
+      ],
+      "inferred": true,
+      "history": []
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "OSS grant, expired 2026-09-07",
+      "surface": null,
+      "source": "https://x.com/nikitonsky/status/2096861562585645119",
+      "seen": "2026-09-07",
+      "quote": "So my OSS @openai Codex license expired today. Lots of work done with it over the last 6 months, including long-standing issues in Fira Code, DataScript, Humble UI.",
+      "history": []
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Fable 5.1",
+      "icon": "claude",
+      "source": "https://github.com/tonsky/clojure-plus/commit/662df2562f9b2deb0de1d29232afc89c480622d7",
+      "seen": "2026-10-05",
+      "quote": "Co-Authored-By: Claude Fable 5.1",
+      "inferred": true,
+      "history": []
+    }
+  ],
+  "review_style": null,
+  "harness": {
+    "value": "Agent works against a live nREPL (port 5556) and reloads namespaces instead of restarting the app",
+    "short": "live nREPL",
+    "source": "https://github.com/tonsky/chillalert/blob/6bd46030dbbe911e60c2b0b6b04778b9dfba9db1/CLAUDE.md#L3",
+    "seen": "2026-09-08",
+    "quote": "- An nREPL server is running on port 5556 (started via `script/nrepl.sh`, port also in `.nrepl-port`). Use the `clojure-eval` skill to evaluate code, reload edited namespaces and check that they compile, instead of restarting the app",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "CLAUDE.md (five hand-written lines)",
+    "short": "CLAUDE.md",
+    "url": "https://github.com/tonsky/chillalert/blob/6bd46030dbbe911e60c2b0b6b04778b9dfba9db1/CLAUDE.md",
+    "source": "https://github.com/tonsky/chillalert/blob/6bd46030dbbe911e60c2b0b6b04778b9dfba9db1/CLAUDE.md#L1",
+    "seen": "2026-09-08",
+    "quote": "- Use as little dependencies as possible"
+  },
+  "skills": {
+    "value": [
+      "clojure-eval"
+    ],
+    "count": 1,
+    "featured": [
+      "clojure-eval"
+    ],
+    "source": "https://github.com/tonsky/chillalert/blob/6bd46030dbbe911e60c2b0b6b04778b9dfba9db1/CLAUDE.md#L3",
+    "seen": "2026-09-08"
+  },
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "Live nREPL for the agent",
+    "kind": "rule",
+    "caption": "instead of app restarts",
+    "why": "Our pick: his CLAUDE.md points the agent at a running nREPL so it evaluates and reloads code the way a Clojure programmer does.",
+    "editorial": true,
+    "source": "https://github.com/tonsky/chillalert/blob/6bd46030dbbe911e60c2b0b6b04778b9dfba9db1/CLAUDE.md#L3",
+    "seen": "2026-09-08",
+    "quote": "Use the `clojure-eval` skill to evaluate code, reload edited namespaces and check that they compile, instead of restarting the app"
+  },
+  "archetype": {
+    "value": "Toolsmith",
+    "editorial": true,
+    "why": "He has agents build small tools he needs, inside a REPL-first Clojure setup."
+  },
+  "signature_quote": {
+    "value": "At this point it’s easier to ask LLM to build exactly what you need than searching for an existing project that might or might not do what you want.",
+    "source": "https://mastodon.online/@nikitonsky/117100554251443176",
+    "seen": "2026-08-15"
+  }
+}

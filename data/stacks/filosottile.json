@@ -1,0 +1,194 @@
+{
+  "schema": 2,
+  "handle": "filosottile",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Filippo Valsorda",
+    "source": "https://github.com/FiloSottile"
+  },
+  "x": null,
+  "github": {
+    "value": "FiloSottile",
+    "source": "https://github.com/FiloSottile"
+  },
+  "site": {
+    "value": "https://filippo.io",
+    "source": "https://github.com/FiloSottile"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/1225294?v=4",
+    "source": "https://github.com/FiloSottile"
+  },
+  "known_for": {
+    "value": "Go cryptography, age, mkcert",
+    "source": "https://filippo.io"
+  },
+  "agents": [
+    {
+      "name": "Shelley (exe.dev)",
+      "icon": null,
+      "role": "primary, on its own GitHub account",
+      "surface": "web",
+      "inferred": true,
+      "surface_source": {
+        "source": "https://github.com/boldsoftware/shelley/blob/4f250904e45dab0448b476547736b69bff6d282e/README.md#L3",
+        "seen": "2026-06-30",
+        "quote": "Shelley is a mobile-friendly, web-based, multi-conversation, multi-modal,"
+      },
+      "source": "https://gist.github.com/filippo-agent/4a76063873cdd5221ee0710803e6784b",
+      "seen": "2026-09-27",
+      "quote": "These were very low hanging performance wins with very low complexity/review/maintenance cost\n\nI bet there’s more\n\nSystematically look for more in the whole crypto/… tree",
+      "also": [
+        {
+          "source": "https://github.com/filippo-agent/alertreplay/commit/dfe1f73c0bf7c84a4cfefa64ca836e01180e3286",
+          "seen": "2026-10-03",
+          "quote": "Co-authored-by: Shelley <shelley@exe.dev>"
+        },
+        {
+          "source": "https://bsky.app/profile/filippo.abyssdomain.expert/post/3maqkjb7ujg2l",
+          "seen": "2025-12-24",
+          "quote": "After reading this I gave exe.dev a shot and the combination of cheap VMs, the HTTPS proxy with passkey auth and link sharing, and the built-in LLM agent is... incredible."
+        }
+      ],
+      "history": [
+        {
+          "value": "Sketch",
+          "surface": null,
+          "inferred": true,
+          "source": "https://github.com/FiloSottile/mostly-harmless/commit/4fcfcf933e0a80f135f1009fa0c4ad87fbfa8d8f",
+          "seen": "2025-06-12",
+          "quote": "Co-Authored-By: sketch <hello@sketch.dev>"
+        }
+      ]
+    },
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "debugging, tools, side projects",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://bsky.app/profile/filippo.abyssdomain.expert/post/3mioegfis4s2z",
+        "seen": "2026-04-04",
+        "quote": "Oh my god that drove me crazy and eventually I just replaced claude in $PATH with a script that does\n\nexec env -u SSH_AUTH_SOCK ~/.local/bin/claude \"$@\"\n\nbecause after all I don't want the agent to access the ssh-agent."
+      },
+      "source": "https://bsky.app/profile/filippo.abyssdomain.expert/post/3mrke6zps6c2f",
+      "seen": "2026-07-26",
+      "quote": "*Of course* Claude Code with just WebSearch and WebFetch can fill them out for me from context.",
+      "also": [
+        {
+          "source": "https://words.filippo.io/claude-debugging/",
+          "seen": "2025-11-01",
+          "quote": "On a whim, I figured I would let Claude Code take a shot while I read emails and resurfaced from hyperfocus."
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "GPT-6 Astra",
+      "icon": "openai",
+      "detail": "in Shelley",
+      "inferred": true,
+      "source": "https://gist.github.com/filippo-agent/4a76063873cdd5221ee0710803e6784b",
+      "seen": "2026-09-27",
+      "quote": "Model: gpt-6-astra",
+      "history": []
+    },
+    {
+      "name": "Claude Opus 4.8",
+      "icon": "claude",
+      "detail": "1M context",
+      "inferred": true,
+      "source": "https://github.com/omissis/go-jsonschema/commit/48ec8fa379592a5e08180d7f5089e946b7ebcf7e",
+      "seen": "2026-07-25",
+      "quote": "Co-authored-by: Claude Opus 4.8 (1M context) <noreply@anthropic.com>",
+      "history": [
+        {
+          "value": "Opus 4.1",
+          "source": "https://words.filippo.io/claude-debugging/",
+          "seen": "2025-11-01",
+          "quote": "I started Claude Code v2.0.28 with Opus 4.1 and no system prompts, and gave it the following prompt (typos included):"
+        },
+        {
+          "value": "Opus 4.5",
+          "source": "https://bsky.app/profile/filippo.abyssdomain.expert/post/3mbhfjrax5a2c",
+          "seen": "2026-01-02",
+          "quote": "I just vibecoded with exe.dev and Opus 4.5 a backoffice for our FIPS 140 validation, with a separate view for the lab (where they can also upload test vectors), public links for clients, and guided scripts for testing."
+        },
+        {
+          "value": "Opus 4.6",
+          "source": "https://bsky.app/profile/filippo.abyssdomain.expert/post/3mewycudmuc2f",
+          "seen": "2026-02-16",
+          "quote": "Claude Opus 4.6 did write mldsa_test.go in the filippo.io/mldsa API prototype, though."
+        }
+      ]
+    }
+  ],
+  "review_style": {
+    "value": "LLM review before any human review",
+    "kind": "unknown",
+    "source": "https://bsky.app/profile/filippo.abyssdomain.expert/post/3moq6sdq6xk2l",
+    "seen": "2026-06-20",
+    "quote": "Nuclear opinion: I don’t care if you use AI to write code,¹ but making a human review a change before an LLM is disrespectful.",
+    "also": [
+      {
+        "source": "https://bsky.app/profile/filippo.abyssdomain.expert/post/3moqaqrxpds2d",
+        "seen": "2026-06-20",
+        "quote": "I’m saying if you ask human attention, do an LLM review first."
+      },
+      {
+        "source": "https://words.filippo.io/claude-debugging/",
+        "seen": "2025-11-01",
+        "quote": "Importantly, there is no need to trust the LLM or review its output when its job is just saving me an hour or two by telling me where the bug is, for me to reason about it and fix it."
+      },
+      {
+        "source": "https://bsky.app/profile/filippo.abyssdomain.expert/post/3msj4dfbihb2u",
+        "seen": "2026-08-07",
+        "quote": "The level of testing and review they are enabling in the Go cryptography standard library is amazing."
+      }
+    ],
+    "inferred": true
+  },
+  "harness": {
+    "value": "exe.dev VMs with the built-in agent, a separate agent GitHub account, Jujutsu",
+    "short": "exe.dev VMs",
+    "source": "https://bsky.app/profile/filippo.abyssdomain.expert/post/3maqkjb7ujg2l",
+    "seen": "2025-12-24",
+    "quote": "After reading this I gave exe.dev a shot and the combination of cheap VMs, the HTTPS proxy with passkey auth and link sharing, and the built-in LLM agent is... incredible.",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "AGENTS.md with Go CLI tips (personal, shown as an image)",
+    "short": "AGENTS.md",
+    "url": "https://bsky.app/profile/filippo.abyssdomain.expert/post/3mddfcuuo772w",
+    "source": "https://bsky.app/profile/filippo.abyssdomain.expert/post/3mddfcuuo772w",
+    "seen": "2026-01-26",
+    "quote": "Here are three lines from my AGENTS.md that make agents a lot better with Go."
+  },
+  "skills": null,
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "filippo-agent",
+    "kind": "habit",
+    "caption": "agent's own GitHub account",
+    "why": "Our pick: his agent commits from a separate, low-privilege GitHub account so it never holds his maintainer keys.",
+    "editorial": true,
+    "source": "https://bsky.app/profile/filippo.abyssdomain.expert/post/3mmjslkth422a",
+    "seen": "2026-05-23",
+    "quote": "I don’t want to “install Claude” with all the privileges of my account, I want Claude to have its own account to which I will grant some permissions, or none at all because again issues and PRs are public!"
+  },
+  "archetype": {
+    "value": "Toolsmith",
+    "editorial": true,
+    "why": "Fences his agent into its own account and VMs, then has it build tools like muzoo, goapi and gh-pr-rebase."
+  },
+  "signature_quote": {
+    "value": "Why am I catching your bugs if a computer could have done it?",
+    "more": "It’s like asking to review code that doesn’t compile or pass CI.",
+    "source": "https://bsky.app/profile/filippo.abyssdomain.expert/post/3moq6sdq6xk2l",
+    "seen": "2026-06-20"
+  }
+}

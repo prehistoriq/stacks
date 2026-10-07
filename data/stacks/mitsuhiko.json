@@ -1,0 +1,214 @@
+{
+  "schema": 2,
+  "handle": "mitsuhiko",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Armin Ronacher",
+    "source": "https://github.com/mitsuhiko"
+  },
+  "x": {
+    "value": "mitsuhiko",
+    "source": "https://github.com/mitsuhiko"
+  },
+  "github": {
+    "value": "mitsuhiko",
+    "source": "https://github.com/mitsuhiko"
+  },
+  "site": {
+    "value": "https://lucumr.pocoo.org",
+    "source": "https://github.com/mitsuhiko"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/7396?v=4",
+    "source": "https://github.com/mitsuhiko"
+  },
+  "known_for": {
+    "value": "Flask, Earendil founder",
+    "source": "https://github.com/mitsuhiko"
+  },
+  "agents": [
+    {
+      "name": "Pi",
+      "icon": null,
+      "role": "primary",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://lucumr.pocoo.org/2026/1/31/pi/",
+        "seen": "2026-01-31",
+        "quote": "Beyond slash commands, Pi extensions can render custom TUI components directly in the terminal: spinners, progress bars, interactive file pickers, data tables, preview panes."
+      },
+      "source": "https://lucumr.pocoo.org/2026/1/31/pi/",
+      "seen": "2026-01-31",
+      "quote": "And Pi happens to be, at this point, the coding agent that I use almost exclusively.",
+      "history": [
+        {
+          "value": "Claude Code",
+          "surface": "cli",
+          "surface_source": {
+            "source": "https://lucumr.pocoo.org/2025/6/12/agentic-coding/",
+            "seen": "2025-06-12",
+            "quote": "Which basically means I run claude --dangerously-skip-permissions."
+          },
+          "source": "https://lucumr.pocoo.org/2025/6/12/agentic-coding/",
+          "seen": "2025-06-12",
+          "quote": "I predominently use Claude Code with the cheaper Max subscription for $100 a month"
+        },
+        {
+          "value": "Amp, Claude Code and Pi",
+          "surface": "cli",
+          "source": "https://lucumr.pocoo.org/2025/12/22/a-year-of-vibes/",
+          "seen": "2025-12-22",
+          "quote": "At the moment I’m using Amp, Claude Code, and Pi, all from the command line."
+        }
+      ]
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "testing Astra",
+      "surface": null,
+      "source": "https://lucumr.pocoo.org/2026/9/7/astra-why/",
+      "seen": "2026-09-07",
+      "quote": "In the Codex harness I found multiple cases where subagents resorted fully to manual string manipulation with Python instead of using the patch tool.",
+      "history": [
+        {
+          "value": "Codex CLI for reviews",
+          "surface": "cli",
+          "source": "https://lucumr.pocoo.org/2025/12/22/a-year-of-vibes/",
+          "seen": "2025-12-22",
+          "quote": "So I now use Codex on the command line to do reviews, but that means a whole part of my iteration cycles is invisible to other engineers on the team."
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "Sol",
+      "icon": "openai",
+      "source": "https://lucumr.pocoo.org/2026/9/5/latent-powers/",
+      "seen": "2026-09-05",
+      "quote": "Long story short: I had a conversation with Fable and Sol via Pi about what could be done with such a dongle or whether I should use a Raspberry Pi instead if I wanted to do my own thing there.",
+      "history": [
+        {
+          "value": "Sonnet only",
+          "source": "https://lucumr.pocoo.org/2025/6/12/agentic-coding/",
+          "seen": "2025-06-12",
+          "quote": "I exclusively use the cheaper Sonnet model. It’s perfectly adequate for my needs, and in fact, I prefer its outputs over the more expensive Opus model."
+        }
+      ],
+      "inferred": true
+    },
+    {
+      "name": "Fable",
+      "icon": "claude",
+      "source": "https://lucumr.pocoo.org/2026/9/5/latent-powers/",
+      "seen": "2026-09-05",
+      "quote": "Long story short: I had a conversation with Fable and Sol via Pi about what could be done with such a dongle or whether I should use a Raspberry Pi instead if I wanted to do my own thing there.",
+      "history": [],
+      "inferred": true
+    }
+  ],
+  "review_style": {
+    "value": "Steers as it goes, reviews when the agent says done",
+    "source": "https://lucumr.pocoo.org/2026/6/23/the-coming-loop/",
+    "seen": "2026-06-23",
+    "quote": "In the agent loop, the model eventually says “done” and I review. Even before that, I usually steer along the way.",
+    "kind": "spot-checks",
+    "also": [
+      {
+        "source": "https://lucumr.pocoo.org/2026/1/31/pi/",
+        "seen": "2026-01-31",
+        "quote": "As more code is written by agents, it makes little sense to throw unfinished work at humans before an agent has reviewed it first."
+      },
+      {
+        "source": "https://lucumr.pocoo.org/2026/9/7/astra-why/",
+        "seen": "2026-09-07",
+        "quote": "It has shown that it will commit slop, and it requires me to review it more as a result."
+      }
+    ],
+    "inferred": true
+  },
+  "harness": {
+    "value": "Pi in the terminal, forks in Ghostty splits, subagents in tmux",
+    "short": "Ghostty + tmux",
+    "source": "https://github.com/mitsuhiko/agent-stuff/blob/0865c849befd2021490679f96a8dee58c84ac857/README.md#L59-L60",
+    "seen": "2026-07-26",
+    "quote": "`/split-fork` to branch the current session into a new Pi process in a right-hand Ghostty split.\nSerial `subagent` tool that runs one observable Pi child at a time in tmux; attach with the printed `pi --attach-subagent …` command.",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "AGENTS.md in his agent-stuff repo (12 lines)",
+    "short": "AGENTS.md",
+    "url": "https://github.com/mitsuhiko/agent-stuff/blob/0865c849befd2021490679f96a8dee58c84ac857/AGENTS.md",
+    "source": "https://github.com/mitsuhiko/agent-stuff/blob/0865c849befd2021490679f96a8dee58c84ac857/AGENTS.md#L12",
+    "seen": "2026-01-30",
+    "quote": "Pi extensions live in `./extensions`. When working in this repo, add or update extensions there. You can consult the `pi-mono` for reference, but do not modify code in `pi-mono`."
+  },
+  "skills": {
+    "value": [
+      "anachb",
+      "apple-mail",
+      "audio-transcription",
+      "commit",
+      "ghidra",
+      "github",
+      "google-workspace",
+      "librarian",
+      "native-web-search",
+      "oebb-scotty",
+      "openscad",
+      "pi-share",
+      "sentry",
+      "summarize",
+      "tmux",
+      "update-changelog",
+      "uv",
+      "web-browser"
+    ],
+    "count": 18,
+    "featured": [
+      "web-browser",
+      "pi-share",
+      "librarian"
+    ],
+    "source": "https://github.com/mitsuhiko/agent-stuff/tree/0865c849befd2021490679f96a8dee58c84ac857/skills",
+    "seen": "2026-09-27"
+  },
+  "mcp_servers": {
+    "value": [],
+    "source": "https://lucumr.pocoo.org/2026/1/31/pi/",
+    "seen": "2026-01-31",
+    "quote": "There is no MCP, there are no community skills, nothing."
+  },
+  "hooks": {
+    "value": [
+      "uv.ts: blocks pip and python, pushes the agent to uv"
+    ],
+    "source": "https://github.com/mitsuhiko/agent-stuff/blob/0865c849befd2021490679f96a8dee58c84ac857/README.md#L63",
+    "seen": "2026-07-26",
+    "quote": "Replaces the bash tool with a `uv`-aware version that injects Python command shims and blocks common non-`uv` workflows."
+  },
+  "signature": {
+    "value": "/answer",
+    "kind": "tool",
+    "caption": "in place of plan mode",
+    "why": "Our pick: he skips plan mode and lets the agent ask questions in plain prose, then a self-built extension turns those questions into a form he fills in.",
+    "editorial": true,
+    "source": "https://lucumr.pocoo.org/2026/1/31/pi/",
+    "seen": "2026-01-31",
+    "quote": "The problem: answering questions inline gets messy. So /answer reads the agent’s last response, extracts all the questions, and reformats them into a nice input box."
+  },
+  "archetype": {
+    "value": "Toolsmith",
+    "editorial": true,
+    "why": "Has the agent write his own Pi extensions and 18 skills. No MCP, nothing downloaded."
+  },
+  "signature_quote": {
+    "value": "In the agent loop, the model eventually says “done” and I review.",
+    "more": "Even before that, I usually steer along the way.",
+    "source": "https://lucumr.pocoo.org/2026/6/23/the-coming-loop/",
+    "seen": "2026-06-23"
+  }
+}

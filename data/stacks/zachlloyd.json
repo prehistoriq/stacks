@@ -1,0 +1,125 @@
+{
+  "schema": 2,
+  "handle": "zachlloyd",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Zach Lloyd",
+    "source": "https://github.com/zachlloyd"
+  },
+  "x": {
+    "value": "zachlloydtweets",
+    "source": "https://x.com/zachlloydtweets"
+  },
+  "github": {
+    "value": "zachlloyd",
+    "source": "https://github.com/zachlloyd"
+  },
+  "site": {
+    "value": "https://www.warp.dev",
+    "source": "https://www.lennysnewsletter.com/p/how-warp-ships-2000-prs-a-month-with"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/8727141?v=4",
+    "source": "https://github.com/zachlloyd"
+  },
+  "known_for": {
+    "value": "Co-founder and CEO of Warp",
+    "source": "https://www.lennysnewsletter.com/p/how-warp-ships-2000-prs-a-month-with"
+  },
+  "agents": [
+    {
+      "name": "Warp Factories",
+      "icon": null,
+      "role": "primary, his company's cloud factory",
+      "surface": "web",
+      "source": "https://x.com/zachlloydtweets/status/2090900505300177181",
+      "seen": "2026-08-21",
+      "quote": "Here, we use the Warp Terminal to kick off a run in a Factory and see it update on our web app alongside hundreds of other agent runs from our team."
+    },
+    {
+      "name": "Warp agent",
+      "icon": null,
+      "role": "in the Warp terminal, for CEO tasks",
+      "surface": "app",
+      "source": "https://www.chatprd.ai/how-i-ai/inside-warps-software-factory",
+      "seen": "2026-09-18",
+      "quote": "So, instead of fumbling with the UI, he uses a coding agent in Warp that has access to the Figma MCP (Multi-modal Command Palette)."
+    }
+  ],
+  "models": [
+    {
+      "name": "GPT 5.6 Sol",
+      "icon": "openai",
+      "detail": "high, team default",
+      "inferred": true,
+      "source": "https://x.com/zachlloydtweets/status/2097746902418948468",
+      "seen": "2026-09-09",
+      "quote": "- Benchmarking models on our own data to find the most efficient cost/performance pick. GPT 5.6 Sol (high) today",
+      "history": [
+        {
+          "value": "Claude Opus 5",
+          "source": "https://x.com/zachlloydtweets/status/2095905220698280388",
+          "seen": "2026-09-04",
+          "quote": "All 50%+ cheaper than our previous default (Opus 5)"
+        }
+      ]
+    }
+  ],
+  "review_style": {
+    "value": "Engineer reviews the agent PR and ships it; QA video attached",
+    "source": "https://x.com/zachlloydtweets/status/2104565422439932412",
+    "seen": "2026-09-28",
+    "quote": "One big change is how we approach code review - for low risk changes, we now let engineers review agent PRs and ship themselves, rather than requiring a second dev’s review.",
+    "kind": "unknown",
+    "inferred": true,
+    "also": [
+      {
+        "source": "https://www.chatprd.ai/how-i-ai/inside-warps-software-factory",
+        "seen": "2026-09-18",
+        "quote": "This video is attached to the PR, giving the human reviewer immediate, visual evidence that the feature works as intended."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Warp Factories defined in one config file: Slack request, triage, spec, implement, review, QA",
+    "short": "factory-as-code",
+    "source": "https://x.com/zachlloydtweets/status/2105364556482511042",
+    "seen": "2026-09-30",
+    "quote": "We run all of our company's agents out of this configuration file. It's Terraform for agents",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": null,
+  "skills": null,
+  "mcp_servers": {
+    "value": [
+      "figma",
+      "granola"
+    ],
+    "source": "https://www.chatprd.ai/how-i-ai/inside-warps-software-factory",
+    "seen": "2026-09-18",
+    "quote": "Can you use the Granola MCP to look back over my last four weeks of sales meetings and try to build up a list of the top 10 frequently most asked questions in these meetings as they pertain to Warp software factories?"
+  },
+  "hooks": null,
+  "signature": {
+    "value": "Scorer + self-improvement agents",
+    "kind": "tool",
+    "caption": "agents that fix agents",
+    "why": "Our pick: scorer agents grade every agent run, and other agents turn low scores into PRs that fix the factory's skills.",
+    "editorial": true,
+    "source": "https://x.com/zachlloydtweets/status/2105659008577060915",
+    "seen": "2026-10-01",
+    "quote": "- Self-improvement agents turn low-scoring conversations into improvements to your agent set up (skills, AGENTS.md, etc)"
+  },
+  "archetype": {
+    "value": "Orchestrator",
+    "editorial": true,
+    "why": "Designs the agent system and its metrics rather than steering single agents."
+  },
+  "signature_quote": {
+    "value": "I'm spending most of my real engineering brainpower at this point architecting how our agent system runs, not guiding individual agents,",
+    "source": "https://x.com/zachlloydtweets/status/2093742126630654213",
+    "seen": "2026-08-29"
+  }
+}

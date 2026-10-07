@@ -1,0 +1,211 @@
+{
+  "schema": 2,
+  "handle": "unclebob",
+  "status": "ok",
+  "checked": "2026-10-07",
+  "name": {
+    "value": "Robert C. Martin",
+    "source": "https://github.com/unclebob"
+  },
+  "x": {
+    "value": "unclebobmartin",
+    "source": "https://x.com/unclebobmartin"
+  },
+  "github": {
+    "value": "unclebob",
+    "source": "https://github.com/unclebob"
+  },
+  "site": {
+    "value": "http://cleancoder.com",
+    "source": "https://github.com/unclebob"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/36901?v=4",
+    "source": "https://github.com/unclebob"
+  },
+  "known_for": {
+    "value": "Clean Code author",
+    "source": "https://x.com/unclebobmartin/status/2105647907705868659"
+  },
+  "agents": [
+    {
+      "name": "Grok",
+      "icon": "grok",
+      "role": "primary, writes the code",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://github.com/unclebob/uml-viewer/commit/a2a3fd5ee91618477c6471e8896586daae8922ed",
+        "seen": "2026-09-14",
+        "quote": "Add Grok tmux session, whole-file source viewer, and +/− member marks."
+      },
+      "source": "https://x.com/unclebobmartin/status/2107162434892959990",
+      "seen": "2026-10-05",
+      "quote": "However, I just had grok build me a script editor.  It took it 30 minutes.",
+      "also": [
+        {
+          "source": "https://x.com/unclebobmartin/status/2098883971564359680",
+          "seen": "2026-09-12",
+          "quote": "I had @grok implement this from a single prompt. It took 40 minutes."
+        }
+      ],
+      "history": [
+        {
+          "value": "grok-cli",
+          "surface": "cli",
+          "source": "https://x.com/unclebobmartin/status/1996734975899504677",
+          "seen": "2025-12-05",
+          "quote": "grok-cli did a splendid job of modifying my app to convert synchronous http/get calls in the drawing loop into an asynchronous process."
+        },
+        {
+          "value": "Claude",
+          "surface": "cli",
+          "inferred": true,
+          "source": "https://x.com/unclebobmartin/status/2009274358087250227",
+          "seen": "2026-01-08",
+          "quote": "I am impressed that it has a much better grasp of the code than grok."
+        },
+        {
+          "value": "Claude as architect, Codex as coder and reviewer",
+          "surface": null,
+          "source": "https://x.com/unclebobmartin/status/2045477573535142212",
+          "seen": "2026-04-18",
+          "quote": "I found that the best agent to use as the architect was Claude."
+        },
+        {
+          "value": "Codex",
+          "surface": "cli",
+          "source": "https://x.com/unclebobmartin/status/2054970327592042661",
+          "seen": "2026-05-14",
+          "quote": "I just cancelled my Claude account.  I've been using codex, and haven't used Claude in several weeks."
+        }
+      ]
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "reviews Grok's code",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://github.com/unclebob/swarm-forge/commit/e77d596e0405575d23e32a45d5c773f0b5776bdc",
+        "seen": "2026-08-24",
+        "quote": "Launch Codex and Copilot with --no-alt-screen",
+        "inferred": true
+      },
+      "source": "https://x.com/unclebobmartin/status/2107226963458810345",
+      "seen": "2026-10-05",
+      "quote": "I'm using codex to review the code that grok wrote.  Good results.",
+      "history": []
+    }
+  ],
+  "models": [
+    {
+      "name": "Grok",
+      "icon": "grok",
+      "source": "https://x.com/unclebobmartin/status/2101018229976043885",
+      "seen": "2026-09-18",
+      "quote": "It is eerie just how good @grok is now.  I've stopped using any other model for the time being.",
+      "history": [
+        {
+          "value": "Claude",
+          "source": "https://x.com/unclebobmartin/status/2009274358087250227",
+          "seen": "2026-01-08",
+          "quote": "After one day of using Claude (Yes, I heard all of you out there in the peanut gallery) I am both impressed and horrified."
+        }
+      ]
+    }
+  ],
+  "review_style": {
+    "value": "Does not read agent code: Codex reviews Grok's output, he inspects a UML diagram colored by CRAP and mutation scores",
+    "source": "https://x.com/unclebobmartin/status/2105647907705868659",
+    "seen": "2026-10-01",
+    "quote": "People seem shocked that the author of Clean Code doesn't read code anymore.",
+    "kind": "agent-reviews",
+    "also": [
+      {
+        "source": "https://x.com/unclebobmartin/status/2107226963458810345",
+        "seen": "2026-10-05",
+        "quote": "I'm using codex to review the code that grok wrote.  Good results."
+      },
+      {
+        "source": "https://x.com/unclebobmartin/status/2102079838639038629",
+        "seen": "2026-09-21",
+        "quote": "A simple demo of uml-viewer.  This is how I review the projects I create with agents nowadays."
+      },
+      {
+        "source": "https://x.com/unclebobmartin/status/2080257779395154409",
+        "seen": "2026-07-23",
+        "quote": "My current strategy is to not read any of the code written by my agents. That’s the only way I can take advantage of their productivity. What I do instead is to surround the agents with extreme constraints."
+      }
+    ]
+  },
+  "harness": {
+    "value": "A few agents on isolated tasks, prompted by hand to run crap, dry and mutate; no harness",
+    "short": "no harness",
+    "source": "https://x.com/unclebobmartin/status/2105668991897448890",
+    "seen": "2026-10-01",
+    "quote": "I'm back to working the way I did in March.  A few agents open doing isolated tasks.  Manually prompting them to do crap, dry, and mutate.  No harness.",
+    "history": [
+      {
+        "value": "swarm-forge: role agents (specifier, coder, cleaner, architect, hardener, QA) in tmux and git worktrees",
+        "source": "https://x.com/unclebobmartin/status/2062557016086786435",
+        "seen": "2026-06-04",
+        "quote": "I just ran a swarm-forge (branch six-pack) with six agents.  Specifier, coder, cleaner, architect, hardender, QA."
+      },
+      {
+        "value": "Drops the tight harness",
+        "source": "https://x.com/unclebobmartin/status/2098432570887217520",
+        "seen": "2026-09-11",
+        "quote": "And while I was heads-down getting that to work, the agents got a LOT better.  So much so that when I came up for air, the need for my harness was obviated."
+      }
+    ]
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": ".grok/rules/uml-viewer.md (Grok rules); AGENTS.md in older repos",
+    "short": ".grok/rules",
+    "url": "https://github.com/unclebob/uml-viewer/blob/0f54dd782525a49d7ba6ab1b7e2d6649a0a59078/.grok/rules/uml-viewer.md",
+    "source": "https://github.com/unclebob/uml-viewer/blob/0f54dd782525a49d7ba6ab1b7e2d6649a0a59078/.grok/rules/uml-viewer.md#L50",
+    "seen": "2026-10-01",
+    "quote": "Do not commit or push unless asked. Esc interrupts a turn in this terminal;"
+  },
+  "skills": {
+    "value": [
+      "crap4clj",
+      "using-clj-mutate",
+      "speclj-structure-check",
+      "crap4go",
+      "using-mutate4go"
+    ],
+    "count": 5,
+    "featured": [
+      "crap4clj",
+      "using-clj-mutate",
+      "speclj-structure-check"
+    ],
+    "source": "https://github.com/unclebob/crap4clj/blob/e90be2e7aa02c2ec5d6544e9cecddc6b73ad3e4d/SKILL.md#L2",
+    "seen": "2026-09-17"
+  },
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "uml-viewer",
+    "kind": "tool",
+    "caption": "colored by CRAP + mutation",
+    "why": "Our pick: instead of reading agent code, he drills through a live UML diagram of the system, colored by CRAP and mutation scores, and tells a companion agent what to change.",
+    "editorial": true,
+    "source": "https://x.com/unclebobmartin/status/2100938985543446954",
+    "seen": "2026-09-18",
+    "quote": "The tool displays the structure of the system in a UML-like diagram, color coded with crap and mutation scores."
+  },
+  "archetype": {
+    "value": "Toolsmith",
+    "editorial": true,
+    "why": "Has agents build his own quality tools (crapper, mutator, dryer, uml-viewer) and supervises through them instead of reading code."
+  },
+  "signature_quote": {
+    "value": "People seem shocked that the author of Clean Code doesn't read code anymore.",
+    "more": "But that should not be surprising.",
+    "source": "https://x.com/unclebobmartin/status/2105647907705868659",
+    "seen": "2026-10-01"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "schema": 2,
+  "handle": "slavingia",
+  "status": "ok",
+  "checked": "2026-10-07",
+  "name": {
+    "value": "Sahil Lavingia",
+    "source": "https://github.com/slavingia"
+  },
+  "x": {
+    "value": "shl",
+    "source": "https://github.com/slavingia"
+  },
+  "github": {
+    "value": "slavingia",
+    "source": "https://github.com/slavingia"
+  },
+  "site": {
+    "value": "https://sahillavingia.com",
+    "source": "https://www.lennysnewsletter.com/p/gumroad-ceos-playbook-to-40x-his"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/74396?v=4",
+    "source": "https://github.com/slavingia"
+  },
+  "known_for": {
+    "value": "Gumroad founder",
+    "source": "https://www.lennysnewsletter.com/p/gumroad-ceos-playbook-to-40x-his"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary (from his repos)",
+      "surface": null,
+      "inferred": true,
+      "source": "https://github.com/slavingia/prototypes/blob/9c921329300d64ecb328e8fdb0fd633fc087d810/README.md#L17-L18",
+      "seen": "2026-07-02",
+      "quote": "`serve.sh` wraps `python3 -m http.server` and opens your browser. (In Claude\nCode you can also just run the `/serve` skill.)",
+      "history": [
+        {
+          "value": "v0, then Devin, then Cursor",
+          "surface": null,
+          "source": "https://www.lennysnewsletter.com/p/gumroad-ceos-playbook-to-40x-his",
+          "seen": "2025-04-22",
+          "quote": "So generally my flow is V zero Devin cursor is probably how I would say it."
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Fable 5",
+      "icon": "claude",
+      "inferred": true,
+      "source": "https://github.com/slavingia/prototypes/commit/8985f8232b18e2068274f3a98c4d1fa31111f658",
+      "seen": "2026-08-28",
+      "quote": "Co-authored-by: Claude Fable 5 <noreply@anthropic.com>",
+      "history": [
+        {
+          "value": "Claude Opus 4.5",
+          "inferred": true,
+          "source": "https://github.com/slavingia/bug-catcher-game/commit/7b75348543a7d6220194dcbf1590387f7d46c24a",
+          "seen": "2026-01-10",
+          "quote": "Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+        }
+      ]
+    }
+  ],
+  "review_style": {
+    "value": "Does not just hit merge: QA, then asks a colleague to check",
+    "kind": "unknown",
+    "inferred": true,
+    "source": "https://www.lennysnewsletter.com/p/gumroad-ceos-playbook-to-40x-his",
+    "seen": "2025-04-22",
+    "quote": "I don't normally just hit merge on these things.",
+    "also": [
+      {
+        "source": "https://github.com/slavingia/prototypes/blob/9c921329300d64ecb328e8fdb0fd633fc087d810/CONTRIBUTING.md#L37-L42",
+        "seen": "2026-08-25",
+        "quote": "- **Screenshots are generated, and never stale.** Committed screenshots are\n  produced by a script (e.g. [`archive/omnibar-in-app/tools/shots.mjs`](archive/omnibar-in-app/tools/shots.mjs)),\n  not captured by hand. Whenever you change a prototype's look or behavior, **you\n  must re-run its screenshot generator in the same change** so the images (and\n  any gallery/README/PR that shows them) stay accurate. Never commit a change\n  that leaves a screenshot showing an out-of-date design."
+      }
+    ]
+  },
+  "harness": {
+    "value": "GitHub issue per feedback round, agent opens a PR with preview link and generated screenshots",
+    "short": "issue → PR",
+    "inferred": true,
+    "source": "https://github.com/slavingia/prototypes/pull/2",
+    "seen": "2026-06-29",
+    "quote": "Auto-generated prototype in response to the issue.",
+    "history": [
+      {
+        "value": "v0 prototype, Devin implements, Cursor finishes",
+        "source": "https://www.lennysnewsletter.com/p/gumroad-ceos-playbook-to-40x-his",
+        "seen": "2025-04-22",
+        "quote": "Then I go to Devon and if Devon sort of fails to completely finish,"
+      }
+    ]
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "CONTRIBUTING.md hard rules, for humans and AI assistants",
+    "short": "CONTRIBUTING.md",
+    "url": "https://github.com/slavingia/prototypes/blob/9c921329300d64ecb328e8fdb0fd633fc087d810/CONTRIBUTING.md",
+    "source": "https://github.com/slavingia/prototypes/blob/9c921329300d64ecb328e8fdb0fd633fc087d810/CONTRIBUTING.md#L30-L36",
+    "seen": "2026-08-25",
+    "quote": "- **Follow the design system.** Every prototype — new or updated — must match\n  [`DESIGN.md`](DESIGN.md), the IRS ODG (USWDS-based) styling standard. This is\n  not optional: use its color tokens, Source Sans 3 type ramp, the expandable\n  USWDS government banner, square containers/inputs (`4px` buttons), the\n  blue/navy step indicators, and the disclaimer footer. Run the checklist at the\n  bottom of `DESIGN.md` before committing. This applies equally to humans and to\n  AI assistants working in this repo."
+  },
+  "skills": {
+    "value": [
+      "serve"
+    ],
+    "count": 1,
+    "featured": [
+      "serve"
+    ],
+    "source": "https://github.com/slavingia/prototypes/tree/9c921329300d64ecb328e8fdb0fd633fc087d810/.claude/skills",
+    "seen": "2026-07-01"
+  },
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "Fourth-wall check",
+    "kind": "rule",
+    "caption": "enforced in CI on every PR",
+    "why": "Our pick: a hard rule, checked by a linter in CI, that prototype copy never calls itself a prototype or explains its changes.",
+    "editorial": true,
+    "source": "https://github.com/slavingia/prototypes/blob/9c921329300d64ecb328e8fdb0fd633fc087d810/CONTRIBUTING.md#L17-L18",
+    "seen": "2026-08-25",
+    "quote": "- **Never break the fourth wall.** Every prototype must read as a *real,\n  shipping IRS product*."
+  },
+  "archetype": {
+    "value": "Rules Lawyer",
+    "editorial": true,
+    "why": "Hard repo rules for agents, with a CI linter that enforces one of them."
+  },
+  "signature_quote": {
+    "value": "I think of it like flying a plane, like humans will take off, decide where to go and land typically",
+    "source": "https://www.lennysnewsletter.com/p/gumroad-ceos-playbook-to-40x-his",
+    "seen": "2025-04-22"
+  }
+}

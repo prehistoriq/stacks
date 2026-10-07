@@ -1,0 +1,156 @@
+{
+  "schema": 2,
+  "handle": "thdxr",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Dax Raad",
+    "source": "https://thdxr.com/"
+  },
+  "x": {
+    "value": "thdxr",
+    "source": "https://x.com/thdxr"
+  },
+  "github": {
+    "value": "thdxr",
+    "source": "https://github.com/thdxr"
+  },
+  "site": {
+    "value": "https://thdxr.com",
+    "source": "https://github.com/thdxr"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/826656?v=4",
+    "source": "https://github.com/thdxr"
+  },
+  "known_for": {
+    "value": "OpenCode co-founder, SST",
+    "source": "https://newsletter.pragmaticengineer.com/p/opencode"
+  },
+  "agents": [
+    {
+      "name": "OpenCode",
+      "icon": "opencode",
+      "role": "primary, his own",
+      "surface": null,
+      "history": [
+        {
+          "value": "avante.nvim in Neovim",
+          "surface": "ide",
+          "source": "https://github.com/thdxr/environment/blob/68c088040593f1edc5656de902052d4ce1d26c1a/home/.config/nvim/lua/plugins/avante.lua#L2",
+          "seen": "2025-02-03",
+          "quote": "\"yetone/avante.nvim\","
+        }
+      ],
+      "source": "https://x.com/thdxr/status/2087348700624412836",
+      "seen": "2026-08-12",
+      "quote": "one of my favorite flows in opencode2 is to say \"in the background do ....\""
+    }
+  ],
+  "models": [
+    {
+      "name": "Astra",
+      "icon": "openai",
+      "detail": "main session",
+      "history": [
+        {
+          "value": "Claude Sonnet 4",
+          "source": "https://github.com/thdxr/environment/blob/f13cb5601f0489ccba0df9ce229ba60f6d989159/home/.config/opencode/config.json#L8",
+          "seen": "2025-12-06",
+          "quote": "\"model\": \"anthropic/claude-sonnet-4-20250514\","
+        },
+        {
+          "value": "Claude Opus 4.5",
+          "source": "https://github.com/thdxr/environment/blob/8cbed4f5cb0427e67e77ac0f72ccd184defdcc6c/home/.config/opencode/config.json#L6",
+          "seen": "2026-07-02",
+          "quote": "\"claude-opus-4-5\": {"
+        }
+      ],
+      "source": "https://x.com/thdxr/status/2100802591508537777",
+      "seen": "2026-09-18",
+      "quote": "so i switched to astra and told it to spawn fable subagents to do the work"
+    },
+    {
+      "name": "Fable",
+      "icon": "claude",
+      "detail": "subagents",
+      "history": [],
+      "source": "https://x.com/thdxr/status/2100802591508537777",
+      "seen": "2026-09-18",
+      "quote": "so i switched to astra and told it to spawn fable subagents to do the work"
+    }
+  ],
+  "review_style": {
+    "value": "Asks a smarter model to review, via subagents",
+    "source": "https://x.com/thdxr/status/2100251713525498366",
+    "seen": "2026-09-16",
+    "quote": "very useful, i use it to get reviews from smarter models",
+    "kind": "agent-reviews",
+    "also": [
+      {
+        "source": "https://x.com/thdxr/status/2100298664677695627",
+        "seen": "2026-09-16",
+        "quote": "so i got the review and it had a good idea so i was able to tell it to continue with the implementation in that subagent"
+      },
+      {
+        "source": "https://x.com/thdxr/status/2081488387060424967",
+        "seen": "2026-07-26",
+        "quote": "i am way more accepting of slop on the frontend vs the backend"
+      },
+      {
+        "source": "https://kentcdodds.com/chats/07/01/product-sense-restraint-and-opencode-with-dax-raad",
+        "seen": "2026-04-01",
+        "quote": "we're pretty reserved with how much we just let them go do their thing."
+      }
+    ]
+  },
+  "harness": {
+    "value": "OpenCode 2, a git worktree per task, voice input",
+    "short": "worktrees",
+    "source": "https://x.com/thdxr/status/2087649518498062656",
+    "seen": "2026-08-12",
+    "quote": "i often tell opencode \"lets review this pr in a new worktree\" or \"make a new worktree and implement x\"",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "Global AGENTS.md (private) + OpenCode repo AGENTS.md",
+    "short": "AGENTS.md",
+    "url": "https://github.com/anomalyco/opencode/blob/3f393d78bfc3f0826b2c7080e57964c235704695/AGENTS.md",
+    "source": "https://x.com/thdxr/status/2087649518498062656",
+    "seen": "2026-08-12",
+    "quote": "so i added instructions in my global AGENTS.md telling opencode that whenever it makes a worktree, it should move the session into it"
+  },
+  "skills": null,
+  "mcp_servers": {
+    "value": [
+      "honeycomb",
+      "planetscale"
+    ],
+    "source": "https://x.com/thdxr/status/2095410973662118093",
+    "seen": "2026-09-03",
+    "quote": "i analyzed a weeks worth of data via honeycomb + planetscale mcp and opencode2's codemode"
+  },
+  "hooks": null,
+  "signature": {
+    "value": "Voice prompting (Hex)",
+    "kind": "habit",
+    "caption": "instead of typing",
+    "why": "He dictates prompts with fast local voice models and says voice, not OpenCode, is what replaced his editor.",
+    "editorial": true,
+    "source": "https://x.com/thdxr/status/2078527322563449007",
+    "seen": "2026-07-18",
+    "quote": "the thing that killed my editor for me was fast local voice models more than OpenCode"
+  },
+  "archetype": {
+    "value": "Purist",
+    "editorial": true,
+    "why": "Vanilla OpenCode, no skill files: he says custom setups fix problems that no longer exist."
+  },
+  "signature_quote": {
+    "value": "when i see people with custom workflows and setups they're all addressing problems that don't exist anymore",
+    "more": "the person naively using vanilla codex is more likely to be experiencing state of the art",
+    "source": "https://x.com/thdxr/status/2107260844400931156",
+    "seen": "2026-10-06"
+  }
+}

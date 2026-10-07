@@ -1,0 +1,183 @@
+{
+  "schema": 2,
+  "handle": "jessitron",
+  "status": "ok",
+  "checked": "2026-10-07",
+  "name": {
+    "value": "Jessica Kerr",
+    "source": "https://github.com/jessitron"
+  },
+  "x": null,
+  "github": {
+    "value": "jessitron",
+    "source": "https://github.com/jessitron"
+  },
+  "site": {
+    "value": "https://jessitron.com",
+    "source": "https://github.com/jessitron"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/1149737?v=4",
+    "source": "https://github.com/jessitron"
+  },
+  "known_for": {
+    "value": "Symmathesy, Honeycomb",
+    "source": "https://jessitron.com/2026/06/17/symmathesy-and-ai-with-kent-beck/"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary",
+      "surface": null,
+      "source": "https://jessitron.com/2026/04/27/communication-is-hard-but-sometimes-i-can-fix-it/",
+      "seen": "2026-04-27",
+      "quote": "The work: I’m getting Claude to build a program that turns Claude conversation logs into a vertical HTML comic.",
+      "also": [
+        {
+          "source": "https://jessitron.com/2026/04/27/communication-is-hard-but-sometimes-i-can-fix-it/",
+          "seen": "2026-04-27",
+          "quote": "This way, I learn something about the problem domain (how Claude Code records conversations)."
+        },
+        {
+          "source": "https://github.com/jessitron/mtg-deck-shuffler/blob/d463957d0b6fc318f18f4ae7fb570792dd310727/CLAUDE.md#L3",
+          "seen": "2026-10-06",
+          "quote": "This file provides guidance to Claude Code when working with code in this repository."
+        }
+      ],
+      "history": [
+        {
+          "value": "Augment Agent",
+          "surface": "ide",
+          "source": "https://bsky.app/profile/jessitron.bsky.social/post/3lmmzhxcwy22t",
+          "seen": "2025-04-12",
+          "quote": "Today I'm updating the app for my workshop at exploreddd.com next week, using @augmentcode.com",
+          "surface_source": {
+            "source": "https://bsky.app/profile/jessitron.bsky.social/post/3lmn2fxg7j22t",
+            "seen": "2025-04-12",
+            "quote": "biggest problem so far: the terminal in vscode grabs focus constantly."
+          }
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Opus 5.5",
+      "icon": "claude",
+      "inferred": true,
+      "source": "https://github.com/jessitron/mtg-deck-shuffler/commit/d463957d0b6fc318f18f4ae7fb570792dd310727",
+      "seen": "2026-10-06",
+      "quote": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+      "history": [
+        {
+          "value": "Claude Opus 4.7 (1M context)",
+          "source": "https://github.com/jessitron/claude-log/commit/b94cab02db2ccfe9491598ae8d91856fcc6e5012",
+          "seen": "2026-04-22",
+          "quote": "Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>"
+        },
+        {
+          "value": "Claude Opus 4.8 (1M context)",
+          "source": "https://github.com/jessitron/tronijess-skills/commit/ce53bb186a51202d87cf85e666f95f7fd0df6e12",
+          "seen": "2026-06-02",
+          "quote": "Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>"
+        }
+      ]
+    },
+    {
+      "name": "Claude Sonnet 5.5",
+      "icon": "claude",
+      "inferred": true,
+      "source": "https://github.com/jessitron/mtg-deck-shuffler/commit/c46ce455543f0e947589341095a68a1d775e108b",
+      "seen": "2026-10-06",
+      "quote": "Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "A reviewer agent checks each PR against a stated correctness condition; her own reviews fix the system",
+    "source": "https://jessitron.com/2026/04/06/adding-correctness-conditions-to-code-changes/",
+    "seen": "2026-04-06",
+    "quote": "Verification – We can add a reviewer agent to check each PR for missed documentation updates.",
+    "kind": "agent-reviews",
+    "also": [
+      {
+        "source": "https://jessitron.com/2026/04/06/adding-correctness-conditions-to-code-changes/",
+        "seen": "2026-04-06",
+        "quote": "Now my PR reviews are also system reviews: what about this PR should have been different? How can we change the agent’s context and feedback to make that different? Now test that system change on this PR before we fix it."
+      },
+      {
+        "source": "https://jessitron.com/2026/04/06/adding-correctness-conditions-to-code-changes/",
+        "seen": "2026-04-06",
+        "quote": "(This project does not deserve that level of scrutiny.)"
+      }
+    ],
+    "inferred": true
+  },
+  "harness": {
+    "value": "Claude Code with her seamapping plugin; subagents spawned freely",
+    "short": "subagents",
+    "source": "https://github.com/jessitron/mtg-deck-shuffler/blob/d463957d0b6fc318f18f4ae7fb570792dd310727/CLAUDE.md#L10-L12",
+    "seen": "2026-10-06",
+    "quote": "- **Spawn subagents whenever it's a good idea** — don't wait to be asked.",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "CLAUDE.md (fleet-level, plus one per app)",
+    "short": "CLAUDE.md",
+    "url": "https://github.com/jessitron/mtg-deck-shuffler/blob/d463957d0b6fc318f18f4ae7fb570792dd310727/CLAUDE.md",
+    "source": "https://github.com/jessitron/mtg-deck-shuffler/blob/d463957d0b6fc318f18f4ae7fb570792dd310727/CLAUDE.md#L13-L15",
+    "seen": "2026-10-06",
+    "quote": "- **Done work leaves no trace.** Don't keep `## Done` sections, tombstones, or \"decided"
+  },
+  "skills": {
+    "value": [
+      "begin-voyage",
+      "establish-tracking",
+      "orient",
+      "drop-buoy",
+      "request-skill-change",
+      "create-owner",
+      "give-yourself-a-script",
+      "one-time-test"
+    ],
+    "count": 8,
+    "featured": [
+      "orient",
+      "create-owner",
+      "give-yourself-a-script"
+    ],
+    "source": "https://github.com/jessitron/tronijess-skills/blob/f2e1d10e61376c756892d109f74fd50c076d3ff2/README.md#L15-L55",
+    "seen": "2026-08-23"
+  },
+  "mcp_servers": {
+    "value": [
+      "honeycomb"
+    ],
+    "source": "https://github.com/jessitron/mtg-deck-shuffler/blob/d463957d0b6fc318f18f4ae7fb570792dd310727/.mcp.json#L3-L6",
+    "seen": "2026-10-06",
+    "quote": "\"url\": \"https://mcp.honeycomb.io/mcp\""
+  },
+  "hooks": null,
+  "signature": {
+    "value": "Capability Owners",
+    "kind": "skill",
+    "caption": "standing agents per feature",
+    "why": "Our pick: her create-owner skill appoints a standing Owner for each capability, with its own context, review and update skills, so 'everything else still works' has someone to check it.",
+    "editorial": true,
+    "source": "https://github.com/jessitron/tronijess-skills/blob/f2e1d10e61376c756892d109f74fd50c076d3ff2/README.md#L33-L36",
+    "seen": "2026-08-23",
+    "quote": "appoint a standing Owner for a feature or capability that must keep holding as the"
+  },
+  "archetype": {
+    "value": "Toolsmith",
+    "editorial": true,
+    "why": "Builds her own Claude Code plugins, skills and log viewers, and reshapes the agent's context after every miss."
+  },
+  "signature_quote": {
+    "value": "It’s all part of programming the agents to program our software.",
+    "source": "https://jessitron.com/2026/04/06/adding-correctness-conditions-to-code-changes/",
+    "seen": "2026-04-06"
+  }
+}

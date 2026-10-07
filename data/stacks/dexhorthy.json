@@ -1,0 +1,216 @@
+{
+  "schema": 2,
+  "handle": "dexhorthy",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Dex Horthy",
+    "source": "https://aaif.io/blog/dex-still-thinks-long-running-coding-agents-stink"
+  },
+  "x": {
+    "value": "dexhorthy",
+    "source": "https://x.com/dexhorthy"
+  },
+  "github": {
+    "value": "dexhorthy",
+    "source": "https://github.com/dexhorthy"
+  },
+  "site": {
+    "value": "https://humanlayer.dev",
+    "source": "https://github.com/dexhorthy"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/3730605?v=4",
+    "source": "https://github.com/dexhorthy"
+  },
+  "known_for": {
+    "value": "HumanLayer CEO, 12-Factor Agents",
+    "source": "https://aaif.io/blog/dex-still-thinks-long-running-coding-agents-stink"
+  },
+  "agents": [
+    {
+      "name": "HumanLayer",
+      "icon": null,
+      "role": "primary, his own agentic IDE",
+      "surface": "ide",
+      "surface_source": {
+        "source": "https://x.com/dexhorthy/status/2067286892786454855",
+        "seen": "2026-06-17",
+        "quote": "Today, we’re opening access to  HumanLayer - an Agentic IDE, collaboration platform, and building blocks for your software factory."
+      },
+      "source": "https://x.com/dexhorthy/status/2083582284658245837",
+      "seen": "2026-08-01",
+      "quote": "Humanlayer (cc) QRSPI",
+      "history": [
+        {
+          "value": "Claude Code in terminal",
+          "surface": "cli",
+          "source": "https://x.com/dexhorthy/status/2083582284658245837",
+          "seen": "2026-08-01",
+          "quote": "Claude code in terminal + jetbrains for debugging"
+        },
+        {
+          "value": "Cursor",
+          "surface": "ide",
+          "source": "https://x.com/dexhorthy/status/2083582284658245837",
+          "seen": "2026-08-01",
+          "quote": "Cursor autocomplete"
+        }
+      ]
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "all coding, runs Sol",
+      "surface": null,
+      "source": "https://x.com/dexhorthy/status/2083582284658245837",
+      "seen": "2026-08-01",
+      "quote": "Took the codex pill, 5.5 for all coding",
+      "also": [
+        {
+          "source": "https://x.com/dexhorthy/status/2101834905223307483",
+          "seen": "2026-09-21",
+          "quote": "lol i'm out of claude limit and my codex harness has a bug where mcps don't get loaded"
+        }
+      ]
+    },
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "under HumanLayer, Fable and Opus",
+      "surface": null,
+      "source": "https://x.com/dexhorthy/status/2102863697945469415",
+      "seen": "2026-09-23",
+      "quote": "For opus 5.5 in humanlayer - Just pick opus as model and if you have latest CC cli installed you’ll get 5.5 (ignore the context window warning)"
+    }
+  ],
+  "models": [
+    {
+      "name": "GPT-5.6 Sol",
+      "icon": "openai",
+      "detail": "daily driver",
+      "source": "https://x.com/dexhorthy/status/2094228532184637911",
+      "seen": "2026-08-31",
+      "quote": "sol is very good at structural stuff. refactoring, or plumbing through a thick call stack without missing things, in general its just more thorough and technical.",
+      "also": [
+        {
+          "source": "https://x.com/dexhorthy/status/2094228532184637911",
+          "seen": "2026-08-31",
+          "quote": "overall sol is my daily driver"
+        }
+      ],
+      "history": [
+        {
+          "value": "Codex 5.5",
+          "source": "https://x.com/dexhorthy/status/2083582284658245837",
+          "seen": "2026-08-01",
+          "quote": "Took the codex pill, 5.5 for all coding"
+        }
+      ]
+    },
+    {
+      "name": "Claude Fable",
+      "icon": "claude",
+      "detail": "UI and spatial work",
+      "source": "https://x.com/dexhorthy/status/2094228532184637911",
+      "seen": "2026-08-31",
+      "quote": "fable gives me more \"look busy\" vibes and it is much better at a handful of things like spatial reasoning and UI",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Still reads the code, one 1k-3k PR at a time",
+    "source": "https://x.com/dexhorthy/status/2083582284658245837",
+    "seen": "2026-08-01",
+    "quote": "Still read the code, still learning",
+    "kind": "reads-all",
+    "also": [
+      {
+        "source": "https://x.com/dexhorthy/status/2092244659057909765",
+        "seen": "2026-08-25",
+        "quote": "- one 1k-3k PR at a time, feedback and polish and code review as we go"
+      },
+      {
+        "source": "https://x.com/dexhorthy/status/2092287401901363518",
+        "seen": "2026-08-25",
+        "quote": "Because if you’re not reading the code, then you can’t possibly know how much slop is getting in."
+      },
+      {
+        "source": "https://x.com/dexhorthy/status/2081224804326309938",
+        "seen": "2026-07-26",
+        "quote": "plan review cannot replace code review, it can only increase the chance that code review is painless and fast"
+      }
+    ]
+  },
+  "harness": {
+    "value": "HumanLayer QRSPI: research and outline docs, Sol and Fable implement and review overnight, then split into small PRs",
+    "short": "QRSPI",
+    "source": "https://x.com/dexhorthy/status/2092244659057909765",
+    "seen": "2026-08-25",
+    "quote": "- let sol and fable implement / review / argue over night",
+    "history": [
+      {
+        "value": "4 Claude Codes in tmux worktrees, a 5th merging",
+        "source": "https://x.com/dexhorthy/status/2083582284658245837",
+        "seen": "2026-08-01",
+        "quote": "4 Claude’s in tmux worktrees with a 5th merging every commit into main"
+      },
+      {
+        "value": "Claude Code research, plan, implement (RPI)",
+        "source": "https://x.com/dexhorthy/status/2083582284658245837",
+        "seen": "2026-08-01",
+        "quote": "Claude code - research, plan, impl"
+      }
+    ]
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "~/.claude/CLAUDE.md in his dotfiles (102 lines, Uncle Bob persona)",
+    "short": "CLAUDE.md",
+    "url": "https://github.com/dexhorthy/dotfiles/blob/12bc0cc708824c565c512f9914e58d376c237321/dotfiles/.claude/CLAUDE.md",
+    "source": "https://github.com/dexhorthy/dotfiles/blob/12bc0cc708824c565c512f9914e58d376c237321/dotfiles/.claude/CLAUDE.md#L75",
+    "seen": "2025-12-27",
+    "quote": "- **DELETE 10% minimum from every file you touch**"
+  },
+  "skills": {
+    "value": [
+      "build-iterated-agentic-loop",
+      "design-control-loop",
+      "improve-claude-md",
+      "narrow-react-prop-types",
+      "show-me",
+      "visual-pr"
+    ],
+    "count": 6,
+    "featured": [
+      "show-me",
+      "visual-pr",
+      "improve-claude-md"
+    ],
+    "source": "https://github.com/humanlayer/skills/tree/ca7c8088db69e315a8b2deea43820270457f8f3c/plugins",
+    "seen": "2026-09-17"
+  },
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "/show-me",
+    "kind": "skill",
+    "caption": "diagrams, not walls of prose",
+    "why": "Our pick: his own skill makes agents explain plans and diffs as trees, call stacks and diagrams, so he can review them fast.",
+    "editorial": true,
+    "source": "https://www.humanlayer.dev/blog/show-me-skill",
+    "seen": "2026-08-12",
+    "quote": "/show-me prompts the agent to use concise visuals to explain what's happening, instead of walls of prose."
+  },
+  "archetype": {
+    "value": "Toolsmith",
+    "editorial": true,
+    "why": "Builds his own agent IDE (HumanLayer) and skills like /show-me, and still reads the code."
+  },
+  "signature_quote": {
+    "value": "there will always be alpha in reviewing something. Otherwise, you get the same AI slop as everybody else",
+    "more": "that something might not always be the code",
+    "source": "https://x.com/dexhorthy/status/2107158343718723850",
+    "seen": "2026-10-05"
+  }
+}

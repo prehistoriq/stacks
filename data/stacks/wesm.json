@@ -1,0 +1,227 @@
+{
+  "schema": 2,
+  "handle": "wesm",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Wes McKinney",
+    "source": "https://github.com/wesm"
+  },
+  "x": {
+    "value": "wesmckinn",
+    "source": "https://github.com/wesm"
+  },
+  "github": {
+    "value": "wesm",
+    "source": "https://github.com/wesm"
+  },
+  "site": {
+    "value": "https://wesmckinney.com",
+    "source": "https://github.com/wesm"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/329591?v=4",
+    "source": "https://github.com/wesm"
+  },
+  "known_for": {
+    "value": "pandas, Apache Arrow",
+    "source": "https://github.com/wesm"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "implements via subagents",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://wesmckinney.com/transcripts/2026-05-08-show-us-your-agent-skills.html",
+        "seen": "2026-05-08",
+        "quote": "Every Git worktree has a stack of terminals — typically my stack is Claude Code and/or Codex plus roborev running in every worktree."
+      },
+      "source": "https://wesmckinney.com/blog/agentic-engineering-aug-2026/",
+      "seen": "2026-08-12",
+      "quote": "Superpowers turns the reviewed spec into an implementation plan, which we implement either with subagent-driven development (mostly with Claude) or inline execution (mostly with Codex, because Codex’s subagents are… not great)."
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "inline execution and reviews",
+      "surface": "app",
+      "surface_source": {
+        "source": "https://wesmckinney.com/blog/agentic-engineering-aug-2026/",
+        "seen": "2026-08-12",
+        "quote": "Outside of Forge, where we mostly do maintenance and last-mile development work to land changes, we still use terminal applications (like Kitty and Ghostty) and desktop apps (like Codex/ChatGPT and T3Code) for larger, longer-running projects or things that need browser/computer user."
+      },
+      "source": "https://wesmckinney.com/transcripts/2026-05-08-show-us-your-agent-skills.html",
+      "seen": "2026-05-08",
+      "quote": "I use both Codex and Claude to do development.",
+      "history": [
+        {
+          "value": "Codex as reviewer of Claude Code's work",
+          "surface": null,
+          "source": "https://wesmckinney.com/transcripts/2026-04-08-joe-reis-ai-agents-mythical-agent-month.html",
+          "seen": "2026-04-08",
+          "quote": "I use Codex to review Claude’s work. That’s my standard workflow."
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Fable",
+      "icon": "claude",
+      "detail": null,
+      "inferred": true,
+      "source": "https://wesmckinney.com/blog/agentic-engineering-aug-2026/",
+      "seen": "2026-08-12",
+      "quote": "The work produced by the latest frontier models (5.6-Sol and Fable) is extremely sloppy and almost never suitable for production without substantial hardening.",
+      "history": [
+        {
+          "value": "Opus 4.6",
+          "source": "https://wesmckinney.com/transcripts/2026-04-08-joe-reis-ai-agents-mythical-agent-month.html",
+          "seen": "2026-04-08",
+          "quote": "Even Opus 4.6 – if you’re just committing and shipping the code that’s coming out of Opus 4.6, that code is a bunch of hot garbage."
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.6 Sol",
+      "icon": "openai",
+      "detail": null,
+      "inferred": true,
+      "source": "https://wesmckinney.com/blog/agentic-engineering-aug-2026/",
+      "seen": "2026-08-12",
+      "quote": "The work produced by the latest frontier models (5.6-Sol and Fable) is extremely sloppy and almost never suitable for production without substantial hardening.",
+      "history": [
+        {
+          "value": "GPT-5.5, extra-high, as reviewer",
+          "source": "https://wesmckinney.com/transcripts/2026-05-08-show-us-your-agent-skills.html",
+          "seen": "2026-05-08",
+          "quote": "I’ve found that Codex is the strongest code reviewer out there, at least GPT-5.5, that model specifically."
+        }
+      ]
+    }
+  ],
+  "review_style": {
+    "value": "roborev reviews every commit; he checks structure",
+    "source": "https://wesmckinney.com/transcripts/2026-05-08-show-us-your-agent-skills.html",
+    "seen": "2026-05-08",
+    "quote": "I almost don’t read code now. My approach with roborev is that it’s my code reader. The mantra is that roborev reads every line of code that is generated.",
+    "kind": "agent-reviews",
+    "also": [
+      {
+        "source": "https://wesmckinney.com/transcripts/2026-05-08-show-us-your-agent-skills.html",
+        "seen": "2026-05-08",
+        "quote": "And it gets read multiple times — whenever I push up a pull request the branch gets re-reviewed, so by the time I’m merging a pull request into a repository the code has been read by agents four or five times, minimum."
+      },
+      {
+        "source": "https://wesmckinney.com/blog/agentic-engineering-aug-2026/",
+        "seen": "2026-08-12",
+        "quote": "Agents can do the typing and checking, but the human remains accountable for the result."
+      },
+      {
+        "source": "https://wesmckinney.com/blog/agentic-engineering-aug-2026/",
+        "seen": "2026-08-12",
+        "quote": "Design and taste are not delegated to an agent."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Own stack: Ghosthub terminal over tmux/Herdr/Zellij, Kenn Forge worktree workspaces, Kata issues, roborev, AgentsView",
+    "short": "own tools",
+    "source": "https://wesmckinney.com/blog/agentic-engineering-aug-2026/",
+    "seen": "2026-08-12",
+    "quote": "The result is a stack where each tool owns one layer of the problem: Kenn Forge is the workspace where changes get reviewed and landed, Ghosthub is a multiplexer-native terminal for local and remote agent sessions, Kata is the system of record for intent, and AgentsView and roborev keep us accountable about what the agents are doing and whether their work is actually correct.",
+    "history": [
+      {
+        "value": "Three columns of Kitty terminals",
+        "source": "https://wesmckinney.com/transcripts/2026-04-08-joe-reis-ai-agents-mythical-agent-month.html",
+        "seen": "2026-04-08",
+        "quote": "I generally have three columns of terminals on my monitor. Three Kitty windows and every Kitty window has a stack of terminals with horizontal splits."
+      },
+      {
+        "value": "Superset worktree manager",
+        "source": "https://wesmckinney.com/transcripts/2026-04-08-joe-reis-ai-agents-mythical-agent-month.html",
+        "seen": "2026-04-08",
+        "quote": "About a week ago, I started using a new system called Superset – not Apache Superset, it’s superset.sh."
+      }
+    ]
+  },
+  "parallelism": {
+    "value": 5,
+    "short": "4-5 projects",
+    "inferred": true,
+    "source": "https://wesmckinney.com/transcripts/2026-05-08-show-us-your-agent-skills.html",
+    "seen": "2026-05-08",
+    "quote": "I work on four or five projects during the day, I’ll run parallel spec interviews with superpowers.",
+    "history": [
+      {
+        "value": 3,
+        "short": "2-3 projects",
+        "source": "https://wesmckinney.com/transcripts/2026-04-08-joe-reis-ai-agents-mythical-agent-month.html",
+        "seen": "2026-04-08",
+        "quote": "I’ll work on two or three projects simultaneously, multiple sessions per project."
+      }
+    ]
+  },
+  "rules_files": {
+    "value": "Clanker Constitution, linked into ~/.codex/AGENTS.md and ~/.claude/rules",
+    "short": "Constitution",
+    "url": "https://github.com/kenn-io/constitution/blob/48df1551c31fbbb783560e11006b61a43ef897fe/CONSTITUTION.md",
+    "source": "https://github.com/kenn-io/constitution/blob/48df1551c31fbbb783560e11006b61a43ef897fe/README.md#L12-L14",
+    "seen": "2026-08-11",
+    "quote": "Keep a persistent checkout of this repository on trusted `main`. Link\n`CONSTITUTION.md` to `~/.codex/AGENTS.md` and to\n`~/.claude/rules/clanker-constitution.md`."
+  },
+  "skills": {
+    "value": [
+      "roborev-design-review",
+      "roborev-design-review-branch",
+      "roborev-fix",
+      "roborev-lookahead-review",
+      "roborev-lookahead-review-branch",
+      "roborev-refine",
+      "roborev-respond",
+      "roborev-review",
+      "roborev-review-branch",
+      "roborev-snooze",
+      "roborev-superpowers"
+    ],
+    "count": 11,
+    "featured": [
+      "roborev-fix",
+      "roborev-review-branch",
+      "roborev-superpowers"
+    ],
+    "source": "https://github.com/kenn-io/roborev/tree/4aa94982c61b31f24707d3740e9c7d62326bb42e/internal/skills/claude",
+    "seen": "2026-10-06"
+  },
+  "mcp_servers": null,
+  "hooks": {
+    "value": [
+      "roborev post-commit review hook"
+    ],
+    "source": "https://wesmckinney.com/transcripts/2026-04-08-joe-reis-ai-agents-mythical-agent-month.html",
+    "seen": "2026-04-08",
+    "quote": "This is how the RoboRev code review system works – every time the agents commit, it fires a post-commit hook that triggers a code review."
+  },
+  "signature": {
+    "value": "roborev",
+    "kind": "tool",
+    "caption": "reviews every agent commit",
+    "why": "Our pick: he built a background reviewer that a second model runs on every commit his agents make, and will not code without it.",
+    "editorial": true,
+    "source": "https://wesmckinney.com/transcripts/2026-02-10-rill-data-podcast.html",
+    "seen": "2026-02-10",
+    "quote": "And so basically I do not code with agents without a continuous reviewer running in the background."
+  },
+  "archetype": {
+    "value": "Toolsmith",
+    "editorial": true,
+    "why": "Built his own reviewer, session analytics, issue tracker, forge and terminal to keep agents accountable."
+  },
+  "signature_quote": {
+    "value": "The clankers (what we call the coding agents, since “agent” gives them too much credit) are not in charge, we are.",
+    "source": "https://wesmckinney.com/blog/agentic-engineering-aug-2026/",
+    "seen": "2026-08-12"
+  }
+}

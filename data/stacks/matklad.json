@@ -1,0 +1,121 @@
+{
+  "schema": 2,
+  "handle": "matklad",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Alex Kladov",
+    "source": "https://github.com/matklad"
+  },
+  "x": null,
+  "github": {
+    "value": "matklad",
+    "source": "https://github.com/matklad"
+  },
+  "site": {
+    "value": "https://matklad.github.io",
+    "source": "https://github.com/matklad"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/1711539?v=4",
+    "source": "https://github.com/matklad"
+  },
+  "known_for": {
+    "value": "rust-analyzer, TigerBeetle",
+    "source": "https://matklad.github.io/2025/12/06/mechanical-habits.html"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary, implements from his spec",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://matklad.github.io/2025/08/31/vibe-coding-terminal-editor.html",
+        "seen": "2025-08-31",
+        "quote": "I originally tried to use claude code normally, by iteratively prompting in the terminal until I get the output I want."
+      },
+      "source": "https://matklad.github.io/2026/01/20/vibecoding-2.html",
+      "seen": "2026-01-20",
+      "quote": "With the spec document in hand, I turned over to Claude code for actual implementation work.",
+      "history": []
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude 3.7 Sonnet",
+      "icon": "claude",
+      "detail": "q alias, llm CLI",
+      "source": "https://github.com/matklad/config/blob/2baa99f355e1e6a39febc58a0a93b8e3cd345f5c/home/.config/fish/config.fish#L29",
+      "seen": "2026-05-11",
+      "quote": "alias q \"llm -s \\\"Answer in as few words as possible. Use a brief style with short replies.\\\" -m claude-3.7-sonnet\";",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Owns the structure, runs the code, does not vet the guts",
+    "kind": "spot-checks",
+    "source": "https://matklad.github.io/2026/01/20/vibecoding-2.html",
+    "seen": "2026-01-20",
+    "quote": "I want to be careful — I can’t vouch for correctness and especially completeness of the above snippet. However, given that the nature of the problem is such that I can just run the code and see the result, I am fine with it.",
+    "also": [
+      {
+        "source": "https://matklad.github.io/2026/01/20/vibecoding-2.html",
+        "seen": "2026-01-20",
+        "quote": "This is how this overall vibe-coding session transpired — I was providing structure, Claude was painting by the numbers."
+      },
+      {
+        "source": "https://matklad.github.io/2025/08/31/vibe-coding-terminal-editor.html",
+        "seen": "2025-08-31",
+        "quote": "After claude finishes iterating on a step you look at the diff and interactively prompt for necessary corrections."
+      }
+    ]
+  },
+  "harness": {
+    "value": "ChatGPT expands a rough idea into SPEC.md, Claude Code implements against hand-typed skeletons",
+    "short": "spec + skeleton",
+    "source": "https://matklad.github.io/2026/01/20/vibecoding-2.html",
+    "seen": "2026-01-20",
+    "quote": "Then I asked ChatGPT to expand those two paragraphs into a more or less complete spec to hand down to an agent for implementation.",
+    "history": [
+      {
+        "value": "plan.md task list, one step per conversation, then a mutable spec.md",
+        "source": "https://matklad.github.io/2025/08/31/vibe-coding-terminal-editor.html",
+        "seen": "2025-08-31",
+        "quote": "When I want to apply a change to terminal-editor now, I prompt claude to update the spec first (unchecking any items that need re-doing), manually review/touch-up the spec, and use a canned prompt to align the code and tests with the spec."
+      }
+    ]
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "plan.md task list the prompt points Claude at (no CLAUDE.md)",
+    "short": "plan.md",
+    "url": "https://github.com/matklad/terminal-editor/blob/7c224ba85caceea40edeee967127de3fb4b1a5ad/plan.md",
+    "source": "https://matklad.github.io/2025/08/31/vibe-coding-terminal-editor.html",
+    "seen": "2025-08-31",
+    "quote": "Read @plan.md, complete the next task, and mark it with X."
+  },
+  "skills": null,
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "Hand-typed skeletons",
+    "kind": "habit",
+    "caption": "Claude fills in the bodies",
+    "why": "Our pick: he types the types and function signatures himself and has Claude complete only the bodies, so the code keeps his structure.",
+    "editorial": true,
+    "source": "https://matklad.github.io/2026/01/20/vibecoding-2.html",
+    "seen": "2026-01-20",
+    "quote": "The hand-written skeleton/vibe-coded guts worked not only for the CLI."
+  },
+  "archetype": {
+    "value": "Purist",
+    "editorial": true,
+    "why": "Writes the structure by hand and lets Claude fill in only the parts he calls trivia."
+  },
+  "signature_quote": {
+    "value": "I was providing structure, Claude was painting by the numbers.",
+    "source": "https://matklad.github.io/2026/01/20/vibecoding-2.html",
+    "seen": "2026-01-20"
+  }
+}

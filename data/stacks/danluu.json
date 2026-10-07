@@ -1,0 +1,176 @@
+{
+  "schema": 2,
+  "handle": "danluu",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Dan Luu",
+    "source": "https://github.com/danluu"
+  },
+  "x": {
+    "value": "danluu",
+    "source": "https://x.com/danluu"
+  },
+  "github": {
+    "value": "danluu",
+    "source": "https://github.com/danluu"
+  },
+  "site": {
+    "value": "https://danluu.com",
+    "source": "https://x.com/danluu"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/157136?v=4",
+    "source": "https://github.com/danluu"
+  },
+  "known_for": {
+    "value": "danluu.com essays, ex-Centaur",
+    "source": "https://danluu.com/ai-coding/"
+  },
+  "agents": [
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "primary",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://danluu.com/agentic-testing/",
+        "seen": "2026-09-07",
+        "inferred": true,
+        "quote": "my tendency has been to type to agents in a CLI"
+      },
+      "source": "https://danluu.com/bug-blind/",
+      "seen": "2026-08-30",
+      "quote": "Just like with Google Docs, I consider codex above average in terms of software quality in the space, but even though I haven't been using it for a year, I could easily write 10k words on all the workarounds I've implemented (either by habit or, in some cases, with actual scripts that monitor for broken behavior and then correct it).",
+      "also": [
+        {
+          "source": "https://x.com/danluu/status/2052924529115324436",
+          "seen": "2026-05-09",
+          "quote": "With a semi-autonomous workflow, I can exhaust a week's quota on the $200/mo codex plan in ~10 minutes of my time."
+        }
+      ],
+      "history": [
+        {
+          "value": "Codex plugin in VS Code",
+          "surface": "ide",
+          "source": "https://mastodon.social/@danluu/116044833637491088",
+          "seen": "2026-02-10",
+          "quote": "I'm sort of in the stone ages with my setup (codex plugin in vscode)."
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "GPT-5.6 Sol",
+      "icon": "openai",
+      "detail": null,
+      "source": "https://danluu.com/benchpocalypse/",
+      "seen": "2026-08-17",
+      "quote": "Since my original goal here was to see what happens when you run a current (public) SOTA agent in a loop (GPT-5.6 Sol) without much supervision on a non-trivial code optimization problem without any real supervision",
+      "also": [
+        {
+          "source": "https://danluu.com/agentic-testing/",
+          "seen": "2026-09-07",
+          "quote": "In the same way that I don't prompt GPT-5.6 the same way I prompted GPT-5.5, I don't think I'd want to use the same skills."
+        }
+      ],
+      "history": [
+        {
+          "value": "GPT-5.2",
+          "source": "https://mastodon.social/@danluu/116044833637491088",
+          "seen": "2026-02-10",
+          "quote": "I used GPT-5.2 (seems to give you the most quota, and I did this in a way that used a ton of quota; even on the Pro plan, I had to throttle my usage) to generate code which ran on my laptop."
+        },
+        {
+          "value": "GPT-5.5 xhigh",
+          "source": "https://danluu.com/ai-coding/",
+          "seen": "2026-07-03",
+          "quote": "To start with, I'd been using a lot of GPT-5.5 xhigh when this discussion came up a couple months ago and I benchmarked this thing"
+        }
+      ]
+    }
+  ],
+  "review_style": {
+    "value": "Heavy randomized testing instead of human review",
+    "kind": "tests-only",
+    "source": "https://danluu.com/ai-coding/",
+    "seen": "2026-07-03",
+    "quote": "Personally, I'm very comfortable shipping code without human review because I've seen it done on products that are technically more challenging than most software at most software companies.",
+    "also": [
+      {
+        "source": "https://danluu.com/ai-coding/",
+        "seen": "2026-07-03",
+        "quote": "Personally, I think this can be effective enough that I'm fairly comfortable trying to ship a large volume of code via a \"software factories\" workflow because I've seen a testing-heavy no-review workflow that results in much higher quality than any review-reliant workflow I've seen or even heard of."
+      },
+      {
+        "source": "https://x.com/danluu/status/2102807194857337235",
+        "seen": "2026-09-23",
+        "quote": "If you have the budget, false positive rejection is straightforward (ask agent to repro, have agents independently check if the repro is valid)."
+      }
+    ],
+    "inferred": true
+  },
+  "harness": {
+    "value": "One-off agent-written loop scripts with health checks, on laptops and AWS hosts",
+    "short": "one-off loops",
+    "source": "https://danluu.com/ai-coding/",
+    "seen": "2026-07-03",
+    "quote": "As a result, what I've ended up doing is making one-off loops for tasks that need to run for a while.",
+    "also": [
+      {
+        "source": "https://mastodon.social/@danluu/117301689409121341",
+        "seen": "2026-09-20",
+        "quote": "In that era, I think I was just managing GPT \"manually\" by having it build map-reduce-like graphs of what I wanted to do, custom for each problem."
+      }
+    ],
+    "history": [
+      {
+        "value": "Queued copies of one prompt in the Codex VS Code plugin",
+        "source": "https://mastodon.social/@danluu/116044833637491088",
+        "seen": "2026-02-10",
+        "quote": "I wouldn't recommend anyone use this because the plugin is so buggy, but it works ok enough if you want to queue up a bunch of work and occasionally check in on what it's doing."
+      }
+    ]
+  },
+  "parallelism": {
+    "value": 10,
+    "short": "10 agents",
+    "source": "https://danluu.com/ai-coding/",
+    "seen": "2026-07-03",
+    "quote": "Just for example, one that I've seen come up repeatedly related to the earlier note that, on tasks that I do, adding a clear, strict, instruction in AGENTS.md to not do something fails once every week or two when juggling 10 agents, a failure rate of something like one per 100 rule-agent-days.",
+    "history": []
+  },
+  "rules_files": {
+    "value": "AGENTS.md (private)",
+    "short": "AGENTS.md",
+    "url": null,
+    "source": "https://danluu.com/ai-coding/",
+    "seen": "2026-07-03",
+    "quote": "When I offhandedly mentioned this to Yossi Kreinin, he suggested adding a note at the bottom of my AGENTS.md to re-read instruction after compaction."
+  },
+  "skills": null,
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "Named-persona review panels",
+    "kind": "habit",
+    "caption": "with contrarian personas",
+    "why": "Our pick: instead of switching models, he has independent agents review as named engineers (and as himself) plus contrarians, which he says beat the same token budget spent otherwise.",
+    "editorial": true,
+    "source": "https://danluu.com/ai-coding/",
+    "seen": "2026-07-03",
+    "quote": "so I tried diagnosing issues with something like \"use independent agents to review as linus torvalds, kyle kingsbury, marc brooker, tptacek, dan luu, and 4 contrarian personas. have each think for a long time\", with multiple iterations of this (yes, I do find it quite silly to invoke my own name)."
+  },
+  "archetype": {
+    "value": "Orchestrator",
+    "editorial": true,
+    "why": "Skips off-the-shelf orchestrators and has Codex build custom loops and map-reduce graphs per problem, checked by tests rather than review."
+  },
+  "signature_quote": {
+    "value": "When I use LLMs I'm generally trying to get as much work as possible out of a unit of my time.",
+    "more": "I often want to type for a few minutes to get something to loop for hours to days.",
+    "source": "https://mastodon.social/@danluu/116514991883198991",
+    "seen": "2026-05-04"
+  }
+}

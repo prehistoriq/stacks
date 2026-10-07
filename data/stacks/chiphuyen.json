@@ -1,0 +1,153 @@
+{
+  "schema": 2,
+  "handle": "chiphuyen",
+  "status": "ok",
+  "checked": "2026-10-07",
+  "name": {
+    "value": "Chip Huyen",
+    "source": "https://github.com/chiphuyen"
+  },
+  "x": {
+    "value": "chipro",
+    "source": "https://github.com/chiphuyen"
+  },
+  "github": {
+    "value": "chiphuyen",
+    "source": "https://github.com/chiphuyen"
+  },
+  "site": {
+    "value": "https://huyenchip.com",
+    "source": "https://github.com/chiphuyen"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/11997567?v=4",
+    "source": "https://github.com/chiphuyen"
+  },
+  "known_for": {
+    "value": "AI Engineering author",
+    "source": "https://github.com/chiphuyen/aie-book"
+  },
+  "agents": [
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "CLI and desktop app, interchangeably",
+      "surface": null,
+      "source": "https://github.com/hugobowne/show-us-your-agent-skills/blob/2c1f52025a1a993a5ce58c744d6a6e987ff58c2e/episode-field-notes/ep-8/chip.md#L113",
+      "seen": "2026-07-30",
+      "quote": "Desktop usually hides the trace of all the commands that it runs, whereas the CLI is more verbose, but I can see a lot more things at a quick glance."
+    },
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "alongside Codex, via her runner",
+      "surface": null,
+      "source": "https://github.com/hugobowne/show-us-your-agent-skills/blob/2c1f52025a1a993a5ce58c744d6a6e987ff58c2e/episode-field-notes/ep-8/chip.md#L117-L119",
+      "seen": "2026-07-30",
+      "quote": "I can just go out, and I can close my laptop, and it works, which is amazing.",
+      "history": [
+        {
+          "value": "Claude Code, logs analysed with her own Sniffly",
+          "surface": null,
+          "source": "https://x.com/chipro/status/1945527700808184115",
+          "seen": "2025-07-16",
+          "quote": "I open sourced Sniffly, a tool that analyzes Claude Code logs to help me understand my usage patterns and errors."
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Fable",
+      "icon": "claude",
+      "detail": "plans and supervises only",
+      "source": "https://www.youtube.com/watch?v=NH-ic7-V-jY&t=3048",
+      "seen": "2026-07-30",
+      "quote": "I feel like it's very wasteful to use uh strong models like fable to do actual implementations.",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "A second agent reviews the plan; UI work comes with screenshot evidence on the PR",
+    "kind": "agent-reviews",
+    "source": "https://github.com/hugobowne/show-us-your-agent-skills/blob/2c1f52025a1a993a5ce58c744d6a6e987ff58c2e/episode-field-notes/ep-8/chip.md#L50",
+    "seen": "2026-07-30",
+    "quote": "I give it a process: do this, and then get another to review it, and then do post-mortems.",
+    "also": [
+      {
+        "source": "https://github.com/hugobowne/show-us-your-agent-skills/blob/2c1f52025a1a993a5ce58c744d6a6e987ff58c2e/episode-field-notes/ep-8/chip.md#L66",
+        "seen": "2026-07-30",
+        "quote": "It can show it to me, attach to a PR, so I can approve it without having to spin up the branch associated with that PR."
+      },
+      {
+        "source": "https://x.com/chipro/status/1945528410291531807",
+        "seen": "2025-07-16",
+        "quote": "Across my projects, the interruption rate is about 1 in 4 instructions. This means I still need to actively monitor the agent, rather than letting it operate autonomously."
+      }
+    ],
+    "inferred": true
+  },
+  "harness": {
+    "value": "Her own cross-provider runner: a strong agent plans and reviews, cheap agents implement, each in a git worktree",
+    "short": "own runner",
+    "source": "https://github.com/hugobowne/show-us-your-agent-skills/blob/2c1f52025a1a993a5ce58c744d6a6e987ff58c2e/episode-field-notes/ep-8/chip.md#L34",
+    "seen": "2026-07-30",
+    "quote": "I get a very strong agent to make plans and think, and then it assigns tasks to a bunch of cheaper agents to do it.",
+    "history": []
+  },
+  "parallelism": {
+    "value": 10,
+    "short": "10 subagents per lead",
+    "source": "https://github.com/hugobowne/show-us-your-agent-skills/blob/2c1f52025a1a993a5ce58c744d6a6e987ff58c2e/episode-field-notes/ep-8/chip.md#L96",
+    "seen": "2026-07-30",
+    "quote": "With my runner, there's no limit, so it can spin up 10 sub-agents.",
+    "history": [
+      {
+        "value": "20, 30 tasks",
+        "source": "https://home.mlops.community/public/videos/coding-with-ai-chip-huyen-2025-11-21",
+        "seen": "2025-11-21",
+        "quote": "I can do like 20, 30 or like as however much money I want to spend on it."
+      }
+    ]
+  },
+  "rules_files": null,
+  "skills": {
+    "value": [
+      "taxonomy labeling",
+      "verified front-end",
+      "write tests",
+      "author skills"
+    ],
+    "count": 4,
+    "featured": [
+      "verified front-end",
+      "author skills",
+      "write tests"
+    ],
+    "source": "https://github.com/hugobowne/show-us-your-agent-skills/blob/2c1f52025a1a993a5ce58c744d6a6e987ff58c2e/episode-field-notes/ep-8/chip.md#L58-L80",
+    "seen": "2026-07-30"
+  },
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "Cross-provider runner",
+    "kind": "tool",
+    "caption": "Codex, Claude spawn each other",
+    "why": "Our pick: she built her own runner so a strong model plans and reviews while Codex and Claude agents hand work to each other.",
+    "editorial": true,
+    "source": "https://github.com/hugobowne/show-us-your-agent-skills/blob/2c1f52025a1a993a5ce58c744d6a6e987ff58c2e/episode-field-notes/ep-8/chip.md#L38",
+    "seen": "2026-07-30",
+    "quote": "That's why I built my runner, so they can do that in the same place."
+  },
+  "archetype": {
+    "value": "Swarm Lord",
+    "editorial": true,
+    "why": "A supervising model fans work out to cheap agents; one project logged 1,409 of them."
+  },
+  "signature_quote": {
+    "value": "A lot of times, the agents make mistakes.",
+    "more": "It's not because the agent is stupid, it's because I give them instructions not good enough.",
+    "source": "https://github.com/hugobowne/show-us-your-agent-skills/blob/2c1f52025a1a993a5ce58c744d6a6e987ff58c2e/episode-field-notes/ep-8/chip.md#L20",
+    "seen": "2026-07-30"
+  }
+}

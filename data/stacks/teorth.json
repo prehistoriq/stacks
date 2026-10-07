@@ -1,0 +1,145 @@
+{
+  "schema": 2,
+  "handle": "teorth",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Terence Tao",
+    "source": "https://github.com/teorth/tao-web"
+  },
+  "x": null,
+  "github": {
+    "value": "teorth",
+    "source": "https://github.com/teorth"
+  },
+  "site": {
+    "value": "https://terrytao.wordpress.com",
+    "source": "https://terrytao.wordpress.com/author/teorth/"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/199308?v=4",
+    "source": "https://github.com/teorth"
+  },
+  "known_for": {
+    "value": "Fields Medal mathematician, UCLA",
+    "source": "https://en.wikipedia.org/wiki/Terence_Tao"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary",
+      "surface": null,
+      "source": "https://mathstodon.xyz/@tao/116517314420904580",
+      "seen": "2026-05-04",
+      "quote": "This time around, I uploaded the report to the Claude Code agent, which was able to inspect the report, the LaTeX source, and the PDF version of the paper, identify the corrections, and propose unambiguous fixes for eleven of the twelve corrections",
+      "also": [
+        {
+          "source": "https://www.youtube.com/watch?v=JHEO7cplfk8",
+          "seen": "2026-03-07",
+          "quote": "this time use a recent version of Claude Code to agentically do most of the formalization, while still leaving enough interactivity to stay manually engaged with the formalization task."
+        },
+        {
+          "source": "https://teorth.github.io/tao-web/apps/porting-legacy-applets.html",
+          "seen": "2026-07-14",
+          "quote": "A curated transcript of the conversation (with Claude Code) that ported Terence Tao's old Java-1.0 teaching applets"
+        }
+      ],
+      "history": [
+        {
+          "value": "GitHub Copilot",
+          "surface": null,
+          "source": "https://www.youtube.com/watch?v=c1ixXMtmfS8",
+          "seen": "2025-05-17",
+          "quote": "In this video, I test how Github Copilot performs in formalizing some basic \"epsilon delta\" type proofs in analysis."
+        },
+        {
+          "value": "ChatGPT Pro",
+          "surface": "web",
+          "source": "https://mathstodon.xyz/@tao/115493667607261044",
+          "seen": "2025-11-04",
+          "quote": "I therefore uploaded the paper to ChatGPT Pro and asked it first to summarize the construction in informal language, and then formalize step by step."
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Opus 5",
+      "icon": "claude",
+      "inferred": true,
+      "source": "https://github.com/teorth/tao-web/commit/90fdcfc719e65aba141c75937e7168fe610f4f7a",
+      "seen": "2026-10-03",
+      "quote": "Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>",
+      "history": [
+        {
+          "value": "Claude Opus 4.8",
+          "source": "https://teorth.github.io/tao-web/apps/zeta-process-making-of.html",
+          "seen": "2026-07-16",
+          "quote": "Built with Claude Code (Opus 4.8)."
+        }
+      ]
+    }
+  ],
+  "review_style": {
+    "value": "Checks results, doesn't read machine code",
+    "inferred": true,
+    "source": "https://github.com/teorth/IEANTN/blob/0f4454a3bdc92e85cd82722724b68c80fd14cb55/CLAUDE.md#L89-L91",
+    "seen": "2026-09-25",
+    "quote": "Solutions are exempt: they are machine-generated, verified once, and never read.",
+    "kind": "tests-only",
+    "also": [
+      {
+        "source": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/",
+        "seen": "2026-07-11",
+        "quote": "While I have playtested the app somewhat, I would be interested in receiving further feedback on this “alpha” version of the applet, as I am sure (especially given the LLM-generated nature of the code) that there are still some bugs and rough edges to be ironed out."
+      },
+      {
+        "source": "https://mathstodon.xyz/@tao/116517314420904580",
+        "seen": "2026-05-04",
+        "quote": "I then reviewed all proposed changes, made the selection for the twelfth fix, and asked Claude to implement them all; the entire process took less than fifteen minutes."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Spec-first recipe per app, background sub-agents",
+    "short": "sub-agents",
+    "source": "https://teorth.github.io/tao-web/apps/porting-legacy-applets.html",
+    "seen": "2026-07-14",
+    "quote": "Unlike the original apps, most ports were driven by a spec-first, per-app recipe run partly through background sub-agents; the shared method matters more than any single exchange.",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "CLAUDE.md for the IEANTN project (94 lines); AGENTS.md points to it",
+    "short": "CLAUDE.md",
+    "url": "https://github.com/teorth/IEANTN/blob/0f4454a3bdc92e85cd82722724b68c80fd14cb55/CLAUDE.md",
+    "source": "https://github.com/teorth/IEANTN/blob/0f4454a3bdc92e85cd82722724b68c80fd14cb55/CLAUDE.md#L41-L42",
+    "seen": "2026-09-25",
+    "quote": "**Never weaken a statement to make a proof work.** The source paper is ground truth. If the\n  stated bound is wrong, say so — do not quietly adjust it."
+  },
+  "skills": null,
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "Five favorable conditions",
+    "kind": "habit",
+    "caption": "before handing code to an agent",
+    "why": "Our pick: he delegates all the coding only when the work is non-critical, stand-alone, sandboxed, off his core skills and not competing with humans.",
+    "editorial": true,
+    "source": "https://terrytao.wordpress.com/2026/07/16/two-more-apps-visualizing-the-zeta-process-and-the-motions-of-the-heavens/",
+    "seen": "2026-07-16",
+    "quote": "I would however caution against unrestricted LLM use when one or more of the above five favorable situations is not in effect."
+  },
+  "archetype": {
+    "value": "Skeptic",
+    "editorial": true,
+    "why": "Hands code to Claude Code only when his five conditions limit the risk, and checks the results instead of trusting them."
+  },
+  "signature_quote": {
+    "value": "I am perfectly willing to forego the opportunity to keep my Javascript skills at a high level, as this is a tertiary skill for me at best in my chosen profession.",
+    "more": "(I continue to manually program in Lean and in Python to keep in practice with programming in general.)",
+    "source": "https://terrytao.wordpress.com/2026/07/16/two-more-apps-visualizing-the-zeta-process-and-the-motions-of-the-heavens/",
+    "seen": "2026-07-16"
+  }
+}

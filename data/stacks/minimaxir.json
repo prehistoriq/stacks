@@ -1,0 +1,232 @@
+{
+  "schema": 2,
+  "handle": "minimaxir",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Max Woolf",
+    "source": "https://github.com/minimaxir"
+  },
+  "x": {
+    "value": "minimaxir",
+    "source": "https://x.com/minimaxir"
+  },
+  "github": {
+    "value": "minimaxir",
+    "source": "https://github.com/minimaxir"
+  },
+  "site": {
+    "value": "https://minimaxir.com",
+    "source": "https://github.com/minimaxir"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/2179708?v=4",
+    "source": "https://github.com/minimaxir"
+  },
+  "known_for": {
+    "value": "Ex-BuzzFeed data scientist",
+    "source": "https://minimaxir.com/2026/07/agent-quota-reset/"
+  },
+  "agents": [
+    {
+      "name": "Zed Agent",
+      "icon": null,
+      "role": "primary, on his Codex plan",
+      "surface": "ide",
+      "surface_source": {
+        "source": "https://bsky.app/profile/minimaxir.bsky.social/post/3moazy7myrc2q",
+        "seen": "2026-06-14",
+        "quote": "yes (I am using Zed agent which does not inherently support compaction)"
+      },
+      "source": "https://minimaxir.com/2026/09/agentic-iteration/",
+      "seen": "2026-09-21",
+      "quote": "Running a prompt from a Markdown document (right) by tagging the file (left), using Zed Agent.",
+      "history": [
+        {
+          "value": "GitHub Copilot in VS Code",
+          "surface": "ide",
+          "source": "https://minimaxir.com/2026/02/ai-agent-coding/",
+          "seen": "2026-02-27",
+          "quote": "For my data science work, Sonnet 4.5 in Copilot was not helpful and tended to create overly verbose Jupyter Notebooks so I was not impressed."
+        },
+        {
+          "value": "Claude Code in the terminal",
+          "surface": "cli",
+          "source": "https://minimaxir.com/2026/02/ai-agent-coding/",
+          "seen": "2026-02-27",
+          "quote": "From this point going forward, I will also switch to the terminal Claude Code, since my pipeline is simple enough and doesn’t warrant a UI or other shenanigans."
+        },
+        {
+          "value": "Cancelled Claude Code, kept Codex",
+          "surface": null,
+          "source": "https://bsky.app/profile/minimaxir.bsky.social/post/3ml75bz4swc2r",
+          "seen": "2026-05-06",
+          "quote": "The 5-hour rate limit shrinking was indeed an efficiency blocker that finally convinced me to cancel, but being only able to get 4 full sessions a week doesn't compell me to resubscribe."
+        }
+      ]
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "$100/mo plan; codex exec subagents",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://minimaxir.com/2026/09/agentic-iteration/",
+        "seen": "2026-09-21",
+        "quote": "I wanted to use a cheaper, small model like GPT-5.6 Luna for the subagents since they don’t need to write code, so I came up with a galaxy brain solution that works regardless of which parent harness is used: tell the model to run independent CLI commands that themselves invoke the agent:"
+      },
+      "source": "https://minimaxir.com/2026/07/agent-quota-reset/",
+      "seen": "2026-07-18",
+      "quote": "I was on the $20/mo Codex plan but with the promise of GPT-5.6 on the horizon and with the frequency I kept hitting the 5-hour limits, I upgraded to the $100/mo plan.",
+      "history": [
+        {
+          "value": "Codex app",
+          "surface": "app",
+          "source": "https://minimaxir.com/2026/02/ai-agent-coding/",
+          "seen": "2026-02-27",
+          "quote": "This month, OpenAI announced their Codex app and my coworkers were asking questions. So I downloaded it, and as a test case for the GPT-5.2-Codex (high) model, I asked it to reimplement the UMAP algorithm in Rust."
+        }
+      ]
+    },
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "testing Opus 5.5",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://minimaxir.com/2026/02/ai-agent-coding/",
+        "seen": "2026-02-27",
+        "quote": "From this point going forward, I will also switch to the terminal Claude Code, since my pipeline is simple enough and doesn’t warrant a UI or other shenanigans."
+      },
+      "source": "https://bsky.app/profile/minimaxir.bsky.social/post/3mwueh5ltv22e",
+      "seen": "2026-10-02",
+      "quote": "Testing out Opus 5.5 and does Claude Code really edit files by running Python's replace function?",
+      "also": [
+        {
+          "source": "https://bsky.app/profile/minimaxir.bsky.social/post/3mwrj77t3mc2a",
+          "seen": "2026-09-30",
+          "quote": "testing Opus 5.5 for my agentic benchmaxxing pipelines"
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "GPT-6 Astra",
+      "icon": "openai",
+      "detail": "parent agent",
+      "source": "https://bsky.app/profile/minimaxir.bsky.social/post/3muwwfuyoms2t",
+      "seen": "2026-09-07",
+      "quote": "GPT-6 Astra verdict: for what I use it for I like it and will likely keep using it. However, it did need a few more AGENTS[.]md tricks to keep it on track.",
+      "history": [
+        {
+          "value": "Claude Opus 4.5",
+          "source": "https://minimaxir.com/2026/02/ai-agent-coding/",
+          "seen": "2026-02-27",
+          "quote": "Opus 4.5 is good enough to let me finally do side projects where I know precisely what I want but not necessarily how to implement it."
+        },
+        {
+          "value": "GPT 5.5 over Opus 4.7",
+          "source": "https://bsky.app/profile/minimaxir.bsky.social/post/3mkyosz3g7s2r",
+          "seen": "2026-05-04",
+          "quote": "I was paying for both Claude Code and Codex, but Opus 4.7 is a pain to work with due to shrinking session limits and GPT 5.5 is surprisingly more reliable for what I am doing with better session limits."
+        },
+        {
+          "value": "GPT-5.6 Sol",
+          "source": "https://minimaxir.com/2026/07/agent-quota-reset/",
+          "seen": "2026-07-18",
+          "quote": "GPT-5.6 Sol is indeed a great model that does live up to the hype, and I’ve had to create new projects just to have an excuse to test its limits."
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.6 Luna",
+      "icon": "openai",
+      "detail": "cheap subagents, high effort",
+      "source": "https://gist.github.com/minimaxir/933cd6354d96e1fbb45bea13e0940952/a09cf9b178bd870050c1d2873405815cca0ef73d#file-ur-prompt-md-L9",
+      "seen": "2026-09-19",
+      "quote": "These subagents MUST use `gpt-5.6-luna` in Codex, e.g.",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Luna subagents re-check until all satisfied; he watches benchmark diffs",
+    "source": "https://gist.github.com/minimaxir/933cd6354d96e1fbb45bea13e0940952/a09cf9b178bd870050c1d2873405815cca0ef73d#file-ur-prompt-md-L17",
+    "seen": "2026-09-19",
+    "quote": "After you are done making changes, before handing off to the user, spin up the subagents again to confirm your implementation matches their hypotheses and ask for potential further areas of improvement. Keep iterating until ALL subagents are satisfied with your implementation.",
+    "kind": "agent-reviews",
+    "also": [
+      {
+        "source": "https://minimaxir.com/2026/09/agentic-iteration/",
+        "seen": "2026-09-21",
+        "quote": "It’s easy to see if an algo gamed the benchmarks if you see the benchmark file in the git diff—agents can’t cheat that (easily, anyways)."
+      },
+      {
+        "source": "https://minimaxir.com/2026/09/agentic-iteration/",
+        "seen": "2026-09-21",
+        "quote": "That said, it’s more hands-off than I’d like and there’s a lot of explicit faith that the newer agents aren’t just really good at cheating the benchmarks in ways I cannot detect."
+      },
+      {
+        "source": "https://minimaxir.com/2026/02/ai-agent-coding/",
+        "seen": "2026-02-27",
+        "quote": "Once the work is completed and manually reviewed, I manually commit the work to git, with the message referencing the specific prompt file so I have good internal tracking."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Zed Agent, long Markdown prompt files, prompts queued overnight",
+    "short": "prompt files",
+    "source": "https://minimaxir.com/2026/09/agentic-iteration/",
+    "seen": "2026-09-21",
+    "quote": "The Ur-Prompt, combined with the rules and constraints in my AGENTS.md + the two breakthroughmaxxing prompts + a competition prompt pass + a refactor prompt pass with GPT-6 Astra allows me to just queue the prompts overnight, go to bed, and wake up to superfast software.",
+    "history": [
+      {
+        "value": "Terminal Claude Code, prompt files tagged in, manual commits",
+        "source": "https://minimaxir.com/2026/02/ai-agent-coding/",
+        "seen": "2026-02-27",
+        "quote": "My approach to prompting is to write the potentially-very-large individual prompt in its own Markdown file (which can be tracked in git), then tag the agent with that prompt and tell it to implement that Markdown file."
+      }
+    ]
+  },
+  "parallelism": {
+    "value": 12,
+    "short": "7–12 subagents",
+    "source": "https://gist.github.com/minimaxir/933cd6354d96e1fbb45bea13e0940952/a09cf9b178bd870050c1d2873405815cca0ef73d#file-ur-prompt-md-L9",
+    "seen": "2026-09-19",
+    "quote": "To best accomplish innovative implementations, you **MUST** spin up 7-12 independent distinct \"subagents\" by running a long-duration CLI command (do not use the subagent tool) which can explore and evaluate different feasible hypotheses for improving the performance, usability, and security of this crate.",
+    "history": [],
+    "inferred": true
+  },
+  "rules_files": {
+    "value": "AGENTS.md for Rust (245 lines) and for Python, shared as gists, ALL-CAPS rules",
+    "short": "AGENTS.md",
+    "url": "https://gist.github.com/minimaxir/86de3cc8f628079d8337e70924b3411d/b640fcd77e43f00658b8819c4bd8b2d67f6fb867",
+    "source": "https://gist.github.com/minimaxir/86de3cc8f628079d8337e70924b3411d/b640fcd77e43f00658b8819c4bd8b2d67f6fb867#file-agents-md-L17",
+    "seen": "2026-09-19",
+    "quote": "If the code is not fully optimized before handing off to the user, you will be fined $100. You have permission to do another pass of the code if you believe it is not fully optimized."
+  },
+  "skills": null,
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "codex exec Luna subagents",
+    "kind": "habit",
+    "caption": "7–12 cheap critics per pass",
+    "why": "Our pick: instead of the harness's full-price subagent tool, his prompt makes the agent shell out to cheap read-only Codex runs that pitch ideas and then sign off on the result.",
+    "editorial": true,
+    "source": "https://minimaxir.com/2026/09/agentic-iteration/",
+    "seen": "2026-09-21",
+    "quote": "I wanted to use a cheaper, small model like GPT-5.6 Luna for the subagents since they don’t need to write code, so I came up with a galaxy brain solution that works regardless of which parent harness is used: tell the model to run independent CLI commands that themselves invoke the agent:"
+  },
+  "archetype": {
+    "value": "Rules Lawyer",
+    "editorial": true,
+    "why": "Long ALL-CAPS AGENTS.md rules and prompt files, down to a $100 fine for unoptimized code."
+  },
+  "signature_quote": {
+    "value": "Prompt engineering is less important nowadays since agents can handle some ambiguity, but the less ambiguity, the more **productive** the agent is.",
+    "more": "It also adds checks against being too smart and cheating.",
+    "source": "https://bsky.app/profile/minimaxir.bsky.social/post/3mr3n2hvc5k2e",
+    "seen": "2026-07-20"
+  }
+}

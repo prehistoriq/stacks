@@ -1,0 +1,134 @@
+{
+  "schema": 2,
+  "handle": "levelsio",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Pieter Levels",
+    "source": "https://levels.io/"
+  },
+  "x": {
+    "value": "levelsio",
+    "source": "https://x.com/levelsio"
+  },
+  "github": {
+    "value": "levelsio",
+    "source": "https://github.com/levelsio"
+  },
+  "site": {
+    "value": "https://levels.io",
+    "source": "https://github.com/levelsio"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/7150848?v=4",
+    "source": "https://github.com/levelsio"
+  },
+  "known_for": {
+    "value": "Photo AI, Nomads.com",
+    "source": "https://x.com/levelsio"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary, on the server",
+      "surface": "cli",
+      "history": [
+        {
+          "source": "https://x.com/levelsio/status/1893385114496766155",
+          "seen": "2025-02-22",
+          "quote": "I've never ever made a game before and just made my own flight simulator 100% with Cursor in I'd say 3 hours by just telling it what I wanted",
+          "value": "Cursor",
+          "surface": "ide"
+        }
+      ],
+      "source": "https://x.com/levelsio/status/2094113698453360663",
+      "seen": "2026-08-30",
+      "quote": "I made https://infiniteslop.ai yesterday completely on my phone with @TermiusHQ on my @Hetzner_Online VPS with @claudeai Code in the sauna"
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Opus 5.5",
+      "icon": "claude",
+      "detail": "1M context",
+      "source": "https://github.com/levelsio/superlevels/commit/0fe785f75fbe681ed60efd74e9586d362e4c6995",
+      "seen": "2026-10-02",
+      "quote": "Co-Authored-By: Claude Opus 5.5 (1M context) <noreply@anthropic.com>",
+      "history": [
+        {
+          "value": "Claude Opus 4.6",
+          "source": "https://github.com/levelsio/superlevels/commit/cef89e725c90cc9eb6f095d606ed24ada13108ff",
+          "seen": "2026-04-23",
+          "quote": "Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+          "inferred": true
+        },
+        {
+          "value": "Claude Opus 4.8 (1M context)",
+          "source": "https://github.com/levelsio/superlevels/commit/205c4263d941a33324b2a9c6f46fb1f232fca8a9",
+          "seen": "2026-08-25",
+          "quote": "Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>",
+          "inferred": true
+        }
+      ],
+      "inferred": true
+    },
+    {
+      "name": "Claude Fable 5.1",
+      "icon": "claude",
+      "detail": "high, when Opus is stuck",
+      "history": [],
+      "source": "https://x.com/levelsio/status/2106150888289009666",
+      "seen": "2026-10-02",
+      "quote": "giving up I did a last try with Fable 5.1 on high effort and it after awhile it did figure out the issue!"
+    }
+  ],
+  "review_style": {
+    "value": "Step by step, keeps the agent on a short leash",
+    "source": "https://x.com/levelsio/status/2084997902632390981",
+    "seen": "2026-08-05",
+    "quote": "The only way for me to AI code is just step by step, feature by feature, object by object, and control it or it goes mental",
+    "kind": "tests-only",
+    "also": [
+      {
+        "source": "https://x.com/levelsio/status/2091960812004888655",
+        "seen": "2026-08-24",
+        "quote": "Until that time I'll just keep manually reading bug reports and feature requests and copying them in Claude Code on the server"
+      }
+    ],
+    "inferred": true
+  },
+  "harness": {
+    "value": "Termius (phone or laptop) into Hetzner VPSes, one tmux session per site, Claude Code on the server",
+    "short": "VPS + tmux",
+    "source": "https://x.com/levelsio/status/2091987033367724309",
+    "seen": "2026-08-24",
+    "quote": "Every tmux session has Claude Code open",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": null,
+  "skills": null,
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "tm",
+    "kind": "tool",
+    "caption": "a tmux session per site",
+    "why": "A Claude-written script that drops him into a per-project tmux session with Claude Code, straight on the production server.",
+    "editorial": true,
+    "source": "https://x.com/levelsio/status/2091987033367724309",
+    "seen": "2026-08-24",
+    "quote": "tm is a script made by Claude Code which puts it in a tmux session tied to the project name (from its folder)"
+  },
+  "archetype": {
+    "value": "Vibe Maximalist",
+    "editorial": true,
+    "why": "Claude Code live on his production VPSes, driven from his phone."
+  },
+  "signature_quote": {
+    "value": "Most of my work these days is copypasting all your bug reports or feature ideas into my clanker via Termius on my VPS",
+    "source": "https://x.com/levelsio/status/2091926355906597101",
+    "seen": "2026-08-24"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "schema": 2,
+  "handle": "nickbaumann98",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Nick Baumann",
+    "source": "https://github.com/nickbaumann98"
+  },
+  "x": {
+    "value": "nickbaumann_",
+    "source": "https://x.com/nickbaumann_"
+  },
+  "github": {
+    "value": "nickbaumann98",
+    "source": "https://github.com/nickbaumann98"
+  },
+  "site": null,
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/163209607?v=4",
+    "source": "https://github.com/nickbaumann98"
+  },
+  "known_for": {
+    "value": "Codex at OpenAI, ex-Cline",
+    "source": "https://x.com/nickbaumann_/status/2016358142419075453"
+  },
+  "agents": [
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "primary, Codex app",
+      "surface": "app",
+      "surface_source": {
+        "source": "https://x.com/nickbaumann_/status/2022019219588886739",
+        "seen": "2026-02-12",
+        "quote": "1. Codex App: I now run 3-6 threads in parallel, usually on xhigh, and just jump in when input is needed."
+      },
+      "source": "https://x.com/nickbaumann_/status/2060480729830789376",
+      "seen": "2026-05-29",
+      "quote": "This has fundamentally changed how I use Codex",
+      "history": [
+        {
+          "value": "Cline",
+          "surface": "ide",
+          "surface_source": {
+            "source": "https://github.com/nickbaumann98/ai-stuff/blob/ffda131f2b1fc1800302c38dad9e662e35b7ab21/blogs/build-anything-you-dont-know-how-to-build-my-experience-with-cline.md#L34",
+            "seen": "2025-03-10",
+            "quote": "It even walked me through testing the VS Code extension to verify everything worked"
+          },
+          "source": "https://github.com/nickbaumann98/ai-stuff/blob/ffda131f2b1fc1800302c38dad9e662e35b7ab21/blogs/build-anything-you-dont-know-how-to-build-my-experience-with-cline.md#L9",
+          "seen": "2025-03-10",
+          "quote": "I've been using Cline since it was released, and it's completely transformed how I approach building software."
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "GPT-5.6 Sol",
+      "icon": "openai",
+      "source": "https://x.com/nickbaumann_/status/2080034767135965342",
+      "seen": "2026-07-22",
+      "quote": "I had GPT-5.6-sol put all the best Codex + ChatGPT Work use cases from X (& prompts!) into a Site™️",
+      "history": [],
+      "inferred": true
+    },
+    {
+      "name": "GPT-5.3-Codex-Spark",
+      "icon": "openai",
+      "detail": "when steering",
+      "source": "https://x.com/nickbaumann_/status/2022019219588886739",
+      "seen": "2026-02-12",
+      "quote": "2. GPT-5.3-Codex-Spark when I am in the loop, this is the model I want.",
+      "history": []
+    }
+  ],
+  "review_style": null,
+  "harness": {
+    "value": "Codex app: one teammate thread, subagent threads, thread automations",
+    "short": "monothread",
+    "source": "https://x.com/nickbaumann_/status/2044847066728579493",
+    "seen": "2026-04-16",
+    "quote": "I run this as one main teammate thread plus a few long-lived subagent threads.",
+    "history": [
+      {
+        "value": "3-6 parallel threads on xhigh",
+        "source": "https://x.com/nickbaumann_/status/2022019219588886739",
+        "seen": "2026-02-12",
+        "quote": "1. Codex App: I now run 3-6 threads in parallel, usually on xhigh, and just jump in when input is needed."
+      }
+    ]
+  },
+  "parallelism": {
+    "value": 6,
+    "short": "3–6 threads",
+    "source": "https://x.com/nickbaumann_/status/2022019219588886739",
+    "seen": "2026-02-12",
+    "quote": "1. Codex App: I now run 3-6 threads in parallel, usually on xhigh, and just jump in when input is needed.",
+    "history": [],
+    "inferred": true
+  },
+  "rules_files": null,
+  "skills": {
+    "value": [
+      "cli-creator"
+    ],
+    "count": 1,
+    "featured": [
+      "cli-creator"
+    ],
+    "source": "https://x.com/nickbaumann_/status/2042705384306336083",
+    "seen": "2026-04-10"
+  },
+  "mcp_servers": {
+    "value": [
+      "slack",
+      "linear",
+      "sentry"
+    ],
+    "source": "https://x.com/nickbaumann_/status/2042705384306336083",
+    "seen": "2026-04-10",
+    "quote": "A connector or MCP server is great for access. I use Slack, Linear, and Sentry this way."
+  },
+  "hooks": null,
+  "signature": {
+    "value": "\"Chief of staff\" thread",
+    "kind": "habit",
+    "caption": "spawns every project thread",
+    "why": "Our pick: one persistent Codex thread runs his work. It starts each new project thread and checks in on them.",
+    "editorial": true,
+    "source": "https://x.com/nickbaumann_/status/2060480729830789376",
+    "seen": "2026-05-29",
+    "quote": "- everything runs out of a single persistent thread (my \"chief of staff\")"
+  },
+  "archetype": {
+    "value": "Orchestrator",
+    "editorial": true,
+    "why": "A chief-of-staff thread starts project threads and keeps them on track."
+  },
+  "signature_quote": {
+    "value": "I do not care how long it takes if it's not blocking me.",
+    "more": "And in fact, if it takes longer but I get more intelligence, I'd prefer that.",
+    "source": "https://x.com/nickbaumann_/status/2022019219588886739",
+    "seen": "2026-02-12"
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "schema": 2,
+  "handle": "wesbos",
+  "status": "ok",
+  "checked": "2026-10-07",
+  "name": {
+    "value": "Wes Bos",
+    "source": "https://github.com/wesbos"
+  },
+  "x": {
+    "value": "wesbos",
+    "source": "https://x.com/wesbos"
+  },
+  "github": {
+    "value": "wesbos",
+    "source": "https://github.com/wesbos"
+  },
+  "site": {
+    "value": "https://wesbos.com",
+    "source": "https://github.com/wesbos"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/176013?v=4",
+    "source": "https://github.com/wesbos"
+  },
+  "known_for": {
+    "value": "Syntax podcast co-host",
+    "source": "https://syntax.fm/show/980/ai-coding-explained/transcript"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "most commits in his newest repos",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://syntax.fm/show/1023/mosh-caddy-and-tailscale-a-remote-dev-deep-dive/transcript",
+        "seen": "2026-07-22",
+        "quote": "I've been using Tmox for about a month since we've had Ben on, and I absolutely love it because it makes, having multiple, like, terminals open and having your agent be able to do it."
+      },
+      "source": "https://x.com/wesbos/status/2054600706644914681",
+      "seen": "2026-05-13",
+      "quote": "Burned $91.34 with Claude Code /goal in 3.5 hours",
+      "also": [
+        {
+          "source": "https://syntax.fm/show/1009/54-ai-generated-and-climbing-state-of-ai/transcript",
+          "seen": "2026-06-01",
+          "quote": "I'm probably fifty fifty split between Claude and Cursor."
+        },
+        {
+          "source": "https://github.com/wesbos/gym-equipment/commit/d7995bdc6c2e1ced4101fa95f95607f6a640eb8e",
+          "seen": "2026-09-22",
+          "quote": "Co-Authored-By: Claude Opus 5.5 (1M context) <noreply@anthropic.com>"
+        }
+      ],
+      "inferred": true,
+      "history": []
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "a third of his time, desktop app",
+      "surface": "app",
+      "source": "https://syntax.fm/show/1036/cursor-and-openai-break-up/transcript",
+      "seen": "2026-09-07",
+      "quote": "I I split my time probably right now 33% each between codex desktop, I've been really enjoying.",
+      "history": [
+        {
+          "value": "Cursor",
+          "surface": "ide",
+          "source": "https://syntax.fm/show/980/ai-coding-explained/transcript",
+          "seen": "2026-02-18",
+          "quote": "I find myself migrating to when I'm, like, working on existing application, I find myself migrating to Cursor and and mostly agents."
+        },
+        {
+          "value": "Cursor",
+          "surface": "ide",
+          "source": "https://syntax.fm/show/1009/54-ai-generated-and-climbing-state-of-ai/transcript",
+          "seen": "2026-06-01",
+          "quote": "I'm probably fifty fifty split between Claude and Cursor."
+        }
+      ]
+    },
+    {
+      "name": "OpenCode",
+      "icon": "opencode",
+      "role": "testing new and cheap models",
+      "surface": "cli",
+      "source": "https://syntax.fm/show/1036/cursor-and-openai-break-up/transcript",
+      "seen": "2026-09-07",
+      "quote": "Open code CLI with I've been testing all of these new models that that have been coming out, especially a lot of the, like, free or cheap Chinese ones.",
+      "history": []
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Opus 5.5",
+      "icon": "claude",
+      "source": "https://x.com/wesbos/status/2102450119975277027",
+      "seen": "2026-09-22",
+      "quote": "I've been using Opus 5.5 over the last week and ran a TON of tokens through it.",
+      "history": [],
+      "inferred": true
+    },
+    {
+      "name": "Codex models",
+      "icon": "openai",
+      "source": "https://syntax.fm/show/1036/cursor-and-openai-break-up/transcript",
+      "seen": "2026-09-07",
+      "quote": "Yeah. I've been using codex models quite a bit.",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Reviews after the fact: tests it works, checks for duplicated messes",
+    "source": "https://syntax.fm/show/978/should-a-new-coder-use-ai/transcript",
+    "seen": "2026-02-11",
+    "quote": "And then the second last second longest part is is actually reviewing it after the fact. Right? Like, testing that it actually works, that it didn't make a mess somewhere, that it didn't just copy paste and duplicate a whole bunch of styles and and make a problem for for down the road.",
+    "kind": "spot-checks",
+    "inferred": true,
+    "also": []
+  },
+  "harness": {
+    "value": "tmux (trying Herder), Termius on mobile, remote box over Cloudflare Tunnel",
+    "short": "tmux",
+    "source": "https://syntax.fm/show/1023/mosh-caddy-and-tailscale-a-remote-dev-deep-dive/transcript",
+    "seen": "2026-07-22",
+    "quote": "I've been using Tmox for about a month since we've had Ben on, and I absolutely love it because it makes, having multiple, like, terminals open and having your agent be able to do it.",
+    "also": [
+      {
+        "source": "https://syntax.fm/show/1023/mosh-caddy-and-tailscale-a-remote-dev-deep-dive/transcript",
+        "seen": "2026-07-22",
+        "quote": "So for mobile, I do Termius."
+      },
+      {
+        "source": "https://syntax.fm/show/987/remote-coding-agents/transcript",
+        "seen": "2026-03-16",
+        "quote": "I use Cloudflare's, Cloudflare Tunnels with their, what is it called, their access product, which is similar to Tailscale, but probably way harder to set up."
+      }
+    ],
+    "history": [
+      {
+        "value": "Editor remote SSH into a second laptop",
+        "source": "https://syntax.fm/show/987/remote-coding-agents/transcript",
+        "seen": "2026-03-16",
+        "quote": "I had that the second laptop, and then I use a SSH plug in to remote into it."
+      }
+    ]
+  },
+  "parallelism": null,
+  "rules_files": null,
+  "skills": {
+    "value": [
+      "tip",
+      "blog-post",
+      "wes-bos-writing-style"
+    ],
+    "count": 3,
+    "featured": [
+      "tip",
+      "wes-bos-writing-style"
+    ],
+    "source": "https://github.com/wesbos/wesbos/tree/c8a8bff46d4ccbddae81d42abb752f70af8e0863/.agent/skills",
+    "seen": "2026-03-02",
+    "also": [
+      {
+        "source": "https://syntax.fm/show/1003/skills-skills-skills/transcript",
+        "seen": "2026-05-11",
+        "quote": "Alright. So I'm gonna start with a skill that I've I've built myself, and I call this my hot tip skill."
+      }
+    ]
+  },
+  "mcp_servers": {
+    "value": [
+      "cloudflare",
+      "davinci-resolve"
+    ],
+    "source": "https://syntax.fm/show/1031/my-coding-skills-are-atrophying/transcript",
+    "seen": "2026-08-19",
+    "quote": "Like, the one I use a lot is the the CloudFlare MCP, and I have to, like, log in with all of them and whatnot.",
+    "also": [
+      {
+        "source": "https://syntax.fm/show/1037/webmcp-is-here-and-you-should-care/transcript",
+        "seen": "2026-09-09",
+        "quote": "But, like, we all of us on Syntax, we use DaVinci Resolve, and we all have the DaVinci Resolve MCP running because in some cases, it's way easier to just type in the box what you want it to do than to figure out what the crazy clicks and and whatever that you need to do."
+      }
+    ]
+  },
+  "hooks": null,
+  "signature": {
+    "value": "vite-plugin-killer-instincts",
+    "kind": "tool",
+    "caption": "hands the LLM a kill command",
+    "why": "Our pick: rather than a rule the agent can ignore, he ships a deterministic Vite plugin whose error tells the agent which process holds the port and how to kill it.",
+    "editorial": true,
+    "source": "https://github.com/wesbos/vite-plugin-killer-instincts/blob/26b8105bd6008565fc107ba799ef706d38711adc/README.md#L34",
+    "seen": "2026-03-10",
+    "quote": "When `autoKill` is `false` (the default), the plugin throws an error with the PID and a `kill` command you (the llm) can run manually.",
+    "also": [
+      {
+        "source": "https://syntax.fm/show/998/how-to-fix-vibe-coding/transcript",
+        "seen": "2026-04-22",
+        "quote": "And the beautiful thing about that is that it is so easy to get the AI to write a deterministic plug in."
+      }
+    ]
+  },
+  "archetype": {
+    "value": "Toolsmith",
+    "editorial": true,
+    "why": "Writes his own Vite plugins and skills so agents hit deterministic checks, and rotates agents to compare them."
+  },
+  "signature_quote": {
+    "value": "I am not at a spot where I'm running five of them at a time because simply, like, the actual generation of the code is not the the slow part right now.",
+    "more": "So much of software development is not just writing code.",
+    "source": "https://syntax.fm/show/978/should-a-new-coder-use-ai/transcript",
+    "seen": "2026-02-11"
+  }
+}

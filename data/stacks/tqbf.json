@@ -1,0 +1,210 @@
+{
+  "schema": 2,
+  "handle": "tqbf",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Thomas Ptacek",
+    "source": "https://fly.io/blog/youre-all-nuts/"
+  },
+  "x": {
+    "value": "tqbf",
+    "source": "https://fly.io/blog/youre-all-nuts/"
+  },
+  "github": {
+    "value": "tqbf",
+    "source": "https://github.com/tqbf"
+  },
+  "site": {
+    "value": "https://sockpuppet.org",
+    "source": "https://github.com/tqbf"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/13419?v=4",
+    "source": "https://github.com/tqbf"
+  },
+  "known_for": {
+    "value": "Matasano, Latacora, Cryptopals",
+    "source": "https://sockpuppet.org/me/"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary, for code",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+        "seen": "2026-09-17",
+        "quote": "Then, give the thing the list of editing prompts you came up with, and have it run each through the Codex, Claude, or Antigravity CLIs.",
+        "inferred": true
+      },
+      "source": "https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/",
+      "seen": "2026-08-20",
+      "quote": "In fact, that’s my entire process at this point: I copy a template app directory, open Claude or Codex in it, and tell it what I want to build.",
+      "also": [
+        {
+          "source": "https://news.ycombinator.com/item?id=47907285",
+          "seen": "2026-04-26",
+          "quote": "I have a standard OpenAI/ChatGPT Pro account; GPT5 is my daily driver for math, and Claude for code."
+        }
+      ],
+      "history": [
+        {
+          "value": "Zed agent mode as primary interface",
+          "surface": "ide",
+          "source": "https://news.ycombinator.com/item?id=44163292",
+          "seen": "2025-06-02",
+          "quote": "I use Zed as my primary interface to \"actually doing project work\" LLM stuff, because it front-ends both OpenAI and Google/Gemini models, and because I really like the interface."
+        }
+      ]
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "alternates with Claude",
+      "surface": null,
+      "source": "https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/",
+      "seen": "2026-08-20",
+      "quote": "You want to make sure you’ve got computer-use, or whatever Codex calls it, enabled.",
+      "history": [
+        {
+          "value": "Codex CLI for casual stuff, starting Codex Web",
+          "surface": "cli",
+          "source": "https://news.ycombinator.com/item?id=44163292",
+          "seen": "2025-06-02",
+          "quote": "I use Codex CLI for casual stuff, because of the ergonomics of just popping open another terminal tab."
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Opus 5.5",
+      "icon": "claude",
+      "inferred": true,
+      "source": "https://github.com/tqbf/subpanel/commit/4fbc956835992ff0d45b2717789b0fe78c810e9f",
+      "seen": "2026-09-23",
+      "quote": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+      "history": [
+        {
+          "value": "Gemini 2.5",
+          "source": "https://fly.io/blog/youre-all-nuts/",
+          "seen": "2025-06-02",
+          "quote": "For the last month or so, Gemini 2.5 has been my go-to †."
+        },
+        {
+          "value": "Claude Opus 4.7",
+          "source": "https://github.com/tqbf/djroomba/commit/ff3294f0d44a8921c97baaef6fa692c8e7a48db3",
+          "seen": "2026-05-15",
+          "quote": "Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>",
+          "inferred": true
+        },
+        {
+          "value": "Claude Fable 5",
+          "source": "https://github.com/tqbf/casette/commit/768fa64cf3700f6237d707baa23cb78fa635cbd7",
+          "seen": "2026-06-13",
+          "quote": "Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>",
+          "inferred": true
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.5",
+      "icon": "openai",
+      "detail": "math, not code",
+      "source": "https://news.ycombinator.com/item?id=47912199",
+      "seen": "2026-04-26",
+      "quote": "As I said elsewhere: I've fed thousands of math problems through ChatGPT (starting with 4o and now with 5.5).",
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Agents push PRs, only he merges",
+    "source": "https://github.com/tqbf/swiftui-app/blob/3ca1cc4b8ffdbd3b628cc847574c9951b036fe12/CLAUDE.md#L17",
+    "seen": "2026-08-20",
+    "quote": "* You may push PRs, but you MUST NOT ever merge them youself to main.",
+    "kind": "unknown",
+    "also": [
+      {
+        "source": "https://sockpuppet.org/blog/2026/05/12/emacsification/",
+        "seen": "2026-05-12",
+        "quote": "If an agent wrote all the SwiftUI code in my project, what do you have to gain from closely reading it?"
+      },
+      {
+        "source": "https://fly.io/blog/youre-all-nuts/",
+        "seen": "2025-06-02",
+        "quote": "I have to read the code line-by-line anyways."
+      }
+    ]
+  },
+  "harness": {
+    "value": "A spare MacBook running Claude, Makefile builds, never Xcode",
+    "short": "spare MacBook",
+    "source": "https://sockpuppet.org/blog/2026/05/12/emacsification/",
+    "seen": "2026-05-12",
+    "quote": "I recruited an old Macbook to run Claude on. I set up Xcode and git. I got Claude configured, and tracked down some Swift and macOS design skills.",
+    "also": [
+      {
+        "source": "https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/",
+        "seen": "2026-08-20",
+        "quote": "My biggest quality-of-life win is never having to open Xcode. Thankfully, my friend Josh built a purely Makefile-driven build process after trying to compile MDV for himself. I’ve just had Claude copy it to every new project I do."
+      }
+    ],
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "CLAUDE.md = AGENTS.md (17 lines), copied into every app",
+    "short": "CLAUDE.md",
+    "url": "https://github.com/tqbf/swiftui-app/blob/3ca1cc4b8ffdbd3b628cc847574c9951b036fe12/CLAUDE.md",
+    "source": "https://github.com/tqbf/swiftui-app/blob/3ca1cc4b8ffdbd3b628cc847574c9951b036fe12/CLAUDE.md#L5-L6",
+    "seen": "2026-08-20",
+    "quote": "* Record progress in PROGRESS.md. I should be able to tell a future agent \"read PLAN.md and\nPROGRESS.md\" and trust it's up to speed with this codebase."
+  },
+  "skills": {
+    "value": [
+      "swiftui-pro",
+      "typography-designer",
+      "macos-design"
+    ],
+    "count": 3,
+    "featured": [
+      "swiftui-pro",
+      "macos-design",
+      "typography-designer"
+    ],
+    "source": "https://github.com/tqbf/swiftui-app/blob/3ca1cc4b8ffdbd3b628cc847574c9951b036fe12/CLAUDE.md#L8-L15",
+    "seen": "2026-08-20"
+  },
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "swiftui-app template",
+    "kind": "tool",
+    "caption": "copied into every new app",
+    "why": "Our pick: one folder carries his rules, skills and no-Xcode build, so every app starts with cp -R and a sentence.",
+    "editorial": true,
+    "source": "https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/",
+    "seen": "2026-08-20",
+    "quote": "In fact, that’s my entire process at this point: I copy a template app directory, open Claude or Codex in it, and tell it what I want to build.",
+    "also": [
+      {
+        "source": "https://github.com/tqbf/subpanel/commit/1d8232bad680798cbb93389f109d728cf6189ee7",
+        "seen": "2026-09-23",
+        "quote": "Starter template baseline (cp -R swiftui-app)"
+      }
+    ]
+  },
+  "archetype": {
+    "value": "Toolsmith",
+    "editorial": true,
+    "why": "Builds personal macOS apps from one reusable template and tells people to write their own agents."
+  },
+  "signature_quote": {
+    "value": "AI today is most effective when it's not vibing, but rather copiloting a skilled operator.",
+    "more": "I don't necessarily want my agent to build an entire system for me, even if it's ultimately the author of almost every line of code; I'm actively making decisions throughout.",
+    "source": "https://news.ycombinator.com/item?id=49513668",
+    "seen": "2026-08-31"
+  }
+}

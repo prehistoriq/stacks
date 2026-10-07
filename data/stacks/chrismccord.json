@@ -1,0 +1,122 @@
+{
+  "schema": 2,
+  "handle": "chrismccord",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Chris McCord",
+    "source": "https://github.com/chrismccord"
+  },
+  "x": {
+    "value": "chris_mccord",
+    "source": "https://x.com/chris_mccord"
+  },
+  "github": {
+    "value": "chrismccord",
+    "source": "https://github.com/chrismccord"
+  },
+  "site": {
+    "value": "https://chrismccord.com",
+    "source": "https://github.com/chrismccord"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/576796?v=4",
+    "source": "https://github.com/chrismccord"
+  },
+  "known_for": {
+    "value": "Creator of Phoenix, Phoenix.new",
+    "source": "https://x.com/chris_mccord"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary, one convo per project",
+      "surface": null,
+      "source": "https://x.com/chris_mccord/status/2016576023400181773",
+      "seen": "2026-01-28",
+      "quote": "it still runs precommit for me just fine. I think skills and hooks make sense, but a root ~/.claude/CLAUDE.md with what it should do, and what it should call , ie when it's done work it runs a `notify msg` bash function I have, has been enough for these things.",
+      "history": [
+        {
+          "value": "Phoenix.new, his own browser-based agent",
+          "surface": "web",
+          "source": "https://fly.io/blog/phoenix-new-the-remote-ai-runtime/",
+          "seen": "2025-06-20",
+          "quote": "I’m already using Phoenix.new to triage `phoenix-core` Github issues and pick problems to solve. I close my laptop, grab a cup of coffee, and wait for a PR to arrive — Phoenix.new knows how PRs work, too."
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude",
+      "icon": "claude",
+      "source": "https://x.com/chris_mccord/status/2016554559078883510",
+      "seen": "2026-01-28",
+      "quote": "Meanwhile I run one continuous claude convo per project, with the very rare fork.",
+      "history": [
+        {
+          "value": "Claude 3.7",
+          "source": "https://x.com/chris_mccord/status/1894229609945710798",
+          "seen": "2025-02-25",
+          "quote": "claude 3.7 has not disappointed."
+        }
+      ]
+    }
+  ],
+  "review_style": {
+    "value": "Rules file names the tests to run before claiming a fix",
+    "source": "https://github.com/chrismccord/ekv/blob/becf31e79cbf923c33d4858b6f04ab077f27a5d7/CLAUDE.md#L508-L520",
+    "seen": "2026-09-09",
+    "quote": "Add or update adversarial/distributed tests for every safety bug fix.",
+    "kind": "unknown",
+    "also": [
+      {
+        "source": "https://github.com/chrismccord/ekv/blob/becf31e79cbf923c33d4858b6f04ab077f27a5d7/CLAUDE.md#L520",
+        "seen": "2026-09-09",
+        "quote": "If a change affects correctness semantics, update Jepsen and the pure Elixir linearizability tests, not just unit tests."
+      }
+    ]
+  },
+  "harness": {
+    "value": "One continuous Claude session per project, auto-compact, rare forks, no subagents",
+    "short": "one convo",
+    "source": "https://x.com/chris_mccord/status/2016554559078883510",
+    "seen": "2026-01-28",
+    "quote": "I've never used a subagent. Never used MCP. I let it auto compact and continue as necessary.",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "Global ~/.claude/CLAUDE.md (private) plus a per-repo CLAUDE.md (520 lines in ekv)",
+    "short": "CLAUDE.md",
+    "url": "https://github.com/chrismccord/ekv/blob/becf31e79cbf923c33d4858b6f04ab077f27a5d7/CLAUDE.md",
+    "source": "https://github.com/chrismccord/ekv/blob/becf31e79cbf923c33d4858b6f04ab077f27a5d7/CLAUDE.md#L3-L4",
+    "seen": "2026-09-09",
+    "quote": "This file is for AI agents working on EKV from a cold start.\nIt is not user-facing documentation."
+  },
+  "skills": null,
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "`notify msg`",
+    "kind": "rule",
+    "caption": "in CLAUDE.md, not a hook",
+    "why": "Our pick: instead of hooks, one line in his global CLAUDE.md makes Claude ping him when work is done.",
+    "editorial": true,
+    "source": "https://x.com/chris_mccord/status/2016576023400181773",
+    "seen": "2026-01-28",
+    "quote": "a root ~/.claude/CLAUDE.md with what it should do, and what it should call , ie when it's done work it runs a `notify msg` bash function I have, has been enough for these things."
+  },
+  "archetype": {
+    "value": "Purist",
+    "editorial": true,
+    "why": "One Claude convo per project; no subagents, MCP or hooks."
+  },
+  "signature_quote": {
+    "value": "Meanwhile I run one continuous claude convo per project, with the very rare fork.",
+    "more": "I've never used a subagent. Never used MCP. I let it auto compact and continue as necessary. \nAnd I have wildly good results ¯\\_(ツ)_/¯",
+    "source": "https://x.com/chris_mccord/status/2016554559078883510",
+    "seen": "2026-01-28"
+  }
+}

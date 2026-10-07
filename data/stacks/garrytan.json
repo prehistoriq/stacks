@@ -1,0 +1,206 @@
+{
+  "schema": 2,
+  "handle": "garrytan",
+  "status": "ok",
+  "checked": "2026-10-06",
+  "name": {
+    "value": "Garry Tan",
+    "source": "https://github.com/garrytan"
+  },
+  "x": {
+    "value": "garrytan",
+    "source": "https://x.com/garrytan"
+  },
+  "github": {
+    "value": "garrytan",
+    "source": "https://github.com/garrytan"
+  },
+  "site": {
+    "value": "https://blog.garrytan.com",
+    "source": "https://github.com/garrytan"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/19957?v=4",
+    "source": "https://github.com/garrytan"
+  },
+  "known_for": {
+    "value": "YC CEO, creator of gstack",
+    "source": "https://x.com/garrytan"
+  },
+  "agents": [
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary, in Conductor",
+      "surface": "app",
+      "surface_source": {
+        "source": "https://github.com/garrytan/gstack/blob/c285d88b90d39116ccfa2b901f80ea0fce0b26eb/README.md#L473",
+        "seen": "2026-10-05",
+        "quote": "I regularly run 10-15 parallel sprints — that's the practical max right now."
+      },
+      "source": "https://github.com/garrytan/gstack/blob/c285d88b90d39116ccfa2b901f80ea0fce0b26eb/README.md#L23",
+      "seen": "2026-10-05",
+      "quote": "**gstack is how I do it.** It turns Claude Code into a virtual engineering team — a CEO who rethinks the product, an eng manager who locks architecture, a designer who catches AI slop, a reviewer who finds production bugs, a QA lead who opens a real browser, a security officer who runs OWASP + STRIDE audits, and a release engineer who ships the PR.",
+      "history": []
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "outside-voice reviewer",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://github.com/garrytan/gstack/blob/c285d88b90d39116ccfa2b901f80ea0fce0b26eb/README.md#L341",
+        "seen": "2026-10-05",
+        "quote": "independent code review from OpenAI Codex CLI"
+      },
+      "source": "https://github.com/garrytan/gstack/blob/c285d88b90d39116ccfa2b901f80ea0fce0b26eb/docs/ON_THE_LOC_CONTROVERSY.md#L112",
+      "seen": "2026-10-05",
+      "quote": "The `/plan-tune` skill I just shipped had a scope ROLLBACK from the CEO expansion plan because Codex's outside-voice review surfaced 15+ findings my four Claude reviews missed.",
+      "history": []
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Fable 5.1",
+      "icon": "claude",
+      "source": "https://github.com/garrytan/gstack/commit/c8f0c4e368fd59ec316c0eb0d1f4ebfa896c2d16",
+      "seen": "2026-09-09",
+      "quote": "Co-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>",
+      "inferred": true,
+      "history": [
+        {
+          "value": "Claude Opus 4.8 (1M context)",
+          "source": "https://github.com/garrytan/gstack/commit/1626d4857bfe30da2690dd6a3217961934aa3192",
+          "seen": "2026-06-09",
+          "quote": "Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>",
+          "inferred": true
+        },
+        {
+          "value": "Claude Fable 5",
+          "source": "https://github.com/garrytan/gstack/commit/0d1bd5616c0ef096bb7ccee336f63c60ee408618",
+          "seen": "2026-09-01",
+          "quote": "Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>",
+          "inferred": true
+        }
+      ]
+    }
+  ],
+  "review_style": {
+    "value": "Every branch gets CEO, Codex, DX and eng review passes",
+    "kind": "agent-reviews",
+    "source": "https://github.com/garrytan/gstack/blob/c285d88b90d39116ccfa2b901f80ea0fce0b26eb/docs/ON_THE_LOC_CONTROVERSY.md#L112",
+    "seen": "2026-10-05",
+    "quote": "Every gstack branch goes through CEO review, Codex outside-voice review, DX review, and eng review. Often 2-3 passes of each.",
+    "also": [
+      {
+        "source": "https://github.com/garrytan/gstack/blob/c285d88b90d39116ccfa2b901f80ea0fce0b26eb/README.md#L475",
+        "seen": "2026-10-05",
+        "quote": "You manage them the way a CEO manages a team: check in on the decisions that matter, let the rest run."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Conductor: parallel Claude Code sessions, each in its own workspace",
+    "short": "Conductor",
+    "source": "https://github.com/garrytan/gstack/blob/c285d88b90d39116ccfa2b901f80ea0fce0b26eb/README.md#L473",
+    "seen": "2026-10-05",
+    "quote": "[Conductor](https://conductor.build) runs multiple Claude Code sessions in parallel — each in its own isolated workspace.",
+    "history": []
+  },
+  "parallelism": {
+    "value": 15,
+    "short": "10–15 sprints",
+    "source": "https://github.com/garrytan/gstack/blob/c285d88b90d39116ccfa2b901f80ea0fce0b26eb/README.md#L473",
+    "seen": "2026-10-05",
+    "quote": "I regularly run 10-15 parallel sprints — that's the practical max right now.",
+    "inferred": true,
+    "history": [
+      {
+        "value": 10,
+        "source": "https://github.com/garrytan/gstack/blob/9d47619e4c721365744c080d27455268ee93ed96/README.md#L123",
+        "seen": "2026-03-17",
+        "quote": "One person, ten parallel agents, each with the right cognitive mode."
+      }
+    ]
+  },
+  "rules_files": {
+    "value": "CLAUDE.md (614 lines) and AGENTS.md in gstack",
+    "short": "CLAUDE.md",
+    "url": "https://github.com/garrytan/gstack/blob/c285d88b90d39116ccfa2b901f80ea0fce0b26eb/CLAUDE.md",
+    "source": "https://github.com/garrytan/gstack/blob/c285d88b90d39116ccfa2b901f80ea0fce0b26eb/CLAUDE.md#L363-L364",
+    "seen": "2026-10-05",
+    "quote": "**Choose versions autonomously; default to PATCH.** Garry delegates release version decisions to the agent."
+  },
+  "skills": {
+    "value": [
+      "office-hours",
+      "plan-ceo-review",
+      "plan-eng-review",
+      "plan-design-review",
+      "plan-devex-review",
+      "autoplan",
+      "spec",
+      "review",
+      "codex",
+      "qa",
+      "qa-only",
+      "ship",
+      "land-and-deploy",
+      "canary",
+      "cso",
+      "design-consultation",
+      "design-shotgun",
+      "design-html",
+      "design-review",
+      "devex-review",
+      "investigate",
+      "retro",
+      "learn",
+      "document-release",
+      "document-generate",
+      "browse",
+      "careful",
+      "freeze",
+      "guard",
+      "unfreeze"
+    ],
+    "count": 55,
+    "featured": [
+      "office-hours",
+      "plan-ceo-review",
+      "qa"
+    ],
+    "source": "https://github.com/garrytan/gstack/tree/c285d88b90d39116ccfa2b901f80ea0fce0b26eb",
+    "seen": "2026-10-05"
+  },
+  "mcp_servers": null,
+  "hooks": {
+    "value": [
+      "gstack-timeline-stop (Stop hook)",
+      "/careful, /freeze, /guard (PreToolUse safety rails)"
+    ],
+    "source": "https://github.com/garrytan/gstack/blob/c285d88b90d39116ccfa2b901f80ea0fce0b26eb/docs/skills.md#L1211",
+    "seen": "2026-10-05",
+    "quote": "Four skills that add safety rails to any Claude Code session. They work via Claude Code's PreToolUse hooks — transparent, session-scoped, no configuration required."
+  },
+  "signature": {
+    "value": "/plan-ceo-review",
+    "kind": "skill",
+    "caption": "finds the 10-star product",
+    "why": "Our pick: before any code, an agent plays founder and challenges the scope of the request. That is the role at the centre of his setup of agents as a virtual company.",
+    "editorial": true,
+    "source": "https://github.com/garrytan/gstack/blob/c285d88b90d39116ccfa2b901f80ea0fce0b26eb/README.md#L250",
+    "seen": "2026-10-05",
+    "quote": "Rethink the problem. Find the 10-star product hiding inside the request."
+  },
+  "archetype": {
+    "value": "Orchestrator",
+    "editorial": true,
+    "why": "He runs 10-15 Claude Code sprints in Conductor, each one moving through role-based review stages."
+  },
+  "signature_quote": {
+    "value": "You manage them the way a CEO manages a team: check in on the decisions that matter, let the rest run.",
+    "source": "https://github.com/garrytan/gstack/blob/c285d88b90d39116ccfa2b901f80ea0fce0b26eb/README.md#L475",
+    "seen": "2026-10-05"
+  }
+}

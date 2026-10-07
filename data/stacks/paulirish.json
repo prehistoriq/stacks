@@ -1,0 +1,172 @@
+{
+  "schema": 2,
+  "handle": "paulirish",
+  "status": "ok",
+  "checked": "2026-10-07",
+  "name": {
+    "value": "Paul Irish",
+    "source": "https://github.com/paulirish"
+  },
+  "x": {
+    "value": "paul_irish",
+    "source": "https://x.com/paul_irish"
+  },
+  "github": {
+    "value": "paulirish",
+    "source": "https://github.com/paulirish"
+  },
+  "site": {
+    "value": "https://paul.irish",
+    "source": "https://github.com/paulirish"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/39191?v=4",
+    "source": "https://github.com/paulirish"
+  },
+  "known_for": {
+    "value": "Chrome DevTools, Lighthouse",
+    "source": "https://toot.cafe/@paul_irish"
+  },
+  "agents": [
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "opens PRs and reviews them (cloud)",
+      "surface": "web",
+      "source": "https://github.com/paulirish/carlo/pull/3",
+      "seen": "2026-09-25",
+      "quote": "[Codex Task](https://chatgpt.com/codex/cloud/tasks/task_e_6aaa2a657c0083318d7bebc85c0204b8)",
+      "inferred": true,
+      "history": [
+        {
+          "value": "Gemini CLI and Claude Code (skills linked into both)",
+          "surface": "cli",
+          "source": "https://github.com/paulirish/dotfiles/blob/39644bfba35e30922495fc9a900dc5f50c9ef68d/agents/paulirish-skills/install-skills.sh#L6-L7",
+          "seen": "2026-02-23",
+          "quote": "GEMINI_TARGET_DIR=\"$HOME/.gemini/skills\"\nCLAUDE_TARGET_DIR=\"$HOME/.claude/skills\""
+        }
+      ]
+    },
+    {
+      "name": "GitHub Copilot coding agent",
+      "icon": "githubcopilot",
+      "role": "fixes review findings on PRs",
+      "surface": "web",
+      "source": "https://github.com/paulirish/carlo/pull/3#issuecomment-5827505180",
+      "seen": "2026-09-25",
+      "quote": "@copilot address the review feedback and fix the falling CI"
+    },
+    {
+      "name": "Jules",
+      "icon": null,
+      "role": "cloud PRs",
+      "surface": "web",
+      "source": "https://github.com/paulirish/carlo/pull/2",
+      "seen": "2026-09-07",
+      "quote": "*PR created automatically by Jules for task [13436147436147156985](https://jules.google.com/task/13436147436147156985) started by @paulirish*"
+    }
+  ],
+  "models": [
+    {
+      "name": "Gemini 3 Flash (preview)",
+      "icon": "gemini",
+      "detail": "commit messages via llm",
+      "source": "https://github.com/paulirish/dotfiles/blob/d27a39a78a36bc5548e320f9bcc064f13b3c0323/fish/aliases.fish#L41",
+      "seen": "2026-04-02",
+      "quote": "abbr write-commit-message \"git diffbranch | llm --system-fragment ~/code/dotfiles/private/prompts/devtools-commit-message.md --model=gemini-3-flash-preview\"",
+      "also": [
+        {
+          "source": "https://github.com/paulirish/dotfiles/blob/d27a39a78a36bc5548e320f9bcc064f13b3c0323/fish/aliases.fish#L155",
+          "seen": "2026-04-02",
+          "quote": "abbr geminif 'gemini --model gemini-3-flash-preview'"
+        }
+      ],
+      "history": []
+    }
+  ],
+  "review_style": {
+    "value": "Codex bot reviews every PR; he has Copilot fix the findings",
+    "kind": "agent-reviews",
+    "source": "https://github.com/paulirish/carlo/pull/3#issuecomment-5827505180",
+    "seen": "2026-09-25",
+    "quote": "@copilot address the review feedback and fix the falling CI",
+    "also": [
+      {
+        "source": "https://github.com/paulirish/carlo/pull/3#issuecomment-5842010944",
+        "seen": "2026-09-26",
+        "quote": "@copilot 12 progress checks??? I'm not sure that's a fast lane...."
+      },
+      {
+        "source": "https://github.com/paulirish-agent",
+        "seen": null,
+        "undated": true,
+        "quote": "Experimenting w/ putting agent commits under a dedicated GH account. Especially when there's less code review.  We'll see.  ~@paulirish"
+      }
+    ],
+    "inferred": true
+  },
+  "harness": {
+    "value": "Cloud agents on GitHub PRs, steered from PR comments",
+    "short": "cloud PRs",
+    "source": "https://github.com/paulirish/carlo/pull/3#issuecomment-5827627920",
+    "seen": "2026-09-25",
+    "quote": "@copilot do our ci tests need a rethink given that we're just starting the modernization plan?",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "AGENTS.md per repo (CLAUDE.md just imports it), linked to a LEXICON.md",
+    "short": "AGENTS.md",
+    "url": "https://github.com/paulirish/chromestatus/blob/f999d25bc6964083f7e51c8b2303cc3ef0d6e2f7/AGENTS.md",
+    "source": "https://github.com/paulirish/chromestatus/blob/f999d25bc6964083f7e51c8b2303cc3ef0d6e2f7/AGENTS.md#L9",
+    "seen": "2026-10-03",
+    "quote": "Future code will be reasoned about, rewritten, and maintained by LLMs and high-level humans who operate on semantic representations."
+  },
+  "skills": {
+    "value": [
+      "buildless-types",
+      "distill-page",
+      "fetch-as-markdown",
+      "github-pr-comments",
+      "google-ai-search",
+      "heap-snapshot-inspection",
+      "hot-reload-chrome-ext",
+      "lexicon",
+      "modern-css",
+      "npm-trusted-publishing",
+      "pauls-project-setup",
+      "qmd-expert"
+    ],
+    "count": 12,
+    "featured": [
+      "lexicon",
+      "pauls-project-setup",
+      "github-pr-comments"
+    ],
+    "source": "https://github.com/paulirish/dotfiles/tree/d7607a4c2383bf7300032b2c7b89da87d6f9dcc5/agents/skills",
+    "seen": "2026-10-03"
+  },
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "paulirish-agent",
+    "kind": "habit",
+    "caption": "a GitHub account for agents",
+    "why": "Our pick: agent commits land under their own GitHub identity, so his history shows what he wrote and what the agent wrote.",
+    "editorial": true,
+    "source": "https://github.com/paulirish-agent",
+    "seen": null,
+    "undated": true,
+    "quote": "Experimenting w/ putting agent commits under a dedicated GH account. Especially when there's less code review.  We'll see.  ~@paulirish"
+  },
+  "archetype": {
+    "value": "Orchestrator",
+    "editorial": true,
+    "why": "Hands PRs to Codex, Jules and Copilot in the cloud and steers them from PR comments."
+  },
+  "signature_quote": {
+    "value": "This allows coding agents to iterate and test logic instantly via CLI/Node unit tests without browser automation overhead (which is ~20x slower).",
+    "source": "https://github.com/paulirish/dotfiles/blob/384da0d2aaca4cb0287f046e1a9791a405f00b17/agents/skills/pauls-project-setup/SKILL.md#L19",
+    "seen": "2026-08-10"
+  }
+}
