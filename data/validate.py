@@ -13,7 +13,9 @@ for f in sorted(glob.glob(os.path.join(here, "stacks/*.json"))):
         d = json.load(open(f))
     except Exception as e:
         print(f"{h}: invalid JSON ({e})"); bad += 1; continue
-    if d.get("status") != "ok":
+    if d.get("status") not in ("ok", "stale", "insufficient"):
+        print(f"{h}: status={d.get('status')!r} (ok | stale | insufficient)"); bad += 1; continue
+    if d.get("status") == "insufficient":   # never shown, never published
         continue
     issues = []
     def claim(o, path):

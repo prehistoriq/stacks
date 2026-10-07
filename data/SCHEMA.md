@@ -16,7 +16,7 @@ field `null`.
 {
   "schema": 2,
   "handle": "simonw",
-  "status": "ok",                  // "ok" | "insufficient" (fewer than 5 sourced fields among agents..signature)
+  "status": "ok",                  // "ok" (shown) | "stale" (newest source older than six months, set by data/sweep.py) | "insufficient" (fewer than 5 sourced fields among agents..signature)
   "checked": "2026-10-06",         // the day you researched
   "notes": "",                     // private: anything the editor should know (doubts, conflicts, what you could not verify). Never published.
 
