@@ -203,7 +203,7 @@
     "quote": "GitLeaks runs as part of the pre-commit hook, I consider it to be a sensor as well, as it will give the agent feedback when it tries to commit (computational)"
   },
   "signature": {
-    "value": "sensors check .",
+    "value": "sensors check",
     "kind": "tool",
     "caption": "a sidecar the agent polls",
     "why": "Our pick: she built a CLI that keeps linters, tests, coverage and mutation testing running beside the agent and hands it a short status with fix guidance, so it can self-correct before she reviews.",
