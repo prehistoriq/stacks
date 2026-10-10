@@ -7,12 +7,17 @@ here = os.path.dirname(os.path.abspath(__file__))
 icon_dir = os.path.join(here, "../icons")   # brand icons live next to the site build; skip the check where they aren't present
 icons = {f[:-4] for f in os.listdir(icon_dir) if f.endswith(".svg")} if os.path.isdir(icon_dir) else None
 bad = 0
-for f in sorted(glob.glob(os.path.join(here, "stacks/*.json"))):
+files = sorted(glob.glob(os.path.join(here, "stacks/*.json")))
+if not files:
+    print("No stack files found"); bad += 1
+for f in files:
     h = os.path.basename(f)[:-5]
     try:
         d = json.load(open(f))
     except Exception as e:
         print(f"{h}: invalid JSON ({e})"); bad += 1; continue
+    if not isinstance(d, dict):
+        print(f"{h}: card must be a JSON object"); bad += 1; continue
     if d.get("status") not in ("ok", "stale", "insufficient"):
         print(f"{h}: status={d.get('status')!r} (ok | stale | insufficient)"); bad += 1; continue
     if d.get("status") == "insufficient":   # never shown, never published
@@ -44,3 +49,4 @@ for f in sorted(glob.glob(os.path.join(here, "stacks/*.json"))):
     if issues:
         bad += 1; print(f"{h}: " + "; ".join(issues))
 print(f"{'OK' if not bad else str(bad) + ' file(s) with issues'}")
+sys.exit(1 if bad else 0)
