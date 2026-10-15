@@ -1,4 +1,4 @@
-# Make my Prehistoriq stack card
+# Make my stack card
 
 You are making the person in front of you their agent stack card from prehistoriq.com/stacks.
 **Never ask them anything.** Work it out, show what you found, open the card. Keep it quick: a minute or two.
