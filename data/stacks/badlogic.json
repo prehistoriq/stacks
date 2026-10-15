@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "badlogic",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-10-12",
   "name": {
     "value": "Mario Zechner",
     "source": "https://github.com/badlogic"
@@ -30,7 +30,7 @@
   "agents": [
     {
       "name": "Pi",
-      "icon": null,
+      "icon": "pi",
       "role": "primary, his own",
       "surface": "cli",
       "source": "https://mariozechner.at/posts/2026-05-30-shitty-robot/",
@@ -95,12 +95,19 @@
     "inferred": true
   },
   "harness": {
-    "value": "pi in the terminal, tmux for long-running processes and sub-agents",
-    "short": "tmux",
-    "source": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/",
-    "seen": "2025-11-30",
-    "quote": "There's simply no need for background bash. Claude Code can use tmux too, you know. Bash is all you need.",
-    "history": []
+    "value": "pi from his phone, including code review; tmux for long-running processes",
+    "short": "phone",
+    "source": "https://x.com/badlogicgames/status/2107532222244737128",
+    "seen": "2026-10-06",
+    "quote": "doing pi issues from my phone on a couch. including code review and screaming at the agent.",
+    "history": [
+      {
+        "value": "pi in the terminal, tmux for long-running processes and sub-agents",
+        "source": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/",
+        "seen": "2025-11-30",
+        "quote": "There's simply no need for background bash. Claude Code can use tmux too, you know. Bash is all you need."
+      }
+    ]
   },
   "parallelism": null,
   "rules_files": {

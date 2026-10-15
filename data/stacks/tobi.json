@@ -53,7 +53,7 @@
     },
     {
       "name": "Pi",
-      "icon": null,
+      "icon": "pi",
       "role": "self-extending harness",
       "surface": "cli",
       "surface_source": {

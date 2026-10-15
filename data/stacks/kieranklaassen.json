@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "kieranklaassen",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-10-12",
   "name": {
     "value": "Kieran Klaassen",
     "source": "https://github.com/kieranklaassen"
@@ -112,14 +112,20 @@
       ]
     },
     {
-      "name": "Claude Fable 5.1",
+      "name": "Claude Sonnet 5.5",
       "icon": "claude",
-      "detail": "hardest problems",
-      "source": "https://every.to/vibe-check/vibe-check-opus-5-5-is-pulling-our-codex-converts-back-to-claude",
-      "seen": "2026-09-22",
-      "quote": "For the hardest coding problems, Mike and Kieran still reach for Fable.",
-      "history": [],
-      "inferred": true
+      "detail": "quick work, low or medium effort",
+      "source": "https://x.com/kieranklaassen/status/2104633604169142756",
+      "seen": "2026-09-28",
+      "quote": "Use Sonnet for iterative, quick work, especially design, prototyping, and product work. It's also nice for quick background jobs. Run it on low or medium effort.",
+      "history": [
+        {
+          "value": "Claude Fable 5.1",
+          "source": "https://every.to/vibe-check/vibe-check-opus-5-5-is-pulling-our-codex-converts-back-to-claude",
+          "seen": "2026-09-22",
+          "quote": "For the hardest coding problems, Mike and Kieran still reach for Fable."
+        }
+      ]
     }
   ],
   "review_style": {

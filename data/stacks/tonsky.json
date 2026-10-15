@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "tonsky",
   "status": "ok",
-  "checked": "2026-10-07",
+  "checked": "2026-10-12",
   "name": {
     "value": "Nikita Prokopov",
     "source": "https://github.com/tonsky"
@@ -59,13 +59,20 @@
   ],
   "models": [
     {
-      "name": "Claude Fable 5.1",
+      "name": "Claude Opus 5.5",
       "icon": "claude",
-      "source": "https://github.com/tonsky/clojure-plus/commit/662df2562f9b2deb0de1d29232afc89c480622d7",
-      "seen": "2026-10-05",
-      "quote": "Co-Authored-By: Claude Fable 5.1",
+      "source": "https://github.com/tonsky/Clojure-Sublimed/commit/a86c4a4083086371d673ef72f8a5b06b182a2dee",
+      "seen": "2026-10-11",
+      "quote": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
       "inferred": true,
-      "history": []
+      "history": [
+        {
+          "value": "Claude Fable 5.1",
+          "source": "https://github.com/tonsky/clojure-plus/commit/662df2562f9b2deb0de1d29232afc89c480622d7",
+          "seen": "2026-10-05",
+          "quote": "Co-Authored-By: Claude Fable 5.1"
+        }
+      ]
     }
   ],
   "review_style": null,

@@ -55,7 +55,7 @@
     },
     {
       "name": "Pi",
-      "icon": null,
+      "icon": "pi",
       "role": "local models, evals, her own extension",
       "surface": "cli",
       "surface_source": {

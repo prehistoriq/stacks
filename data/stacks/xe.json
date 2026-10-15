@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "xe",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-10-12",
   "name": {
     "value": "Xe Iaso",
     "source": "https://github.com/Xe"
@@ -97,14 +97,20 @@
       ]
     },
     {
-      "name": "GPT-6",
+      "name": "GPT-6.1 Sol",
       "icon": "openai",
       "detail": "via Codex",
-      "source": "https://github.com/Xe/kefka/commit/f2bd6efaa5daa7959102d121c078fd02030231dc",
-      "seen": "2026-09-24",
-      "quote": "Assisted-by: GPT-6 via Codex",
-      "inferred": true,
-      "history": []
+      "source": "https://github.com/Xe/x/commit/3c2a40778dc3a8b9467f33ba4ed71fd38c7c47d5",
+      "seen": "2026-10-07",
+      "quote": "Assisted-by: GPT-6.1 Sol via Codex",
+      "history": [
+        {
+          "value": "GPT-6",
+          "source": "https://github.com/Xe/kefka/commit/f2bd6efaa5daa7959102d121c078fd02030231dc",
+          "seen": "2026-09-24",
+          "quote": "Assisted-by: GPT-6 via Codex"
+        }
+      ]
     }
   ],
   "review_style": {

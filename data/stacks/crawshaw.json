@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "crawshaw",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-10-12",
   "name": {
     "value": "David Crawshaw",
     "source": "https://github.com/crawshaw"
@@ -61,29 +61,32 @@
   ],
   "models": [
     {
-      "name": "Claude Opus 4.7",
-      "icon": "claude",
-      "detail": "preferred",
-      "source": "https://www.heavybit.com/library/podcasts/high-leverage/ep-11-why-agents-need-computers-with-david-crawshaw",
-      "seen": "2026-06-03",
-      "quote": "I very much have to distinguish these days between the Anthropic models, that is Opus, which is brilliant and probably still my preferred coding model.",
+      "name": "OpenAI models",
+      "icon": "openai",
+      "detail": "daily driver",
+      "source": "https://news.ycombinator.com/item?id=49157584",
+      "seen": "2026-08-03",
+      "quote": "I still use oai as my daily but I have been very impressed by qwen/glm/k3/etc when I try them.",
       "history": [
         {
           "value": "latest Opus",
           "source": "https://crawshaw.io/blog/eight-more-months-of-agents",
           "seen": "2026-02-08",
           "quote": "In February this year, the latest Opus model can write nine tenths of my code."
+        },
+        {
+          "value": "Claude Opus 4.7",
+          "source": "https://www.heavybit.com/library/podcasts/high-leverage/ep-11-why-agents-need-computers-with-david-crawshaw",
+          "seen": "2026-06-03",
+          "quote": "I very much have to distinguish these days between the Anthropic models, that is Opus, which is brilliant and probably still my preferred coding model."
+        },
+        {
+          "value": "Codex models",
+          "source": "https://www.heavybit.com/library/podcasts/high-leverage/ep-11-why-agents-need-computers-with-david-crawshaw",
+          "seen": "2026-06-03",
+          "quote": "The Codex models are actually really good these days and I use them sometimes."
         }
       ]
-    },
-    {
-      "name": "Codex models",
-      "icon": "openai",
-      "detail": "sometimes",
-      "source": "https://www.heavybit.com/library/podcasts/high-leverage/ep-11-why-agents-need-computers-with-david-crawshaw",
-      "seen": "2026-06-03",
-      "quote": "The Codex models are actually really good these days and I use them sometimes.",
-      "history": []
     }
   ],
   "review_style": {

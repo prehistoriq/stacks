@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "tqbf",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-10-12",
   "name": {
     "value": "Thomas Ptacek",
     "source": "https://fly.io/blog/youre-all-nuts/"
@@ -135,6 +135,11 @@
         "source": "https://fly.io/blog/youre-all-nuts/",
         "seen": "2025-06-02",
         "quote": "I have to read the code line-by-line anyways."
+      },
+      {
+        "source": "https://x.com/tqbf/status/2108598079142125962",
+        "seen": "2026-10-09",
+        "quote": "I read \\infty more lines of code now than I write; being stuck in my editor (or worse, the Github PR viewer) is silly."
       }
     ]
   },

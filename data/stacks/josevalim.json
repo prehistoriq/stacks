@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "josevalim",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-10-12",
   "name": {
     "value": "José Valim",
     "source": "https://github.com/josevalim"
@@ -107,6 +107,11 @@
     "quote": "Outside of that, I mainly ask the agent to break any large PR into small ones. Then I review them like any other code 😅",
     "kind": "spot-checks",
     "also": [
+      {
+        "source": "https://x.com/josevalim/status/2108167477469327411",
+        "seen": "2026-10-08",
+        "quote": "I'm still reviewing code across Dashbit's projects and my open source projects. And, because of coding agents, I am reviewing significantly more code than before."
+      },
       {
         "source": "https://tidewave.ai/blog/code-review",
         "seen": "2026-04-15",

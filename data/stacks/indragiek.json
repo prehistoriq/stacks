@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "indragiek",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-10-12",
   "name": {
     "value": "Indragie Karunaratne",
     "source": "https://github.com/indragiek"
@@ -86,21 +86,25 @@
   ],
   "models": [
     {
-      "name": "Claude Opus 4.6",
+      "name": "Claude Opus 5.5",
       "icon": "claude",
-      "detail": "1M context",
-      "source": "https://github.com/indragiek/GHFS/commit/80afde292d219f4f033d1f683dcaaae016ed877a",
-      "seen": "2026-04-11",
-      "quote": "Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>",
+      "source": "https://x.com/indragie/status/2109671763277975935",
+      "seen": "2026-10-12",
+      "quote": "I had Opus 5.5 use captured HTTP traffic from the mobile apps for Ring (cameras), Petlibro (feeder), and Whisker (litter robot) to build an hour-by-hour summary",
       "history": [
         {
           "value": "Sonnet 4 and Opus 4",
           "source": "https://www.indragie.com/blog/i-shipped-a-macos-app-built-entirely-by-claude-code",
           "seen": "2025-07-01",
           "quote": "Let me just start by saying that Claude Code (with the latest Sonnet 4 and Opus 4 models) is genuinely good at writing code."
+        },
+        {
+          "value": "Claude Opus 4.6",
+          "source": "https://github.com/indragiek/GHFS/commit/80afde292d219f4f033d1f683dcaaae016ed877a",
+          "seen": "2026-04-11",
+          "quote": "Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>"
         }
-      ],
-      "inferred": true
+      ]
     },
     {
       "name": "GPT-5",

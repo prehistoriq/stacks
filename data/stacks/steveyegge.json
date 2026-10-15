@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "steveyegge",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-10-12",
   "name": {
     "value": "Steve Yegge",
     "source": "https://github.com/steveyegge"
@@ -56,6 +56,22 @@
   ],
   "models": [
     {
+      "name": "Claude Opus 5.5",
+      "icon": "claude",
+      "detail": "majority of work",
+      "source": "https://x.com/Steve_Yegge/status/2106205282926051596",
+      "seen": "2026-10-03",
+      "quote": "I still think Opus 5.5 is an incredible model and I use it for the majority of work now.",
+      "history": [
+        {
+          "value": "Opus 5",
+          "source": "https://yegge.ai/essays/the-shape-of-things-to-come/",
+          "seen": "2026-08-02",
+          "quote": "My fleet, all Opus 5 agents, are the work consumers, like Gas Town's polecats, but non-ephemeral."
+        }
+      ]
+    },
+    {
       "name": "Claude Fable 5.1",
       "icon": "claude",
       "detail": "design, planning, review",
@@ -70,15 +86,6 @@
           "quote": "Opus 4.5 can handle any reasonably sized task, so your job is to make tasks for it."
         }
       ]
-    },
-    {
-      "name": "Opus 5",
-      "icon": "claude",
-      "detail": "implementation fleet",
-      "source": "https://yegge.ai/essays/the-shape-of-things-to-come/",
-      "seen": "2026-08-02",
-      "quote": "My fleet, all Opus 5 agents, are the work consumers, like Gas Town's polecats, but non-ephemeral.",
-      "history": []
     }
   ],
   "review_style": {
@@ -116,11 +123,11 @@
     ]
   },
   "parallelism": {
-    "value": null,
-    "short": "was 50, idling",
-    "source": "https://yegge.ai/essays/seats-and-sunsets/",
-    "seen": "2026-09-15",
-    "quote": "But with Fable's latest \"25%\" pricing, which is yet another cut, my Wheelhouse factory is now mostly idling.",
+    "value": 20,
+    "short": "20+ agents",
+    "source": "https://x.com/Steve_Yegge/status/2108393181196722238",
+    "seen": "2026-10-09",
+    "quote": "I run Emacs with 20+ agents and it drives terminals about as hard as you can",
     "history": [
       {
         "value": "20–30 Claude Code instances",
@@ -133,6 +140,12 @@
         "source": "https://yegge.ai/essays/fences-not-sandboxes/",
         "seen": "2026-08-24",
         "quote": "Wheelhouse has 50 agents that are amnesiac and interchangeable, and the only way they can coordinate is via text."
+      },
+      {
+        "value": null,
+        "source": "https://yegge.ai/essays/seats-and-sunsets/",
+        "seen": "2026-09-15",
+        "quote": "But with Fable's latest \"25%\" pricing, which is yet another cut, my Wheelhouse factory is now mostly idling."
       }
     ]
   },

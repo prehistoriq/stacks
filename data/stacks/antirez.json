@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "antirez",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-10-12",
   "name": {
     "value": "Salvatore Sanfilippo (antirez)",
     "source": "https://github.com/antirez"
@@ -96,12 +96,12 @@
   ],
   "models": [
     {
-      "name": "GPT 5.6 Sol",
+      "name": "GPT-6 Astra / GPT-6.1 Sol",
       "icon": "openai",
-      "detail": "builds",
-      "source": "https://antirez.com/news/170",
-      "seen": "2026-07-22",
-      "quote": "Moreover, today I noticed how, thanks to the rails formed by the corpus of the code inside DwarfStar, the implementation was written in about two hours by GPT 5.6 Sol automatically.",
+      "detail": "at Redis",
+      "source": "https://x.com/antirez/status/2106312728629387347",
+      "seen": "2026-10-03",
+      "quote": "Having serious issues to work at Redis with Astra / Sol 6.1 because of continuous firing of cyber checks.",
       "history": [
         {
           "value": "Gemini 2.5 PRO (in chat)",
@@ -114,6 +114,12 @@
           "source": "https://antirez.com/news/160",
           "seen": "2026-02-24",
           "quote": "With extensive documentation, I can’t see any way Claude Code (and, even more, GPT5.3-codex, which is in my experience, for complex stuff, more capable) could fail at producing a working assembler, since it is quite a mechanical process."
+        },
+        {
+          "value": "GPT 5.6 Sol",
+          "source": "https://antirez.com/news/170",
+          "seen": "2026-07-22",
+          "quote": "Moreover, today I noticed how, thanks to the rails formed by the corpus of the code inside DwarfStar, the implementation was written in about two hours by GPT 5.6 Sol automatically."
         }
       ]
     },

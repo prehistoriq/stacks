@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "sgoedecke",
   "status": "ok",
-  "checked": "2026-10-07",
+  "checked": "2026-10-12",
   "name": {
     "value": "Sean Goedecke",
     "source": "https://github.com/sgoedecke"
@@ -95,6 +95,11 @@
         "source": "https://www.seangoedecke.com/you-should-all-be-asking-way-more-questions/",
         "seen": "2026-09-25",
         "quote": "About half the questions I ask get answers that convince me the model has made a mistake: it should have reused the existing subsystem for X, or authed to Y differently, or kept the Z implementation simple, and so on."
+      },
+      {
+        "source": "https://www.seangoedecke.com/how-to-read-code/",
+        "seen": "2026-10-07",
+        "quote": "Once I’m confident I understand the diff, only then will I sit down and carefully read it end-to-end."
       }
     ]
   },

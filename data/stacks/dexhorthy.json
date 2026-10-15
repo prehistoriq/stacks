@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "dexhorthy",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-10-12",
   "name": {
     "value": "Dex Horthy",
     "source": "https://aaif.io/blog/dex-still-thinks-long-running-coding-agents-stink"
@@ -178,17 +178,18 @@
       "design-control-loop",
       "improve-claude-md",
       "narrow-react-prop-types",
+      "rpi",
       "show-me",
       "visual-pr"
     ],
-    "count": 6,
+    "count": 7,
     "featured": [
       "show-me",
       "visual-pr",
       "improve-claude-md"
     ],
-    "source": "https://github.com/humanlayer/skills/tree/ca7c8088db69e315a8b2deea43820270457f8f3c/plugins",
-    "seen": "2026-09-17"
+    "source": "https://github.com/humanlayer/skills/tree/3b53bed02f89f5d5858b7dc68741b60ad64a2119/plugins",
+    "seen": "2026-10-08"
   },
   "mcp_servers": null,
   "hooks": null,

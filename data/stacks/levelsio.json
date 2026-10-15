@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "levelsio",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-10-12",
   "name": {
     "value": "Pieter Levels",
     "source": "https://levels.io/"
@@ -52,9 +52,9 @@
       "name": "Claude Opus 5.5",
       "icon": "claude",
       "detail": "1M context",
-      "source": "https://github.com/levelsio/superlevels/commit/0fe785f75fbe681ed60efd74e9586d362e4c6995",
-      "seen": "2026-10-02",
-      "quote": "Co-Authored-By: Claude Opus 5.5 (1M context) <noreply@anthropic.com>",
+      "source": "https://x.com/levelsio/status/2108957488410161442",
+      "seen": "2026-10-10",
+      "quote": "only possible because modern AI like  Opus 5.5 is good enough to figure that out",
       "history": [
         {
           "value": "Claude Opus 4.6",
@@ -69,9 +69,14 @@
           "seen": "2026-08-25",
           "quote": "Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>",
           "inferred": true
+        },
+        {
+          "value": "Claude Opus 5.5",
+          "source": "https://github.com/levelsio/superlevels/commit/0fe785f75fbe681ed60efd74e9586d362e4c6995",
+          "seen": "2026-10-02",
+          "quote": "Co-Authored-By: Claude Opus 5.5 (1M context) <noreply@anthropic.com>"
         }
-      ],
-      "inferred": true
+      ]
     },
     {
       "name": "Claude Fable 5.1",

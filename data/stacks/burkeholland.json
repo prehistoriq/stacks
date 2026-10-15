@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "burkeholland",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-10-12",
   "name": {
     "value": "Burke Holland",
     "source": "https://github.com/burkeholland"
@@ -50,6 +50,17 @@
           "quote": "I used GitHub Copilot in VS Code with a custom agent prompt that you’ll find toward the end of this post."
         }
       ]
+    },
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "on side projects",
+      "surface": "web",
+      "inferred": true,
+      "source": "https://github.com/burkeholland/convert-me/pull/1",
+      "seen": "2026-10-11",
+      "quote": "Co-Authored-By: Claude Opus 5.5 (1M context) <noreply@anthropic.com>",
+      "history": []
     }
   ],
   "models": [

@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "t3dotgg",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-10-12",
   "name": {
     "value": "Theo Browne",
     "source": "https://github.com/t3dotgg"
@@ -78,29 +78,40 @@
       "quote": "Fable 5.1 xhigh to Opus 5.5 high (move I made) is a 6.6x increase"
     },
     {
-      "name": "GPT-6.1 Sol",
-      "icon": "openai",
+      "name": "Muse Wonder",
+      "icon": null,
       "detail": "reviews",
+      "source": "https://x.com/theo/status/2109731846842196093",
+      "seen": "2026-10-12",
+      "quote": "I often have Opus ask Wonder for code review, copy work, and architecture review",
       "history": [
         {
           "source": "https://x.com/theo/status/2103239969997476091",
           "seen": "2026-09-24",
           "quote": "Astra is still the best \"review\" model. It's so insanely thorough.",
           "value": "GPT-6 Astra for reviews"
+        },
+        {
+          "value": "GPT-6.1 Sol",
+          "source": "https://x.com/theo/status/2105001138953327067",
+          "seen": "2026-09-29",
+          "quote": "GPT-6.1 Sol is a great replacement for Astra at a WAY better price, but I don't default to it for code.\n\nI absolutely default to it for code reviews"
         }
-      ],
-      "source": "https://x.com/theo/status/2105001138953327067",
-      "seen": "2026-09-29",
-      "quote": "GPT-6.1 Sol is a great replacement for Astra at a WAY better price, but I don't default to it for code.\n\nI absolutely default to it for code reviews"
+      ]
     }
   ],
   "review_style": {
-    "value": "GPT-6.1 Sol reviews; agents merge when confident",
-    "source": "https://x.com/theo/status/2105001138953327067",
-    "seen": "2026-09-29",
-    "quote": "I absolutely default to it for code reviews, architecture analysis, computer use, email management, and a ton of my other daily work.",
+    "value": "Opus asks Wonder for code review; agents merge when confident",
+    "source": "https://x.com/theo/status/2109731846842196093",
+    "seen": "2026-10-12",
+    "quote": "I often have Opus ask Wonder for code review, copy work, and architecture review",
     "kind": "agent-reviews",
     "also": [
+      {
+        "source": "https://x.com/theo/status/2105001138953327067",
+        "seen": "2026-09-29",
+        "quote": "I absolutely default to it for code reviews, architecture analysis, computer use, email management, and a ton of my other daily work."
+      },
       {
         "source": "https://x.com/theo/status/2095691652442837310",
         "seen": "2026-09-04",

@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "nickbaumann98",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-10-12",
   "name": {
     "value": "Nick Baumann",
     "source": "https://github.com/nickbaumann98"
@@ -56,13 +56,20 @@
   ],
   "models": [
     {
-      "name": "GPT-5.6 Sol",
+      "name": "GPT-6 Astra",
       "icon": "openai",
-      "source": "https://x.com/nickbaumann_/status/2080034767135965342",
-      "seen": "2026-07-22",
-      "quote": "I had GPT-5.6-sol put all the best Codex + ChatGPT Work use cases from X (& prompts!) into a Site™️",
-      "history": [],
-      "inferred": true
+      "source": "https://x.com/nickbaumann_/status/2101756295577849940",
+      "seen": "2026-09-20",
+      "quote": "The degree to which Astra is making my life easier at work right now is hard to understate",
+      "inferred": true,
+      "history": [
+        {
+          "value": "GPT-5.6 Sol",
+          "source": "https://x.com/nickbaumann_/status/2080034767135965342",
+          "seen": "2026-07-22",
+          "quote": "I had GPT-5.6-sol put all the best Codex + ChatGPT Work use cases from X (& prompts!) into a Site™️"
+        }
+      ]
     },
     {
       "name": "GPT-5.3-Codex-Spark",

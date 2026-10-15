@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "slavingia",
   "status": "ok",
-  "checked": "2026-10-07",
+  "checked": "2026-10-12",
   "name": {
     "value": "Sahil Lavingia",
     "source": "https://github.com/slavingia"
@@ -46,6 +46,16 @@
           "quote": "So generally my flow is V zero Devin cursor is probably how I would say it."
         }
       ]
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "on Gumroad PRs, since Sep",
+      "surface": null,
+      "source": "https://github.com/antiwork/gumroad/pull/8193",
+      "seen": "2026-10-06",
+      "quote": "Written with OpenAI Codex (GPT-6).",
+      "history": []
     }
   ],
   "models": [
@@ -65,6 +75,15 @@
           "quote": "Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
         }
       ]
+    },
+    {
+      "name": "GPT-6",
+      "icon": "openai",
+      "detail": "via Codex",
+      "source": "https://github.com/antiwork/gumroad/pull/8193",
+      "seen": "2026-10-06",
+      "quote": "Written with OpenAI Codex (GPT-6).",
+      "history": []
     }
   ],
   "review_style": {

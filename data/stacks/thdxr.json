@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "thdxr",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-10-12",
   "name": {
     "value": "Dax Raad",
     "source": "https://thdxr.com/"
@@ -105,12 +105,19 @@
     ]
   },
   "harness": {
-    "value": "OpenCode 2, a git worktree per task, voice input",
-    "short": "worktrees",
-    "source": "https://x.com/thdxr/status/2087649518498062656",
-    "seen": "2026-08-12",
-    "quote": "i often tell opencode \"lets review this pr in a new worktree\" or \"make a new worktree and implement x\"",
-    "history": []
+    "value": "OpenCode on an always-on server, driven from the OpenCode iPhone app; a worktree per task",
+    "short": "phone + server",
+    "source": "https://x.com/thdxr/status/2107581093838832003",
+    "seen": "2026-10-06",
+    "quote": "this past week most of my work has been done from the opencode iphone app",
+    "history": [
+      {
+        "value": "OpenCode 2, a git worktree per task, voice input",
+        "source": "https://x.com/thdxr/status/2087649518498062656",
+        "seen": "2026-08-12",
+        "quote": "i often tell opencode \"lets review this pr in a new worktree\" or \"make a new worktree and implement x\""
+      }
+    ]
   },
   "parallelism": null,
   "rules_files": {

@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "theprimeagen",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-10-12",
   "name": {
     "value": "ThePrimeagen",
     "source": "https://github.com/ThePrimeagen"
@@ -86,54 +86,26 @@
           "quote": "model = \"composer-2.5-fast\","
         }
       ]
-    },
-    {
-      "name": "Sol",
-      "icon": "openai",
-      "detail": "high, as a reviewer",
-      "source": "https://github.com/ThePrimeagen/Oligarchy/blob/2cc20c001fac2ce371b7917385950b08ae301a96/.cursor/skills/adversarial-review/SKILL.md#L31",
-      "seen": "2026-10-05",
-      "quote": "| Sol | the latest Sol subagent on high mode |",
-      "history": []
     }
   ],
-  "review_style": {
-    "value": "Models from different families attack each change",
-    "source": "https://github.com/ThePrimeagen/Oligarchy/blob/2cc20c001fac2ce371b7917385950b08ae301a96/.cursor/skills/adversarial-review/SKILL.md#L49-L50",
-    "seen": "2026-10-05",
-    "quote": "A model reviewing its own family's code misses the bugs it tends to write, and agrees with\nitself.",
-    "kind": "agent-reviews",
-    "also": [
-      {
-        "source": "https://github.com/ThePrimeagen/Oligarchy/blob/2cc20c001fac2ce371b7917385950b08ae301a96/.cursor/skills/adversarial-review/SKILL.md#L34",
-        "seen": "2026-10-05",
-        "quote": "Never use Fable, as a finder or a verifier."
-      },
-      {
-        "source": "https://github.com/ThePrimeagen/Oligarchy/blob/2cc20c001fac2ce371b7917385950b08ae301a96/.cursor/skills/code-review/SKILL.md#L8-L9",
-        "seen": "2026-10-05",
-        "quote": "Answer with the code condensed: what it does, in the order it\ndoes it, short enough to hold in your head."
-      }
-    ],
-    "inferred": true
-  },
+  "review_style": null,
   "harness": {
-    "value": "Neovim with his 99 plugin, plus Cursor cloud agents booting QEMU",
-    "short": "Neovim + 99",
-    "source": "https://github.com/ThePrimeagen/99/blob/c17422457027c913c76c75a921fca1e623d2678e/README.md#L28-L31",
-    "seen": "2026-02-28",
-    "quote": "As of now, the direction of 99 is to progress into agentic programming and surfacing\nof information.",
-    "history": []
+    "value": "A terminal agent plus review for much of his work; Neovim with his 99 plugin",
+    "short": "terminal + 99",
+    "source": "https://x.com/ThePrimeagen/status/2107831845148582121",
+    "seen": "2026-10-07",
+    "quote": "A huge portion of the work I do lately is just from the terminal via agent + some review.",
+    "history": [
+      {
+        "value": "Neovim with his 99 plugin, driving Cursor's agent",
+        "source": "https://github.com/ThePrimeagen/99/blob/c17422457027c913c76c75a921fca1e623d2678e/README.md#L28-L31",
+        "seen": "2026-02-28",
+        "quote": "As of now, the direction of 99 is to progress into agentic programming and surfacing\nof information."
+      }
+    ]
   },
   "parallelism": null,
-  "rules_files": {
-    "value": "AGENTS.md: 19 numbered rules, some lint-enforced, plus a field guide",
-    "short": "AGENTS.md",
-    "url": "https://github.com/ThePrimeagen/Oligarchy/blob/2cc20c001fac2ce371b7917385950b08ae301a96/AGENTS.md",
-    "source": "https://github.com/ThePrimeagen/Oligarchy/blob/2cc20c001fac2ce371b7917385950b08ae301a96/AGENTS.md#L56-L57",
-    "seen": "2026-10-04",
-    "quote": "Before you search the code, open `field-guide/index.md` and read the guide for what you are\n    working on. If you had to learn a pattern the guide does not have, add it there."
-  },
+  "rules_files": null,
   "skills": {
     "value": [
       "better-auth-drizzle-init",
@@ -180,7 +152,7 @@
   "archetype": {
     "value": "Rules Lawyer",
     "editorial": true,
-    "why": "Numbered, lint-backed AGENTS.md rules, a field guide read first, cross-model review."
+    "why": "Has the agent write a field guide of lessons and read it before touching code, and nitpicks until it is the exact code he wants."
   },
   "signature_quote": {
     "value": "I nitpick everything and I always make it produce the exact code I want, I use voice dictation and talk for quite a bit.",

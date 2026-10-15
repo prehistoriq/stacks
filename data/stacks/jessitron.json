@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "jessitron",
   "status": "ok",
-  "checked": "2026-10-07",
+  "checked": "2026-10-12",
   "name": {
     "value": "Jessica Kerr",
     "source": "https://github.com/jessitron"
@@ -164,11 +164,11 @@
     "value": "Capability Owners",
     "kind": "skill",
     "caption": "standing agents per feature",
-    "why": "Our pick: her create-owner skill appoints a standing Owner for each capability, with its own context, review and update skills, so 'everything else still works' has someone to check it.",
+    "why": "Our pick: her create-owner skill appoints a standing Owner for each capability, a knowledge base plus instructions a fresh subagent follows, so 'everything else still works' has someone to check it.",
     "editorial": true,
-    "source": "https://github.com/jessitron/tronijess-skills/blob/f2e1d10e61376c756892d109f74fd50c076d3ff2/README.md#L33-L36",
-    "seen": "2026-08-23",
-    "quote": "appoint a standing Owner for a feature or capability that must keep holding as the"
+    "source": "https://github.com/jessitron/tronijess-skills/blob/6a0c93bac3617baf3a60c64e10449c760d5a1922/README.md#L33-L36",
+    "seen": "2026-10-11",
+    "quote": "instruction files that a fresh subagent follows. Owners are process steps, not skills."
   },
   "archetype": {
     "value": "Toolsmith",
