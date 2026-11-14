@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "ghuntley",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-14",
   "name": {
     "value": "Geoffrey Huntley",
     "source": "https://github.com/ghuntley"
@@ -29,18 +29,26 @@
   },
   "agents": [
     {
-      "name": "OpenCode",
-      "icon": "opencode",
-      "role": "via his underclass token pool",
-      "surface": "cli",
-      "surface_source": {
-        "source": "https://github.com/ghuntley/underclass/blob/9244c8169bb1b73492f0c5ad5b693d59d65034da/README.md?plain=1#L55",
-        "seen": "2026-09-23",
-        "quote": "opencode --provider underclass --model underclass/gpt-5.5"
-      },
-      "source": "https://github.com/ghuntley/underclass/blob/9244c8169bb1b73492f0c5ad5b693d59d65034da/README.md?plain=1#L27",
-      "seen": "2026-09-23",
-      "quote": "**No client changes** — the surface is plain `/v1/*`; point opencode (or anything OpenAI-compatible) at it.",
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary since moving 95% to Anthropic",
+      "surface": null,
+      "inferred": true,
+      "source": "https://x.com/GeoffreyHuntley/status/2112532934821319001",
+      "seen": "2026-10-20",
+      "quote": "i'm back to loving claude because of this one key primitive.",
+      "also": [
+        {
+          "source": "https://x.com/GeoffreyHuntley/status/2112502498712060022",
+          "seen": "2026-10-20",
+          "quote": "alright, i'm over openai. switching 95% to anthropic."
+        },
+        {
+          "source": "https://github.com/ghuntley/overalls/blob/00a6d20eb5912fe2605126ff84bc16cd011e2d08/AGENTS.md#L11-L12",
+          "seen": "2026-11-05",
+          "quote": "Assume other Claude Code and Codex agents may be working in this repository at\n  the same time."
+        }
+      ],
       "history": [
         {
           "value": "Amp",
@@ -55,63 +63,156 @@
           "source": "https://ghuntley.com/real/",
           "seen": "2026-02-27",
           "quote": "It is so easy to rip a fart into Claude Code and migrate from one technology to another"
+        },
+        {
+          "value": "Cursor Cloud Agents",
+          "surface": "web",
+          "surface_source": {
+            "source": "https://ghuntley.com/rad/",
+            "seen": "2026-03-09",
+            "quote": "If I click Launch Agent, then it utilises Cursor's new Cloud Agents and Workflow Automations to ship it straight into production using a risk-based approach."
+          },
+          "source": "https://ghuntley.com/rad/",
+          "seen": "2026-03-09",
+          "quote": "Last month, Cursor hooked me up with a preview of their new stuff, and now that it's out, this is how I've been using it."
+        },
+        {
+          "value": "OpenCode",
+          "surface": "cli",
+          "inferred": true,
+          "surface_source": {
+            "source": "https://github.com/ghuntley/underclass/blob/9244c8169bb1b73492f0c5ad5b693d59d65034da/README.md?plain=1#L55",
+            "seen": "2026-09-23",
+            "quote": "opencode --provider underclass --model underclass/gpt-5.5"
+          },
+          "source": "https://github.com/ghuntley/underclass/blob/9244c8169bb1b73492f0c5ad5b693d59d65034da/README.md?plain=1#L27",
+          "seen": "2026-09-23",
+          "quote": "**No client changes** — the surface is plain `/v1/*`; point opencode (or anything OpenAI-compatible) at it."
+        },
+        {
+          "value": "Ditched Opus 5.5 over the Claude Code classifier",
+          "surface": null,
+          "source": "https://x.com/GeoffreyHuntley/status/2107767325399437343",
+          "seen": "2026-10-07",
+          "quote": "I'm ditching Opus 5.5. The classifier in Claude Code is too paternalistic and breaks my flow/development loops."
+        }
+      ]
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "alongside Claude Code in Overalls",
+      "surface": null,
+      "source": "https://github.com/ghuntley/overalls/blob/00a6d20eb5912fe2605126ff84bc16cd011e2d08/AGENTS.md#L11-L12",
+      "seen": "2026-11-05",
+      "quote": "Assume other Claude Code and Codex agents may be working in this repository at\n  the same time."
+    },
+    {
+      "name": "Overalls (ex Loom, Kittens)",
+      "icon": null,
+      "role": "self-built harness and dev platform",
+      "surface": null,
+      "source": "https://x.com/GeoffreyHuntley/status/2107772134219288660",
+      "seen": "2026-10-07",
+      "quote": "naw, i use my own harness these days. if kittens can't build kittens then kittens is a failure.",
+      "also": [
+        {
+          "source": "https://x.com/GeoffreyHuntley/status/2110937856654860299",
+          "seen": "2026-10-16",
+          "quote": "Loom, aka Kittens, is now called Overalls."
         }
       ],
-      "inferred": true
-    },
-    {
-      "name": "Cursor",
-      "icon": "cursor",
-      "role": "Cloud Agents ship to production",
-      "surface": "web",
-      "surface_source": {
-        "source": "https://ghuntley.com/rad/",
-        "seen": "2026-03-09",
-        "quote": "If I click Launch Agent, then it utilises Cursor's new Cloud Agents and Workflow Automations to ship it straight into production using a risk-based approach."
-      },
-      "source": "https://ghuntley.com/rad/",
-      "seen": "2026-03-09",
-      "quote": "Last month, Cursor hooked me up with a preview of their new stuff, and now that it's out, this is how I've been using it.",
-      "history": []
-    },
-    {
-      "name": "Loom",
-      "icon": null,
-      "role": "his own agent, research only",
-      "surface": null,
-      "source": "https://github.com/ghuntley/loom/blob/a9cfbc6cf085cc8b6c01dd265ca212e458156ba0/README.md?plain=1",
-      "seen": "2026-01-15",
-      "quote": "Loom is an AI-powered coding agent built in Rust.",
-      "history": []
+      "history": [
+        {
+          "value": "Loom, research only",
+          "surface": null,
+          "source": "https://github.com/ghuntley/loom/blob/a9cfbc6cf085cc8b6c01dd265ca212e458156ba0/README.md?plain=1",
+          "seen": "2026-01-15",
+          "quote": "Loom is an AI-powered coding agent built in Rust."
+        }
+      ]
     }
   ],
   "models": [
     {
-      "name": "GPT-6.1 Sol",
-      "icon": "openai",
-      "detail": "no or low reasoning",
-      "source": "https://ghuntley.com/readable/",
-      "seen": "2026-10-02",
-      "quote": "Personally, I run a mix of GPT 6.1 sol on no or low reasoning, and GLM/Kimi.",
-      "history": []
+      "name": "Claude Opus 5.5",
+      "icon": "claude",
+      "inferred": true,
+      "source": "https://x.com/GeoffreyHuntley/status/2112246468492869936",
+      "seen": "2026-10-19",
+      "quote": "ant's latest opus model does feel dramatically better than anything openai offers right now.",
+      "also": [
+        {
+          "source": "https://github.com/ghuntley/overalls/commit/02cde84f7674b955b3142ca7ccea8b44f1980ed4",
+          "seen": "2026-11-02",
+          "quote": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
+        }
+      ],
+      "history": [
+        {
+          "value": "Distrust of Opus 5.5",
+          "source": "https://x.com/GeoffreyHuntley/status/2105970443299754249",
+          "seen": "2026-10-02",
+          "quote": "But when I use Opus 5.5... I feel this need to watch it. There's an intense distrust."
+        }
+      ]
     },
     {
-      "name": "GLM / Kimi",
-      "icon": "zai",
-      "detail": "cheap open weights",
+      "name": "GPT-6.1 Sol",
+      "icon": "openai",
+      "detail": "no or low reasoning; cut back in October",
       "source": "https://ghuntley.com/readable/",
       "seen": "2026-10-02",
       "quote": "Personally, I run a mix of GPT 6.1 sol on no or low reasoning, and GLM/Kimi.",
-      "history": []
+      "history": [
+        {
+          "value": "GLM / Kimi cheap open weights",
+          "source": "https://ghuntley.com/readable/",
+          "seen": "2026-10-02",
+          "quote": "Personally, I run a mix of GPT 6.1 sol on no or low reasoning, and GLM/Kimi."
+        }
+      ],
+      "also": [
+        {
+          "source": "https://x.com/GeoffreyHuntley/status/2113116146631082254",
+          "seen": "2026-10-22",
+          "quote": "Canceling 8 x ChatGPT 500 subs w/@OpenAI."
+        },
+        {
+          "source": "https://x.com/GeoffreyHuntley/status/2109810833572397163",
+          "seen": "2026-10-13",
+          "quote": "i do love my sol ultra fast; problems is capacity"
+        }
+      ]
     }
   ],
   "review_style": {
-    "value": "Ships without manual review; stops only for high-risk changes",
-    "source": "https://ghuntley.com/rad/",
-    "seen": "2026-03-09",
-    "quote": "Instead of having a manual code review for everything, I just ship it. If something is high enough on the risk matrix, for example, a database schema migration, then it halts the shipping, and I have to do a manual review.",
-    "kind": "spot-checks",
+    "value": "Agents audit: Opus double-checks, Daybreak Blue loops, Antithesis runs; manual only for high-risk (stated in March)",
+    "kind": "agent-reviews",
+    "source": "https://x.com/GeoffreyHuntley/status/2112246468492869936",
+    "seen": "2026-10-19",
+    "quote": "my workflow is burn openai to get mass outcomes then hand over to opus to double check for things or incompleteness.",
     "also": [
+      {
+        "source": "https://x.com/GeoffreyHuntley/status/2111817441403711550",
+        "seen": "2026-10-18",
+        "quote": "I'm currently running loops using Daybreak Blue to audit all the code in"
+      },
+      {
+        "source": "https://x.com/GeoffreyHuntley/status/2111432817980674225",
+        "seen": "2026-10-17",
+        "quote": "I'm going to be running autonomous discovery+rectification loops for the next two weeks"
+      },
+      {
+        "source": "https://x.com/GeoffreyHuntley/status/2107009205542830151",
+        "seen": "2026-10-05",
+        "quote": "i can't be the only one that finds reviewing code in GitHub next to useless these days?"
+      },
+      {
+        "source": "https://ghuntley.com/rad/",
+        "seen": "2026-03-09",
+        "quote": "Instead of having a manual code review for everything, I just ship it. If something is high enough on the risk matrix, for example, a database schema migration, then it halts the shipping, and I have to do a manual review."
+      },
       {
         "source": "https://ghuntley.com/readable/",
         "seen": "2026-10-02",
@@ -120,28 +221,63 @@
     ]
   },
   "harness": {
-    "value": "Agent loops, simulator first, agents validate against the simulator",
+    "value": "One big loop, then P0s driven by hand; Overalls Firecracker VMs, agent message board, a clone per feature",
     "short": "loops",
-    "source": "https://ghuntley.com/readable/",
-    "seen": "2026-10-02",
-    "quote": "It's a distributed system, so I'm building it in Rust and building the simulator first, then driving the agent to validate everything through the simulator.",
+    "source": "https://x.com/GeoffreyHuntley/status/2112227051423793154",
+    "seen": "2026-10-19",
+    "quote": "one phat loop to build the world.",
+    "also": [
+      {
+        "source": "https://github.com/ghuntley/overalls/blob/00a6d20eb5912fe2605126ff84bc16cd011e2d08/AGENTS.md#L14-L15",
+        "seen": "2026-11-05",
+        "quote": "Coordinate with those agents through the message board functionality built"
+      },
+      {
+        "source": "https://x.com/GeoffreyHuntley/status/2118668987269611937",
+        "seen": "2026-11-06",
+        "quote": "i still drive my loops by hand. $43k USD a week in inferencing."
+      }
+    ],
     "history": [
       {
         "value": "Bash while loop piping PROMPT.md into the agent",
         "source": "https://ghuntley.com/ralph/",
         "seen": "2025-07-14",
         "quote": "while :; do cat PROMPT.md | claude-code ; done"
+      },
+      {
+        "value": "Agent loops, simulator first, agents validate against the simulator",
+        "source": "https://ghuntley.com/readable/",
+        "seen": "2026-10-02",
+        "quote": "It's a distributed system, so I'm building it in Rust and building the simulator first, then driving the agent to validate everything through the simulator."
       }
     ]
   },
-  "parallelism": null,
+  "parallelism": {
+    "value": 3,
+    "short": "2-3 P0s",
+    "inferred": true,
+    "source": "https://x.com/GeoffreyHuntley/status/2112220673460367634",
+    "seen": "2026-10-19",
+    "quote": "lock in on two or three things; drive them by hand and engineer recursive outcomes.",
+    "history": []
+  },
   "rules_files": {
-    "value": "Per-repo AGENTS.md: testing policy, ADRs, code contracts, static types required",
+    "value": "Overalls AGENTS.md (179 lines): concurrent agents, message board, ADR upkeep on every change",
     "short": "AGENTS.md",
-    "url": "https://github.com/ghuntley/underclass/blob/3e35c3bf3d24c7fa79cb93602b571b1b9c194514/AGENTS.md",
-    "source": "https://github.com/ghuntley/underclass/blob/3e35c3bf3d24c7fa79cb93602b571b1b9c194514/AGENTS.md#L42",
-    "seen": "2026-09-26",
-    "quote": "Use the `code-contracts` skill for every code change and code review."
+    "url": "https://github.com/ghuntley/overalls/blob/00a6d20eb5912fe2605126ff84bc16cd011e2d08/AGENTS.md",
+    "source": "https://github.com/ghuntley/overalls/blob/00a6d20eb5912fe2605126ff84bc16cd011e2d08/AGENTS.md#L11",
+    "seen": "2026-11-05",
+    "quote": "Assume other Claude Code and Codex agents may be working in this repository at",
+    "also": [
+      {
+        "source": "https://github.com/ghuntley/underclass/blob/3e35c3bf3d24c7fa79cb93602b571b1b9c194514/AGENTS.md#L42",
+        "seen": "2026-09-26",
+        "quote": "Use the `code-contracts` skill for every code change and code review.",
+        "url": "https://github.com/ghuntley/underclass/blob/3e35c3bf3d24c7fa79cb93602b571b1b9c194514/AGENTS.md",
+        "value": "Per-repo AGENTS.md: testing policy, ADRs, code contracts, static types required"
+      }
+    ]
   },
   "skills": {
     "value": [
@@ -161,16 +297,15 @@
     "source": "https://github.com/ghuntley/slopdimension/tree/2e8de0c3e60cad04db139585d7ede1449b5b99f8/.agents/skills",
     "seen": "2026-08-30"
   },
-  "mcp_servers": {
+  "mcp_servers": null,
+  "hooks": {
     "value": [
-      "sequential-thinking",
-      "puppeteer"
+      "prek pre-commit running tools/precommit"
     ],
-    "source": "https://github.com/ghuntley/ghuntley/blob/2ab2f76c29e4423c5fa709d56a21e0cdb9260c52/.mcp.json#L4-L15",
-    "seen": "2025-09-19",
-    "quote": "\"args\": [\"-y\", \"@modelcontextprotocol/server-puppeteer\"],"
+    "source": "https://github.com/ghuntley/overalls/blob/00a6d20eb5912fe2605126ff84bc16cd011e2d08/AGENTS.md#L22-L24",
+    "seen": "2026-11-05",
+    "quote": "Without the hook, a commit skips `tools/precommit` silently."
   },
-  "hooks": null,
   "signature": {
     "value": "The Ralph loop",
     "kind": "habit",

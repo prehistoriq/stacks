@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "jph00",
   "status": "ok",
-  "checked": "2026-10-07",
+  "checked": "2026-11-14",
   "name": {
     "value": "Jeremy Howard",
     "source": "https://github.com/jph00"
@@ -77,12 +77,20 @@
     {
       "name": "Codex",
       "icon": "codex",
-      "role": "second harness, hybrid mode",
+      "role": "second harness, same kernels",
       "surface": null,
-      "source": "https://github.com/AnswerDotAI/aai-coding/blob/bb010bf14189878ed1b2bb8db7158305c61696a3/README.md#L3",
-      "seen": "2026-10-06",
-      "quote": "`aai-coding` contains Answer.AI's shared configuration, skills, and tools for Claude Code and Codex.",
-      "history": []
+      "source": "https://github.com/AnswerDotAI/aai-coding/blob/e8b4261994d6ba878158b660155df78860c307e2/README.md#L29",
+      "seen": "2026-11-04",
+      "quote": "Claude Code and Codex use persistent kernels for Python, file inspection, searching, notebooks, and most edits.",
+      "history": [
+        {
+          "value": "Codex, hybrid mode",
+          "surface": null,
+          "source": "https://github.com/AnswerDotAI/aai-coding/blob/bb010bf14189878ed1b2bb8db7158305c61696a3/README.md#L3",
+          "seen": "2026-10-06",
+          "quote": "`aai-coding` contains Answer.AI's shared configuration, skills, and tools for Claude Code and Codex."
+        }
+      ]
     }
   ],
   "models": [
@@ -97,13 +105,27 @@
     }
   ],
   "review_style": {
-    "value": "Small steps he follows one by one; the agent must propose before touching his published libraries",
-    "source": "https://news.ycombinator.com/item?id=45455810",
-    "seen": "2025-10-02",
-    "quote": "I use small fast iterative steps and work to maximize my learning at each step.",
+    "value": "Builds from small pieces that can be fully understood. One big agent-written experiment left 'code that no one understands'",
     "kind": "unknown",
-    "inferred": true,
+    "source": "https://www.youtube.com/watch?v=dHBEQ-Ryo24&t=2999s",
+    "seen": "2026-03-03",
+    "quote": "when you're working on reasonably small pieces that you can fully understand",
     "also": [
+      {
+        "source": "https://www.youtube.com/watch?v=dHBEQ-Ryo24&t=3151s",
+        "seen": "2026-03-03",
+        "quote": "here's a piece of code that no one understands."
+      },
+      {
+        "source": "https://github.com/AnswerDotAI/ipymini/blob/5268508263a170a935903283bc6829159e669085/README.md#L5",
+        "seen": "2026-09-21",
+        "quote": "This was almost entirely implemented by AI, and no human currently fully understands all the generated code, so please be very careful, because we don't actually know what this code does."
+      },
+      {
+        "source": "https://news.ycombinator.com/item?id=45455810",
+        "seen": "2025-10-02",
+        "quote": "I use small fast iterative steps and work to maximize my learning at each step."
+      },
       {
         "source": "https://github.com/AnswerDotAI/aai-coding/blob/bb010bf14189878ed1b2bb8db7158305c61696a3/prompts/sysp.md#L22",
         "seen": "2026-10-06",
@@ -114,15 +136,31 @@
         "seen": "2025-10-30",
         "quote": "If you want to maintain craftsmanship while using AI, you need tight iteration loops so you can see what’s happening."
       }
+    ],
+    "history": [
+      {
+        "value": "Small steps he follows one by one; the agent must propose before touching his published libraries",
+        "kind": "unknown",
+        "source": "https://news.ycombinator.com/item?id=45455810",
+        "seen": "2025-10-02",
+        "quote": "I use small fast iterative steps and work to maximize my learning at each step."
+      }
     ]
   },
   "harness": {
-    "value": "Native file tools denied; all reading, editing and Python run through one persistent IPython kernel (clikernel)",
-    "short": "persistent kernel",
-    "source": "https://github.com/AnswerDotAI/aai-coding/blob/bb010bf14189878ed1b2bb8db7158305c61696a3/README.md#L31",
-    "seen": "2026-10-06",
-    "quote": "The kernel-centric setup denies native file tools. File reading, editing, searching, and Python execution use one persistent IPython kernel through clikernel.",
-    "history": []
+    "value": "One persistent IPython kernel per agent (clikernel) for Python, reading, searching and most edits; exhash-verified edits; Bash for shell and Git",
+    "short": "persistent kernels",
+    "source": "https://github.com/AnswerDotAI/aai-coding/blob/e8b4261994d6ba878158b660155df78860c307e2/README.md#L31",
+    "seen": "2026-11-04",
+    "quote": "Each agent has its own kernel and Python state.",
+    "history": [
+      {
+        "value": "Native file tools denied; all reading, editing and Python run through one persistent IPython kernel (clikernel)",
+        "source": "https://github.com/AnswerDotAI/aai-coding/blob/bb010bf14189878ed1b2bb8db7158305c61696a3/README.md#L31",
+        "seen": "2026-10-06",
+        "quote": "The kernel-centric setup denies native file tools. File reading, editing, searching, and Python execution use one persistent IPython kernel through clikernel."
+      }
+    ]
   },
   "parallelism": null,
   "rules_files": {

@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "jessitron",
   "status": "ok",
-  "checked": "2026-10-12",
+  "checked": "2026-11-14",
   "name": {
     "value": "Jessica Kerr",
     "source": "https://github.com/jessitron"
@@ -82,6 +82,14 @@
           "seen": "2026-06-02",
           "quote": "Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>"
         }
+      ],
+      "detail": "medium effort",
+      "also": [
+        {
+          "source": "https://github.com/jessitron/dotfiles/blob/de3e04217633235e1ef2c41867acf7eca431ac39/llm/claude-personal.settings.json#L34",
+          "seen": "2026-10-27",
+          "quote": "\"effortLevel\": \"medium\""
+        }
       ]
     },
     {
@@ -95,12 +103,29 @@
     }
   ],
   "review_style": {
-    "value": "A reviewer agent checks each PR against a stated correctness condition; her own reviews fix the system",
-    "source": "https://jessitron.com/2026/04/06/adding-correctness-conditions-to-code-changes/",
-    "seen": "2026-04-06",
-    "quote": "Verification – We can add a reviewer agent to check each PR for missed documentation updates.",
-    "kind": "agent-reviews",
+    "value": "Agents land on main unattended; afterwards, one HTML page per agent gets reviewed, with its guesses and a diff link",
+    "kind": "spot-checks",
+    "inferred": true,
+    "source": "https://github.com/jessitron/dotfiles/blob/de3e04217633235e1ef2c41867acf7eca431ac39/llm/skills/away-mode/SKILL.md#L18",
+    "seen": "2026-10-25",
+    "quote": "Jess deletes it once she has reviewed it, so write for her review, not for posterity",
     "also": [
+      {
+        "source": "https://github.com/jessitron/dotfiles/blob/de3e04217633235e1ef2c41867acf7eca431ac39/llm/skills/away-mode/SKILL.md#L41",
+        "seen": "2026-10-25",
+        "quote": "Each agent's work lands on main as one merge commit, so its commits stay a visible lump."
+      },
+      {
+        "source": "https://jessitron.com/2026/10/13/sharing-theories-with-agents/",
+        "seen": "2026-10-13",
+        "quote": "To go from vibe-coded to programmed, I build that theory. I get the agent to start a document explaining what’s going on in that software and why."
+      },
+      {
+        "source": "https://jessitron.com/2026/04/06/adding-correctness-conditions-to-code-changes/",
+        "seen": "2026-04-06",
+        "quote": "Verification – We can add a reviewer agent to check each PR for missed documentation updates.",
+        "inferred": true
+      },
       {
         "source": "https://jessitron.com/2026/04/06/adding-correctness-conditions-to-code-changes/",
         "seen": "2026-04-06",
@@ -112,44 +137,94 @@
         "quote": "(This project does not deserve that level of scrutiny.)"
       }
     ],
-    "inferred": true
+    "history": [
+      {
+        "value": "A reviewer agent checks each PR against a stated correctness condition; her own reviews fix the system",
+        "kind": "agent-reviews",
+        "source": "https://jessitron.com/2026/04/06/adding-correctness-conditions-to-code-changes/",
+        "seen": "2026-04-06",
+        "quote": "Verification – We can add a reviewer agent to check each PR for missed documentation updates.",
+        "inferred": true
+      }
+    ]
   },
   "harness": {
-    "value": "Claude Code with her seamapping plugin; subagents spawned freely",
-    "short": "subagents",
-    "source": "https://github.com/jessitron/mtg-deck-shuffler/blob/d463957d0b6fc318f18f4ae7fb570792dd310727/CLAUDE.md#L10-L12",
-    "seen": "2026-10-06",
-    "quote": "- **Spawn subagents whenever it's a good idea** — don't wait to be asked.",
+    "value": "Claude Code: away-mode waves of worktree subagents, engagement-mode background workers, yaks as tracker",
+    "short": "away mode",
+    "source": "https://github.com/jessitron/dotfiles/blob/de3e04217633235e1ef2c41867acf7eca431ac39/llm/skills/away-mode/SKILL.md#L8",
+    "seen": "2026-10-25",
+    "quote": "Keep your own context small: every piece of real work happens in a subagent, and you read only their short final reports.",
+    "history": [
+      {
+        "value": "Claude Code with her seamapping plugin; subagents spawned freely",
+        "source": "https://github.com/jessitron/mtg-deck-shuffler/blob/d463957d0b6fc318f18f4ae7fb570792dd310727/CLAUDE.md#L10-L12",
+        "seen": "2026-10-06",
+        "quote": "- **Spawn subagents whenever it's a good idea** — don't wait to be asked."
+      }
+    ]
+  },
+  "parallelism": {
+    "value": 6,
+    "short": "3 to 6 per wave",
+    "inferred": true,
+    "source": "https://github.com/jessitron/dotfiles/blob/de3e04217633235e1ef2c41867acf7eca431ac39/llm/skills/away-mode/SKILL.md#L33",
+    "seen": "2026-10-25",
+    "quote": "picks 3 to 6 yaks agents can finish without Jess.",
     "history": []
   },
-  "parallelism": null,
   "rules_files": {
-    "value": "CLAUDE.md (fleet-level, plus one per app)",
+    "value": "Personal global CLAUDE.md, plus a fleet-level one and one per app",
     "short": "CLAUDE.md",
-    "url": "https://github.com/jessitron/mtg-deck-shuffler/blob/d463957d0b6fc318f18f4ae7fb570792dd310727/CLAUDE.md",
-    "source": "https://github.com/jessitron/mtg-deck-shuffler/blob/d463957d0b6fc318f18f4ae7fb570792dd310727/CLAUDE.md#L13-L15",
-    "seen": "2026-10-06",
-    "quote": "- **Done work leaves no trace.** Don't keep `## Done` sections, tombstones, or \"decided"
+    "url": "https://github.com/jessitron/dotfiles/blob/de3e04217633235e1ef2c41867acf7eca431ac39/llm/claude-personal.CLAUDE.md",
+    "source": "https://github.com/jessitron/dotfiles/blob/de3e04217633235e1ef2c41867acf7eca431ac39/llm/claude-personal.CLAUDE.md#L17",
+    "seen": "2026-10-27",
+    "quote": "Tag the commit messages with \"- claude\" so I know you wrote it, unless some repo-level rule says otherwise.",
+    "history": [
+      {
+        "value": "CLAUDE.md (fleet-level, plus one per app)",
+        "url": "https://github.com/jessitron/mtg-deck-shuffler/blob/d463957d0b6fc318f18f4ae7fb570792dd310727/CLAUDE.md",
+        "source": "https://github.com/jessitron/mtg-deck-shuffler/blob/d463957d0b6fc318f18f4ae7fb570792dd310727/CLAUDE.md#L13-L15",
+        "seen": "2026-10-06",
+        "quote": "- **Done work leaves no trace.** Don't keep `## Done` sections, tombstones, or \"decided"
+      }
+    ]
   },
   "skills": {
     "value": [
+      "away-mode",
+      "engagement-mode",
+      "iterate-on-a-document",
+      "make-a-project-overview",
       "begin-voyage",
       "establish-tracking",
       "orient",
       "drop-buoy",
       "request-skill-change",
       "create-owner",
+      "make-a-new-workflow",
+      "grilling",
+      "grilling-but-more-open",
       "give-yourself-a-script",
       "one-time-test"
     ],
-    "count": 8,
+    "count": 15,
     "featured": [
-      "orient",
-      "create-owner",
-      "give-yourself-a-script"
+      "away-mode",
+      "iterate-on-a-document",
+      "create-owner"
     ],
-    "source": "https://github.com/jessitron/tronijess-skills/blob/f2e1d10e61376c756892d109f74fd50c076d3ff2/README.md#L15-L55",
-    "seen": "2026-08-23"
+    "source": "https://github.com/jessitron/tronijess-skills/tree/9dbeb51f5c285bf0d44bb2c4c89f927eabf5ffbe/plugins",
+    "seen": "2026-10-28",
+    "also": [
+      {
+        "source": "https://github.com/jessitron/dotfiles/tree/de3e04217633235e1ef2c41867acf7eca431ac39/llm/skills",
+        "seen": "2026-10-25"
+      },
+      {
+        "source": "https://github.com/jessitron/iterate-on-docs/tree/6747810692c436e53df3e97ebd47093e0babdbe8",
+        "seen": "2026-11-01"
+      }
+    ]
   },
   "mcp_servers": {
     "value": [

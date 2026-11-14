@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "tobi",
   "status": "ok",
-  "checked": "2026-10-07",
+  "checked": "2026-11-14",
   "name": {
     "value": "Tobi Lütke",
     "source": "https://github.com/tobi"
@@ -29,9 +29,46 @@
   },
   "agents": [
     {
+      "name": "Pi",
+      "icon": "pi",
+      "role": "CLI, and in a web UI through Ultimate",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://github.com/tobi/pi-herdr-workers/blob/e540d099cff8415b72bde553fdaa6b4116b07697/README.md#L23",
+        "seen": "2026-09-01",
+        "quote": "Turns this pane into an orchestrator and puts other Pi agents in neighboring Herdr panes."
+      },
+      "source": "https://x.com/tobi/status/2116252712702705905",
+      "seen": "2026-10-30",
+      "quote": "pi \"go grab https://vercel.com/blog/introducing-geist-serif and set it as system font\"",
+      "also": [
+        {
+          "source": "https://x.com/tobi/status/2056198717225464307",
+          "seen": "2026-05-18",
+          "quote": "I’ve had very good results running autoresearch with local qwen 3.6 26b model as long as I had a simple vibed pi “advisor” extension that allowed it to periodically ask GPT 5.5 for ideas."
+        },
+        {
+          "source": "https://x.com/tobi/status/2030771823151853938",
+          "seen": "2026-03-08",
+          "quote": "told my pi to read this github repo and make a version of that for the qmd query-expansion model with the goal of highest quality score and speed."
+        },
+        {
+          "source": "https://x.com/tobi/status/2018506396321419760",
+          "seen": "2026-02-03",
+          "quote": "Pi is the most interesting agent harness."
+        },
+        {
+          "source": "https://github.com/tobi/wrap/commit/c37a6fe4f6314937da09f135be8e72890d744095",
+          "seen": "2026-10-31",
+          "quote": "Ultimate-Conversation: 326702",
+          "inferred": true
+        }
+      ]
+    },
+    {
       "name": "Claude Code",
       "icon": "claudecode",
-      "role": "most recent commits",
+      "role": "on some repos, per commit trailers",
       "surface": null,
       "source": "https://github.com/tobi/track-atlas/commit/8c12ac414ea74ffe4a3ef74b294a2eafab7ee60d",
       "seen": "2026-10-06",
@@ -52,44 +89,33 @@
       ]
     },
     {
-      "name": "Pi",
-      "icon": "pi",
-      "role": "self-extending harness",
-      "surface": "cli",
-      "surface_source": {
-        "source": "https://github.com/tobi/pi-herdr-workers/blob/e540d099cff8415b72bde553fdaa6b4116b07697/README.md#L23",
-        "seen": "2026-09-01",
-        "quote": "Turns this pane into an orchestrator and puts other Pi agents in neighboring Herdr panes."
-      },
-      "source": "https://x.com/tobi/status/2056198717225464307",
-      "seen": "2026-05-18",
-      "quote": "I’ve had very good results running autoresearch with local qwen 3.6 26b model as long as I had a simple vibed pi “advisor” extension that allowed it to periodically ask GPT 5.5 for ideas.",
-      "also": [
-        {
-          "source": "https://x.com/tobi/status/2030771823151853938",
-          "seen": "2026-03-08",
-          "quote": "told my pi to read this github repo and make a version of that for the qmd query-expansion model with the goal of highest quality score and speed."
-        },
-        {
-          "source": "https://x.com/tobi/status/2018506396321419760",
-          "seen": "2026-02-03",
-          "quote": "Pi is the most interesting agent harness."
-        }
-      ]
-    },
-    {
-      "name": "Hermes Agent",
+      "name": "bb",
       "icon": null,
-      "role": "personal agent, skills",
+      "role": "agentic IDE, writes plugins for it",
       "surface": null,
-      "source": "https://x.com/tobi/status/2072368961795039694",
-      "seen": "2026-07-01",
-      "quote": "If you use Hermes, just go “/learn duckdb and ducklake and use it” and all your data asks will get better.",
+      "source": "https://x.com/tobi/status/2111930824035836020",
+      "seen": "2026-10-18",
+      "quote": "bb is really great",
       "also": [
         {
-          "source": "https://x.com/tobi/status/2041719844920283326",
-          "seen": "2026-04-08",
-          "quote": "Hermes agent ships with this nifty /manim_video skill so I asked it to explain how a QMD query works:"
+          "source": "https://github.com/tobi/bb-plugin-duckdb-charts/commit/0973fcca6a67d1694b0e5e8e07182f78f840b3cf",
+          "seen": "2026-10-17",
+          "quote": "DuckDB Charts: interactive inline charts for bb, fed by DuckDB"
+        }
+      ],
+      "history": [
+        {
+          "value": "Hermes Agent",
+          "source": "https://x.com/tobi/status/2072368961795039694",
+          "seen": "2026-07-01",
+          "quote": "If you use Hermes, just go “/learn duckdb and ducklake and use it” and all your data asks will get better.",
+          "also": [
+            {
+              "source": "https://x.com/tobi/status/2041719844920283326",
+              "seen": "2026-04-08",
+              "quote": "Hermes agent ships with this nifty /manim_video skill so I asked it to explain how a QMD query works:"
+            }
+          ]
         }
       ]
     }
@@ -99,9 +125,9 @@
       "name": "Claude Opus 5.5",
       "icon": "claude",
       "detail": "1M context",
-      "source": "https://github.com/tobi/track-atlas/commit/8c12ac414ea74ffe4a3ef74b294a2eafab7ee60d",
-      "seen": "2026-10-06",
-      "quote": "Co-authored-by: Claude Opus 5.5 (1M context) <noreply@anthropic.com>",
+      "source": "https://github.com/roundhouse-rb/roundhouse/commit/2dcdf0156d92652650aef72281289a71368d83c5",
+      "seen": "2026-11-13",
+      "quote": "Co-Authored-By: Claude Opus 5.5",
       "inferred": true,
       "history": [
         {
@@ -154,15 +180,21 @@
         "source": "https://x.com/tobi/status/2101817922607853708",
         "seen": "2026-09-20",
         "quote": "Accept code on merit and ensure that a person takes accountability for it."
+      },
+      {
+        "source": "https://www.youtube.com/watch?v=r9SHzCW9zxo&t=3037s",
+        "seen": "2026-10-28",
+        "quote": "It's like it's code. Like if it's code, you accept it, right?"
       }
     ]
   },
   "harness": {
-    "value": "herdr agent panes, Pi /team workers",
-    "short": "herdr",
-    "source": "https://x.com/tobi/status/2086488457132626052",
-    "seen": "2026-08-09",
-    "quote": "my favorite way to explain people herdr is to just open a new workspace, launch an agent and tell it to:",
+    "value": "Agents inside self-built wrap microVMs, driven from bb and Ultimate",
+    "short": "wrap VMs",
+    "inferred": true,
+    "source": "https://github.com/tobi/wrap/blob/c562a7d2d2dd96600641ffad4c52297ab3bb345a/README.md#L3",
+    "seen": "2026-11-03",
+    "quote": "Run commands and coding agents in a disposable Arch Linux microVM built around the folder you are in.",
     "history": [
       {
         "value": "tmux",
@@ -175,6 +207,12 @@
         "source": "https://x.com/tobi/status/2057108476560642402",
         "seen": "2026-05-20",
         "quote": "Cmux is great."
+      },
+      {
+        "value": "herdr agent panes, Pi /team workers",
+        "source": "https://x.com/tobi/status/2086488457132626052",
+        "seen": "2026-08-09",
+        "quote": "my favorite way to explain people herdr is to just open a new workspace, launch an agent and tell it to:"
       }
     ]
   },

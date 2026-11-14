@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "mrnugget",
   "status": "ok",
-  "checked": "2026-10-12",
+  "checked": "2026-11-14",
   "name": {
     "value": "Thorsten Ball",
     "source": "https://github.com/mrnugget"
@@ -48,9 +48,9 @@
     {
       "name": "Claude Opus 5.5",
       "icon": "claude",
-      "source": "https://x.com/thorstenball/status/2104860291674886642",
-      "seen": "2026-09-29",
-      "quote": "Opus 5.5 did a great job. It feels nice to use and all the keybindings you expect work.",
+      "source": "https://x.com/thorstenball/status/2117176046588178856",
+      "seen": "2026-11-02",
+      "quote": "Opus 5.5",
       "history": [
         {
           "value": "Opus 4.7 (Amp smart mode)",
@@ -63,6 +63,12 @@
           "source": "https://registerspill.thorstenball.com/p/joy-and-curiosity-99",
           "seen": "2026-09-12",
           "quote": "Something changed with these latest models, with Fable 5.1 and GPT-6 Astra."
+        },
+        {
+          "value": "Claude Opus 5.5",
+          "source": "https://x.com/thorstenball/status/2104860291674886642",
+          "seen": "2026-09-29",
+          "quote": "Opus 5.5 did a great job. It feels nice to use and all the keybindings you expect work."
         }
       ]
     },
@@ -84,12 +90,32 @@
     }
   ],
   "review_style": {
-    "value": "Spot checks and architecture, not every line",
-    "source": "https://registerspill.thorstenball.com/p/joy-and-curiosity-95",
-    "seen": "2026-08-16",
-    "quote": "And for all of the things I shipped here, I didn’t review each line anyway. I do spot checks and make sure the architecture is right, yes, but do I need local tools for that? No.",
+    "value": "Spot checks, agent demo videos and file names; no mandatory review, no PRs",
     "kind": "spot-checks",
+    "source": "https://x.com/thorstenball/status/2112993651441742082",
+    "seen": "2026-10-21",
+    "quote": "I also check what the agent does in spots, which is not mandatory code review",
     "also": [
+      {
+        "source": "https://www.youtube.com/watch?v=tEse6n4hEJQ&t=3109s",
+        "seen": "2026-10-30",
+        "quote": "when I say I look at the code, I look at the file names, right?"
+      },
+      {
+        "source": "https://x.com/thorstenball/status/2117978004794003552",
+        "seen": "2026-11-04",
+        "quote": "The agent records them, I check them."
+      },
+      {
+        "source": "https://x.com/thorstenball/status/2110076069781090662",
+        "seen": "2026-10-13",
+        "quote": "We don't review each others code"
+      },
+      {
+        "source": "https://registerspill.thorstenball.com/p/joy-and-curiosity-95",
+        "seen": "2026-08-16",
+        "quote": "And for all of the things I shipped here, I didn’t review each line anyway. I do spot checks and make sure the architecture is right, yes, but do I need local tools for that? No."
+      },
       {
         "source": "https://registerspill.thorstenball.com/p/joy-and-curiosity-83",
         "seen": "2026-04-26",
@@ -103,12 +129,19 @@
     ]
   },
   "harness": {
-    "value": "Amp agents in remote orbs, no local dev environment",
+    "value": "Amp agents in remote orbs, no local dev environment; the agent pushes to main",
     "short": "orbs",
-    "source": "https://registerspill.thorstenball.com/p/joy-and-curiosity-95",
-    "seen": "2026-08-16",
-    "quote": "I have not used my local development environment for any of this. I’ve done all of this remotely, using Amp, in orbs.",
-    "history": []
+    "source": "https://x.com/thorstenball/status/2116968154538643529",
+    "seen": "2026-11-01",
+    "quote": "I constantly have the agent push to main.",
+    "history": [
+      {
+        "value": "Amp agents in remote orbs, no local dev environment",
+        "source": "https://registerspill.thorstenball.com/p/joy-and-curiosity-95",
+        "seen": "2026-08-16",
+        "quote": "I have not used my local development environment for any of this. I’ve done all of this remotely, using Amp, in orbs."
+      }
+    ]
   },
   "parallelism": null,
   "rules_files": {

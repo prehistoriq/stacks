@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "tiangolo",
   "status": "ok",
-  "checked": "2026-10-07",
+  "checked": "2026-11-14",
   "name": {
     "value": "Sebastián Ramírez",
     "source": "https://github.com/tiangolo"
@@ -99,6 +99,11 @@
         "source": "https://github.com/Kludex/starlette/pull/3135",
         "seen": "2026-02-10",
         "quote": "I used AI to help write the code and tests, then I manually reviewed carefully all the code and adjusted, reverted (and unreverted :sweat_smile: ) some changes."
+      },
+      {
+        "source": "https://x.com/tiangolo/status/2119390059635920996",
+        "seen": "2026-11-08",
+        "quote": "I can check all the code, tab by tab, if it's all good, then I can merge it all."
       }
     ]
   },

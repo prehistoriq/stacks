@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "sqs",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-14",
   "name": {
     "value": "Quinn Slack",
     "source": "https://github.com/sqs"
@@ -45,22 +45,44 @@
   ],
   "models": [
     {
-      "name": "Amp Dial: medium",
-      "icon": "amp",
-      "detail": "high for tricky tasks",
-      "source": "https://ampcode.com/time-capsules/1",
-      "seen": "2026-07-27",
-      "quote": "I'll do it in an orb. I think medium is probably fine for this",
-      "history": []
+      "name": "Opus (Amp medium mode)",
+      "icon": "claude",
+      "detail": "high effort",
+      "source": "https://x.com/sqs/status/2114171118387093581",
+      "seen": "2026-10-25",
+      "quote": "I'm just using Amp's medium mode. It's high effort for Opus.",
+      "history": [
+        {
+          "value": "Amp Dial: medium, high for tricky tasks",
+          "source": "https://ampcode.com/time-capsules/1",
+          "seen": "2026-07-27",
+          "quote": "I'll do it in an orb. I think medium is probably fine for this"
+        }
+      ]
     }
   ],
   "review_style": {
-    "value": "Agent reviews first, he scans diffs for red flags",
-    "source": "https://ampcode.com/podcast/season-02/episode-02",
-    "seen": "2026-08-11",
-    "quote": "Yeah. It's tough because I still draw a lot on my background as a developer when I have the agent review the code and it makes, you know, I probably accept two-thirds of its suggestions.",
+    "value": "Agent proves it works first; then a look at changed files and a scan for red flags. No mandatory review at Amp",
     "kind": "agent-reviews",
+    "source": "https://ampcode.com/podcast/season-02/episode-06",
+    "seen": "2026-10-20",
+    "quote": "Yeah, the same way. And sometimes even just looking at the files that were changed is also helpful",
     "also": [
+      {
+        "source": "https://ampcode.com/podcast/season-02/episode-06",
+        "seen": "2026-10-20",
+        "quote": "I don't think we really ever do pull requests."
+      },
+      {
+        "source": "https://www.youtube.com/watch?v=kQguG4YS0d0&t=270",
+        "seen": "2026-10-16",
+        "quote": "we do not do any code review. We've never done any code review. We think it's the dumbest thing ever."
+      },
+      {
+        "source": "https://ampcode.com/podcast/season-02/episode-02",
+        "seen": "2026-08-11",
+        "quote": "Yeah. It's tough because I still draw a lot on my background as a developer when I have the agent review the code and it makes, you know, I probably accept two-thirds of its suggestions."
+      },
       {
         "source": "https://ampcode.com/podcast/season-02/episode-02",
         "seen": "2026-08-11",
@@ -79,12 +101,36 @@
     ]
   },
   "harness": {
-    "value": "Amp threads in cloud orbs, previews in portals",
+    "value": "Amp threads in cloud orbs, dictated or by voice call with Puck; previews in portals",
     "short": "orbs",
-    "source": "https://ampcode.com/time-capsules/1",
-    "seen": "2026-07-27",
-    "quote": "as recently as like a month ago, I had like five different worktrees on my machine and I had a way to make their dev servers run independently, but it like, it was so messy. Now with orbs, it just works.",
-    "history": []
+    "source": "https://x.com/sqs/status/2114751533049135190",
+    "seen": "2026-10-26",
+    "quote": "I just had a 45min commute and used a voice call w/Puck the whole time.",
+    "also": [
+      {
+        "source": "https://x.com/sqs/status/2112464359050051913",
+        "seen": "2026-10-20",
+        "quote": "I do it all the time while dictating and it has never been a problem."
+      },
+      {
+        "source": "https://www.youtube.com/watch?v=kQguG4YS0d0&t=830",
+        "seen": "2026-10-16",
+        "quote": "We killed our editor extension and we didn't kill our CLI, but we're not using it anymore."
+      },
+      {
+        "source": "https://x.com/sqs/status/2120113139996086409",
+        "seen": "2026-11-10",
+        "quote": "Amp (orbs only, no more local dev for me)"
+      }
+    ],
+    "history": [
+      {
+        "value": "Amp threads in cloud orbs, previews in portals",
+        "source": "https://ampcode.com/time-capsules/1",
+        "seen": "2026-07-27",
+        "quote": "as recently as like a month ago, I had like five different worktrees on my machine and I had a way to make their dev servers run independently, but it like, it was so messy. Now with orbs, it just works."
+      }
+    ]
   },
   "parallelism": null,
   "rules_files": {

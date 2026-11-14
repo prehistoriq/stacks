@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "nolanlawson",
   "status": "ok",
-  "checked": "2026-10-07",
+  "checked": "2026-11-14",
   "name": {
     "value": "Nolan Lawson",
     "source": "https://github.com/nolanlawson"
@@ -33,7 +33,19 @@
       "source": "https://nolanlawson.com/2026/08/23/the-asteroid-currently-hitting-frontend-web-development/",
       "seen": "2026-08-23",
       "quote": "These days, given a slow-loading website, even as someone who’s written about browser performance for years and who literally worked on a browser performance team, I would probably just chuck a Chrome trace at Claude Code and have it suggest improvements. In fact I’ve done this very thing in my day job and gotten some good results.",
-      "history": []
+      "history": [],
+      "also": [
+        {
+          "source": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+          "seen": "2026-10-28",
+          "quote": "I’m on a Max plan, so this was just part of my overall $100/month."
+        },
+        {
+          "source": "https://nolanlawson.com/2026/09/30/goodbye-wordpress/",
+          "seen": "2026-09-30",
+          "quote": "I used Claude to do most of the work."
+        }
+      ]
     },
     {
       "name": "Codex",
@@ -65,13 +77,28 @@
   ],
   "models": [
     {
-      "name": "Claude Opus 4.7",
+      "name": "Claude Opus 5.5",
       "icon": "claude",
-      "detail": "xhigh thinking",
-      "source": "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/",
-      "seen": "2026-05-26",
-      "quote": "Note that you’ll need gh installed, and also that I use Claude with Opus 4.7 on xhigh thinking and Codex with GPT 5.5 on high thinking.",
-      "history": []
+      "detail": "high effort",
+      "inferred": true,
+      "source": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+      "seen": "2026-10-28",
+      "quote": "I simply gave the spec to Opus 5.5 with high effort and told it to use the latest version of the given framework.",
+      "also": [
+        {
+          "source": "https://github.com/nolanlawson/agent-framework-benchmark/commit/4247b968fbc5667343db28eb442cbd9a17905d44",
+          "seen": "2026-10-25",
+          "quote": "Co-Authored-By: Claude Opus 5.5 (1M context)"
+        }
+      ],
+      "history": [
+        {
+          "value": "Claude Opus 4.7, xhigh thinking",
+          "source": "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/",
+          "seen": "2026-05-26",
+          "quote": "Note that you’ll need gh installed, and also that I use Claude with Opus 4.7 on xhigh thinking and Codex with GPT 5.5 on high thinking."
+        }
+      ]
     },
     {
       "name": "GPT 5.5",
@@ -99,6 +126,16 @@
         "source": "https://nolanlawson.com/2026/08/16/you-can-just-choose-how-many-bugs-you-want-now/",
         "seen": "2026-08-16",
         "quote": "For example, I find myself spending a lot of time these days in code review, using tools like my triple-agent code review skill as well as Geoffrey Litt’s explain-diff skill."
+      },
+      {
+        "source": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+        "seen": "2026-10-28",
+        "quote": "The benchmark itself is largely vibe-coded, although I did review the code, so if there are mistakes then please consider them mine."
+      },
+      {
+        "source": "https://nolanlawson.com/2026/08/31/on-not-becoming-a-cyborg/",
+        "seen": "2026-08-31",
+        "quote": "my job these days is effectively to shepherd agents, skimming their meandering robo-prose and trying to steer them towards better code."
       }
     ]
   },

@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "dshipper",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-14",
   "name": {
     "value": "Dan Shipper",
     "source": "https://github.com/dshipper"
@@ -46,6 +46,11 @@
           "source": "https://every.to/chain-of-thought/when-your-vibe-coded-app-goes-viral-and-then-goes-down",
           "seen": "2026-03-20",
           "quote": "At 4 a.m. on the day after we launched our agent-native document editor, Proof, I watched yet another Codex agent try to revive our server."
+        },
+        {
+          "source": "https://x.com/danshipper/status/2110038834205409332",
+          "seen": "2026-10-13",
+          "quote": "Net Result: I keep ChatGPT and Claude open day to day, and switch to Gemini 4 when I need an editorial partner to structure a tough essay, sharpen a metaphor, or close-read a book."
         }
       ],
       "history": [
@@ -61,12 +66,18 @@
     {
       "name": "Claude Code",
       "icon": "claudecode",
-      "role": "Fable builds",
+      "role": "side projects",
       "surface": null,
-      "inferred": true,
-      "source": "https://github.com/dshipper/solace/commit/0cfee9332e55bb45a1d2c9f766b2f63bb914a0d1",
-      "seen": "2026-07-03",
-      "quote": "Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>"
+      "source": "https://github.com/dshipper/danshipper.com/pull/2",
+      "seen": "2026-10-10",
+      "quote": "Generated with [Claude Code](https://claude.com/claude-code)",
+      "also": [
+        {
+          "source": "https://github.com/dshipper/solace/commit/0cfee9332e55bb45a1d2c9f766b2f63bb914a0d1",
+          "seen": "2026-07-03",
+          "quote": "Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>"
+        }
+      ]
     }
   ],
   "models": [
@@ -80,13 +91,20 @@
       "history": []
     },
     {
-      "name": "Claude Fable",
+      "name": "Claude Fable 5.2",
       "icon": "claude",
       "detail": "vibe-coded apps",
-      "source": "https://x.com/danshipper/status/2089121597017759800",
-      "seen": "2026-08-16",
-      "quote": "used fable to vibe code an app that visualizes and groups everyone who applied to come to Thesis",
-      "history": []
+      "source": "https://x.com/danshipper/status/2120539547620790424",
+      "seen": "2026-11-11",
+      "quote": "I look at what I do with Fable 5.2 in the cracks of my week",
+      "history": [
+        {
+          "value": "Claude Fable",
+          "source": "https://x.com/danshipper/status/2089121597017759800",
+          "seen": "2026-08-16",
+          "quote": "used fable to vibe code an app that visualizes and groups everyone who applied to come to Thesis"
+        }
+      ]
     }
   ],
   "review_style": {
@@ -100,6 +118,16 @@
         "source": "https://every.to/chain-of-thought/when-your-vibe-coded-app-goes-viral-and-then-goes-down",
         "seen": "2026-03-20",
         "quote": "I hadn’t slept for almost 24 hours, and all I could do was nervously munch trail mix as Codex investigated yet another bug buried deep in a codebase that I didn’t understand."
+      },
+      {
+        "source": "https://x.com/danshipper/status/2109720906742288385",
+        "seen": "2026-10-12",
+        "quote": "I can’t be confident they would notice what I would notice if I looked at a swarm trace, and I can’t be confident they would do what I would do."
+      },
+      {
+        "source": "https://x.com/danshipper/status/2106017291989049424",
+        "seen": "2026-10-02",
+        "quote": "there's always a higher level of work above the model to decide what you want and whether the output is good"
       }
     ],
     "inferred": true
@@ -110,7 +138,14 @@
     "source": "https://x.com/danshipper/status/2095245632533622862",
     "seen": "2026-09-02",
     "quote": "Have Codex show you which tabs computer use is running in with a shared task-title convention:",
-    "history": []
+    "history": [],
+    "also": [
+      {
+        "source": "https://x.com/danshipper/status/2106021272081543225",
+        "seen": "2026-10-02",
+        "quote": "when i prompt with gpt-6 and it goes off and works for a few hours im not doing nothing. there are a lot of things i do in between (for example, work on the system that makes sure the model is working according to my taste, or orchestrating a few model runs at once, thinking about what i need to do next)"
+      }
+    ]
   },
   "parallelism": null,
   "rules_files": {

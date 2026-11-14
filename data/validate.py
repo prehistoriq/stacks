@@ -36,10 +36,13 @@ for f in files:
     for i, m in enumerate(d.get("models") or []):
         claim(m, f"models[{i}]")
         if icons is not None and m.get("icon") and m["icon"] not in icons: issues.append(f"models[{i}].icon={m['icon']!r} missing")
-    for k in ["review_style", "harness", "parallelism", "rules_files", "skills", "mcp_servers", "hooks", "signature"]:
+    for k in ["no_agent", "review_style", "harness", "parallelism", "rules_files", "skills", "mcp_servers", "hooks", "signature"]:
         claim(d.get(k), k)
     if (d.get("review_style") or {}).get("kind") not in KIND: issues.append(f"review_style.kind={d['review_style'].get('kind')!r}")
-    if not d.get("agents"): issues.append("no agents")
+    # a card names the agents someone uses, or carries their own sourced word that they use none: exactly one
+    if bool(d.get("agents")) == bool(d.get("no_agent")): issues.append("agents and no_agent both set" if d.get("agents") else "no agents (and no sourced no_agent)")
+    elif d.get("no_agent") and not d["no_agent"].get("quote"): issues.append("no_agent: no quote")
+    if any((a.get("name") or "").strip().lower() in ("none", "no agent", "") for a in d.get("agents") or []): issues.append("an agents row named None: use no_agent")
     if not d.get("signature"): issues.append("no signature")
     elif len(d["signature"].get("caption", "")) > 34: issues.append(f"signature.caption too long ({len(d['signature']['caption'])})")
     if (d.get("archetype") or {}).get("value") not in ARCH: issues.append(f"archetype={(d.get('archetype') or {}).get('value')!r}")

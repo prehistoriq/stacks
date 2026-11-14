@@ -30,7 +30,7 @@ From what you saw, write one plain sentence on how they check what their agent w
 
 ## 3. Pick three things to try
 
-Fetch https://www.prehistoriq.com/stacks/tricks.md: one trick from each engineer's real setup, with who it's from.
+Fetch https://prehistoriq.com/stacks/tricks.md: one trick from each engineer's real setup, with who it's from.
 From how this person works, pick the **3** that would help them most. Match their level. Skip anything they may
 already do in some form: you only see part of their setup, so when in doubt, pick something else. Don't pick a trick
 that needs a tool they don't use unless it's clearly worth it. If you can't fetch the list, leave `picks` out.
@@ -61,7 +61,7 @@ anything.** The data travels in the URL fragment (`#…`), which browsers never 
 renders the card locally.
 
 ```bash
-URL="https://www.prehistoriq.com/stacks/new#$(printf '%s' "$JSON" | base64 | tr '+/' '-_' | tr -d '=\n')"
+URL="https://prehistoriq.com/stacks/new#$(printf '%s' "$JSON" | base64 | tr '+/' '-_' | tr -d '=\n')"
 open "$URL"        # macOS   (Linux: xdg-open, Windows: start "")
 ```
 

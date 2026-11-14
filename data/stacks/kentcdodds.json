@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "kentcdodds",
   "status": "ok",
-  "checked": "2026-10-12",
+  "checked": "2026-11-14",
   "name": {
     "value": "Kent C. Dodds",
     "source": "https://github.com/kentcdodds"
@@ -31,33 +31,65 @@
     {
       "name": "Grok Bot",
       "icon": "grok",
-      "role": "main driver",
+      "role": "main driver; runs the cloud agents",
       "surface": null,
       "source": "https://x.com/kentcdodds/status/2109131437006074355",
       "seen": "2026-10-11",
       "quote": "Grok bot (my main driver for everything)",
-      "history": []
+      "history": [],
+      "also": [
+        {
+          "source": "https://x.com/kentcdodds/status/2107721581556605043",
+          "seen": "2026-10-07",
+          "quote": "I no longer use coding agents directly. It's all @bot managing cursor cloud agents."
+        },
+        {
+          "source": "https://x.com/kentcdodds/status/2115214231755018507",
+          "seen": "2026-10-27",
+          "quote": "It's @bot... Grok Bot is how I do this."
+        }
+      ]
     },
     {
       "name": "Cursor",
       "icon": "cursor",
-      "role": "primary, mostly Cloud Agents",
+      "role": "primary, Cloud Agents driven from Grok Bot",
       "surface": "web",
       "surface_source": {
         "source": "https://gitnation.com/contents/how-i-build-web-applications-in-2026",
         "seen": "2026-02-26",
         "quote": "And then cursor.com agents. This is my addiction. I go to sleep with this."
       },
-      "source": "https://x.com/kentcdodds/status/2104285773574885610",
-      "seen": "2026-09-27",
-      "quote": "In the last couple weeks I've had Cursor make me two native Android apps for personal software I wanted because it's that easy",
+      "source": "https://x.com/kentcdodds/status/2115214134447124950",
+      "seen": "2026-10-27",
+      "quote": "I use cursor for most of my work (dozens of PRs shipped daily) and rarely open the cursor app/site.",
       "also": [
+        {
+          "source": "https://x.com/kentcdodds/status/2104285773574885610",
+          "seen": "2026-09-27",
+          "quote": "In the last couple weeks I've had Cursor make me two native Android apps for personal software I wanted because it's that easy"
+        },
         {
           "source": "https://x.com/kentcdodds/status/2012540618937901110",
           "seen": "2026-01-17",
           "quote": "In my own usage of models inside Cursor, through both cloud agents and local agents working in repositories of all sizes, the biggest thing I’ve learned is that token cost is not really about how much text I generate."
         }
       ]
+    },
+    {
+      "name": "Devin",
+      "icon": null,
+      "role": "second cloud agent, managed by Grok Bot",
+      "surface": "web",
+      "source": "https://x.com/kentcdodds/status/2117407452333531517",
+      "seen": "2026-11-03",
+      "quote": "I use Grok Bot to manage devin agents. It's a great setup",
+      "surface_source": {
+        "source": "https://x.com/kentcdodds/status/2115124661398954355",
+        "seen": "2026-10-27",
+        "quote": "It was super cool to be able to tell my Grok bot to shift work over from Cursor Cloud agent to Devin Cloud agent and keep working as usual."
+      },
+      "history": []
     }
   ],
   "models": [
@@ -79,22 +111,54 @@
       ]
     },
     {
-      "name": "Fable",
+      "name": "Claude Opus 5.5",
       "icon": "claude",
-      "detail": "orchestrates",
-      "source": "https://github.com/kentcdodds/kcd-skills/blob/ab6303e3b22fbbeec665f9a62ee654f379c8c600/skills/orchestrate/SKILL.md#L25-L28",
-      "seen": "2026-08-27",
-      "quote": "**Model split:** frontier model (Fable) orchestrates and integrates; cheap/fast models implement.",
-      "history": []
+      "detail": "UI and interactions",
+      "source": "https://x.com/kentcdodds/status/2108412620340646043",
+      "seen": "2026-10-09",
+      "quote": "Opus 5.5 is just so good at building good looking UI and interactions.",
+      "history": [
+        {
+          "value": "Fable",
+          "source": "https://github.com/kentcdodds/kcd-skills/blob/ab6303e3b22fbbeec665f9a62ee654f379c8c600/skills/orchestrate/SKILL.md#L25-L28",
+          "seen": "2026-08-27",
+          "quote": "**Model split:** frontier model (Fable) orchestrates and integrates; cheap/fast models implement."
+        }
+      ]
     }
   ],
   "review_style": {
-    "value": "Trusts gates and AI reviewers, reads the outcome, not the diff",
+    "value": "Doesn't read the code. AI reviewers, CI and preview gates merge low and medium risk; high risk waits for a human",
     "kind": "agent-reviews",
-    "source": "https://kentcdodds.com/blog/you-own-the-outcome",
-    "seen": "2026-09-24",
-    "quote": "I didn't read that diff line by line. I read the outcome: does it do what we decided it should do, and did the gates I trust pass?",
+    "source": "https://x.com/kentcdodds/status/2118004345807745164",
+    "seen": "2026-11-04",
+    "quote": "The intent is that you set up a system in which you do not need to read the code.",
     "also": [
+      {
+        "source": "https://x.com/kentcdodds/status/2117999746350764402",
+        "seen": "2026-11-04",
+        "quote": "I'm at the point where once I've made a decision on something I tell the agent to go and it sends it off to production autonomously"
+      },
+      {
+        "source": "https://github.com/kentcdodds/kcd-skills/blob/c8f9048cd86bb84f05c9e75da088480eef5b62af/skills/ship-pr/SKILL.md#L24-L25",
+        "seen": "2026-10-27",
+        "quote": "High waits for Kent unless he explicitly said to merge."
+      },
+      {
+        "source": "https://www.youtube.com/watch?v=lDRjsHjkbjI&t=615s",
+        "seen": "2026-10-13",
+        "quote": "if I could only have one, then I would keep the the Cursor BugBot one because it seems to have caught more problems."
+      },
+      {
+        "source": "https://x.com/kentcdodds/status/2113784801971130683",
+        "seen": "2026-10-24",
+        "quote": "Man I haven't written a test all year"
+      },
+      {
+        "source": "https://kentcdodds.com/blog/you-own-the-outcome",
+        "seen": "2026-09-24",
+        "quote": "I didn't read that diff line by line. I read the outcome: does it do what we decided it should do, and did the gates I trust pass?"
+      },
       {
         "source": "https://kentcdodds.com/blog/you-own-the-outcome",
         "seen": "2026-09-24",
@@ -128,18 +192,24 @@
     ]
   },
   "parallelism": {
-    "value": 12,
-    "short": "a dozen",
-    "inferred": true,
-    "source": "https://github.com/kentcdodds/kcd-skills/blob/ab6303e3b22fbbeec665f9a62ee654f379c8c600/skills/orchestrate/SKILL.md#L41-L42",
-    "seen": "2026-08-27",
-    "quote": "**Sweeps:** a dozen cheap agents testing every feature against the reference system (parity / perf / errors / readiness gaps).",
+    "value": null,
+    "short": "stopped counting",
+    "source": "https://x.com/kentcdodds/status/2109871914265297402",
+    "seen": "2026-10-13",
+    "quote": "I have no idea how many agents I have running and I don't care because I just talk to @bot about everything and it handles them for me",
     "history": [
       {
         "value": 25,
         "source": "https://kentcdodds.com/blog/how-i-used-cursor-to-migrate-frameworks",
         "seen": "2026-02-20",
         "quote": "I mean, just in this site, just this morning I have 25 agents that I triggered myself."
+      },
+      {
+        "value": 12,
+        "source": "https://github.com/kentcdodds/kcd-skills/blob/ab6303e3b22fbbeec665f9a62ee654f379c8c600/skills/orchestrate/SKILL.md#L41-L42",
+        "seen": "2026-08-27",
+        "quote": "**Sweeps:** a dozen cheap agents testing every feature against the reference system (parity / perf / errors / readiness gaps).",
+        "inferred": true
       }
     ]
   },
@@ -153,21 +223,22 @@
   },
   "skills": {
     "value": [
-      "ask-kent",
+      "autopilot",
+      "ship-pr",
       "review-and-recommend",
-      "orchestrate",
+      "friction-log",
       "visual-recap",
-      "ship-pr",
-      "prefer-local-kody-execute"
+      "prefer-local-kody-execute",
+      "use-kody"
     ],
-    "count": 6,
+    "count": 7,
     "featured": [
+      "autopilot",
       "ship-pr",
-      "orchestrate",
-      "review-and-recommend"
+      "friction-log"
     ],
-    "source": "https://github.com/kentcdodds/kcd-skills/tree/ab6303e3b22fbbeec665f9a62ee654f379c8c600/skills",
-    "seen": "2026-10-01"
+    "source": "https://github.com/kentcdodds/kcd-skills/tree/c8f9048cd86bb84f05c9e75da088480eef5b62af/skills",
+    "seen": "2026-11-04"
   },
   "mcp_servers": {
     "value": [
@@ -189,17 +260,24 @@
   "signature": {
     "value": "/ship-pr",
     "kind": "skill",
-    "caption": "Bugbot loop, merge, Discord",
-    "why": "Our pick: a cloud agent babysits its own PR through Bugbot and CI, merges low-risk changes, then posts a summary with the billed agent cost to his Discord.",
+    "caption": "auto-merges low and medium risk",
+    "why": "Our pick: a cloud agent ticks its own PR through AI reviewers and CI, picks a risk level, and merges everything below high unattended, so the diff goes unread.",
     "editorial": true,
-    "source": "https://github.com/kentcdodds/kcd-skills/blob/ab6303e3b22fbbeec665f9a62ee654f379c8c600/skills/ship-pr/SKILL.md#L3-L5",
-    "seen": "2026-10-01",
-    "quote": "Babysit a PR. Iterate with AI reviewers and CI. Get it ready and maybe merge. Send summary message."
+    "source": "https://github.com/kentcdodds/kcd-skills/blob/c8f9048cd86bb84f05c9e75da088480eef5b62af/skills/ship-pr/SKILL.md#L24",
+    "seen": "2026-10-27",
+    "quote": "- **Merge:** auto-merge low and medium once CI is green and valid reviewer",
+    "also": [
+      {
+        "source": "https://github.com/kentcdodds/kcd-skills/blob/ab6303e3b22fbbeec665f9a62ee654f379c8c600/skills/ship-pr/SKILL.md#L3-L5",
+        "seen": "2026-10-01",
+        "quote": "Babysit a PR. Iterate with AI reviewers and CI. Get it ready and maybe merge. Send summary message."
+      }
+    ]
   },
   "archetype": {
     "value": "Orchestrator",
     "editorial": true,
-    "why": "Cloud agents ship PRs end to end while his orchestrate skill splits work between a frontier model and cheap implementers."
+    "why": "Talks to Grok bots that run Cursor and Devin cloud agents shipping dozens of PRs a day; says the running count is no longer known."
   },
   "signature_quote": {
     "value": "Agents produce output. You own the outcome.",

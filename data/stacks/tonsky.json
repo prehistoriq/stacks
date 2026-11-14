@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "tonsky",
   "status": "ok",
-  "checked": "2026-10-12",
+  "checked": "2026-11-14",
   "name": {
     "value": "Nikita Prokopov",
     "source": "https://github.com/tonsky"
@@ -61,9 +61,9 @@
     {
       "name": "Claude Opus 5.5",
       "icon": "claude",
-      "source": "https://github.com/tonsky/Clojure-Sublimed/commit/a86c4a4083086371d673ef72f8a5b06b182a2dee",
-      "seen": "2026-10-11",
-      "quote": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+      "source": "https://github.com/tonsky/tgadmin/commit/b4dc83bfe86107d173ebcc9a53c7594cfca16ac2",
+      "seen": "2026-11-12",
+      "quote": "Co-Authored-By: Claude Opus 5.5",
       "inferred": true,
       "history": [
         {
@@ -75,7 +75,25 @@
       ]
     }
   ],
-  "review_style": null,
+  "review_style": {
+    "value": "Pushes back on discouraging people from looking at diffs; found a colleague's agent draft in Clojure wanting",
+    "source": "https://mastodon.online/@nikitonsky/117546551270260793",
+    "seen": "2026-11-02",
+    "quote": "Do they really try to discourage us from looking at diffs/terminals?",
+    "kind": "unknown",
+    "also": [
+      {
+        "source": "https://t.me/nikitonsky_pub/1083",
+        "seen": "2026-10-30",
+        "quote": "Я открываю и вижу: начало положено, но вот тут забыли, вот тут решение не то приняли, вот тут можно проще"
+      },
+      {
+        "source": "https://x.com/nikitonsky/status/2105734142864314678",
+        "seen": "2026-10-01",
+        "quote": "only ask your agent if you already know the answer :)"
+      }
+    ]
+  },
   "harness": {
     "value": "Agent works against a live nREPL (port 5556) and reloads namespaces instead of restarting the app",
     "short": "live nREPL",

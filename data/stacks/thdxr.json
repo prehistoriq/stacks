@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "thdxr",
   "status": "ok",
-  "checked": "2026-10-12",
+  "checked": "2026-11-14",
   "name": {
     "value": "Dax Raad",
     "source": "https://thdxr.com/"
@@ -49,9 +49,12 @@
   ],
   "models": [
     {
-      "name": "Astra",
-      "icon": "openai",
-      "detail": "main session",
+      "name": "Claude Opus 5.5",
+      "icon": "claude",
+      "detail": "medium effort, main model",
+      "source": "https://x.com/thdxr/status/2116576880816210079",
+      "seen": "2026-10-31",
+      "quote": "opus 5.5 on medium right now",
       "history": [
         {
           "value": "Claude Sonnet 4",
@@ -64,29 +67,61 @@
           "source": "https://github.com/thdxr/environment/blob/8cbed4f5cb0427e67e77ac0f72ccd184defdcc6c/home/.config/opencode/config.json#L6",
           "seen": "2026-07-02",
           "quote": "\"claude-opus-4-5\": {"
+        },
+        {
+          "value": "Astra, main session",
+          "source": "https://x.com/thdxr/status/2100802591508537777",
+          "seen": "2026-09-18",
+          "quote": "so i switched to astra and told it to spawn fable subagents to do the work"
         }
-      ],
-      "source": "https://x.com/thdxr/status/2100802591508537777",
-      "seen": "2026-09-18",
-      "quote": "so i switched to astra and told it to spawn fable subagents to do the work"
+      ]
     },
     {
-      "name": "Fable",
-      "icon": "claude",
-      "detail": "subagents",
-      "history": [],
-      "source": "https://x.com/thdxr/status/2100802591508537777",
-      "seen": "2026-09-18",
-      "quote": "so i switched to astra and told it to spawn fable subagents to do the work"
+      "name": "DeepSeek Flash",
+      "icon": "deepseek",
+      "detail": "subagents; Opus orchestrates",
+      "source": "https://x.com/thdxr/status/2118755687274532893",
+      "seen": "2026-11-06",
+      "quote": "opus is told to do all work in deepseek subagents",
+      "also": [
+        {
+          "source": "https://x.com/thdxr/status/2118059907949690955",
+          "seen": "2026-11-04",
+          "quote": "the team is experimenting this week at switching all our subagents to deepseek flash and using opus 5.5 only on the primary subagent"
+        }
+      ],
+      "history": [
+        {
+          "value": "Fable",
+          "source": "https://x.com/thdxr/status/2100802591508537777",
+          "seen": "2026-09-18",
+          "quote": "so i switched to astra and told it to spawn fable subagents to do the work"
+        }
+      ]
     }
   ],
   "review_style": {
-    "value": "Asks a smarter model to review, via subagents",
+    "value": "Asks a smarter model to review, via subagents; some apps nobody reads (mobile, Hex)",
     "source": "https://x.com/thdxr/status/2100251713525498366",
     "seen": "2026-09-16",
     "quote": "very useful, i use it to get reviews from smarter models",
     "kind": "agent-reviews",
     "also": [
+      {
+        "source": "https://x.com/thdxr/status/2107690704956760393",
+        "seen": "2026-10-07",
+        "quote": "it's a repo none of us have looked it. none of us can even run it locally."
+      },
+      {
+        "source": "https://x.com/thdxr/status/2116602645972672576",
+        "seen": "2026-10-31",
+        "quote": "our effort didn't go into the code. but there was a lot of effort"
+      },
+      {
+        "source": "https://x.com/thdxr/status/2112196633463046289",
+        "seen": "2026-10-19",
+        "quote": "because a lot is going on in parallel i often will ask \"what do you need from me\" so it tells me what is ready for review"
+      },
       {
         "source": "https://x.com/thdxr/status/2100298664677695627",
         "seen": "2026-09-16",
@@ -101,21 +136,32 @@
         "source": "https://kentcdodds.com/chats/07/01/product-sense-restraint-and-opencode-with-dax-raad",
         "seen": "2026-04-01",
         "quote": "we're pretty reserved with how much we just let them go do their thing."
+      },
+      {
+        "source": "https://x.com/thdxr/status/2118755687274532893",
+        "seen": "2026-11-06",
+        "quote": "do a one step review of the diff to make sure it's not totally off"
       }
     ]
   },
   "harness": {
-    "value": "OpenCode on an always-on server, driven from the OpenCode iPhone app; a worktree per task",
-    "short": "phone + server",
-    "source": "https://x.com/thdxr/status/2107581093838832003",
-    "seen": "2026-10-06",
-    "quote": "this past week most of my work has been done from the opencode iphone app",
+    "value": "OpenCode on an always-on server; one pinned session sends all work to subagents, in worktrees if complicated",
+    "short": "pinned session",
+    "source": "https://x.com/thdxr/status/2112196633463046289",
+    "seen": "2026-10-19",
+    "quote": "my flow is a single pinned \"gooey\" session where i tell it to do all work in subagents",
     "history": [
       {
         "value": "OpenCode 2, a git worktree per task, voice input",
         "source": "https://x.com/thdxr/status/2087649518498062656",
         "seen": "2026-08-12",
         "quote": "i often tell opencode \"lets review this pr in a new worktree\" or \"make a new worktree and implement x\""
+      },
+      {
+        "value": "OpenCode on an always-on server, driven from the OpenCode iPhone app; a worktree per task",
+        "source": "https://x.com/thdxr/status/2107581093838832003",
+        "seen": "2026-10-06",
+        "quote": "this past week most of my work has been done from the opencode iphone app"
       }
     ]
   },
@@ -145,9 +191,16 @@
     "caption": "instead of typing",
     "why": "He dictates prompts with fast local voice models and says voice, not OpenCode, is what replaced his editor.",
     "editorial": true,
-    "source": "https://x.com/thdxr/status/2078527322563449007",
-    "seen": "2026-07-18",
-    "quote": "the thing that killed my editor for me was fast local voice models more than OpenCode"
+    "source": "https://x.com/thdxr/status/2116556087600025967",
+    "seen": "2026-10-31",
+    "quote": "this is my most used app. more than opencode",
+    "also": [
+      {
+        "source": "https://x.com/thdxr/status/2078527322563449007",
+        "seen": "2026-07-18",
+        "quote": "the thing that killed my editor for me was fast local voice models more than OpenCode"
+      }
+    ]
   },
   "archetype": {
     "value": "Purist",

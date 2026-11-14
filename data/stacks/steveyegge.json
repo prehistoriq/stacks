@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "steveyegge",
   "status": "ok",
-  "checked": "2026-10-12",
+  "checked": "2026-11-14",
   "name": {
     "value": "Steve Yegge",
     "source": "https://github.com/steveyegge"
@@ -72,18 +72,24 @@
       ]
     },
     {
-      "name": "Claude Fable 5.1",
+      "name": "Claude Fable 5.2",
       "icon": "claude",
       "detail": "design, planning, review",
-      "source": "https://yegge.ai/essays/seats-and-sunsets/",
-      "seen": "2026-09-15",
-      "quote": "I first switched most of my seats to Fable 5.1 (my headless Aesop reviewer pool is still Fable 5)",
+      "source": "https://x.com/Steve_Yegge/status/2120910894624551006",
+      "seen": "2026-11-12",
+      "quote": "Fable 5.2 looked at it on Tuesday and went \"Welp time for a rewrite.\"",
       "history": [
         {
           "value": "Opus 4.5",
           "source": "https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04",
           "seen": "2026-01-01",
           "quote": "Opus 4.5 can handle any reasonably sized task, so your job is to make tasks for it."
+        },
+        {
+          "value": "Claude Fable 5.1",
+          "source": "https://yegge.ai/essays/seats-and-sunsets/",
+          "seen": "2026-09-15",
+          "quote": "I first switched most of my seats to Fable 5.1 (my headless Aesop reviewer pool is still Fable 5)"
         }
       ]
     }
@@ -95,6 +101,11 @@
     "quote": "Every implementation bead goes through this lifecycle: Fable design, Opus implementation, Fable review.",
     "kind": "agent-reviews",
     "also": [
+      {
+        "source": "https://x.com/Steve_Yegge/status/2117935817591074876",
+        "seen": "2026-11-04",
+        "quote": "I had my agents analyze thousands of recent adversarial reviews in my system. Something like a quarter overall were blocked by the reviewer, and a meta-review showed the issues raised by agentic reviewers were almost all legit."
+      },
       {
         "source": "https://yegge.ai/essays/the-shape-of-things-to-come/",
         "seen": "2026-08-02",
@@ -108,17 +119,23 @@
     ]
   },
   "harness": {
-    "value": "Wheelhouse, all in Emacs, tmux underneath, Beads on Dolt",
+    "value": "Wheelhouse, all in Emacs, on one Mac Studio with 22 Claude Ultra accounts; tmux underneath, Rex in alpha",
     "short": "Emacs + tmux",
-    "source": "https://yegge.ai/essays/the-shape-of-things-to-come/",
-    "seen": "2026-08-02",
-    "quote": "I began the journey inside Emacs, so Wheelhouse has been all-Emacs from the ground up.",
+    "source": "https://x.com/Steve_Yegge/status/2117930845986308233",
+    "seen": "2026-11-04",
+    "quote": "I run one fat Mac Studio and 22 Claude Ultra accounts, with some GCP VMs for spare compute.",
     "history": [
       {
         "value": "Gas Town in tmux",
         "source": "https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04",
         "seen": "2026-01-01",
         "quote": "Gas Town uses tmux as its primary UI."
+      },
+      {
+        "value": "Wheelhouse, all in Emacs, tmux underneath, Beads on Dolt",
+        "source": "https://yegge.ai/essays/the-shape-of-things-to-come/",
+        "seen": "2026-08-02",
+        "quote": "I began the journey inside Emacs, so Wheelhouse has been all-Emacs from the ground up."
       }
     ]
   },

@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "nedbat",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-14",
   "name": {
     "value": "Ned Batchelder",
     "source": "https://github.com/nedbat"
@@ -30,10 +30,15 @@
       "icon": "claudecode",
       "role": "primary, with a plan-first CLAUDE.md",
       "surface": "cli",
-      "source": "https://github.com/nedbat/dotfiles/blob/003ae2618eebc9877f69e7a01f610d43070bd92c/dot_config/shellrc/claude.sh#L1-L2",
-      "seen": "2026-02-24",
-      "quote": "# Don't change the title of my terminal tab, because it doesn't change back when I exit claude.\nexport CLAUDE_CODE_DISABLE_TERMINAL_TITLE=1",
+      "source": "https://github.com/nedbat/dotfiles/blob/403476a80b395ba196e8abf3afea089e63d95ace/dot_config/claude/README.md#L1",
+      "seen": "2026-10-23",
+      "quote": "Shared Claude Code config. On each machine, run:",
       "also": [
+        {
+          "source": "https://github.com/coveragepy/coveragepy/commit/2d8f80d00cdff1ebb0df1a1c318818d341554b18",
+          "seen": "2026-10-12",
+          "quote": "Thanks, Claude."
+        },
         {
           "source": "https://github.com/coveragepy/coveragepy/commit/cb5f925f5198118c6c19bc9e03ee883926b6ed21",
           "seen": "2025-12-25",
@@ -44,7 +49,12 @@
           "seen": "2025-05-28",
           "quote": "Also, Claude made the code changes, and did a good job!"
         }
-      ]
+      ],
+      "surface_source": {
+        "source": "https://github.com/nedbat/dotfiles/blob/003ae2618eebc9877f69e7a01f610d43070bd92c/dot_config/shellrc/claude.sh#L1-L2",
+        "seen": "2026-02-24",
+        "quote": "# Don't change the title of my terminal tab, because it doesn't change back when I exit claude.\nexport CLAUDE_CODE_DISABLE_TERMINAL_TITLE=1"
+      }
     },
     {
       "name": "GitHub Copilot",
@@ -56,15 +66,45 @@
       "quote": "Plug 'github/copilot.vim'"
     }
   ],
-  "models": [],
+  "models": [
+    {
+      "name": "Claude Opus 5.5",
+      "icon": "claude",
+      "inferred": true,
+      "source": "https://github.com/coveragepy/coveragepy/commit/00e7709f2a7e1c7943b440607904fc7b08159519",
+      "seen": "2026-11-11",
+      "quote": "Co-Authored-By: Claude Opus 5.5",
+      "history": []
+    }
+  ],
   "review_style": {
-    "value": "A person owns and reviews every commit, Claude or not",
-    "kind": "unknown",
+    "value": "Reads contributors' Claude PRs on coverage.py; says so when one hasn't been read",
+    "kind": "spot-checks",
     "inferred": true,
-    "source": "https://hachyderm.io/@nedbat/116134732094799152",
-    "seen": "2026-02-26",
-    "quote": "Every commit is owned by a person who has vouched for the quality of the commit, and every commit is reviewed by a person who has also vouched for it. Making a commit with Claude's help doesn't change that.",
+    "source": "https://github.com/boxed/mutmut/pull/547",
+    "seen": "2026-08-04",
+    "quote": "Written by Claude. I haven't reviewed it.",
     "also": [
+      {
+        "source": "https://github.com/boxed/mutmut/pull/547#issuecomment-5231850651",
+        "seen": "2026-08-09",
+        "quote": "I really haven't read the code I'm sorry to say."
+      },
+      {
+        "source": "https://github.com/coveragepy/coveragepy/pull/2162#discussion_r3141867967",
+        "seen": "2026-04-25",
+        "quote": "Kind of disappointed Claude didn't factor this out!"
+      },
+      {
+        "source": "https://github.com/coveragepy/coveragepy/pull/2297#issuecomment-5847975204",
+        "seen": "2026-09-26",
+        "quote": "Why do we need CO_OPTIMIZED?"
+      },
+      {
+        "source": "https://hachyderm.io/@nedbat/116134732094799152",
+        "seen": "2026-02-26",
+        "quote": "Every commit is owned by a person who has vouched for the quality of the commit, and every commit is reviewed by a person who has also vouched for it. Making a commit with Claude's help doesn't change that."
+      },
       {
         "source": "https://hachyderm.io/@nedbat/116133445557306539",
         "seen": "2026-02-25",
@@ -92,16 +132,31 @@
   },
   "parallelism": null,
   "rules_files": {
-    "value": "Global CLAUDE.md importing nedbat-main.md (56 lines) from his dotfiles",
+    "value": "Global CLAUDE.md importing nedbat-main.md (67 lines) from the dotfiles repo; now tells Claude to write a resume file per task",
     "short": "CLAUDE.md",
-    "url": "https://github.com/nedbat/dotfiles/blob/003ae2618eebc9877f69e7a01f610d43070bd92c/dot_config/claude/nedbat-main.md",
-    "source": "https://github.com/nedbat/dotfiles/blob/003ae2618eebc9877f69e7a01f610d43070bd92c/dot_config/claude/README.md#L1-L4",
-    "seen": "2025-09-19",
-    "quote": "Put this line into ~/.claude/CLAUDE.md:\n```\n@~/.config/claude/nedbat-main.md\n```"
+    "url": "https://github.com/nedbat/dotfiles/blob/403476a80b395ba196e8abf3afea089e63d95ace/dot_config/claude/nedbat-main.md",
+    "source": "https://github.com/nedbat/dotfiles/blob/403476a80b395ba196e8abf3afea089e63d95ace/dot_config/claude/nedbat-main.md#L20-L23",
+    "seen": "2026-10-23",
+    "quote": "When finishing a task, write a summary file in ~/work/claude.",
+    "history": [
+      {
+        "value": "Global CLAUDE.md importing nedbat-main.md (56 lines) from the dotfiles repo",
+        "source": "https://github.com/nedbat/dotfiles/blob/003ae2618eebc9877f69e7a01f610d43070bd92c/dot_config/claude/README.md#L1-L4",
+        "seen": "2025-09-19",
+        "quote": "Put this line into ~/.claude/CLAUDE.md:\n```\n@~/.config/claude/nedbat-main.md\n```"
+      }
+    ]
   },
   "skills": null,
   "mcp_servers": null,
-  "hooks": null,
+  "hooks": {
+    "value": [
+      "SessionEnd: fallback summary file with a resume command"
+    ],
+    "source": "https://github.com/nedbat/dotfiles/blob/403476a80b395ba196e8abf3afea089e63d95ace/dot_config/claude/README.md#L8-L10",
+    "seen": "2026-10-23",
+    "quote": "adds a SessionEnd hook to ~/.claude/settings.json that runs\n  session-end-summary.sh, which writes a fallback summary file in ~/work/claude\n  if the session ended without an \"end session\" wrap-up"
+  },
   "signature": {
     "value": "Be introspective",
     "kind": "rule",

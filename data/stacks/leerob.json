@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "leerob",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-14",
   "name": {
     "value": "Lee Robinson",
     "source": "https://github.com/leerob"
@@ -95,11 +95,18 @@
     ]
   },
   "harness": {
-    "value": "Always-running Grok Bots on their own cloud computer, connected to his X and Gmail",
-    "short": "always-on bots",
-    "source": "https://x.com/leerob/status/2091265397056016677",
-    "seen": "2026-08-22",
-    "quote": "For example, I have bots that are connected to my X, Gmail, etc.",
+    "value": "One main Grok Bot that spawns other bots for long-running threads",
+    "short": "one main bot",
+    "source": "https://x.com/leerob/status/2113788990373433760",
+    "seen": "2026-10-24",
+    "quote": "You don't necessarily have to create new bots for each task. I just chat with one bot and have it make separate bots if necessary to organize long-running threads.",
+    "also": [
+      {
+        "source": "https://x.com/leerob/status/2091265397056016677",
+        "seen": "2026-08-22",
+        "quote": "For example, I have bots that are connected to my X, Gmail, etc."
+      }
+    ],
     "history": [
       {
         "value": "Cursor plan mode, then Cursor cloud agents",

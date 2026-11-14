@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "geohot",
   "status": "ok",
-  "checked": "2026-10-12",
+  "checked": "2026-11-14",
   "name": {
     "value": "George Hotz",
     "source": "https://github.com/geohot"
@@ -66,22 +66,12 @@
   ],
   "models": [
     {
-      "name": "Kimi",
-      "icon": "kimi",
-      "detail": "named in his PR titles",
-      "source": "https://github.com/tinygrad/tinygrad/commit/9f6d3d882cfe0b8d5e98255b85d9c96dac2966b3",
-      "seen": "2026-09-27",
-      "quote": "variables are bound params (kimi) (#18444)",
-      "history": [],
-      "inferred": true
-    },
-    {
       "name": "Claude Opus",
       "icon": "claude",
       "detail": "named in his PR titles",
-      "source": "https://github.com/tinygrad/tinygrad/pull/18733",
-      "seen": "2026-10-11",
-      "quote": "Had opus and astra go back and forth on this",
+      "source": "https://github.com/tinygrad/tinygrad/pull/19170",
+      "seen": "2026-11-03",
+      "quote": "Qwen 3.8 Next Flash on 6x7900XTX (opus)",
       "inferred": true,
       "history": [
         {
@@ -102,7 +92,29 @@
           "seen": "2026-07-12",
           "quote": "I set up a Linux box with opencode on my local GLM-5.2 last week"
         }
+      ],
+      "also": [
+        {
+          "source": "https://github.com/tinygrad/tinygrad/pull/18733",
+          "seen": "2026-10-11",
+          "quote": "Had opus and astra go back and forth on this"
+        },
+        {
+          "source": "https://github.com/tinygrad/tinygrad/pull/19129",
+          "seen": "2026-11-01",
+          "quote": "Qwen3.8-Flash-Next support (opus)"
+        }
       ]
+    },
+    {
+      "name": "Kimi",
+      "icon": "kimi",
+      "detail": "named in his PR titles",
+      "source": "https://github.com/tinygrad/tinygrad/commit/9f6d3d882cfe0b8d5e98255b85d9c96dac2966b3",
+      "seen": "2026-09-27",
+      "quote": "variables are bound params (kimi) (#18444)",
+      "history": [],
+      "inferred": true
     }
   ],
   "review_style": {
@@ -122,6 +134,11 @@
         "source": "https://github.com/tinygrad/tinygrad/commit/dc04c7820e25987c31f2068875a515c881b79bb3",
         "seen": "2026-08-26",
         "quote": "* gpt sol review"
+      },
+      {
+        "source": "https://github.com/tinygrad/tinygrad/pull/18733",
+        "seen": "2026-10-11",
+        "quote": "This DSA is ... not selecting, it's masking, so idk it's kind of bad? But it's correct."
       }
     ]
   },
@@ -153,14 +170,22 @@
   "mcp_servers": null,
   "hooks": null,
   "signature": {
-    "value": "(kimi) in the PR title",
+    "value": "(opus) in the PR title",
     "kind": "habit",
     "caption": "names the model per PR",
     "why": "Our pick: his tinygrad PRs carry the name of the model that helped, a public log of which model wrote what.",
     "editorial": true,
-    "source": "https://github.com/tinygrad/tinygrad/commit/9f6d3d882cfe0b8d5e98255b85d9c96dac2966b3",
-    "seen": "2026-09-27",
-    "quote": "variables are bound params (kimi) (#18444)"
+    "source": "https://github.com/tinygrad/tinygrad/pull/19170",
+    "seen": "2026-11-03",
+    "quote": "Qwen 3.8 Next Flash on 6x7900XTX (opus)",
+    "history": [
+      {
+        "value": "(kimi) in the PR title",
+        "source": "https://github.com/tinygrad/tinygrad/commit/9f6d3d882cfe0b8d5e98255b85d9c96dac2966b3",
+        "seen": "2026-09-27",
+        "quote": "variables are bound params (kimi) (#18444)"
+      }
+    ]
   },
   "archetype": {
     "value": "Skeptic",

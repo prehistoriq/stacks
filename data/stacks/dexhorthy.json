@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "dexhorthy",
   "status": "ok",
-  "checked": "2026-10-12",
+  "checked": "2026-11-14",
   "name": {
     "value": "Dex Horthy",
     "source": "https://aaif.io/blog/dex-still-thinks-long-running-coding-agents-stink"
@@ -24,14 +24,14 @@
     "source": "https://github.com/dexhorthy"
   },
   "known_for": {
-    "value": "HumanLayer CEO, 12-Factor Agents",
-    "source": "https://aaif.io/blog/dex-still-thinks-long-running-coding-agents-stink"
+    "value": "HumanLayer, 12-Factor Agents",
+    "source": "https://x.com/dexhorthy/status/2118034430543417382"
   },
   "agents": [
     {
       "name": "HumanLayer",
       "icon": null,
-      "role": "primary, his own agentic IDE",
+      "role": "primary, self-built IDE, moving into Factory",
       "surface": "ide",
       "surface_source": {
         "source": "https://x.com/dexhorthy/status/2067286892786454855",
@@ -55,6 +55,18 @@
           "source": "https://x.com/dexhorthy/status/2083582284658245837",
           "seen": "2026-08-01",
           "quote": "Cursor autocomplete"
+        }
+      ],
+      "also": [
+        {
+          "source": "https://github.com/humanlayer/humanlayer/commit/582d78067173800c0622c659a8f44628d7c14b1f",
+          "seen": "2026-11-02",
+          "quote": "HumanLayer-Session: https://app.dev.codelayer.gg/sessions/01a19dca-f45f-76ec-8431-82a91458f468"
+        },
+        {
+          "source": "https://x.com/dexhorthy/status/2118034430543417382",
+          "seen": "2026-11-04",
+          "quote": "The current HumanLayer platform will remain up and running during a transition period of at least 30 days"
         }
       ]
     },
@@ -81,7 +93,14 @@
       "surface": null,
       "source": "https://x.com/dexhorthy/status/2102863697945469415",
       "seen": "2026-09-23",
-      "quote": "For opus 5.5 in humanlayer - Just pick opus as model and if you have latest CC cli installed you’ll get 5.5 (ignore the context window warning)"
+      "quote": "For opus 5.5 in humanlayer - Just pick opus as model and if you have latest CC cli installed you’ll get 5.5 (ignore the context window warning)",
+      "also": [
+        {
+          "source": "https://x.com/dexhorthy/status/2106085178108240044",
+          "seen": "2026-10-02",
+          "quote": "sent my claude code to configure a Dots for me overnight with computer user"
+        }
+      ]
     }
   ],
   "models": [
@@ -109,13 +128,21 @@
       ]
     },
     {
-      "name": "Claude Fable",
+      "name": "Claude Opus 5.5",
       "icon": "claude",
-      "detail": "UI and spatial work",
-      "source": "https://x.com/dexhorthy/status/2094228532184637911",
-      "seen": "2026-08-31",
-      "quote": "fable gives me more \"look busy\" vibes and it is much better at a handful of things like spatial reasoning and UI",
-      "history": []
+      "inferred": true,
+      "source": "https://github.com/humanlayer/humanlayer/commit/582d78067173800c0622c659a8f44628d7c14b1f",
+      "seen": "2026-11-02",
+      "quote": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+      "history": [
+        {
+          "value": "Claude Fable",
+          "detail": "UI and spatial work",
+          "source": "https://x.com/dexhorthy/status/2094228532184637911",
+          "seen": "2026-08-31",
+          "quote": "fable gives me more \"look busy\" vibes and it is much better at a handful of things like spatial reasoning and UI"
+        }
+      ]
     }
   ],
   "review_style": {
@@ -139,6 +166,11 @@
         "source": "https://x.com/dexhorthy/status/2081224804326309938",
         "seen": "2026-07-26",
         "quote": "plan review cannot replace code review, it can only increase the chance that code review is painless and fast"
+      },
+      {
+        "source": "https://x.com/dexhorthy/status/2107158343718723850",
+        "seen": "2026-10-05",
+        "quote": "there will always be alpha in reviewing something. Otherwise, you get the same AI slop as everybody else\n\nthat something might not always be the code"
       }
     ]
   },
@@ -160,6 +192,23 @@
         "source": "https://x.com/dexhorthy/status/2083582284658245837",
         "seen": "2026-08-01",
         "quote": "Claude code - research, plan, impl"
+      }
+    ],
+    "also": [
+      {
+        "source": "https://x.com/dexhorthy/status/2109714961685487812",
+        "seen": "2026-10-12",
+        "quote": "there is tremendous alpha in moving your agent sessions to beefy dev box in @freestyle_dev and managing them with @humanlayer_dev"
+      },
+      {
+        "source": "https://x.com/dexhorthy/status/2109733151048421542",
+        "seen": "2026-10-12",
+        "quote": "I use it as a pet and is going great"
+      },
+      {
+        "source": "https://x.com/dexhorthy/status/2108588513436582357",
+        "seen": "2026-10-09",
+        "quote": "at humanlayer we’ve been prototyping research-> implement or research -> short design -> implement workflows"
       }
     ]
   },

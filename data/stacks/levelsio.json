@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "levelsio",
   "status": "ok",
-  "checked": "2026-10-12",
+  "checked": "2026-11-14",
   "name": {
     "value": "Pieter Levels",
     "source": "https://levels.io/"
@@ -42,19 +42,41 @@
           "surface": "ide"
         }
       ],
-      "source": "https://x.com/levelsio/status/2094113698453360663",
-      "seen": "2026-08-30",
-      "quote": "I made https://infiniteslop.ai yesterday completely on my phone with @TermiusHQ on my @Hetzner_Online VPS with @claudeai Code in the sauna"
+      "source": "https://x.com/levelsio/status/2117748754870645184",
+      "seen": "2026-11-03",
+      "quote": "I only work on the server (VPS) in production with Claude Code",
+      "also": [
+        {
+          "source": "https://x.com/levelsio/status/2112646372386345049",
+          "seen": "2026-10-20",
+          "quote": "My setup is purposely simple though I only use Claude Code and Claude for chat"
+        },
+        {
+          "source": "https://x.com/levelsio/status/2094113698453360663",
+          "seen": "2026-08-30",
+          "quote": "I made https://infiniteslop.ai yesterday completely on my phone with @TermiusHQ on my @Hetzner_Online VPS with @claudeai Code in the sauna"
+        },
+        {
+          "source": "https://x.com/levelsio/status/2117611324150890912",
+          "seen": "2026-11-03",
+          "quote": "I don't use API, $100/mo Claude sub"
+        },
+        {
+          "source": "https://x.com/levelsio/status/2120463600699527364",
+          "seen": "2026-11-11",
+          "quote": "Claude Code in Terminal just feels more powerful and wild"
+        }
+      ]
     }
   ],
   "models": [
     {
       "name": "Claude Opus 5.5",
       "icon": "claude",
-      "detail": "1M context",
-      "source": "https://x.com/levelsio/status/2108957488410161442",
-      "seen": "2026-10-10",
-      "quote": "only possible because modern AI like  Opus 5.5 is good enough to figure that out",
+      "detail": "usually High effort, 1M context",
+      "source": "https://levels.io/decompiled-battlefield-1942-web-multiplayer",
+      "seen": "2026-11-02",
+      "quote": "I tried it today again with Opus 5.5",
       "history": [
         {
           "value": "Claude Opus 4.6",
@@ -75,6 +97,19 @@
           "source": "https://github.com/levelsio/superlevels/commit/0fe785f75fbe681ed60efd74e9586d362e4c6995",
           "seen": "2026-10-02",
           "quote": "Co-Authored-By: Claude Opus 5.5 (1M context) <noreply@anthropic.com>"
+        },
+        {
+          "value": "Claude Opus 5.5",
+          "source": "https://x.com/levelsio/status/2108957488410161442",
+          "seen": "2026-10-10",
+          "quote": "only possible because modern AI like  Opus 5.5 is good enough to figure that out"
+        }
+      ],
+      "also": [
+        {
+          "source": "https://x.com/levelsio/status/2120144070647365904",
+          "seen": "2026-11-10",
+          "quote": "Opus 5.5 with High usuallly"
         }
       ]
     },
@@ -89,27 +124,53 @@
     }
   ],
   "review_style": {
-    "value": "Step by step, keeps the agent on a short leash",
-    "source": "https://x.com/levelsio/status/2084997902632390981",
-    "seen": "2026-08-05",
-    "quote": "The only way for me to AI code is just step by step, feature by feature, object by object, and control it or it goes mental",
-    "kind": "tests-only",
+    "value": "Hasn't read code in over a year",
+    "kind": "no-review",
+    "source": "https://x.com/levelsio/status/2112544287745302743",
+    "seen": "2026-10-20",
+    "quote": "I haven't read code for over a year myself",
     "also": [
+      {
+        "source": "https://levels.io/decompiled-battlefield-1942-web-multiplayer",
+        "seen": "2026-11-02",
+        "quote": "I have no idea how it did any of this but it did it and it seems to work!"
+      },
+      {
+        "source": "https://x.com/levelsio/status/2084997902632390981",
+        "seen": "2026-08-05",
+        "quote": "The only way for me to AI code is just step by step, feature by feature, object by object, and control it or it goes mental"
+      },
       {
         "source": "https://x.com/levelsio/status/2091960812004888655",
         "seen": "2026-08-24",
         "quote": "Until that time I'll just keep manually reading bug reports and feature requests and copying them in Claude Code on the server"
+      },
+      {
+        "source": "https://x.com/levelsio/status/2119516562147426782",
+        "seen": "2026-11-08",
+        "quote": "With AI however, I never read my code base anymore, nor do code review, so it doesn't matter anymore"
       }
-    ],
-    "inferred": true
+    ]
   },
   "harness": {
-    "value": "Termius (phone or laptop) into Hetzner VPSes, one tmux session per site, Claude Code on the server",
+    "value": "Termius (phone or laptop) over Tailscale into Hetzner VPSes, one tmux session per site, Claude Code on the server",
     "short": "VPS + tmux",
-    "source": "https://x.com/levelsio/status/2091987033367724309",
-    "seen": "2026-08-24",
-    "quote": "Every tmux session has Claude Code open",
-    "history": []
+    "source": "https://x.com/levelsio/status/2115417533457006656",
+    "seen": "2026-10-28",
+    "quote": "The only interface is Termius SSH and then Claude Code on the server",
+    "history": [],
+    "also": [
+      {
+        "source": "https://x.com/levelsio/status/2091987033367724309",
+        "seen": "2026-08-24",
+        "quote": "Every tmux session has Claude Code open"
+      },
+      {
+        "source": "https://levels.io/claude-code-security-audit-every-vps",
+        "seen": "2026-10-25",
+        "quote": "Also isolated each VPS on Tailscale with special security policies"
+      }
+    ]
   },
   "parallelism": null,
   "rules_files": null,

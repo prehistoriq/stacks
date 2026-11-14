@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "t3dotgg",
   "status": "ok",
-  "checked": "2026-10-12",
+  "checked": "2026-11-14",
   "name": {
     "value": "Theo Browne",
     "source": "https://github.com/t3dotgg"
@@ -40,9 +40,16 @@
         "inferred": true
       },
       "history": [],
-      "source": "https://x.com/theo/status/2104079585956761814",
-      "seen": "2026-09-27",
-      "quote": "With much, much effort, I have been able to kill ~3.5 $200 Claude Code accounts in the past 5 days."
+      "source": "https://x.com/theo/status/2115950785221857785",
+      "seen": "2026-10-29",
+      "quote": "I use Codex and Claude Code for hours a day every day.",
+      "also": [
+        {
+          "source": "https://x.com/theo/status/2104079585956761814",
+          "seen": "2026-09-27",
+          "quote": "With much, much effort, I have been able to kill ~3.5 $200 Claude Code accounts in the past 5 days."
+        }
+      ]
     },
     {
       "name": "Codex",
@@ -57,7 +64,36 @@
       "history": [],
       "source": "https://x.com/theo/status/2095609789711831286",
       "seen": "2026-09-03",
-      "quote": "Astra had made Codex more essential than ever due to its unique strengths."
+      "quote": "Astra had made Codex more essential than ever due to its unique strengths.",
+      "also": [
+        {
+          "source": "https://x.com/theo/status/2115950785221857785",
+          "seen": "2026-10-29",
+          "quote": "I use Codex and Claude Code for hours a day every day."
+        }
+      ]
+    },
+    {
+      "name": "Muse",
+      "icon": null,
+      "role": "reviews, orchestration, copy",
+      "surface": null,
+      "source": "https://x.com/theo/status/2117541436535210011",
+      "seen": "2026-11-03",
+      "quote": "I hit the limit of my $200 Muse sub 3 days ago.",
+      "also": [
+        {
+          "source": "https://x.com/theo/status/2113570906677432531",
+          "seen": "2026-10-23",
+          "quote": "Been using it a ton for orchestration and drafting rewrites of docs, skills, mcp descriptions and more."
+        },
+        {
+          "source": "https://x.com/theo/status/2115231478686826986",
+          "seen": "2026-10-27",
+          "quote": "All the machines need updates for T3 Code, Codex, Claude Code and Muse."
+        }
+      ],
+      "history": []
     }
   ],
   "models": [
@@ -73,40 +109,62 @@
           "value": "Fable 5.1"
         }
       ],
-      "source": "https://x.com/theo/status/2104339496942948401",
-      "seen": "2026-09-27",
-      "quote": "Fable 5.1 xhigh to Opus 5.5 high (move I made) is a 6.6x increase"
-    },
-    {
-      "name": "Muse Wonder",
-      "icon": null,
-      "detail": "reviews",
-      "source": "https://x.com/theo/status/2109731846842196093",
-      "seen": "2026-10-12",
-      "quote": "I often have Opus ask Wonder for code review, copy work, and architecture review",
-      "history": [
+      "source": "https://x.com/theo/status/2116420089411145913",
+      "seen": "2026-10-31",
+      "quote": "Julius convinced me to move from extra high to high on Opus 5.5 a week or two ago.",
+      "also": [
         {
-          "source": "https://x.com/theo/status/2103239969997476091",
-          "seen": "2026-09-24",
-          "quote": "Astra is still the best \"review\" model. It's so insanely thorough.",
-          "value": "GPT-6 Astra for reviews"
+          "source": "https://x.com/theo/status/2104339496942948401",
+          "seen": "2026-09-27",
+          "quote": "Fable 5.1 xhigh to Opus 5.5 high (move I made) is a 6.6x increase"
         },
         {
-          "value": "GPT-6.1 Sol",
-          "source": "https://x.com/theo/status/2105001138953327067",
-          "seen": "2026-09-29",
-          "quote": "GPT-6.1 Sol is a great replacement for Astra at a WAY better price, but I don't default to it for code.\n\nI absolutely default to it for code reviews"
+          "source": "https://x.com/theo/status/2118108590762602650",
+          "seen": "2026-11-04",
+          "quote": "High is thorough but still bails out at the right moment"
+        },
+        {
+          "source": "https://x.com/theo/status/2119632946663653740",
+          "seen": "2026-11-09",
+          "quote": "I've had between 8 and 25 threads running most of the day today, all with Opus 5.5."
+        }
+      ]
+    },
+    {
+      "name": "Claude Fable 5.2",
+      "icon": "claude",
+      "source": "https://x.com/theo/status/2120995557468737904",
+      "seen": "2026-11-12",
+      "quote": "Thank you Fable 5.2",
+      "also": [
+        {
+          "source": "https://x.com/theo/status/2120598893788623161",
+          "seen": "2026-11-11",
+          "quote": "I have Fable cleaning it up now"
+        }
+      ],
+      "history": [
+        {
+          "value": "Muse Wonder Full",
+          "source": "https://x.com/theo/status/2114871738937086415",
+          "seen": "2026-10-27",
+          "quote": "It regularly finds bugs that Opus misses, it writes prompts and skills better than Opus, and it writes copy and talks better than any model I've ever used."
         }
       ]
     }
   ],
   "review_style": {
-    "value": "Opus asks Wonder for code review; agents merge when confident",
-    "source": "https://x.com/theo/status/2109731846842196093",
-    "seen": "2026-10-12",
-    "quote": "I often have Opus ask Wonder for code review, copy work, and architecture review",
+    "value": "Council of rival models before merge; most full sends land with no last look",
+    "source": "https://x.com/theo/status/2113565349300015227",
+    "seen": "2026-10-23",
+    "quote": "I wrote a \"council\" skill that makes my agent argue with Opus 5.5, Muse Wonder Full and GPT-6.1 Sol before it is allowed to merge",
     "kind": "agent-reviews",
     "also": [
+      {
+        "source": "https://x.com/theo/status/2109731846842196093",
+        "seen": "2026-10-12",
+        "quote": "I often have Opus ask Wonder for code review, copy work, and architecture review"
+      },
       {
         "source": "https://x.com/theo/status/2105001138953327067",
         "seen": "2026-09-29",
@@ -126,24 +184,70 @@
         "source": "https://github.com/pingdotgg/t3code/blob/9bd1d8009a6b7c50f9dd9458e2bf27d481ff3b43/AGENTS.md#L115",
         "seen": "2026-07-28",
         "quote": "When babysitting: poll checks and comments newer than the last push, verify each bot finding against the source, fix real ones, dismiss false positives with a written reason."
+      },
+      {
+        "source": "https://www.youtube.com/watch?v=5Bmp9cz1JN8&t=1157",
+        "seen": "2026-10-26",
+        "quote": "I had 32 times where I said full send, and of those, 27 merged without me having to look at them again."
+      },
+      {
+        "source": "https://x.com/theo/status/2114479901416071208",
+        "seen": "2026-10-25",
+        "quote": "If you’re still merging most PRs by hand, you’re behind"
+      },
+      {
+        "source": "https://github.com/t3dotgg/tstack/blob/1085050f3baed1ac724caa4a8166145fb2ac88af/skills/full-send/SKILL.md#L8-L11",
+        "seen": "2026-10-28",
+        "quote": "You own the work from\nits current state to a merged PR."
+      },
+      {
+        "source": "https://github.com/pingdotgg/ts-rust/blob/704a83520fef65f080c944c1a21581cf5eb4401e/README.md#L39",
+        "seen": "2026-10-23",
+        "quote": "Also worth mentioning: I've never read a line of this code."
+      },
+      {
+        "source": "https://x.com/theo/status/2119633418187333636",
+        "seen": "2026-11-09",
+        "quote": "I use Sol for reviews. What's even funnier is that I have Opus reviewing the same code in parallel most of the time"
       }
     ]
   },
   "harness": {
-    "value": "T3 Code on a spare Ubuntu box over ssh, not macOS",
-    "short": "remote Linux",
-    "source": "https://x.com/theo/status/2103710437951131865",
-    "seen": "2026-09-26",
-    "quote": "2. Install Ubuntu on it\n3. ssh into it\n4. \"npx t3 connect\"\n5. Run all your work remotely",
-    "history": []
+    "value": "T3 Code over a fleet of 12 machines, under 5% of work done solo",
+    "short": "T3 Code fleet",
+    "source": "https://x.com/theo/status/2115977343001084251",
+    "seen": "2026-10-30",
+    "quote": "I do well under 5% of my work on my machine directly, I have a whole fleet I pick between.",
+    "history": [
+      {
+        "value": "T3 Code on a spare Ubuntu box over ssh, not macOS",
+        "source": "https://x.com/theo/status/2103710437951131865",
+        "seen": "2026-09-26",
+        "quote": "2. Install Ubuntu on it\n3. ssh into it\n4. \"npx t3 connect\"\n5. Run all your work remotely"
+      }
+    ],
+    "also": [
+      {
+        "source": "https://x.com/theo/status/2115362368599556401",
+        "seen": "2026-10-28",
+        "quote": "I have 12 machines connected to T3 Code and plan to connect more"
+      }
+    ]
   },
   "parallelism": {
-    "value": 40,
-    "short": "40+ threads",
-    "source": "https://x.com/theo/status/2102704338582032575",
-    "seen": "2026-09-23",
-    "quote": "I regularly have 40+ threads running concurrently.",
-    "history": []
+    "value": 25,
+    "short": "8–25 threads",
+    "source": "https://x.com/theo/status/2119632946663653740",
+    "seen": "2026-11-09",
+    "quote": "I've had between 8 and 25 threads running most of the day today, all with Opus 5.5.",
+    "history": [
+      {
+        "value": 40,
+        "source": "https://x.com/theo/status/2102704338582032575",
+        "seen": "2026-09-23",
+        "quote": "I regularly have 40+ threads running concurrently."
+      }
+    ]
   },
   "rules_files": {
     "value": "AGENTS.md with \"A note from Theo\"; CLAUDE.md just imports it",
@@ -155,18 +259,33 @@
   },
   "skills": {
     "value": [
-      "contribution-triage",
-      "test-t3-app",
-      "test-t3-mobile"
+      "babysit-pr",
+      "council",
+      "file-pr",
+      "full-send",
+      "full-stop",
+      "leaving-pr-comments",
+      "modernize",
+      "sol-loop",
+      "takeover"
     ],
-    "count": 3,
+    "count": 9,
     "featured": [
-      "test-t3-app"
+      "council",
+      "full-send",
+      "sol-loop"
     ],
-    "source": "https://github.com/pingdotgg/t3code/tree/9bd1d8009a6b7c50f9dd9458e2bf27d481ff3b43/.agents/skills",
-    "seen": "2026-10-02"
+    "source": "https://github.com/t3dotgg/tstack/tree/1085050f3baed1ac724caa4a8166145fb2ac88af/skills",
+    "seen": "2026-10-28"
   },
-  "mcp_servers": null,
+  "mcp_servers": {
+    "value": [
+      "T3 Code MCP (controls the whole fleet)"
+    ],
+    "source": "https://x.com/theo/status/2115409288432906341",
+    "seen": "2026-10-28",
+    "quote": "You can now control your whole fleet through a single MCP server in T3 Code. Here's me spinning up 8 threads on different machines via Grok Bot."
+  },
   "hooks": {
     "value": [
       "UserPromptSubmit, PreToolUse, Stop -> Claude Blocker"
@@ -176,14 +295,14 @@
     "quote": "1. **Claude Code hooks** notify the server when you submit a prompt or when Claude finishes"
   },
   "signature": {
-    "value": "T3 Code",
-    "kind": "tool",
-    "caption": "his own GUI over every agent",
-    "why": "He built the app he works in: one window over Claude Code, Codex and the rest, and the repo expects most contributions to come from T3 Code itself.",
+    "value": "council",
+    "kind": "skill",
+    "caption": "three labs argue before merge",
+    "why": "Our pick: one delegate each from three providers reviews and scores the work out of 10, round after round, until all are satisfied, and the scores go in the PR description.",
     "editorial": true,
-    "source": "https://github.com/pingdotgg/t3code/blob/9bd1d8009a6b7c50f9dd9458e2bf27d481ff3b43/AGENTS.md#L41",
-    "seen": "2026-10-06",
-    "quote": "Of note: Most T3 Code contributions will come from T3 Code itself, often controlled remotely."
+    "source": "https://x.com/theo/status/2113565349300015227",
+    "seen": "2026-10-23",
+    "quote": "I wrote a \"council\" skill that makes my agent argue with Opus 5.5, Muse Wonder Full and GPT-6.1 Sol before it is allowed to merge"
   },
   "archetype": {
     "value": "Swarm Lord",

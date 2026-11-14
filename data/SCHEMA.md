@@ -43,6 +43,12 @@ field `null`.
     }
   ],
 
+  // Someone who uses no coding agent: leave `agents` empty ([]) and say so here, in their own words.
+  // A card has exactly one of the two (validate.py). Never an agents row named "None".
+  // Stats count them as "no agent" rather than by their review_style, which still shows on the card.
+  "no_agent": { "value": "Writes code by hand", "source": "…", "seen": "…", "quote": "verbatim",
+                "also": [ { "source": "…", "seen": "…", "quote": "verbatim" } ] },   // or null
+
   // Models, as they name them, most used first. Max 2. icon: "claude" | "openai" | "gemini" | … or null.
   "models": [
     { "name": "Claude Opus 4.6", "icon": "claude", "detail": "high effort",   // detail optional, short

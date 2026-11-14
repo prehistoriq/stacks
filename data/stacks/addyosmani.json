@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "addyosmani",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-14",
   "name": {
     "value": "Addy Osmani",
     "source": "https://github.com/addyosmani"
@@ -82,12 +82,27 @@
     }
   ],
   "review_style": {
-    "value": "Careful human review of core paths only",
+    "value": "Careful human review of core paths; test and video evidence for the rest",
     "source": "https://addyo.substack.com/p/the-code-nobody-reads",
     "seen": "2026-09-28",
     "quote": "Core and sensitive paths still need an owner and a careful human review, and that’s where I spend my attention.",
     "kind": "spot-checks",
     "also": [
+      {
+        "source": "https://x.com/addyosmani/status/2113677798774898773",
+        "seen": "2026-10-23",
+        "quote": "I do something similar in my workflow - on top of E2E tests, Claude gives me recorded videos + screenshots as part of the evidence work is \"done\"."
+      },
+      {
+        "source": "https://x.com/addyosmani/status/2107008060787249562",
+        "seen": "2026-10-05",
+        "quote": "I tend to pay extra attention to my property tests and still do a manual review of them."
+      },
+      {
+        "source": "https://x.com/addyosmani/status/2107953571702751724",
+        "seen": "2026-10-07",
+        "quote": "+1 have had similar feelings about the net value of using a separate model for adversarial review."
+      },
       {
         "source": "https://addyo.substack.com/p/the-code-nobody-reads",
         "seen": "2026-09-28",
@@ -177,7 +192,14 @@
     "seen": "2025-12-18",
     "quote": "I also use Chrome DevTools MCP, built with my last team, for my debugging and quality loop to bridge the gap between static code analysis and live browser execution."
   },
-  "hooks": null,
+  "hooks": {
+    "value": [
+      "block edits to test files during implement"
+    ],
+    "source": "https://x.com/addyosmani/status/2109366317258293249",
+    "seen": "2026-10-11",
+    "quote": "a few things that work for me:\n\n- make it mechanical with a hook that blocks edits to test files during the implement step. the agent can't quietly move the goalposts if it can't reach them."
+  },
   "signature": {
     "value": "/loop PR triage",
     "kind": "habit",

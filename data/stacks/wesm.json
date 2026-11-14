@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "wesm",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-14",
   "name": {
     "value": "Wes McKinney",
     "source": "https://github.com/wesm"
@@ -68,19 +68,25 @@
   ],
   "models": [
     {
-      "name": "Claude Fable",
+      "name": "Claude Opus 5.5",
       "icon": "claude",
-      "detail": null,
       "inferred": true,
-      "source": "https://wesmckinney.com/blog/agentic-engineering-aug-2026/",
-      "seen": "2026-08-12",
-      "quote": "The work produced by the latest frontier models (5.6-Sol and Fable) is extremely sloppy and almost never suitable for production without substantial hardening.",
+      "source": "https://github.com/kenn-io/msgvault/commit/fdcc98ef1f0238087867b7c714dc227a7ea22c63",
+      "seen": "2026-11-05",
+      "quote": "Co-authored-by: Claude Opus 5.5 <noreply@anthropic.com>",
       "history": [
         {
           "value": "Opus 4.6",
           "source": "https://wesmckinney.com/transcripts/2026-04-08-joe-reis-ai-agents-mythical-agent-month.html",
           "seen": "2026-04-08",
           "quote": "Even Opus 4.6 – if you’re just committing and shipping the code that’s coming out of Opus 4.6, that code is a bunch of hot garbage."
+        },
+        {
+          "value": "Claude Fable",
+          "source": "https://wesmckinney.com/blog/agentic-engineering-aug-2026/",
+          "seen": "2026-08-12",
+          "quote": "The work produced by the latest frontier models (5.6-Sol and Fable) is extremely sloppy and almost never suitable for production without substantial hardening.",
+          "inferred": true
         }
       ]
     },
@@ -123,6 +129,11 @@
         "source": "https://wesmckinney.com/blog/agentic-engineering-aug-2026/",
         "seen": "2026-08-12",
         "quote": "Design and taste are not delegated to an agent."
+      },
+      {
+        "source": "https://github.com/kenn-io/msgvault/pull/1844",
+        "seen": "2026-11-05",
+        "quote": "Reviewers: 3x codex, codex (security), codex (test-value) | Synthesis: codex"
       }
     ]
   },

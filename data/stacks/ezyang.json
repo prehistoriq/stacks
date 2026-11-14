@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "ezyang",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-14",
   "name": {
     "value": "Edward Z. Yang",
     "source": "https://github.com/ezyang"
@@ -88,10 +88,22 @@
     {
       "name": "Claude Opus 5.5",
       "icon": "claude",
-      "source": "https://github.com/ezyang/piano-pad/commit/fc9c0ab3dc8b5a24528e4e57ace5eb62f2d28472",
-      "seen": "2026-10-06",
-      "quote": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
-      "inferred": true,
+      "source": "https://x.com/ezyang/status/2106488857403277777",
+      "seen": "2026-10-03",
+      "quote": "Opus 5.5 and Kokoro made a video for my latest (non AI-written) essay",
+      "also": [
+        {
+          "source": "https://github.com/pytorch/pytorch/pull/202617",
+          "seen": "2026-10-29",
+          "quote": "Opus misunderstood Driss's meaning, this is actually very small"
+        },
+        {
+          "source": "https://github.com/ezyang/piano-pad/commit/fc9c0ab3dc8b5a24528e4e57ace5eb62f2d28472",
+          "seen": "2026-10-06",
+          "quote": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+          "inferred": true
+        }
+      ],
       "history": [
         {
           "value": "Claude Opus",
@@ -112,19 +124,44 @@
     }
   ],
   "review_style": {
-    "value": "Reads every line, steers with questions and edits",
-    "source": "https://blog.ezyang.com/2026/03/ai-assisted-programming-for-spmd-types/",
-    "seen": "2026-03-10",
-    "quote": "This is NOT a workflow for letting the AI autonomously write tons of code. You’re going to be reading every single line it produces.",
+    "value": "Tiered. Reads every line where accountable; on PyTorch fixes outside their area, a Human Note says what's not understood and leaves it to the expert",
     "kind": "spot-checks",
+    "inferred": true,
+    "source": "https://github.com/pytorch/pytorch/pull/202692",
+    "seen": "2026-10-30",
+    "quote": "the fix PR is quite short and plausible though I don't claim to understand all the subtleties",
     "also": [
+      {
+        "source": "https://github.com/pytorch/pytorch/pull/202768",
+        "seen": "2026-10-30",
+        "quote": "If there's a problem with the PR it's probably not doing things idiomatically, but it will be easier for a subject expert to steer here"
+      },
+      {
+        "source": "https://github.com/pytorch/pytorch/pull/202817",
+        "seen": "2026-10-30",
+        "quote": "We iterated on this a bit, but I think this is pretty clear. The re-zero inputs is pretty tricky, so pay attention to that."
+      },
+      {
+        "source": "https://blog.ezyang.com/2026/03/ai-assisted-programming-for-spmd-types/",
+        "seen": "2026-03-10",
+        "quote": "This is NOT a workflow for letting the AI autonomously write tons of code. You’re going to be reading every single line it produces."
+      },
       {
         "source": "https://blog.ezyang.com/2026/03/read-less-steer-more/",
         "seen": "2026-03-18",
         "quote": "If you treat AI generated output as code to read, you have already lost the game."
       }
     ],
-    "inferred": true
+    "history": [
+      {
+        "value": "Reads every line, steers with questions and edits",
+        "kind": "spot-checks",
+        "source": "https://blog.ezyang.com/2026/03/ai-assisted-programming-for-spmd-types/",
+        "seen": "2026-03-10",
+        "quote": "This is NOT a workflow for letting the AI autonomously write tons of code. You’re going to be reading every single line it produces.",
+        "inferred": true
+      }
+    ]
   },
   "harness": {
     "value": "iTerm2 + tmux -CC to a remote GPU box, three worktrees, Sapling",
@@ -150,12 +187,28 @@
     ]
   },
   "rules_files": {
-    "value": "Per-repo CLAUDE.md / AGENTS.md; piano-pad's assigns roles to three agents",
+    "value": "Per-repo CLAUDE.md / AGENTS.md; piano-pad's assigns roles to three agents, pytorch-review's enforces human vs AI provenance",
     "short": "CLAUDE.md",
-    "url": "https://github.com/ezyang/piano-pad/blob/fc9c0ab3dc8b5a24528e4e57ace5eb62f2d28472/CLAUDE.md",
-    "source": "https://github.com/ezyang/piano-pad/blob/fc9c0ab3dc8b5a24528e4e57ace5eb62f2d28472/CLAUDE.md#L19",
-    "seen": "2026-10-06",
-    "quote": "**Your role is the one whose directory you are running in.** Read your charter"
+    "url": "https://github.com/pytorch/pytorch-review/blob/fa73490c038c54c279cae3d4d7c5abea1a4731ab/CLAUDE.md",
+    "source": "https://github.com/pytorch/pytorch-review/blob/fa73490c038c54c279cae3d4d7c5abea1a4731ab/CLAUDE.md#L1",
+    "seen": "2026-11-03",
+    "quote": "In this house, we carefully distinguish between human and AI written text (slop).",
+    "also": [
+      {
+        "source": "https://github.com/pytorch/pytorch/pull/202773",
+        "seen": "2026-10-30",
+        "quote": "I notice that the agents aren't splitting refactors into their own PRs by default, let's try to nudge them this way."
+      }
+    ],
+    "history": [
+      {
+        "value": "Per-repo CLAUDE.md / AGENTS.md; piano-pad's assigns roles to three agents",
+        "url": "https://github.com/ezyang/piano-pad/blob/fc9c0ab3dc8b5a24528e4e57ace5eb62f2d28472/CLAUDE.md",
+        "source": "https://github.com/ezyang/piano-pad/blob/fc9c0ab3dc8b5a24528e4e57ace5eb62f2d28472/CLAUDE.md#L19",
+        "seen": "2026-10-06",
+        "quote": "**Your role is the one whose directory you are running in.** Read your charter"
+      }
+    ]
   },
   "skills": {
     "value": [
@@ -192,7 +245,7 @@
   "archetype": {
     "value": "Purist",
     "editorial": true,
-    "why": "Reads every line the agent writes and runs no orchestrator, just tabs per worktree."
+    "why": "Keeps human and agent words strictly apart: labels every PR, marks slop as slop, and says when a fix isn't fully understood."
   },
   "signature_quote": {
     "value": "If you treat AI generated output as code to read, you have already lost the game.",

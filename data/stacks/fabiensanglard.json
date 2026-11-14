@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "fabiensanglard",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-14",
   "name": {
     "value": "Fabien Sanglard",
     "source": "https://fabiensanglard.net/"
@@ -64,12 +64,17 @@
   ],
   "models": [],
   "review_style": {
-    "value": "Reads all the code; LLM criticizes first",
+    "value": "Reads load-bearing code until it matches their own; throwaway 'drywall' code goes unread",
     "source": "https://fabiensanglard.net/agent.md/index.html",
     "seen": "2026-08-21",
     "quote": "While this \"trick\" has considerably improved the code generated, this is not a magic bullet that lets me avoid reading the code.",
     "kind": "reads-all",
     "also": [
+      {
+        "source": "https://www.youtube.com/watch?v=wxIwEXeQ3tw&t=2025",
+        "seen": "2026-10-14",
+        "quote": "it's just drywall code. So just I don't even read it. Just run."
+      },
       {
         "source": "https://fabiensanglard.net/extinct/index.html",
         "seen": "2026-07-10",

@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "mitsuhiko",
   "status": "ok",
-  "checked": "2026-10-12",
+  "checked": "2026-11-14",
   "name": {
     "value": "Armin Ronacher",
     "source": "https://github.com/mitsuhiko"
@@ -61,6 +61,13 @@
           "seen": "2025-12-22",
           "quote": "At the moment I’m using Amp, Claude Code, and Pi, all from the command line."
         }
+      ],
+      "also": [
+        {
+          "source": "https://x.com/mitsuhiko/status/2109339900973666350",
+          "seen": "2026-10-11",
+          "quote": "Didn't do anything beyond asking pi to figure out how to get the blender MCP set up."
+        }
       ]
     },
     {
@@ -84,33 +91,59 @@
   ],
   "models": [
     {
-      "name": "Sol",
-      "icon": "openai",
-      "source": "https://lucumr.pocoo.org/2026/9/5/latent-powers/",
-      "seen": "2026-09-05",
-      "quote": "Long story short: I had a conversation with Fable and Sol via Pi about what could be done with such a dongle or whether I should use a Raspberry Pi instead if I wanted to do my own thing there.",
+      "name": "Claude Opus 5.5",
+      "icon": "claude",
+      "inferred": true,
+      "source": "https://x.com/mitsuhiko/status/2112471576486551609",
+      "seen": "2026-10-20",
+      "quote": "Opus 5.5 is such a good writer that I really enjoy reading its reports now. Such a huge improvement over Fable.",
+      "also": [
+        {
+          "source": "https://x.com/mitsuhiko/status/2109968447425929662",
+          "seen": "2026-10-13",
+          "quote": "That's not a single model. It's a mix of different ones. From Opus 5.5, to GPT 5.6, to Deepseek Flash, all involved in different ways."
+        },
+        {
+          "source": "https://x.com/mitsuhiko/status/2120221718258012582",
+          "seen": "2026-11-10",
+          "quote": "for me Opus 5.5 does great models including animation mostly from code"
+        }
+      ],
+      "history": [
+        {
+          "value": "Fable",
+          "source": "https://lucumr.pocoo.org/2026/9/5/latent-powers/",
+          "seen": "2026-09-05",
+          "quote": "Long story short: I had a conversation with Fable and Sol via Pi about what could be done with such a dongle or whether I should use a Raspberry Pi instead if I wanted to do my own thing there."
+        }
+      ]
+    },
+    {
+      "name": "Kimi",
+      "icon": "kimi",
+      "detail": "when others hit safeguards",
+      "inferred": true,
+      "source": "https://x.com/mitsuhiko/status/2112948960532828253",
+      "seen": "2026-10-21",
+      "quote": "That's basically why I use a lot of Kimi now.",
       "history": [
         {
           "value": "Sonnet only",
           "source": "https://lucumr.pocoo.org/2025/6/12/agentic-coding/",
           "seen": "2025-06-12",
           "quote": "I exclusively use the cheaper Sonnet model. It’s perfectly adequate for my needs, and in fact, I prefer its outputs over the more expensive Opus model."
+        },
+        {
+          "value": "Sol",
+          "source": "https://lucumr.pocoo.org/2026/9/5/latent-powers/",
+          "seen": "2026-09-05",
+          "quote": "Long story short: I had a conversation with Fable and Sol via Pi about what could be done with such a dongle or whether I should use a Raspberry Pi instead if I wanted to do my own thing there."
         }
-      ],
-      "inferred": true
-    },
-    {
-      "name": "Fable",
-      "icon": "claude",
-      "source": "https://lucumr.pocoo.org/2026/9/5/latent-powers/",
-      "seen": "2026-09-05",
-      "quote": "Long story short: I had a conversation with Fable and Sol via Pi about what could be done with such a dongle or whether I should use a Raspberry Pi instead if I wanted to do my own thing there.",
-      "history": [],
-      "inferred": true
+      ]
     }
   ],
   "review_style": {
-    "value": "Steers as it goes, reviews when the agent says done",
+    "value": "Steers, reviews at 'done'. Team code must be explainable; experiments run on spec, tests and gates",
     "source": "https://lucumr.pocoo.org/2026/6/23/the-coming-loop/",
     "seen": "2026-06-23",
     "quote": "In the agent loop, the model eventually says “done” and I review. Even before that, I usually steer along the way.",
@@ -125,26 +158,53 @@
         "source": "https://lucumr.pocoo.org/2026/9/7/astra-why/",
         "seen": "2026-09-07",
         "quote": "It has shown that it will commit slop, and it requires me to review it more as a result."
+      },
+      {
+        "source": "https://www.youtube.com/watch?v=9UAxrdcDjjU&t=4453s",
+        "seen": "2026-09-09",
+        "quote": "I think we all started to pushing back on this is like accepting not understanding why a piece of code is in there"
+      },
+      {
+        "source": "https://x.com/mitsuhiko/status/2116996948481778129",
+        "seen": "2026-11-01",
+        "quote": "This is basically 24 hours of a little agent swarm working off a single initial spec and very light updates afterwards"
       }
     ],
     "inferred": true
   },
   "harness": {
-    "value": "Pi in the terminal, forks in Ghostty splits, subagents in tmux",
-    "short": "Ghostty + tmux",
-    "source": "https://github.com/mitsuhiko/agent-stuff/blob/0865c849befd2021490679f96a8dee58c84ac857/README.md#L59-L60",
-    "seen": "2026-07-26",
-    "quote": "`/split-fork` to branch the current session into a new Pi process in a right-hand Ghostty split.\nSerial `subagent` tool that runs one observable Pi child at a time in tmux; attach with the printed `pi --attach-subagent …` command.",
-    "history": []
+    "value": "Pi in the terminal; on big builds a coordinator agent assigns sub-agents to worktrees and merges go through a gate",
+    "short": "coordinator + worktrees",
+    "source": "https://github.com/earendil-works/djs/blob/8f26c9083f08a67db76658c80d9e5b868277dfa2/work/COORDINATOR.md#L3",
+    "seen": "2026-11-01",
+    "quote": "Notes for the coordinator (the main agent), learned the hard way.",
+    "history": [
+      {
+        "value": "Pi in the terminal, forks in Ghostty splits, subagents in tmux",
+        "short": "Ghostty + tmux",
+        "source": "https://github.com/mitsuhiko/agent-stuff/blob/0865c849befd2021490679f96a8dee58c84ac857/README.md#L59",
+        "seen": "2026-07-26",
+        "quote": "`/split-fork` to branch the current session into a new Pi process in a right-hand Ghostty split."
+      }
+    ]
   },
   "parallelism": null,
   "rules_files": {
-    "value": "AGENTS.md in his agent-stuff repo (12 lines)",
+    "value": "AGENTS.md per repo; djs's governs a coordinator and sub-agents, plus a merge gate",
     "short": "AGENTS.md",
-    "url": "https://github.com/mitsuhiko/agent-stuff/blob/0865c849befd2021490679f96a8dee58c84ac857/AGENTS.md",
-    "source": "https://github.com/mitsuhiko/agent-stuff/blob/0865c849befd2021490679f96a8dee58c84ac857/AGENTS.md#L12",
-    "seen": "2026-01-30",
-    "quote": "Pi extensions live in `./extensions`. When working in this repo, add or update extensions there. You can consult the `pi-mono` for reference, but do not modify code in `pi-mono`."
+    "url": "https://github.com/earendil-works/djs/blob/5f2e0951baf4618e6e458dcec16c741020de0d76/AGENTS.md",
+    "source": "https://github.com/earendil-works/djs/blob/5f2e0951baf4618e6e458dcec16c741020de0d76/AGENTS.md#L79",
+    "seen": "2026-11-05",
+    "quote": "the failure; never weaken the gate to get green.",
+    "history": [
+      {
+        "value": "AGENTS.md in his agent-stuff repo (12 lines)",
+        "url": "https://github.com/mitsuhiko/agent-stuff/blob/0865c849befd2021490679f96a8dee58c84ac857/AGENTS.md",
+        "source": "https://github.com/mitsuhiko/agent-stuff/blob/0865c849befd2021490679f96a8dee58c84ac857/AGENTS.md#L12",
+        "seen": "2026-01-30",
+        "quote": "Pi extensions live in `./extensions`. When working in this repo, add or update extensions there. You can consult the `pi-mono` for reference, but do not modify code in `pi-mono`."
+      }
+    ]
   },
   "skills": {
     "value": [
@@ -178,12 +238,20 @@
   },
   "mcp_servers": {
     "value": [
+      "Blender",
       "Sentry"
     ],
-    "source": "https://lucumr.pocoo.org/2026/10/6/codemode/",
-    "seen": "2026-10-06",
-    "quote": "Here for instance you can see the agent reach for the Sentry MCP straight away",
-    "inferred": true
+    "source": "https://x.com/mitsuhiko/status/2109334623058907266",
+    "seen": "2026-10-11",
+    "quote": "I use blender mcp and it works really well",
+    "also": [
+      {
+        "source": "https://lucumr.pocoo.org/2026/10/6/codemode/",
+        "seen": "2026-10-06",
+        "quote": "Here for instance you can see the agent reach for the Sentry MCP straight away",
+        "inferred": true
+      }
+    ]
   },
   "hooks": {
     "value": [

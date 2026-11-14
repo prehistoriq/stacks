@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "lethain",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-14",
   "name": {
     "value": "Will Larson",
     "source": "https://github.com/lethain"
@@ -87,12 +87,32 @@
     }
   ],
   "review_style": {
-    "value": "Same harness reviews first, context cleared; humans after",
-    "source": "https://lethain.com/revised-rules-of-engineering-leadership/",
-    "seen": "2026-06-15",
-    "quote": "The first pass of code review is done by the same harness that implements the changes, cleared of the context used to write the change, allowing humans to focus on higher value feedback.",
+    "value": "At Imprint, CI marks small PRs for approve-or-ignore review; verification over reading",
+    "source": "https://lethain.com/small-changes/",
+    "seen": "2026-10-17",
+    "quote": "we believe that effective CICD along with harness verification techniques like poteto’s pstack are more effective mechanisms for preventing errors than review",
     "kind": "unknown",
     "also": [
+      {
+        "source": "https://x.com/Lethain/status/2111498058102169627",
+        "seen": "2026-10-17",
+        "quote": "large /structural changes still do need review and learning, but most changes don’t"
+      },
+      {
+        "source": "https://lethain.com/small-changes/",
+        "seen": "2026-10-17",
+        "quote": "Importantly, this skill has only two options: approve or ignore."
+      },
+      {
+        "source": "https://lethain.com/adopting-verification-pattern/",
+        "seen": "2026-10-30",
+        "quote": "we require that each pull request generate a verifications/{pr_num}.md file"
+      },
+      {
+        "source": "https://lethain.com/revised-rules-of-engineering-leadership/",
+        "seen": "2026-06-15",
+        "quote": "The first pass of code review is done by the same harness that implements the changes, cleared of the context used to write the change, allowing humans to focus on higher value feedback."
+      },
       {
         "source": "https://lethain.com/decisions-not-dates/",
         "seen": "2026-08-11",

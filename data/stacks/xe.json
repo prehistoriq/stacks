@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "xe",
   "status": "ok",
-  "checked": "2026-10-12",
+  "checked": "2026-11-14",
   "name": {
     "value": "Xe Iaso",
     "source": "https://github.com/Xe"
@@ -26,9 +26,28 @@
   },
   "agents": [
     {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "most commits since mid-October",
+      "surface": null,
+      "source": "https://github.com/Xe/kefka/commit/8f5b16d16de769dc57af266462dac163b5f1b7b7",
+      "seen": "2026-11-03",
+      "quote": "Assisted-by: GPT-6 via Codex",
+      "inferred": true,
+      "history": [
+        {
+          "value": "Codex, GPT-6, Sept 2026 repos",
+          "source": "https://github.com/Xe/kefka/commit/f2bd6efaa5daa7959102d121c078fd02030231dc",
+          "seen": "2026-09-24",
+          "quote": "Assisted-by: GPT-6 via Codex",
+          "inferred": true
+        }
+      ]
+    },
+    {
       "name": "Claude Code",
       "icon": "claudecode",
-      "role": "primary",
+      "role": "second by commits since mid-October",
       "surface": "cli",
       "surface_source": {
         "source": "https://xeiaso.net/notes/2026/claude-code-wins-april-fools/",
@@ -40,6 +59,11 @@
       "seen": "2026-09-28",
       "quote": "Assisted-by: Claude Opus 5.5 via Claude Code",
       "also": [
+        {
+          "source": "https://github.com/Xe/kefka/commit/99e16b78ddd6b5d76d3255648bc63bc8111ce716",
+          "seen": "2026-11-03",
+          "quote": "Assisted-by: Claude Opus 5.5 via Claude Code"
+        },
         {
           "source": "https://www.tigrisdata.com/blog/agent-sandbox-go/",
           "seen": "2026-05-28",
@@ -53,32 +77,55 @@
       ]
     },
     {
-      "name": "Codex",
-      "icon": "codex",
-      "role": "GPT-6, Sept 2026 repos",
+      "name": "omp",
+      "icon": null,
+      "role": "GLM 5.3, one config commit",
       "surface": null,
-      "source": "https://github.com/Xe/kefka/commit/f2bd6efaa5daa7959102d121c078fd02030231dc",
-      "seen": "2026-09-24",
-      "quote": "Assisted-by: GPT-6 via Codex",
-      "inferred": true
-    },
-    {
-      "name": "opencode",
-      "icon": "opencode",
-      "role": "GLM 5.2, homelab infra",
-      "surface": null,
-      "source": "https://github.com/Xe/x/commit/a3b2abc13d283aeac76c11a24dea4a7b9105d4a0",
-      "seen": "2026-07-22",
-      "quote": "Assisted-by: GLM 5.2 via opencode",
-      "inferred": true
+      "inferred": true,
+      "source": "https://github.com/Xe/x/commit/7f0e9a0e5b4d657d2e47aa1f79073bb27a602515",
+      "seen": "2026-10-30",
+      "quote": "Assisted-by: GLM 5.3 via omp",
+      "history": [
+        {
+          "value": "opencode",
+          "source": "https://github.com/Xe/x/commit/a3b2abc13d283aeac76c11a24dea4a7b9105d4a0",
+          "seen": "2026-07-22",
+          "quote": "Assisted-by: GLM 5.2 via opencode",
+          "inferred": true
+        }
+      ]
     }
   ],
   "models": [
     {
+      "name": "GPT-6",
+      "icon": "openai",
+      "detail": "via Codex",
+      "inferred": true,
+      "source": "https://github.com/Xe/kefka/commit/8f5b16d16de769dc57af266462dac163b5f1b7b7",
+      "seen": "2026-11-03",
+      "quote": "Assisted-by: GPT-6 via Codex",
+      "history": [
+        {
+          "value": "GPT-6",
+          "source": "https://github.com/Xe/kefka/commit/f2bd6efaa5daa7959102d121c078fd02030231dc",
+          "seen": "2026-09-24",
+          "quote": "Assisted-by: GPT-6 via Codex"
+        },
+        {
+          "value": "GPT-6.1 Sol",
+          "detail": "via Codex",
+          "source": "https://github.com/Xe/x/commit/3c2a40778dc3a8b9467f33ba4ed71fd38c7c47d5",
+          "seen": "2026-10-07",
+          "quote": "Assisted-by: GPT-6.1 Sol via Codex"
+        }
+      ]
+    },
+    {
       "name": "Claude Opus 5.5",
       "icon": "claude",
-      "source": "https://github.com/Xe/soteria/commit/f8d523eda908cbcba11ec3abd584f0abe2b8e09d",
-      "seen": "2026-09-28",
+      "source": "https://github.com/Xe/kefka/commit/99e16b78ddd6b5d76d3255648bc63bc8111ce716",
+      "seen": "2026-11-03",
       "quote": "Assisted-by: Claude Opus 5.5 via Claude Code",
       "inferred": true,
       "history": [
@@ -93,28 +140,19 @@
           "source": "https://github.com/Xe/site/commit/374111799075960d5f670ce5fec925118a6b0b5c",
           "seen": "2026-08-11",
           "quote": "Assisted-by: Claude Opus 5 via Claude Code"
-        }
-      ]
-    },
-    {
-      "name": "GPT-6.1 Sol",
-      "icon": "openai",
-      "detail": "via Codex",
-      "source": "https://github.com/Xe/x/commit/3c2a40778dc3a8b9467f33ba4ed71fd38c7c47d5",
-      "seen": "2026-10-07",
-      "quote": "Assisted-by: GPT-6.1 Sol via Codex",
-      "history": [
+        },
         {
-          "value": "GPT-6",
-          "source": "https://github.com/Xe/kefka/commit/f2bd6efaa5daa7959102d121c078fd02030231dc",
-          "seen": "2026-09-24",
-          "quote": "Assisted-by: GPT-6 via Codex"
+          "value": "Claude Opus 5.5",
+          "source": "https://github.com/Xe/soteria/commit/f8d523eda908cbcba11ec3abd584f0abe2b8e09d",
+          "seen": "2026-09-28",
+          "quote": "Assisted-by: Claude Opus 5.5 via Claude Code",
+          "inferred": true
         }
       ]
     }
   ],
   "review_style": {
-    "value": "A second agent team reviews; /reviewbot on PRs",
+    "value": "Agents review: a second agent team, /reviewbot, Copilot on PRs",
     "kind": "agent-reviews",
     "source": "https://xeiaso.net/blog/2026/vibe-coding-sponsor-panel/",
     "seen": "2026-03-09",
@@ -129,6 +167,16 @@
         "source": "https://xeiaso.net/blog/2026/markdownlang/",
         "seen": "2026-02-10",
         "quote": "I haven't looked at basically any of the code (intentionally, it's part of The Bit™️)"
+      },
+      {
+        "source": "https://github.com/Xe/kefka/pull/8",
+        "seen": "2026-11-03",
+        "quote": "Malformed regexes can be accepted and invalid `-printf` formats may be rejected only after files are deleted, violating fail-closed safety."
+      },
+      {
+        "source": "https://github.com/Xe/kefka/blob/99e16b78ddd6b5d76d3255648bc63bc8111ce716/README.md#L13",
+        "seen": "2026-11-03",
+        "quote": "Most of the commands have not been audited for correctness or POSIX compliance."
       }
     ],
     "inferred": true
@@ -150,12 +198,21 @@
     "history": []
   },
   "rules_files": {
-    "value": "Global CLAUDE.md shipped as a system package; per-repo AGENTS.md, with CLAUDE.md as '@AGENTS.md'",
+    "value": "Per-repo AGENTS.md as single source of truth, tool-agnostic .agents/ directory; global CLAUDE.md package",
     "short": "AGENTS.md",
-    "url": "https://github.com/Xe/x/blob/de9b63d24e5216518495966b5816156cfdde1c56/AGENTS.md",
-    "source": "https://github.com/Xe/x/blob/de9b63d24e5216518495966b5816156cfdde1c56/AGENTS.md#L7",
-    "seen": "2026-08-26",
-    "quote": "Always ask the user for intent before writing code."
+    "url": "https://github.com/Xe/x/blob/7f0e9a0e5b4d657d2e47aa1f79073bb27a602515/AGENTS.md",
+    "source": "https://github.com/Xe/x/commit/7f0e9a0e5b4d657d2e47aa1f79073bb27a602515",
+    "seen": "2026-10-30",
+    "quote": "Agent instructions now live in the tool-agnostic .agents directory with AGENTS.md as the single source of truth.",
+    "history": [
+      {
+        "value": "Global CLAUDE.md shipped as a system package; per-repo AGENTS.md, with CLAUDE.md as '@AGENTS.md'",
+        "short": "AGENTS.md",
+        "source": "https://github.com/Xe/x/blob/de9b63d24e5216518495966b5816156cfdde1c56/AGENTS.md#L7",
+        "seen": "2026-08-26",
+        "quote": "Always ask the user for intent before writing code."
+      }
+    ]
   },
   "skills": {
     "value": [

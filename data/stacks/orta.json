@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "orta",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-14",
   "name": {
     "value": "Orta Therox",
     "source": "https://github.com/orta"
@@ -69,17 +69,24 @@
   ],
   "models": [
     {
-      "name": "Fable",
+      "name": "Claude Opus 5.5",
       "icon": "claude",
-      "source": "https://blog.puzzmo.com/posts/2026/07/03/twelve-months-of-claude/",
-      "seen": "2026-07-03",
-      "quote": "For most of the year, the models themselves have come and gone. I didn’t really think much about them. This changed with Fable, which I think was a significant jump in capabilities.",
+      "inferred": true,
+      "source": "https://github.com/orta/deploy-sidebar-for-cosmic/commit/9822ff7d85d6093ce86cfb4aebc8e91f9ac1a351",
+      "seen": "2026-11-10",
+      "quote": "Co-Authored-By: Claude Opus 5.5",
       "history": [
         {
           "value": "Sonnet 4.5",
           "source": "https://blog.puzzmo.com/posts/2025/12/9/tech-2025/",
           "seen": "2025-12-09",
           "quote": "I’m finding myself using Claude Code almost every time I open up my editor, and it’s capabilities feels to have had quite a boost with the introduction of Sonnet 4.5."
+        },
+        {
+          "value": "Fable",
+          "source": "https://blog.puzzmo.com/posts/2026/07/03/twelve-months-of-claude/",
+          "seen": "2026-07-03",
+          "quote": "For most of the year, the models themselves have come and gone. I didn’t really think much about them. This changed with Fable, which I think was a significant jump in capabilities."
         }
       ]
     }
@@ -100,6 +107,11 @@
         "source": "https://blog.puzzmo.com/posts/2026/07/03/twelve-months-of-claude/",
         "seen": "2026-07-03",
         "quote": "I have Claude automatically review all Pull Requests in Puzzmo. For me, this is my main review partner on a pull request (outside of future me) - I’ve found it to be a good ‘you missed this’ sorta review, but it is sorta marking itself and so reviews have a tendency to be ‘This is great.’"
+      },
+      {
+        "source": "https://blog.puzzmo.com/posts/2026/10/19/daily-challenge-tech/",
+        "seen": "2026-10-19",
+        "quote": "I do think working with Claude on the front-end makes the work a lot closer to simply doing design work and then product level testing instead of devoting painstaking hours on annoying finicky front-end code."
       }
     ]
   },
@@ -134,12 +146,24 @@
     ]
   },
   "rules_files": {
-    "value": "CLAUDE.md (132 lines, keytrace)",
-    "short": "CLAUDE.md",
+    "value": "Product-level CLAUDE.md per feature plugin at Puzzmo; CLAUDE.md (132 lines, keytrace) public",
+    "short": "CLAUDE.md per plugin",
     "url": "https://github.com/orta/keytrace/blob/e2bca7b461854eae26c5e408a7cdec7ba6355540/CLAUDE.md",
-    "source": "https://github.com/orta/keytrace/blob/e2bca7b461854eae26c5e408a7cdec7ba6355540/CLAUDE.md#L11",
-    "seen": "2026-07-30",
-    "quote": "- Do not push to remote or deploy unless explicitly asked."
+    "source": "https://blog.puzzmo.com/posts/2026/10/19/daily-challenge-tech/",
+    "seen": "2026-10-19",
+    "quote": "I used CLAUDE.md files in these plugins to keep a ‘product manager’ level of the feature in sync with a human readable version for others.",
+    "also": [
+      {
+        "source": "https://github.com/orta/keytrace/blob/e2bca7b461854eae26c5e408a7cdec7ba6355540/CLAUDE.md#L11",
+        "seen": "2026-07-30",
+        "quote": "- Do not push to remote or deploy unless explicitly asked."
+      },
+      {
+        "source": "https://blog.puzzmo.com/posts/2026/10/19/daily-challenge-tech/",
+        "seen": "2026-10-19",
+        "quote": "We’ve moved 11 older systems (Game Center, the champions league, bluesky/atproto support, tutorials etc…) over to feature plugins, each with its own folder and a CLAUDE.md describing what it does."
+      }
+    ]
   },
   "skills": {
     "value": [

@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "jxnl",
   "status": "ok",
-  "checked": "2026-10-07",
+  "checked": "2026-11-14",
   "name": {
     "value": "Jason Liu",
     "source": "https://github.com/jxnl"
@@ -51,18 +51,31 @@
           "source": "https://ai.engineer/talks/il1c1a2FufU-full-workshop-setting-yourself-up-for-success-jason-liu-openai-codex",
           "seen": "2026-07-24",
           "quote": "Sometimes I'll use the Codex CLI every once in a while if I wanna, like,"
+        },
+        {
+          "source": "https://github.com/jxnl/dots/blob/6a16176d42d8b6ee7124fd273ae969334e3d19d8/README.md#L3",
+          "seen": "2026-11-03",
+          "quote": "My terminal setup for editing in Vim, running Codex alongside it, and keeping a project open in tmux."
         }
       ]
     }
   ],
   "models": [
     {
-      "name": "GPT-5.5",
+      "name": "GPT-5.6 Sol",
       "icon": "openai",
-      "source": "https://ai.engineer/talks/il1c1a2FufU-full-workshop-setting-yourself-up-for-success-jason-liu-openai-codex",
-      "seen": "2026-07-24",
-      "quote": "Um, I found that, uh, the 5.5 models are pretty reluctant to take these like destructive actions.",
-      "history": []
+      "detail": "medium; extra high or ultra for prototypes",
+      "source": "https://pod.wave.co/podcast/behind-the-craft/chatgpt-work-codex-tutorial-my-complete-system-at-openai-jason-liu",
+      "seen": "2026-07-26",
+      "quote": "So most of my work generally is in Medium.",
+      "history": [
+        {
+          "value": "GPT-5.5",
+          "source": "https://ai.engineer/talks/il1c1a2FufU-full-workshop-setting-yourself-up-for-success-jason-liu-openai-codex",
+          "seen": "2026-07-24",
+          "quote": "Um, I found that, uh, the 5.5 models are pretty reluctant to take these like destructive actions."
+        }
+      ]
     },
     {
       "name": "GPT-5.3-Codex-Spark",
@@ -75,13 +88,23 @@
     }
   ],
   "review_style": {
-    "value": "Review skills modelled on colleagues' PR feedback; memory changes reviewed as git diffs",
+    "value": "Doesn't review most of their own code; review skills and codex review get the first pass",
     "kind": "agent-reviews",
     "inferred": true,
-    "source": "https://ai.engineer/talks/il1c1a2FufU-full-workshop-setting-yourself-up-for-success-jason-liu-openai-codex",
-    "seen": "2026-07-24",
-    "quote": "And so I just have like a review my code like Charlie based off the past year of like feedback he's given on pull requests. Review my code like Dominic.",
+    "source": "https://pod.wave.co/podcast/behind-the-craft/chatgpt-work-codex-tutorial-my-complete-system-at-openai-jason-liu",
+    "seen": "2026-07-26",
+    "quote": "I don't really review most of the code I write.",
     "also": [
+      {
+        "source": "https://ai.engineer/talks/il1c1a2FufU-full-workshop-setting-yourself-up-for-success-jason-liu-openai-codex",
+        "seen": "2026-07-24",
+        "quote": "And so I just have like a review my code like Charlie based off the past year of like feedback he's given on pull requests. Review my code like Dominic."
+      },
+      {
+        "source": "https://github.com/jxnl/dots/blob/6a16176d42d8b6ee7124fd273ae969334e3d19d8/README.md#L26",
+        "seen": "2026-11-03",
+        "quote": "Review the working tree before committing."
+      },
       {
         "source": "https://jxnl.co/writing/2026/05/10/codex-maxxing/",
         "seen": "2026-05-10",
@@ -100,7 +123,14 @@
     "source": "https://jxnl.co/writing/2026/05/10/codex-maxxing/",
     "seen": "2026-05-10",
     "quote": "These are not short chats. They are megathreads that I have been compacting for months.",
-    "history": []
+    "history": [],
+    "also": [
+      {
+        "source": "https://pod.wave.co/podcast/behind-the-craft/chatgpt-work-codex-tutorial-my-complete-system-at-openai-jason-liu",
+        "seen": "2026-07-26",
+        "quote": "I don't really have hundreds of threads working in the background."
+      }
+    ]
   },
   "parallelism": null,
   "rules_files": {
@@ -116,6 +146,7 @@
       "audit-ai-code",
       "audit-ai-frontend",
       "audit-ai-writing",
+      "dotfiles-check",
       "email-like-me",
       "file-organizer",
       "gh-address-comments",
@@ -131,14 +162,14 @@
       "ultragoal",
       "yeet"
     ],
-    "count": 17,
+    "count": 18,
     "featured": [
       "ultragoal",
       "audit-ai-code",
       "email-like-me"
     ],
-    "source": "https://github.com/jxnl/dots/tree/34d197b7e2ede7c57d11b601250b42b8a2ae303a/agents/skills",
-    "seen": "2026-07-14"
+    "source": "https://github.com/jxnl/dots/tree/6a16176d42d8b6ee7124fd273ae969334e3d19d8/agents/skills",
+    "seen": "2026-11-03"
   },
   "mcp_servers": {
     "value": [

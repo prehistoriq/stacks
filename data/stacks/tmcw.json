@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "tmcw",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-14",
   "name": {
     "value": "Tom MacWright",
     "source": "https://github.com/tmcw"
@@ -94,12 +94,18 @@
     }
   ],
   "review_style": {
-    "value": "Careful human review of LLM fixes",
-    "source": "https://blog.val.town/security",
-    "seen": "2026-07-31",
-    "quote": "I've been using LLMs much more for remediation, with lots of careful human review involved.",
-    "kind": "unknown",
+    "value": "Still reads LLM-written contributions to their open source",
+    "kind": "reads-all",
+    "inferred": true,
+    "source": "https://macwright.com/2026/10/28/simple-statistics-8",
+    "seen": "2026-10-28",
+    "quote": "Everyone’s definitely using LLMs, but the quality is mostly high enough to merge after a little back & forth. I’m still reading the code and trying to keep it consistent.",
     "also": [
+      {
+        "source": "https://blog.val.town/security",
+        "seen": "2026-07-31",
+        "quote": "I've been using LLMs much more for remediation, with lots of careful human review involved."
+      },
       {
         "source": "https://macwright.com/2026/07/16/effect-update",
         "seen": "2026-07-16",
@@ -110,8 +116,7 @@
         "seen": "2025-11-07",
         "quote": "they'll leave their calling cards, like sloppy types, redundant methods, copypasta code, and comments."
       }
-    ],
-    "inferred": true
+    ]
   },
   "harness": {
     "value": "Neovim (LazyVim) with coder/claudecode.nvim",

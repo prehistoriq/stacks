@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "cvolawless",
   "status": "ok",
-  "checked": "2026-10-07",
+  "checked": "2026-11-05",
   "name": {
     "value": "Claire Vo",
     "source": "https://github.com/cvolawless"
@@ -29,35 +29,19 @@
   },
   "agents": [
     {
-      "name": "Codex",
-      "icon": "codex",
-      "role": "primary, desktop app",
-      "surface": "app",
-      "surface_source": {
-        "source": "https://www.lennysnewsletter.com/p/i-left-claude-for-months-opus-55",
-        "seen": "2026-09-22",
-        "quote": "I like the desktop app better."
-      },
-      "source": "https://www.lennysnewsletter.com/p/i-left-claude-for-months-opus-55",
-      "seen": "2026-09-22",
-      "quote": "I moved most of my daily work to Codex and I didn’t miss it.",
-      "also": [
-        {
-          "source": "https://www.lennysnewsletter.com/p/i-left-claude-for-months-opus-55",
-          "seen": "2026-09-22",
-          "quote": "I will say I still find myself reaching for codex."
-        }
-      ]
-    },
-    {
       "name": "Claude Code",
       "icon": "claudecode",
-      "role": "PR review, architecture, frontend (back with Opus 5.5)",
-      "surface": null,
-      "inferred": true,
-      "source": "https://www.lennysnewsletter.com/p/i-left-claude-for-months-opus-55",
-      "seen": "2026-09-22",
-      "quote": "But what I've really realized about Opus 5.5 is I've built it now back into my development process,",
+      "role": "80% of personal coding, in Claude Code projects",
+      "surface": "web",
+      "surface_source": {
+        "source": "https://github.com/ChatPRD/chatprd-icons/commit/a9bb7315b4aed2df7a4049ecc2cc08a76deaa43f",
+        "seen": "2026-10-17",
+        "quote": "Claude-Session: https://claude.ai/code/session_01UfKegsSztKirvhx3AFSjoF",
+        "inferred": true
+      },
+      "source": "https://x.com/clairevo/status/2114012293105430813",
+      "seen": "2026-10-24",
+      "quote": "Plot twist: I’ve moved 80% of my personal coding over to claude code + opus-5.5",
       "history": [
         {
           "value": "Left the Claude harness for months",
@@ -65,58 +49,141 @@
           "source": "https://www.lennysnewsletter.com/p/i-left-claude-for-months-opus-55",
           "seen": "2026-09-22",
           "quote": "And I found it so frustrating to work with that I just abandoned the Claude harness entirely."
+        },
+        {
+          "value": "Claude Code for PR review, architecture, frontend",
+          "surface": null,
+          "source": "https://www.lennysnewsletter.com/p/i-left-claude-for-months-opus-55",
+          "seen": "2026-09-22",
+          "quote": "But what I've really realized about Opus 5.5 is I've built it now back into my development process,",
+          "inferred": true
         }
       ]
     },
     {
-      "name": "Cursor",
-      "icon": "cursor",
-      "role": "cloud agents launched by her PR bot",
-      "surface": "web",
-      "source": "https://www.lennysnewsletter.com/p/grok-bot-vs-openclaw-how-i-replaced",
-      "seen": "2026-09-02",
-      "quote": "Why I want to show this one is it can, GrokBot can kick off cursor cloud agent coding jobs.",
+      "name": "Codex",
+      "icon": "codex",
+      "role": "the rest of the coding; computer and browser use",
+      "surface": "app",
+      "surface_source": {
+        "source": "https://www.lennysnewsletter.com/p/i-left-claude-for-months-opus-55",
+        "seen": "2026-09-22",
+        "quote": "I like the desktop app better."
+      },
+      "source": "https://x.com/clairevo/status/2114043099379019892",
+      "seen": "2026-10-24",
+      "quote": "rest of personal coding goes to codex",
+      "also": [
+        {
+          "source": "https://x.com/clairevo/status/2114034027187609702",
+          "seen": "2026-10-24",
+          "quote": "i mean tbh i still prefer the codex harness + app but opus 5.5 + projects just unbeatable for software dev atm"
+        },
+        {
+          "source": "https://x.com/clairevo/status/2114015612855029915",
+          "seen": "2026-10-24",
+          "quote": "I’m a fickle date I still use codex just not as much for coding (can’t live without computer/browser use)"
+        },
+        {
+          "source": "https://www.lennysnewsletter.com/p/i-left-claude-for-months-opus-55",
+          "seen": "2026-09-22",
+          "quote": "I will say I still find myself reaching for codex."
+        }
+      ],
       "history": [
         {
-          "value": "Cursor desktop app",
-          "surface": "ide",
-          "source": "https://www.lennysnewsletter.com/p/claude-opus-46-vs-gpt-53-codex-how",
-          "seen": "2026-02-11",
-          "quote": "I'm still a cursor girl."
+          "value": "Codex, primary",
+          "surface": "app",
+          "source": "https://www.lennysnewsletter.com/p/i-left-claude-for-months-opus-55",
+          "seen": "2026-09-22",
+          "quote": "I moved most of my daily work to Codex and I didn’t miss it."
+        }
+      ]
+    },
+    {
+      "name": "Devin",
+      "icon": null,
+      "role": "async and small tasks, via Slack and automations",
+      "surface": null,
+      "source": "https://x.com/clairevo/status/2107827567185260670",
+      "seen": "2026-10-07",
+      "quote": "I use Devin as a cloud/bg agent primarily through slack and automations",
+      "also": [
+        {
+          "source": "https://x.com/clairevo/status/2114043099379019892",
+          "seen": "2026-10-24",
+          "quote": "devin does all the async / little things"
+        }
+      ],
+      "history": [
+        {
+          "value": "Cursor",
+          "surface": "web",
+          "source": "https://www.lennysnewsletter.com/p/grok-bot-vs-openclaw-how-i-replaced",
+          "seen": "2026-09-02",
+          "quote": "Why I want to show this one is it can, GrokBot can kick off cursor cloud agent coding jobs.",
+          "history": [
+            {
+              "value": "Cursor desktop app",
+              "surface": "ide",
+              "source": "https://www.lennysnewsletter.com/p/claude-opus-46-vs-gpt-53-codex-how",
+              "seen": "2026-02-11",
+              "quote": "I'm still a cursor girl."
+            }
+          ],
+          "also": [
+            {
+              "source": "https://x.com/clairevo/status/2107828349683040600",
+              "seen": "2026-10-07",
+              "quote": "I don’t actually use cursor app but I use cursor cloud and bugbot a lot in coding flow for fixes"
+            }
+          ]
         }
       ]
     }
   ],
   "models": [
     {
-      "name": "GPT-6 Astra",
-      "icon": "openai",
-      "detail": "daily driver",
-      "source": "https://www.lennysnewsletter.com/p/gpt-6-astra-is-a-banger-heres-everything",
-      "seen": "2026-09-03",
-      "quote": "This is going to be my daily driver.",
-      "history": [
-        {
-          "value": "GPT-5.3 Codex, for bugs and architecture",
-          "source": "https://www.lennysnewsletter.com/p/claude-opus-46-vs-gpt-53-codex-how",
-          "seen": "2026-02-11",
-          "quote": "You want Codex catching all your bugs,"
-        }
-      ]
-    },
-    {
       "name": "Claude Opus 5.5",
       "icon": "claude",
-      "detail": "day-to-day work, PR review",
-      "source": "https://www.lennysnewsletter.com/p/opus-55-vs-gpt-6-sol-which-model",
-      "seen": "2026-09-22",
-      "quote": "5.5 wins my week.",
+      "detail": "80% of personal coding",
+      "source": "https://x.com/clairevo/status/2114012293105430813",
+      "seen": "2026-10-24",
+      "quote": "Plot twist: I’ve moved 80% of my personal coding over to claude code + opus-5.5",
       "history": [
         {
           "value": "Claude Opus 4.6, for product and feature work",
           "source": "https://www.lennysnewsletter.com/p/claude-opus-46-vs-gpt-53-codex-how",
           "seen": "2026-02-11",
           "quote": "you want to use Opus for your product and feature work,"
+        },
+        {
+          "value": "Claude Opus 5.5, day-to-day work and PR review",
+          "source": "https://www.lennysnewsletter.com/p/opus-55-vs-gpt-6-sol-which-model",
+          "seen": "2026-09-22",
+          "quote": "5.5 wins my week."
+        }
+      ]
+    },
+    {
+      "name": "GPT-6.1 Terra",
+      "icon": "openai",
+      "detail": "Codex default, computer use",
+      "source": "https://x.com/clairevo/status/2114811158649798961",
+      "seen": "2026-10-26",
+      "quote": "Great default for codex.",
+      "history": [
+        {
+          "value": "GPT-5.3 Codex, for bugs and architecture",
+          "source": "https://www.lennysnewsletter.com/p/claude-opus-46-vs-gpt-53-codex-how",
+          "seen": "2026-02-11",
+          "quote": "You want Codex catching all your bugs,"
+        },
+        {
+          "value": "GPT-6 Astra, daily driver",
+          "source": "https://www.lennysnewsletter.com/p/gpt-6-astra-is-a-banger-heres-everything",
+          "seen": "2026-09-03",
+          "quote": "This is going to be my daily driver."
         }
       ]
     }
@@ -137,16 +204,35 @@
         "source": "https://clairevo.com/ai-workflows/open-sourcing-a-pr-review-agent-with-codex",
         "seen": "2026-08-20",
         "quote": "We had an agent at ChatPRD that reviews proposed code changes on GitHub."
+      },
+      {
+        "source": "https://x.com/clairevo/status/2107828349683040600",
+        "seen": "2026-10-07",
+        "quote": "I use cursor cloud and bugbot a lot in coding flow for fixes"
       }
     ]
   },
   "harness": {
-    "value": "Codex desktop app for coding; a Grok Bot fleet (moved from OpenClaw) that can launch Cursor cloud agents",
-    "short": "Codex app + bots",
-    "source": "https://www.lennysnewsletter.com/p/grok-bot-vs-openclaw-how-i-replaced",
-    "seen": "2026-09-02",
-    "quote": "I have killed all my open claws and moved almost entirely to GrokBot.",
-    "history": []
+    "value": "Worktrees, agents in Slack, crons, connectors. No /plan or /goal, no task tracker, no IDE copilot, no TUI",
+    "short": "worktrees + Slack",
+    "source": "https://x.com/clairevo/status/2117755991236448528",
+    "seen": "2026-11-03",
+    "quote": "AI things i still do and AI things i don't do anymore",
+    "also": [
+      {
+        "source": "https://x.com/clairevo/status/2107827567185260670",
+        "seen": "2026-10-07",
+        "quote": "For coding, I mostly use codex on local work trees or on my old 🦞 Mac mini as a remote"
+      }
+    ],
+    "history": [
+      {
+        "value": "Codex desktop app for coding; a Grok Bot fleet (moved from OpenClaw) that can launch Cursor cloud agents",
+        "source": "https://www.lennysnewsletter.com/p/grok-bot-vs-openclaw-how-i-replaced",
+        "seen": "2026-09-02",
+        "quote": "I have killed all my open claws and moved almost entirely to GrokBot."
+      }
+    ]
   },
   "parallelism": null,
   "rules_files": null,

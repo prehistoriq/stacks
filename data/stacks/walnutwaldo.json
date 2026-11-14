@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "walnutwaldo",
   "status": "ok",
-  "checked": "2026-10-07",
+  "checked": "2026-11-14",
   "name": {
     "value": "Walden Yan",
     "source": "https://github.com/walnutwaldo"
@@ -15,10 +15,7 @@
     "value": "walnutwaldo",
     "source": "https://github.com/walnutwaldo"
   },
-  "site": {
-    "value": "https://waldenyan.com",
-    "source": "https://github.com/walnutwaldo"
-  },
+  "site": null,
   "avatar": {
     "value": "https://avatars.githubusercontent.com/u/22627487?v=4",
     "source": "https://github.com/walnutwaldo"
@@ -72,21 +69,39 @@
       ]
     },
     {
-      "name": "GPT-5.5",
+      "name": "GPT-6 Astra",
       "icon": "openai",
-      "source": "https://x.com/walden_yan/status/2047783217370152988",
-      "seen": "2026-04-24",
-      "quote": "I find myself really reaching for 5.5 nowadays. Seems like a model built for cloud.",
-      "history": []
+      "detail": "review subagents, with Fable",
+      "source": "https://x.com/walden_yan/status/2112610802830381394",
+      "seen": "2026-10-20",
+      "quote": "each sweep spawns a Fable/Astra subagent with specific responsibilities to look for certain things I would flag.",
+      "history": [
+        {
+          "value": "GPT-5.5",
+          "source": "https://x.com/walden_yan/status/2047783217370152988",
+          "seen": "2026-04-24",
+          "quote": "I find myself really reaching for 5.5 nowadays. Seems like a model built for cloud."
+        }
+      ]
     }
   ],
   "review_style": {
-    "value": "Devin Review first, then asks Devin what to look at first",
+    "value": "Runs /walden-review, a skill trained on 6 months of personal PR comments, before reading any PR",
     "kind": "agent-reviews",
-    "source": "https://x.com/walden_yan/status/2034689901892084009",
-    "seen": "2026-03-19",
-    "quote": "Then when I go to review, I ask it to tell me what I should look at first",
+    "source": "https://x.com/walden_yan/status/2112610802830381394",
+    "seen": "2026-10-20",
+    "quote": "I always run it before ever reading a PR myself",
     "also": [
+      {
+        "source": "https://x.com/walden_yan/status/2112610802830381394",
+        "seen": "2026-10-20",
+        "quote": "On the held-out eval set, it catches about 70% of the code issues I’d flagged."
+      },
+      {
+        "source": "https://x.com/walden_yan/status/2034689901892084009",
+        "seen": "2026-03-19",
+        "quote": "Then when I go to review, I ask it to tell me what I should look at first"
+      },
       {
         "source": "https://x.com/walden_yan/status/2064755974548902006",
         "seen": "2026-06-10",
@@ -102,8 +117,7 @@
         "seen": "2026-07-30",
         "quote": "Breaking PRs into stacks has been genuinely only of the greatest life hacks I learned (thanks to @ido_pesok)"
       }
-    ],
-    "inferred": true
+    ]
   },
   "harness": {
     "value": "Slack channel feeding a team of cloud Devins; stacked PRs",
@@ -122,18 +136,37 @@
   },
   "parallelism": null,
   "rules_files": null,
-  "skills": null,
+  "skills": {
+    "value": [
+      "walden-review",
+      "build_review_profile"
+    ],
+    "count": 2,
+    "featured": [
+      "walden-review",
+      "build_review_profile"
+    ],
+    "source": "https://x.com/walden_yan/status/2112635283036594394",
+    "seen": "2026-10-20"
+  },
   "mcp_servers": null,
   "hooks": null,
   "signature": {
-    "value": "Daily customer-report Devin",
-    "kind": "habit",
-    "caption": "escalates top feature asks",
-    "why": "Our pick: his favorite Devin job is not code at all, it reads every customer report each day and escalates the top requests to engineering.",
+    "value": "/walden-review",
+    "kind": "skill",
+    "caption": "trained on own PR comments",
+    "why": "Our pick: Devin hill-climbed a skill against six months of personal review comments with a held-out set, so a copy of the review runs first.",
     "editorial": true,
-    "source": "https://x.com/walden_yan/status/2090158861974163826",
-    "seen": "2026-08-19",
-    "quote": "My favorite use for Devin isn’t even writing code. Every day, my Devin reads every customer report and escalates all the top feature requests to our eng team. Eyes everywhere."
+    "source": "https://x.com/walden_yan/status/2112610802830381394",
+    "seen": "2026-10-20",
+    "quote": "I got sick of reviewing code. So I made /walden-review.",
+    "also": [
+      {
+        "source": "https://x.com/walden_yan/status/2090158861974163826",
+        "seen": "2026-08-19",
+        "quote": "My favorite use for Devin isn’t even writing code. Every day, my Devin reads every customer report and escalates all the top feature requests to our eng team. Eyes everywhere."
+      }
+    ]
   },
   "archetype": {
     "value": "Orchestrator",

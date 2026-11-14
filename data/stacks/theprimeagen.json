@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "theprimeagen",
   "status": "ok",
-  "checked": "2026-10-12",
+  "checked": "2026-11-14",
   "name": {
     "value": "ThePrimeagen",
     "source": "https://github.com/ThePrimeagen"
@@ -66,6 +66,23 @@
   ],
   "models": [
     {
+      "name": "GPT-6 Astra",
+      "icon": "openai",
+      "detail": "Ultrafast",
+      "inferred": true,
+      "source": "https://x.com/ThePrimeagen/status/2112702911457493109",
+      "seen": "2026-10-21",
+      "quote": "i never know what astra ultrafast is doing, but i do know it LOVES python",
+      "also": [
+        {
+          "source": "https://x.com/ThePrimeagen/status/2106078187516203434",
+          "seen": "2026-10-02",
+          "quote": "that is 250 * 6 (ultrafast mode) so 1500 credits per 1M tokens"
+        }
+      ],
+      "history": []
+    },
+    {
       "name": "Grok 4.6",
       "icon": "grok",
       "detail": "xhigh, fast, via Cursor",
@@ -88,7 +105,41 @@
       ]
     }
   ],
-  "review_style": null,
+  "review_style": {
+    "value": "Reads the code as an active participant, 'some review' on terminal agent work; a second agent checks each PR",
+    "kind": "spot-checks",
+    "inferred": true,
+    "source": "https://x.com/ThePrimeagen/status/2110022115076214998",
+    "seen": "2026-10-13",
+    "quote": "I still like to be an active participant (which prevents many dumb things such as dual kill lists for zombied processes that was developing if I didn't read the code)",
+    "also": [
+      {
+        "source": "https://x.com/ThePrimeagen/status/2107831845148582121",
+        "seen": "2026-10-07",
+        "quote": "A huge portion of the work I do lately is just from the terminal via agent + some review."
+      },
+      {
+        "source": "https://x.com/ThePrimeagen/status/2107833571239137786",
+        "seen": "2026-10-07",
+        "quote": "i use that to navigate and review code"
+      },
+      {
+        "source": "https://x.com/ThePrimeagen/status/2116285677734166768",
+        "seen": "2026-10-30",
+        "quote": "Even when i ask for this, and even when i have a second agent check per pr, I always get new results every time."
+      },
+      {
+        "source": "https://x.com/ThePrimeagen/status/2104331321753669670",
+        "seen": "2026-09-27",
+        "quote": "I still read the code"
+      },
+      {
+        "source": "https://x.com/ThePrimeagen/status/2118441587197796595",
+        "seen": "2026-11-05",
+        "quote": "I HATE github's diffs and I am forced to look at them regularly. I literally bought a zfold for looking at diffs"
+      }
+    ]
+  },
   "harness": {
     "value": "A terminal agent plus review for much of his work; Neovim with his 99 plugin",
     "short": "terminal + 99",
@@ -102,9 +153,23 @@
         "seen": "2026-02-28",
         "quote": "As of now, the direction of 99 is to progress into agentic programming and surfacing\nof information."
       }
+    ],
+    "also": [
+      {
+        "source": "https://x.com/ThePrimeagen/status/2112178301208858808",
+        "seen": "2026-10-19",
+        "quote": "This is my second fully running agent test harness where they decide what is good."
+      }
     ]
   },
-  "parallelism": null,
+  "parallelism": {
+    "value": 2,
+    "short": "1 or 2 agents",
+    "source": "https://x.com/ThePrimeagen/status/2107866452090855501",
+    "seen": "2026-10-07",
+    "quote": "I am a single focus kind of guy.  I don't try to multitask.  I know its slower, but for the most part i have 1 or 2 prompts ever going at one time.",
+    "history": []
+  },
   "rules_files": null,
   "skills": {
     "value": [

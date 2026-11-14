@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "swyxio",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-14",
   "name": {
     "value": "swyx",
     "source": "https://x.com/swyx"
@@ -86,18 +86,33 @@
   ],
   "models": [
     {
-      "name": "Claude Opus 4.6",
+      "name": "Claude Opus 5.5",
       "icon": "claude",
-      "detail": "1M context",
+      "detail": "low effort",
       "inferred": true,
-      "source": "https://github.com/swyxio/skills/commit/badecfdc732c0bb8e73174c8a07ae1f9b3eb0a54",
-      "seen": "2026-04-10",
-      "quote": "Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>",
-      "history": []
+      "source": "https://github.com/swyxio/deepinfer-explain/commit/652650e16abe2043f88f8f64a79e95aceff3703d",
+      "seen": "2026-10-21",
+      "quote": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+      "also": [
+        {
+          "source": "https://x.com/swyx/status/2116642586387730593",
+          "seen": "2026-10-31",
+          "quote": "low effort + critique loop > superultramaxhighwhatever"
+        }
+      ],
+      "history": [
+        {
+          "value": "Claude Opus 4.6, 1M context",
+          "source": "https://github.com/swyxio/skills/commit/badecfdc732c0bb8e73174c8a07ae1f9b3eb0a54",
+          "seen": "2026-04-10",
+          "quote": "Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>",
+          "inferred": true
+        }
+      ]
     }
   ],
   "review_style": {
-    "value": "Devin Review bot comments on each agent PR, often after merge",
+    "value": "No human gate: agent PRs merge in minutes; Devin Review bot, low effort plus a critique loop",
     "inferred": true,
     "kind": "no-review",
     "source": "https://github.com/swyxio/swyxdotio/pull/612",
@@ -108,6 +123,16 @@
         "source": "https://github.com/swyxio/swyxdotio/pull/612",
         "seen": "2026-09-30",
         "quote": "Validation: Browser checks confirm Command alone, Cmd+C, Cmd+Shift+K and slash stay closed; Cmd+K and Ctrl+K open the menu. Svelte check reports zero errors and warnings, and the production build passes."
+      },
+      {
+        "source": "https://x.com/swyx/status/2116642586387730593",
+        "seen": "2026-10-31",
+        "quote": "low effort + critique loop > superultramaxhighwhatever"
+      },
+      {
+        "source": "https://github.com/swyxio/swyxdotio/pull/642",
+        "seen": "2026-11-02",
+        "quote": "codex/compact-tab-review"
       }
     ]
   },
@@ -121,12 +146,21 @@
   },
   "parallelism": null,
   "rules_files": {
-    "value": "AGENTS.md in his skills repo (one rule)",
+    "value": "AGENTS.md for the game Tesland; older one-rule file in the skills repo",
     "short": "AGENTS.md",
-    "url": "https://github.com/swyxio/skills/blob/038ef3441a4c7bfff16ae3241dc1730746a69a5b/AGENTS.md",
-    "source": "https://github.com/swyxio/skills/blob/038ef3441a4c7bfff16ae3241dc1730746a69a5b/AGENTS.md#L1",
-    "seen": "2026-03-28",
-    "quote": "For long-running scripts or commands, always report elapsed times for major steps and batches when giving progress updates."
+    "url": "https://github.com/swyxio/TeslaRoadster6/blob/b044440750e0f002fa489f78f9ffb55e3b1d3db2/AGENTS.md",
+    "source": "https://github.com/swyxio/TeslaRoadster6/blob/b044440750e0f002fa489f78f9ffb55e3b1d3db2/AGENTS.md#L3",
+    "seen": "2026-10-18",
+    "quote": "User intent: optimize for simple fun; other models will produce alternate UI/assets.",
+    "history": [
+      {
+        "value": "AGENTS.md in his skills repo (one rule)",
+        "url": "https://github.com/swyxio/skills/blob/038ef3441a4c7bfff16ae3241dc1730746a69a5b/AGENTS.md",
+        "source": "https://github.com/swyxio/skills/blob/038ef3441a4c7bfff16ae3241dc1730746a69a5b/AGENTS.md#L1",
+        "seen": "2026-03-28",
+        "quote": "For long-running scripts or commands, always report elapsed times for major steps and batches when giving progress updates."
+      }
+    ]
   },
   "skills": {
     "value": [
@@ -137,6 +171,7 @@
       "ai-engineering",
       "ai-readme",
       "align-me",
+      "annotated-video-production",
       "antislop-codebase",
       "app-ux-paradigms",
       "autoreview",
@@ -175,6 +210,7 @@
       "live-ai-pipelines",
       "location-input",
       "long-running-operation-ux",
+      "make-evals",
       "media-heavy-workflows",
       "media-to-wiki-pipeline",
       "media-transform",
@@ -213,6 +249,7 @@
       "thumbnail-extraction",
       "transcribe-anything",
       "turnstile-spin",
+      "tweet-writing",
       "twitter-x-scraping",
       "vercel-production-cost-review",
       "video-talk-to-essay",
@@ -230,14 +267,14 @@
       "youtube-thumbnails",
       "zoom-download"
     ],
-    "count": 99,
+    "count": 102,
     "featured": [
       "cassandra-creator",
-      "ceo-creator",
+      "babysit-runs",
       "review-thread"
     ],
-    "source": "https://github.com/swyxio/skills/tree/038ef3441a4c7bfff16ae3241dc1730746a69a5b",
-    "seen": "2026-10-05"
+    "source": "https://github.com/swyxio/skills/tree/1acf58f08cca24b764a4352a6c30fed1f7fb9fb6",
+    "seen": "2026-11-03"
   },
   "mcp_servers": null,
   "hooks": {
