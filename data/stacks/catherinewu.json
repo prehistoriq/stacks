@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "catherinewu",
   "status": "ok",
-  "checked": "2026-10-07",
+  "checked": "2026-11-14",
   "name": {
     "value": "Cat Wu",
     "source": "https://claude.com/blog/product-management-on-the-ai-exponential"
@@ -21,8 +21,8 @@
     "source": "https://github.com/catherinewu"
   },
   "known_for": {
-    "value": "Claude Code product, Anthropic",
-    "source": "https://claude.com/blog/product-management-on-the-ai-exponential"
+    "value": "Claude Code PM, now at OpenAI",
+    "source": "https://x.com/_catwu/status/2118137612577968402"
   },
   "agents": [
     {

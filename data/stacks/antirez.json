@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "antirez",
   "status": "ok",
-  "checked": "2026-10-12",
+  "checked": "2026-11-14",
   "name": {
     "value": "Salvatore Sanfilippo (antirez)",
     "source": "https://github.com/antirez"
@@ -66,17 +66,32 @@
     {
       "name": "Claude Code",
       "icon": "claudecode",
-      "role": "experiments, Max plan",
+      "role": "pairs with Codex, remote control",
       "surface": "cli",
-      "source": "https://antirez.com/news/160",
-      "seen": "2026-02-24",
-      "quote": "I thought it was time to try a similar experiment myself, one that would take one or two hours at max, and that was compatible with my Claude Code Max plan: I decided to write a Z80 emulator, and then a ZX Spectrum emulator (and even more, a CP/M emulator, see later) in a condition that I believe makes a more sense as “clean room” setup.",
-      "history": [],
+      "source": "https://x.com/antirez/status/2113884823068791059",
+      "seen": "2026-10-24",
+      "quote": "Claude /remote-control is becoming one reason to prefer Claude CLI versus Codex CLI sometimes, since it is too convenient.",
+      "history": [
+        {
+          "value": "Claude Code, experiments, Max plan",
+          "surface": "cli",
+          "source": "https://antirez.com/news/160",
+          "seen": "2026-02-24",
+          "quote": "I thought it was time to try a similar experiment myself, one that would take one or two hours at max, and that was compatible with my Claude Code Max plan: I decided to write a Z80 emulator, and then a ZX Spectrum emulator (and even more, a CP/M emulator, see later) in a condition that I believe makes a more sense as “clean room” setup."
+        }
+      ],
       "surface_source": {
         "source": "https://github.com/antirez/tgterm/blob/51433ee538d740b013b117e4e5cbcebbddf86bc2/README.md#L5",
         "seen": "2026-09-07",
         "quote": "the content of your terminals arrives as messages: you can read them at any size, copy from them, and have them updated while a program runs. To type, you just write a Telegram message, that is what you need to work with Claude Code, Codex and other agents."
-      }
+      },
+      "also": [
+        {
+          "source": "https://x.com/antirez/status/2107202880587317622",
+          "seen": "2026-10-05",
+          "quote": "most sessions I let the two collaborate asking one to open a persistent session of the other."
+        }
+      ]
     },
     {
       "name": "ds4-agent",
@@ -124,22 +139,34 @@
       ]
     },
     {
-      "name": "Fable",
+      "name": "Claude Opus 5.5",
       "icon": "claude",
-      "detail": "reviews",
-      "source": "https://antirez.com/news/169",
-      "seen": "2026-07-13",
-      "quote": "Fable and GPT 5.6 reviews to the sorted sets memory saving are going to spot ways more errors and subtle race conditions that my review is going to uncover.",
-      "history": []
+      "detail": "works alongside GPT",
+      "source": "https://x.com/antirez/status/2107202880587317622",
+      "seen": "2026-10-05",
+      "quote": "Opus 5.5 definitely put Anthropic back into the game.",
+      "history": [
+        {
+          "value": "Fable, reviews",
+          "source": "https://antirez.com/news/169",
+          "seen": "2026-07-13",
+          "quote": "Fable and GPT 5.6 reviews to the sorted sets memory saving are going to spot ways more errors and subtle race conditions that my review is going to uncover."
+        }
+      ]
     }
   ],
   "review_style": {
-    "value": "Still reviews Redis code, calls it mostly pointless",
-    "source": "https://antirez.com/news/169",
-    "seen": "2026-07-13",
-    "quote": "Yes, I do, but this is, at this point, something I *need* to do but that I believe to be mostly pointless, partially once GPT 5.5 was released, but now with Fable and GPT 5.6 Sol even more.",
-    "kind": "spot-checks",
+    "value": "Claude and GPT check each other's work; still reads Redis code, while calling that mostly pointless",
+    "kind": "agent-reviews",
+    "source": "https://x.com/antirez/status/2113886806358012342",
+    "seen": "2026-10-24",
+    "quote": "Anyway at this point there are little projects I do without using *both* Claude and GPT, one checking the work or the other, both collaborating on complex stuff and so forth.",
     "also": [
+      {
+        "source": "https://antirez.com/news/169",
+        "seen": "2026-07-13",
+        "quote": "Yes, I do, but this is, at this point, something I *need* to do but that I believe to be mostly pointless, partially once GPT 5.5 was released, but now with Fable and GPT 5.6 Sol even more."
+      },
       {
         "source": "https://antirez.com/news/169",
         "seen": "2026-07-13",
@@ -150,16 +177,23 @@
         "seen": "2026-06-07",
         "quote": "The idea is to create a markdown file where an AI agent is asked to work as a QA engineer, performing a number of manual testings on the new release."
       }
-    ],
-    "inferred": true
+    ]
   },
   "harness": {
-    "value": "tmux / Terminal.app, driven from Telegram via tgterm",
-    "short": "tmux + Telegram",
-    "source": "https://github.com/antirez/tgterm/blob/51433ee538d740b013b117e4e5cbcebbddf86bc2/README.md#L9",
-    "seen": "2026-09-07",
-    "quote": "To type, you just write a Telegram message, that is what you need to work with Claude Code, Codex and other agents.",
-    "history": []
+    "value": "A Claude /remote-control session opens a tmux with Astra and acts as the proxy; tgterm drives terminals from Telegram",
+    "short": "Claude proxies Astra",
+    "source": "https://x.com/antirez/status/2113886632030191748",
+    "seen": "2026-10-24",
+    "quote": "sometimes I open a Claude session with /remote-control and ask it to open a tmux with Astra to do the work, and just report me from time to time and act as a proxy for my messages.",
+    "history": [
+      {
+        "value": "tmux / Terminal.app, driven from Telegram via tgterm",
+        "short": "tmux + Telegram",
+        "source": "https://github.com/antirez/tgterm/blob/51433ee538d740b013b117e4e5cbcebbddf86bc2/README.md#L9",
+        "seen": "2026-09-07",
+        "quote": "To type, you just write a Telegram message, that is what you need to work with Claude Code, Codex and other agents."
+      }
+    ]
   },
   "parallelism": null,
   "rules_files": {

@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "chrismccord",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-14",
   "name": {
     "value": "Chris McCord",
     "source": "https://github.com/chrismccord"
@@ -84,7 +84,14 @@
     "source": "https://x.com/chris_mccord/status/2016554559078883510",
     "seen": "2026-01-28",
     "quote": "I've never used a subagent. Never used MCP. I let it auto compact and continue as necessary.",
-    "history": []
+    "history": [],
+    "also": [
+      {
+        "source": "https://x.com/chris_mccord/status/2112251712597856331",
+        "seen": "2026-10-19",
+        "quote": "team single-chat-for-months-autocompact lfgo"
+      }
+    ]
   },
   "parallelism": null,
   "rules_files": {

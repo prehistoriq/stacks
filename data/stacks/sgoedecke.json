@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "sgoedecke",
   "status": "ok",
-  "checked": "2026-10-12",
+  "checked": "2026-11-14",
   "name": {
     "value": "Sean Goedecke",
     "source": "https://github.com/sgoedecke"
@@ -63,29 +63,43 @@
   ],
   "models": [
     {
-      "name": "GPT-6-Astra",
-      "icon": "openai",
-      "source": "https://www.seangoedecke.com/you-should-all-be-asking-way-more-questions/",
-      "seen": "2026-09-25",
-      "quote": "I mostly work with GPT-6-Astra and Claude Opus 5.5.",
-      "history": []
-    },
-    {
       "name": "Claude Opus 5.5",
       "icon": "claude",
-      "source": "https://www.seangoedecke.com/you-should-all-be-asking-way-more-questions/",
-      "seen": "2026-09-25",
-      "quote": "I mostly work with GPT-6-Astra and Claude Opus 5.5.",
+      "detail": "daily driver",
+      "source": "https://www.seangoedecke.com/you-can-just-ask-ai-to-do-things/",
+      "seen": "2026-10-29",
+      "quote": "My daily driver is Claude Opus 5.5, which is a good model, but it’s not strictly better than GPT-6-Astra or Gemini Argon",
+      "history": [
+        {
+          "value": "GPT-6-Astra and Claude Opus 5.5, Astra named first",
+          "source": "https://www.seangoedecke.com/you-should-all-be-asking-way-more-questions/",
+          "seen": "2026-09-25",
+          "quote": "I mostly work with GPT-6-Astra and Claude Opus 5.5."
+        }
+      ]
+    },
+    {
+      "name": "GPT-6-Astra",
+      "icon": "openai",
+      "detail": "second opinion, with Gemini Argon",
+      "source": "https://www.seangoedecke.com/you-can-just-ask-ai-to-do-things/",
+      "seen": "2026-10-29",
+      "quote": "“please open subagents to get Astra and Argon’s opinion”",
       "history": []
     }
   ],
   "review_style": {
-    "value": "Skims each attempt for ~30 seconds, rejects most, then fully reviews the one he keeps",
-    "source": "https://www.seangoedecke.com/how-i-use-llms-in-2026/",
-    "seen": "2026-05-17",
-    "quote": "I do a lot of skimming through and evaluating agent changes. Most of the time I reject them entirely, just based on “eh, that’s not what I was thinking”. On average it takes me about thirty seconds to make this initial assessment.",
+    "value": "Reviews code personally; rejects most attempts fast, reads the keeper end-to-end; Astra and Argon as second opinions",
     "kind": "reads-all",
+    "source": "https://www.seangoedecke.com/you-can-just-ask-ai-to-do-things/",
+    "seen": "2026-10-29",
+    "quote": "I make my own design decisions, and I review code myself.",
     "also": [
+      {
+        "source": "https://www.seangoedecke.com/how-i-use-llms-in-2026/",
+        "seen": "2026-05-17",
+        "quote": "I do a lot of skimming through and evaluating agent changes. Most of the time I reject them entirely, just based on “eh, that’s not what I was thinking”. On average it takes me about thirty seconds to make this initial assessment."
+      },
       {
         "source": "https://www.seangoedecke.com/how-i-use-llms-in-2026/",
         "seen": "2026-05-17",
@@ -94,27 +108,38 @@
       {
         "source": "https://www.seangoedecke.com/you-should-all-be-asking-way-more-questions/",
         "seen": "2026-09-25",
-        "quote": "About half the questions I ask get answers that convince me the model has made a mistake: it should have reused the existing subsystem for X, or authed to Y differently, or kept the Z implementation simple, and so on."
+        "quote": "About half the questions I ask get answers that convince me [fn] the model has made a mistake: it should have reused the existing subsystem for X, or authed to Y differently, or kept the Z implementation simple, and so on."
       },
       {
         "source": "https://www.seangoedecke.com/how-to-read-code/",
         "seen": "2026-10-07",
         "quote": "Once I’m confident I understand the diff, only then will I sit down and carefully read it end-to-end."
+      },
+      {
+        "source": "https://www.seangoedecke.com/how-to-read-code/",
+        "seen": "2026-10-07",
+        "quote": "I routinely find massive errors in AI-generated code."
       }
     ]
   },
   "harness": {
-    "value": "GitHub Copilot app; separate sessions per task for exploring, implementing, reviewing and testing",
+    "value": "GitHub Copilot app; separate sessions per task; subagents fetch other models' opinions; a 6am agent pass over overnight messages",
     "short": "Copilot app",
-    "source": "https://www.seangoedecke.com/how-to-keep-thinking/",
-    "seen": "2026-08-07",
-    "quote": "I routinely use six or seven different agent sessions on the same task: one for exploration, two or three for trying out different implementations, two or three for review, one for manual testing, and so on.",
+    "source": "https://www.seangoedecke.com/you-can-just-ask-ai-to-do-things/",
+    "seen": "2026-10-29",
+    "quote": "I have a scheduled job at 6am every day for an agent to comb through unread messages, identify ones that are asking me questions or have problems I should look at, and do preliminary research",
     "history": [
       {
         "value": "Terminal tabs with Copilot CLI across repos",
         "source": "https://www.seangoedecke.com/how-i-use-llms-in-2026/",
         "seen": "2026-05-17",
         "quote": "In early 2026, that changed to terminal tabs with the Copilot CLI, particularly when I needed to make changes across multiple repos at the same time."
+      },
+      {
+        "value": "GitHub Copilot app; separate sessions per task for exploring, implementing, reviewing and testing",
+        "source": "https://www.seangoedecke.com/how-to-keep-thinking/",
+        "seen": "2026-08-07",
+        "quote": "I routinely use six or seven different agent sessions on the same task: one for exploration, two or three for trying out different implementations, two or three for review, one for manual testing, and so on."
       }
     ]
   },
@@ -130,14 +155,22 @@
   "rules_files": null,
   "skills": {
     "value": [
-      "extract-features-clamp-inference"
+      "extract-features-clamp-inference",
+      "dota-coach"
     ],
-    "count": 1,
+    "count": 2,
     "featured": [
+      "dota-coach",
       "extract-features-clamp-inference"
     ],
-    "source": "https://github.com/sgoedecke/skills/tree/0f38b38c2ef1691a28340d8faa9abfe39467c99d/skills",
-    "seen": "2026-02-17"
+    "source": "https://github.com/sgoedecke/dota-coach/tree/fcdd784d12ddef7088db3a7ea1c7c54e42871741",
+    "seen": "2026-10-25",
+    "also": [
+      {
+        "source": "https://github.com/sgoedecke/skills/tree/0f38b38c2ef1691a28340d8faa9abfe39467c99d/skills",
+        "seen": "2026-02-17"
+      }
+    ]
   },
   "mcp_servers": {
     "value": [

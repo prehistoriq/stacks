@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "steipete",
   "status": "ok",
-  "checked": "2026-10-12",
+  "checked": "2026-11-14",
   "name": {
     "value": "Peter Steinberger",
     "source": "https://github.com/steipete"
@@ -24,8 +24,8 @@
     "source": "https://github.com/steipete"
   },
   "known_for": {
-    "value": "OpenClaw, ex-PSPDFKit",
-    "source": "https://github.com/steipete"
+    "value": "OpenClaw, at OpenAI, ex-PSPDFKit",
+    "source": "https://x.com/steipete"
   },
   "agents": [
     {
@@ -41,17 +41,22 @@
           "source": "https://x.com/steipete/status/2103868743495631090",
           "seen": "2026-09-26",
           "quote": "I don’t use Claude. It’s Codex and OC harness."
+        },
+        {
+          "source": "https://x.com/steipete/status/2116173459403276318",
+          "seen": "2026-10-30",
+          "quote": "OpenClaw (with codex as harness plugin)"
         }
       ]
     },
     {
       "name": "Codex",
       "icon": "codex",
-      "role": "runs inside OpenClaw",
-      "surface": "app",
-      "source": "https://x.com/steipete/status/2066458041478709276",
-      "seen": "2026-06-15",
-      "quote": "cmux but more and more codex mac. thread management, app shots etc are killer",
+      "role": "harness plugin inside OpenClaw",
+      "surface": null,
+      "source": "https://x.com/steipete/status/2116174603626119426",
+      "seen": "2026-10-30",
+      "quote": "I use the open source codex app server as harness plugin in openclaw. It's useful and very hackable.",
       "history": [
         {
           "value": "Codex CLI only",
@@ -73,6 +78,13 @@
           "source": "https://x.com/steipete/status/2058093406874689770",
           "seen": "2026-05-23",
           "quote": "current split:\ncodex mac app: knowledege work, learning, reading\ncmux + codex cli: coding"
+        },
+        {
+          "value": "Codex app",
+          "source": "https://x.com/steipete/status/2066458041478709276",
+          "seen": "2026-06-15",
+          "quote": "cmux but more and more codex mac. thread management, app shots etc are killer",
+          "surface": "app"
         }
       ]
     }
@@ -81,10 +93,10 @@
     {
       "name": "GPT-6.1 Sol",
       "icon": "openai",
-      "detail": "high, Ultrafast tier",
-      "source": "https://github.com/steipete/agent-scripts/blob/c91c28225cf3d0cf3b4fdb0e0b59fb69cd2eac83/skills/codex-first/SKILL.md#L10-L11",
-      "seen": "2026-10-12",
-      "quote": "Default every Codex worker, **fresh or resumed**, to **GPT-6.1 Sol, high\nreasoning, Ultrafast service tier**",
+      "detail": "high, Fast tier",
+      "source": "https://github.com/steipete/agent-scripts/blob/d210c0a77c8f9ae5e1d939b13238a75e87cdb69a/skills/codex-first/SKILL.md#L10-L12",
+      "seen": "2026-10-30",
+      "quote": "Default every Codex worker, **fresh or resumed**, to **GPT-6.1 Sol, high\nreasoning, Fast service tier**",
       "history": [
         {
           "value": "gpt-5.2-codex high",
@@ -97,6 +109,35 @@
           "source": "https://github.com/steipete/agent-scripts/blob/79150cfac4a6ba4df13cf30176bf2db85170ae6c/skills/codex-first/SKILL.md#L10-L11",
           "seen": "2026-10-04",
           "quote": "Default every Codex worker, fresh or resumed, to GPT-6 Astra, high reasoning, Fast service tier"
+        },
+        {
+          "value": "GPT-6.1 Sol high, Ultrafast tier",
+          "source": "https://github.com/steipete/agent-scripts/blob/c91c28225cf3d0cf3b4fdb0e0b59fb69cd2eac83/skills/codex-first/SKILL.md#L10-L11",
+          "seen": "2026-10-12",
+          "quote": "Default every Codex worker, **fresh or resumed**, to **GPT-6.1 Sol, high\nreasoning, Ultrafast service tier**"
+        }
+      ],
+      "also": [
+        {
+          "source": "https://x.com/steipete/status/2109730774593487009",
+          "seen": "2026-10-12",
+          "quote": "6.1 Sol ultrafast >>> 6 Astra"
+        }
+      ]
+    },
+    {
+      "name": "GPT-6 Astra",
+      "icon": "openai",
+      "detail": "plans long loops; Sol fallback",
+      "source": "https://x.com/steipete/status/2112605703219347503",
+      "seen": "2026-10-20",
+      "quote": "Astra did the planning, Sol 6.1 did the coding.",
+      "history": [],
+      "also": [
+        {
+          "source": "https://github.com/steipete/agent-scripts/blob/d210c0a77c8f9ae5e1d939b13238a75e87cdb69a/skills/codex-first/SKILL.md#L61-L62",
+          "seen": "2026-10-30",
+          "quote": "resume that same session on **GPT-6 Astra, high, Fast** immediately"
         }
       ]
     }
@@ -112,21 +153,54 @@
         "source": "https://github.com/steipete/agent-scripts/blob/79150cfac4a6ba4df13cf30176bf2db85170ae6c/AGENTS.MD#L71",
         "seen": "2026-10-02",
         "quote": "PR quality: assume generated code may come from weaker AI. Review/improve before land; full rewrite okay when cleaner."
+      },
+      {
+        "source": "https://github.com/steipete/agent-scripts/blob/d210c0a77c8f9ae5e1d939b13238a75e87cdb69a/skills/codex-first/SKILL.md#L110",
+        "seen": "2026-10-30",
+        "quote": "Use the autoreview helper with `--engine codex` (defaults: 6.1 Sol, medium, Ultrafast)"
+      },
+      {
+        "source": "https://x.com/steipete/status/2112597162924351909",
+        "seen": "2026-10-20",
+        "quote": "I checked in with the session every other day, overall the process was mostly automatic. Took about ~600 PRs."
+      },
+      {
+        "source": "https://x.com/steipete/status/2112600329057718519",
+        "seen": "2026-10-20",
+        "quote": "We found a few tiny regressions the agent missed, mostly different shapes on buttons or slight ux regressions"
+      },
+      {
+        "source": "https://x.com/steipete/status/2112605703219347503",
+        "seen": "2026-10-20",
+        "quote": "Kinda like /goal, but instead of the same agent reviewing a text file, a second agent that challenges."
       }
     ]
   },
   "harness": {
-    "value": "Terminal, Codex workers, worktrees",
-    "short": "worktrees",
-    "source": "https://github.com/steipete/agent-scripts/blob/79150cfac4a6ba4df13cf30176bf2db85170ae6c/AGENTS.MD#L107",
-    "seen": "2026-10-02",
-    "quote": "Create and use task-owned Git worktrees or isolated checkouts whenever useful, without confirmation.",
+    "value": "OpenClaw cloud sessions; Astra drives Codex CLI in worktrees while a second agent challenges",
+    "short": "OpenClaw cloud",
+    "source": "https://x.com/steipete/status/2112605703219347503",
+    "seen": "2026-10-20",
+    "quote": "I found that the workflow of prompting Astra to run codex cli in worktrees works FAR better than relying on subagents.",
     "history": [
       {
         "value": "No worktrees, one dev server",
         "source": "https://steipete.me/posts/just-talk-to-it",
         "seen": "2025-10-14",
         "quote": "Why not worktrees? I run one dev server, as I evolve my project I click through it and test multiple changes at once."
+      },
+      {
+        "value": "Terminal, Codex workers, worktrees",
+        "source": "https://github.com/steipete/agent-scripts/blob/79150cfac4a6ba4df13cf30176bf2db85170ae6c/AGENTS.MD#L107",
+        "seen": "2026-10-02",
+        "quote": "Create and use task-owned Git worktrees or isolated checkouts whenever useful, without confirmation."
+      }
+    ],
+    "also": [
+      {
+        "source": "https://x.com/steipete/status/2115549262834540818",
+        "seen": "2026-10-28",
+        "quote": "Like if you still use the cli or run coding agents locally, what are you even doing."
       }
     ]
   },
@@ -149,9 +223,9 @@
     "value": "AGENTS.MD (119 lines), linked into both agents",
     "short": "AGENTS.md",
     "url": "https://github.com/steipete/agent-scripts/blob/79150cfac4a6ba4df13cf30176bf2db85170ae6c/AGENTS.MD",
-    "source": "https://github.com/steipete/agent-scripts/blob/79150cfac4a6ba4df13cf30176bf2db85170ae6c/README.md#L65-L67",
+    "source": "https://github.com/steipete/agent-scripts/blob/79150cfac4a6ba4df13cf30176bf2db85170ae6c/README.md#L65-L66",
     "seen": "2026-09-13",
-    "quote": "~/.codex/AGENTS.md -> ~/Projects/agent-scripts/AGENTS.MD\n~/.claude/CLAUDE.md -> ~/Projects/agent-scripts/AGENTS.MD"
+    "quote": "`~/.codex/AGENTS.md -> ~/Projects/agent-scripts/AGENTS.MD`\n- `~/.claude/CLAUDE.md -> ~/Projects/agent-scripts/AGENTS.MD`"
   },
   "skills": {
     "value": [

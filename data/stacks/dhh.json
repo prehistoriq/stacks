@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "dhh",
   "status": "ok",
-  "checked": "2026-10-12",
+  "checked": "2026-11-14",
   "name": {
     "value": "DHH",
     "source": "https://x.com/dhh"
@@ -29,36 +29,18 @@
   },
   "agents": [
     {
-      "name": "Codex",
-      "icon": "codex",
-      "role": "primary",
-      "surface": "cli",
-      "source": "https://x.com/dhh/status/2108518418081054724",
-      "seen": "2026-10-09",
-      "quote": "This is the first time I've actually preferred with drive as Codex as main and Claude as secondary for an extended period of time. Amazing how good Sol 6.1 is!",
-      "history": [
-        {
-          "value": "Codex",
-          "source": "https://github.com/omacom/omarchy/pull/13770",
-          "seen": "2026-09-29",
-          "quote": "Reviewed with `codex review --base quattro` over eight passes; every finding was fixed, most with a regression test.",
-          "surface": "cli"
-        }
-      ]
-    },
-    {
       "name": "Claude Code",
       "icon": "claudecode",
-      "role": "secondary",
+      "role": "most PRs since mid-October (our count)",
       "surface": "cli",
       "surface_source": {
         "source": "https://github.com/omacom/omarchy/blob/81145eb1fd41532fcae4310b26f860608e2eaf82/default/bash/aliases#L48",
         "seen": "2026-08-15",
         "quote": "alias cx='printf \"\\033[2J\\033[3J\\033[H\" && claude --permission-mode auto'"
       },
-      "source": "https://x.com/dhh/status/2108518418081054724",
-      "seen": "2026-10-09",
-      "quote": "This is the first time I've actually preferred with drive as Codex as main and Claude as secondary for an extended period of time. Amazing how good Sol 6.1 is!",
+      "source": "https://github.com/omacom/omarchy/pull/17631",
+      "seen": "2026-11-05",
+      "quote": "Generated with [Claude Code](https://claude.com/claude-code)",
       "history": [
         {
           "value": "Claude Code, too slow for him",
@@ -80,44 +62,91 @@
           "seen": "2026-09-29",
           "quote": "Generated with [Claude Code](https://claude.com/claude-code)",
           "surface": "cli"
+        },
+        {
+          "value": "Claude Code, secondary by his word",
+          "surface": "cli",
+          "source": "https://x.com/dhh/status/2108518418081054724",
+          "seen": "2026-10-09",
+          "quote": "This is the first time I've actually preferred with drive as Codex as main and Claude as secondary for an extended period of time. Amazing how good Sol 6.1 is!"
+        }
+      ],
+      "inferred": true,
+      "also": [
+        {
+          "source": "https://x.com/dhh/status/2107829351668666618",
+          "seen": "2026-10-07",
+          "quote": "Often I just drive from Claude Code, then ask for adversarial reviews from within that harness (imo still the best)."
+        },
+        {
+          "source": "https://x.com/dhh/status/2112095267873014079",
+          "seen": "2026-10-19",
+          "quote": "No, I route all my Claude Code use over my tailscale network"
+        },
+        {
+          "source": "https://x.com/dhh/status/2119388165672710515",
+          "seen": "2026-11-08",
+          "quote": "The cracked coding is mostly done by Mr Claude and Mrs Codex! But it still take humans to oversee and help them."
+        }
+      ]
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "adversarial reviewer; \"main\" in a 9 Oct post",
+      "surface": "cli",
+      "source": "https://x.com/dhh/status/2108518418081054724",
+      "seen": "2026-10-09",
+      "quote": "This is the first time I've actually preferred with drive as Codex as main and Claude as secondary for an extended period of time. Amazing how good Sol 6.1 is!",
+      "history": [
+        {
+          "value": "Codex",
+          "source": "https://github.com/omacom/omarchy/pull/13770",
+          "seen": "2026-09-29",
+          "quote": "Reviewed with `codex review --base quattro` over eight passes; every finding was fixed, most with a regression test.",
+          "surface": "cli"
+        }
+      ],
+      "also": [
+        {
+          "source": "https://github.com/omacom/omarchy-site/commit/46029e81a7c05f65f958c1373103ae1ff1786753",
+          "seen": "2026-10-25",
+          "quote": "every language had a read by codex at xhigh, a different model family from the one that translated and first reviewed it"
         }
       ]
     },
     {
       "name": "OpenCode",
       "icon": "opencode",
-      "role": "second pane",
+      "role": "open-weight models, with pi",
       "surface": "cli",
-      "source": "https://github.com/omacom/omarchy/blob/81145eb1fd41532fcae4310b26f860608e2eaf82/default/bash/aliases#L47",
-      "seen": "2026-08-15",
-      "quote": "alias c='opencode --auto'",
-      "history": []
+      "source": "https://x.com/dhh/status/2107829351668666618",
+      "seen": "2026-10-07",
+      "quote": "OpenCode/pi when using open weight models.",
+      "history": [
+        {
+          "value": "OpenCode",
+          "surface": "cli",
+          "source": "https://github.com/omacom/omarchy/blob/81145eb1fd41532fcae4310b26f860608e2eaf82/default/bash/aliases#L47",
+          "seen": "2026-08-15",
+          "quote": "alias c='opencode --auto'"
+        }
+      ],
+      "surface_source": {
+        "source": "https://github.com/omacom/omarchy/blob/81145eb1fd41532fcae4310b26f860608e2eaf82/default/bash/aliases#L47",
+        "seen": "2026-08-15",
+        "quote": "alias c='opencode --auto'"
+      }
     }
   ],
   "models": [
     {
-      "name": "GPT-6.1 Sol",
-      "icon": "openai",
-      "detail": "in Codex",
-      "source": "https://x.com/dhh/status/2108518418081054724",
-      "seen": "2026-10-09",
-      "quote": "This is the first time I've actually preferred with drive as Codex as main and Claude as secondary for an extended period of time. Amazing how good Sol 6.1 is!",
-      "history": [
-        {
-          "value": "Claude Fable 5.1",
-          "source": "https://github.com/omacom/omarchy/commit/8369601f26b41164ab285f61d35434f6933479de",
-          "seen": "2026-09-13",
-          "quote": "Co-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>"
-        }
-      ]
-    },
-    {
       "name": "Claude Opus 5.5",
       "icon": "claude",
       "detail": null,
-      "source": "https://x.com/dhh/status/2103595410921279635",
-      "seen": "2026-09-25",
-      "quote": "One-shot translation by Opus 5.5.",
+      "source": "https://github.com/omacom/omarchy/commit/3f974d011575c53dcec452dea1c253d03b8d96bf",
+      "seen": "2026-11-13",
+      "quote": "Co-Authored-By: Claude Opus 5.5",
       "history": [
         {
           "value": "Claude Opus 4.5",
@@ -136,17 +165,61 @@
           "source": "https://x.com/dhh/status/2078252859834167656",
           "seen": "2026-07-17",
           "quote": "But GPT 5.6 Sol? 4m45s and it was done."
+        },
+        {
+          "value": "Claude Opus 5.5",
+          "source": "https://x.com/dhh/status/2103595410921279635",
+          "seen": "2026-09-25",
+          "quote": "One-shot translation by Opus 5.5."
+        }
+      ],
+      "inferred": true
+    },
+    {
+      "name": "GPT-6.1 Sol",
+      "icon": "openai",
+      "detail": "in Codex",
+      "source": "https://x.com/dhh/status/2108518418081054724",
+      "seen": "2026-10-09",
+      "quote": "This is the first time I've actually preferred with drive as Codex as main and Claude as secondary for an extended period of time. Amazing how good Sol 6.1 is!",
+      "history": [
+        {
+          "value": "Claude Fable 5.1",
+          "source": "https://github.com/omacom/omarchy/commit/8369601f26b41164ab285f61d35434f6933479de",
+          "seen": "2026-09-13",
+          "quote": "Co-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>"
         }
       ]
     }
   ],
   "review_style": {
-    "value": "A second model reviews, then he reads the diff",
-    "source": "https://github.com/omacom/omarchy/pull/13770",
-    "seen": "2026-09-29",
-    "quote": "Reviewed with `codex review --base quattro` over eight passes; every finding was fixed, most with a regression test.",
-    "kind": "spot-checks",
+    "value": "A second model reviews adversarially; reads the code partly or not at all",
+    "kind": "agent-reviews",
+    "inferred": true,
+    "source": "https://x.com/dhh/status/2106887366967169141",
+    "seen": "2026-10-04",
+    "quote": "I'm writing lots of software these days where I'm only partially or not at all reading the code.",
     "also": [
+      {
+        "source": "https://x.com/dhh/status/2107823432205484040",
+        "seen": "2026-10-07",
+        "quote": "It's really just any harness, multiple agents concurrently, barely any skills, and using adversarial reviews."
+      },
+      {
+        "source": "https://x.com/dhh/status/2116644639155577184",
+        "seen": "2026-10-31",
+        "quote": "To be fair, I am still reviewing these PRs. But through the private Omabot Desk that I built for it. Omabot is preparing the brief, I make the decision."
+      },
+      {
+        "source": "https://x.com/dhh/status/2116109588554498081",
+        "seen": "2026-10-30",
+        "quote": "The real AI psychosis is thinking \"this is just another tool\" or \"it's just a stochastic parrot\" and \"humans still need to review every line\"."
+      },
+      {
+        "source": "https://github.com/omacom/omarchy/pull/13770",
+        "seen": "2026-09-29",
+        "quote": "Reviewed with `codex review --base quattro` over eight passes; every finding was fixed, most with a regression test."
+      },
       {
         "source": "https://x.com/dhh/status/2107882896195199116",
         "seen": "2026-10-07",
@@ -170,11 +243,11 @@
     ]
   },
   "harness": {
-    "value": "An always-on \"AI shed\" on his Tailscale network runs his herdr agents; lazygit plus an agent for most work",
+    "value": "Any harness, several agents at once, barely any skills; herdr agents on an always-on \"AI shed\"",
     "short": "AI shed",
-    "source": "https://x.com/dhh/status/2107463006552793231",
-    "seen": "2026-10-06",
-    "quote": "all my agent and compile work now happens on an AI shed.",
+    "source": "https://x.com/dhh/status/2107823432205484040",
+    "seen": "2026-10-07",
+    "quote": "It's really just any harness, multiple agents concurrently, barely any skills, and using adversarial reviews.",
     "history": [
       {
         "value": "AI in a separate window",
@@ -187,6 +260,12 @@
         "source": "https://github.com/omacom/omarchy/blob/81145eb1fd41532fcae4310b26f860608e2eaf82/default/bash/fns/tmux#L1-L2",
         "seen": "2026-05-11",
         "quote": "# Create a Tmux Dev Layout with editor, ai, and terminal\n# Usage: tdl <c|cx|codex|other_ai> [<second_ai>]"
+      },
+      {
+        "value": "An always-on \"AI shed\" on his Tailscale network runs his herdr agents; lazygit plus an agent for most work",
+        "source": "https://x.com/dhh/status/2107463006552793231",
+        "seen": "2026-10-06",
+        "quote": "all my agent and compile work now happens on an AI shed."
       }
     ]
   },
@@ -226,8 +305,8 @@
   "signature": {
     "value": "\"Review this with claude\"",
     "kind": "habit",
-    "caption": "adversarial review from Codex",
-    "why": "Our pick: he drives from Codex and has Claude review the work, one agent checking the other.",
+    "caption": "each model reviews the other",
+    "why": "Our pick: whichever model is driving calls the other over the CLI, no skill or tooling involved.",
     "editorial": true,
     "source": "https://x.com/dhh/status/2107882896195199116",
     "seen": "2026-10-07",
@@ -239,9 +318,9 @@
     "why": "Builds his agent setup into his own OS: tdl, account switching, an agents panel."
   },
   "signature_quote": {
-    "value": "We're not going to write the vast majority of code by hand any longer.",
-    "more": "Coding agents have gotten so good that it's simply not an economically viable enterprise going forward to have humans typing out lines of Ruby, Rust, or C++.",
-    "source": "https://world.hey.com/dhh/over-my-dead-pencil-fb0f3647",
-    "seen": "2026-10-06"
+    "value": "it clearly means we're done writing code by hand.",
+    "more": "We are going and have gone pencils down on the idea that we were going to write code by hand as a normal course of creating things.",
+    "source": "https://www.youtube.com/watch?v=vDjW_dRyKXY&t=1248s",
+    "seen": "2026-09-24"
   }
 }

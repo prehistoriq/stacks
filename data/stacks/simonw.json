@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "simonw",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-14",
   "name": {
     "value": "Simon Willison",
     "source": "https://github.com/simonw"
@@ -29,38 +29,31 @@
   },
   "agents": [
     {
-      "name": "Codex",
-      "icon": "codex",
-      "role": "primary, desktop app",
-      "surface": "app",
-      "source": "https://github.com/simonw/monthly-newsletter-archive/blob/1cc46b5c2012ad6319c4a40e3f73b049f199c5c0/2026-08-august.md?plain=1#L99",
-      "seen": "2026-09-04",
-      "quote": "I continue to spend most of my time in the Codex macOS desktop app, now renamed (confusingly) to ChatGPT.",
-      "history": [
-        {
-          "value": "Codex CLI",
-          "surface": "cli",
-          "source": "https://simonwillison.net/2025/Oct/5/parallel-coding-agents/",
-          "seen": "2025-10-05",
-          "quote": "My daily drivers are currently Claude Code (on Sonnet 4.5), Codex CLI (on GPT-5-Codex), and Codex Cloud (for asynchronous tasks, frequently launched from my phone.)"
-        },
-        {
-          "value": "Claude Code default, Codex on the side",
-          "surface": null,
-          "source": "https://github.com/simonw/monthly-newsletter-archive/blob/348fe32dde0f0df2d82daddadd9479b1f7faa3cd/2026-03-march.md?plain=1#L98",
-          "seen": "2026-04-02",
-          "quote": "I'm still defaulting to Claude Code and Opus 4.6, but I've been very impressed by GPT-5.4 and have been running that through Codex."
-        }
-      ]
-    },
-    {
       "name": "Claude Code",
       "icon": "claudecode",
-      "role": "async cloud tasks (web)",
+      "role": "balanced with Codex, most October work",
       "surface": "web",
-      "source": "https://github.com/simonw/monthly-newsletter-archive/blob/1cc46b5c2012ad6319c4a40e3f73b049f199c5c0/2026-08-august.md?plain=1#L101",
-      "seen": "2026-09-04",
-      "quote": "I continue to prefer Claude Code for Web - now using Fable 5.1 - for asynchronous cloud tasks.",
+      "surface_source": {
+        "source": "https://github.com/simonw/monthly-newsletter-archive/blob/37f5f02fd0be8fdeebe85644e7a46222f54f1778/2026-09-september.md?plain=1#L118",
+        "seen": "2026-10-03",
+        "quote": "That doesn't measure sessions in Claude Code for Web though, which I continue to use extensively from my phone."
+      },
+      "source": "https://github.com/simonw/monthly-newsletter-archive/blob/37f5f02fd0be8fdeebe85644e7a46222f54f1778/2026-09-september.md?plain=1#L114",
+      "seen": "2026-10-03",
+      "quote": "Claude Opus 5.5 got me excited about Claude Code again, so I'm currently balancing my work across Codex and Claude Code.",
+      "inferred": true,
+      "also": [
+        {
+          "source": "https://simonwillison.net/2026/Oct/20/battledrones/",
+          "seen": "2026-10-20",
+          "quote": "After 12 major iterations (and 321 commits by coding agents, mainly Claude Code)"
+        },
+        {
+          "source": "https://simonwillison.net/2026/Nov/9/details-summary/",
+          "seen": "2026-11-09",
+          "quote": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex."
+        }
+      ],
       "history": [
         {
           "value": "Claude Code + Codex CLI + Codex Cloud",
@@ -80,51 +73,142 @@
           "source": "https://github.com/simonw/monthly-newsletter-archive/blob/52c8974ef56ca1d8cb6d7280f7838eaa23fd8ef8/2026-07-july.md?plain=1#L115",
           "seen": "2026-08-02",
           "quote": "I remain equally split between Claude Code and Codex, in both cases mainly using their respective desktop apps."
+        },
+        {
+          "value": "Claude Code for Web, async cloud tasks",
+          "surface": "web",
+          "source": "https://github.com/simonw/monthly-newsletter-archive/blob/1cc46b5c2012ad6319c4a40e3f73b049f199c5c0/2026-08-august.md?plain=1#L101",
+          "seen": "2026-09-04",
+          "quote": "I continue to prefer Claude Code for Web - now using Fable 5.1 - for asynchronous cloud tasks."
+        }
+      ]
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "desktop app, balanced with Claude Code",
+      "surface": "app",
+      "source": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
+      "seen": "2026-10-09",
+      "quote": "I used the ChatGPT desktop app for this, in the Codex tab, using the voice conversation mode, running against a local development environment.",
+      "also": [
+        {
+          "source": "https://github.com/simonw/monthly-newsletter-archive/blob/37f5f02fd0be8fdeebe85644e7a46222f54f1778/2026-09-september.md?plain=1#L112",
+          "seen": "2026-10-03",
+          "quote": "At the start of the month I was spending most of my time in the Codex Desktop app using GPT-5.6 Sol and then GPT-6 Astra in \"Ultra\" mode, which spins off extensive pools of subagents to help work on complex problems."
+        }
+      ],
+      "history": [
+        {
+          "value": "Codex CLI",
+          "surface": "cli",
+          "source": "https://simonwillison.net/2025/Oct/5/parallel-coding-agents/",
+          "seen": "2025-10-05",
+          "quote": "My daily drivers are currently Claude Code (on Sonnet 4.5), Codex CLI (on GPT-5-Codex), and Codex Cloud (for asynchronous tasks, frequently launched from my phone.)"
+        },
+        {
+          "value": "Claude Code default, Codex on the side",
+          "surface": null,
+          "source": "https://github.com/simonw/monthly-newsletter-archive/blob/348fe32dde0f0df2d82daddadd9479b1f7faa3cd/2026-03-march.md?plain=1#L98",
+          "seen": "2026-04-02",
+          "quote": "I'm still defaulting to Claude Code and Opus 4.6, but I've been very impressed by GPT-5.4 and have been running that through Codex."
+        },
+        {
+          "value": "Codex desktop app, most of his time",
+          "surface": "app",
+          "source": "https://github.com/simonw/monthly-newsletter-archive/blob/1cc46b5c2012ad6319c4a40e3f73b049f199c5c0/2026-08-august.md?plain=1#L99",
+          "seen": "2026-09-04",
+          "quote": "I continue to spend most of my time in the Codex macOS desktop app, now renamed (confusingly) to ChatGPT."
         }
       ]
     }
   ],
   "models": [
     {
-      "name": "GPT-6 Sol",
-      "icon": "openai",
-      "detail": "default in Codex",
-      "source": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
-      "seen": "2026-09-22",
-      "quote": "I’m now using GPT-6 Sol and Claude Opus 5.5 as my default models in Codex and Claude Code.",
-      "history": [
-        {
-          "value": "GPT-5.6 Sol (xhigh)",
-          "source": "https://github.com/simonw/monthly-newsletter-archive/blob/1cc46b5c2012ad6319c4a40e3f73b049f199c5c0/2026-08-august.md?plain=1#L99",
-          "seen": "2026-09-04",
-          "quote": "I do most of my work there using GPT-5.6 Sol (xhigh)"
-        }
-      ]
-    },
-    {
       "name": "Claude Opus 5.5",
       "icon": "claude",
-      "detail": "default in Claude Code",
-      "source": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
-      "seen": "2026-09-22",
-      "quote": "I’m now using GPT-6 Sol and Claude Opus 5.5 as my default models in Codex and Claude Code.",
+      "detail": "Medium to Max, named per PR",
+      "source": "https://github.com/simonw/datasette/pull/3064",
+      "seen": "2026-11-14",
+      "quote": "Claude Opus 5.5 High",
+      "inferred": true,
+      "also": [
+        {
+          "source": "https://github.com/simonw/simonwillisonblog/pull/726",
+          "seen": "2026-10-26",
+          "quote": "Claude Opus 5.5 Medium: https://claude.ai/code/session_015kKLXjGUoVEdWjbKnbUyNf"
+        },
+        {
+          "source": "https://github.com/simonw/web-edit/commit/386581d0ea6d5d85f34b4db7bc6755f7dc5d4dca",
+          "seen": "2026-10-17",
+          "quote": "Claude Opus 5.5 Max: https://claude.ai/code/session_019Zjd6niyvYbzhy87Woyu3Y"
+        },
+        {
+          "source": "https://x.com/simonw/status/2112630778068881543",
+          "seen": "2026-10-20",
+          "quote": "I built a Command & Conquer style RTS called Battle Drones, mainly using Claude Opus 5.5"
+        }
+      ],
       "history": [
         {
           "value": "Claude Opus 4.6",
           "source": "https://github.com/simonw/monthly-newsletter-archive/blob/348fe32dde0f0df2d82daddadd9479b1f7faa3cd/2026-03-march.md?plain=1#L98",
           "seen": "2026-04-02",
           "quote": "I'm still defaulting to Claude Code and Opus 4.6"
+        },
+        {
+          "value": "Claude Opus 5.5, default in Claude Code",
+          "source": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+          "seen": "2026-09-22",
+          "quote": "I’m now using GPT-6 Sol and Claude Opus 5.5 as my default models in Codex and Claude Code."
+        }
+      ]
+    },
+    {
+      "name": "Claude Fable 5.2",
+      "icon": "claude",
+      "detail": "High, named per PR",
+      "source": "https://github.com/simonw/datasette/pull/3063",
+      "seen": "2026-11-14",
+      "quote": "Claude Fable 5.2 High",
+      "inferred": true,
+      "history": [
+        {
+          "value": "GPT-6.1 Sol",
+          "source": "https://github.com/datasette/datasette-llm/pull/11",
+          "seen": "2026-11-04",
+          "quote": "GPT-6.1 Sol Extra High"
         }
       ]
     }
   ],
   "review_style": {
-    "value": "Cross-model review: Claude checks GPT, GPT checks Claude",
-    "source": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/",
-    "seen": "2026-07-05",
-    "quote": "The problem is it really does work—I’ve started habitually having Anthropic’s best model review OpenAI’s work and vice versa, because I’ve had that turn up interesting results often enough to be valuable.",
+    "value": "Tiered: reads the PR on real projects, none of the code on games",
     "kind": "spot-checks",
+    "source": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
+    "seen": "2026-10-09",
+    "quote": "I reviewed the code in the GitHub PR interface.",
     "also": [
+      {
+        "source": "https://simonwillison.net/2026/Oct/20/battledrones/",
+        "seen": "2026-10-20",
+        "quote": "Battle Drones is heavily vibe coded—I’ve reviewed almost none of the code, and it’s built in a language (TypeScript) that I’ve hardly used myself."
+      },
+      {
+        "source": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+        "seen": "2026-10-28",
+        "quote": "no looking at the code at all"
+      },
+      {
+        "source": "https://github.com/simonw/monthly-newsletter-archive/blob/37f5f02fd0be8fdeebe85644e7a46222f54f1778/2026-09-september.md?plain=1#L116",
+        "seen": "2026-10-03",
+        "quote": "For security work I've found that having Claude review GPT's work, and vice-versa, really does work surprisingly well."
+      },
+      {
+        "source": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/",
+        "seen": "2026-07-05",
+        "quote": "The problem is it really does work—I’ve started habitually having Anthropic’s best model review OpenAI’s work and vice versa, because I’ve had that turn up interesting results often enough to be valuable."
+      },
       {
         "source": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
         "seen": "2026-08-22",
@@ -138,28 +222,49 @@
     ]
   },
   "harness": {
-    "value": "Codex desktop + Codex remote on laptop and DGX Spark, driven from his phone",
+    "value": "Everything from a phone: Codex Remote into laptop and DGX Spark, plus Claude Code for Web",
     "short": "phone remote",
-    "source": "https://github.com/simonw/monthly-newsletter-archive/blob/1cc46b5c2012ad6319c4a40e3f73b049f199c5c0/2026-08-august.md?plain=1#L103",
-    "seen": "2026-09-04",
-    "quote": "I'm a huge fan of Codex remote though - I have that running on both the DGX Spark and my Mac laptop, allowing me to control both of them entirely from the ChatGPT app on my phone.",
+    "source": "https://github.com/simonw/monthly-newsletter-archive/blob/37f5f02fd0be8fdeebe85644e7a46222f54f1778/2026-09-september.md?plain=1#L120",
+    "seen": "2026-10-03",
+    "quote": "I have it rigged up on my laptop and my DGX Spark, allowing me to control them both from my phone.",
+    "also": [
+      {
+        "source": "https://simonwillison.net/2026/Oct/20/battledrones/",
+        "seen": "2026-10-20",
+        "quote": "This time I was running in Ultracode mode"
+      }
+    ],
     "history": [
       {
         "value": "Several terminal windows, YOLO mode, fresh checkouts instead of worktrees",
         "source": "https://simonwillison.net/2025/Oct/5/parallel-coding-agents/",
         "seen": "2025-10-05",
         "quote": "I haven’t adopted git worktrees yet: if I want to run two agents in isolation against the same repo I do a fresh checkout, often into /tmp."
+      },
+      {
+        "value": "Codex desktop + Codex remote on laptop and DGX Spark, driven from his phone",
+        "source": "https://github.com/simonw/monthly-newsletter-archive/blob/1cc46b5c2012ad6319c4a40e3f73b049f199c5c0/2026-08-august.md?plain=1#L103",
+        "seen": "2026-09-04",
+        "quote": "I'm a huge fan of Codex remote though - I have that running on both the DGX Spark and my Mac laptop, allowing me to control both of them entirely from the ChatGPT app on my phone."
       }
     ]
   },
   "parallelism": null,
   "rules_files": {
-    "value": "Short per-repo AGENTS.md (CLAUDE.md just imports it)",
+    "value": "Short per-repo AGENTS.md, now with a no-marketing-copy rule",
     "short": "AGENTS.md",
-    "url": "https://github.com/simonw/research/blob/ba0cb97b42da153c13c465fb617f5c45f1f03b04/AGENTS.md",
-    "source": "https://github.com/simonw/research/blob/ba0cb97b42da153c13c465fb617f5c45f1f03b04/AGENTS.md#L3",
-    "seen": "2026-05-30",
-    "quote": "Create a notes.md file in that folder and append notes to it as you work, tracking what you tried and anything you learned along the way."
+    "url": "https://github.com/simonw/web-edit/blob/9bb0001d72fac490b151b56655e16b6569581a17/AGENTS.md",
+    "source": "https://github.com/simonw/web-edit/blob/9bb0001d72fac490b151b56655e16b6569581a17/AGENTS.md#L4",
+    "seen": "2026-10-12",
+    "quote": "Keep UI text concise and functional. Do not add marketing copy, slogans, or promotional taglines.",
+    "history": [
+      {
+        "value": "Short per-repo AGENTS.md (CLAUDE.md just imports it)",
+        "source": "https://github.com/simonw/research/blob/ba0cb97b42da153c13c465fb617f5c45f1f03b04/AGENTS.md#L3",
+        "seen": "2026-05-30",
+        "quote": "Create a notes.md file in that folder and append notes to it as you work, tracking what you tried and anything you learned along the way."
+      }
+    ]
   },
   "skills": {
     "value": [

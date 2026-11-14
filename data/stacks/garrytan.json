@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "garrytan",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-14",
   "name": {
     "value": "Garry Tan",
     "source": "https://github.com/garrytan"
@@ -29,9 +29,36 @@
   },
   "agents": [
     {
+      "name": "Capy",
+      "icon": null,
+      "role": "primary, Captains in the cloud",
+      "surface": "web",
+      "surface_source": {
+        "source": "https://github.com/garrytan/gstack/blob/467be16ab2f8d30ef1008e451c4ccad2814501c3/capy/README.md#L4",
+        "seen": "2026-11-05",
+        "quote": "Capy runs agents in the cloud."
+      },
+      "source": "https://x.com/garrytan/status/2115922540686413917",
+      "seen": "2026-10-29",
+      "quote": "Capy + GStack over here",
+      "also": [
+        {
+          "source": "https://x.com/garrytan/status/2117410016730964358",
+          "seen": "2026-11-03",
+          "quote": "Capy Captains increased my issue fixing throughput by about 5X overnight"
+        },
+        {
+          "source": "https://github.com/garrytan/gstack/blob/467be16ab2f8d30ef1008e451c4ccad2814501c3/capy/README.md#L39-L41",
+          "seen": "2026-11-05",
+          "quote": "Capy threads started writing gstack PRs on 2026-09-15. On 2026-10-15 Garry approved two fix waves, and the next day he handed gstack's development to a Capy Captain, GStack Minder."
+        }
+      ],
+      "history": []
+    },
+    {
       "name": "Claude Code",
       "icon": "claudecode",
-      "role": "primary, in Conductor",
+      "role": "gstack's default host; primary until Capy",
       "surface": "app",
       "surface_source": {
         "source": "https://github.com/garrytan/gstack/blob/c285d88b90d39116ccfa2b901f80ea0fce0b26eb/README.md#L473",
@@ -41,7 +68,20 @@
       "source": "https://github.com/garrytan/gstack/blob/c285d88b90d39116ccfa2b901f80ea0fce0b26eb/README.md#L23",
       "seen": "2026-10-05",
       "quote": "**gstack is how I do it.** It turns Claude Code into a virtual engineering team — a CEO who rethinks the product, an eng manager who locks architecture, a designer who catches AI slop, a reviewer who finds production bugs, a QA lead who opens a real browser, a security officer who runs OWASP + STRIDE audits, and a release engineer who ships the PR.",
-      "history": []
+      "history": [
+        {
+          "value": "Claude Code, primary, in Conductor",
+          "surface": "app",
+          "surface_source": {
+            "source": "https://github.com/garrytan/gstack/blob/c285d88b90d39116ccfa2b901f80ea0fce0b26eb/README.md#L473",
+            "seen": "2026-10-05",
+            "quote": "I regularly run 10-15 parallel sprints — that's the practical max right now."
+          },
+          "source": "https://github.com/garrytan/gstack/blob/c285d88b90d39116ccfa2b901f80ea0fce0b26eb/README.md#L23",
+          "seen": "2026-10-05",
+          "quote": "**gstack is how I do it.** It turns Claude Code into a virtual engineering team — a CEO who rethinks the product, an eng manager who locks architecture, a designer who catches AI slop, a reviewer who finds production bugs, a QA lead who opens a real browser, a security officer who runs OWASP + STRIDE audits, and a release engineer who ships the PR."
+        }
+      ]
     },
     {
       "name": "Codex",
@@ -61,12 +101,13 @@
   ],
   "models": [
     {
-      "name": "Claude Fable 5.1",
+      "name": "Claude Opus 5.5",
       "icon": "claude",
-      "source": "https://github.com/garrytan/gstack/commit/c8f0c4e368fd59ec316c0eb0d1f4ebfa896c2d16",
-      "seen": "2026-09-09",
-      "quote": "Co-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>",
+      "detail": "fast mode",
       "inferred": true,
+      "source": "https://x.com/garrytan/status/2107509076301398516",
+      "seen": "2026-10-06",
+      "quote": "Over dinner last night with Tom Brown, Tom Blomfield and PG, I used Opus 5.5 in fast mode to implement Doom in @paulg's Bel LISP variant in about 20 minutes",
       "history": [
         {
           "value": "Claude Opus 4.8 (1M context)",
@@ -81,55 +122,135 @@
           "seen": "2026-09-01",
           "quote": "Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>",
           "inferred": true
+        },
+        {
+          "value": "Claude Fable 5.1",
+          "source": "https://github.com/garrytan/gstack/commit/c8f0c4e368fd59ec316c0eb0d1f4ebfa896c2d16",
+          "seen": "2026-09-09",
+          "quote": "Co-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>",
+          "inferred": true
+        }
+      ],
+      "also": [
+        {
+          "source": "https://x.com/garrytan/status/2118920030243139596",
+          "seen": "2026-11-07",
+          "quote": "I just removed /investigate as a skill because Opus 5.5 does it better without it."
+        },
+        {
+          "source": "https://x.com/garrytan/status/2121464508225053153",
+          "seen": "2026-11-14",
+          "quote": "Keep Opus 5.5 as your coding default in Claude Code. On 52 coding tasks in Claude Code 2.1.322, Fable 5.2 solved about as many (82.7% vs 84.6%) but cost 2.80x as much per solved task."
         }
       ]
+    },
+    {
+      "name": "Particle-1",
+      "icon": null,
+      "source": "https://x.com/garrytan/status/2115988128452555092",
+      "seen": "2026-10-30",
+      "quote": "I've been using particle-1 and very impressed",
+      "history": []
     }
   ],
   "review_style": {
-    "value": "Every branch gets CEO, Codex, DX and eng review passes",
+    "value": "Agents review every PR; plan and merge asks get a one-word answer",
     "kind": "agent-reviews",
-    "source": "https://github.com/garrytan/gstack/blob/c285d88b90d39116ccfa2b901f80ea0fce0b26eb/docs/ON_THE_LOC_CONTROVERSY.md#L112",
-    "seen": "2026-10-05",
-    "quote": "Every gstack branch goes through CEO review, Codex outside-voice review, DX review, and eng review. Often 2-3 passes of each.",
+    "source": "https://github.com/garrytan/gstack/blob/467be16ab2f8d30ef1008e451c4ccad2814501c3/capy/README.md#L140-L141",
+    "seen": "2026-11-05",
+    "quote": "The owner decides, and only decides. Garry's job is one-word answers to plain-language questions.",
     "also": [
+      {
+        "source": "https://github.com/garrytan/gstack/blob/c285d88b90d39116ccfa2b901f80ea0fce0b26eb/docs/ON_THE_LOC_CONTROVERSY.md#L112",
+        "seen": "2026-10-05",
+        "quote": "Every gstack branch goes through CEO review, Codex outside-voice review, DX review, and eng review. Often 2-3 passes of each."
+      },
       {
         "source": "https://github.com/garrytan/gstack/blob/c285d88b90d39116ccfa2b901f80ea0fce0b26eb/README.md#L475",
         "seen": "2026-10-05",
         "quote": "You manage them the way a CEO manages a team: check in on the decisions that matter, let the rest run."
+      },
+      {
+        "source": "https://x.com/garrytan/status/2117661001332240434",
+        "seen": "2026-11-03",
+        "quote": "Something changed in the latest frontier models where cross model review and code review is just less useful now"
+      },
+      {
+        "source": "https://x.com/garrytan/status/2118221083233206736",
+        "seen": "2026-11-05",
+        "quote": "GStack’s /review skill is actually useful for preventing bugs still"
+      },
+      {
+        "source": "https://x.com/garrytan/status/2108954740013043789",
+        "seen": "2026-10-10",
+        "quote": "I still approve plans to make sure it's going down paths I think are likely to work. But only rarely do I have to intervene."
+      },
+      {
+        "source": "https://github.com/garrytan/gstack/blob/467be16ab2f8d30ef1008e451c4ccad2814501c3/capy/README.md#L105-L106",
+        "seen": "2026-11-05",
+        "quote": "A review finding blocks only when it \"would fail a test, break production, or lose data or secrets\" (Garry's floor)"
+      },
+      {
+        "source": "https://x.com/garrytan/status/2118221083233206736",
+        "seen": "2026-11-05",
+        "quote": "GStack’s /review skill is actually useful for preventing bugs still"
       }
     ]
   },
   "harness": {
-    "value": "Conductor: parallel Claude Code sessions, each in its own workspace",
-    "short": "Conductor",
-    "source": "https://github.com/garrytan/gstack/blob/c285d88b90d39116ccfa2b901f80ea0fce0b26eb/README.md#L473",
-    "seen": "2026-10-05",
-    "quote": "[Conductor](https://conductor.build) runs multiple Claude Code sessions in parallel — each in its own isolated workspace.",
-    "history": []
+    "value": "Capy Captains direct crews of cloud threads; merge trains land PRs gated by /ship receipts",
+    "short": "Capy Captains",
+    "source": "https://github.com/garrytan/gstack/blob/467be16ab2f8d30ef1008e451c4ccad2814501c3/capy/README.md#L4-L5",
+    "seen": "2026-11-05",
+    "quote": "Capy runs agents in the cloud. It gives each thread its own machine, and it adds Captains that direct a crew of threads, a shared Drive, and automations.",
+    "history": [
+      {
+        "value": "Conductor: parallel Claude Code sessions, each in its own workspace",
+        "short": "Conductor",
+        "source": "https://github.com/garrytan/gstack/blob/c285d88b90d39116ccfa2b901f80ea0fce0b26eb/README.md#L473",
+        "seen": "2026-10-05",
+        "quote": "[Conductor](https://conductor.build) runs multiple Claude Code sessions in parallel — each in its own isolated workspace."
+      }
+    ]
   },
   "parallelism": {
-    "value": 15,
-    "short": "10–15 sprints",
-    "source": "https://github.com/garrytan/gstack/blob/c285d88b90d39116ccfa2b901f80ea0fce0b26eb/README.md#L473",
-    "seen": "2026-10-05",
-    "quote": "I regularly run 10-15 parallel sprints — that's the practical max right now.",
+    "value": 20,
+    "short": "10–20 subagents",
     "inferred": true,
+    "source": "https://x.com/garrytan/status/2115193524152860771",
+    "seen": "2026-10-27",
+    "quote": "Capy Captains (10 to 20 subagents running at all times on GStack and GBrain)",
     "history": [
       {
         "value": 10,
         "source": "https://github.com/garrytan/gstack/blob/9d47619e4c721365744c080d27455268ee93ed96/README.md#L123",
         "seen": "2026-03-17",
         "quote": "One person, ten parallel agents, each with the right cognitive mode."
+      },
+      {
+        "value": 15,
+        "short": "10–15 sprints",
+        "source": "https://github.com/garrytan/gstack/blob/c285d88b90d39116ccfa2b901f80ea0fce0b26eb/README.md#L473",
+        "seen": "2026-10-05",
+        "quote": "I regularly run 10-15 parallel sprints — that's the practical max right now.",
+        "inferred": true
       }
     ]
   },
   "rules_files": {
-    "value": "CLAUDE.md (614 lines) and AGENTS.md in gstack",
+    "value": "CLAUDE.md (628 lines), AGENTS.md; every Capy session reads factory.md",
     "short": "CLAUDE.md",
-    "url": "https://github.com/garrytan/gstack/blob/c285d88b90d39116ccfa2b901f80ea0fce0b26eb/CLAUDE.md",
-    "source": "https://github.com/garrytan/gstack/blob/c285d88b90d39116ccfa2b901f80ea0fce0b26eb/CLAUDE.md#L363-L364",
-    "seen": "2026-10-05",
-    "quote": "**Choose versions autonomously; default to PATCH.** Garry delegates release version decisions to the agent."
+    "url": "https://github.com/garrytan/gstack/blob/467be16ab2f8d30ef1008e451c4ccad2814501c3/CLAUDE.md",
+    "source": "https://github.com/garrytan/gstack/blob/467be16ab2f8d30ef1008e451c4ccad2814501c3/CLAUDE.md#L365-L366",
+    "seen": "2026-11-05",
+    "quote": "Choose versions autonomously; default to PATCH. Garry delegates release version decisions to the agent.",
+    "also": [
+      {
+        "source": "https://github.com/garrytan/gstack/commit/39378ca6d140a2dd98d8a8cbcb1ef4dccbaae13d",
+        "seen": "2026-10-30",
+        "quote": "every Capy session reads factory.md"
+      }
+    ]
   },
   "skills": {
     "value": [
@@ -162,16 +283,25 @@
       "careful",
       "freeze",
       "guard",
-      "unfreeze"
+      "unfreeze",
+      "captain",
+      "verify",
+      "runaway-stopper",
+      "write-skill",
+      "modernize",
+      "test-audit",
+      "eval-plan",
+      "design-motion",
+      "ubicloud"
     ],
-    "count": 55,
+    "count": 63,
     "featured": [
-      "office-hours",
+      "captain",
       "plan-ceo-review",
-      "qa"
+      "review"
     ],
-    "source": "https://github.com/garrytan/gstack/tree/c285d88b90d39116ccfa2b901f80ea0fce0b26eb",
-    "seen": "2026-10-05"
+    "source": "https://github.com/garrytan/gstack/tree/467be16ab2f8d30ef1008e451c4ccad2814501c3",
+    "seen": "2026-11-05"
   },
   "mcp_servers": null,
   "hooks": {
@@ -184,19 +314,19 @@
     "quote": "Four skills that add safety rails to any Claude Code session. They work via Claude Code's PreToolUse hooks — transparent, session-scoped, no configuration required."
   },
   "signature": {
-    "value": "/plan-ceo-review",
-    "kind": "skill",
-    "caption": "finds the 10-star product",
-    "why": "Our pick: before any code, an agent plays founder and challenges the scope of the request. That is the role at the centre of his setup of agents as a virtual company.",
+    "value": "One-word approvals",
+    "kind": "habit",
+    "caption": "by phone, to a Capy Captain",
+    "why": "Our pick: gstack went to a persistent Capy Captain, answered with 'rec' or 'do it' by phone. That, not any one review skill, is now what makes the setup unlike anyone else's.",
     "editorial": true,
-    "source": "https://github.com/garrytan/gstack/blob/c285d88b90d39116ccfa2b901f80ea0fce0b26eb/README.md#L250",
-    "seen": "2026-10-05",
-    "quote": "Rethink the problem. Find the 10-star product hiding inside the request."
+    "source": "https://github.com/garrytan/gstack/blob/467be16ab2f8d30ef1008e451c4ccad2814501c3/capy/README.md#L189",
+    "seen": "2026-11-05",
+    "quote": "He answers in one word, from his phone."
   },
   "archetype": {
     "value": "Orchestrator",
     "editorial": true,
-    "why": "He runs 10-15 Claude Code sprints in Conductor, each one moving through role-based review stages."
+    "why": "Runs seven Capy Captains, each directing a crew of threads, and approves their plans in one word."
   },
   "signature_quote": {
     "value": "You manage them the way a CEO manages a team: check in on the decisions that matter, let the rest run.",

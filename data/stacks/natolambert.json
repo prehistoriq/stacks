@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "natolambert",
   "status": "ok",
-  "checked": "2026-10-07",
+  "checked": "2026-11-14",
   "name": {
     "value": "Nathan Lambert",
     "source": "https://github.com/natolambert"
@@ -53,11 +53,11 @@
     {
       "name": "Codex",
       "icon": "codex",
-      "role": "second agent, used more evenly since 5.3",
+      "role": "reviews PRs (GitHub bot)",
       "surface": null,
-      "source": "https://www.interconnects.ai/p/opus-46-vs-codex-53",
-      "seen": "2026-02-09",
-      "quote": "For the last few days, I’ve been using both of the models much more evenly.",
+      "source": "https://github.com/natolambert/colloquium/commit/1efecb0669d94fadc6e750fd9bc17c7551e33995",
+      "seen": "2026-10-20",
+      "quote": "Codex review on #63: Slide.to_markdown emits figure-title instead of a derived class",
       "history": [
         {
           "value": "Codex with GPT 5.2 xhigh, not yet working for him",
@@ -65,49 +65,95 @@
           "source": "https://www.interconnects.ai/p/get-good-at-agents",
           "seen": "2026-01-21",
           "quote": "Codex with GPT 5.2 on xhigh thinking effort alone feels very capable, more meticulous than Claude even, but I haven’t yet figured out how to get the best out of it."
+        },
+        {
+          "value": "Second agent, used more evenly since 5.3",
+          "source": "https://www.interconnects.ai/p/opus-46-vs-codex-53",
+          "seen": "2026-02-09",
+          "quote": "For the last few days, I’ve been using both of the models much more evenly."
         }
-      ]
+      ],
+      "inferred": true
     }
   ],
   "models": [
     {
-      "name": "Claude Fable 5",
+      "name": "Claude Opus 5.5",
       "icon": "claude",
-      "detail": "in Claude Code",
+      "detail": "1M context, default",
       "inferred": true,
-      "source": "https://github.com/natolambert/rlhf-book/commit/1042143366d73ff654727e4d18a1d3a21209c3a3",
-      "seen": "2026-08-12",
-      "quote": "Co-authored-by: Claude Fable 5 <noreply@anthropic.com>",
+      "source": "https://github.com/natolambert/rlhf-book/commit/7db6cfa903005571203e8ec0c04dfaa49469cceb",
+      "seen": "2026-10-26",
+      "quote": "Co-authored-by: Claude Opus 5.5 (1M context) <noreply@anthropic.com>",
       "history": [
         {
           "value": "Claude Opus 4.5 in Claude Code",
           "source": "https://www.interconnects.ai/p/get-good-at-agents",
           "seen": "2026-01-21",
           "quote": "My default workflow now is GPT 5 Pro for planning, Claude Code with Opus 4.5 for implementation."
+        },
+        {
+          "value": "Claude Fable 5",
+          "detail": "in Claude Code",
+          "source": "https://github.com/natolambert/rlhf-book/commit/1042143366d73ff654727e4d18a1d3a21209c3a3",
+          "seen": "2026-08-12",
+          "quote": "Co-authored-by: Claude Fable 5 <noreply@anthropic.com>",
+          "inferred": true
+        }
+      ],
+      "also": [
+        {
+          "source": "https://github.com/natolambert/rlhf-book/commit/1b40790d9624a79a5d4c8d7e29fb8ef76f91d7b6",
+          "seen": "2026-11-11",
+          "quote": "Co-authored-by: Claude Opus 5.5"
         }
       ]
     },
     {
-      "name": "GPT 5 Pro",
-      "icon": "openai",
-      "detail": "planning and deep search",
-      "source": "https://www.interconnects.ai/p/get-good-at-agents",
-      "seen": "2026-01-21",
-      "quote": "I often have Claude Code pass information back to GPT 5 Pro for a deep search when stuck with a very detailed prompt.",
-      "history": []
+      "name": "Claude Fable 5.1",
+      "icon": "claude",
+      "detail": "blurry work, checking slides",
+      "source": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
+      "seen": "2026-10-25",
+      "quote": "I still think Fable is really nice if you’re doing very blurry things. I revert to it when checking my slides over sometimes, where I just feel like it kind of gets me a bit better, where Opus is really, really grindy.",
+      "history": [
+        {
+          "value": "GPT 5 Pro",
+          "detail": "planning and deep search",
+          "source": "https://www.interconnects.ai/p/get-good-at-agents",
+          "seen": "2026-01-21",
+          "quote": "I often have Claude Code pass information back to GPT 5 Pro for a deep search when stuck with a very detailed prompt."
+        }
+      ]
     }
   ],
   "review_style": {
-    "value": "Lets agents catch their own mistakes, then checks the results himself",
+    "value": "Claude writes, Codex reviews PRs; personally checks results and data trends",
     "kind": "agent-reviews",
-    "source": "https://www.interconnects.ai/p/get-good-at-agents",
-    "seen": "2026-01-21",
-    "quote": "They make mistakes, they catch most of their own mistakes, and they’re fairly slow too, but they’re capable. I can’t wait to go home and check on what my Claudes were up to.",
+    "inferred": true,
+    "source": "https://github.com/natolambert/colloquium/commit/4b067d73b6c333f760937dd5761971fee2716a2d",
+    "seen": "2026-10-20",
+    "quote": "Codex review on #62.",
     "also": [
+      {
+        "source": "https://www.interconnects.ai/p/get-good-at-agents",
+        "seen": "2026-01-21",
+        "quote": "They make mistakes, they catch most of their own mistakes, and they’re fairly slow too, but they’re capable. I can’t wait to go home and check on what my Claudes were up to."
+      },
       {
         "source": "https://lexfridman.com/ai-sota-2026-transcript",
         "seen": "2026-01-31",
         "quote": "And then I have enough situational awareness to be like, “Okay, these trends obviously make sense,” and you can check things."
+      },
+      {
+        "source": "https://bsky.app/profile/natolambert.bsky.social/post/3mdso6ripn22o",
+        "seen": "2026-02-01",
+        "quote": "claude code writing, codex code review, GPT Pro for planning"
+      },
+      {
+        "source": "https://github.com/natolambert/colloquium/pull/70",
+        "seen": "2026-10-26",
+        "quote": "Codex Review"
       }
     ]
   },

@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "birgitta410",
   "status": "ok",
-  "checked": "2026-10-07",
+  "checked": "2026-11-14",
   "name": {
     "value": "Birgitta Böckeler",
     "source": "https://martinfowler.com/articles/sensors-for-coding-agents.html"
@@ -24,33 +24,43 @@
     "source": "https://github.com/birgitta410"
   },
   "known_for": {
-    "value": "Thoughtworks, harness engineering",
-    "source": "https://birgitta.info"
+    "value": "Harness engineering, Unblocked",
+    "source": "https://getunblocked.com/blog/onboarding-with-unblocked/"
   },
   "agents": [
     {
-      "name": "Cursor",
-      "icon": "cursor",
-      "role": "primary, most used",
-      "surface": "ide",
-      "surface_source": {
-        "source": "https://bsky.app/profile/birgitta410.bsky.social/post/3lilfrljlgc2a",
-        "seen": "2025-02-20",
-        "quote": "I personally prefer in-IDE tools, but the concepts are reusable."
-      },
-      "source": "https://martinfowler.com/articles/sensors-for-coding-agents.html",
-      "seen": "2026-05-27",
-      "quote": "Throughout building the application, I used a mix of Cursor, Claude Code, and OpenCode (in that order of frequency).",
-      "history": []
-    },
-    {
       "name": "Claude Code",
       "icon": "claudecode",
-      "role": "second, after Cursor",
+      "role": "primary at Unblocked, grilling skill",
       "surface": null,
-      "source": "https://martinfowler.com/articles/sensors-for-coding-agents.html",
-      "seen": "2026-05-27",
-      "quote": "Throughout building the application, I used a mix of Cursor, Claude Code, and OpenCode (in that order of frequency).",
+      "source": "https://getunblocked.com/blog/onboarding-with-unblocked/",
+      "seen": "2026-10-20",
+      "quote": "I used a skill in Claude Code that keeps looking for and asking open questions about the requirements, and Claude Code had access to Unblocked while it was doing that.",
+      "history": [
+        {
+          "value": "Cursor",
+          "surface": "ide",
+          "surface_source": {
+            "source": "https://bsky.app/profile/birgitta410.bsky.social/post/3lilfrljlgc2a",
+            "seen": "2025-02-20",
+            "quote": "I personally prefer in-IDE tools, but the concepts are reusable."
+          },
+          "source": "https://martinfowler.com/articles/sensors-for-coding-agents.html",
+          "seen": "2026-05-27",
+          "quote": "Throughout building the application, I used a mix of Cursor, Claude Code, and OpenCode (in that order of frequency).",
+          "inferred": true
+        }
+      ],
+      "inferred": true
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "also in the first Unblocked task",
+      "surface": null,
+      "source": "https://getunblocked.com/blog/onboarding-with-unblocked/",
+      "seen": "2026-10-20",
+      "quote": "in one case, Codex over interpreted a piece of context it got from Unblocked and went on a bit of a wild goose chase.",
       "history": []
     },
     {
@@ -188,11 +198,19 @@
   },
   "mcp_servers": {
     "value": [
+      "unblocked",
       "playwright"
     ],
-    "source": "https://github.com/birgitta410/local-coding-evals/blob/cb0a90ce986d727ff07543592beabcecb978baaf/.mcp.json#L6",
-    "seen": "2026-06-18",
-    "quote": "\"@playwright/mcp@latest\""
+    "source": "https://getunblocked.com/blog/onboarding-with-unblocked/",
+    "seen": "2026-10-20",
+    "quote": "I used a skill in Claude Code that keeps looking for and asking open questions about the requirements, and Claude Code had access to Unblocked while it was doing that.",
+    "also": [
+      {
+        "source": "https://github.com/birgitta410/local-coding-evals/blob/cb0a90ce986d727ff07543592beabcecb978baaf/.mcp.json#L6",
+        "seen": "2026-06-18",
+        "quote": "\"@playwright/mcp@latest\""
+      }
+    ]
   },
   "hooks": {
     "value": [

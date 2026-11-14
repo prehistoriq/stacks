@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "adamwathan",
   "status": "ok",
-  "checked": "2026-10-07",
+  "checked": "2026-11-14",
   "name": {
     "value": "Adam Wathan",
     "source": "https://github.com/adamwathan"
@@ -31,7 +31,7 @@
     {
       "name": "Amp",
       "icon": "amp",
-      "role": "newest, in cloud Orbs",
+      "role": "main, threads started from a phone in Orbs",
       "surface": "web",
       "surface_source": {
         "source": "https://x.com/adamwathan/status/2105058269332987954",
@@ -39,20 +39,40 @@
         "quote": "With orbs it just worked, no configuration, it just figured out how to create an environment where everything ran and I could preview my changes effortlessly.",
         "inferred": true
       },
-      "source": "https://x.com/adamwathan/status/2105058269332987954",
-      "seen": "2026-09-29",
-      "quote": "I shipped a change to a PHP 5 + Node 8 project the other night that would’ve been a nightmare without Amp and Orbs.",
-      "history": []
+      "source": "https://x.com/adamwathan/status/2115752225666367537",
+      "seen": "2026-10-29",
+      "quote": "Here are the threads I kicked off the other day from my phone between 5:40am and getting out of bed at 6:00am.",
+      "history": [],
+      "also": [
+        {
+          "source": "https://x.com/adamwathan/status/2105058269332987954",
+          "seen": "2026-09-29",
+          "quote": "I shipped a change to a PHP 5 + Node 8 project the other night that would’ve been a nightmare without Amp and Orbs."
+        },
+        {
+          "source": "https://x.com/adamwathan/status/2114336387000332354",
+          "seen": "2026-10-25",
+          "quote": "$20/mo on Amp for me"
+        }
+      ]
     },
     {
       "name": "Codex",
       "icon": "codex",
-      "role": "in the ChatGPT mobile app",
-      "surface": "app",
-      "source": "https://x.com/adamwathan/status/2055037124173263269",
-      "seen": "2026-05-14",
-      "quote": "I must be going crazy because I’ve been using Codex in the ChatGPT mobile app for literally months?",
-      "history": []
+      "role": "$200 sub",
+      "surface": null,
+      "source": "https://x.com/adamwathan/status/2115954888027062696",
+      "seen": "2026-10-29",
+      "quote": "$200/mo for Codex and $20/mo for Amp.",
+      "history": [
+        {
+          "value": "Codex in the ChatGPT mobile app",
+          "source": "https://x.com/adamwathan/status/2055037124173263269",
+          "seen": "2026-05-14",
+          "quote": "I must be going crazy because I’ve been using Codex in the ChatGPT mobile app for literally months?",
+          "surface": "app"
+        }
+      ]
     },
     {
       "name": "Claude Code",
@@ -88,15 +108,22 @@
   "harness": {
     "value": "Cloud agents: Amp threads in remote Orbs",
     "short": "cloud Orbs",
-    "source": "https://x.com/adamwathan/status/2105058269332987954",
-    "seen": "2026-09-29",
-    "quote": "With orbs it just worked, no configuration, it just figured out how to create an environment where everything ran and I could preview my changes effortlessly.",
+    "source": "https://x.com/adamwathan/status/2115603061033029664",
+    "seen": "2026-10-29",
+    "quote": "Infinite compute, nothing competing for resources or ports, not losing your entire hard disk to work trees.",
     "history": [
       {
         "value": "Claude Code in the cloud, in the background",
         "source": "https://x.com/adamwathan/status/2007635885991358918",
         "seen": "2026-01-04",
         "quote": "Fairly confident this initial solution is perfect, did it in 5 minutes in the background using just the initial prompt:"
+      }
+    ],
+    "also": [
+      {
+        "source": "https://x.com/adamwathan/status/2105058269332987954",
+        "seen": "2026-09-29",
+        "quote": "With orbs it just worked, no configuration, it just figured out how to create an environment where everything ran and I could preview my changes effortlessly."
       }
     ]
   },
@@ -113,14 +140,14 @@
   "mcp_servers": null,
   "hooks": null,
   "signature": {
-    "value": "Every tedious OSS task",
+    "value": "Pair prompting",
     "kind": "habit",
-    "caption": "fed to cloud Claude Code",
-    "why": "Our pick: since January 2026 he hands the Tailwind chores he would otherwise neglect to Claude Code on the web and keeps working; ten of his 2026 Tailwind commits carry its session links.",
+    "caption": "instead of pair coding",
+    "why": "Our pick: after 187,260 minutes on Tuple since 2019, the pairing habit moved to the prompt. Most of this page works alone with agents.",
     "editorial": true,
-    "source": "https://x.com/adamwathan/status/2017616165455949851",
-    "seen": "2026-01-31",
-    "quote": "I feed this thing every little random tedious OSS task that I'd otherwise neglect on my TODO list and it just churns through it all asynchronously flawlessly while I work on more important stuff."
+    "source": "https://x.com/adamwathan/status/2110752852020974010",
+    "seen": "2026-10-15",
+    "quote": "Still do it almost just as much as before, just pair prompting now. I'm a social creature, don't have as much fun working by myself even with an agent."
   },
   "archetype": {
     "value": "Orchestrator",

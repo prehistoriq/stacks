@@ -1,0 +1,112 @@
+{
+  "schema": 2,
+  "handle": "bagder",
+  "status": "ok",
+  "checked": "2026-11-14",
+  "name": {
+    "value": "Daniel Stenberg",
+    "source": "https://github.com/bagder"
+  },
+  "x": null,
+  "github": {
+    "value": "bagder",
+    "source": "https://github.com/bagder"
+  },
+  "site": {
+    "value": "https://daniel.haxx.se/",
+    "source": "https://github.com/bagder"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/177011?v=4",
+    "source": "https://github.com/bagder"
+  },
+  "known_for": {
+    "value": "Founder and lead dev of curl",
+    "source": "https://daniel.haxx.se/"
+  },
+  "agents": [],
+  "models": [],
+  "review_style": {
+    "value": "Humans write and review all code; Copilot and Augment bots review PRs on top",
+    "source": "https://mastodon.social/@bagder/116676844725012804",
+    "seen": "2026-06-01",
+    "quote": "All code is human reviewed, no maintainer write code with AI, we use state of the art tools to review and analyze code.",
+    "kind": "reads-all",
+    "also": [
+      {
+        "source": "https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/",
+        "seen": "2026-05-11",
+        "quote": "Nowadays we also use tools like GitHub’s Copilot and Augment code to review pull requests, and their remarks and complaints help us to land better code and avoid merging new bugs."
+      },
+      {
+        "source": "https://mastodon.social/@bagder/116770703232639077",
+        "seen": "2026-06-18",
+        "quote": "we're primarily using GitHub Copilot and Augment code and a little of Aisle's analyzer bot."
+      },
+      {
+        "source": "https://daniel.haxx.se/blog/2026/06/10/a-human-in-control/",
+        "seen": "2026-06-10",
+        "quote": "In a somewhat complicated change request, it is now common that after the humans can’t spot any more problems, the AI PR review bots can still find an issue or two to remark on."
+      },
+      {
+        "source": "https://mastodon.social/@bagder/117466173945059140",
+        "seen": "2026-10-19",
+        "quote": "I believe it takes a human to do that assessment properly."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Hand and brain, then AI bots review the PR",
+    "short": "by hand",
+    "source": "https://mastodon.social/@bagder/117071640313687155",
+    "seen": "2026-08-10",
+    "quote": "hand and brain, then PR reviewed a few times by an AI bot that figured out some flaws...",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "'On AI use in curl' in docs/CONTRIBUTE.md: disclose it, verify it yourself",
+    "short": "On AI use",
+    "url": "https://github.com/curl/curl/blob/7e1001bcd69967707cf6fee9e71fc10dd244d509/docs/CONTRIBUTE.md#L311",
+    "source": "https://github.com/curl/curl/blob/7e1001bcd69967707cf6fee9e71fc10dd244d509/docs/CONTRIBUTE.md#L317",
+    "seen": "2026-05-27",
+    "quote": "If you asked an AI tool to find problems in curl, you **must** make sure to"
+  },
+  "skills": null,
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "AI reviews, never writes",
+    "kind": "rule",
+    "caption": "bots review, humans own it",
+    "why": "Our pick: curl lets AI review bots comment on pull requests but keeps every line human-written and human-reviewed.",
+    "editorial": true,
+    "source": "https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/",
+    "seen": "2026-05-11",
+    "quote": "The AI reviews are used in addition to the human reviews. They help us, they don’t replace us."
+  },
+  "archetype": {
+    "value": "Skeptic",
+    "editorial": true,
+    "why": "Writes no code with AI; lets AI only review pull requests and scan for bugs."
+  },
+  "signature_quote": {
+    "value": "We do not hand over our responsibilities to any machines.",
+    "more": "We stand for every bit of code we merge – as humans.",
+    "source": "https://daniel.haxx.se/blog/2026/06/10/a-human-in-control/",
+    "seen": "2026-06-10"
+  },
+  "no_agent": {
+    "value": "Writes code by hand; AI bots only review",
+    "source": "https://mastodon.social/@bagder/116676844725012804",
+    "seen": "2026-06-01",
+    "quote": "no maintainer write code with AI",
+    "also": [
+      {
+        "source": "https://daniel.haxx.se/blog/2025/10/10/a-new-breed-of-analyzers/",
+        "seen": "2025-10-10",
+        "quote": "I personally still do not use any AI at all during development – apart from occasional small experiments."
+      }
+    ]
+  }
+}

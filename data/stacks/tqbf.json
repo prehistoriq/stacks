@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "tqbf",
   "status": "ok",
-  "checked": "2026-10-12",
+  "checked": "2026-11-14",
   "name": {
     "value": "Thomas Ptacek",
     "source": "https://fly.io/blog/youre-all-nuts/"
@@ -29,9 +29,40 @@
   },
   "agents": [
     {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "implements Radiology and the SNN election desk",
+      "surface": null,
+      "source": "https://github.com/tqbf/radiology/blob/7edfc79db6343707e4138c414f53f30db5de2411/PROGRESS.md#L3",
+      "seen": "2026-10-31",
+      "quote": "## 2026-10-31 — Bundle all local changes for GitHub main (Codex)",
+      "history": [
+        {
+          "value": "Codex CLI for casual stuff, starting Codex Web",
+          "surface": "cli",
+          "source": "https://news.ycombinator.com/item?id=44163292",
+          "seen": "2025-06-02",
+          "quote": "I use Codex CLI for casual stuff, because of the ergonomics of just popping open another terminal tab."
+        }
+      ],
+      "also": [
+        {
+          "source": "https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/",
+          "seen": "2026-08-20",
+          "quote": "You want to make sure you’ve got computer-use, or whatever Codex calls it, enabled."
+        },
+        {
+          "source": "https://news.ycombinator.com/item?id=49972626",
+          "seen": "2026-10-06",
+          "quote": "Claude and Codex produce far more polished work than any of my side projects."
+        }
+      ],
+      "inferred": true
+    },
+    {
       "name": "Claude Code",
       "icon": "claudecode",
-      "role": "primary, for code",
+      "role": "alternates with Codex",
       "surface": "cli",
       "surface_source": {
         "source": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
@@ -47,6 +78,11 @@
           "source": "https://news.ycombinator.com/item?id=47907285",
           "seen": "2026-04-26",
           "quote": "I have a standard OpenAI/ChatGPT Pro account; GPT5 is my daily driver for math, and Claude for code."
+        },
+        {
+          "source": "https://x.com/tqbf/status/2116644199604899988",
+          "seen": "2026-10-31",
+          "quote": "Claude will one-shot it."
         }
       ],
       "history": [
@@ -58,27 +94,26 @@
           "quote": "I use Zed as my primary interface to \"actually doing project work\" LLM stuff, because it front-ends both OpenAI and Google/Gemini models, and because I really like the interface."
         }
       ]
-    },
-    {
-      "name": "Codex",
-      "icon": "codex",
-      "role": "alternates with Claude",
-      "surface": null,
-      "source": "https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/",
-      "seen": "2026-08-20",
-      "quote": "You want to make sure you’ve got computer-use, or whatever Codex calls it, enabled.",
-      "history": [
-        {
-          "value": "Codex CLI for casual stuff, starting Codex Web",
-          "surface": "cli",
-          "source": "https://news.ycombinator.com/item?id=44163292",
-          "seen": "2025-06-02",
-          "quote": "I use Codex CLI for casual stuff, because of the ergonomics of just popping open another terminal tab."
-        }
-      ]
     }
   ],
   "models": [
+    {
+      "name": "GPT-6.1 Sol",
+      "icon": "openai",
+      "detail": "high; first runs xhigh. SNN research agents",
+      "inferred": true,
+      "source": "https://github.com/snoopynewsnetwork/snn/blob/a2a49551ca1ea571eb6bc8724f16febef988c5b4/STATE_RESEARCH_DISPATCH.md#L14-L16",
+      "seen": "2026-10-20",
+      "quote": "`codex/gpt-6.1-sol`, `auto-review`, and `high`.",
+      "history": [
+        {
+          "value": "GPT-5.5, math, not code",
+          "source": "https://news.ycombinator.com/item?id=47912199",
+          "seen": "2026-04-26",
+          "quote": "As I said elsewhere: I've fed thousands of math problems through ChatGPT (starting with 4o and now with 5.5)."
+        }
+      ]
+    },
     {
       "name": "Claude Opus 5.5",
       "icon": "claude",
@@ -108,24 +143,31 @@
           "inferred": true
         }
       ]
-    },
-    {
-      "name": "GPT-5.5",
-      "icon": "openai",
-      "detail": "math, not code",
-      "source": "https://news.ycombinator.com/item?id=47912199",
-      "seen": "2026-04-26",
-      "quote": "As I said elsewhere: I've fed thousands of math problems through ChatGPT (starting with 4o and now with 5.5).",
-      "history": []
     }
   ],
   "review_style": {
-    "value": "Agents push PRs, only he merges",
-    "source": "https://github.com/tqbf/swiftui-app/blob/3ca1cc4b8ffdbd3b628cc847574c9951b036fe12/CLAUDE.md#L17",
-    "seen": "2026-08-20",
-    "quote": "* You may push PRs, but you MUST NOT ever merge them youself to main.",
-    "kind": "unknown",
+    "value": "Reads PRs personally in a self-built code reader; an agent only draws the roadmap",
+    "kind": "reads-all",
+    "inferred": true,
+    "source": "https://x.com/tqbf/status/2116605898978198013",
+    "seen": "2026-10-31",
+    "quote": "have an agent spit out a roadmap to a source tree, load that up in a deterministic reader that breaks it down. Like 10% LLM reading, 90% human. The right balance for me.",
     "also": [
+      {
+        "source": "https://news.ycombinator.com/item?id=50169947",
+        "seen": "2026-10-20",
+        "quote": "all my review happens outside Github itself."
+      },
+      {
+        "source": "https://x.com/tqbf/status/2108601188891369823",
+        "seen": "2026-10-09",
+        "quote": "My code review practice won't be yours! I spent 15 years auditing random packages for clients and the experience warped me."
+      },
+      {
+        "source": "https://github.com/tqbf/swiftui-app/blob/3ca1cc4b8ffdbd3b628cc847574c9951b036fe12/CLAUDE.md#L17",
+        "seen": "2026-08-20",
+        "quote": "* You may push PRs, but you MUST NOT ever merge them youself to main."
+      },
       {
         "source": "https://sockpuppet.org/blog/2026/05/12/emacsification/",
         "seen": "2026-05-12",
@@ -144,21 +186,52 @@
     ]
   },
   "harness": {
-    "value": "A spare MacBook running Claude, Makefile builds, never Xcode",
-    "short": "spare MacBook",
-    "source": "https://sockpuppet.org/blog/2026/05/12/emacsification/",
-    "seen": "2026-05-12",
-    "quote": "I recruited an old Macbook to run Claude on. I set up Xcode and git. I got Claude configured, and tracked down some Swift and macOS design skills.",
+    "value": "Plans in the ChatGPT web UI, Paseo dispatches agents across Mac, phone and Linux homelab, Radiology to read the result",
+    "short": "Paseo + Radiology",
+    "source": "https://news.ycombinator.com/item?id=49983659",
+    "seen": "2026-10-06",
+    "quote": "I have a homelab-type setup with macOS, phone, and ARM and x64 Linux platforms, all of which I can dispatch agent work to from my laptop from, like, an airplane.",
     "also": [
+      {
+        "source": "https://news.ycombinator.com/item?id=50159076",
+        "seen": "2026-10-19",
+        "quote": "I've been starting in the ChatGPT web UI, having long conversations, having it generate Markdown plans, and then editing those plans; I hand those off to implementation agents."
+      },
+      {
+        "source": "https://news.ycombinator.com/item?id=49984218",
+        "seen": "2026-10-06",
+        "quote": "having something like Paseo is a pretty big power-up from directly working with model harnesses"
+      },
+      {
+        "source": "https://x.com/tqbf/status/2108721608932348175",
+        "seen": "2026-10-10",
+        "quote": "I basically never write code anymore. Harness + code reader is my whole day."
+      },
       {
         "source": "https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/",
         "seen": "2026-08-20",
         "quote": "My biggest quality-of-life win is never having to open Xcode. Thankfully, my friend Josh built a purely Makefile-driven build process after trying to compile MDV for himself. I’ve just had Claude copy it to every new project I do."
       }
     ],
+    "history": [
+      {
+        "value": "A spare MacBook running Claude, Makefile builds, never Xcode",
+        "short": "spare MacBook",
+        "source": "https://sockpuppet.org/blog/2026/05/12/emacsification/",
+        "seen": "2026-05-12",
+        "quote": "I recruited an old Macbook to run Claude on. I set up Xcode and git. I got Claude configured, and tracked down some Swift and macOS design skills."
+      }
+    ]
+  },
+  "parallelism": {
+    "value": 4,
+    "short": "4 agents",
+    "inferred": true,
+    "source": "https://github.com/snoopynewsnetwork/snn/blob/a2a49551ca1ea571eb6bc8724f16febef988c5b4/STATE_RESEARCH_DISPATCH.md#L18-L19",
+    "seen": "2026-10-20",
+    "quote": "This keeps at most four active\nagents including the initiating conversation.",
     "history": []
   },
-  "parallelism": null,
   "rules_files": {
     "value": "CLAUDE.md = AGENTS.md (17 lines), copied into every app",
     "short": "CLAUDE.md",
@@ -185,15 +258,25 @@
   "mcp_servers": null,
   "hooks": null,
   "signature": {
-    "value": "swiftui-app template",
+    "value": "Radiology",
     "kind": "tool",
-    "caption": "copied into every new app",
-    "why": "Our pick: one folder carries his rules, skills and no-Xcode build, so every app starts with cp -R and a sentence.",
+    "caption": "self-built PR and code reader",
+    "why": "Our pick: reads far more than writes, so agents built a native tree-sitter and SCIP reader to review their own PRs, and tells you to build your own.",
     "editorial": true,
-    "source": "https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/",
-    "seen": "2026-08-20",
-    "quote": "In fact, that’s my entire process at this point: I copy a template app directory, open Claude or Codex in it, and tell it what I want to build.",
+    "source": "https://x.com/tqbf/status/2116644199604899988",
+    "seen": "2026-10-31",
+    "quote": "this is \"Radiology\" on my Github",
     "also": [
+      {
+        "source": "https://x.com/tqbf/status/2108598079142125962",
+        "seen": "2026-10-09",
+        "quote": "I read \\infty more lines of code now than I write"
+      },
+      {
+        "source": "https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/",
+        "seen": "2026-08-20",
+        "quote": "In fact, that’s my entire process at this point: I copy a template app directory, open Claude or Codex in it, and tell it what I want to build."
+      },
       {
         "source": "https://github.com/tqbf/subpanel/commit/1d8232bad680798cbb93389f109d728cf6189ee7",
         "seen": "2026-09-23",

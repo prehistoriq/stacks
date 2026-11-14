@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "mikeyk",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-14",
   "name": {
     "value": "Mike Krieger",
     "source": "https://github.com/mikeyk"
@@ -57,6 +57,13 @@
           "seen": "2026-07-24",
           "quote": "Opus 5 quickly became my daily driver both at work and on the weekends."
         }
+      ],
+      "also": [
+        {
+          "source": "https://x.com/mikeyk/status/2119868632570462674",
+          "seen": "2026-11-09",
+          "quote": "Fable is also a great thought partner on strategy, paired with Opus 5.5 for a lot of my work."
+        }
       ]
     },
     {
@@ -70,12 +77,24 @@
     }
   ],
   "review_style": {
-    "value": "Hands over whole goals and has Claude verify, then double-verify",
+    "value": "Doesn't read every line: asks Claude questions about a PR; cosmetic changes get fixed forward",
     "kind": "agent-reviews",
-    "source": "https://podscripts.co/podcasts/big-technology-podcast/anthropics-labs-lead-on-fables-capabilities-building-ai-native-products-with-mike-krieger",
-    "seen": "2026-06-24",
-    "quote": "Go off and do it. Go plan it. Go execute it. Go verify the work. Double verify the work.",
-    "inferred": true
+    "source": "https://www.youtube.com/watch?v=qqrk7CtkuIw&t=660",
+    "seen": "2026-08-27",
+    "quote": "I wish I could say I reviewed every line of code. I definitely do not.",
+    "also": [
+      {
+        "source": "https://www.youtube.com/watch?v=qqrk7CtkuIw&t=670",
+        "seen": "2026-08-27",
+        "quote": "So, it is kind of Claude-powered code review, but still human-driven."
+      },
+      {
+        "source": "https://podscripts.co/podcasts/big-technology-podcast/anthropics-labs-lead-on-fables-capabilities-building-ai-native-products-with-mike-krieger",
+        "seen": "2026-06-24",
+        "quote": "Go off and do it. Go plan it. Go execute it. Go verify the work. Double verify the work.",
+        "inferred": true
+      }
+    ]
   },
   "harness": {
     "value": "Claude Desktop Projects: a coordinator Claude plus background work; dynamic /workflows",

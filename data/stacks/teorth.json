@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "teorth",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-14",
   "name": {
     "value": "Terence Tao",
     "source": "https://github.com/teorth/tao-web"
@@ -68,15 +68,22 @@
       "name": "Claude Opus 5",
       "icon": "claude",
       "inferred": true,
-      "source": "https://github.com/teorth/tao-web/commit/90fdcfc719e65aba141c75937e7168fe610f4f7a",
-      "seen": "2026-10-03",
-      "quote": "Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>",
+      "source": "https://github.com/teorth/tao-web/commit/9e2579b1dc08d51177d6edce84811de08002375b",
+      "seen": "2026-11-13",
+      "quote": "Co-Authored-By: Claude Opus 5",
       "history": [
         {
           "value": "Claude Opus 4.8",
           "source": "https://teorth.github.io/tao-web/apps/zeta-process-making-of.html",
           "seen": "2026-07-16",
           "quote": "Built with Claude Code (Opus 4.8)."
+        }
+      ],
+      "also": [
+        {
+          "source": "https://github.com/teorth/tao-web/commit/353dca4e73d2af6b1ed45a6d841aab0430fb7a6a",
+          "seen": "2026-11-04",
+          "quote": "Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>"
         }
       ]
     }
@@ -98,6 +105,16 @@
         "source": "https://mathstodon.xyz/@tao/116517314420904580",
         "seen": "2026-05-04",
         "quote": "I then reviewed all proposed changes, made the selection for the twelfth fix, and asked Claude to implement them all; the entire process took less than fifteen minutes."
+      },
+      {
+        "source": "https://teorth.github.io/tao-web/ai-views.html",
+        "seen": "2026-11-02",
+        "quote": "This summary was compiled and drafted by an AI assistant (Claude) from Terence Tao’s public writing, talks, and interviews, then reviewed and corrected by him"
+      },
+      {
+        "source": "https://teorth.github.io/tao-web/ai-views.html",
+        "seen": "2026-11-02",
+        "quote": "verification certifies the formal statement, not that it matches intent — so human review is reduced, not eliminated."
       }
     ]
   },

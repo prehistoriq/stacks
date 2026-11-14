@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "josevalim",
   "status": "ok",
-  "checked": "2026-10-12",
+  "checked": "2026-11-14",
   "name": {
     "value": "José Valim",
     "source": "https://github.com/josevalim"
@@ -29,23 +29,19 @@
   },
   "agents": [
     {
-      "name": "Codex",
-      "icon": "codex",
-      "role": "primary",
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary on Elixir",
       "surface": null,
-      "source": "https://x.com/josevalim/status/2083202612162077123",
-      "seen": "2026-07-31",
-      "quote": "It is the reason why I prefer Codex, which bundles fast mode in the subscription, compared to Claude Code, which bundles larger context windows.",
+      "inferred": true,
+      "source": "https://github.com/elixir-lang/elixir/commit/bba9fd37a446fe1ac251e85d42d64e35ec555a0d",
+      "seen": "2026-11-02",
+      "quote": "Assisted-by: Claude Code:claude-opus-5-5",
       "also": [
         {
-          "source": "https://x.com/josevalim/status/2064811215528906814",
-          "seen": "2026-06-10",
-          "quote": "One tiny feature I really like about Codex is that when I ask it a question, it answers the question."
-        },
-        {
-          "source": "https://x.com/josevalim/status/2066206036701184441",
-          "seen": "2026-06-14",
-          "quote": "I wanted Codex to find usages of [key: foo | bar] in Elixir's codebase."
+          "source": "https://x.com/josevalim/status/2117200287169425634",
+          "seen": "2026-11-02",
+          "quote": "After a few months, I am back to using Opus (5.5)"
         }
       ],
       "history": [
@@ -64,6 +60,27 @@
           "seen": "2026-06-10",
           "quote": "Many times I've asked Claude Code, \"Do you think X would be better?\", and it would just go ahead and implement X instead of discussing the trade-offs first.",
           "inferred": true
+        },
+        {
+          "value": "Codex",
+          "surface": null,
+          "source": "https://x.com/josevalim/status/2064811215528906814",
+          "seen": "2026-06-10",
+          "quote": "One tiny feature I really like about Codex is that when I ask it a question, it answers the question."
+        },
+        {
+          "value": "Codex",
+          "surface": null,
+          "source": "https://x.com/josevalim/status/2066206036701184441",
+          "seen": "2026-06-14",
+          "quote": "I wanted Codex to find usages of [key: foo | bar] in Elixir's codebase."
+        },
+        {
+          "value": "Codex",
+          "surface": null,
+          "source": "https://x.com/josevalim/status/2083202612162077123",
+          "seen": "2026-07-31",
+          "quote": "It is the reason why I prefer Codex, which bundles fast mode in the subscription, compared to Claude Code, which bundles larger context windows."
         }
       ]
     },
@@ -79,34 +96,66 @@
       },
       "source": "https://x.com/josevalim/status/2093304967360548895",
       "seen": "2026-08-28",
-      "quote": "Tidewave now ships with a design canvas. It has been so useful internally that we're kicking ourselves for not shipping it earlier!"
+      "quote": "Tidewave now ships with a design canvas. It has been so useful internally that we're kicking ourselves for not shipping it earlier!",
+      "also": [
+        {
+          "source": "https://github.com/josevalim/lynx/commit/7ed3119211b31eb1138d43426af3430fc1541918",
+          "seen": "2026-10-16",
+          "quote": "Assisted-by: Claude Opus 5.5 Tidewave"
+        }
+      ]
     }
   ],
   "models": [
     {
-      "name": "Sol 5.6",
-      "icon": "openai",
-      "detail": "in Codex",
-      "source": "https://x.com/josevalim/status/2078177113560244355",
-      "seen": "2026-07-17",
-      "quote": "You probably heard me saying \"coding agents are useless for type system work 🥴\" but Sol is definitely an improvement.",
+      "name": "Claude Opus 5.5",
+      "icon": "claude",
+      "detail": "in Claude Code",
+      "source": "https://x.com/josevalim/status/2117200287169425634",
+      "seen": "2026-11-02",
+      "quote": "After a few months, I am back to using Opus (5.5) and it is fast, way less verbose than earlier versions, and the summaries it provides are quite helpful!",
       "history": [
         {
           "value": "ChatGPT-5.5 in Codex",
           "source": "https://github.com/elixir-lang/elixir/commit/23a431223bbbc156eb224c6aa55b68479393d3e5",
           "seen": "2026-05-26",
           "quote": "Assisted-by: ChatGPT-5.5/Codex for test case generation."
+        },
+        {
+          "value": "Sol 5.6",
+          "source": "https://x.com/josevalim/status/2078177113560244355",
+          "seen": "2026-07-17",
+          "quote": "You probably heard me saying \"coding agents are useless for type system work 🥴\" but Sol is definitely an improvement."
+        },
+        {
+          "value": "GPT-6 in Tidewave",
+          "source": "https://github.com/josevalim/lynx/commit/577ce530a76e9e6e7811a93443a978ec8f705d3b",
+          "seen": "2026-10-14",
+          "quote": "Assisted-by: GPT-6 Tidewave",
+          "inferred": true
+        }
+      ],
+      "also": [
+        {
+          "source": "https://github.com/elixir-lang/elixir/commit/d28e646440edf10dbbb26e1f013d516776a3f636",
+          "seen": "2026-11-12",
+          "quote": "Assisted-by: Claude Code:claude-opus-5-5"
         }
       ]
     }
   ],
   "review_style": {
-    "value": "Reviews agent PRs like any other code",
-    "source": "https://x.com/josevalim/status/2096683774662611162",
-    "seen": "2026-09-06",
-    "quote": "Outside of that, I mainly ask the agent to break any large PR into small ones. Then I review them like any other code 😅",
+    "value": "Reviews agent PRs like any other code, and still finds bugs agents miss",
+    "source": "https://x.com/josevalim/status/2110683832600920325",
+    "seen": "2026-10-15",
+    "quote": "I have been doing both (using agents extensively and reviewing code) and I still constantly find bugs that they do not. Despite several rounds of fine-tuning! :D",
     "kind": "spot-checks",
     "also": [
+      {
+        "source": "https://x.com/josevalim/status/2096683774662611162",
+        "seen": "2026-09-06",
+        "quote": "Outside of that, I mainly ask the agent to break any large PR into small ones. Then I review them like any other code 😅"
+      },
       {
         "source": "https://x.com/josevalim/status/2108167477469327411",
         "seen": "2026-10-08",
@@ -141,7 +190,14 @@
     "source": "https://tidewave.ai/blog/code-review",
     "seen": "2026-04-15",
     "quote": "Tidewave updates the code review pane in real-time and allows you to mark which code sections (hunks in git terms) have been reviewed",
-    "history": []
+    "history": [],
+    "also": [
+      {
+        "source": "https://x.com/josevalim/status/2117200287169425634",
+        "seen": "2026-11-02",
+        "quote": "If I plan to not be in the loop (e.g. I am going to bed), I tell it I won't be available for the next several hours, so if it is undecided, it should explore all different approaches and write me a complete summary at the end."
+      }
+    ]
   },
   "parallelism": null,
   "rules_files": {

@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "kentonv",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-14",
   "name": {
     "value": "Kenton Varda",
     "source": "https://github.com/kentonv"
@@ -63,23 +63,59 @@
       "surface": "web",
       "source": "https://github.com/cloudflare/cloudflare-os/pull/384",
       "seen": "2026-08-28",
-      "quote": "This pull request was created entirely by my Cloudflare OS agent: https://github.com/kentonv/lanparty/pull/10"
+      "quote": "This pull request was created entirely by my Cloudflare OS agent: https://github.com/kentonv/lanparty/pull/10",
+      "also": [
+        {
+          "source": "https://x.com/KentonVarda/status/2107639953630883904",
+          "seen": "2026-10-07",
+          "quote": "(In Cloudflare OS, because I have crippling NIH syndrome.)"
+        },
+        {
+          "source": "https://x.com/KentonVarda/status/2110837081517838664",
+          "seen": "2026-10-15",
+          "quote": "I currently manage my inbox this way and am pretty happy with the results so far."
+        }
+      ]
     }
   ],
   "models": [
     {
-      "name": "Fable 5.1",
+      "name": "Claude Opus 5.5",
       "icon": "claude",
-      "detail": "writes plans and code",
-      "source": "https://github.com/cloudflare/cloudflare-os/pull/492",
-      "seen": "2026-09-14",
-      "quote": "Plan written by Fable 5.1, reviewed by me and Astra (Astra's review was mostly stupid, though). Each code commit written by Fable 5.1, reviewed by Sol.",
+      "detail": "writes code, suggests cleanups",
+      "inferred": true,
+      "source": "https://github.com/cloudflare/workerd/pull/7807",
+      "seen": "2026-10-18",
+      "quote": "(Written by Opus 5.5.)",
+      "also": [
+        {
+          "source": "https://github.com/cloudflare/cloudflare-os/commit/f001c9ba52f0b68229a5a40836945480801e5223",
+          "seen": "2026-10-17",
+          "quote": "Opus 5.5 suggested this cleanup, enabled by the previous commit making"
+        },
+        {
+          "source": "https://github.com/cloudflare/cloudflare-os/pull/837#issuecomment-6638980548",
+          "seen": "2026-11-04",
+          "quote": "I had Opus rewrite the doc comments as I was having a hard time following them."
+        },
+        {
+          "source": "https://x.com/KentonVarda/status/2117373939693375650",
+          "seen": "2026-11-02",
+          "quote": "Opus rigged up a whole asset pipeline using PixelLab's REST API easily."
+        }
+      ],
       "history": [
         {
           "value": "Claude Sonnet 3.7",
           "source": "https://news.ycombinator.com/item?id=44159779",
           "seen": "2025-06-02",
           "quote": "It was almost entirely Claude Sonnet 3.7."
+        },
+        {
+          "value": "Fable 5.1 writes plans and code",
+          "source": "https://github.com/cloudflare/cloudflare-os/pull/492",
+          "seen": "2026-09-14",
+          "quote": "Plan written by Fable 5.1, reviewed by me and Astra (Astra's review was mostly stupid, though). Each code commit written by Fable 5.1, reviewed by Sol."
         }
       ]
     },
@@ -101,6 +137,16 @@
     "seen": "2026-08-19",
     "quote": "The code was almost entirely written by Fable with Sol acting as code reviewer at each step. I am pretty happy with the code I've reviewed but need to spend a bit more time looking before un-drafting this.",
     "also": [
+      {
+        "source": "https://github.com/cloudflare/cloudflare-os/commit/29ed2168ee3ac552b1f42fba888b00144c52359d",
+        "seen": "2026-10-18",
+        "quote": "This was a poor decision made by a past agent which I failed to review closely."
+      },
+      {
+        "source": "https://github.com/cloudflare/cloudflare-os/commit/f001c9ba52f0b68229a5a40836945480801e5223",
+        "seen": "2026-10-17",
+        "quote": "I am not deeply familiar with the code, so here's Claude's description:"
+      },
       {
         "source": "https://news.ycombinator.com/item?id=47939272",
         "seen": "2026-04-28",

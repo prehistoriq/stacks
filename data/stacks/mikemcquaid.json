@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "mikemcquaid",
   "status": "ok",
-  "checked": "2026-10-07",
+  "checked": "2026-11-14",
   "name": {
     "value": "Mike McQuaid",
     "source": "https://github.com/MikeMcQuaid"
@@ -38,9 +38,9 @@
         "seen": "2026-10-05",
         "quote": "Runs Claude Code or Codex CLI in parallel worktrees, sandboxed away from your personal files and credentials."
       },
-      "source": "https://mikemcquaid.com/sandboxed-agent-worktrees-my-coding-and-ai-setup-in-2026/",
-      "seen": "2026-04-14",
-      "quote": "My daily driver of choice is OpenAI Codex but I run out of tokens more quickly so have learned to be fine with either.",
+      "source": "https://github.com/Homebrew/brew/pull/24484",
+      "seen": "2026-11-04",
+      "quote": "Codex with GPT 6.1 Sol at Extra High effort, with local review and testing.",
       "history": [
         {
           "value": "GitHub Copilot (code completion, internal alpha)",
@@ -49,12 +49,19 @@
           "seen": "2026-04-14",
           "quote": "I've been using AI tools since early 2021 when I was invited to test out the Copilot internal alpha at GitHub (where I spent 10 years)."
         }
+      ],
+      "also": [
+        {
+          "source": "https://mikemcquaid.com/sandboxed-agent-worktrees-my-coding-and-ai-setup-in-2026/",
+          "seen": "2026-04-14",
+          "quote": "My daily driver of choice is OpenAI Codex but I run out of tokens more quickly so have learned to be fine with either."
+        }
       ]
     },
     {
       "name": "Claude Code",
       "icon": "claudecode",
-      "role": "built AgentIDE with it",
+      "role": "Fable 5.2 PRs on Homebrew; built Sanductor",
       "surface": "cli",
       "surface_source": {
         "source": "https://mikemcquaid.com/sandboxed-agent-worktrees-my-coding-and-ai-setup-in-2026/",
@@ -63,7 +70,19 @@
       },
       "source": "https://mikemcquaid.com/vibe-coding-developer-productivity-tools/",
       "seen": "2026-09-24",
-      "quote": "By the end of a weekend with Claude Max and Anthropic's Fable 5 model and ~4 hours interacting with my computer I had something that sort of worked."
+      "quote": "By the end of a weekend with Claude Max and Anthropic's Fable 5 model and ~4 hours interacting with my computer I had something that sort of worked.",
+      "also": [
+        {
+          "source": "https://github.com/Homebrew/brew/pull/24326",
+          "seen": "2026-10-22",
+          "quote": "Claude with Opus 5.5 at Extra High effort, with local review and testing."
+        },
+        {
+          "source": "https://github.com/Homebrew/brew/pull/24607",
+          "seen": "2026-11-14",
+          "quote": "Claude with Fable 5.2 at Extra High effort, with local review and testing."
+        }
+      ]
     },
     {
       "name": "OpenCode",
@@ -77,14 +96,35 @@
   ],
   "models": [
     {
-      "name": "Fable 5",
-      "icon": "claude",
-      "detail": "via Claude Max",
-      "inferred": true,
-      "source": "https://mikemcquaid.com/vibe-coding-developer-productivity-tools/",
-      "seen": "2026-09-24",
-      "quote": "By the end of a weekend with Claude Max and Anthropic's Fable 5 model and ~4 hours interacting with my computer I had something that sort of worked.",
+      "name": "GPT-6 Astra",
+      "icon": "openai",
+      "detail": "Extra High",
+      "source": "https://github.com/Homebrew/brew/pull/24414",
+      "seen": "2026-10-31",
+      "quote": "Codex with GPT 6 Astra at Extra High effort, with local review and testing.",
       "history": [
+        {
+          "value": "OpenAI Codex 5.4 xhigh",
+          "source": "https://mikemcquaid.com/sandboxed-agent-worktrees-my-coding-and-ai-setup-in-2026/",
+          "seen": "2026-04-14",
+          "quote": "OpenAI Codex (5.4 `xhigh`): takes a while, generally does things mostly right first time, doesn't need much prompting/steering"
+        }
+      ]
+    },
+    {
+      "name": "GPT-6.1 Sol",
+      "icon": "openai",
+      "detail": "Extra High",
+      "source": "https://github.com/Homebrew/brew/pull/24484",
+      "seen": "2026-11-04",
+      "quote": "Codex with GPT 6.1 Sol at Extra High effort, with local review and testing.",
+      "history": [
+        {
+          "value": "Fable 5 via Claude Max",
+          "source": "https://mikemcquaid.com/vibe-coding-developer-productivity-tools/",
+          "seen": "2026-09-24",
+          "quote": "By the end of a weekend with Claude Max and Anthropic's Fable 5 model and ~4 hours interacting with my computer I had something that sort of worked."
+        },
         {
           "value": "Opus 4.6 max",
           "source": "https://mikemcquaid.com/sandboxed-agent-worktrees-my-coding-and-ai-setup-in-2026/",
@@ -92,25 +132,31 @@
           "quote": "Claude Code (Opus 4.6 `max`): fairly stupid by default, can be nudged with aggressive hooks/tools/prompts to being less so"
         }
       ]
-    },
-    {
-      "name": "OpenAI Codex 5.4",
-      "icon": "openai",
-      "detail": "xhigh",
-      "source": "https://mikemcquaid.com/sandboxed-agent-worktrees-my-coding-and-ai-setup-in-2026/",
-      "seen": "2026-04-14",
-      "quote": "OpenAI Codex (5.4 `xhigh`): takes a while, generally does things mostly right first time, doesn't need much prompting/steering",
-      "history": []
     }
   ],
   "review_style": {
-    "value": "Reviews agent work before pushing it himself; depth depends on the code",
+    "value": "Reviews agent work personally before pushing, except Sanductor's own Swift; depth depends on the code",
     "kind": "spot-checks",
     "inferred": true,
-    "source": "https://mikemcquaid.com/sandboxed-agent-worktrees-my-coding-and-ai-setup-in-2026/",
-    "seen": "2026-04-14",
-    "quote": "I always review any agent-produced work as my normal user in the same shared worktree before I share it with others.",
+    "source": "https://github.com/Homebrew/brew/pull/24484",
+    "seen": "2026-11-04",
+    "quote": "Codex with GPT 6.1 Sol at Extra High effort, with local review and testing.",
     "also": [
+      {
+        "source": "https://mikemcquaid.com/vibe-coding-developer-productivity-tools/",
+        "seen": "2026-09-24",
+        "quote": "usually some manual code review before pushing (although, perhaps ironically, not for Sanductor’s Swift itself)."
+      },
+      {
+        "source": "https://x.com/MikeMcQuaid/status/2111152611936161798",
+        "seen": "2026-10-16",
+        "quote": "I don't trust the tool, I trust the tools I write to supervise the tool."
+      },
+      {
+        "source": "https://mikemcquaid.com/sandboxed-agent-worktrees-my-coding-and-ai-setup-in-2026/",
+        "seen": "2026-04-14",
+        "quote": "I always review any agent-produced work as my normal user in the same shared worktree before I share it with others."
+      },
       {
         "source": "https://mikemcquaid.com/sandboxed-agent-worktrees-my-coding-and-ai-setup-in-2026/",
         "seen": "2026-04-14",
@@ -125,15 +171,20 @@
         "source": "https://mikemcquaid.com/vibe-coding-developer-productivity-tools/",
         "seen": "2026-09-24",
         "quote": "open a PR, wait for CI results and code review from humans or Copilot"
+      },
+      {
+        "source": "https://github.com/Homebrew/brew/pull/24607",
+        "seen": "2026-11-14",
+        "quote": "Claude with Fable 5.2 at Extra High effort, with local review and testing."
       }
     ]
   },
   "harness": {
-    "value": "AgentIDE (his own Mac app) on sandvault, herdr and git worktrees",
-    "short": "AgentIDE",
+    "value": "Sanductor (a self-built Mac app, formerly AgentIDE) on sandvault, herdr and git worktrees",
+    "short": "Sanductor",
     "source": "https://mikemcquaid.com/vibe-coding-developer-productivity-tools/",
     "seen": "2026-09-24",
-    "quote": "I'm now completely off Superset and almost entirely off Fork and Zed by (vibe) building my own tool: [AgentIDE](https://github.com/MikeMcQuaid/AgentIDE/).",
+    "quote": "I’m now completely off Superset and almost entirely off Fork and Zed by (vibe) building my own tool: Sanductor (formerly AgentIDE).",
     "history": [
       {
         "value": "Superset worktrees running agents under sandvault, Fork and Zed for review",
@@ -164,14 +215,14 @@
     "quote": "reject \"has AI attribution; remove it and disclose AI use in the PR description.\""
   },
   "signature": {
-    "value": "AgentIDE",
+    "value": "Sanductor",
     "kind": "tool",
     "caption": "his own vibe-built agent IDE",
     "why": "Our pick: he replaced Superset, Fork and Zed with a native app he built for sandboxed agents in parallel worktrees, now in Homebrew.",
     "editorial": true,
     "source": "https://mikemcquaid.com/vibe-coding-developer-productivity-tools/",
     "seen": "2026-09-24",
-    "quote": "It's an \"agentic IDE\" built by me just for my workflows and it has made me more productive and happy working with agents."
+    "quote": "It’s an “agentic IDE” built by me just for my workflows and it has made me more productive and happy working with agents."
   },
   "archetype": {
     "value": "Toolsmith",

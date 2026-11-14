@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "kieranklaassen",
   "status": "ok",
-  "checked": "2026-10-12",
+  "checked": "2026-11-14",
   "name": {
     "value": "Kieran Klaassen",
     "source": "https://github.com/kieranklaassen"
@@ -29,13 +29,19 @@
   },
   "agents": [
     {
-      "name": "Cursor",
-      "icon": "cursor",
-      "role": "primary",
-      "surface": null,
+      "name": "Claude",
+      "icon": "claude",
+      "role": "first pick for coding",
+      "surface": "web",
+      "surface_source": {
+        "source": "https://github.com/kieranklaassen/live-mix/pull/202",
+        "seen": "2026-10-30",
+        "quote": "Requested by **Kieran** · [project thread](https://claude.ai/code/project/chan_01WdU5jFkJtP8jQUy8ueyuoJ?thread=cmsg_01WdU5jFkJtP8jQUy8ueyuoJTf69XwGooF4GAbjU6txY4H)"
+      },
       "source": "https://toolbox.every.to/kieranklaassen",
       "seen": null,
-      "quote": "Coding\nCursor\nthen Claude Code, Codex\nClaude Opus 5.5",
+      "undated": true,
+      "quote": "Coding Claude then Claude Code, Codex Claude Opus 5.5 1M context medium effort",
       "history": [
         {
           "value": "Cursor with Opus 4.5 or Claude Code",
@@ -43,9 +49,16 @@
           "source": "https://every.to/guides/compound-engineering",
           "seen": "2026-01-17",
           "quote": "Pick one tool. My current preference is for Cursor with Opus 4.5 or Claude Code."
+        },
+        {
+          "value": "Cursor, first pick in Toolbox",
+          "surface": null,
+          "source": "https://toolbox.every.to/kieranklaassen",
+          "seen": null,
+          "undated": true,
+          "quote": "Coding\nCursor\nthen Claude Code, Codex\nClaude Opus 5.5"
         }
-      ],
-      "undated": true
+      ]
     },
     {
       "name": "Claude Code",
@@ -59,7 +72,7 @@
       },
       "source": "https://toolbox.every.to/kieranklaassen",
       "seen": null,
-      "quote": "Coding\nCursor\nthen Claude Code, Codex",
+      "quote": "Coding Claude then Claude Code, Codex Claude Opus 5.5 1M context medium effort",
       "history": [
         {
           "value": "Claude Code only",
@@ -83,9 +96,16 @@
       "surface": null,
       "source": "https://toolbox.every.to/kieranklaassen",
       "seen": null,
-      "quote": "Coding\nCursor\nthen Claude Code, Codex",
+      "quote": "Coding Claude then Claude Code, Codex Claude Opus 5.5 1M context medium effort",
       "history": [],
-      "undated": true
+      "undated": true,
+      "also": [
+        {
+          "source": "https://x.com/kieranklaassen/status/2110811776116031722",
+          "seen": "2026-10-15",
+          "quote": "Dan was one of the first ones to keep annoying everyone to say to use Codex.    And I use it today."
+        }
+      ]
     }
   ],
   "models": [
@@ -112,55 +132,84 @@
       ]
     },
     {
-      "name": "Claude Sonnet 5.5",
+      "name": "Claude Fable 5.2",
       "icon": "claude",
-      "detail": "quick work, low or medium effort",
-      "source": "https://x.com/kieranklaassen/status/2104633604169142756",
-      "seen": "2026-09-28",
-      "quote": "Use Sonnet for iterative, quick work, especially design, prototyping, and product work. It's also nice for quick background jobs. Run it on low or medium effort.",
+      "detail": "fuzzy, larger, long-running work",
+      "source": "https://x.com/kieranklaassen/status/2119894503708664174",
+      "seen": "2026-11-09",
+      "quote": "fuzzy larger stuff fable. and long running",
+      "also": [
+        {
+          "source": "https://x.com/kieranklaassen/status/2119887993674821762",
+          "seen": "2026-11-09",
+          "quote": "Fable 5.2 is really good at coding. It leaved the most maintainable code of any model."
+        }
+      ],
       "history": [
         {
-          "value": "Claude Fable 5.1",
-          "source": "https://every.to/vibe-check/vibe-check-opus-5-5-is-pulling-our-codex-converts-back-to-claude",
-          "seen": "2026-09-22",
-          "quote": "For the hardest coding problems, Mike and Kieran still reach for Fable."
+          "value": "Claude Sonnet 5.5",
+          "source": "https://x.com/kieranklaassen/status/2104633604169142756",
+          "seen": "2026-09-28",
+          "quote": "Use Sonnet for iterative, quick work, especially design, prototyping, and product work. It's also nice for quick background jobs. Run it on low or medium effort."
         }
       ]
     }
   ],
   "review_style": {
-    "value": "Parallel review agents, no line-by-line reading",
-    "source": "https://every.to/source-code/i-stopped-reading-code-my-code-reviews-got-better",
-    "seen": "2026-01-23",
-    "quote": "Now my code reviews no longer involve reading code. And I’ve gotten better at catching problems because of it.",
+    "value": "Agents review, no reading; \"Team No Pull Requests\"",
     "kind": "agent-reviews",
+    "source": "https://x.com/kieranklaassen/status/2111131127977320910",
+    "seen": "2026-10-16",
+    "quote": "I'm Team No Pull Requests.",
     "also": [
+      {
+        "source": "https://x.com/kieranklaassen/status/2115930954355413123",
+        "seen": "2026-10-29",
+        "quote": "I have been no PR the last month haha"
+      },
+      {
+        "source": "https://every.to/source-code/i-stopped-reading-code-my-code-reviews-got-better",
+        "seen": "2026-01-23",
+        "quote": "Now my code reviews no longer involve reading code. And I’ve gotten better at catching problems because of it."
+      },
       {
         "source": "https://every.to/source-code/i-stopped-reading-code-my-code-reviews-got-better",
         "seen": "2026-01-23",
         "quote": "The signature fix that touched 27 files? Thirteen specialized AI reviewers examined it simultaneously while I made dinner."
+      },
+      {
+        "source": "https://x.com/kieranklaassen/status/2119887993674821762",
+        "seen": "2026-11-09",
+        "quote": "You do not need to look at code, but knowing it's good makes me feel confident."
       }
     ]
   },
   "harness": {
-    "value": "Claude Code aliased to skip permissions, branches and git worktrees",
-    "short": "skip-permissions",
-    "source": "https://every.to/guides/compound-engineering",
-    "seen": "2026-01-17",
-    "quote": "I always run with skip permissions:\nalias cc='claude --dangerously-skip-permissions'",
+    "value": "Claude Code Projects threads started from the Claude app, one project per stream of work",
+    "short": "Claude Projects",
+    "source": "https://github.com/kieranklaassen/live-mix/pull/202",
+    "seen": "2026-10-30",
+    "quote": "Requested by **Kieran** · [project thread](https://claude.ai/code/project/chan_01WdU5jFkJtP8jQUy8ueyuoJ?thread=cmsg_01WdU5jFkJtP8jQUy8ueyuoJTf69XwGooF4GAbjU6txY4H)",
+    "inferred": true,
+    "also": [
+      {
+        "source": "https://every.to/source-code/the-folder-is-the-agent",
+        "seen": "2026-04-13",
+        "quote": "I’m running 44 of these folders-as-agents across multiple projects now."
+      }
+    ],
     "history": [
       {
         "value": "Claude Code tabs in Warp, one git worktree each",
         "source": "https://every.to/source-code/how-i-use-claude-code-to-ship-like-a-team-of-five",
         "seen": "2025-07-16",
         "quote": "My monitor looks like mission control: multiple Claude Code tabs, each working on different features through separate git worktrees, meaning I can have Claude modify five different versions of our codebase simultaneously and get clean, review-ready code."
-      }
-    ],
-    "also": [
+      },
       {
-        "source": "https://every.to/source-code/the-folder-is-the-agent",
-        "seen": "2026-04-13",
-        "quote": "I’m running 44 of these folders-as-agents across multiple projects now."
+        "value": "Claude Code aliased to skip permissions, branches and git worktrees",
+        "source": "https://every.to/guides/compound-engineering",
+        "seen": "2026-01-17",
+        "quote": "I always run with skip permissions:\nalias cc='claude --dangerously-skip-permissions'"
       }
     ]
   },

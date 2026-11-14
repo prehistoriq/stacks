@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "bcherny",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-14",
   "name": {
     "value": "Boris Cherny",
     "source": "https://github.com/bcherny"
@@ -58,12 +58,24 @@
   ],
   "models": [
     {
-      "name": "Fable 5.1",
+      "name": "Opus 5.5",
       "icon": "claude",
-      "detail": "for everything",
-      "source": "https://x.com/bcherny/status/2094864060609376748",
-      "seen": "2026-09-01",
-      "quote": "This model is a pleasure to work with, and I've been using it for everything.",
+      "detail": "medium 95% of the time; xhigh/max for complex visual work",
+      "source": "https://x.com/bcherny/status/2108007305463869649",
+      "seen": "2026-10-08",
+      "quote": "For complex visual stuff with Opus xhigh/max, but 95% of the time I stick to medium.",
+      "also": [
+        {
+          "source": "https://x.com/bcherny/status/2107591467267203190",
+          "seen": "2026-10-06",
+          "quote": "Depends on the model. For Opus 5.5, medium"
+        },
+        {
+          "source": "https://x.com/bcherny/status/2102543349102338309",
+          "seen": "2026-09-22",
+          "quote": "I used Opus 5.5 to formally verify the Claude Agent SDK using Lean."
+        }
+      ],
       "history": [
         {
           "value": "Opus 4.5 with thinking",
@@ -82,17 +94,28 @@
           "source": "https://x.com/bcherny/status/2064402671898075579",
           "seen": "2026-06-09",
           "quote": "Fable is the best model I have used for coding, by a wide margin."
+        },
+        {
+          "value": "Fable 5.1",
+          "source": "https://x.com/bcherny/status/2094864060609376748",
+          "seen": "2026-09-01",
+          "quote": "This model is a pleasure to work with, and I've been using it for everything."
         }
       ]
     }
   ],
   "review_style": {
-    "value": "Reads diffs only for critical code",
+    "value": "Reads diffs only for critical code; Code Review on every PR",
     "source": "https://x.com/bcherny/status/2098210496109572123",
     "seen": "2026-09-11",
     "quote": "I read diffs when it's touching critical code, or code that's important to get right. I don't write the code.",
     "kind": "spot-checks",
     "also": [
+      {
+        "source": "https://x.com/bcherny/status/2111158313463525518",
+        "seen": "2026-10-16",
+        "quote": "I could not imagine being productive without Claude Code Review. It runs on all of my PRs, and catches almost every bug before it goes it."
+      },
       {
         "source": "https://x.com/bcherny/status/2031089411820228645",
         "seen": "2026-03-09",
@@ -135,12 +158,20 @@
     "history": []
   },
   "rules_files": {
-    "value": "Team CLAUDE.md in git, updated on every Claude mistake",
-    "short": "CLAUDE.md",
+    "value": "No personal custom CLAUDE.md; the team CLAUDE.md lives in git",
+    "short": "none personal",
     "url": null,
-    "source": "https://x.com/bcherny/status/2007179840848597422",
-    "seen": "2026-01-02",
-    "quote": "Anytime we see Claude do something incorrectly we add it to the http://CLAUDE.md, so Claude knows not to do it next time."
+    "source": "https://x.com/bcherny/status/2107591357170950471",
+    "seen": "2026-10-06",
+    "quote": "I don't use a custom CLAUDE.md",
+    "also": [
+      {
+        "source": "https://x.com/bcherny/status/2007179840848597422",
+        "seen": "2026-01-02",
+        "quote": "Anytime we see Claude do something incorrectly we add it to the http://CLAUDE.md, so Claude knows not to do it next time."
+      }
+    ],
+    "history": []
   },
   "skills": {
     "value": [

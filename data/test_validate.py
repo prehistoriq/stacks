@@ -41,6 +41,34 @@ class ValidationExitTests(unittest.TestCase):
         self.assertEqual(result.returncode, 1, result.stdout + result.stderr)
         self.assertIn("agents[0]: no source", result.stdout)
 
+    def no_agent_card(self):
+        card = self.card()
+        card["agents"] = []
+        card["no_agent"] = {"value": "Writes by hand", "source": "https://example.com/post", "seen": "2026-10-01", "quote": "I write it all by hand"}
+        return card
+
+    def test_sourced_no_agent_passes(self):
+        result = self.run_validator(json.dumps(self.no_agent_card()))
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+
+    def test_no_agent_without_quote_fails(self):
+        card = self.no_agent_card()
+        del card["no_agent"]["quote"]
+        result = self.run_validator(json.dumps(card))
+        self.assertIn("no_agent: no quote", result.stdout)
+
+    def test_agents_and_no_agent_together_fail(self):
+        card = self.no_agent_card()
+        card["agents"] = self.card()["agents"]
+        result = self.run_validator(json.dumps(card))
+        self.assertIn("agents and no_agent both set", result.stdout)
+
+    def test_agent_named_none_fails(self):
+        card = self.card()
+        card["agents"][0]["name"] = "None"
+        result = self.run_validator(json.dumps(card))
+        self.assertIn("use no_agent", result.stdout)
+
     def test_invalid_status_fails(self):
         result = self.run_validator('{"status": "invalid"}')
         self.assertEqual(result.returncode, 1)

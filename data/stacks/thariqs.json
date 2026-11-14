@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "thariqs",
   "status": "ok",
-  "checked": "2026-10-07",
+  "checked": "2026-11-14",
   "name": {
     "value": "Thariq Shihipar",
     "source": "https://github.com/ThariqS"
@@ -24,8 +24,8 @@
     "source": "https://github.com/ThariqS"
   },
   "known_for": {
-    "value": "Claude Code team, Anthropic",
-    "source": "https://github.com/ThariqS"
+    "value": "ex-Claude Code team, Anthropic",
+    "source": "https://x.com/trq212/status/2113844051938054167"
   },
   "agents": [
     {
@@ -59,9 +59,43 @@
       "source": "https://x.com/trq212/status/2069474338450108705",
       "seen": "2026-06-23",
       "quote": "Have a personal channel e.g. I have \"#thariq-claude\" where you can tag Claude for your own work and give it instructions specific to you."
+    },
+    {
+      "name": "Codex",
+      "icon": "codex",
+      "role": "second plan",
+      "surface": null,
+      "source": "https://x.com/trq212/status/2117005261957468432",
+      "seen": "2026-11-01",
+      "quote": "I have one Claude Ultra and one Codex Pro plan, I’ve never run into limits.",
+      "history": []
     }
   ],
   "models": [
+    {
+      "name": "Claude Opus 5.5",
+      "icon": "claude",
+      "detail": "medium or light effort",
+      "inferred": true,
+      "source": "https://x.com/trq212/status/2112241279610560540",
+      "seen": "2026-10-19",
+      "quote": "I mostly work on medium or even light these days",
+      "history": [
+        {
+          "value": "Opus 4.7, 1M context",
+          "source": "https://x.com/trq212/status/2052809885763747935",
+          "seen": "2026-05-08",
+          "quote": "With the 1MM context window in Opus 4.7, the increased token usage is not really noticeable in the context window."
+        },
+        {
+          "value": "Claude Opus 5.5, effort per task",
+          "source": "https://x.com/trq212/status/2103576349499855160",
+          "seen": "2026-09-25",
+          "quote": "I tried doing the same tasks at several different effort levels on Opus 5.5 understand the work it would do.",
+          "inferred": true
+        }
+      ]
+    },
     {
       "name": "Claude Fable 5",
       "icon": "claude",
@@ -69,23 +103,6 @@
       "seen": "2026-07-03",
       "quote": "Working with Claude Fable 5 keeps re-teaching me an old lesson: the map is not the territory.",
       "history": []
-    },
-    {
-      "name": "Claude Opus 5.5",
-      "icon": "claude",
-      "detail": "effort per task",
-      "source": "https://x.com/trq212/status/2103576349499855160",
-      "seen": "2026-09-25",
-      "quote": "I tried doing the same tasks at several different effort levels on Opus 5.5 understand the work it would do.",
-      "inferred": true,
-      "history": [
-        {
-          "value": "Opus 4.7, 1M context",
-          "source": "https://x.com/trq212/status/2052809885763747935",
-          "seen": "2026-05-08",
-          "quote": "With the 1MM context window in Opus 4.7, the increased token usage is not really noticeable in the context window."
-        }
-      ]
     }
   ],
   "review_style": {
@@ -141,16 +158,24 @@
   },
   "skills": {
     "value": [
+      "html-plan",
       "journal",
       "todo"
     ],
-    "count": 2,
+    "count": 3,
     "featured": [
+      "html-plan",
       "journal",
       "todo"
     ],
-    "source": "https://x.com/trq212/status/1944877541254422660",
-    "seen": "2025-07-14"
+    "source": "https://x.com/trq212/status/2107192901537329354",
+    "seen": "2026-10-05",
+    "also": [
+      {
+        "source": "https://x.com/trq212/status/1944877541254422660",
+        "seen": "2025-07-14"
+      }
+    ]
   },
   "mcp_servers": null,
   "hooks": null,

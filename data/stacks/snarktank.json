@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "snarktank",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-14",
   "name": {
     "value": "Ryan Carson",
     "source": "https://github.com/snarktank"
@@ -41,6 +41,11 @@
           "source": "https://x.com/ryancarson/status/2083538848131190806",
           "seen": "2026-08-01",
           "quote": "The majority of work I do now is on my phone with @DevinAI cloud agents."
+        },
+        {
+          "source": "https://x.com/ryancarson/status/2108296617388376258",
+          "seen": "2026-10-08",
+          "quote": "Devin is the whole thing in one box."
         }
       ],
       "history": [
@@ -74,7 +79,14 @@
       "surface": null,
       "source": "https://x.com/ryancarson/status/2057798991086014655",
       "seen": "2026-05-22",
-      "quote": "3. frontend eng local = codex"
+      "quote": "3. frontend eng local = codex",
+      "also": [
+        {
+          "source": "https://x.com/ryancarson/status/2108303903712526443",
+          "seen": "2026-10-08",
+          "quote": "I hate that Codex still does local dev. It should be ripped out. I'm constantly trying to figure out where my sessions are (laptop, Omarchy desktop, etc)"
+        }
+      ]
     }
   ],
   "models": [
@@ -97,6 +109,18 @@
           "source": "https://x.com/ryancarson/status/2072331594363543988",
           "seen": "2026-07-01",
           "quote": "Need to do then cost analysis now and compare it to Opus 4.8, which was my main choice in Devin before."
+        }
+      ],
+      "also": [
+        {
+          "source": "https://x.com/ryancarson/status/2108277217742467211",
+          "seen": "2026-10-08",
+          "quote": "I just can’t believe what Opus 5.5 on Ultracode can do."
+        },
+        {
+          "source": "https://x.com/ryancarson/status/2108282315214340202",
+          "seen": "2026-10-08",
+          "quote": "It's perfect for the \"I don't care how much this costs - I just want it to be GOOD\"."
         }
       ]
     },
@@ -142,6 +166,13 @@
         "source": "https://x.com/ryancarson/status/2031755002205655511",
         "seen": "2026-03-11",
         "quote": "This is how I run 5 agents concurrently in a Code Factory to write/ship 100% of our code."
+      }
+    ],
+    "also": [
+      {
+        "source": "https://x.com/ryancarson/status/2107291039295807722",
+        "seen": "2026-10-06",
+        "quote": "Our Devins are passing messages back and forth to us into Slack when needed and sometimes just talking session to session without us."
       }
     ]
   },

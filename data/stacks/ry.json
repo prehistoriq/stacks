@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "ry",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-14",
   "name": {
     "value": "Ryan Dahl",
     "source": "https://github.com/ry"
@@ -32,10 +32,10 @@
       "name": "Claude Code",
       "icon": "claudecode",
       "role": "primary",
-      "surface": null,
-      "source": "https://deno.com/blog/clawpatrol",
-      "seen": "2026-05-21",
-      "quote": "Most of what we run (Claude Code, Codex) is code we install, not code we wrote.",
+      "surface": "web",
+      "source": "https://github.com/denoland/v8/commit/db2547a95530dae0591273798b8d634d01441038",
+      "seen": "2026-10-07",
+      "quote": "Claude-Session: https://claude.ai/code/session_012DeuTMsuoL6odTG6QaJcBf",
       "inferred": true,
       "also": [
         {
@@ -47,6 +47,15 @@
           "source": "https://github.com/ry/tinyclouds/commit/003bd7ea0c312fdb39be9d31d944b460f946922c",
           "seen": "2025-07-30",
           "quote": "🤖 Generated with [Claude Code](https://claude.ai/code)"
+        }
+      ],
+      "history": [
+        {
+          "value": "Claude Code",
+          "surface": null,
+          "source": "https://deno.com/blog/clawpatrol",
+          "seen": "2026-05-21",
+          "quote": "Most of what we run (Claude Code, Codex) is code we install, not code we wrote."
         }
       ]
     },

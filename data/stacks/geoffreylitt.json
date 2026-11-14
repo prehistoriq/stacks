@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "geoffreylitt",
   "status": "ok",
-  "checked": "2026-10-07",
+  "checked": "2026-11-14",
   "name": {
     "value": "Geoffrey Litt",
     "source": "https://github.com/geoffreylitt"
@@ -48,19 +48,27 @@
     {
       "name": "Cursor",
       "icon": "cursor",
-      "role": "tab-complete for core design work",
-      "surface": "ide",
-      "source": "https://geoffreylitt.com/2025/10/24/code-like-a-surgeon.html",
-      "seen": "2025-10-24",
-      "quote": "(eg, I like Cursor tab-complete here)",
-      "also": [
+      "role": "agents run from Notion",
+      "surface": null,
+      "source": "https://geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck.html",
+      "seen": "2026-07-02",
+      "quote": "One tiny example: you can now run Claude and Cursor agents in Notion. I do a lot of my coding that way now.",
+      "history": [
         {
-          "source": "https://geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck.html",
-          "seen": "2026-07-02",
-          "quote": "One tiny example: you can now run Claude and Cursor agents in Notion. I do a lot of my coding that way now."
+          "value": "Cursor tab-complete, for core design work",
+          "surface": "ide",
+          "source": "https://geoffreylitt.com/2025/10/24/code-like-a-surgeon.html",
+          "seen": "2025-10-24",
+          "quote": "(eg, I like Cursor tab-complete here)"
         }
       ],
-      "history": []
+      "also": [
+        {
+          "source": "https://x.com/geoffreylitt/status/2114946549331706039",
+          "seen": "2026-10-27",
+          "quote": "i don't really code by hand anymore."
+        }
+      ]
     },
     {
       "name": "Codex CLI",
@@ -75,13 +83,21 @@
   ],
   "models": [
     {
-      "name": "Claude Opus 5",
+      "name": "Claude Opus 5.5",
       "icon": "claude",
-      "source": "https://github.com/geoffreylitt/homepage/commit/ea712275a9ffd05f9b448652852726d37e2172d1",
-      "seen": "2026-08-24",
-      "quote": "Co-Authored-By: Claude Opus 5",
       "inferred": true,
-      "history": []
+      "source": "https://github.com/makenotion/notion-skills-github-sync/commit/50cb5ea120709210b45465fd21adacc4acb3f784",
+      "seen": "2026-10-05",
+      "quote": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+      "history": [
+        {
+          "value": "Claude Opus 5",
+          "source": "https://github.com/geoffreylitt/homepage/commit/ea712275a9ffd05f9b448652852726d37e2172d1",
+          "seen": "2026-08-24",
+          "quote": "Co-Authored-By: Claude Opus 5",
+          "inferred": true
+        }
+      ]
     },
     {
       "name": "Claude Fable 5",
@@ -119,6 +135,13 @@
         "source": "https://geoffreylitt.com/2025/10/24/code-like-a-surgeon.html",
         "seen": "2025-10-24",
         "quote": "I often find it useful to run these secondary tasks async in the background – while I’m eating lunch, or even literally overnight!"
+      }
+    ],
+    "also": [
+      {
+        "source": "https://x.com/geoffreylitt/status/2114946549331706039",
+        "seen": "2026-10-27",
+        "quote": "have the agent do slow async prep work up front, so i can power thru intense, efficient synchronous sessions."
       }
     ]
   },

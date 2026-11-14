@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "slavingia",
   "status": "ok",
-  "checked": "2026-10-12",
+  "checked": "2026-11-14",
   "name": {
     "value": "Sahil Lavingia",
     "source": "https://github.com/slavingia"
@@ -29,14 +29,49 @@
   },
   "agents": [
     {
-      "name": "Claude Code",
-      "icon": "claudecode",
-      "role": "primary (from his repos)",
+      "name": "Codex",
+      "icon": "codex",
+      "role": "most PRs since Sep, including IRS repos",
       "surface": null,
       "inferred": true,
-      "source": "https://github.com/slavingia/prototypes/blob/9c921329300d64ecb328e8fdb0fd633fc087d810/README.md#L17-L18",
-      "seen": "2026-07-02",
-      "quote": "`serve.sh` wraps `python3 -m http.server` and opens your browser. (In Claude\nCode you can also just run the `/serve` skill.)",
+      "source": "https://github.com/antiwork/gumroad/pull/8563",
+      "seen": "2026-10-21",
+      "quote": "Implemented with OpenAI Codex (GPT-6).",
+      "also": [
+        {
+          "source": "https://github.com/antiwork/gumroad/pull/8193",
+          "seen": "2026-10-06",
+          "quote": "Written with OpenAI Codex (GPT-6)."
+        },
+        {
+          "source": "https://github.com/IRS-Public/tax-withholding-estimator/pull/6",
+          "seen": "2026-10-21",
+          "quote": "Assisted by Codex (GPT-6) for implementation, regression tests, review, and comparison media."
+        }
+      ],
+      "history": []
+    },
+    {
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "also, e.g. repo-wide chores",
+      "surface": null,
+      "source": "https://github.com/antiwork/gumroad/pull/8797",
+      "seen": "2026-11-02",
+      "quote": "AI disclosure: Written by Claude Fable 5.1 via Claude Code.",
+      "also": [
+        {
+          "source": "https://github.com/slavingia/prototypes/blob/9c921329300d64ecb328e8fdb0fd633fc087d810/README.md#L17-L18",
+          "seen": "2026-07-02",
+          "quote": "`serve.sh` wraps `python3 -m http.server` and opens your browser. (In Claude\nCode you can also just run the `/serve` skill.)",
+          "inferred": true
+        },
+        {
+          "source": "https://github.com/IRS-Public/tax-withholding-estimator/pull/5",
+          "seen": "2026-10-14",
+          "quote": "Original implementation generated with [Claude Code](https://claude.com/claude-code) (Claude Opus 4.8)."
+        }
+      ],
       "history": [
         {
           "value": "v0, then Devin, then Cursor",
@@ -46,26 +81,33 @@
           "quote": "So generally my flow is V zero Devin cursor is probably how I would say it."
         }
       ]
-    },
-    {
-      "name": "Codex",
-      "icon": "codex",
-      "role": "on Gumroad PRs, since Sep",
-      "surface": null,
-      "source": "https://github.com/antiwork/gumroad/pull/8193",
-      "seen": "2026-10-06",
-      "quote": "Written with OpenAI Codex (GPT-6).",
-      "history": []
     }
   ],
   "models": [
     {
-      "name": "Claude Fable 5",
-      "icon": "claude",
+      "name": "GPT-6",
+      "icon": "openai",
+      "detail": "via Codex",
       "inferred": true,
-      "source": "https://github.com/slavingia/prototypes/commit/8985f8232b18e2068274f3a98c4d1fa31111f658",
-      "seen": "2026-08-28",
-      "quote": "Co-authored-by: Claude Fable 5 <noreply@anthropic.com>",
+      "source": "https://github.com/antiwork/gumroad/pull/8563",
+      "seen": "2026-10-21",
+      "quote": "Implemented with OpenAI Codex (GPT-6).",
+      "also": [
+        {
+          "source": "https://github.com/antiwork/gumroad/pull/8193",
+          "seen": "2026-10-06",
+          "quote": "Written with OpenAI Codex (GPT-6)."
+        }
+      ],
+      "history": []
+    },
+    {
+      "name": "Claude Fable 5.1",
+      "icon": "claude",
+      "detail": "via Claude Code",
+      "source": "https://github.com/antiwork/gumroad/pull/8797",
+      "seen": "2026-11-02",
+      "quote": "AI disclosure: Written by Claude Fable 5.1 via Claude Code.",
       "history": [
         {
           "value": "Claude Opus 4.5",
@@ -73,27 +115,35 @@
           "source": "https://github.com/slavingia/bug-catcher-game/commit/7b75348543a7d6220194dcbf1590387f7d46c24a",
           "seen": "2026-01-10",
           "quote": "Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+        },
+        {
+          "value": "Claude Fable 5",
+          "source": "https://github.com/slavingia/prototypes/commit/8985f8232b18e2068274f3a98c4d1fa31111f658",
+          "seen": "2026-08-28",
+          "quote": "Co-authored-by: Claude Fable 5 <noreply@anthropic.com>",
+          "inferred": true
         }
       ]
-    },
-    {
-      "name": "GPT-6",
-      "icon": "openai",
-      "detail": "via Codex",
-      "source": "https://github.com/antiwork/gumroad/pull/8193",
-      "seen": "2026-10-06",
-      "quote": "Written with OpenAI Codex (GPT-6).",
-      "history": []
     }
   ],
   "review_style": {
-    "value": "Does not just hit merge: QA, then asks a colleague to check",
-    "kind": "unknown",
+    "value": "Codex does an independent review pass on PRs; personal reading is unstated",
+    "kind": "agent-reviews",
     "inferred": true,
-    "source": "https://www.lennysnewsletter.com/p/gumroad-ceos-playbook-to-40x-his",
-    "seen": "2025-04-22",
-    "quote": "I don't normally just hit merge on these things.",
+    "source": "https://github.com/antiwork/gumroad/pull/8563",
+    "seen": "2026-10-21",
+    "quote": "Agent tasks covered official API/onboarding research, historical account context, regression tests, and independent code review.",
     "also": [
+      {
+        "source": "https://github.com/IRS-Public/tax-withholding-estimator/pull/6",
+        "seen": "2026-10-21",
+        "quote": "Assisted by Codex (GPT-6) for implementation, regression tests, review, and comparison media."
+      },
+      {
+        "source": "https://www.lennysnewsletter.com/p/gumroad-ceos-playbook-to-40x-his",
+        "seen": "2025-04-22",
+        "quote": "I don't normally just hit merge on these things."
+      },
       {
         "source": "https://github.com/slavingia/prototypes/blob/9c921329300d64ecb328e8fdb0fd633fc087d810/CONTRIBUTING.md#L37-L42",
         "seen": "2026-08-25",

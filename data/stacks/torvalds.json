@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "torvalds",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-14",
   "name": {
     "value": "Linus Torvalds",
     "source": "https://github.com/torvalds"
@@ -23,18 +23,28 @@
   },
   "agents": [
     {
-      "name": "Claude",
-      "icon": "claude",
-      "role": "primary, side projects (Opus)",
+      "name": "Claude Code",
+      "icon": "claudecode",
+      "role": "primary, now on the kernel too",
       "surface": null,
-      "source": "https://github.com/torvalds/GuitarPedal/commit/10a96b1bf60a8d0f33bdae7af0a410bb78bd0fa7",
-      "seen": "2026-09-30",
-      "quote": "And honestly, the other part of that was definitely Claude. It's just much easier to experiment with different approaches",
+      "source": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=4c0f3697118eb3a708ea79175f7f07c43339bfab",
+      "seen": "2026-10-10",
+      "quote": "The code, the test programs, the review behind the list above and the first draft of this text were done with an LLM coding assistant (Claude Code) under my direction.",
       "also": [
         {
           "source": "https://github.com/torvalds/GuitarPedal/commit/42983ff047a56e5d8aeae8cc98665febe3c20d28",
           "seen": "2026-08-10",
           "quote": "I'm back to doing some sanity checking of the guitar pedal using Claude Opus"
+        },
+        {
+          "source": "https://lkml.iu.edu/2610.1/13146.html",
+          "seen": "2026-10-13",
+          "quote": "I decided that hey, I will try to actually *solve* this thing using an LLM to help with the issues these things have had."
+        },
+        {
+          "source": "https://github.com/torvalds/linux/commit/65401f4102b974df3907267e9cac2e991a0a6680",
+          "seen": "2026-10-12",
+          "quote": "Assisted-by: LLM"
         }
       ],
       "history": [
@@ -58,6 +68,13 @@
           "source": "https://github.com/torvalds/GuitarPedal/commit/b31bcb13212bf781be560b17888f499823bda8a4",
           "seen": "2026-07-28",
           "quote": "I've done all of the WebMIDI development using antigravity, because I obviously don't do JS (and let's be honest - I'm not exactly a UI person even in other languages, so let's not blame just JS here...). And today I decided to try Opus just to see how that works."
+        },
+        {
+          "value": "Claude",
+          "surface": null,
+          "source": "https://github.com/torvalds/GuitarPedal/commit/10a96b1bf60a8d0f33bdae7af0a410bb78bd0fa7",
+          "seen": "2026-09-30",
+          "quote": "And honestly, the other part of that was definitely Claude. It's just much easier to experiment with different approaches"
         }
       ]
     }
@@ -69,16 +86,23 @@
       "source": "https://github.com/torvalds/GuitarPedal/commit/42983ff047a56e5d8aeae8cc98665febe3c20d28",
       "seen": "2026-08-10",
       "quote": "I'm back to doing some sanity checking of the guitar pedal using Claude Opus",
-      "history": []
+      "history": [],
+      "also": [
+        {
+          "source": "https://github.com/torvalds/GuitarPedal/commit/ab3b7743dcd2a8931c6ba79cbb11a643fcc57be8",
+          "seen": "2026-10-05",
+          "quote": "Pedal schema caching with Opus"
+        }
+      ]
     }
   ],
   "review_style": {
-    "value": "Opus writes verification scripts; the AI checks its own output",
-    "source": "https://github.com/torvalds/GuitarPedal/commit/d1b95dc5e71e0a2d42912001c5fa4469bbc88766",
-    "seen": "2026-08-04",
-    "quote": "And, incidentally, it also ends up being really useful to have the AI validate its own output. Win-win.",
-    "kind": "tests-only",
+    "value": "Kernel: Claude Code reviews and tests, Torvalds measures, then the list reviews. Pedal: Opus checks Opus",
+    "kind": "agent-reviews",
     "inferred": true,
+    "source": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=4c0f3697118eb3a708ea79175f7f07c43339bfab",
+    "seen": "2026-10-10",
+    "quote": "The code, the test programs, the review behind the list above and the first draft of this text were done with an LLM coding assistant (Claude Code) under my direction.",
     "also": [
       {
         "source": "https://github.com/torvalds/uemacs/commit/51745a3585981213fcc6f5f56ded5b5745458f69",
@@ -94,6 +118,31 @@
         "source": "https://lwn.net/Articles/1073761/",
         "seen": "2026-05-25",
         "quote": "you need to understand not just your prompts, but you need to understand your end result, because that's the only way you can maintain it long term"
+      },
+      {
+        "source": "https://github.com/torvalds/GuitarPedal/commit/d1b95dc5e71e0a2d42912001c5fa4469bbc88766",
+        "seen": "2026-08-04",
+        "quote": "And, incidentally, it also ends up being really useful to have the AI validate its own output. Win-win."
+      },
+      {
+        "source": "https://lkml.iu.edu/2610.1/13753.html",
+        "seen": "2026-10-13",
+        "quote": "So do I believe that branch is perfect on the first try? Hell no."
+      },
+      {
+        "source": "https://lkml.iu.edu/2610.1/13255.html",
+        "seen": "2026-10-13",
+        "quote": "The kind of expectations *I* have is that people do their best and I expect people to understand what they are doing."
+      }
+    ],
+    "history": [
+      {
+        "value": "Opus writes verification scripts; the AI checks its own output",
+        "kind": "tests-only",
+        "inferred": true,
+        "source": "https://github.com/torvalds/GuitarPedal/commit/d1b95dc5e71e0a2d42912001c5fa4469bbc88766",
+        "seen": "2026-08-04",
+        "quote": "And, incidentally, it also ends up being really useful to have the AI validate its own output. Win-win."
       }
     ]
   },
@@ -103,7 +152,19 @@
     "source": "https://github.com/torvalds/uemacs/commit/a66fbc3243a971f3e78196805ab013ce762483b8",
     "seen": "2026-08-04",
     "quote": "I copied over my issue tracking infrastructure that keeps track of things in a separate side branch, and the general rules, and hey presto - productive AI sessions with Opus.",
-    "history": []
+    "history": [],
+    "also": [
+      {
+        "source": "https://lwn.net/Articles/1099594/",
+        "seen": "2026-10-12",
+        "quote": "He ends every session with a lengthy cleanup pass that takes a couple of hours to run, executing tasks like ensuring that the code matches the comments."
+      },
+      {
+        "source": "https://lwn.net/Articles/1099594/",
+        "seen": "2026-10-12",
+        "quote": "But, he said, it took six months to set up the tool to not produce bad responses."
+      }
+    ]
   },
   "parallelism": null,
   "rules_files": {

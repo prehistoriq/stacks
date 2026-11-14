@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "embirico",
   "status": "ok",
-  "checked": "2026-10-07",
+  "checked": "2026-11-14",
   "name": {
     "value": "Alexander Embiricos",
     "source": "https://github.com/embirico"
@@ -21,23 +21,45 @@
     "source": "https://github.com/embirico"
   },
   "known_for": {
-    "value": "Codex product lead, OpenAI",
-    "source": "https://x.com/embirico"
+    "value": "Codex and dots product, OpenAI",
+    "source": "https://x.com/alexeheath/status/2105751259336876223"
   },
   "agents": [
     {
+      "name": "Dots",
+      "icon": "openai",
+      "role": "primary, for delegation",
+      "surface": null,
+      "source": "https://x.com/embirico/status/2105100531983356269",
+      "seen": "2026-09-30",
+      "quote": "In my product role, which is very delegatory, I pretty much only talk to dots.",
+      "also": [
+        {
+          "source": "https://x.com/embirico/status/2106057138074501181",
+          "seen": "2026-10-02",
+          "quote": "Sharing a prompt I use a lot with my dot:"
+        },
+        {
+          "source": "https://x.com/embirico/status/2107588722539823342",
+          "seen": "2026-10-06",
+          "quote": "I use it so my dot has the context it needs and stays on top of followups."
+        }
+      ],
+      "history": []
+    },
+    {
       "name": "Codex",
       "icon": "codex",
-      "role": "primary, auto-review mode",
+      "role": "for hands-on work",
       "surface": "app",
       "surface_source": {
         "source": "https://www.youtube.com/watch?v=6OiE0jIY93c&t=57",
         "seen": "2026-02-09",
         "quote": "the app has all these great skills and so I could just click into the skills tab"
       },
-      "source": "https://x.com/embirico/status/2047461700895662333",
-      "seen": "2026-04-23",
-      "quote": "Love using auto-review. It’s my new default mode",
+      "source": "https://x.com/embirico/status/2105100531983356269",
+      "seen": "2026-09-30",
+      "quote": "Use dots for delegation; Codex if you want to do something yourself.",
       "history": [
         {
           "value": "Codex in VS Code",
@@ -45,6 +67,18 @@
           "source": "https://www.youtube.com/watch?v=xeZDHGjG5zM&t=164",
           "seen": "2026-01-12",
           "quote": "Uh I happen to use VS Code. So I'll show you Codex in VS Code."
+        },
+        {
+          "value": "Codex, auto-review as default mode",
+          "surface": "app",
+          "surface_source": {
+            "source": "https://www.youtube.com/watch?v=6OiE0jIY93c&t=57",
+            "seen": "2026-02-09",
+            "quote": "the app has all these great skills and so I could just click into the skills tab"
+          },
+          "source": "https://x.com/embirico/status/2047461700895662333",
+          "seen": "2026-04-23",
+          "quote": "Love using auto-review. It’s my new default mode"
         }
       ]
     }
@@ -77,17 +111,30 @@
     ]
   },
   "harness": {
-    "value": "One long-lived Codex thread, kept busy by automations, spawning subagents",
-    "short": "long-lived thread",
-    "source": "https://x.com/embirico/status/2046033614106931414",
-    "seen": "2026-04-20",
-    "quote": "I'm slowly shifting to longer-lived threads. The thread is pretty much always active because I prompted it or an automation pinged it.",
+    "value": "A personal dot as the front door: forwards Slack to @.ae-dot, voice calls, Meetings plugin",
+    "short": "dot in Slack",
+    "source": "https://x.com/embirico/status/2106057138074501181",
+    "seen": "2026-10-02",
+    "quote": "Sharing a prompt I use a lot with my dot:\n\n1. See something important in Slack\n2. Hit Forward to @.ae-dot\n3. Prompt: \"Stay on top of this\"",
+    "also": [
+      {
+        "source": "https://x.com/embirico/status/2105827086967730384",
+        "seen": "2026-10-02",
+        "quote": "Cool use case I also love: voice call with your dot while commuting."
+      }
+    ],
     "history": [
       {
         "value": "Git worktrees that Codex creates, one Codex per worktree",
         "source": "https://www.youtube.com/watch?v=xeZDHGjG5zM&t=542",
         "seen": "2026-01-12",
         "quote": "So typically the way that I would actually do this is I would just ask Codex to create work trees."
+      },
+      {
+        "value": "One long-lived Codex thread, kept busy by automations, spawning subagents",
+        "source": "https://x.com/embirico/status/2046033614106931414",
+        "seen": "2026-04-20",
+        "quote": "I'm slowly shifting to longer-lived threads. The thread is pretty much always active because I prompted it or an automation pinged it."
       }
     ]
   },
@@ -115,14 +162,22 @@
   "mcp_servers": null,
   "hooks": null,
   "signature": {
-    "value": "\"Using a subagent in parallel, do X\"",
+    "value": "\"Stay on top of this\"",
     "kind": "habit",
-    "caption": "from one always-on thread",
-    "why": "Our pick: instead of opening new threads, he keeps one thread alive and hands every new task to a subagent from it.",
+    "caption": "Slack forwarded to a dot",
+    "why": "Our pick: the product lead hands follow-up, not code, to a delegate with its own Slack identity.",
     "editorial": true,
-    "source": "https://x.com/embirico/status/2046033614106931414",
-    "seen": "2026-04-20",
-    "quote": "Then, when I need anything new, I say \"using a subagent in parallel, do X\""
+    "source": "https://x.com/embirico/status/2106057138074501181",
+    "seen": "2026-10-02",
+    "quote": "3. Prompt: \"Stay on top of this\"",
+    "history": [
+      {
+        "value": "\"Using a subagent in parallel, do X\"",
+        "source": "https://x.com/embirico/status/2046033614106931414",
+        "seen": "2026-04-20",
+        "quote": "Then, when I need anything new, I say \"using a subagent in parallel, do X\""
+      }
+    ]
   },
   "archetype": {
     "value": "Orchestrator",
@@ -130,9 +185,17 @@
     "why": "One long-lived thread farms new work out to subagents while automations keep it running."
   },
   "signature_quote": {
-    "value": "Subagents + steering in Codex is pretty magical.",
-    "more": "I'm slowly shifting to longer-lived threads.",
-    "source": "https://x.com/embirico/status/2046033614106931414",
-    "seen": "2026-04-20"
+    "value": "In my product role, which is very delegatory, I pretty much only talk to dots.",
+    "more": "Use dots for delegation; Codex if you want to do something yourself.",
+    "source": "https://x.com/embirico/status/2105100531983356269",
+    "seen": "2026-09-30",
+    "history": [
+      {
+        "value": "Subagents + steering in Codex is pretty magical.",
+        "more": "I'm slowly shifting to longer-lived threads.",
+        "source": "https://x.com/embirico/status/2046033614106931414",
+        "seen": "2026-04-20"
+      }
+    ]
   }
 }

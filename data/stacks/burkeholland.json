@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "burkeholland",
   "status": "ok",
-  "checked": "2026-10-12",
+  "checked": "2026-11-14",
   "name": {
     "value": "Burke Holland",
     "source": "https://github.com/burkeholland"
@@ -65,13 +65,13 @@
   ],
   "models": [
     {
-      "name": "Luna Max",
+      "name": "GPT-6 Luna Max",
       "icon": "openai",
-      "detail": "cost default",
-      "source": "https://x.com/burkeholland/status/2100234706977423643",
-      "seen": "2026-09-16",
-      "quote": "You can do 90% of everything with just Luna and its so dirt cheap that it's almost free.",
+      "detail": "known tasks",
       "inferred": true,
+      "source": "https://x.com/burkeholland/status/2117771713878675915",
+      "seen": "2026-11-04",
+      "quote": "In my experience, if the task is known, GPT 6 Luna Max can handle it.",
       "history": [
         {
           "value": "Claude Opus 4.5",
@@ -84,17 +84,23 @@
           "source": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/",
           "seen": "2026-07-27",
           "quote": "For instance, since I was using GPT 5.6 Terra, it requested a review from Sonnet."
+        },
+        {
+          "value": "Luna Max, cost default",
+          "source": "https://x.com/burkeholland/status/2100234706977423643",
+          "seen": "2026-09-16",
+          "quote": "You can do 90% of everything with just Luna and its so dirt cheap that it's almost free.",
+          "inferred": true
         }
       ]
     },
     {
       "name": "Claude Opus 5.5",
       "icon": "claude",
-      "detail": "for UI work",
-      "source": "https://x.com/burkeholland/status/2104721615774949621",
-      "seen": "2026-09-28",
-      "quote": "We're doing Opus 5.5 things all day.",
-      "inferred": true,
+      "detail": "unknown tasks, UI",
+      "source": "https://x.com/burkeholland/status/2117771713878675915",
+      "seen": "2026-11-04",
+      "quote": "If a task is not known - for instance UI work, or where you need a model that can creatively fill in the blanks, it's Opus 5.5 all day.",
       "also": [
         {
           "source": "https://x.com/burkeholland/status/2102501095318639025",
@@ -102,7 +108,15 @@
           "quote": "Unless you need to do something that has a UI. Then you are definitely going to need at least Opus."
         }
       ],
-      "history": []
+      "history": [
+        {
+          "value": "Claude Opus 5.5, for UI work",
+          "source": "https://x.com/burkeholland/status/2104721615774949621",
+          "seen": "2026-09-28",
+          "quote": "We're doing Opus 5.5 things all day.",
+          "inferred": true
+        }
+      ]
     }
   ],
   "review_style": {
@@ -121,15 +135,20 @@
         "source": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/",
         "seen": "2026-07-27",
         "quote": "The most important thing is not to settle for AI output that is “good enough.” Insist on quality."
+      },
+      {
+        "source": "https://x.com/burkeholland/status/2120665415940743216",
+        "seen": "2026-11-11",
+        "quote": "I mock everything I do - design, API, docs - everything. You may not read the code, but you should still be in control of how it all gets put together."
       }
     ]
   },
   "harness": {
-    "value": "GitHub Copilot app: a lead agent per project runs sessions, PRs, merges and worktrees",
-    "short": "project leads",
-    "source": "https://x.com/burkeholland/status/2105459495833063754",
-    "seen": "2026-10-01",
-    "quote": "Lead triages the backlog, spin up sessions, testing, PR, merge, deployment and cleaning up worktrees.",
+    "value": "Copilot Projects, local or cloud: an agent manages the other agents; a lead per project runs sessions, PRs and merges",
+    "short": "Copilot Projects",
+    "source": "https://x.com/burkeholland/status/2115484592920731908",
+    "seen": "2026-10-28",
+    "quote": "An agent to manage your agents: @GitHub Copilot Projects.\n\nLocal or cloud - this is how I do everything now.",
     "history": [
       {
         "value": "VS Code custom agent that always delegates to subagents",
@@ -142,6 +161,12 @@
         "source": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/",
         "seen": "2026-07-27",
         "quote": "When using YOLO mode, you don’t want to run the agent on your local machine."
+      },
+      {
+        "value": "GitHub Copilot app: a lead agent per project runs sessions, PRs, merges and worktrees",
+        "source": "https://x.com/burkeholland/status/2105459495833063754",
+        "seen": "2026-10-01",
+        "quote": "Lead triages the backlog, spin up sessions, testing, PR, merge, deployment and cleaning up worktrees."
       }
     ]
   },

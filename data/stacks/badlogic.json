@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "badlogic",
   "status": "ok",
-  "checked": "2026-10-12",
+  "checked": "2026-11-14",
   "name": {
     "value": "Mario Zechner",
     "source": "https://github.com/badlogic"
@@ -31,11 +31,11 @@
     {
       "name": "Pi",
       "icon": "pi",
-      "role": "primary, his own",
-      "surface": "cli",
-      "source": "https://mariozechner.at/posts/2026-05-30-shitty-robot/",
-      "seen": "2026-05-30",
-      "quote": "Naturally I vendored the source tree and used my trusty pi with GPT-5.5 to implement feature parity with the Python version.",
+      "role": "primary, self-built, running on a phone",
+      "surface": "app",
+      "source": "https://x.com/badlogicgames/status/2111189600685207559",
+      "seen": "2026-10-16",
+      "quote": "so, i've been using this little shitty thing, running entirely on my phone except the llm calls, for almost 2 weeks for all my work.",
       "history": [
         {
           "value": "Claude Code",
@@ -60,63 +60,170 @@
             "seen": "2025-11-30",
             "quote": "pi-coding-agent: The actual CLI that wires it all together with session management, custom tools, themes, and project context files."
           }
+        },
+        {
+          "value": "pi in the terminal",
+          "surface": "cli",
+          "source": "https://mariozechner.at/posts/2026-05-30-shitty-robot/",
+          "seen": "2026-05-30",
+          "quote": "Naturally I vendored the source tree and used my trusty pi with GPT-5.5 to implement feature parity with the Python version.",
+          "surface_source": {
+            "source": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/",
+            "seen": "2025-11-30",
+            "quote": "pi-coding-agent: The actual CLI that wires it all together with session management, custom tools, themes, and project context files."
+          }
         }
       ],
       "surface_source": {
-        "source": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/",
-        "seen": "2025-11-30",
-        "quote": "pi-coding-agent: The actual CLI that wires it all together with session management, custom tools, themes, and project context files."
+        "source": "https://x.com/badlogicgames/status/2106286641551675411",
+        "seen": "2026-10-03",
+        "quote": "this weekend, i'm finally replacing Claude for Android with a little pi durable thing that runs fully on my phone."
       }
     }
   ],
   "models": [
     {
-      "name": "GPT-5.5",
+      "name": "Claude Opus 5.5",
+      "icon": "claude",
+      "source": "https://x.com/badlogicgames/status/2113302439164281308",
+      "seen": "2026-10-22",
+      "quote": "been a gpt shill for almost a year, but opus 5.5 is just so nice to work with.",
+      "also": [
+        {
+          "source": "https://x.com/badlogicgames/status/2116653884362097081",
+          "seen": "2026-10-31",
+          "quote": "that will do, slopus. that will do."
+        }
+      ],
+      "history": [
+        {
+          "value": "GPT-5.5",
+          "source": "https://mariozechner.at/posts/2026-05-30-shitty-robot/",
+          "seen": "2026-05-30",
+          "quote": "Naturally I vendored the source tree and used my trusty pi with GPT-5.5 to implement feature parity with the Python version."
+        }
+      ]
+    },
+    {
+      "name": "GPT-6.1 Sol",
       "icon": "openai",
-      "source": "https://mariozechner.at/posts/2026-05-30-shitty-robot/",
-      "seen": "2026-05-30",
-      "quote": "Naturally I vendored the source tree and used my trusty pi with GPT-5.5 to implement feature parity with the Python version.",
+      "source": "https://x.com/badlogicgames/status/2106273105400487947",
+      "seen": "2026-10-03",
+      "quote": "morn slop grenades. sol 6.1 still can't do frontend for shit.",
+      "inferred": true,
       "history": []
     }
   ],
   "review_style": {
-    "value": "Limits daily output to what he can review",
-    "source": "https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/",
-    "seen": "2026-03-25",
-    "quote": "Set yourself limits on how much code you let the clanker generate per day, in line with your ability to actually review the code.",
+    "value": "No reading when tests and benchmarks can judge it; yells at the rest",
     "kind": "spot-checks",
+    "source": "https://x.com/badlogicgames/status/2116653890401886702",
+    "seen": "2026-10-31",
+    "quote": "did i look at any code? no. magic button + tests + benchmarks + profiling does the work.",
     "also": [
+      {
+        "source": "https://x.com/badlogicgames/status/2116905359516500166",
+        "seen": "2026-11-01",
+        "quote": "strongly disagree. my problem with agents is trust. preexisting test and conformance suits increase my trust."
+      },
+      {
+        "source": "https://x.com/badlogicgames/status/2114444977841582215",
+        "seen": "2026-10-25",
+        "quote": "the models are definitely not there yet imho."
+      },
+      {
+        "source": "https://x.com/badlogicgames/status/2107532222244737128",
+        "seen": "2026-10-06",
+        "quote": "doing pi issues from my phone on a couch. including code review and screaming at the agent."
+      },
+      {
+        "source": "https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/",
+        "seen": "2026-03-25",
+        "quote": "Set yourself limits on how much code you let the clanker generate per day, in line with your ability to actually review the code."
+      },
       {
         "source": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/",
         "seen": "2025-11-30",
         "quote": "After I see its initial review, I give my own review and then we work on it together until it's good. That's the workflow I use to not merge garbage code."
+      },
+      {
+        "source": "https://x.com/badlogicgames/status/2119842382023680391",
+        "seen": "2026-11-09",
+        "quote": "the most import skill in 2026 is still being able to tell your agents \"wtf is this crap, no, not like this\" if you stop doing that, you're basically fucked"
       }
     ],
     "inferred": true
   },
   "harness": {
-    "value": "pi from his phone, including code review; tmux for long-running processes",
+    "value": "Agents and server on an Android phone, every other device an execution environment",
     "short": "phone",
-    "source": "https://x.com/badlogicgames/status/2107532222244737128",
-    "seen": "2026-10-06",
-    "quote": "doing pi issues from my phone on a couch. including code review and screaming at the agent.",
+    "source": "https://x.com/badlogicgames/status/2113236214891610241",
+    "seen": "2026-10-22",
+    "quote": "all my devices are connected as envs within which any (sub)agent can operate.\n\nand the agents themselves plus the server serving the web ui/tui runs on my phone, so always with me :D",
+    "also": [
+      {
+        "source": "https://x.com/badlogicgames/status/2107904950453882934",
+        "seen": "2026-10-07",
+        "quote": "i haven't opened my laptop in days. i'm fully phone agent pilled."
+      },
+      {
+        "source": "https://x.com/badlogicgames/status/2112262310484160925",
+        "seen": "2026-10-19",
+        "quote": "spend 2.5h on my way back home from vienna using this to iron out 25 open design decisions for the little plugin lib i'm building."
+      }
+    ],
     "history": [
       {
         "value": "pi in the terminal, tmux for long-running processes and sub-agents",
         "source": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/",
         "seen": "2025-11-30",
         "quote": "There's simply no need for background bash. Claude Code can use tmux too, you know. Bash is all you need."
+      },
+      {
+        "value": "pi from his phone, including code review; tmux for long-running processes",
+        "source": "https://x.com/badlogicgames/status/2107532222244737128",
+        "seen": "2026-10-06",
+        "quote": "doing pi issues from my phone on a couch. including code review and screaming at the agent."
       }
     ]
   },
-  "parallelism": null,
+  "parallelism": {
+    "value": 30,
+    "short": "~30 on a phone",
+    "source": "https://x.com/badlogicgames/status/2115770158321225819",
+    "seen": "2026-10-29",
+    "quote": "there's like 30 agents running on the phone and i haven't charged in the past 18 hours.",
+    "also": [
+      {
+        "source": "https://x.com/badlogicgames/status/2115837839753478426",
+        "seen": "2026-10-29",
+        "quote": "i spawned 8 agents on my phone who had their hands on my machines!"
+      }
+    ],
+    "history": []
+  },
   "rules_files": {
-    "value": "AGENTS.md in the pi repo, shared with co-maintainers",
+    "value": "AGENTS.md in the pi repo, now with a Chord v2 style section",
     "short": "AGENTS.md",
-    "url": "https://github.com/earendil-works/pi/blob/4fbdc63ca364844c0166d3d4eabafb5cf8e7c2f3/AGENTS.md",
-    "source": "https://github.com/earendil-works/pi/blob/4fbdc63ca364844c0166d3d4eabafb5cf8e7c2f3/AGENTS.md#L9-L11",
-    "seen": "2026-08-07",
-    "quote": "Explain non-trivial designs and problems as: problem, concrete example or short trace, then solution. State why the solution is necessary and distinguish it from optional complexity."
+    "url": "https://github.com/earendil-works/pi/blob/db8307ec95e634b2630f735ca5ca7f52b939e4f4/AGENTS.md",
+    "source": "https://github.com/earendil-works/pi/blob/db8307ec95e634b2630f735ca5ca7f52b939e4f4/AGENTS.md#L43",
+    "seen": "2026-11-02",
+    "quote": "Before reporting: re-read every changed file top to bottom as a stranger would; each file must be understandable without jumping around.",
+    "also": [
+      {
+        "source": "https://github.com/earendil-works/pi/blob/db8307ec95e634b2630f735ca5ca7f52b939e4f4/AGENTS.md#L19",
+        "seen": "2026-11-02",
+        "quote": "No runtime checks of values whose types TypeScript already guarantees"
+      }
+    ],
+    "history": [
+      {
+        "value": "AGENTS.md in the pi repo, shared with co-maintainers",
+        "source": "https://github.com/earendil-works/pi/blob/4fbdc63ca364844c0166d3d4eabafb5cf8e7c2f3/AGENTS.md#L9-L11",
+        "seen": "2026-08-07",
+        "quote": "Explain non-trivial designs and problems as: problem, concrete example or short trace, then solution. State why the solution is necessary and distinguish it from optional complexity."
+      }
+    ]
   },
   "skills": {
     "value": [
@@ -127,33 +234,59 @@
       "gmcli",
       "transcribe",
       "vscode",
-      "youtube-transcript"
+      "youtube-transcript",
+      "pi-subagent"
     ],
-    "count": 8,
+    "count": 9,
     "featured": [
       "browser-tools",
       "brave-search",
       "transcribe"
     ],
     "source": "https://github.com/badlogic/pi-skills/tree/90bb51cae36515a648515b633a81c0c6efc8c74d",
-    "seen": "2026-06-06"
+    "seen": "2026-06-06",
+    "also": [
+      {
+        "source": "https://x.com/badlogicgames/status/2107908930253054442",
+        "seen": "2026-10-07",
+        "quote": "alright, since i get asked this a lot, i've decided the make public my sloppy pi subagent extension."
+      }
+    ]
   },
   "mcp_servers": {
-    "value": [],
-    "source": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/",
-    "seen": "2025-11-30",
-    "quote": "pi does not and will not support MCP."
+    "value": [
+      "mcporter"
+    ],
+    "source": "https://x.com/badlogicgames/status/2112649665426645315",
+    "seen": "2026-10-20",
+    "quote": "just used @steipete 's old mcporter to get mcp into a non-mcp supporting harness on the go.",
+    "history": [
+      {
+        "value": [],
+        "source": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/",
+        "seen": "2025-11-30",
+        "quote": "pi does not and will not support MCP."
+      }
+    ]
   },
   "hooks": null,
   "signature": {
-    "value": "Daily code limit",
-    "kind": "habit",
-    "caption": "sized to what he can review",
-    "why": "Our pick: he wrote his own agent and still rations how much code it writes in a day.",
+    "value": "Pi Durable on a phone",
+    "kind": "tool",
+    "caption": "agents run on Android",
+    "why": "Our pick: everything except the LLM calls runs on a phone in a pocket, and laptop and servers are just environments it reaches into.",
     "editorial": true,
-    "source": "https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/",
-    "seen": "2026-03-25",
-    "quote": "Set yourself limits on how much code you let the clanker generate per day, in line with your ability to actually review the code."
+    "source": "https://x.com/badlogicgames/status/2111189600685207559",
+    "seen": "2026-10-16",
+    "quote": "i've since rewritten it twice. also on the phone.\n\nnever going back to anything else.",
+    "history": [
+      {
+        "value": "Daily code limit",
+        "source": "https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/",
+        "seen": "2026-03-25",
+        "quote": "Set yourself limits on how much code you let the clanker generate per day, in line with your ability to actually review the code."
+      }
+    ]
   },
   "archetype": {
     "value": "Purist",

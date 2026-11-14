@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "zachlloyd",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-05",
   "name": {
     "value": "Zach Lloyd",
     "source": "https://github.com/zachlloyd"
@@ -67,13 +67,28 @@
     }
   ],
   "review_style": {
-    "value": "Engineer reviews the agent PR and ships it; QA video attached",
-    "source": "https://x.com/zachlloydtweets/status/2104565422439932412",
-    "seen": "2026-09-28",
-    "quote": "One big change is how we approach code review - for low risk changes, we now let engineers review agent PRs and ship themselves, rather than requiring a second dev’s review.",
+    "value": "Warp: agents author PRs, no second engineer's review, a screen recording on every PR; personal habit unstated",
     "kind": "unknown",
     "inferred": true,
+    "source": "https://x.com/zachlloydtweets/status/2113284357918224422",
+    "seen": "2026-10-22",
+    "quote": "We've been making agents the author at Warp, and removed the need for a second engineer's review.",
     "also": [
+      {
+        "source": "https://x.com/zachlloydtweets/status/2113655321189359831",
+        "seen": "2026-10-23",
+        "quote": "We now require all PRs to include a screen recording artifact."
+      },
+      {
+        "source": "https://x.com/zachlloydtweets/status/2112654624301654078",
+        "seen": "2026-10-20",
+        "quote": "Close PR review will become progressively less needed."
+      },
+      {
+        "source": "https://x.com/zachlloydtweets/status/2104565422439932412",
+        "seen": "2026-09-28",
+        "quote": "One big change is how we approach code review - for low risk changes, we now let engineers review agent PRs and ship themselves, rather than requiring a second dev’s review."
+      },
       {
         "source": "https://www.chatprd.ai/how-i-ai/inside-warps-software-factory",
         "seen": "2026-09-18",

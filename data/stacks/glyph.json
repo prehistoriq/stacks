@@ -1,0 +1,96 @@
+{
+  "schema": 2,
+  "handle": "glyph",
+  "status": "ok",
+  "checked": "2026-11-14",
+  "name": {
+    "value": "Glyph Lefkowitz",
+    "source": "https://en.wikipedia.org/wiki/Twisted_(software)"
+  },
+  "x": null,
+  "github": {
+    "value": "glyph",
+    "source": "https://github.com/glyph"
+  },
+  "site": {
+    "value": "https://blog.glyph.im",
+    "source": "https://github.com/glyph"
+  },
+  "avatar": {
+    "value": "https://avatars.githubusercontent.com/u/716529?v=4",
+    "source": "https://github.com/glyph"
+  },
+  "known_for": {
+    "value": "Founder of Twisted",
+    "source": "https://github.com/glyph"
+  },
+  "agents": [],
+  "models": [],
+  "review_style": {
+    "value": "Rejects LLM output outright, fixes included; tells anyone who must use it to rely on tests",
+    "source": "https://mastodon.social/@glyph/117554719143454752",
+    "seen": "2026-11-03",
+    "quote": "We reject LLM output as a matter of course, including \"fixes\" included in these reports.",
+    "kind": "unknown",
+    "also": [
+      {
+        "source": "https://blog.glyph.im/2026/03/what-is-code-review-for.html",
+        "seen": "2026-03-03",
+        "quote": "LLMs are not social actors, thus you cannot rely on code review to inspect their output."
+      },
+      {
+        "source": "https://blog.glyph.im/2026/03/what-is-code-review-for.html",
+        "seen": "2026-03-03",
+        "quote": "When you notice it making errors, you always have to add tests to a mechanical, deterministic harness that will evaluates the code, because the LLM cannot meaningfully learn from its mistakes outside a very small context window in the way that a human would, so giving it feedback is unhelpful."
+      }
+    ]
+  },
+  "harness": {
+    "value": "Emacs",
+    "short": "Emacs",
+    "source": "https://mastodon.social/@glyph/117562545278133941",
+    "seen": "2026-11-05",
+    "quote": "man I did not expect 2026 to be the year I fully embraced feeling good about using Emacs forever but Events keep Transpiring",
+    "history": []
+  },
+  "parallelism": null,
+  "rules_files": {
+    "value": "Twisted AI Policy: no generative AI output in code or discussion",
+    "short": "No genAI",
+    "url": "https://github.com/twisted/twisted/blob/7842ee072081af46391b67f3ed1163ca82f480d2/docs/development/ai-policy.rst",
+    "source": "https://github.com/twisted/twisted/blob/7842ee072081af46391b67f3ed1163ca82f480d2/docs/development/ai-policy.rst#L6-L7",
+    "seen": "2026-09-02",
+    "quote": "Twisted does not allow the inclusion of the outputs of generative AI tools"
+  },
+  "skills": null,
+  "mcp_servers": null,
+  "hooks": null,
+  "signature": {
+    "value": "The Futzing Fraction",
+    "kind": "rule",
+    "caption": "before trusting any LLM",
+    "why": "Our pick: a formula for checking whether time spent prompting and checking an LLM beats doing the task yourself.",
+    "editorial": true,
+    "source": "https://blog.glyph.im/2025/08/futzing-fraction.html",
+    "seen": "2025-08-15",
+    "quote": "If the Futzing Fraction evaluates to a number greater than 1, as previously discussed, you are a bozo; you’re spending more time futzing with Mallory than getting value out of it."
+  },
+  "archetype": {
+    "value": "Skeptic",
+    "editorial": true,
+    "why": "Uses no coding agent, and the project Glyph founded bans genAI output."
+  },
+  "signature_quote": {
+    "value": "Purely as a productivity tool, I have had a terrible experience with genAI.",
+    "more": "Perhaps you have had a great one.  Neat.  That’s great for you.",
+    "source": "https://blog.glyph.im/2026/01/how-to-argue-with-me-about-ai.html",
+    "seen": "2026-01-04"
+  },
+  "no_agent": {
+    "value": "Twisted bans genAI output",
+    "source": "https://blog.glyph.im/2026/03/what-is-code-review-for.html",
+    "seen": "2026-03-03",
+    "quote": "My own personal preference would be to eschew their use entirely",
+    "also": []
+  }
+}

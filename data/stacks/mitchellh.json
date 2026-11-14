@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "mitchellh",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-14",
   "name": {
     "value": "Mitchell Hashimoto",
     "source": "https://github.com/mitchellh"
@@ -59,21 +59,13 @@
   ],
   "models": [
     {
-      "name": "Claude Fable",
+      "name": "Claude Opus",
       "icon": "claude",
-      "detail": "validator and judge",
-      "source": "https://github.com/ghostty-org/ghostty/pull/14138",
-      "seen": "2026-09-03",
-      "quote": "**AI usage:** Fable did validation of the work, I did the implementations, commit messages, and PR notes.",
-      "history": []
-    },
-    {
-      "name": "GPT-6 Astra",
-      "icon": "openai",
-      "detail": "paired with Fable",
-      "source": "https://github.com/ghostty-org/ghostty/pull/14189",
-      "seen": "2026-09-09",
-      "quote": "**AI usage:** Fable and Astra both helped with validation, edge cases.",
+      "detail": "tests, benchmarks, mechanical edits",
+      "inferred": true,
+      "source": "https://github.com/ghostty-org/ghostty/pull/14995",
+      "seen": "2026-11-01",
+      "quote": "**AI usage:** My normal: I came up with the change, Opus helped with benchmarking and validating, I wrote the text.",
       "history": [
         {
           "value": "GPT-5.6 Sol",
@@ -86,6 +78,42 @@
           "source": "https://mitchellh.com/writing/my-ai-adoption-journey",
           "seen": "2026-02-05",
           "quote": "Amp's deep mode (which is basically just GPT-5.2-Codex)"
+        },
+        {
+          "value": "GPT-6 Astra",
+          "source": "https://github.com/ghostty-org/ghostty/pull/14189",
+          "seen": "2026-09-09",
+          "quote": "**AI usage:** Fable and Astra both helped with validation, edge cases."
+        }
+      ],
+      "also": [
+        {
+          "source": "https://github.com/ghostty-org/ghostty/pull/15169",
+          "seen": "2026-11-09",
+          "quote": "Fable validated the plan (I proposed sharding), I did the custom build runner fork, Opus did the YAML changes, I wrote this message."
+        }
+      ]
+    },
+    {
+      "name": "Claude Fable",
+      "icon": "claude",
+      "detail": "plans, root causes, adversarial review",
+      "source": "https://github.com/ghostty-org/ghostty/pull/15021",
+      "seen": "2026-11-02",
+      "quote": "Upon an adversarial review with Fable, it identified some register spilling and branch mispredicts that were eating huge cost",
+      "history": [
+        {
+          "value": "Claude Fable, validator and judge",
+          "source": "https://github.com/ghostty-org/ghostty/pull/14138",
+          "seen": "2026-09-03",
+          "quote": "**AI usage:** Fable did validation of the work, I did the implementations, commit messages, and PR notes."
+        }
+      ],
+      "also": [
+        {
+          "source": "https://github.com/ghostty-org/ghostty/pull/15169",
+          "seen": "2026-11-09",
+          "quote": "Fable validated the plan (I proposed sharding), I did the custom build runner fork, Opus did the YAML changes, I wrote this message."
         }
       ]
     }
@@ -106,6 +134,26 @@
         "source": "https://github.com/ghostty-org/ghostty/pull/13848",
         "seen": "2026-08-15",
         "quote": "**AI usage:** Fable did everything here except write this PR and the comments. It also wrote the commit messages in this case. I reviewed everything."
+      },
+      {
+        "source": "https://github.com/ghostty-org/ghostty/pull/14911",
+        "seen": "2026-10-28",
+        "quote": "I used Opus to write YAML because fuck writing YAML. I read it all."
+      },
+      {
+        "source": "https://github.com/ghostty-org/ghostty/pull/14801",
+        "seen": "2026-10-21",
+        "quote": "I had Fable+Opus do most of the implementation plus review (in addition to my human review)."
+      },
+      {
+        "source": "https://github.com/ghostty-org/ghostty/pull/15071",
+        "seen": "2026-11-04",
+        "quote": "Fable planned, Opus written (code only), I reviewed and modified the code rather significantly and wrote all the english myself."
+      },
+      {
+        "source": "https://x.com/mitchellh/status/2120221244478083249",
+        "seen": "2026-11-10",
+        "quote": "We do machine-aided code review pre-push and human plus more machine-aided code review post-push. Limited to no PRs."
       }
     ]
   },

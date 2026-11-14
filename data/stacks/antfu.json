@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "antfu",
   "status": "ok",
-  "checked": "2026-10-07",
+  "checked": "2026-11-14",
   "name": {
     "value": "Anthony Fu",
     "source": "https://github.com/antfu"
@@ -33,9 +33,9 @@
       "icon": "claudecode",
       "role": "primary",
       "surface": null,
-      "source": "https://bsky.app/profile/antfu.me/post/3mdhpogkfb22u",
-      "seen": "2026-01-28",
-      "quote": "I am trying both Cursor and Claude Code",
+      "source": "https://github.com/antfu/skills/pull/48",
+      "seen": "2026-10-23",
+      "quote": "🤖 Generated with [Claude Code](https://claude.com/claude-code)",
       "also": [
         {
           "source": "https://github.com/antfu/lz-string-es/commit/b309faf8deb37c9b9fb3cb4507965818ca312f07",
@@ -58,6 +58,13 @@
           "source": "https://bsky.app/profile/antfu.me/post/3mdhoqd7hds2u",
           "seen": "2026-01-28",
           "quote": "late to the party. I have finally been convinced by multiple awesome developers to give agents another try."
+        },
+        {
+          "value": "Trying Cursor and Claude Code",
+          "surface": null,
+          "source": "https://bsky.app/profile/antfu.me/post/3mdhpogkfb22u",
+          "seen": "2026-01-28",
+          "quote": "I am trying both Cursor and Claude Code"
         }
       ]
     },
@@ -78,11 +85,27 @@
   ],
   "models": [
     {
+      "name": "Claude Opus 5.5",
+      "icon": "claude",
+      "source": "https://github.com/antfu/devbox/commit/74d40efbfe15eb3cb635c557148ea1bca136133d",
+      "seen": "2026-11-10",
+      "quote": "Co-Authored-By: Claude Opus 5.5",
+      "inferred": true,
+      "history": [
+        {
+          "value": "Claude Opus 5",
+          "source": "https://github.com/antfu/pnpm-workspace-utils/commit/d335a9798c6f99c7ad5b096f4e02730bc3aeaf3f",
+          "seen": "2026-09-02",
+          "quote": "Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>"
+        }
+      ]
+    },
+    {
       "name": "Claude Sonnet 5.5",
       "icon": "claude",
-      "source": "https://github.com/antfu/lz-string-es/commit/b309faf8deb37c9b9fb3cb4507965818ca312f07",
-      "seen": "2026-10-01",
-      "quote": "Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
+      "source": "https://github.com/antfu/skills/commit/57becce3ddfbb09c8b1323cefe73c2ed9ed669a9",
+      "seen": "2026-11-11",
+      "quote": "Co-Authored-By: Claude Sonnet 5.5",
       "inferred": true,
       "history": [
         {
@@ -91,22 +114,12 @@
           "seen": "2026-09-18",
           "quote": "Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>"
         }
-      ]
-    },
-    {
-      "name": "Claude Opus 5",
-      "icon": "claude",
-      "detail": "1M context",
-      "source": "https://github.com/antfu/pnpm-workspace-utils/commit/d335a9798c6f99c7ad5b096f4e02730bc3aeaf3f",
-      "seen": "2026-09-02",
-      "quote": "Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>",
-      "inferred": true,
-      "history": [
+      ],
+      "also": [
         {
-          "value": "Claude Opus 4.7 (1M context)",
-          "source": "https://github.com/antfu/skills/commit/50deaeb269d80d92db7a2c5a677290309ae307fc",
-          "seen": "2026-05-01",
-          "quote": "Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>"
+          "source": "https://github.com/antfu/lz-string-es/commit/b309faf8deb37c9b9fb3cb4507965818ca312f07",
+          "seen": "2026-10-01",
+          "quote": "Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>"
         }
       ]
     }
@@ -119,6 +132,16 @@
     "kind": "unknown",
     "inferred": true,
     "also": [
+      {
+        "source": "https://github.com/antfu/skills/blob/0c4e960984e268b5f6c36bf45f8d3395b2406ad7/skills/antfu-create-pr/SKILL.md#L91",
+        "seen": "2026-11-05",
+        "quote": "say so in one line at the end of the body: what the human contributed (gave the task, wrote the spec, shaped the solution) and whether they have reviewed the diff yet. If not, the reviewer is the first human to look."
+      },
+      {
+        "source": "https://x.com/antfu7/status/2107052841764569236",
+        "seen": "2026-10-05",
+        "quote": "Categorize changes in Pull Requests into logical groups, with a summary. Helps you do reviews more efficiently by focusing on what matters."
+      },
       {
         "source": "https://bsky.app/profile/antfu.me/post/3mvh4q3lvbc2v",
         "seen": "2026-09-14",
@@ -155,9 +178,11 @@
   },
   "skills": {
     "value": [
+      "add-diagnostic",
       "agent-browser",
       "antfu",
       "antfu-create-pr",
+      "antfu-issue-triage",
       "code-review",
       "codebase-design",
       "create-adaptable-composable",
@@ -168,9 +193,11 @@
       "handoff",
       "i-have-adhd",
       "improve",
+      "nostics",
       "nuxt-modules",
       "research",
       "simple-english",
+      "taze",
       "tdd",
       "teach",
       "to-questionnaire",
@@ -182,14 +209,48 @@
       "vue-testing-best-practices",
       "writing-for-agents"
     ],
-    "count": 26,
+    "count": 30,
     "featured": [
       "antfu",
       "antfu-create-pr",
-      "unslop"
+      "antfu-issue-triage"
     ],
-    "source": "https://github.com/antfu/pulls.review/blob/c3508e8bd2c074748a7aa0a04200e6259bcde0ec/skills-lock.json",
-    "seen": "2026-09-30"
+    "source": "https://github.com/antfu/dev-container/blob/f23ea31241518068b95f33906570483cb5e513c2/skills-lock.json",
+    "seen": "2026-10-28",
+    "history": [
+      {
+        "value": [
+          "agent-browser",
+          "antfu",
+          "antfu-create-pr",
+          "code-review",
+          "codebase-design",
+          "create-adaptable-composable",
+          "dry-refactoring",
+          "frontend-design",
+          "grill-me",
+          "grilling",
+          "handoff",
+          "i-have-adhd",
+          "improve",
+          "nuxt-modules",
+          "research",
+          "simple-english",
+          "tdd",
+          "teach",
+          "to-questionnaire",
+          "unslop",
+          "vue-best-practices",
+          "vue-debug-guides",
+          "vue-pinia-best-practices",
+          "vue-router-best-practices",
+          "vue-testing-best-practices",
+          "writing-for-agents"
+        ],
+        "source": "https://github.com/antfu/pulls.review/blob/c3508e8bd2c074748a7aa0a04200e6259bcde0ec/skills-lock.json",
+        "seen": "2026-09-30"
+      }
+    ]
   },
   "mcp_servers": null,
   "hooks": null,

@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "crawshaw",
   "status": "ok",
-  "checked": "2026-10-12",
+  "checked": "2026-11-14",
   "name": {
     "value": "David Crawshaw",
     "source": "https://github.com/crawshaw"
@@ -87,15 +87,36 @@
           "quote": "The Codex models are actually really good these days and I use them sometimes."
         }
       ]
+    },
+    {
+      "name": "GLM 5.3",
+      "icon": "zai",
+      "detail": "~20% of model use; network, ops, security",
+      "source": "https://x.com/davidcrawshaw/status/2114039521973346783",
+      "seen": "2026-10-24",
+      "quote": "Even though it is ~20% of my model use, it’s my favourite.",
+      "history": [],
+      "also": [
+        {
+          "source": "https://x.com/davidcrawshaw/status/2119574506826281110",
+          "seen": "2026-11-08",
+          "quote": "My attempts to use Mythos on security have fallen flat. GLM 5.3 is the most useful."
+        }
+      ]
     }
   ],
   "review_style": {
-    "value": "Reads agent code before it hits serious systems, trimmed by meat",
-    "source": "https://blog.exe.dev/devtools-must-be-open-source",
-    "seen": "2026-08-02",
-    "quote": "The principle is that while agents write code, I still read it before pushing to our serious systems.",
+    "value": "Reads in Shelley, trimmed by meat; no PRs, push to main, the team reviews after the fact",
+    "source": "https://x.com/davidcrawshaw/status/2111528817634488608",
+    "seen": "2026-10-17",
+    "quote": "I review my code mostly in Shelley. We don't do PRs, everyone pushes to main and owns it, we after-the-fact review each other's work. My Shelley is modified with https://meat.dev to reduce the amount I have to read.",
     "kind": "spot-checks",
     "also": [
+      {
+        "source": "https://blog.exe.dev/devtools-must-be-open-source",
+        "seen": "2026-08-02",
+        "quote": "The principle is that while agents write code, I still read it before pushing to our serious systems."
+      },
       {
         "source": "https://blog.exe.dev/devtools-must-be-open-source",
         "seen": "2026-08-02",
@@ -110,6 +131,11 @@
         "source": "https://blog.exe.dev/show-dont-tell",
         "seen": "2026-02-22",
         "quote": "We read source changes to critical systems very carefully."
+      },
+      {
+        "source": "https://thursdai.news/ep/aug-06-2026",
+        "seen": "2026-08-06",
+        "quote": "the current limit on my ability to ship code is how much code can I read in a day"
       }
     ]
   },

@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "danluu",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-14",
   "name": {
     "value": "Dan Luu",
     "source": "https://github.com/danluu"
@@ -39,14 +39,24 @@
         "inferred": true,
         "quote": "my tendency has been to type to agents in a CLI"
       },
-      "source": "https://danluu.com/bug-blind/",
-      "seen": "2026-08-30",
-      "quote": "Just like with Google Docs, I consider codex above average in terms of software quality in the space, but even though I haven't been using it for a year, I could easily write 10k words on all the workarounds I've implemented (either by habit or, in some cases, with actual scripts that monitor for broken behavior and then correct it).",
+      "source": "https://danluu.com/astra-testing/",
+      "seen": "2026-11-03",
+      "quote": "On a related note, for various arbitrary reasons, I've gotten used to using Codex. I seem to do ok with it. This gives me little idea how effective I would be with Claude.",
       "also": [
+        {
+          "source": "https://danluu.com/bug-blind/",
+          "seen": "2026-08-30",
+          "quote": "Just like with Google Docs, I consider codex above average in terms of software quality in the space, but even though I haven't been using it for a year, I could easily write 10k words on all the workarounds I've implemented (either by habit or, in some cases, with actual scripts that monitor for broken behavior and then correct it)."
+        },
         {
           "source": "https://x.com/danluu/status/2052924529115324436",
           "seen": "2026-05-09",
           "quote": "With a semi-autonomous workflow, I can exhaust a week's quota on the $200/mo codex plan in ~10 minutes of my time."
+        },
+        {
+          "source": "https://danluu.com/ambitious/",
+          "seen": "2026-10-24",
+          "quote": "I have a tool that was useful since the release of GPT-5.6 Sol that restarts codex when it finds a memory leak."
         }
       ],
       "history": [
@@ -61,6 +71,23 @@
     }
   ],
   "models": [
+    {
+      "name": "GPT-6 Astra",
+      "icon": "openai",
+      "detail": "medium, in personal evals",
+      "inferred": true,
+      "source": "https://danluu.com/astra-testing/",
+      "seen": "2026-11-03",
+      "quote": "With Astra, agents cost $1 to get full test correctness over 99% of the time at medium effort.",
+      "also": [
+        {
+          "source": "https://danluu.com/ambitious/",
+          "seen": "2026-10-24",
+          "quote": "6 Astra was so good that I had to find different evals because models had advanced too much."
+        }
+      ],
+      "history": []
+    },
     {
       "name": "GPT-5.6 Sol",
       "icon": "openai",
@@ -107,6 +134,16 @@
         "source": "https://x.com/danluu/status/2102807194857337235",
         "seen": "2026-09-23",
         "quote": "If you have the budget, false positive rejection is straightforward (ask agent to repro, have agents independently check if the repro is valid)."
+      },
+      {
+        "source": "https://danluu.com/ambitious/",
+        "seen": "2026-10-24",
+        "quote": "the gap between what the model can verify effectively without significant handholding and what the model can implement has been increasing"
+      },
+      {
+        "source": "https://danluu.com/brain-off/",
+        "seen": "2026-09-18",
+        "quote": "I also mentioned here that I find it quite valuable to have an agent run in a loop for data analysis, producing completely incorrect results that I then direct it to fix up."
       }
     ],
     "inferred": true
@@ -122,6 +159,16 @@
         "source": "https://mastodon.social/@danluu/117301689409121341",
         "seen": "2026-09-20",
         "quote": "In that era, I think I was just managing GPT \"manually\" by having it build map-reduce-like graphs of what I wanted to do, custom for each problem."
+      },
+      {
+        "source": "https://danluu.com/ambitious/",
+        "seen": "2026-10-24",
+        "quote": "this ripgrep fork that uses the native code compiler from the regex engine and is faster for my codex ripgrep workloads"
+      },
+      {
+        "source": "https://danluu.com/ambitious/",
+        "seen": "2026-10-24",
+        "quote": "For syscalls and filesystem overhead, just switching development from Mac to Linux improved this a lot"
       }
     ],
     "history": [

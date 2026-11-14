@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "kepano",
   "status": "ok",
-  "checked": "2026-10-07",
+  "checked": "2026-11-14",
   "name": {
     "value": "Steph Ango",
     "source": "https://github.com/kepano"
@@ -58,6 +58,11 @@
         "source": "https://github.com/obsidianmd/obsidian-help/blob/ec32d3964634686f60707b56827abf98f5d49423/.claude/skills/obsidian-publish-all/SKILL.md#L25",
         "seen": "2026-03-30",
         "quote": "Always run `--dry-run` first so the user can review the changeset before publishing."
+      },
+      {
+        "source": "https://github.com/obsidianmd/pele/blob/acdeb944ec5db15642672ea6dbd3726eb611e934/CONTRIBUTING.md#L13",
+        "seen": "2026-10-18",
+        "quote": "all PRs should be thoroughly human-tested and reviewed before submitting."
       }
     ]
   },
@@ -71,12 +76,19 @@
   },
   "parallelism": null,
   "rules_files": {
-    "value": "AGENTS.md in Defuddle (CLAUDE.md until 2026-09-20), 188-line CLAUDE.md in Obsidian Importer",
+    "value": "AGENTS.md in Defuddle (CLAUDE.md until 2026-09-20) and Pele, 188-line CLAUDE.md in Obsidian Importer",
     "short": "AGENTS.md",
     "url": "https://github.com/kepano/defuddle/blob/49d14ecc4089696565c2479b2f57db72be199adc/AGENTS.md",
     "source": "https://github.com/kepano/defuddle/blob/49d14ecc4089696565c2479b2f57db72be199adc/AGENTS.md#L19",
     "seen": "2026-09-20",
-    "quote": "Always use `curl` to test the Worker or defuddle.md; never open those URLs in a browser."
+    "quote": "Always use `curl` to test the Worker or defuddle.md; never open those URLs in a browser.",
+    "also": [
+      {
+        "source": "https://github.com/obsidianmd/pele/blob/78fedb7e49ef7202a15255dfeed0329a65b7116b/AGENTS.md#L9",
+        "seen": "2026-10-19",
+        "quote": "No library runtime dependencies. Dev and website dependencies are allowed."
+      }
+    ]
   },
   "skills": {
     "value": [

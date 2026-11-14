@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "rauchg",
   "status": "ok",
-  "checked": "2026-10-07",
+  "checked": "2026-11-14",
   "name": {
     "value": "Guillermo Rauch",
     "source": "https://github.com/rauchg"
@@ -29,9 +29,36 @@
   },
   "agents": [
     {
+      "name": "fx",
+      "icon": null,
+      "role": "daily driver, Vercel's own CLI",
+      "surface": "cli",
+      "surface_source": {
+        "source": "https://x.com/rauchg/status/2089831055373316274",
+        "seen": "2026-08-18",
+        "quote": "It feels more like using 𝚣𝚜𝚑 than an IDE in your terminal."
+      },
+      "source": "https://x.com/rauchg/status/2089831055373316274",
+      "seen": "2026-08-18",
+      "quote": "I’ve been using http://fx.sh as my daily driver and it’s a one-way street.",
+      "also": [
+        {
+          "source": "https://x.com/rauchg/status/2105837842362732965",
+          "seen": "2026-10-02",
+          "quote": "I built a tiny app, it built & deployed in 15 seconds end-to-end, it’s instant, and fx + opus figured it all out effortlessly."
+        },
+        {
+          "source": "https://x.com/rauchg/status/2116988333096370443",
+          "seen": "2026-11-01",
+          "quote": "Working with Gemini on https://fx.sh is hilarious"
+        }
+      ],
+      "history": []
+    },
+    {
       "name": "Claude Code",
       "icon": "claudecode",
-      "role": "primary (from commits)",
+      "role": "from commits, last seen May",
       "surface": null,
       "inferred": true,
       "source": "https://github.com/rauchg/typing-stats/commit/2b7bd1c99f596d8ba111564007ca122faabe63fc",
@@ -49,13 +76,11 @@
   ],
   "models": [
     {
-      "name": "Claude Opus 4.6",
+      "name": "Claude Opus",
       "icon": "claude",
-      "detail": "1M context",
-      "inferred": true,
-      "source": "https://github.com/rauchg/typing-stats/commit/2b7bd1c99f596d8ba111564007ca122faabe63fc",
-      "seen": "2026-05-10",
-      "quote": "Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>",
+      "source": "https://x.com/rauchg/status/2105837842362732965",
+      "seen": "2026-10-02",
+      "quote": "I built a tiny app, it built & deployed in 15 seconds end-to-end, it’s instant, and fx + opus figured it all out effortlessly.",
       "history": [
         {
           "value": "Claude Opus 4.5",
@@ -63,11 +88,46 @@
           "source": "https://github.com/rauchg/typing-stats/commit/3729fdbb0db7ec6400aa26737912f3d4bf65497f",
           "seen": "2026-01-19",
           "quote": "Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+        },
+        {
+          "value": "Claude Opus 4.6 (1M context)",
+          "inferred": true,
+          "source": "https://github.com/rauchg/typing-stats/commit/2b7bd1c99f596d8ba111564007ca122faabe63fc",
+          "seen": "2026-05-10",
+          "quote": "Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>"
         }
       ]
+    },
+    {
+      "name": "Gemini",
+      "icon": "gemini",
+      "detail": "testing",
+      "source": "https://x.com/rauchg/status/2116988333096370443",
+      "seen": "2026-11-01",
+      "quote": "Other than being SUPER EXCITED!, I've been testing it on two high complexity projects and it's doing great.",
+      "history": []
     }
   ],
-  "review_style": null,
+  "review_style": {
+    "value": "Reads the code, directly or by asking the agent; treats not reading as a sign of throwaway work or taken-on risk",
+    "kind": "spot-checks",
+    "inferred": true,
+    "source": "https://x.com/rauchg/status/2086513316265181213",
+    "seen": "2026-08-09",
+    "quote": "If you’re not reading the code, whether explicitly or through agentic inquiry, one or more of these is true:",
+    "also": [
+      {
+        "source": "https://x.com/rauchg/status/2086513316265181213",
+        "seen": "2026-08-09",
+        "quote": "I just had the best model in the world add a nonsensical 700ms delay to “settle” something and it told me “you’re right, I was cargo-culting”"
+      },
+      {
+        "source": "https://x.com/rauchg/status/2105872023482515825",
+        "seen": "2026-10-02",
+        "quote": "One thing I've been liking is to ask models to 'teach me back' what they did¹ by including \"quines\"."
+      }
+    ]
+  },
   "harness": null,
   "parallelism": null,
   "rules_files": {

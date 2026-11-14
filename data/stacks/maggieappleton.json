@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "maggieappleton",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-14",
   "name": {
     "value": "Maggie Appleton",
     "source": "https://github.com/MaggieAppleton"
@@ -81,13 +81,12 @@
   ],
   "models": [
     {
-      "name": "Claude Opus 5",
+      "name": "Claude Opus 5.5",
       "icon": "claude",
-      "detail": "1M context",
-      "source": "https://github.com/MaggieAppleton/elves/commit/1c7a3906b1c8cd1b71827441628adff3129e2c12",
-      "seen": "2026-09-02",
-      "quote": "Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>",
-      "inferred": true,
+      "detail": "final implementation, visual design",
+      "source": "https://x.com/Mappletons/status/2108223874248929698",
+      "seen": "2026-10-08",
+      "quote": "…plus visual references to Opus 5.5 (because it’s much better at visual design) and said it strictly must use the design system. It did the final implementation.",
       "history": [
         {
           "value": "Opus 4.6",
@@ -101,26 +100,55 @@
           "seen": "2026-07-08",
           "quote": "Co-authored-by: Claude Opus 4.8 (1M context) <noreply@anthropic.com>",
           "inferred": true
+        },
+        {
+          "value": "Claude Opus 5",
+          "detail": "1M context",
+          "source": "https://github.com/MaggieAppleton/elves/commit/1c7a3906b1c8cd1b71827441628adff3129e2c12",
+          "seen": "2026-09-02",
+          "quote": "Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>",
+          "inferred": true
+        }
+      ],
+      "also": [
+        {
+          "source": "https://github.com/MaggieAppleton/aber/commit/cc28e227c2778e139d9c9009f4c5c99e28df2397",
+          "seen": "2026-11-05",
+          "quote": "Co-Authored-By: Claude Opus 5.5"
         }
       ]
     },
     {
-      "name": "Claude Sonnet 4.6",
-      "icon": "claude",
-      "detail": "gh-aw planner + implementer",
-      "source": "https://github.com/MaggieAppleton/maggieappleton.com-V3/blob/ca41b010e1910fb753529f0ec4f9be2e4089b576/.github/workflows/planner.md#L13-L15",
-      "seen": "2026-04-25",
-      "quote": "model: claude-sonnet-4-6",
-      "history": []
+      "name": "GPT-6.1 Sol",
+      "icon": "openai",
+      "detail": "messaging, storyboards",
+      "source": "https://x.com/Mappletons/status/2108222773369946533",
+      "seen": "2026-10-08",
+      "quote": "Transcribed my thoughts on the current site in a long rambling message to Sol 6.1.",
+      "history": [
+        {
+          "value": "Claude Sonnet 4.6",
+          "detail": "gh-aw planner + implementer",
+          "source": "https://github.com/MaggieAppleton/maggieappleton.com-V3/blob/ca41b010e1910fb753529f0ec4f9be2e4089b576/.github/workflows/planner.md#L13-L15",
+          "seen": "2026-04-25",
+          "quote": "model: claude-sonnet-4-6"
+        }
+      ]
     }
   ],
   "review_style": {
-    "value": "Watches the diffs, checks code in an IDE",
-    "source": "https://maggieappleton.com/gastown",
-    "seen": "2026-01-23",
-    "quote": "I currently juggle a handful of consecutive Claude Code and OpenCode agents, but pay close attention to the diffs and regularly check code in an IDE.",
+    "value": "Reviews stacked PRs in pieces; subagents review too; hand-tweaks design",
     "kind": "spot-checks",
+    "inferred": true,
+    "source": "https://x.com/Mappletons/status/2108223874248929698",
+    "seen": "2026-10-08",
+    "quote": "Whole thing was stacked PRs so it was manageable to review and merge in in pieces",
     "also": [
+      {
+        "source": "https://maggieappleton.com/gastown",
+        "seen": "2026-01-23",
+        "quote": "I currently juggle a handful of consecutive Claude Code and OpenCode agents, but pay close attention to the diffs and regularly check code in an IDE."
+      },
       {
         "source": "https://maggieappleton.com/gastown",
         "seen": "2026-01-23",
@@ -135,27 +163,60 @@
         "source": "https://maggieappleton.com/gastown",
         "seen": "2026-01-23",
         "quote": "Language is a poor medium for designing easing curves and describing aesthetic feelings – I always need to touch the CSS, and it’s often faster to just tweak directly than try to explain what I want."
+      },
+      {
+        "source": "https://x.com/Mappletons/status/2108423058755117416",
+        "seen": "2026-10-09",
+        "quote": "So yes subs did cleanup but design system cleanup is quite human-in-the-loop and direct tweaking of values vs being “automated”"
+      },
+      {
+        "source": "https://x.com/Mappletons/status/2108224174875652103",
+        "seen": "2026-10-08",
+        "quote": "of course also had to do a good amount of final cleanup on the implementation with agentation + automated tests of all browser sizes and stress testing for edge cases."
       }
-    ],
-    "inferred": true
+    ]
   },
   "harness": {
-    "value": "Superpowers: spec, plan, subagent-driven development",
-    "short": "Superpowers",
-    "source": "https://github.com/MaggieAppleton/elves/blob/8573ed05224e298270d35c08c20b09f25853c67a/docs/superpowers/plans/2026-08-30-annotation-thread-reply-composer.md#L3",
-    "seen": "2026-08-30",
-    "quote": "> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.",
-    "inferred": true,
-    "history": []
+    "value": "Orchestrator agent runs subagents; Chopin plan documents become stacked PRs",
+    "short": "orchestrator + Chopin",
+    "source": "https://x.com/Mappletons/status/2108423058755117416",
+    "seen": "2026-10-09",
+    "quote": "I always use an orchestrator which is the main agent I talk to and have them use subagents for implementation, testing, review, etc.",
+    "also": [
+      {
+        "source": "https://github.com/MaggieAppleton/margin/pull/68",
+        "seen": "2026-10-28",
+        "quote": "chopin/e357cef2/sm2-scheduler"
+      }
+    ],
+    "history": [
+      {
+        "value": "Superpowers: spec, plan, subagent-driven development",
+        "short": "Superpowers",
+        "source": "https://github.com/MaggieAppleton/elves/blob/8573ed05224e298270d35c08c20b09f25853c67a/docs/superpowers/plans/2026-08-30-annotation-thread-reply-composer.md#L3",
+        "seen": "2026-08-30",
+        "quote": "> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.",
+        "inferred": true
+      }
+    ]
   },
   "parallelism": null,
   "rules_files": {
-    "value": "AGENTS.md (60 lines) in her garden repo",
+    "value": "AGENTS.md in Margin: the Chopin document, not the repo, defines behaviour",
     "short": "AGENTS.md",
-    "url": "https://github.com/MaggieAppleton/maggieappleton.com-V3/blob/d20e3ce31227f700ed52bc0810b1d072f4c80d1e/AGENTS.md",
-    "source": "https://github.com/MaggieAppleton/maggieappleton.com-V3/blob/d20e3ce31227f700ed52bc0810b1d072f4c80d1e/AGENTS.md#L25",
-    "seen": "2026-09-26",
-    "quote": "Before creating a PR, use the [PR hygiene skill](.agents/skills/pr-hygiene/SKILL.md) to clean up process notes and review changed tests."
+    "url": "https://github.com/MaggieAppleton/margin/blob/122e4eaa1ee8606279298c787b13b5836ee206cd/AGENTS.md",
+    "source": "https://github.com/MaggieAppleton/margin/blob/122e4eaa1ee8606279298c787b13b5836ee206cd/AGENTS.md#L3",
+    "seen": "2026-10-19",
+    "quote": "Margin's behaviour is defined by its Chopin document, not by this repository.",
+    "history": [
+      {
+        "value": "AGENTS.md (60 lines) in her garden repo",
+        "short": "AGENTS.md",
+        "source": "https://github.com/MaggieAppleton/maggieappleton.com-V3/blob/d20e3ce31227f700ed52bc0810b1d072f4c80d1e/AGENTS.md#L25",
+        "seen": "2026-09-26",
+        "quote": "Before creating a PR, use the [PR hygiene skill](.agents/skills/pr-hygiene/SKILL.md) to clean up process notes and review changed tests."
+      }
+    ]
   },
   "skills": {
     "value": [

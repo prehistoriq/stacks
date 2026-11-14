@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "jarred-sumner",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-14",
   "name": {
     "value": "Jarred Sumner",
     "source": "https://github.com/Jarred-Sumner"
@@ -86,24 +86,52 @@
         "source": "https://x.com/jarredsumner/status/2031099230702752065",
         "seen": "2026-03-09",
         "quote": "Been using this in Bun’s repo for weeks & giving lots of feedback\n\nThis, imo, is the best product in the code review category today."
+      },
+      {
+        "source": "https://x.com/jarredsumner/status/2111935331176198389",
+        "seen": "2026-10-18",
+        "quote": "we write a design doc and a review doc"
       }
     ]
   },
   "harness": {
-    "value": "Claude Code dynamic workflows with /loop, one worktree per workflow shard, auto mode",
+    "value": "Design doc + review doc, then Claude Code dynamic workflows with /loop, auto mode; calls worktrees the wrong answer",
     "short": "workflows + /loop",
-    "source": "https://x.com/jarredsumner/status/2060050583017373979",
-    "seen": "2026-05-28",
-    "quote": "Dynamic workflows, in my personal opinion, is the state of the art today for reliably using agents to complete medium - large projects. \n\nFor extra large projects, I especially like using workflows with /loop.",
-    "history": []
+    "source": "https://x.com/jarredsumner/status/2111935331176198389",
+    "seen": "2026-10-18",
+    "quote": "we talk through what’s wrong and how to make it better \n\nwe write a design doc and a review doc \n\nthen we turn it into an embarrassingly parallel workload and use workflows",
+    "also": [
+      {
+        "source": "https://x.com/jarredsumner/status/2112007976383037921",
+        "seen": "2026-10-19",
+        "quote": "I don’t like worktrees either. It’s not the way any of this should work. It’s insane that 4 subagents each try to build in their own worktree."
+      }
+    ],
+    "history": [
+      {
+        "value": "Claude Code dynamic workflows with /loop, one worktree per workflow shard, auto mode",
+        "short": "workflows + /loop",
+        "source": "https://x.com/jarredsumner/status/2060050583017373979",
+        "seen": "2026-05-28",
+        "quote": "Dynamic workflows, in my personal opinion, is the state of the art today for reliably using agents to complete medium - large projects. \n\nFor extra large projects, I especially like using workflows with /loop."
+      }
+    ]
   },
   "parallelism": {
-    "value": 64,
-    "short": "64 Claudes",
-    "source": "https://bun.com/blog/bun-in-rust",
-    "seen": "2026-07-08",
-    "quote": "At peak, we were running 4 of these workflows at once each in a separate worktree, each with 16 Claudes per workflow. About 64 Claudes at a time.",
-    "history": []
+    "value": 67,
+    "short": "67 subagents",
+    "source": "https://x.com/jarredsumner/status/2113933905300742383",
+    "seen": "2026-10-24",
+    "quote": "Activity Monitor says 267 MB of RAM, with 67 active subagents, 66 shells, remote control + a big session transcript",
+    "history": [
+      {
+        "value": 64,
+        "short": "64 Claudes",
+        "source": "https://bun.com/blog/bun-in-rust",
+        "seen": "2026-07-08",
+        "quote": "At peak, we were running 4 of these workflows at once each in a separate worktree, each with 16 Claudes per workflow. About 64 Claudes at a time."
+      }
+    ]
   },
   "rules_files": {
     "value": "CLAUDE.md in oven-sh/bun (240 lines, AGENTS.md symlinks to it)",

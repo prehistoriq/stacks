@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "paulirish",
   "status": "ok",
-  "checked": "2026-10-07",
+  "checked": "2026-11-14",
   "name": {
     "value": "Paul Irish",
     "source": "https://github.com/paulirish"
@@ -68,6 +68,16 @@
   ],
   "models": [
     {
+      "name": "Flash tier",
+      "icon": "gemini",
+      "detail": "implementer subagents",
+      "inferred": true,
+      "source": "https://github.com/GoogleChromeLabs/cssomnom/blob/5ada7806971500203f142f225de3d66e109791ea/.agents/skills/champ/SKILL.md#L13",
+      "seen": "2026-10-27",
+      "quote": "ALWAYS use the **'flash'** model tier (do NOT use 'pro' or 'flash_lite' models for Champ, as they are worse for this specific role).",
+      "history": []
+    },
+    {
       "name": "Gemini 3 Flash (preview)",
       "icon": "gemini",
       "detail": "commit messages via llm",
@@ -85,12 +95,29 @@
     }
   ],
   "review_style": {
-    "value": "Codex bot reviews every PR; he has Copilot fix the findings",
+    "value": "A Codex reviewer and a hostile auditor, 'Grizz', gate the developer agent; both must approve. Bot reviews on PR repos too",
     "kind": "agent-reviews",
-    "source": "https://github.com/paulirish/carlo/pull/3#issuecomment-5827505180",
-    "seen": "2026-09-25",
-    "quote": "@copilot address the review feedback and fix the falling CI",
+    "inferred": true,
+    "source": "https://github.com/GoogleChromeLabs/cssomnom/blob/5ada7806971500203f142f225de3d66e109791ea/LOOP.md#L46",
+    "seen": "2026-10-27",
+    "quote": "Grizz holds sole veto power over the final shipping gate.",
     "also": [
+      {
+        "source": "https://github.com/GoogleChromeLabs/cssomnom/blob/5ada7806971500203f142f225de3d66e109791ea/LOOP.md#L25",
+        "seen": "2026-10-27",
+        "quote": "Orchestrator MUST spawn both **Reviewer (`codex_reviewer_cmd`)** and **Gatekeeper (`Grizz`)** concurrently in parallel in a single turn"
+      },
+      {
+        "source": "https://github.com/GoogleChrome/modern-web-guidance-src/blob/5da9dec8e40757bcf995367f4e893fe6fbec6e38/AGENTS.md#L23",
+        "seen": "2026-10-27",
+        "quote": "Prefix agent-posted GitHub comments and replies to indicate human involvement:"
+      },
+      {
+        "source": "https://github.com/paulirish/carlo/pull/3#issuecomment-5827505180",
+        "seen": "2026-09-25",
+        "quote": "@copilot address the review feedback and fix the falling CI",
+        "inferred": true
+      },
       {
         "source": "https://github.com/paulirish/carlo/pull/3#issuecomment-5842010944",
         "seen": "2026-09-26",
@@ -103,24 +130,56 @@
         "quote": "Experimenting w/ putting agent commits under a dedicated GH account. Especially when there's less code review.  We'll see.  ~@paulirish"
       }
     ],
-    "inferred": true
+    "history": [
+      {
+        "value": "Codex bot reviews every PR; he has Copilot fix the findings",
+        "kind": "agent-reviews",
+        "source": "https://github.com/paulirish/carlo/pull/3#issuecomment-5827505180",
+        "seen": "2026-09-25",
+        "quote": "@copilot address the review feedback and fix the falling CI",
+        "inferred": true
+      }
+    ]
   },
   "harness": {
-    "value": "Cloud agents on GitHub PRs, steered from PR comments",
-    "short": "cloud PRs",
-    "source": "https://github.com/paulirish/carlo/pull/3#issuecomment-5827627920",
-    "seen": "2026-09-25",
-    "quote": "@copilot do our ci tests need a rethink given that we're just starting the modernization plan?",
-    "history": []
+    "value": "Orchestrator spawns developer and two parallel reviewer subagents, in worktrees; cloud agents on GitHub PRs on side repos",
+    "short": "multi-agent loop",
+    "source": "https://github.com/GoogleChromeLabs/cssomnom/blob/5ada7806971500203f142f225de3d66e109791ea/LOOP.md#L3",
+    "seen": "2026-10-27",
+    "quote": "This document defines the quality loop, anti-greenwashing policies, and subagent orchestration pipeline for this repository.",
+    "also": [
+      {
+        "source": "https://github.com/GoogleChrome/modern-web-guidance-src/pull/3299",
+        "seen": "2026-11-05",
+        "quote": "I'm probably the main worktree user here"
+      }
+    ],
+    "history": [
+      {
+        "value": "Cloud agents on GitHub PRs, steered from PR comments",
+        "source": "https://github.com/paulirish/carlo/pull/3#issuecomment-5827627920",
+        "seen": "2026-09-25",
+        "quote": "@copilot do our ci tests need a rethink given that we're just starting the modernization plan?"
+      }
+    ]
   },
   "parallelism": null,
   "rules_files": {
-    "value": "AGENTS.md per repo (CLAUDE.md just imports it), linked to a LEXICON.md",
-    "short": "AGENTS.md",
-    "url": "https://github.com/paulirish/chromestatus/blob/f999d25bc6964083f7e51c8b2303cc3ef0d6e2f7/AGENTS.md",
-    "source": "https://github.com/paulirish/chromestatus/blob/f999d25bc6964083f7e51c8b2303cc3ef0d6e2f7/AGENTS.md#L9",
-    "seen": "2026-10-03",
-    "quote": "Future code will be reasoned about, rewritten, and maintained by LLMs and high-level humans who operate on semantic representations."
+    "value": "AGENTS.md per repo, linked to a LEXICON.md; cssomnom adds LOOP.md, a multi-agent review protocol",
+    "short": "AGENTS.md + LOOP.md",
+    "url": "https://github.com/GoogleChromeLabs/cssomnom/blob/5ada7806971500203f142f225de3d66e109791ea/LOOP.md",
+    "source": "https://github.com/GoogleChromeLabs/cssomnom/blob/5ada7806971500203f142f225de3d66e109791ea/LOOP.md#L3",
+    "seen": "2026-10-27",
+    "quote": "All orchestrator and developer agents MUST strictly follow this process.",
+    "history": [
+      {
+        "value": "AGENTS.md per repo (CLAUDE.md just imports it), linked to a LEXICON.md",
+        "url": "https://github.com/paulirish/chromestatus/blob/f999d25bc6964083f7e51c8b2303cc3ef0d6e2f7/AGENTS.md",
+        "source": "https://github.com/paulirish/chromestatus/blob/f999d25bc6964083f7e51c8b2303cc3ef0d6e2f7/AGENTS.md#L9",
+        "seen": "2026-10-03",
+        "quote": "Future code will be reasoned about, rewritten, and maintained by LLMs and high-level humans who operate on semantic representations."
+      }
+    ]
   },
   "skills": {
     "value": [
@@ -157,7 +216,14 @@
     "source": "https://github.com/paulirish-agent",
     "seen": null,
     "undated": true,
-    "quote": "Experimenting w/ putting agent commits under a dedicated GH account. Especially when there's less code review.  We'll see.  ~@paulirish"
+    "quote": "Experimenting w/ putting agent commits under a dedicated GH account. Especially when there's less code review.  We'll see.  ~@paulirish",
+    "also": [
+      {
+        "source": "https://github.com/GoogleChromeLabs/cssomnom/commit/5ada7806971500203f142f225de3d66e109791ea",
+        "seen": "2026-10-27",
+        "quote": "docs: standardize anchor-first spec citation policy across agent guide"
+      }
+    ]
   },
   "archetype": {
     "value": "Orchestrator",

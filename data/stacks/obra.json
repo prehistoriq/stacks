@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "obra",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-14",
   "name": {
     "value": "Jesse Vincent",
     "source": "https://github.com/obra"
@@ -26,9 +26,32 @@
   },
   "agents": [
     {
+      "name": "Evener",
+      "icon": null,
+      "role": "primary in commits, own harness",
+      "surface": null,
+      "source": "https://blog.fsck.com/2026/08/21/i-vibe-coded-a-c-compiler/",
+      "seen": "2026-08-21",
+      "quote": "Last night, as I was getting ready for bed I was reaching for some project to /loop support and tool use in Evener, our ~new agentic harness.",
+      "history": [],
+      "inferred": true,
+      "also": [
+        {
+          "source": "https://github.com/obra/blogosphere/commit/6eb6026eecdca99f7edaa6e4625e20f2e8896e81",
+          "seen": "2026-11-13",
+          "quote": "(lunaroute/deepseek-4.1-flash)"
+        },
+        {
+          "source": "https://github.com/prime-radiant-inc/evener/commit/08898a3b73418676197c376ee44c70e68a6db8c8",
+          "seen": "2026-11-13",
+          "quote": "(vertex-arc/gemini-4-carbon)"
+        }
+      ]
+    },
+    {
       "name": "Claude Code",
       "icon": "claudecode",
-      "role": "primary",
+      "role": "desktop instances; Fable 5.2 on some commits",
       "surface": "cli",
       "source": "https://blog.fsck.com/2026/10/02/a-quick-trip-to-the-uncanny-valley/",
       "seen": "2026-10-02",
@@ -39,16 +62,6 @@
         "seen": "2026-07-03",
         "quote": "For the last few months, that has meant running my coding agents in tmux on either a remote Mac or a remote Linux server."
       }
-    },
-    {
-      "name": "Evener",
-      "icon": null,
-      "role": "own harness, long /goal runs",
-      "surface": null,
-      "source": "https://blog.fsck.com/2026/08/21/i-vibe-coded-a-c-compiler/",
-      "seen": "2026-08-21",
-      "quote": "Last night, as I was getting ready for bed I was reaching for some project to /loop support and tool use in Evener, our ~new agentic harness.",
-      "history": []
     },
     {
       "name": "Muse",
@@ -63,22 +76,38 @@
   ],
   "models": [
     {
-      "name": "Claude Opus",
-      "icon": "claude",
-      "detail": "coordinator",
-      "source": "https://blog.fsck.com/2026/06/15/Superpowers-6/",
-      "seen": "2026-06-15",
-      "quote": "/goal once this is done, run an autoresearch loop to improve cost-efficiency of the superpowers build loop. test with opus as the coordinator.",
-      "history": []
+      "name": "DeepSeek 4.1 Flash",
+      "icon": "deepseek",
+      "detail": "in Evener, via lunaroute",
+      "source": "https://github.com/obra/blogosphere/commit/6eb6026eecdca99f7edaa6e4625e20f2e8896e81",
+      "seen": "2026-11-13",
+      "quote": "(lunaroute/deepseek-4.1-flash)",
+      "inferred": true,
+      "history": [
+        {
+          "value": "Claude Opus 5.5",
+          "source": "https://blog.fsck.com/2026/10/11/picks-and-shovels/",
+          "seen": "2026-10-11",
+          "quote": "This afternoon, Claude Opus 5.5 built a web game for the site"
+        }
+      ]
     },
     {
-      "name": "Claude Haiku",
-      "icon": "claude",
-      "detail": "implementer subagents",
-      "source": "https://blog.fsck.com/2026/03/09/superpowers-5/",
-      "seen": "2026-03-09",
-      "quote": "With the detailed plans produced through the brainstorming + writing plans process, it's not uncommon to be able to use Claude Haiku for implementation.",
-      "history": []
+      "name": "Gemini 4 Carbon",
+      "icon": "gemini",
+      "detail": "in Evener",
+      "source": "https://github.com/prime-radiant-inc/evener/commit/08898a3b73418676197c376ee44c70e68a6db8c8",
+      "seen": "2026-11-13",
+      "quote": "(vertex-arc/gemini-4-carbon)",
+      "inferred": true,
+      "history": [
+        {
+          "value": "Claude Haiku",
+          "source": "https://blog.fsck.com/2026/03/09/superpowers-5/",
+          "seen": "2026-03-09",
+          "quote": "With the detailed plans produced through the brainstorming + writing plans process, it's not uncommon to be able to use Claude Haiku for implementation."
+        }
+      ]
     }
   ],
   "review_style": {
@@ -102,6 +131,16 @@
         "source": "https://github.com/obra/dotfiles/blob/4849bad8b9bb02ac49abf78754d8e0351343a060/.claude/CLAUDE.md#L100",
         "seen": "2026-08-08",
         "quote": "Complete all steps, including reviews, for every change."
+      },
+      {
+        "source": "https://blog.fsck.com/2026/10/05/today-at-work/",
+        "seen": "2026-10-05",
+        "quote": "Something got merged to main a little too quickly without the right review and after I suggested that we should not merge it."
+      },
+      {
+        "source": "https://blog.fsck.com/2026/10/09/what-a-year/",
+        "seen": "2026-10-09",
+        "quote": "But good process management and guidance still gets a better end result than just letting the model do its thing without supervision."
       }
     ]
   },
@@ -117,6 +156,13 @@
         "source": "https://blog.fsck.com/2025/10/05/how-im-using-coding-agents-in-september-2025/",
         "seen": "2025-10-05",
         "quote": "When I want to start a new task on an existing project, I try to always use a git worktree to isolate that work from other tasks."
+      }
+    ],
+    "also": [
+      {
+        "source": "https://blog.fsck.com/2026/10/02/a-quick-trip-to-the-uncanny-valley/",
+        "seen": "2026-10-02",
+        "quote": "Generally, I have a single session open that I will occasionally ask to check in with the Sens about some work they're doing."
       }
     ]
   },

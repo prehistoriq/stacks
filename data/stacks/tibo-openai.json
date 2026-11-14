@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "tibo-openai",
   "status": "ok",
-  "checked": "2026-10-07",
+  "checked": "2026-11-14",
   "name": {
     "value": "Thibault Sottiaux",
     "source": "https://github.com/tibo-openai"
@@ -42,6 +42,16 @@
           "quote": "You can now /fork conversations in Codex CLI to try something else without affecting the main session. I often use it to try different alternatives or to chat about a session without impacting it."
         }
       ]
+    },
+    {
+      "name": "ChatGPT Work",
+      "icon": "openai",
+      "role": "on mobile, by dictation",
+      "surface": "app",
+      "source": "https://pod.wave.co/podcast/the-pragmatic-engineer/building-codex-with-tibo-sottiaux",
+      "seen": "2026-09-09",
+      "quote": "I actually shifted a lot of like, my, my, my work on, on mobile, using ChatGPT work",
+      "history": []
     }
   ],
   "models": [
@@ -88,21 +98,32 @@
         "source": "https://every.to/podcast/transcript-how-openai-s-codex-team-uses-their-coding-agent",
         "seen": "2026-02-18",
         "quote": "You’re already reviewing the code the first time because the agent presents it to you, and then you have to review code produced by your peers. There are two rounds of review."
+      },
+      {
+        "source": "https://pod.wave.co/podcast/the-pragmatic-engineer/building-codex-with-tibo-sottiaux",
+        "seen": "2026-09-09",
+        "quote": "I think all of it is changing the correctness, the security. I think that will be automated."
       }
     ]
   },
   "harness": {
-    "value": "Codex app with scheduled automations driven by skills; one fast in-flow thread",
-    "short": "automations",
-    "source": "https://every.to/podcast/transcript-how-openai-s-codex-team-uses-their-coding-agent",
-    "seen": "2026-02-18",
-    "quote": "Now I can do less multitasking and stay more in the flow. That felt really good.\nIt also feels satisfying to kick off automations using skills.",
+    "value": "Dictates questions to ChatGPT Work by phone between meetings, custom skills shape the reports; prototypes code on weekends",
+    "short": "phone dictation",
+    "source": "https://pod.wave.co/podcast/the-pragmatic-engineer/building-codex-with-tibo-sottiaux",
+    "seen": "2026-09-09",
+    "quote": "And then oftentimes on weekends as well. I do some code explorations or I build some prototypes",
     "history": [
       {
         "value": "Long-running parallel tasks",
         "source": "https://every.to/podcast/transcript-how-openai-s-codex-team-uses-their-coding-agent",
         "seen": "2026-02-18",
         "quote": "I’d been optimizing for long-running, multitasking workflows—this task will take 10 or 15 minutes, I’ll kick off four different things and come back."
+      },
+      {
+        "value": "Codex app with scheduled automations driven by skills; one fast in-flow thread",
+        "source": "https://every.to/podcast/transcript-how-openai-s-codex-team-uses-their-coding-agent",
+        "seen": "2026-02-18",
+        "quote": "Now I can do less multitasking and stay more in the flow. That felt really good.\nIt also feels satisfying to kick off automations using skills."
       }
     ]
   },

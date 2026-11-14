@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "dbreunig",
   "status": "ok",
-  "checked": "2026-10-07",
+  "checked": "2026-11-14",
   "name": {
     "value": "Drew Breunig",
     "source": "https://github.com/dbreunig"
@@ -48,27 +48,79 @@
           "quote": "If I run drskill list, I can see my current loadout. Adding --harness claude-code limits it to just what Claude Code sees:"
         }
       ],
+      "history": [
+        {
+          "value": "Codex, for a while",
+          "surface": "app",
+          "source": "https://x.com/dbreunig/status/2111507398301200782",
+          "seen": "2026-10-17",
+          "quote": "Catches up to Codex, which for a bit was my daily driver partly because it let me edit the files and changes it proposed in app."
+        }
+      ]
+    },
+    {
+      "name": "Hermes",
+      "icon": null,
+      "role": "tweaked, on Muse Spark",
+      "surface": null,
+      "source": "https://x.com/dbreunig/status/2119217494267421109",
+      "seen": "2026-11-07",
+      "quote": "Opus 5.5 is amazing, but the bulk of my tokens come from less complicated work in a SW factory (ds4-flash, glm 5.3) and in a tweaked Hermes agent (meta spark).",
+      "also": [
+        {
+          "source": "https://x.com/dbreunig/status/2119187646392213864",
+          "seen": "2026-11-07",
+          "quote": "But it's an epic driver for the way I use Hermes!"
+        }
+      ],
       "history": []
     }
   ],
   "models": [
     {
-      "name": "Claude Fable",
+      "name": "Claude Opus 5.5",
       "icon": "claude",
-      "detail": "to shape the design",
-      "source": "https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html",
-      "seen": "2026-08-23",
-      "quote": "I frequently chat with Fable to interrogate and shape a design, before handing off a brief to GLM.",
-      "history": []
+      "detail": "builds, in Claude Code",
+      "source": "https://x.com/dbreunig/status/2116220387239535045",
+      "seen": "2026-10-30",
+      "quote": "To be fair, I gave Opus 5.5 *two* prompts.",
+      "history": [
+        {
+          "value": "Claude Fable, to shape the design",
+          "source": "https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html",
+          "seen": "2026-08-23",
+          "quote": "I frequently chat with Fable to interrogate and shape a design, before handing off a brief to GLM."
+        }
+      ],
+      "also": [
+        {
+          "source": "https://github.com/dbreunig/dspy-monty-interpreter/commit/0b9f49f9397e18645492e70e9354c60173b8f1f1",
+          "seen": "2026-11-11",
+          "quote": "Co-Authored-By: Claude Opus 5.5"
+        }
+      ]
     },
     {
-      "name": "GLM 5.2",
+      "name": "GLM 5.3",
       "icon": "zai",
-      "detail": "implements the brief",
-      "source": "https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html",
-      "seen": "2026-08-23",
-      "quote": "I frequently chat with Fable to interrogate and shape a design, before handing off a brief to GLM.",
-      "history": []
+      "detail": "with DeepSeek Flash: most tokens, in a factory",
+      "source": "https://x.com/dbreunig/status/2119217494267421109",
+      "seen": "2026-11-07",
+      "quote": "Opus 5.5 is amazing, but the bulk of my tokens come from less complicated work in a SW factory (ds4-flash, glm 5.3) and in a tweaked Hermes agent (meta spark).",
+      "history": [
+        {
+          "value": "GLM 5.2, implements the brief",
+          "source": "https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html",
+          "seen": "2026-08-23",
+          "quote": "I frequently chat with Fable to interrogate and shape a design, before handing off a brief to GLM."
+        },
+        {
+          "value": "GLM 5.2",
+          "source": "https://news.ycombinator.com/item?id=50110136",
+          "seen": "2026-10-15",
+          "quote": "I'm the weirdo who is clinging onto GLM 5.2."
+        }
+      ]
     }
   ],
   "review_style": {
@@ -78,9 +130,40 @@
     "quote": "It’s code review, but code review where we capture intent. When I hit commit in Claude Code, I get a list of decisions and I step through them. Sometimes I hit one I don’t like and I stop right there. I reject it, go back, redo it. I like that better than pure code review.",
     "kind": "agent-reviews",
     "inferred": true,
-    "also": []
+    "also": [
+      {
+        "source": "https://news.ycombinator.com/item?id=50307402",
+        "seen": "2026-10-30",
+        "quote": "Opus found them and built against one, that has >3k golden instructions"
+      },
+      {
+        "source": "https://github.com/dbreunig/lunaroute-systemone-auto/pull/1",
+        "seen": "2026-10-05",
+        "quote": "a whole-branch review found two problems, both fixed here with tests that failed first"
+      }
+    ]
   },
-  "harness": null,
+  "harness": {
+    "value": "Claude Code with Superpowers specs and plans; checks /context before long runs",
+    "short": "Superpowers",
+    "inferred": true,
+    "source": "https://www.dbreunig.com/2026/10/14/context-inertia.html",
+    "seen": "2026-10-14",
+    "quote": "typing /context before I hit send on any long-running jobs or if I notice the model flailing",
+    "also": [
+      {
+        "source": "https://github.com/dbreunig/drskill/blob/1a1a89242a1f7dbeaa8ee0ffb52c283818bbcfcd/docs/superpowers/plans/2026-09-03-skill-registry-cli.md#L3",
+        "seen": "2026-09-03",
+        "quote": "REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development"
+      },
+      {
+        "source": "https://x.com/dbreunig/status/2113381770251075674",
+        "seen": "2026-10-22",
+        "quote": "Pointing the agent at the AgentsView CLI and saying, \"X went wrong recently, go look at traces and figure out why.\""
+      }
+    ],
+    "history": []
+  },
   "parallelism": null,
   "rules_files": {
     "value": "CLAUDE.md (Plumb block)",

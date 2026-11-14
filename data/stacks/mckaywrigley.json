@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "mckaywrigley",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-14",
   "name": {
     "value": "McKay Wrigley",
     "source": "https://github.com/mckaywrigley"
@@ -46,17 +46,26 @@
     {
       "name": "Claude Code",
       "icon": "claudecode",
-      "role": "terminal, agent swarms",
-      "surface": "cli",
-      "surface_source": {
-        "source": "https://mckaywrigley.substack.com/p/my-thoughts-on-claude-opus-45",
-        "seen": "2025-12-06",
-        "quote": "I use it in the terminal, but you can also use Claude Code Desktop if you prefer a GUI."
-      },
-      "source": "https://x.com/mckaywrigley/status/2008637181355847736",
-      "seen": "2026-01-06",
-      "quote": "claude code + opus 4.5 injected the immaculate hacker vibes back into ai that we haven’t had since gpt-4.",
-      "history": []
+      "role": "desktop app now; swarms in the terminal earlier",
+      "surface": "app",
+      "source": "https://x.com/mckaywrigley/status/2114030323713573281",
+      "seen": "2026-10-24",
+      "quote": "claude code desktop >>>",
+      "history": [
+        {
+          "value": "Claude Code",
+          "surface": "cli",
+          "source": "https://x.com/mckaywrigley/status/2008637181355847736",
+          "seen": "2026-01-06",
+          "quote": "claude code + opus 4.5 injected the immaculate hacker vibes back into ai that we haven’t had since gpt-4.",
+          "surface_source": {
+            "source": "https://mckaywrigley.substack.com/p/my-thoughts-on-claude-opus-45",
+            "seen": "2025-12-06",
+            "quote": "I use it in the terminal, but you can also use Claude Code Desktop if you prefer a GUI."
+          }
+        }
+      ],
+      "inferred": true
     }
   ],
   "models": [

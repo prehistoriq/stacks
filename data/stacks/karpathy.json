@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "karpathy",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-14",
   "name": {
     "value": "Andrej Karpathy",
     "source": "https://x.com/karpathy"
@@ -32,10 +32,10 @@
       "name": "Claude Code",
       "icon": "claudecode",
       "role": "primary",
-      "surface": "cli",
-      "source": "https://x.com/karpathy/status/2015883857489522876",
-      "seen": "2026-01-26",
-      "quote": "TLDR everyone has their developing flow, my current is a small few CC sessions on the left in ghostty windows/tabs and an IDE on the right for viewing the code + manual edits.",
+      "surface": "app",
+      "source": "https://x.com/karpathy/status/2116957135661945283",
+      "seen": "2026-11-01",
+      "quote": "I use Claude Code (desktop app for Mac), Opus 5.5 on Medium effort as my default.",
       "history": [
         {
           "value": "Cursor tab complete",
@@ -43,6 +43,20 @@
           "source": "https://x.com/karpathy/status/1959703967694545296",
           "seen": "2025-08-24",
           "quote": "Personally the bread & butter (~75%?) of my LLM assistance continues to be just (Cursor) tab complete."
+        },
+        {
+          "value": "Claude Code in Ghostty",
+          "surface": "cli",
+          "source": "https://x.com/karpathy/status/2015883857489522876",
+          "seen": "2026-01-26",
+          "quote": "TLDR everyone has their developing flow, my current is a small few CC sessions on the left in ghostty windows/tabs and an IDE on the right for viewing the code + manual edits."
+        }
+      ],
+      "also": [
+        {
+          "source": "https://x.com/karpathy/status/2119114537442189652",
+          "seen": "2026-11-07",
+          "quote": "One-shotted with Claude Code in 3 minutes"
         }
       ]
     },
@@ -59,11 +73,12 @@
   ],
   "models": [
     {
-      "name": "Claude Fable 5",
+      "name": "Claude Opus 5.5",
       "icon": "claude",
-      "source": "https://github.com/karpathy/nanochat/commit/3616a02925b44a9dc0a104102ee5acdf3a145516",
-      "seen": "2026-07-03",
-      "quote": "Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>",
+      "detail": "medium effort, the default",
+      "source": "https://x.com/karpathy/status/2116957135661945283",
+      "seen": "2026-11-01",
+      "quote": "I use Claude Code (desktop app for Mac), Opus 5.5 on Medium effort as my default.",
       "history": [
         {
           "value": "GPT5 Pro, last line of defense",
@@ -77,38 +92,69 @@
           "seen": "2026-03-06",
           "quote": "Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
           "inferred": true
+        },
+        {
+          "value": "Claude Fable 5",
+          "source": "https://github.com/karpathy/nanochat/commit/3616a02925b44a9dc0a104102ee5acdf3a145516",
+          "seen": "2026-07-03",
+          "quote": "Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>",
+          "inferred": true
         }
-      ],
-      "inferred": true
+      ]
     }
   ],
   "review_style": {
-    "value": "Watches agents like a hawk in an IDE",
-    "source": "https://x.com/karpathy/status/2015883857489522876",
-    "seen": "2026-01-26",
-    "quote": "The models definitely still make mistakes and if you have any code you actually care about I would watch them like a hawk, in a nice large IDE on the side.",
-    "kind": "spot-checks",
+    "value": "\"I only talk to Claude\": says no longer reading or writing code",
+    "kind": "no-review",
+    "source": "https://karpathy.bearblog.dev/hacker-tube/",
+    "seen": "2026-10-31",
+    "quote": "I don't actually do anything resembling traditional engineering anymore (read/write code, run commands in a terminal, or etc.), I only talk to Claude and have it do everything.",
     "also": [
+      {
+        "source": "https://news.ycombinator.com/item?id=50320084",
+        "seen": "2026-10-31",
+        "quote": "I didn't publish the server because it's a vibe coded mess"
+      },
+      {
+        "source": "https://news.ycombinator.com/item?id=50322851",
+        "seen": "2026-11-01",
+        "quote": "Only with Opus 5.5+. The thing is beast mode. I wouldn’t trust other weaker models this much."
+      },
+      {
+        "source": "https://x.com/karpathy/status/2105819303471976479",
+        "seen": "2026-10-02",
+        "quote": "a lot more of our work will rise up the abstractions into oversight and understanding."
+      },
+      {
+        "source": "https://x.com/karpathy/status/2015883857489522876",
+        "seen": "2026-01-26",
+        "quote": "The models definitely still make mistakes and if you have any code you actually care about I would watch them like a hawk, in a nice large IDE on the side."
+      },
       {
         "source": "https://karpathy.bearblog.dev/sequoia-ascent-2026/",
         "seen": "2026-04-30",
         "quote": "People have to be in charge of the spec and plan."
       }
-    ],
-    "inferred": true
+    ]
   },
   "harness": {
-    "value": "Claude Code sessions in Ghostty, IDE on the right",
-    "short": "Ghostty + IDE",
-    "source": "https://x.com/karpathy/status/2015883857489522876",
-    "seen": "2026-01-26",
-    "quote": "TLDR everyone has their developing flow, my current is a small few CC sessions on the left in ghostty windows/tabs and an IDE on the right for viewing the code + manual edits.",
+    "value": "Claude Code desktop app for Mac; only talks to Claude",
+    "short": "desktop app",
+    "source": "https://karpathy.bearblog.dev/hacker-tube/",
+    "seen": "2026-10-31",
+    "quote": "I only talk to Claude and have it do everything.",
     "history": [
       {
         "value": "Claude Code / Codex beside Cursor",
         "source": "https://x.com/karpathy/status/1959703967694545296",
         "seen": "2025-08-24",
         "quote": "Next layer up is Claude Code / Codex / etc, running on the side of Cursor, which I go to for larger chunks of functionality that are also fairly easy to specify in a prompt."
+      },
+      {
+        "value": "Claude Code sessions in Ghostty, IDE on the right",
+        "source": "https://x.com/karpathy/status/2015883857489522876",
+        "seen": "2026-01-26",
+        "quote": "TLDR everyone has their developing flow, my current is a small few CC sessions on the left in ghostty windows/tabs and an IDE on the right for viewing the code + manual edits."
       }
     ]
   },
@@ -145,13 +191,14 @@
     "quote": "Instead, you are programming the `program.md` Markdown files that provide context to the AI agents and set up your autonomous research org."
   },
   "archetype": {
-    "value": "Purist",
+    "value": "Vibe Maximalist",
     "editorial": true,
-    "why": "Lets agents run experiments, but watches them like a hawk."
+    "why": "Says no longer reading or writing code; only talks to Claude."
   },
   "signature_quote": {
-    "value": "I really am mostly programming in English now, a bit sheepishly telling the LLM what code to write... in words.",
-    "source": "https://x.com/karpathy/status/2015883857489522876",
-    "seen": "2026-01-26"
+    "value": "My prompts are getting shorter and dumber because the model \"gets\" what I'm doing even with fewer words.",
+    "more": "It's almost to the point where if you give it too much, you're constraining the model with too many requirements, when the thing it would have done otherwise was better/smarter.",
+    "source": "https://news.ycombinator.com/item?id=50323111",
+    "seen": "2026-11-01"
   }
 }

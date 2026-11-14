@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "indragiek",
   "status": "ok",
-  "checked": "2026-10-12",
+  "checked": "2026-11-14",
   "name": {
     "value": "Indragie Karunaratne",
     "source": "https://github.com/indragiek"
@@ -24,8 +24,8 @@
     "source": "https://github.com/indragiek"
   },
   "known_for": {
-    "value": "Context, uniprof, Sentry AI lead",
-    "source": "https://pyai.events/speakers/indragie-karunaratne"
+    "value": "Context, uniprof, Braintrust",
+    "source": "https://x.com/indragie/status/2113731922837008654"
   },
   "agents": [
     {
@@ -39,9 +39,9 @@
         "quote": "Claude Code was not a VS Code fork like the others, but was an IDE that was designed to be used entirely in the terminal.",
         "inferred": true
       },
-      "source": "https://github.com/indragiek/GHFS/commit/80afde292d219f4f033d1f683dcaaae016ed877a",
-      "seen": "2026-04-11",
-      "quote": "Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>",
+      "source": "https://github.com/indragiek/indragie.com/commit/051d9df99bb61d952bdeeccc3a57a7101286165a",
+      "seen": "2026-10-24",
+      "quote": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
       "history": [
         {
           "value": "GitHub Copilot",
@@ -63,7 +63,19 @@
           "quote": "Context was almost 100% built by Claude Code."
         }
       ],
-      "inferred": true
+      "inferred": true,
+      "also": [
+        {
+          "source": "https://github.com/indragiek/GHFS/commit/80afde292d219f4f033d1f683dcaaae016ed877a",
+          "seen": "2026-04-11",
+          "quote": "Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>"
+        },
+        {
+          "source": "https://x.com/indragie/status/2110893950425010468",
+          "seen": "2026-10-16",
+          "quote": "had Claude patch the ISO (with safe mode graphics) for me."
+        }
+      ]
     },
     {
       "name": "Codex",
@@ -103,6 +115,18 @@
           "source": "https://github.com/indragiek/GHFS/commit/80afde292d219f4f033d1f683dcaaae016ed877a",
           "seen": "2026-04-11",
           "quote": "Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>"
+        }
+      ],
+      "also": [
+        {
+          "source": "https://x.com/indragie/status/2110578478286573631",
+          "seen": "2026-10-15",
+          "quote": "Opus 5.5 feels like a big step up in codegen capabilities, but I'm finding that it generates the strangest sounding prose."
+        },
+        {
+          "source": "https://github.com/indragiek/indragie.com/commit/051d9df99bb61d952bdeeccc3a57a7101286165a",
+          "seen": "2026-10-24",
+          "quote": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
         }
       ]
     },

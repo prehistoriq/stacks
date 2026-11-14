@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "harperreed",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-14",
   "name": {
     "value": "Harper Reed",
     "source": "https://github.com/harperreed"
@@ -54,7 +54,7 @@
     {
       "name": "Codex",
       "icon": "codex",
-      "role": "same policy, GPT-6 Astra",
+      "role": "same policy, GPT-6.1 Sol",
       "surface": "app",
       "source": "https://github.com/harperreed/dotfiles/blob/3f508fad1bda3304f08e4f1fe52924a3886a1634/.config/agents/README.md#L6",
       "seen": "2026-07-16",
@@ -70,38 +70,57 @@
   ],
   "models": [
     {
-      "name": "Claude Fable 5.1",
+      "name": "Claude Opus 5.5",
       "icon": "claude",
-      "detail": "1M context",
-      "source": "https://github.com/harperreed/dotfiles/blob/551906762cc7326fa6f4025fcac442100cd92a5d/.claude/settings.json#L129",
-      "seen": "2026-09-25",
-      "quote": "\"model\": \"claude-fable-5-1[1m]\"",
-      "history": []
+      "inferred": true,
+      "source": "https://github.com/harperreed/newspapers/commit/8d54840f147744b22928029baba0e49b5d656740",
+      "seen": "2026-10-31",
+      "quote": "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+      "history": [
+        {
+          "value": "Claude Fable 5.1 (1M context)",
+          "source": "https://github.com/harperreed/dotfiles/blob/551906762cc7326fa6f4025fcac442100cd92a5d/.claude/settings.json#L129",
+          "seen": "2026-09-25",
+          "quote": "\"model\": \"claude-fable-5-1[1m]\""
+        }
+      ]
     },
     {
-      "name": "GPT-6 Astra",
+      "name": "GPT-6.1 Sol",
       "icon": "openai",
       "detail": "high, in Codex",
-      "source": "https://github.com/harperreed/dotfiles/blob/45c367906fe0578525b65c8438ededd77de165e7/.codex/config.toml#L2-L3",
-      "seen": "2026-09-09",
-      "quote": "model = \"gpt-6-astra\"\nmodel_reasoning_effort = \"high\"",
+      "source": "https://github.com/harperreed/dotfiles/blob/cf1145de1d09503c62dd3573ab117e3155808612/.codex/config.toml#L2-L3",
+      "seen": "2026-10-29",
+      "quote": "model = \"gpt-6.1-sol\"\nmodel_reasoning_effort = \"high\"",
       "history": [
         {
           "value": "o1-pro / o3 for specs",
           "source": "https://harper.blog/2025/05/08/basic-claude-code/",
           "seen": "2025-05-08",
           "quote": "I use the best reasoning model I can find to generate the spec. These days it is o1-pro or o3"
+        },
+        {
+          "value": "GPT-6 Astra (high, in Codex)",
+          "source": "https://github.com/harperreed/dotfiles/blob/45c367906fe0578525b65c8438ededd77de165e7/.codex/config.toml#L2-L3",
+          "seen": "2026-09-09",
+          "quote": "model = \"gpt-6-astra\"\nmodel_reasoning_effort = \"high\""
         }
       ]
     }
   ],
   "review_style": {
     "value": "One fresh-eyes review pass per change",
-    "source": "https://github.com/harperreed/dotfiles/blob/b78c10ed97fdc0b81f88ebd6e974fd3dcc4dc7d6/.claude/CLAUDE.md#L132",
-    "seen": "2026-10-03",
-    "quote": "Process steps (verification, review) are never skipped regardless of task size — and never multiplied: one verification run, one review pass.",
     "kind": "agent-reviews",
+    "inferred": true,
+    "source": "https://github.com/harperreed/dotfiles/blob/cf1145de1d09503c62dd3573ab117e3155808612/.claude/CLAUDE.md#L137",
+    "seen": "2026-10-29",
+    "quote": "Process steps (verification, review) are never skipped regardless of task size. Run one review pass.",
     "also": [
+      {
+        "source": "https://github.com/harperreed/dotfiles/blob/b78c10ed97fdc0b81f88ebd6e974fd3dcc4dc7d6/.claude/CLAUDE.md#L132",
+        "seen": "2026-10-03",
+        "quote": "Process steps (verification, review) are never skipped regardless of task size — and never multiplied: one verification run, one review pass."
+      },
       {
         "source": "https://github.com/harperreed/dotfiles/blob/6db272a76a71b098272c7c8a26ae084d197a43ac/.claude/commands/careful-review.md#L1",
         "seen": "2025-12-05",
@@ -117,8 +136,7 @@
         "seen": "2026-09-17",
         "quote": "updated after human review. who knew humans could review"
       }
-    ],
-    "inferred": true
+    ]
   },
   "harness": {
     "value": "SSH/mosh from his phone into a workstation, tmux",
@@ -138,12 +156,20 @@
     "inferred": true
   },
   "rules_files": {
-    "value": "CLAUDE.md (202 lines), one policy shared with Codex's AGENTS.md",
+    "value": "CLAUDE.md (192 lines), byte-identical to Codex's AGENTS.md since 29 Oct; now scales process to diff size",
     "short": "CLAUDE.md",
-    "url": "https://github.com/harperreed/dotfiles/blob/b78c10ed97fdc0b81f88ebd6e974fd3dcc4dc7d6/.claude/CLAUDE.md",
-    "source": "https://github.com/harperreed/dotfiles/blob/3f508fad1bda3304f08e4f1fe52924a3886a1634/.config/agents/README.md#L6",
-    "seen": "2026-07-16",
-    "quote": "One policy governs every coding agent on this machine (Claude Code, Codex, whatever comes next). Each tool reads its own real file — no imports between them, no symlinks, no generation step."
+    "url": "https://github.com/harperreed/dotfiles/blob/cf1145de1d09503c62dd3573ab117e3155808612/.claude/CLAUDE.md",
+    "source": "https://github.com/harperreed/dotfiles/blob/cf1145de1d09503c62dd3573ab117e3155808612/.claude/CLAUDE.md#L67",
+    "seen": "2026-10-29",
+    "quote": "Size the process to the diff. Under ~100 changed lines with an obvious approach: say the approach in two sentences and do it (TDD still applies).",
+    "history": [
+      {
+        "value": "CLAUDE.md (202 lines), one policy shared with Codex's AGENTS.md",
+        "source": "https://github.com/harperreed/dotfiles/blob/3f508fad1bda3304f08e4f1fe52924a3886a1634/.config/agents/README.md#L6",
+        "seen": "2026-07-16",
+        "quote": "One policy governs every coding agent on this machine (Claude Code, Codex, whatever comes next). Each tool reads its own real file — no imports between them, no symlinks, no generation step."
+      }
+    ]
   },
   "skills": {
     "value": [

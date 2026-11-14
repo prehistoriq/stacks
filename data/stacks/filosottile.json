@@ -2,7 +2,7 @@
   "schema": 2,
   "handle": "filosottile",
   "status": "ok",
-  "checked": "2026-10-06",
+  "checked": "2026-11-14",
   "name": {
     "value": "Filippo Valsorda",
     "source": "https://github.com/FiloSottile"
@@ -88,21 +88,27 @@
     {
       "name": "GPT-6 Astra",
       "icon": "openai",
-      "detail": "in Shelley",
-      "inferred": true,
-      "source": "https://gist.github.com/filippo-agent/4a76063873cdd5221ee0710803e6784b",
-      "seen": "2026-09-27",
-      "quote": "Model: gpt-6-astra",
+      "detail": "reviews; also in Shelley",
+      "source": "https://bsky.app/profile/filippo.abyssdomain.expert/post/3mxu4ti5fih2c",
+      "seen": "2026-10-14",
+      "quote": "Reviewed by Astra and then by me, line by line.",
+      "also": [
+        {
+          "source": "https://gist.github.com/filippo-agent/4a76063873cdd5221ee0710803e6784b",
+          "seen": "2026-09-27",
+          "quote": "Model: gpt-6-astra",
+          "inferred": true
+        }
+      ],
       "history": []
     },
     {
-      "name": "Claude Opus 4.8",
+      "name": "Claude Mythos 5.1",
       "icon": "claude",
-      "detail": "1M context",
-      "inferred": true,
-      "source": "https://github.com/omissis/go-jsonschema/commit/48ec8fa379592a5e08180d7f5089e946b7ebcf7e",
-      "seen": "2026-07-25",
-      "quote": "Co-authored-by: Claude Opus 4.8 (1M context) <noreply@anthropic.com>",
+      "detail": "wrote cobblestone.ts",
+      "source": "https://bsky.app/profile/filippo.abyssdomain.expert/post/3mxu4ti5fih2c",
+      "seen": "2026-10-14",
+      "quote": "Written by Mythos 5.1 based on filippo.io/cobblestone",
       "history": [
         {
           "value": "Opus 4.1",
@@ -121,17 +127,39 @@
           "source": "https://bsky.app/profile/filippo.abyssdomain.expert/post/3mewycudmuc2f",
           "seen": "2026-02-16",
           "quote": "Claude Opus 4.6 did write mldsa_test.go in the filippo.io/mldsa API prototype, though."
+        },
+        {
+          "value": "Claude Opus 4.8",
+          "inferred": true,
+          "source": "https://github.com/omissis/go-jsonschema/commit/48ec8fa379592a5e08180d7f5089e946b7ebcf7e",
+          "seen": "2026-07-25",
+          "quote": "Co-authored-by: Claude Opus 4.8 (1M context) <noreply@anthropic.com>"
         }
       ]
     }
   ],
   "review_style": {
-    "value": "LLM review before any human review",
-    "kind": "unknown",
-    "source": "https://bsky.app/profile/filippo.abyssdomain.expert/post/3moq6sdq6xk2l",
-    "seen": "2026-06-20",
-    "quote": "Nuclear opinion: I don’t care if you use AI to write code,¹ but making a human review a change before an LLM is disrespectful.",
+    "value": "Always reads prod code personally, line by line, after an Astra pass",
+    "kind": "reads-all",
+    "source": "https://bsky.app/profile/filippo.abyssdomain.expert/post/3mymrugm2m224",
+    "seen": "2026-10-24",
+    "quote": "Oh I still mostly write myself or anyway always review the actual prod code, which for my kind of software is still the best tradeoff, I think.",
     "also": [
+      {
+        "source": "https://bsky.app/profile/filippo.abyssdomain.expert/post/3mxu4ti5fih2c",
+        "seen": "2026-10-14",
+        "quote": "Reviewed by Astra and then by me, line by line."
+      },
+      {
+        "source": "https://words.filippo.io/right-answers/",
+        "seen": "2026-10-12",
+        "quote": "“Get a review from the best model you can afford” is now firmly a Cryptographic Right Answer"
+      },
+      {
+        "source": "https://bsky.app/profile/filippo.abyssdomain.expert/post/3moq6sdq6xk2l",
+        "seen": "2026-06-20",
+        "quote": "Nuclear opinion: I don’t care if you use AI to write code,¹ but making a human review a change before an LLM is disrespectful."
+      },
       {
         "source": "https://bsky.app/profile/filippo.abyssdomain.expert/post/3moqaqrxpds2d",
         "seen": "2026-06-20",
@@ -147,8 +175,7 @@
         "seen": "2026-08-07",
         "quote": "The level of testing and review they are enabling in the Go cryptography standard library is amazing."
       }
-    ],
-    "inferred": true
+    ]
   },
   "harness": {
     "value": "exe.dev VMs with the built-in agent, a separate agent GitHub account, Jujutsu",
